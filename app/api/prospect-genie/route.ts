@@ -4,6 +4,7 @@ import { parseIntent } from '../../../lib/genie/parser';
 import { runEngine } from '../../../lib/genie/engine';
 import { writeAnswer } from '../../../lib/genie/writer';
 import { buildMemory, resolveFollowUpPlayers } from '../../../lib/genie/memory';
+import { applyHistoricalIntelligence } from '../../../lib/genie/history';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -36,17 +37,24 @@ export async function POST(request:NextRequest){
     if(!matchedPlayers.length)matchedPlayers=resolveFollowUpPlayers(question,memory);
 
     const intent=parseIntent(question,matchedPlayers);
-    const result=runEngine(intent);
+    const currentResult=runEngine(intent);
+    const result=await applyHistoricalIntelligence(currentResult);
     const answer=writeAnswer(result);
 
     return NextResponse.json({
       answer,
       matchedPlayers,
-      engine:'Prospect Genie structured agent v4.1',
+      engine:'Prospect Genie historical intelligence v5.0',
       intent:{task:intent.task,metric:intent.metric,filters:intent.filters,limit:intent.limit},
       plan:result.plan.steps,
       confidence:result.confidence,
       limitations:result.limitations,
+      evidence:result.evidence.map(item=>({
+        player:item.player.player,
+        currentScores:item.scores,
+        projections:item.projections,
+        history:(item as any).history||null
+      })),
       memory:{activePlayers:memory.activePlayers.slice(0,5)},
       requestQuestion:question
     },{headers:{'Cache-Control':'no-store, max-age=0'}});
