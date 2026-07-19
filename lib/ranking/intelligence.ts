@@ -35,7 +35,7 @@ function defenseSignal(stat:Row|undefined){
   const s=stat?.stats;
   if(!s||s.type==='pitching')return null;
   const position=String(stat.position||'').toUpperCase();
-  const positionalValue:Record<string,number>={C:85,SS:82,CF:78,2B:68,3B:66,RF:56,LF:52,1B:45,DH:35};
+  const positionalValue:Record<string,number>={C:85,SS:82,CF:78,'2B':68,'3B':66,RF:56,LF:52,'1B':45,DH:35};
   return positionalValue[position]??null;
 }
 
