@@ -6,11 +6,10 @@ import newsData from '../../data/news.json';
 import { enrichRankings } from '../ranking/intelligence';
 import { normalizeText } from './shared';
 
-export const GENIE_LAYER_10_VERSION='10.0.0';
+export const GENIE_INTERNAL_AUDIT_VERSION='1.0.0';
 export type AuditSeverity='info'|'warning'|'error';
 export type AuditCheck={id:string;passed:boolean;severity:AuditSeverity;message:string};
 export type GenieAudit={
-  layer:number;
   version:string;
   passed:boolean;
   reliabilityScore:number;
@@ -51,7 +50,7 @@ function canonicalCheck(payload:Payload):AuditCheck{
 
 function evidenceCheck(payload:Payload):AuditCheck{
   const task=payload.intent?.task;
-  const exempt=['organizational_analysis','simulate_scenario','phillies_development_decision','development_dossier'];
+  const exempt=['organizational_analysis','simulate_scenario','phillies_development_decision','development_dossier','predictive_front_office'];
   const requiresEvidence=!exempt.includes(task)&&!String(payload.answer||'').startsWith('Name a Phillies prospect');
   const count=Array.isArray(payload.evidence)?payload.evidence.length:0;
   return{id:'evidence-present',passed:!requiresEvidence||count>0,severity:'error',message:!requiresEvidence||count>0?'Required evidence is present.':'The answer has no player evidence.'};
@@ -89,7 +88,7 @@ export function auditGeniePayload(payload:Payload):GenieAudit{
   const warnings=checks.filter(check=>!check.passed&&check.severity==='warning').length;
   const reliabilityScore=Math.max(0,Math.round(100-errors*25-warnings*8));
   const limitations=[...new Set([...(payload.limitations||[]),...checks.filter(check=>!check.passed).map(check=>check.message)])];
-  return{layer:10,version:GENIE_LAYER_10_VERSION,passed:errors===0,reliabilityScore,confidence:confidenceFrom(reliabilityScore,errors>0),checks,limitations,sources};
+  return{version:GENIE_INTERNAL_AUDIT_VERSION,passed:errors===0,reliabilityScore,confidence:confidenceFrom(reliabilityScore,errors>0),checks,limitations,sources};
 }
 
 export function finalizeGeniePayload(payload:Payload){
@@ -97,5 +96,5 @@ export function finalizeGeniePayload(payload:Payload){
   const existingConfidence=payload.confidence;
   const confidenceOrder={low:0,moderate:1,high:2} as const;
   const confidence=confidenceOrder[audit.confidence]<confidenceOrder[existingConfidence as keyof typeof confidenceOrder]?audit.confidence:existingConfidence||audit.confidence;
-  return{...payload,engine:'Prospect Genie reliability intelligence v10.0',confidence,limitations:audit.limitations,audit};
+  return{...payload,confidence,limitations:audit.limitations,audit};
 }
