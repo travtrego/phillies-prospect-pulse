@@ -1,9 +1,9 @@
 name: Update Phillies affiliate injuries
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "15 10 * * *"
-  workflow_dispatch:
 
 permissions:
   contents: write
