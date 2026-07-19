@@ -17,10 +17,10 @@ const injuryPatterns = [
   [/(shoulder surgery|shoulder inflammation|shoulder soreness|shoulder injury|rotator cuff|labrum|right shoulder|left shoulder)/i, "Shoulder"],
   [/(hamstring strain|hamstring injury|hamstring tightness)/i, "Hamstring"],
   [/(oblique strain|oblique injury)/i, "Oblique"],
-  [/(back strain|back injury|lower-back|lower back|discogenic|facet inflammation)/i, "Back"],
-  [/(wrist fracture|wrist sprain|wrist injury|wrist surgery)/i, "Wrist"],
+  [/(back strain|back injury|lower-body injury|lower body injury|lower-back|lower back|discogenic|facet inflammation)/i, "Back/lower body"],
+  [/(wrist fracture|wrist sprain|sprained .* wrist|wrist injury|wrist surgery)/i, "Wrist"],
   [/(hand fracture|hand injury|finger fracture|finger injury|thumb injury)/i, "Hand/Finger"],
-  [/(ankle sprain|ankle injury|ankle fracture)/i, "Ankle"],
+  [/(ankle sprain|sprained .* ankle|ankle injury|ankle fracture)/i, "Ankle"],
   [/(knee surgery|knee injury|acl tear|mcl sprain|meniscus)/i, "Knee"],
   [/(foot injury|foot fracture|toe injury|toe fracture)/i, "Foot/Toe"],
   [/(hip injury|hip strain|groin strain|groin injury)/i, "Hip/Groin"],
@@ -29,18 +29,11 @@ const injuryPatterns = [
   [/(illness)/i, "Illness"]
 ];
 
-function isoDate(date) {
-  return date.toISOString().slice(0, 10);
-}
+const isoDate = (date) => date.toISOString().slice(0, 10);
+const normalizeName = (name = "") => name.toLowerCase().replace(/[^a-z0-9]/g, "");
 
 function decodeXml(value = "") {
-  return value
-    .replace(/<!\[CDATA\[|\]\]>/g, "")
-    .replace(/&amp;/g, "&")
-    .replace(/&quot;/g, '"')
-    .replace(/&#39;/g, "'")
-    .replace(/&lt;/g, "<")
-    .replace(/&gt;/g, ">");
+  return value.replace(/<!\[CDATA\[|\]\]>/g, "").replace(/&amp;/g, "&").replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&lt;/g, "<").replace(/&gt;/g, ">");
 }
 
 function stripHtml(value = "") {
@@ -59,24 +52,23 @@ function normalizeTimeline(description) {
   return "Injured list; no public return date";
 }
 
-function extractPosition(description) {
-  return description.match(positionPattern)?.[1] ?? "Unknown";
-}
-
 function extractInjury(text) {
-  for (const [pattern, label] of injuryPatterns) {
-    if (pattern.test(text)) return label;
-  }
+  for (const [pattern, label] of injuryPatterns) if (pattern.test(text)) return label;
   return null;
 }
 
-async function resolveAffiliates() {
-  const url = "https://statsapi.mlb.com/api/v1/teams?sportIds=11,12,13,14,16";
-  const response = await fetch(url, { headers: { "User-Agent": "Phillies-Prospect-Pulse/1.0" } });
-  if (!response.ok) throw new Error(`Affiliate lookup failed (${response.status})`);
-  const payload = await response.json();
-  const teams = Array.isArray(payload.teams) ? payload.teams : [];
+async function loadJson(fileName, fallback) {
+  try {
+    return JSON.parse(await readFile(path.join(process.cwd(), "data", fileName), "utf8"));
+  } catch {
+    return fallback;
+  }
+}
 
+async function resolveAffiliates() {
+  const response = await fetch("https://statsapi.mlb.com/api/v1/teams?sportIds=11,12,13,14,16", { headers: { "User-Agent": "Phillies-Prospect-Pulse/1.0" } });
+  if (!response.ok) throw new Error(`Affiliate lookup failed (${response.status})`);
+  const teams = (await response.json()).teams ?? [];
   return affiliateNames.map((name) => {
     const team = teams.find((candidate) => candidate.name === name);
     if (!team) throw new Error(`Could not resolve official team ID for ${name}`);
@@ -87,44 +79,43 @@ async function resolveAffiliates() {
 async function fetchPlayerPosition(playerId, fallback) {
   if (!playerId) return fallback;
   try {
-    const response = await fetch(`https://statsapi.mlb.com/api/v1/people/${playerId}`, {
-      headers: { "User-Agent": "Phillies-Prospect-Pulse/1.0" }
-    });
+    const response = await fetch(`https://statsapi.mlb.com/api/v1/people/${playerId}`, { headers: { "User-Agent": "Phillies-Prospect-Pulse/1.0" } });
     if (!response.ok) return fallback;
-    const payload = await response.json();
-    const person = payload.people?.[0];
+    const person = (await response.json()).people?.[0];
     return person?.primaryPosition?.abbreviation ?? person?.primaryPosition?.name ?? fallback;
   } catch {
     return fallback;
   }
 }
 
-async function loadNewsUniverse() {
-  try {
-    const file = await readFile(path.join(process.cwd(), "data", "news.json"), "utf8");
-    const payload = JSON.parse(file);
-    return Array.isArray(payload.articles) ? payload.articles : [];
-  } catch {
-    return [];
-  }
+function registryMatch(record, registry) {
+  const entry = registry.find((candidate) =>
+    candidate.playerId && record.playerId
+      ? candidate.playerId === record.playerId
+      : normalizeName(candidate.player) === normalizeName(record.player)
+  );
+  if (!entry) return null;
+  return {
+    injury: entry.injury,
+    timeline: entry.timeline || record.timeline,
+    newsSource: entry.sourceUrl,
+    newsHeadline: `${entry.headline}${entry.sourceName ? ` - ${entry.sourceName}` : ""}`,
+    newsPublishedAt: entry.reportedAt ?? null,
+    injuryConfidence: entry.confidence ?? "high",
+    injurySourceType: "verified-registry"
+  };
 }
 
-function scoreArticle(record, article) {
-  const text = `${article.title ?? ""} ${article.summary ?? ""}`.toLowerCase();
-  if (!text.includes(record.player.toLowerCase()) || !article.injury) return 0;
-
-  let score = 4;
-  if (text.includes(record.affiliate.toLowerCase())) score += 2;
-  if ((article.tags ?? []).includes("injury")) score += 2;
-  if ((article.tags ?? []).includes("rehab")) score += 1;
-  return score;
-}
-
-function findNewsUniverseMatch(record, articles) {
-  const matches = articles
-    .map((article) => ({ article, score: scoreArticle(record, article) }))
-    .filter((match) => match.score > 0)
-    .sort((a, b) => b.score - a.score || new Date(b.article.publishedAt ?? 0) - new Date(a.article.publishedAt ?? 0));
+function newsMatch(record, articles) {
+  const matches = articles.map((article) => {
+    const text = `${article.title ?? ""} ${article.summary ?? ""}`.toLowerCase();
+    if (!text.includes(record.player.toLowerCase()) || !article.injury) return null;
+    let score = 4;
+    if (text.includes(record.affiliate.toLowerCase())) score += 2;
+    if ((article.tags ?? []).includes("injury")) score += 2;
+    if ((article.tags ?? []).includes("rehab")) score += 1;
+    return { article, score };
+  }).filter(Boolean).sort((a, b) => b.score - a.score || new Date(b.article.publishedAt ?? 0) - new Date(a.article.publishedAt ?? 0));
 
   const best = matches[0];
   if (!best) return null;
@@ -133,45 +124,42 @@ function findNewsUniverseMatch(record, articles) {
     newsSource: best.article.url,
     newsHeadline: best.article.title,
     newsPublishedAt: best.article.publishedAt ?? null,
-    injuryConfidence: best.score >= 7 ? "high" : "medium"
+    injuryConfidence: best.score >= 7 ? "high" : "medium",
+    injurySourceType: "news-feed"
   };
 }
 
 async function fetchGoogleNews(query) {
-  const url = `https://news.google.com/rss/search?q=${encodeURIComponent(query)}&hl=en-US&gl=US&ceid=US:en`;
-  const response = await fetch(url, { headers: { "User-Agent": "Phillies-Prospect-Pulse/1.0" } });
+  const response = await fetch(`https://news.google.com/rss/search?q=${encodeURIComponent(query)}&hl=en-US&gl=US&ceid=US:en`, { headers: { "User-Agent": "Phillies-Prospect-Pulse/1.0" } });
   if (!response.ok) return [];
-  const xml = await response.text();
-  return xml.match(/<item>[\s\S]*?<\/item>/gi) ?? [];
+  return (await response.text()).match(/<item>[\s\S]*?<\/item>/gi) ?? [];
 }
 
-async function findHistoricalPlayerMatch(record) {
+async function historicalMatch(record) {
   const queries = [
-    `\"${record.player}\" (injury OR injured OR surgery OR soreness OR inflammation OR strain OR sprain OR fracture) when:5y`,
-    `\"${record.player}\" Phillies injury when:5y`,
-    `\"${record.player}\" \"injured list\" when:5y`
+    `"${record.player}" (injury OR injured OR surgery OR soreness OR inflammation OR strain OR sprain OR fracture) when:5y`,
+    `"${record.player}" Phillies injury when:5y`,
+    `"${record.player}" "injured list" when:5y`
   ];
 
   for (const query of queries) {
-    const items = await fetchGoogleNews(query);
-    for (const item of items.slice(0, 30)) {
+    for (const item of (await fetchGoogleNews(query)).slice(0, 30)) {
       const title = extractTag(item, "title");
       const summary = extractTag(item, "description");
       const combined = `${title} ${summary}`;
       const lower = combined.toLowerCase();
       const injury = extractInjury(combined);
       if (!injury || !lower.includes(record.player.toLowerCase())) continue;
-
       return {
         injury,
         newsSource: extractTag(item, "link"),
         newsHeadline: title,
         newsPublishedAt: extractTag(item, "pubDate") || null,
-        injuryConfidence: lower.includes(record.affiliate.toLowerCase()) || lower.includes("phillies") ? "high" : "medium"
+        injuryConfidence: lower.includes("phillies") ? "high" : "medium",
+        injurySourceType: "historical-search"
       };
     }
   }
-
   return null;
 }
 
@@ -182,44 +170,37 @@ async function fetchAffiliateTransactions(affiliate) {
   const source = `https://statsapi.mlb.com/api/v1/transactions?teamId=${affiliate.id}&startDate=${isoDate(start)}&endDate=${isoDate(end)}`;
   const response = await fetch(source, { headers: { "User-Agent": "Phillies-Prospect-Pulse/1.0" } });
   if (!response.ok) throw new Error(`${affiliate.name}: transaction request failed (${response.status})`);
-
-  const payload = await response.json();
-  const transactions = Array.isArray(payload.transactions) ? payload.transactions : [];
+  const transactions = (await response.json()).transactions ?? [];
   const current = new Map();
 
-  transactions
-    .sort((a, b) => new Date(a.effectiveDate ?? a.date ?? 0) - new Date(b.effectiveDate ?? b.date ?? 0))
-    .forEach((transaction) => {
-      const description = transaction.description ?? "";
-      const playerId = transaction.person?.id ?? null;
-      const fallbackPlayer = description.split(" ").slice(0, 3).join(" ");
-      const player = transaction.person?.fullName ?? (fallbackPlayer || "Unknown player");
-      const key = playerId ? String(playerId) : player.toLowerCase();
-
-      if (placedOnIl.test(description)) {
-        current.set(key, {
-          playerId,
-          player,
-          affiliate: affiliate.name,
-          position: extractPosition(description),
-          injury: "Not publicly disclosed",
-          timeline: normalizeTimeline(description),
-          status: description,
-          source,
-          transactionDate: transaction.effectiveDate ?? transaction.date ?? null,
-          lastUpdated: new Date().toISOString()
-        });
-      } else if (removedFromIl.test(description)) {
-        current.delete(key);
-      }
-    });
-
+  transactions.sort((a, b) => new Date(a.effectiveDate ?? a.date ?? 0) - new Date(b.effectiveDate ?? b.date ?? 0)).forEach((transaction) => {
+    const description = transaction.description ?? "";
+    const playerId = transaction.person?.id ?? null;
+    const player = transaction.person?.fullName ?? description.split(" ").slice(0, 3).join(" ") || "Unknown player";
+    const key = playerId ? String(playerId) : normalizeName(player);
+    if (placedOnIl.test(description)) {
+      current.set(key, {
+        playerId,
+        player,
+        affiliate: affiliate.name,
+        position: description.match(positionPattern)?.[1] ?? "Unknown",
+        injury: "Not publicly disclosed",
+        timeline: normalizeTimeline(description),
+        status: description,
+        source,
+        transactionDate: transaction.effectiveDate ?? transaction.date ?? null,
+        lastUpdated: new Date().toISOString(),
+        injurySourceType: "official-transaction"
+      });
+    } else if (removedFromIl.test(description)) current.delete(key);
+  });
   return [...current.values()];
 }
 
 async function main() {
   const affiliates = await resolveAffiliates();
-  const newsArticles = await loadNewsUniverse();
+  const newsPayload = await loadJson("news.json", { articles: [] });
+  const registryPayload = await loadJson("injury-registry.json", { records: [] });
   const results = await Promise.allSettled(affiliates.map(fetchAffiliateTransactions));
   const records = [];
   const errors = [];
@@ -231,19 +212,17 @@ async function main() {
 
   for (const record of records) {
     record.position = await fetchPlayerPosition(record.playerId, record.position);
-    const cachedMatch = findNewsUniverseMatch(record, newsArticles);
-    const historicalMatch = cachedMatch ?? await findHistoricalPlayerMatch(record);
-    if (historicalMatch) Object.assign(record, historicalMatch);
+    const enrichment = registryMatch(record, registryPayload.records ?? [])
+      ?? newsMatch(record, newsPayload.articles ?? [])
+      ?? await historicalMatch(record);
+    if (enrichment) Object.assign(record, enrichment);
   }
 
   records.sort((a, b) => a.affiliate.localeCompare(b.affiliate) || a.player.localeCompare(b.player));
-  const output = { updatedAt: new Date().toISOString(), records, errors };
   const outputDir = path.join(process.cwd(), "data");
   await mkdir(outputDir, { recursive: true });
-  await writeFile(path.join(outputDir, "injuries.json"), `${JSON.stringify(output, null, 2)}\n`, "utf8");
-
-  console.log(`Saved ${records.length} active injury records; ${records.filter((record) => record.newsSource).length} enriched.`);
-  if (errors.length) console.warn("Some affiliate transaction feeds failed:", errors);
+  await writeFile(path.join(outputDir, "injuries.json"), `${JSON.stringify({ updatedAt: new Date().toISOString(), records, errors }, null, 2)}\n`, "utf8");
+  console.log(`Saved ${records.length} active injury records; ${records.filter((record) => record.newsSource).length} enriched; ${records.filter((record) => record.injurySourceType === "verified-registry").length} registry verified.`);
 }
 
 main().catch((error) => {
