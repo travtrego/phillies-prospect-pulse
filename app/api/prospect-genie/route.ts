@@ -6,6 +6,7 @@ import { writeAnswer } from '../../../lib/genie/writer';
 import { buildMemory, resolveFollowUpPlayers } from '../../../lib/genie/memory';
 import { applyHistoricalIntelligence } from '../../../lib/genie/history';
 import { analyzeOrganization, isOrganizationQuestion } from '../../../lib/genie/organization';
+import { isSimulationQuestion, simulateScenario } from '../../../lib/genie/simulation';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -37,12 +38,35 @@ export async function POST(request:NextRequest){
     let matchedPlayers=findPlayerNames(question);
     if(!matchedPlayers.length)matchedPlayers=resolveFollowUpPlayers(question,memory);
 
+    if(isSimulationQuestion(question)){
+      const simulation=simulateScenario(question);
+      return NextResponse.json({
+        answer:simulation.answer,
+        matchedPlayers,
+        engine:'Prospect Genie simulation and decision lab v7.0',
+        intent:{task:'simulate_scenario',metric:'system_impact',filters:{},limit:simulation.actions.length},
+        plan:[
+          {tool:'cloneOrganizationState',description:'Create an isolated copy of the current tracked prospect system.'},
+          {tool:'parseScenarioActions',description:'Identify promotions, graduations, injuries, trades and draft additions.'},
+          {tool:'applyScenario',description:'Apply changes without modifying live prospect data.'},
+          {tool:'rescoreOrganization',description:'Recalculate system and position-group depth after the scenario.'},
+          {tool:'compareOutcomes',description:'Measure winners, risks and before-versus-after changes.'},
+          {tool:'recommendResponse',description:'Suggest development or roster responses to the modeled effects.'}
+        ],
+        confidence:simulation.actions.length?'moderate':'low',
+        limitations:simulation.assumptions,
+        simulation,
+        memory:{activePlayers:memory.activePlayers.slice(0,5)},
+        requestQuestion:question
+      },{headers:{'Cache-Control':'no-store, max-age=0'}});
+    }
+
     if(isOrganizationQuestion(question)&&!matchedPlayers.length){
       const organization=analyzeOrganization(question);
       return NextResponse.json({
         answer:organization.answer,
         matchedPlayers:[],
-        engine:'Prospect Genie organizational intelligence v6.0',
+        engine:'Prospect Genie simulation and decision lab v7.0',
         intent:{task:'organizational_analysis',metric:'system_depth',filters:{},limit:organization.groups.length},
         plan:[
           {tool:'buildOrganizationMap',description:'Group the tracked system by position and level.'},
@@ -67,7 +91,7 @@ export async function POST(request:NextRequest){
     return NextResponse.json({
       answer,
       matchedPlayers,
-      engine:'Prospect Genie organizational intelligence v6.0',
+      engine:'Prospect Genie simulation and decision lab v7.0',
       intent:{task:intent.task,metric:intent.metric,filters:intent.filters,limit:intent.limit},
       plan:result.plan.steps,
       confidence:result.confidence,
