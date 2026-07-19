@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T20:55:09.399Z",
+  "updatedAt": "2026-07-19T20:58:20.186Z",
   "articles": [
     {
       "id": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8zajFKVnRUN3liRzhRZG5zeWhqLTlzS1FrMlZBSjBzeUZwZng4UUVsNk1oeHUzU29qWlFzQnh1MWdiTW9CS0oxZWs1Qk9qbGtOYTFZU0dnUHlkUEsyamZzWDNtY2U3eVlnR2c?oc=5",
@@ -413,7 +413,7 @@
       "summary": "Gameday live updates: FCL Phillies at FCL Tigers game on 07/14/2026 free &nbsp;&nbsp; MLB.com",
       "source": "MLB.com",
       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5naGhHbG13a3lRTE9EUE9GcXUzUzIzMGVkR1ZXUFVGRFVJQWJSWFFIQjdDR1JWZEpKNHpJRGVwRG13aVZYS3A5Z3RhZw?oc=5",
-      "publishedAt": "2026-07-14T15:08:40.000Z",
+      "publishedAt": "2026-07-14T15:51:35.000Z",
       "tags": [
         "general"
       ],
@@ -432,6 +432,19 @@
       ],
       "injury": null,
       "matchedQuery": "Lehigh Valley IronPigs Phillies"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE12ZWJFU0hqNDdJMF8ybGUzV21UcFJITFpIXzUtNjB0anNQYjhhYi1iTUpWbkZVSkVXamY1U0RfR19mNnlCY1VZdVR5U2R3SlpiZGIzX2d3NDNIbFhFOTVF?oc=5",
+      "title": "Gameday: FCL Phillies 9, FCL Tigers 5 Final Score (07/14/2026) - MLB.com",
+      "summary": "Gameday: FCL Phillies 9, FCL Tigers 5 Final Score (07/14/2026) &nbsp;&nbsp; MLB.com",
+      "source": "MLB.com",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE12ZWJFU0hqNDdJMF8ybGUzV21UcFJITFpIXzUtNjB0anNQYjhhYi1iTUpWbkZVSkVXamY1U0RfR19mNnlCY1VZdVR5U2R3SlpiZGIzX2d3NDNIbFhFOTVF?oc=5",
+      "publishedAt": "2026-07-14T07:00:00.000Z",
+      "tags": [
+        "general"
+      ],
+      "injury": null,
+      "matchedQuery": "FCL Phillies"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWkd4eDg3RmMzVWVNUkRkNXZtZlVQQk56aFZsQnoySFRPZW95cUhEM0Y3VmFjc0t3enkycGNybDh1c29OZTUtektxbFU2TFBLcW5ZRHRHU19GT2RKMDdxb25tWUZnVFoxcFNhWVlJSzZkcTNVQ0hYRjNGb3lRMURMR084Zi1rUElBUEE?oc=5",
@@ -778,19 +791,6 @@
       "source": "MLB.com",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPd1hENEk0eEdxUExxWWY2dXVpNm45aHlCT3kyOFYtdk05YWRjQWExSjMzX0NfZ25DeHd2bjBuWDExTnlSSHVYNG5RdEp5SkFTU0U4d1ltQnFfcUdVUjlIR0ZMRTB0YnN0bjRqdkNRZWI4dEdOMUVxdmNVNVNmalZKWi14Y2NES2pSSE50QXU0UzZWTTlQMmp6Y3FR?oc=5",
       "publishedAt": "2026-07-08T00:38:21.000Z",
-      "tags": [
-        "general"
-      ],
-      "injury": null,
-      "matchedQuery": "FCL Phillies"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbXFXVklpYTRfWnNRSkxHazN3NGdJNndWVlhNeFdQQy1wdDVSUzlNREVpRkIxeHJ1OFd0ZWVhWlF2T1A4VXNsSGx2V1M1cnZVbnhwdzBUWkF1Rm83aUhCWGF0LXNTOEI0d3JZOTI0NFQ2Mjc5Qkt0MTItWmZJWXdZZl9JN3p3N0RiQmpV?oc=5",
-      "title": "Gameday: FCL Phillies 0, FCL Tigers 8 Final Score (07/07/2026) - MLB.com",
-      "summary": "Gameday: FCL Phillies 0, FCL Tigers 8 Final Score (07/07/2026) &nbsp;&nbsp; MLB.com",
-      "source": "MLB.com",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbXFXVklpYTRfWnNRSkxHazN3NGdJNndWVlhNeFdQQy1wdDVSUzlNREVpRkIxeHJ1OFd0ZWVhWlF2T1A4VXNsSGx2V1M1cnZVbnhwdzBUWkF1Rm83aUhCWGF0LXNTOEI0d3JZOTI0NFQ2Mjc5Qkt0MTItWmZJWXdZZl9JN3p3N0RiQmpV?oc=5",
-      "publishedAt": "2026-07-07T22:00:00.000Z",
       "tags": [
         "general"
       ],
@@ -2256,19 +2256,6 @@
       "matchedQuery": "Reading Fightin Phils Phillies"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNGpUS1V0bklsNzRYTS1lYmNCTXZyRjlscHhpeGI5X0p4MFpwXzZNX2VieUdjNTJ2LUwxXzduOWY3SEpUQ00xM2pFakZmcWdDa1BXNzA5MV82RFdlQS1objlLVWRtckNEU2JCV20zRTRuWUNVZzN2X09MdVNTLTEzeVJ1WnVONVFDSlZrdmVVclBPb1lZUjJUQXZQSEY2X2FncDRrdVBwMjBuZw?oc=5",
-      "title": "Phillies: Zack Wheeler to make start for Reading Fightin Phils on Tuesday - The Morning Call",
-      "summary": "Phillies: Zack Wheeler to make start for Reading Fightin Phils on Tuesday &nbsp;&nbsp; The Morning Call",
-      "source": "The Morning Call",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNGpUS1V0bklsNzRYTS1lYmNCTXZyRjlscHhpeGI5X0p4MFpwXzZNX2VieUdjNTJ2LUwxXzduOWY3SEpUQ00xM2pFakZmcWdDa1BXNzA5MV82RFdlQS1objlLVWRtckNEU2JCV20zRTRuWUNVZzN2X09MdVNTLTEzeVJ1WnVONVFDSlZrdmVVclBPb1lZUjJUQXZQSEY2X2FncDRrdVBwMjBuZw?oc=5",
-      "publishedAt": "2026-04-12T07:00:00.000Z",
-      "tags": [
-        "general"
-      ],
-      "injury": null,
-      "matchedQuery": "Reading Fightin Phils Phillies"
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMie0FVX3lxTE40YV9ITVpKdVNUWXpibU1fdGRPcUZCTGJSa2JibXhFbkRudWxIRFFMMXhnUUdLRElkeUZ5ZFQ3dW5HUEtNZTFCbEpYbVlLWkdUM3cxNXRBYjZFcWdiclBpdmhkM243bmRmclg0SzllNERyeUxHNmJFQkZrdw?oc=5",
       "title": "Phillies in wait-and-see mode as top prospect takes next step in rehab - MLB.com",
       "summary": "Phillies in wait-and-see mode as top prospect takes next step in rehab &nbsp;&nbsp; MLB.com",
@@ -2886,6 +2873,19 @@
       "source": "MLB.com",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVHFYOVBwemdtbUUtaElVcjBrT3dWOEQ0d1JwN0F2Q3ktNDU2dmNzUE5KTEtMbWlOeV9DZXNWRF9XeG1VR0JKSTZPeEM4Mml5TWFxLWxSbEJ1R1lKVnlHbFY3cDF1VlYwWmd3NTEtZzZiZzdYeVZYQ2pmX3ByaXFSZk5YYkt0a3l1OGp4REpLZ1cyM2c?oc=5",
       "publishedAt": "2026-01-15T12:42:48.000Z",
+      "tags": [
+        "general"
+      ],
+      "injury": null,
+      "matchedQuery": "Reading Fightin Phils Phillies"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONHM0Y2tkNmI3SEVETGRkcXRjV3pJQ1AyM0ZSTExFbU5NM2pTeDkwUEZEQlBDOFY4czZ2UXN3aUVja2Q3QUU3QmRMYWx0dzdvUTZHVVBUaFJhMGhhY1A0SU9TcHAyMGlhZ3ZvenN5Y2NnS25IS3B4Y2RsY284d3Z1Rg?oc=5",
+      "title": "Fightin Phils Unveil 2026 Fireworks Dates - MLB.com",
+      "summary": "Fightin Phils Unveil 2026 Fireworks Dates &nbsp;&nbsp; MLB.com",
+      "source": "MLB.com",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONHM0Y2tkNmI3SEVETGRkcXRjV3pJQ1AyM0ZSTExFbU5NM2pTeDkwUEZEQlBDOFY4czZ2UXN3aUVja2Q3QUU3QmRMYWx0dzdvUTZHVVBUaFJhMGhhY1A0SU9TcHAyMGlhZ3ZvenN5Y2NnS25IS3B4Y2RsY284d3Z1Rg?oc=5",
+      "publishedAt": "2026-01-08T18:08:08.000Z",
       "tags": [
         "general"
       ],
