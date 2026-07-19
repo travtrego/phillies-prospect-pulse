@@ -14,8 +14,11 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: npm
-      - run: npm ci
-      - run: npm run audit:genie
-      - run: npm run typecheck
-      - run: npm run build
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+      - name: Audit Genie data
+        run: npm run audit:genie
+      - name: Type-check
+        run: npm run typecheck
+      - name: Production build
+        run: npm run build
