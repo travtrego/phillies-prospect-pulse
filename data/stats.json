@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T19:58:31.252Z",
+  "updatedAt": "2026-07-19T20:09:52.403Z",
   "season": 2026,
   "records": [
     {
@@ -4845,8 +4845,8 @@
       "stats": {
         "type": "hitting",
         "games": 54,
-        "plateAppearances": 166,
-        "atBats": 151,
+        "plateAppearances": 167,
+        "atBats": 152,
         "runs": 17,
         "hits": 34,
         "doubles": 5,
@@ -4855,12 +4855,12 @@
         "rbi": 25,
         "stolenBases": 3,
         "caughtStealing": 0,
-        "average": 0.225,
-        "obp": 0.264,
-        "slg": 0.371,
-        "ops": 0.635,
+        "average": 0.224,
+        "obp": 0.262,
+        "slg": 0.368,
+        "ops": 0.63,
         "walkRate": 3,
-        "strikeoutRate": 20.5,
+        "strikeoutRate": 20.4,
         "sourceDate": null
       }
     },

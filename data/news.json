@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T19:58:06.874Z",
+  "updatedAt": "2026-07-19T20:09:29.888Z",
   "articles": [
     {
       "id": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8zajFKVnRUN3liRzhRZG5zeWhqLTlzS1FrMlZBSjBzeUZwZng4UUVsNk1oeHUzU29qWlFzQnh1MWdiTW9CS0oxZWs1Qk9qbGtOYTFZU0dnUHlkUEsyamZzWDNtY2U3eVlnR2c?oc=5",
@@ -185,6 +185,19 @@
       "matchedQuery": "Phillies prospects"
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZDY0SzJBbEpHaFZRTVRyRnJhQ0RQQTVYZklfR1hIQ3VGbTR4MXRDMDRiSGJQbHFiV20tVDdheXVfSGk5SjFQYzFCQTFrWGdZNFd5dEs4ejNISV9xemJDN2ZrUUoxYVlLWGRXMTU3QTAtUGdrRkN2cGp1eW8teFc4bHVRY0tlV2V4dVZPcXVjMENQRFFBNWVoaFhwSUFYWDA1QXRGWFNUWnJ0YXFpdWQ2YW9HLUx1ejJ3WVlWZXJyQQ?oc=5",
+      "title": "Jersey Shore BlueClaws Let Fans Buy Spot on Team Jersey To Support Charity - FOX Sports Radio New Jersey",
+      "summary": "Jersey Shore BlueClaws Let Fans Buy Spot on Team Jersey To Support Charity &nbsp;&nbsp; FOX Sports Radio New Jersey",
+      "source": "FOX Sports Radio New Jersey",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZDY0SzJBbEpHaFZRTVRyRnJhQ0RQQTVYZklfR1hIQ3VGbTR4MXRDMDRiSGJQbHFiV20tVDdheXVfSGk5SjFQYzFCQTFrWGdZNFd5dEs4ejNISV9xemJDN2ZrUUoxYVlLWGRXMTU3QTAtUGdrRkN2cGp1eW8teFc4bHVRY0tlV2V4dVZPcXVjMENQRFFBNWVoaFhwSUFYWDA1QXRGWFNUWnJ0YXFpdWQ2YW9HLUx1ejJ3WVlWZXJyQQ?oc=5",
+      "publishedAt": "2026-07-17T18:40:59.000Z",
+      "tags": [
+        "general"
+      ],
+      "injury": null,
+      "matchedQuery": "Jersey Shore BlueClaws Phillies"
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNM2lISVJwU2hPdnoyMXJmV2hFZnN4S3JRWDNPc2gxNzVTOWVYTkZXc3pnUy1Vakc1QmQzcVhna1M0U2tTSGRybzdNME5fU0ZEUm1MRW5NWXBQbmRHWkRHdDhQTFlZTWhGZ3EtMTNoRHVoUTEzWEZncFcxUE1vX3ZwdTRsUVg1Zw?oc=5",
       "title": "MLB 2026 Buzz: Reds, Chase Burns Agree To 7-Year, $105 Million Extension - FOX Sports",
       "summary": "MLB 2026 Buzz: Reds, Chase Burns Agree To 7-Year, $105 Million Extension &nbsp;&nbsp; FOX Sports",
@@ -249,6 +262,19 @@
       ],
       "injury": null,
       "matchedQuery": "Phillies minor league injured list"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9RYUZBcDhPOGZoM0xLUHZub1d1ZzdDcVRHaHVwN0lPWWJoQUhEdUQzMFRUVUtZM0NJbHNGb2lnQlZDS3Z2aWoteWdJY1hacjk4Ymc?oc=5",
+      "title": "Florida Complex League | Minor League Baseball - MLB.com",
+      "summary": "Florida Complex League | Minor League Baseball &nbsp;&nbsp; MLB.com",
+      "source": "MLB.com",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9RYUZBcDhPOGZoM0xLUHZub1d1ZzdDcVRHaHVwN0lPWWJoQUhEdUQzMFRUVUtZM0NJbHNGb2lnQlZDS3Z2aWoteWdJY1hacjk4Ymc?oc=5",
+      "publishedAt": "2026-07-17T00:37:00.000Z",
+      "tags": [
+        "general"
+      ],
+      "injury": null,
+      "matchedQuery": "FCL Phillies"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA4MVZ1Nm9NMlYwdjlZdXJUM3U5aG1yNXljbm5Qb3N2cUd1THJaZ1J0VDROUzEtNkM5VGhRajBBZjdHUGFNR3lIdlAxSk1tdFo1cjJxZ2MzdlJvcnVQdVlv?oc=5",
@@ -1006,11 +1032,11 @@
       "matchedQuery": "Clearwater Threshers Phillies"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbW9uRmdZbThuMmdqUGxCQUtfV0FVTVc4UGxXX2wwRkdLR1E4b25Vb1F3XzF4UlQwb29TckRpN2daUW9WdThtLTZPOU1xU2tNMlIxa2w0T2dnYmxpOEZGZjNnOGZYZHFoX2pvYnpMdHhabXhrOExzczBtMmNBbVd2aFRfTmNxT2JMVldkQ1JjQQ?oc=5",
+      "id": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdzZiMGEyckFVR19LRWtHazV4VTl4ZTZFa01lNHNzY0FhbFJ2U3VaYmxzR1RTYUJTWlpJUjRFMElOSDZpc0ZhRGg5M1hOUGdwVkt6aEFsQmRtYzZfMVlCcDhNWTUyR1puS2RsdWFLbHdoaC1YMllPT2xqMzJ3N1NFUGlmNjBuVGpEVkRzSFNoVnlQSXdsTUUxUmR2MXBpUQ?oc=5",
       "title": "Gameday: FCL Blue Jays 2, FCL Phillies 7 Final Score (07/02/2026) - MLB.com",
       "summary": "Gameday: FCL Blue Jays 2, FCL Phillies 7 Final Score (07/02/2026) &nbsp;&nbsp; MLB.com",
       "source": "MLB.com",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbW9uRmdZbThuMmdqUGxCQUtfV0FVTVc4UGxXX2wwRkdLR1E4b25Vb1F3XzF4UlQwb29TckRpN2daUW9WdThtLTZPOU1xU2tNMlIxa2w0T2dnYmxpOEZGZjNnOGZYZHFoX2pvYnpMdHhabXhrOExzczBtMmNBbVd2aFRfTmNxT2JMVldkQ1JjQQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdzZiMGEyckFVR19LRWtHazV4VTl4ZTZFa01lNHNzY0FhbFJ2U3VaYmxzR1RTYUJTWlpJUjRFMElOSDZpc0ZhRGg5M1hOUGdwVkt6aEFsQmRtYzZfMVlCcDhNWTUyR1puS2RsdWFLbHdoaC1YMllPT2xqMzJ3N1NFUGlmNjBuVGpEVkRzSFNoVnlQSXdsTUUxUmR2MXBpUQ?oc=5",
       "publishedAt": "2026-07-02T07:00:00.000Z",
       "tags": [
         "general"
@@ -1812,19 +1838,6 @@
       ],
       "injury": null,
       "matchedQuery": "Reading Fightin Phils Phillies"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTVNKdHVtVldfQ2otcUh3QWVxaU13cWdpZEZjRXJCdmxjWFY2ckptWVpxeWFEdXQ5R3NmU3lnRnNmUEkwUi1zN29xUDJIVHp1eXpfYVpoUGVrV1NfYm5STEdMTWNPeXdnTzY4ZzRjN2ZkYmZxQmZGQjFNSG4xSGxaNWl6RWVPR3RDLXAtLTJuaWlNRTBRTmkzaVJB?oc=5",
-      "title": "Keys Fall to BlueClaws Wednesday Afternoon on the Road - MLB.com",
-      "summary": "Keys Fall to BlueClaws Wednesday Afternoon on the Road &nbsp;&nbsp; MLB.com",
-      "source": "MLB.com",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTVNKdHVtVldfQ2otcUh3QWVxaU13cWdpZEZjRXJCdmxjWFY2ckptWVpxeWFEdXQ5R3NmU3lnRnNmUEkwUi1zN29xUDJIVHp1eXpfYVpoUGVrV1NfYm5STEdMTWNPeXdnTzY4ZzRjN2ZkYmZxQmZGQjFNSG4xSGxaNWl6RWVPR3RDLXAtLTJuaWlNRTBRTmkzaVJB?oc=5",
-      "publishedAt": "2026-05-27T07:00:00.000Z",
-      "tags": [
-        "general"
-      ],
-      "injury": null,
-      "matchedQuery": "Jersey Shore BlueClaws Phillies"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVDRwS0MtbGRrVmc3R2Z0dUhRQzkwOEJpX0l6bDZiQ1MtTjdhcDZTOV92b3hKNU11NUh2WUxFdUk1UkIzcEprRV9OUGUwQ1ZySFB5SWZRRlBhYjFYUVpPeTQ4bXA0TENQZjZCdkJ3Z1pBOU9NOFRHc0tPTS1hT0VpSDh6SVJNSGFRZEdmR3AtcVFORnJsWkhpVUtEeVdfUzQ?oc=5",
@@ -2633,6 +2646,19 @@
       "matchedQuery": "Phillies minor leagues"
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMllBaHBrdW5PZmFQMDZhMHNpNGtQSjJMd1BfSGwyQVNXdnU2TE1QTWc2Z3d4RmxBSWVPNmh0NWpUMHlzazZWTmRadTVDLW8yQ0xjZ2U0VHBnR2ZiamNabnFwVHc5U1MycXdJSlNUMGExZUVKbEhlb01jalc1RmhQblRPRmtkWHdY?oc=5",
+      "title": "2026 Single-Game Tickets On Sale Now | BlueClaws - MLB.com",
+      "summary": "2026 Single-Game Tickets On Sale Now | BlueClaws &nbsp;&nbsp; MLB.com",
+      "source": "MLB.com",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMllBaHBrdW5PZmFQMDZhMHNpNGtQSjJMd1BfSGwyQVNXdnU2TE1QTWc2Z3d4RmxBSWVPNmh0NWpUMHlzazZWTmRadTVDLW8yQ0xjZ2U0VHBnR2ZiamNabnFwVHc5U1MycXdJSlNUMGExZUVKbEhlb01jalc1RmhQblRPRmtkWHdY?oc=5",
+      "publishedAt": "2026-03-02T19:41:26.000Z",
+      "tags": [
+        "general"
+      ],
+      "injury": null,
+      "matchedQuery": "Jersey Shore BlueClaws Phillies"
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRTlpMzc0NU9ZWTUtaG5Nc0QzWE5ISTc0Qzg3ZThxZ2hCVDBkTWdSMzYwMmRXOEhvN1gtbF9WYnpQVjVpc1J3R01JZjAyZlBsUTZHMXlPZXREQ1p3bXFmRUU5WXlrR00xNEhUcXR2bTNTSWF4SjFHZHF1aks4a3N5ZnVwTmRud1I2UHFZak9IblBDNnRHR1lZUDFOd1RIcE5yS2sycEV1U2Uzdw?oc=5",
       "title": "Fightin Phils to Host Preseason Exhibition vs. Jersey Shore BlueClaws on March 31 - MLB.com",
       "summary": "Fightin Phils to Host Preseason Exhibition vs. Jersey Shore BlueClaws on March 31 &nbsp;&nbsp; MLB.com",
@@ -2737,6 +2763,19 @@
       "matchedQuery": "Jersey Shore BlueClaws Phillies"
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBZdFFXNVc3LWFIM0l1UlJOUElMWkQwdDRjakFNaGx4NU52VDk0TE02N1J5Q0JSeUd1NWp6c2k5QndxZDA2MzRTdC00NHBfNHUzb1dZOU1mYTIwTWNZMDRraTQwMnJJNlhJek82MmZiRkFCOGg5czlhYnFnWQ?oc=5",
+      "title": "BlueClaws Promo Schedule Reveal | 02/13/2026 - MLB.com",
+      "summary": "BlueClaws Promo Schedule Reveal | 02/13/2026 &nbsp;&nbsp; MLB.com",
+      "source": "MLB.com",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBZdFFXNVc3LWFIM0l1UlJOUElMWkQwdDRjakFNaGx4NU52VDk0TE02N1J5Q0JSeUd1NWp6c2k5QndxZDA2MzRTdC00NHBfNHUzb1dZOU1mYTIwTWNZMDRraTQwMnJJNlhJek82MmZiRkFCOGg5czlhYnFnWQ?oc=5",
+      "publishedAt": "2026-02-12T08:00:00.000Z",
+      "tags": [
+        "general"
+      ],
+      "injury": null,
+      "matchedQuery": "Jersey Shore BlueClaws Phillies"
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORmRMcldubUM0T3N5amdQd2wzakpreVZSdVdZSThoWUtPaGI4VHpOb05xbGhIMmwtZk8xRDNXZmY3N1dzeUlrZkZBTnRBN1hrU0ZJenBFRXoxQTFyYmxaci02Yk1YcEU5ZFBWak15SDFTU2pMS3F2a1lsR1BiQzVoY1RlaDUyMUJuNVhHMWkxWk5XWW14LVA1b0R4SQ?oc=5",
       "title": "For the Jersey Shore: BlueClaws Unveil New Alternate Logo - MLB.com",
       "summary": "For the Jersey Shore: BlueClaws Unveil New Alternate Logo &nbsp;&nbsp; MLB.com",
@@ -2828,19 +2867,6 @@
       "matchedQuery": "Clearwater Threshers Phillies"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE55ZU9HMkk4dFdNWU5nMFB5T0QzWFJFbFpqc3NHbWtDNkxYaVlOd0daRm1mRnFfYjFfeUFGVHZMZkd1TS1oYndXUUxXa0lUQVlMUEptcjczWUtEU0N2NXFkUXpFR3kyTmhQUkRxUTBhRWFpY2VqN3AwaTdtckdJa2M?oc=5",
-      "title": "Now on Sale: Star Wars Night Package | BlueClaws - MLB.com",
-      "summary": "Now on Sale: Star Wars Night Package | BlueClaws &nbsp;&nbsp; MLB.com",
-      "source": "MLB.com",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE55ZU9HMkk4dFdNWU5nMFB5T0QzWFJFbFpqc3NHbWtDNkxYaVlOd0daRm1mRnFfYjFfeUFGVHZMZkd1TS1oYndXUUxXa0lUQVlMUEptcjczWUtEU0N2NXFkUXpFR3kyTmhQUkRxUTBhRWFpY2VqN3AwaTdtckdJa2M?oc=5",
-      "publishedAt": "2026-01-29T16:54:44.000Z",
-      "tags": [
-        "general"
-      ],
-      "injury": null,
-      "matchedQuery": "Jersey Shore BlueClaws Phillies"
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNb2xPU0tVSzdjR2ZYc2xxaHZVaWNJNkFxNHdEWG5zdGl4T2FXTzJqZDZkTWxZTVFfeDBzTTkweFZsb3A5R192LVVJaEJPMDkyd0dialFrOFBTdGhnLXRlVDYzZ054MmVnY3pDUGxJR2ZqWnlUb1NDU2JPRFhTSFFQRXBXZmxOcmxjQVpCWHlWYkVDck5oSTYwSUFkQk9wVTNQTkdHcEY1WDlTU2JZQkl5SHdLR0VSTW5RTzFPaXJ6Z3ZMdjFCV3VyRVNPSVExTEFFRlE?oc=5",
       "title": "Phillies’ minor league system looks to be about average - The Good Phight",
       "summary": "Phillies’ minor league system looks to be about average &nbsp;&nbsp; The Good Phight",
@@ -2852,19 +2878,6 @@
       ],
       "injury": null,
       "matchedQuery": "Phillies minor leagues"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPWkNZQUxhUi1YbngwLUdxRnRKSEJEUGd3R1p1dTVkS3NtLWEydmp2WU82ZV9sckl4aDd6T0JYZ0QyTXJzVGhveEJNM3NUcnFvZTFwWHY1dVhHQlROUXR4OU1ZYnVqLU1BeHVvMjlqVEhoR0NhdWgtM2lBdnVKWFdxX3ZkanRWM1k?oc=5",
-      "title": "BlueClaws Set For 25th Anniversary Season - MLB.com",
-      "summary": "BlueClaws Set For 25th Anniversary Season &nbsp;&nbsp; MLB.com",
-      "source": "MLB.com",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPWkNZQUxhUi1YbngwLUdxRnRKSEJEUGd3R1p1dTVkS3NtLWEydmp2WU82ZV9sckl4aDd6T0JYZ0QyTXJzVGhveEJNM3NUcnFvZTFwWHY1dVhHQlROUXR4OU1ZYnVqLU1BeHVvMjlqVEhoR0NhdWgtM2lBdnVKWFdxX3ZkanRWM1k?oc=5",
-      "publishedAt": "2026-01-21T14:49:22.000Z",
-      "tags": [
-        "general"
-      ],
-      "injury": null,
-      "matchedQuery": "Jersey Shore BlueClaws Phillies"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVHFYOVBwemdtbUUtaElVcjBrT3dWOEQ0d1JwN0F2Q3ktNDU2dmNzUE5KTEtMbWlOeV9DZXNWRF9XeG1VR0JKSTZPeEM4Mml5TWFxLWxSbEJ1R1lKVnlHbFY3cDF1VlYwWmd3NTEtZzZiZzdYeVZYQ2pmX3ByaXFSZk5YYkt0a3l1OGp4REpLZ1cyM2c?oc=5",
@@ -2904,19 +2917,6 @@
       ],
       "injury": null,
       "matchedQuery": "Reading Fightin Phils Phillies"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9RYUZBcDhPOGZoM0xLUHZub1d1ZzdDcVRHaHVwN0lPWWJoQUhEdUQzMFRUVUtZM0NJbHNGb2lnQlZDS3Z2aWoteWdJY1hacjk4Ymc?oc=5",
-      "title": "Florida Complex League | Minor League Baseball - MLB.com",
-      "summary": "Florida Complex League | Minor League Baseball &nbsp;&nbsp; MLB.com",
-      "source": "MLB.com",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9RYUZBcDhPOGZoM0xLUHZub1d1ZzdDcVRHaHVwN0lPWWJoQUhEdUQzMFRUVUtZM0NJbHNGb2lnQlZDS3Z2aWoteWdJY1hacjk4Ymc?oc=5",
-      "publishedAt": "2025-11-29T06:34:10.000Z",
-      "tags": [
-        "general"
-      ],
-      "injury": null,
-      "matchedQuery": "FCL Phillies"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1rakxSTkNUR0hMRjJsZFhxYW5FWXdMS1p3U2licFNPSjUwZndFa21pS2ZBX2JsemtCMUFpNDNiMkViajlWZlhEWXVEWVZhekhtWHM5N0NEVDFjSVBNVjQzVG42TWxhWHpqckdZYndzbExLd0ZKVldrMw?oc=5",
