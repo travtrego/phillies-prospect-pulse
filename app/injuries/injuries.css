@@ -1,0 +1,107 @@
+.injuryFilters {
+  display: grid;
+  grid-template-columns: minmax(180px, 1fr) minmax(150px, .7fr) auto;
+  gap: 14px;
+  align-items: end;
+  margin: 18px 0 24px;
+  padding: 16px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: rgba(255,255,255,.025);
+}
+
+.injuryFilters label {
+  display: grid;
+  gap: 7px;
+  min-width: 0;
+}
+
+.injuryFilters label > span {
+  color: var(--muted);
+  font-size: .68rem;
+  font-weight: 900;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.injuryFilters select {
+  width: 100%;
+  min-height: 44px;
+  border: 1px solid var(--border-strong);
+  border-radius: 10px;
+  padding: 0 38px 0 12px;
+  background: #091426;
+  color: var(--text);
+  font: inherit;
+  font-size: .86rem;
+  outline: none;
+}
+
+.injuryFilters select:focus {
+  border-color: var(--phillies-red);
+  box-shadow: 0 0 0 3px rgba(232,24,40,.12);
+}
+
+.injuryFilters > strong {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0 14px;
+  border: 1px solid rgba(232,24,40,.35);
+  border-radius: 10px;
+  background: rgba(232,24,40,.08);
+  color: #ff9aa2;
+  font-size: .78rem;
+  white-space: nowrap;
+}
+
+.movementList {
+  display: grid;
+  gap: 14px;
+}
+
+.movementCard {
+  padding: 20px;
+  border: 1px solid var(--border);
+  border-radius: 15px;
+  background: linear-gradient(145deg, rgba(17,30,50,.96), rgba(8,18,33,.98));
+}
+
+.movementCard h3 {
+  margin: 5px 0 16px;
+  font-size: 1.2rem;
+}
+
+.movementCard p {
+  margin: 0 0 10px;
+  color: #dce4ef;
+  line-height: 1.5;
+}
+
+.movementCard a {
+  display: inline-flex;
+  margin-top: 6px;
+  color: #fff;
+  font-size: .78rem;
+  font-weight: 850;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+@media (max-width: 650px) {
+  .injuryFilters {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    padding: 14px;
+  }
+
+  .injuryFilters > strong {
+    justify-content: flex-start;
+    min-height: 40px;
+  }
+
+  .movementCard {
+    padding: 18px 16px;
+  }
+}
