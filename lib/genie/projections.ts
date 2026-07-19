@@ -1,26 +1,19 @@
-import type { GenieMetric, PlayerEvidence } from './types';
+import type { PlayerEvidence } from './types';
+import { LEVEL_WEIGHT, MODEL } from './config';
+import { clamp, finite, isGenieLevel } from './shared';
 
-const clamp=(value:number,min=0,max=100)=>Math.max(min,Math.min(max,value));
-const levelValue=(level?:string)=>({MLB:100,AAA:82,AA:64,'A+':46,A:30,Rookie:14}[level||'']||18);
+export type ProjectionDriver={factor:string;impact:number;direction:'positive'|'negative'|'neutral';explanation:string};
+export type ProjectionSet={mlbProbability:number;promotionProbability:number;breakoutProbability:number;tradeValue:number;protectScore:number;volatility:number;recommendation:string;rationale:string[];drivers:ProjectionDriver[]};
 
-export type ProjectionSet={
-  mlbProbability:number;
-  promotionProbability:number;
-  breakoutProbability:number;
-  tradeValue:number;
-  protectScore:number;
-  volatility:number;
-  recommendation:string;
-  rationale:string[];
-};
+const levelValue=(level?:string)=>isGenieLevel(level)?LEVEL_WEIGHT[level]:18;
 
 export function projectPlayer(item:PlayerEvidence):ProjectionSet{
   const s=item.scores;
-  const age=Number(item.stat?.currentAge||item.player.age||23);
+  const age=finite(item.stat?.currentAge||item.player.age,23);
   const level=item.stat?.level||item.player.level;
   const youthBonus=clamp((25-age)*5,-10,25);
-  const healthPenalty=item.injury?18:0;
-  const promotionHistory=Math.min(12,item.promotions.length*4);
+  const healthPenalty=item.injury?MODEL.projectionHealthPenalty:0;
+  const promotionHistory=Math.min(12,item.promotions.length*MODEL.promotionHistoryBoost);
   const readinessBase=levelValue(level);
 
   const mlbProbability=clamp(s.ceiling*.28+s.floor*.22+s.readiness*.34+s.performance*.16-healthPenalty);
@@ -30,24 +23,32 @@ export function projectPlayer(item:PlayerEvidence):ProjectionSet{
   const protectScore=clamp(tradeValue*.42+mlbProbability*.22+s.ceiling*.2+s.floor*.16);
   const volatility=clamp(s.risk*.55+Math.abs(s.ceiling-s.floor)*.45);
 
+  const drivers:ProjectionDriver[]=[
+    {factor:'Ceiling',impact:Number(((s.ceiling-50)*.28).toFixed(1)),direction:s.ceiling>=50?'positive':'negative',explanation:`Ceiling score is ${Math.round(s.ceiling)}/100.`},
+    {factor:'Readiness',impact:Number(((s.readiness-50)*.34).toFixed(1)),direction:s.readiness>=50?'positive':'negative',explanation:`Readiness score is ${Math.round(s.readiness)}/100 at ${level||'an unverified level'}.`},
+    {factor:'Performance',impact:Number(((s.performance-50)*.16).toFixed(1)),direction:s.performance>=50?'positive':'negative',explanation:`Current performance score is ${Math.round(s.performance)}/100.`},
+    {factor:'Age versus level',impact:Number(youthBonus.toFixed(1)),direction:youthBonus>0?'positive':youthBonus<0?'negative':'neutral',explanation:`Age adjustment is based on age ${age}.`},
+    {factor:'Health',impact:-healthPenalty,direction:healthPenalty?'negative':'neutral',explanation:healthPenalty?'An active injury record reduces near-term outcomes.':'No active injury record is applied.'}
+  ].sort((a,b)=>Math.abs(b.impact)-Math.abs(a.impact));
+
   const rationale:string[]=[];
   if(s.ceiling>=70)rationale.push('impact-level upside');
   if(s.floor>=65)rationale.push('a relatively stable floor');
   if(s.readiness>=70)rationale.push('near-term major-league proximity');
   if(s.momentum>=70)rationale.push('strong recent momentum');
   if(s.performance>=70)rationale.push('high current production');
-  if(youthBonus>=15)rationale.push('age advantage for the level');
+  if(youthBonus>=15)rationale.push('an age advantage for the level');
   if(item.injury)rationale.push('an active health discount');
   if(s.risk>=65)rationale.push('meaningful developmental risk');
 
   let recommendation='Monitor';
-  if(protectScore>=78)recommendation='Untouchable core prospect';
-  else if(protectScore>=66)recommendation='Protect and develop';
-  else if(tradeValue>=62&&volatility>=58)recommendation='High-value trade chip';
+  if(protectScore>=MODEL.thresholds.protectCore)recommendation='Untouchable core prospect';
+  else if(protectScore>=MODEL.thresholds.protectDevelop)recommendation='Protect and develop';
+  else if(tradeValue>=MODEL.thresholds.tradeChip&&volatility>=58)recommendation='High-value trade chip';
   else if(promotionProbability>=72)recommendation='Promotion candidate';
-  else if(breakoutProbability>=68)recommendation='Breakout watch';
+  else if(breakoutProbability>=MODEL.thresholds.breakout)recommendation='Breakout watch';
 
-  return{mlbProbability,promotionProbability,breakoutProbability,tradeValue,protectScore,volatility,recommendation,rationale:rationale.slice(0,4)};
+  return{mlbProbability,promotionProbability,breakoutProbability,tradeValue,protectScore,volatility,recommendation,rationale:rationale.slice(0,4),drivers};
 }
 
 export function decisionMetric(question:string):keyof ProjectionSet|null{
@@ -62,5 +63,5 @@ export function decisionMetric(question:string):keyof ProjectionSet|null{
 }
 
 export function projectionMetricLabel(metric:keyof ProjectionSet){
-  return({mlbProbability:'MLB probability',promotionProbability:'promotion probability',breakoutProbability:'breakout probability',tradeValue:'trade value',protectScore:'protection priority',volatility:'volatility',recommendation:'recommendation',rationale:'rationale'} as Record<string,string>)[metric]||metric;
+  return({mlbProbability:'MLB probability',promotionProbability:'promotion probability',breakoutProbability:'breakout probability',tradeValue:'trade value',protectScore:'protection priority',volatility:'volatility',recommendation:'recommendation',rationale:'rationale',drivers:'drivers'} as Record<string,string>)[metric]||metric;
 }
