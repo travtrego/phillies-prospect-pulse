@@ -1,4 +1,4 @@
-name: Daily Injury Update
+name: Daily Prospect Update
 
 on:
   workflow_dispatch:
@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 jobs:
-  update-injuries:
+  update-prospect-data:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
@@ -21,17 +21,20 @@ jobs:
           node-version: "22"
           package-manager-cache: false
 
+      - name: Build shared news feed
+        run: node scripts/update-news.mjs
+
       - name: Build injury report
         run: node scripts/update-injuries.mjs
 
-      - name: Save updated report
+      - name: Save updated reports
         run: |
-          if git diff --quiet -- data/injuries.json; then
+          if git diff --quiet -- data/news.json data/injuries.json; then
             echo "No changes detected."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/injuries.json
-          git commit -m "Update Phillies affiliate injury report"
+          git add data/news.json data/injuries.json
+          git commit -m "Update Phillies prospect news and injuries"
           git push
