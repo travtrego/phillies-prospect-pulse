@@ -35,8 +35,17 @@ async function getPlayers(): Promise<Player[]> {
   return response.json();
 }
 
+function initials(name: string) {
+  return name
+    .split(" ")
+    .filter(Boolean)
+    .slice(0, 2)
+    .map((part) => part[0])
+    .join("");
+}
+
 function formatVerified(value: string | null) {
-  if (!value) return "Not verified";
+  if (!value) return "Pending";
   return new Intl.DateTimeFormat("en-US", {
     month: "short",
     day: "numeric",
@@ -47,78 +56,91 @@ function formatVerified(value: string | null) {
 export default async function Home() {
   const players = await getPlayers();
   const rankedPlayers = players.filter((player) => player.mlb_pipeline_rank !== null);
+  const hitters = players.filter((player) => !player.primary_position?.includes("HP"));
+  const pitchers = players.filter((player) => player.primary_position?.includes("HP"));
 
   return (
     <main>
       <section className="hero">
-        <div className="eyebrow">Phillies farm system tracker</div>
-        <h1>Prospect Pulse</h1>
-        <p>
-          A clean, source-tracked master list of Philadelphia Phillies prospects.
-          We are starting with durable player data before adding automated updates.
-        </p>
+        <div className="heroCopy">
+          <div className="eyebrow">Philadelphia farm system</div>
+          <h1>Prospect <span>Pulse</span></h1>
+          <p>
+            A Phillies-first dashboard for tracking the organization&apos;s most important young players,
+            their current level, ETA and movement through the system.
+          </p>
+        </div>
+        <div className="heroMark" aria-hidden="true">P</div>
       </section>
 
       <section className="stats" aria-label="Database summary">
         <article>
-          <span>Players loaded</span>
+          <span>Prospects loaded</span>
           <strong>{players.length}</strong>
         </article>
         <article>
-          <span>Pipeline ranked</span>
-          <strong>{rankedPlayers.length}</strong>
+          <span>Position players</span>
+          <strong>{hitters.length}</strong>
         </article>
         <article>
-          <span>Data source</span>
+          <span>Pitchers</span>
+          <strong>{pitchers.length}</strong>
+        </article>
+        <article>
+          <span>Source</span>
           <strong>MLB Pipeline</strong>
         </article>
       </section>
 
-      <section className="panel">
-        <div className="panelHeader">
-          <div>
-            <div className="eyebrow">Phase 1</div>
-            <h2>Player master</h2>
-          </div>
-          <span className="status">Manual verification</span>
+      <section className="sectionHeading">
+        <div>
+          <div className="eyebrow">Top of the system</div>
+          <h2>Phillies prospect cards</h2>
         </div>
-
-        {players.length === 0 ? (
-          <div className="empty">
-            <h3>Supabase connection is waiting.</h3>
-            <p>Add the two public Supabase environment variables in Vercel to load the player database.</p>
-          </div>
-        ) : (
-          <div className="tableWrap">
-            <table>
-              <thead>
-                <tr>
-                  <th>Rank</th>
-                  <th>Player</th>
-                  <th>Pos</th>
-                  <th>Level</th>
-                  <th>B/T</th>
-                  <th>ETA</th>
-                  <th>Verified</th>
-                </tr>
-              </thead>
-              <tbody>
-                {players.map((player) => (
-                  <tr key={player.id}>
-                    <td><span className="rank">{player.mlb_pipeline_rank ?? "—"}</span></td>
-                    <td><strong>{player.full_name}</strong><small>{player.source_name}</small></td>
-                    <td>{player.primary_position ?? "—"}</td>
-                    <td><span className="level">{player.current_level ?? "—"}</span></td>
-                    <td>{player.bats ?? "—"}/{player.throws ?? "—"}</td>
-                    <td>{player.estimated_arrival_year ?? "—"}</td>
-                    <td>{formatVerified(player.source_last_verified_at)}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        )}
+        <span className="status">{rankedPlayers.length} ranked players</span>
       </section>
+
+      {players.length === 0 ? (
+        <div className="empty">
+          <h3>Supabase connection is waiting.</h3>
+          <p>Add the two public Supabase environment variables in Vercel to load the player database.</p>
+        </div>
+      ) : (
+        <section className="cardGrid">
+          {players.map((player) => (
+            <article className="playerCard" key={player.id}>
+              <div className="cardTop">
+                <span className="rank">#{player.mlb_pipeline_rank ?? "—"}</span>
+                <span className="level">{player.current_level ?? "TBD"}</span>
+              </div>
+
+              <div className="playerIdentity">
+                <div className="avatar">{initials(player.full_name)}</div>
+                <div>
+                  <h3>{player.full_name}</h3>
+                  <p>{player.primary_position ?? "Position TBD"}</p>
+                </div>
+              </div>
+
+              <div className="cardDetails">
+                <div>
+                  <span>Bats / Throws</span>
+                  <strong>{player.bats ?? "—"} / {player.throws ?? "—"}</strong>
+                </div>
+                <div>
+                  <span>Estimated arrival</span>
+                  <strong>{player.estimated_arrival_year ?? "TBD"}</strong>
+                </div>
+              </div>
+
+              <footer>
+                <span>{player.source_name}</span>
+                <span>Checked {formatVerified(player.source_last_verified_at)}</span>
+              </footer>
+            </article>
+          ))}
+        </section>
+      )}
     </main>
   );
 }
