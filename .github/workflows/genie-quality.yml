@@ -18,6 +18,8 @@ jobs:
         run: npm install --no-audit --no-fund
       - name: Audit Genie data
         run: npm run audit:genie
+      - name: Test Genie logic
+        run: npm run test:genie
       - name: Type-check
         id: typecheck
         continue-on-error: true
