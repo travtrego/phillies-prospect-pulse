@@ -29,8 +29,8 @@ export default async function PlayerProfilePage({ params }: { params: Promise<{ 
 
   const pitcher = ['P', 'RHP', 'LHP'].includes(player.primary_position ?? '');
   const statLabels = pitcher
-    ? ['Games', 'Innings', 'ERA', 'Strikeouts', 'WHIP', 'Walk rate']
-    : ['Games', 'Plate appearances', 'AVG', 'OBP', 'SLG', 'OPS'];
+    ? ['G', 'IP', 'ERA', 'SO', 'WHIP', 'BB%']
+    : ['G', 'PA', 'AVG', 'OBP', 'SLG', 'OPS'];
 
   return (
     <main>
@@ -40,7 +40,6 @@ export default async function PlayerProfilePage({ params }: { params: Promise<{ 
         <div className="profileHeroCopy">
           <div className="profileStatusRow">
             <span className="eyebrow">{player.current_team_name ?? 'Phillies organization'}</span>
-            <span className="verifiedPill">Roster verified</span>
           </div>
           <h1>{player.full_name}</h1>
           <p>{player.primary_position ?? 'Position TBD'} · {player.current_level ?? 'Level TBD'} · Bats {player.bats ?? '—'} · Throws {player.throws ?? '—'}</p>
@@ -54,44 +53,19 @@ export default async function PlayerProfilePage({ params }: { params: Promise<{ 
       </header>
 
       <nav className="profileSubnav" aria-label="Player profile sections">
-        <a href="#overview">Overview</a>
         <a href="#stats">Stats</a>
         <a href="#scouting">Scouting</a>
+        <a href="#injury">Injury notes</a>
         <a href="#movement">Transactions</a>
-        <a href="#news">News</a>
       </nav>
-
-      <section className="profileOverviewGrid" id="overview">
-        <article className="profileSummaryCard">
-          <span className="eyebrow">Player overview</span>
-          <h2>Organizational snapshot</h2>
-          <p>{player.scouting_summary ?? 'A complete scouting overview is being prepared for this player.'}</p>
-          <div className="profileMetaList">
-            <div><span>Organization status</span><strong>Active</strong></div>
-            <div><span>Current assignment</span><strong>{player.current_team_name ?? 'TBD'}</strong></div>
-            <div><span>Prospect ranking</span><strong>{player.mlb_pipeline_rank ? `No. ${player.mlb_pipeline_rank}` : 'Unranked'}</strong></div>
-            <div><span>Projected arrival</span><strong>{player.estimated_arrival_year ?? 'TBD'}</strong></div>
-          </div>
-        </article>
-
-        <aside className="profileSignalCard">
-          <span className="eyebrow">Development signal</span>
-          <h2>Trend status</h2>
-          <div className="neutralSignal">Awaiting performance data</div>
-          <p>Stock Up / Stock Down analysis will appear after recent statistics and transaction history are loaded.</p>
-        </aside>
-      </section>
 
       <section className="personalStatsPanel" id="stats">
         <div className="panelHeading">
-          <div><span className="eyebrow">Current season</span><h2>Performance dashboard</h2></div>
+          <div><span className="eyebrow">2026 season</span><h2>Current stats</h2></div>
           <span className="dataStatusPill">Data source pending</span>
         </div>
         <div className="personalStatsGrid">
           {statLabels.map((label) => <div key={label}><span>{label}</span><strong>—</strong></div>)}
-        </div>
-        <div className="timeWindowBar">
-          <button className="active">Season</button><button>Last 30</button><button>Last 14</button><button>Last 7</button>
         </div>
       </section>
 
@@ -112,15 +86,20 @@ export default async function PlayerProfilePage({ params }: { params: Promise<{ 
       </section>
 
       <section className="profileTwoColumn">
-        <article className="placeholderPanel" id="movement">
-          <span className="eyebrow">Transactions and health</span>
-          <h2>Player movement</h2>
-          <div className="emptyStateCompact"><strong>No timeline loaded yet</strong><p>Promotions, demotions, injured-list placements and activations will appear here.</p></div>
+        <article className="placeholderPanel" id="injury">
+          <span className="eyebrow">Quick health note</span>
+          <h2>Injury status</h2>
+          <div className="emptyStateCompact">
+            <strong>No active injury note</strong>
+            <p>Any current injured-list status or return estimate will appear here.</p>
+          </div>
+          <Link className="sourceButton" href="/injuries">View full injury report →</Link>
         </article>
-        <article className="placeholderPanel" id="news">
-          <span className="eyebrow">Related coverage</span>
-          <h2>Player news</h2>
-          <div className="emptyStateCompact"><strong>No linked stories yet</strong><p>Verified news, summaries and source links will be attached to this profile.</p></div>
+
+        <article className="placeholderPanel" id="movement">
+          <span className="eyebrow">Roster history</span>
+          <h2>Transactions</h2>
+          <div className="emptyStateCompact"><strong>No timeline loaded yet</strong><p>Promotions, demotions, injured-list placements and activations will appear here.</p></div>
         </article>
       </section>
 
