@@ -5,6 +5,8 @@ import statsData from '../../../data/stats.json';
 import injuriesData from '../../../data/injuries.json';
 import promotionsData from '../../../data/promotions.json';
 
+type StatValue = string | number | null | undefined;
+
 type StatRecord = {
   playerId: number;
   player: string;
@@ -12,7 +14,10 @@ type StatRecord = {
   level: string;
   position: string | null;
   status: string | null;
-  stats: Record<string, string | number | null> & { type: 'hitting' | 'pitching' };
+  stats: {
+    type: string;
+    [key: string]: StatValue;
+  };
 };
 
 type InjuryRecord = {
@@ -61,7 +66,7 @@ function sameName(a: string, b: string) {
   return normalize(a) === normalize(b);
 }
 
-function displayStat(value: string | number | null | undefined, decimals = false) {
+function displayStat(value: StatValue, decimals = false) {
   if (value === null || value === undefined || value === '') return '—';
   if (decimals && typeof value === 'number') return value.toFixed(3).replace(/^0/, '');
   return String(value);
@@ -72,14 +77,15 @@ export default async function PlayerProfilePage({ params }: { params: Promise<{ 
   const player = await getPlayer(id);
   if (!player) notFound();
 
-  const statRecord = (statsData.records as StatRecord[]).find(record => sameName(record.player, player.full_name));
+  const statRecords = statsData.records as unknown as StatRecord[];
+  const statRecord = statRecords.find(record => sameName(record.player, player.full_name));
   const injury = (injuriesData.records as InjuryRecord[]).find(record => sameName(record.player, player.full_name));
   const promotions = (promotionsData.records as PromotionRecord[])
     .filter(record => sameName(record.player, player.full_name))
     .sort((a, b) => b.date.localeCompare(a.date));
   const pitcher = statRecord?.stats.type === 'pitching' || ['P', 'RHP', 'LHP'].includes(player.primary_position ?? '');
 
-  const statItems = pitcher
+  const statItems: Array<[string, StatValue]> = pitcher
     ? [
         ['G', statRecord?.stats.games],
         ['GS', statRecord?.stats.gamesStarted],
@@ -135,9 +141,9 @@ export default async function PlayerProfilePage({ params }: { params: Promise<{ 
         </div>
         <div className="personalStatsGrid">
           {statItems.map(([label, value]) => (
-            <div key={String(label)}>
+            <div key={label}>
               <span>{label}</span>
-              <strong>{displayStat(value as string | number | null, ['AVG', 'OBP', 'SLG', 'OPS', 'ERA', 'WHIP'].includes(String(label)))}</strong>
+              <strong>{displayStat(value, ['AVG', 'OBP', 'SLG', 'OPS', 'ERA', 'WHIP'].includes(label))}</strong>
             </div>
           ))}
         </div>
