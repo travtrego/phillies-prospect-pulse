@@ -1,9 +1,91 @@
+.injurySummary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  margin: 18px 0 14px;
+  padding: 16px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: linear-gradient(145deg, rgba(17,30,50,.96), rgba(8,18,33,.98));
+}
+
+.injurySummary > div:first-child {
+  display: grid;
+  gap: 2px;
+}
+
+.injurySummary > div:first-child span {
+  color: var(--muted);
+  font-size: .68rem;
+  font-weight: 900;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.injurySummary > div:first-child strong {
+  font-size: 1.65rem;
+  line-height: 1;
+}
+
+.summaryBreakdown {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.summaryPill,
+.injuryBadge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  font-size: .68rem;
+  font-weight: 900;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.summaryPill {
+  min-height: 30px;
+  padding: 0 10px;
+}
+
+.injuryBadge {
+  min-height: 28px;
+  padding: 0 9px;
+}
+
+.summaryPill.verified,
+.injuryBadge.verified {
+  border-color: rgba(52,211,153,.35);
+  background: rgba(52,211,153,.11);
+  color: #8ff0ca;
+}
+
+.summaryPill.reported,
+.injuryBadge.reported {
+  border-color: rgba(250,204,21,.35);
+  background: rgba(250,204,21,.10);
+  color: #f9df72;
+}
+
+.summaryPill.undisclosed,
+.injuryBadge.undisclosed {
+  border-color: rgba(148,163,184,.28);
+  background: rgba(148,163,184,.09);
+  color: #c7d0dc;
+}
+
 .injuryFilters {
   display: grid;
   grid-template-columns: minmax(180px, 1fr) minmax(150px, .7fr) auto;
   gap: 14px;
   align-items: end;
-  margin: 18px 0 24px;
+  margin: 0 0 24px;
   padding: 16px;
   border: 1px solid var(--border);
   border-radius: 14px;
@@ -68,6 +150,21 @@
   background: linear-gradient(145deg, rgba(17,30,50,.96), rgba(8,18,33,.98));
 }
 
+.movementCard.verified {
+  border-color: rgba(52,211,153,.25);
+}
+
+.movementCard.reported {
+  border-color: rgba(250,204,21,.22);
+}
+
+.injuryCardHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 14px;
+}
+
 .movementCard h3 {
   margin: 5px 0 16px;
   font-size: 1.2rem;
@@ -90,6 +187,16 @@
 }
 
 @media (max-width: 650px) {
+  .injurySummary {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 14px;
+  }
+
+  .summaryBreakdown {
+    justify-content: flex-start;
+  }
+
   .injuryFilters {
     grid-template-columns: 1fr;
     gap: 12px;
@@ -103,5 +210,9 @@
 
   .movementCard {
     padding: 18px 16px;
+  }
+
+  .injuryCardHeader {
+    align-items: flex-start;
   }
 }
