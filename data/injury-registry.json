@@ -1,0 +1,45 @@
+{
+  "updatedAt": "2026-07-19T00:00:00.000Z",
+  "records": [
+    {
+      "player": "Aidan Miller",
+      "injury": "Discogenic pain and facet inflammation in back",
+      "timeline": "Expected return: August 2026",
+      "sourceUrl": "https://www.mlb.com/news/phillies-injuries-and-roster-moves",
+      "sourceName": "MLB.com",
+      "headline": "Latest Phillies injuries & transactions",
+      "reportedAt": "2026-06-05",
+      "confidence": "high"
+    },
+    {
+      "player": "John Spikerman",
+      "injury": "Left ankle sprain",
+      "timeline": "7-day injured list; no public return date",
+      "sourceUrl": "https://www.baseballamerica.com/stories/2026-philadelphia-phillies-top-30-prospects-july-update/",
+      "sourceName": "Baseball America",
+      "headline": "2026 Philadelphia Phillies Top 30 Prospects July Update",
+      "reportedAt": "2026-07-01",
+      "confidence": "high"
+    },
+    {
+      "player": "Carson DeMartini",
+      "injury": "Sprained left wrist",
+      "timeline": "7-day injured list; no public return date",
+      "sourceUrl": "https://www.baseballamerica.com/stories/2026-philadelphia-phillies-top-30-prospects-july-update/",
+      "sourceName": "Baseball America",
+      "headline": "2026 Philadelphia Phillies Top 30 Prospects July Update",
+      "reportedAt": "2026-07-01",
+      "confidence": "high"
+    },
+    {
+      "player": "Dante Nori",
+      "injury": "Lower-body injury",
+      "timeline": "7-day injured list; no public return date",
+      "sourceUrl": "https://www.baseballamerica.com/stories/2026-philadelphia-phillies-top-30-prospects-july-update/",
+      "sourceName": "Baseball America",
+      "headline": "2026 Philadelphia Phillies Top 30 Prospects July Update",
+      "reportedAt": "2026-07-01",
+      "confidence": "high"
+    }
+  ]
+}
