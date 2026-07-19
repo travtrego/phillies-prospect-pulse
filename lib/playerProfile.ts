@@ -4,6 +4,7 @@ type StatRecord = {
   affiliate: string;
   level: string;
   position: string | null;
+  status?: string | null;
   bats?: string | null;
   throws?: string | null;
   currentAge?: number | null;
@@ -28,8 +29,7 @@ export function formatAverage(value: unknown) {
 }
 
 export function buildPlayerEvaluation(record?: StatRecord | null) {
-  const stats = record?.stats;
-  if (!stats?.type) {
+  if (!record || !record.stats?.type) {
     return {
       summary: 'There is not enough current statistical information to write a reliable evaluation yet.',
       strengths: [] as string[],
@@ -38,6 +38,7 @@ export function buildPlayerEvaluation(record?: StatRecord | null) {
     };
   }
 
+  const stats = record.stats;
   const strengths: string[] = [];
   const concerns: string[] = [];
   let summary = '';
