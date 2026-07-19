@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import ProspectDirectory, { type HomepageRanking } from './ProspectDirectory';
 import newsData from '../data/news.json';
-import rankingsData from '../data/rankings.json';
 import { getDirectoryPlayers } from '../lib/playerDirectory';
+import { enrichRankings } from '../lib/ranking/intelligence';
 
 type NewsArticle = { id:string; title:string; summary:string; source:string; url:string; publishedAt:string; tags?:string[] };
 function formatNewsDate(value:string){const date=new Date(value);if(Number.isNaN(date.getTime()))return'Date unavailable';return new Intl.DateTimeFormat('en-US',{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'}).format(date)}
@@ -10,7 +10,7 @@ function cleanSummary(summary:string,source:string,title:string){let cleaned=sum
 
 export default async function Home(){
   const players=await getDirectoryPlayers();
-  const homepageRankings=(rankingsData.records as HomepageRanking[]).slice(0,30).sort((a,b)=>a.rank-b.rank);
+  const homepageRankings=enrichRankings().slice(0,30).map(record=>({playerId:record.playerId,player:record.player,rank:record.rank})) as HomepageRanking[];
   const latestStories=[...(newsData.articles as NewsArticle[])].filter(article=>article.title&&article.url&&article.publishedAt).sort((a,b)=>new Date(b.publishedAt).getTime()-new Date(a.publishedAt).getTime()).slice(0,5);
   return <main>
     <header className="siteHeader"><div><div className="eyebrow">Philadelphia Phillies farm system</div><h1>Prospect Pulse</h1><p>Prospect news, scouting reports and full-season rosters in one focused directory.</p></div><div className="headerBadge"><span>Top 30</span><strong>{homepageRankings.length}</strong></div></header>
