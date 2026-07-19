@@ -14,33 +14,46 @@
 html { background: var(--background); }
 body { margin: 0; min-height: 100vh; background: radial-gradient(circle at 8% 0%, rgba(232,24,40,.22), transparent 28rem), radial-gradient(circle at 100% 10%, rgba(0,45,114,.58), transparent 34rem), linear-gradient(180deg,#0b1830 0%,#07101f 55%,#050b15 100%); color: var(--text); font-family: Arial, Helvetica, sans-serif; }
 body::before { content:""; position:fixed; inset:0; pointer-events:none; opacity:.045; background-image:repeating-linear-gradient(90deg,transparent 0 46px,#fff 47px 48px); }
+a { color: inherit; }
+.topNav { position:sticky; top:0; z-index:20; border-bottom:1px solid var(--border); background:rgba(5,11,21,.92); backdrop-filter:blur(16px); }
+.navInner { width:min(1180px,calc(100% - 32px)); margin:0 auto; min-height:58px; display:flex; align-items:center; justify-content:space-between; gap:20px; }
+.navBrand { color:#fff; font-weight:900; text-decoration:none; text-transform:uppercase; letter-spacing:.05em; }
+.navLinks { display:flex; gap:8px; flex-wrap:wrap; }
+.navLinks a { padding:8px 11px; border-radius:999px; color:#d7dfeb; font-size:.78rem; font-weight:800; text-decoration:none; }
+.navLinks a:hover { background:rgba(232,24,40,.14); color:#fff; }
 main { position:relative; width:min(1180px,calc(100% - 32px)); margin:0 auto; padding:34px 0 72px; }
 h1,h2,h3,h4,p { margin-top:0; }
 .eyebrow { color:#ff9ba3; font-size:.72rem; font-weight:900; letter-spacing:.15em; text-transform:uppercase; }
-.siteHeader { display:flex; justify-content:space-between; align-items:center; gap:24px; margin-bottom:24px; padding:28px 30px; border:1px solid var(--border); border-left:6px solid var(--phillies-red); border-radius:18px; background:linear-gradient(120deg,rgba(16,27,45,.97),rgba(8,20,40,.94)); box-shadow:0 18px 46px rgba(0,0,0,.22); }
-.siteHeader h1 { margin:6px 0 8px; font-size:clamp(2.25rem,5vw,4.2rem); line-height:.95; letter-spacing:-.055em; text-transform:uppercase; }
-.siteHeader p { margin:0; color:var(--muted); font-size:.98rem; }
+.siteHeader,.playerPageHeader { display:flex; justify-content:space-between; align-items:center; gap:24px; margin-bottom:24px; padding:28px 30px; border:1px solid var(--border); border-left:6px solid var(--phillies-red); border-radius:18px; background:linear-gradient(120deg,rgba(16,27,45,.97),rgba(8,20,40,.94)); box-shadow:0 18px 46px rgba(0,0,0,.22); }
+.siteHeader h1,.playerPageHeader h1 { margin:6px 0 8px; font-size:clamp(2.25rem,5vw,4.2rem); line-height:.95; letter-spacing:-.055em; text-transform:uppercase; }
+.siteHeader p,.playerPageHeader p,.pageHeader p { margin:0; color:var(--muted); font-size:.98rem; }
 .headerBadge { display:grid; place-items:center; flex:0 0 108px; width:108px; height:108px; border:1px solid rgba(232,24,40,.55); border-radius:50%; background:rgba(232,24,40,.1); }
 .headerBadge span { color:#ff9ba3; font-size:.67rem; font-weight:900; letter-spacing:.1em; text-transform:uppercase; }
 .headerBadge strong { margin-top:-12px; font-size:2.35rem; }
-.newsDashboard { display:grid; grid-template-columns:minmax(0,1.65fr) minmax(280px,.75fr); gap:18px; margin-bottom:24px; }
-.newsPanel,.rumorsPanel { border:1px solid var(--border); border-radius:18px; background:linear-gradient(145deg,rgba(16,27,45,.95),rgba(8,18,34,.96)); box-shadow:0 14px 34px rgba(0,0,0,.18); }
+.pageHeader { margin-bottom:26px; padding-bottom:22px; border-bottom:1px solid var(--border); }
+.pageHeader h1 { margin:7px 0 10px; font-size:clamp(2.5rem,6vw,4.6rem); text-transform:uppercase; letter-spacing:-.055em; }
+.newsPanel,.rumorsPanel,.personalStatsPanel,.playerReportPanel { border:1px solid var(--border); border-radius:18px; background:linear-gradient(145deg,rgba(16,27,45,.95),rgba(8,18,34,.96)); box-shadow:0 14px 34px rgba(0,0,0,.18); }
 .newsPanel { padding:22px; border-top:4px solid var(--phillies-red); }
+.newsPanelFull { margin-bottom:24px; }
 .rumorsPanel { padding:22px; border-top:4px solid var(--phillies-blue); }
 .panelHeading { display:flex; justify-content:space-between; align-items:flex-start; gap:18px; margin-bottom:16px; }
 .panelHeading h2 { margin:5px 0 0; font-size:1.45rem; }
-.liveBadge { padding:7px 10px; border:1px solid rgba(232,24,40,.5); border-radius:999px; background:rgba(232,24,40,.12); color:#ff9ba3; font-size:.7rem; font-weight:900; text-transform:uppercase; }
+.liveBadge,.sectionLink { padding:7px 10px; border:1px solid rgba(232,24,40,.5); border-radius:999px; background:rgba(232,24,40,.12); color:#ff9ba3; font-size:.7rem; font-weight:900; text-transform:uppercase; text-decoration:none; }
 .storyList,.rumorList { margin:0; padding:0; list-style:none; }
 .storyList { display:grid; gap:9px; }
 .storyList li { display:flex; align-items:center; gap:12px; padding:12px 13px; border:1px solid var(--border); border-radius:12px; background:rgba(255,255,255,.035); }
 .storyList li > span,.rumorList li > span { display:grid; place-items:center; flex:0 0 28px; width:28px; height:28px; border-radius:50%; background:var(--phillies-red); color:white; font-size:.75rem; font-weight:900; }
 .storyList strong { font-size:.84rem; }
-.rumorList { display:grid; gap:8px; }
-.rumorList li { display:flex; align-items:center; gap:10px; padding:10px 0; border-bottom:1px solid var(--border); }
-.rumorList li:last-child { border-bottom:0; }
-.rumorList li > span { background:var(--phillies-blue); }
-.rumorList p { margin:0; color:#d8e0eb; font-size:.8rem; }
-.directoryToolbar { display:flex; justify-content:space-between; gap:14px; margin-bottom:28px; padding:14px; border:1px solid var(--border); border-radius:16px; background:rgba(16,27,45,.9); position:sticky; top:10px; z-index:5; backdrop-filter:blur(14px); }
+.storyList p { margin:4px 0 0; color:var(--muted); font-size:.74rem; }
+.storyListWide { grid-template-columns:1fr; }
+.fullStoryFeed,.rumorFeed { display:grid; gap:14px; }
+.fullStory,.rumorStory { display:flex; gap:18px; padding:22px; border:1px solid var(--border); border-radius:16px; background:rgba(16,27,45,.86); }
+.storyNumber { display:grid; place-items:center; flex:0 0 42px; width:42px; height:42px; border-radius:50%; background:var(--phillies-red); font-weight:900; }
+.storyNumber.blue { background:var(--phillies-blue); }
+.storyMeta { color:#ff9ba3; font-size:.68rem; font-weight:800; text-transform:uppercase; letter-spacing:.08em; }
+.fullStory h2,.rumorStory h2 { margin:6px 0 8px; font-size:1.3rem; }
+.fullStory p,.rumorStory p { margin:0; color:var(--muted); line-height:1.55; }
+.directoryToolbar { display:flex; justify-content:space-between; gap:14px; margin-bottom:28px; padding:14px; border:1px solid var(--border); border-radius:16px; background:rgba(16,27,45,.9); position:sticky; top:68px; z-index:5; backdrop-filter:blur(14px); }
 .filterTabs { display:flex; flex-wrap:wrap; gap:8px; }
 .filterTabs button { border:1px solid var(--border); border-radius:999px; padding:9px 13px; background:rgba(255,255,255,.035); color:#dce4ef; font:inherit; font-size:.75rem; font-weight:800; cursor:pointer; }
 .filterTabs button:hover { border-color:rgba(232,24,40,.55); }
@@ -50,9 +63,9 @@ h1,h2,h3,h4,p { margin-top:0; }
 .resultsHeader { display:flex; justify-content:space-between; align-items:end; gap:16px; margin-bottom:18px; }
 .resultsHeader h2 { margin:5px 0 0; font-size:clamp(1.8rem,4vw,2.65rem); }
 .status { border:1px solid rgba(232,24,40,.55); background:rgba(232,24,40,.13); color:#ff929b; border-radius:999px; padding:9px 13px; font-size:.76rem; font-weight:800; }
-.cardGrid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:18px; align-items:start; }
-.playerCard { min-width:0; overflow:hidden; border:1px solid var(--border); border-radius:18px; background:linear-gradient(155deg,rgba(24,38,61,.96),rgba(11,21,37,.98)); box-shadow:0 14px 34px rgba(0,0,0,.2); transition:transform .18s ease,border-color .18s ease; }
-.playerCard:hover { transform:translateY(-4px); border-color:rgba(232,24,40,.65); }
+.cardGrid,.statsCardGrid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:18px; align-items:start; }
+.playerCard,.statPlayerCard { min-width:0; overflow:hidden; border:1px solid var(--border); border-radius:18px; background:linear-gradient(155deg,rgba(24,38,61,.96),rgba(11,21,37,.98)); box-shadow:0 14px 34px rgba(0,0,0,.2); transition:transform .18s ease,border-color .18s ease; }
+.playerCard:hover,.statPlayerCard:hover { transform:translateY(-4px); border-color:rgba(232,24,40,.65); }
 .cardTop { display:flex; justify-content:space-between; align-items:center; padding:14px 16px; border-bottom:1px solid var(--border); background:linear-gradient(90deg,rgba(232,24,40,.14),rgba(0,45,114,.12)); }
 .rank { color:#fff; font-size:.95rem; font-weight:900; }
 .level { border:1px solid rgba(255,255,255,.16); background:rgba(255,255,255,.07); border-radius:999px; padding:5px 9px; color:#dce7fb; font-size:.7rem; font-weight:800; }
@@ -64,7 +77,7 @@ h1,h2,h3,h4,p { margin-top:0; }
 .cardDetails div { padding:11px; border:1px solid var(--border); border-radius:11px; background:rgba(255,255,255,.035); }
 .cardDetails span { display:block; margin-bottom:6px; color:var(--muted); font-size:.65rem; text-transform:uppercase; letter-spacing:.07em; }
 .cardDetails strong { font-size:.8rem; line-height:1.35; }
-.scoutingBlock { margin:0 16px 16px; padding:14px; border:1px solid rgba(232,24,40,.25); border-radius:13px; background:linear-gradient(145deg,rgba(232,24,40,.07),rgba(0,45,114,.12)); }
+.scoutingBlock { margin:0 16px 14px; padding:14px; border:1px solid rgba(232,24,40,.25); border-radius:13px; background:linear-gradient(145deg,rgba(232,24,40,.07),rgba(0,45,114,.12)); }
 .scoutingHeader { display:flex; justify-content:space-between; gap:12px; align-items:center; margin-bottom:9px; }
 .scoutingHeader h4 { margin:0; font-size:.86rem; text-transform:uppercase; letter-spacing:.06em; }
 .scoutingHeader span { color:var(--muted); font-size:.63rem; }
@@ -74,9 +87,22 @@ h1,h2,h3,h4,p { margin-top:0; }
 .grades b { color:#ff919a; font-size:.61rem; text-transform:uppercase; letter-spacing:.04em; }
 .scoutingBlock a { color:#fff; font-size:.72rem; font-weight:800; text-decoration:none; }
 .scoutingBlock a:hover { color:#ff929b; }
+.statsLink { display:block; margin:0 16px 14px; padding:10px 12px; border-radius:10px; background:rgba(0,45,114,.38); color:#fff; font-size:.76rem; font-weight:900; text-align:center; text-decoration:none; }
+.statsLink:hover { background:rgba(232,24,40,.3); }
 .playerCard footer { display:flex; justify-content:space-between; gap:12px; padding:12px 16px; border-top:1px solid var(--border); color:var(--muted); font-size:.64rem; }
+.statIdentity { padding:18px 16px 12px; }
+.statIdentity h3 { margin:0 0 6px; }
+.statIdentity p { margin:0; color:var(--muted); font-size:.78rem; }
+.statPlaceholderGrid,.personalStatsGrid { display:grid; grid-template-columns:repeat(3,1fr); gap:10px; padding:0 16px 16px; }
+.statPlaceholderGrid div,.personalStatsGrid div { padding:12px; border:1px solid var(--border); border-radius:11px; background:rgba(255,255,255,.035); }
+.statPlaceholderGrid span,.personalStatsGrid span { display:block; color:var(--muted); font-size:.65rem; text-transform:uppercase; letter-spacing:.06em; }
+.statPlaceholderGrid strong,.personalStatsGrid strong { display:block; margin-top:6px; font-size:1.15rem; }
+.backLink { display:inline-block; margin-bottom:14px; color:#ff9ba3; font-weight:800; text-decoration:none; }
+.personalStatsPanel,.playerReportPanel { padding:22px; margin-bottom:20px; }
+.personalStatsGrid { grid-template-columns:repeat(6,1fr); padding:0; }
+.playerReportPanel p { margin:10px 0 0; color:#d6deea; line-height:1.65; }
 .directoryNote { margin-top:28px; padding:16px 18px; border:1px solid var(--border); border-radius:14px; background:rgba(16,27,45,.75); color:var(--muted); font-size:.8rem; line-height:1.5; }
 .empty { padding:52px 24px; text-align:center; border:1px solid var(--border); border-radius:20px; background:var(--panel); }
 .empty p { color:var(--muted); }
-@media (max-width:940px) { .cardGrid { grid-template-columns:repeat(2,minmax(0,1fr)); } .directoryToolbar { align-items:stretch; flex-direction:column; } .directoryToolbar input { width:100%; } .newsDashboard { grid-template-columns:1fr; } }
-@media (max-width:650px) { main { padding:20px 0 50px; } .siteHeader { padding:22px 20px; align-items:flex-start; } .headerBadge { width:78px; height:78px; flex-basis:78px; } .headerBadge strong { font-size:1.7rem; } .cardGrid { grid-template-columns:1fr; } .resultsHeader { align-items:flex-start; flex-direction:column; } .playerCard footer { flex-direction:column; } .directoryToolbar { position:static; } .newsPanel,.rumorsPanel { padding:18px; } }
+@media (max-width:940px) { .cardGrid,.statsCardGrid { grid-template-columns:repeat(2,minmax(0,1fr)); } .directoryToolbar { align-items:stretch; flex-direction:column; } .directoryToolbar input { width:100%; } .personalStatsGrid { grid-template-columns:repeat(3,1fr); } }
+@media (max-width:650px) { .navInner { align-items:flex-start; flex-direction:column; padding:12px 0; } main { padding:20px 0 50px; } .siteHeader,.playerPageHeader { padding:22px 20px; align-items:flex-start; } .headerBadge { width:78px; height:78px; flex-basis:78px; } .headerBadge strong { font-size:1.7rem; } .cardGrid,.statsCardGrid { grid-template-columns:1fr; } .resultsHeader { align-items:flex-start; flex-direction:column; } .playerCard footer { flex-direction:column; } .directoryToolbar { position:static; } .newsPanel,.rumorsPanel { padding:18px; } .fullStory,.rumorStory { padding:17px; } .personalStatsGrid { grid-template-columns:repeat(2,1fr); } }
