@@ -35,6 +35,40 @@ export default async function Home() {
         </div>
       </header>
 
+      <section className="newsDashboard">
+        <div className="newsPanel">
+          <div className="panelHeading">
+            <div>
+              <span className="eyebrow">Breaking news</span>
+              <h2>Top prospect stories</h2>
+            </div>
+            <span className="liveBadge">Top 5</span>
+          </div>
+          <ol className="storyList">
+            {[1, 2, 3, 4, 5].map((story) => (
+              <li key={story}>
+                <span>{story}</span>
+                <strong>Phillies prospect news placeholder</strong>
+              </li>
+            ))}
+          </ol>
+        </div>
+
+        <aside className="rumorsPanel">
+          <div className="panelHeading compact">
+            <div>
+              <span className="eyebrow">Rumor mill</span>
+              <h2>Prospect rumors</h2>
+            </div>
+          </div>
+          <ol className="rumorList">
+            {[1, 2, 3, 4, 5].map((rumor) => (
+              <li key={rumor}><span>{rumor}</span><p>Rumor placeholder</p></li>
+            ))}
+          </ol>
+        </aside>
+      </section>
+
       {players.length === 0 ? (
         <div className="empty">
           <h3>Supabase connection is waiting.</h3>
