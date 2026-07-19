@@ -18,6 +18,8 @@ jobs:
         run: npm install --no-audit --no-fund
       - name: Audit Genie data
         run: npm run audit:genie
+      - name: Audit player cards and tabs
+        run: npm run audit:ui
       - name: Test Genie logic
         run: npm run test:genie
       - name: Type-check
