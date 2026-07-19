@@ -1,11 +1,11 @@
-import type { PlayerEvidence } from './types';
+import type { PlayerEvidence, ProjectionDriver } from './types';
 import { LEVEL_WEIGHT, MODEL } from './config';
 import { clamp, finite, isGenieLevel } from './shared';
 
-export type ProjectionDriver={factor:string;impact:number;direction:'positive'|'negative'|'neutral';explanation:string};
 export type ProjectionSet={mlbProbability:number;promotionProbability:number;breakoutProbability:number;tradeValue:number;protectScore:number;volatility:number;recommendation:string;rationale:string[];drivers:ProjectionDriver[]};
 
 const levelValue=(level?:string)=>isGenieLevel(level)?LEVEL_WEIGHT[level]:18;
+const direction=(value:number):ProjectionDriver['direction']=>value>0?'positive':value<0?'negative':'neutral';
 
 export function projectPlayer(item:PlayerEvidence):ProjectionSet{
   const s=item.scores;
@@ -23,12 +23,17 @@ export function projectPlayer(item:PlayerEvidence):ProjectionSet{
   const protectScore=clamp(tradeValue*.42+mlbProbability*.22+s.ceiling*.2+s.floor*.16);
   const volatility=clamp(s.risk*.55+Math.abs(s.ceiling-s.floor)*.45);
 
+  const ceilingImpact=Number(((s.ceiling-50)*.28).toFixed(1));
+  const readinessImpact=Number(((s.readiness-50)*.34).toFixed(1));
+  const performanceImpact=Number(((s.performance-50)*.16).toFixed(1));
+  const ageImpact=Number(youthBonus.toFixed(1));
+  const healthImpact=-healthPenalty;
   const drivers:ProjectionDriver[]=[
-    {factor:'Ceiling',impact:Number(((s.ceiling-50)*.28).toFixed(1)),direction:s.ceiling>=50?'positive':'negative',explanation:`Ceiling score is ${Math.round(s.ceiling)}/100.`},
-    {factor:'Readiness',impact:Number(((s.readiness-50)*.34).toFixed(1)),direction:s.readiness>=50?'positive':'negative',explanation:`Readiness score is ${Math.round(s.readiness)}/100 at ${level||'an unverified level'}.`},
-    {factor:'Performance',impact:Number(((s.performance-50)*.16).toFixed(1)),direction:s.performance>=50?'positive':'negative',explanation:`Current performance score is ${Math.round(s.performance)}/100.`},
-    {factor:'Age versus level',impact:Number(youthBonus.toFixed(1)),direction:youthBonus>0?'positive':youthBonus<0?'negative':'neutral',explanation:`Age adjustment is based on age ${age}.`},
-    {factor:'Health',impact:-healthPenalty,direction:healthPenalty?'negative':'neutral',explanation:healthPenalty?'An active injury record reduces near-term outcomes.':'No active injury record is applied.'}
+    {factor:'Ceiling',impact:ceilingImpact,direction:direction(ceilingImpact),explanation:`Ceiling score is ${Math.round(s.ceiling)}/100.`},
+    {factor:'Readiness',impact:readinessImpact,direction:direction(readinessImpact),explanation:`Readiness score is ${Math.round(s.readiness)}/100 at ${level||'an unverified level'}.`},
+    {factor:'Performance',impact:performanceImpact,direction:direction(performanceImpact),explanation:`Current performance score is ${Math.round(s.performance)}/100.`},
+    {factor:'Age versus level',impact:ageImpact,direction:direction(ageImpact),explanation:`Age adjustment is based on age ${age}.`},
+    {factor:'Health',impact:healthImpact,direction:direction(healthImpact),explanation:healthPenalty?'An active injury record reduces near-term outcomes.':'No active injury record is applied.'}
   ].sort((a,b)=>Math.abs(b.impact)-Math.abs(a.impact));
 
   const rationale:string[]=[];
