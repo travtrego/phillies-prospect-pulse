@@ -39,7 +39,7 @@ function formatNewsDate(value: string) {
 }
 
 function cleanSummary(summary: string, source: string, title: string) {
-  const cleaned = summary
+  let cleaned = summary
     .replace(/&nbsp;/gi, ' ')
     .replace(/&amp;/gi, '&')
     .replace(/&#39;/gi, "'")
@@ -47,12 +47,15 @@ function cleanSummary(summary: string, source: string, title: string) {
     .replace(/\s+/g, ' ')
     .trim();
 
-  const withoutSource = cleaned.replace(new RegExp(`\\s+${source.replace(/[.*+?^${}()|[\\]\\]/g, '\\$&')}$`, 'i'), '').trim();
-  if (!withoutSource || withoutSource.toLowerCase() === title.toLowerCase()) {
-    return `${source} · ${formatNewsDate(new Date().toISOString())}`;
+  if (cleaned.toLowerCase().endsWith(source.toLowerCase())) {
+    cleaned = cleaned.slice(0, -source.length).trim();
   }
 
-  return withoutSource;
+  if (!cleaned || cleaned.toLowerCase() === title.toLowerCase()) {
+    return 'Open the full story for details.';
+  }
+
+  return cleaned;
 }
 
 export default async function Home() {
