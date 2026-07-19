@@ -7,6 +7,7 @@ import { buildMemory, resolveFollowUpPlayers } from '../../../lib/genie/memory';
 import { applyHistoricalIntelligence } from '../../../lib/genie/history';
 import { analyzeOrganization, isOrganizationQuestion } from '../../../lib/genie/organization';
 import { isSimulationQuestion, simulateScenario } from '../../../lib/genie/simulation';
+import { buildFrontOfficeReport, isFrontOfficeQuestion } from '../../../lib/genie/frontoffice';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -43,7 +44,7 @@ export async function POST(request:NextRequest){
       return NextResponse.json({
         answer:simulation.answer,
         matchedPlayers,
-        engine:'Prospect Genie simulation and decision lab v7.0',
+        engine:'Prospect Genie Phillies digital front office v8.0',
         intent:{task:'simulate_scenario',metric:'system_impact',filters:{},limit:simulation.actions.length},
         plan:[
           {tool:'cloneOrganizationState',description:'Create an isolated copy of the current tracked prospect system.'},
@@ -61,12 +62,34 @@ export async function POST(request:NextRequest){
       },{headers:{'Cache-Control':'no-store, max-age=0'}});
     }
 
+    if(isFrontOfficeQuestion(question)){
+      const frontOffice=buildFrontOfficeReport(question,matchedPlayers);
+      return NextResponse.json({
+        answer:frontOffice.answer,
+        matchedPlayers,
+        engine:'Prospect Genie Phillies digital front office v8.0',
+        intent:{task:'phillies_development_decision',metric:'promotion_readiness',filters:{},limit:frontOffice.promotionBoard.length},
+        plan:[
+          {tool:'mapAffiliateAssignments',description:'Build the current Phillies affiliate and level map.'},
+          {tool:'measurePlayingTimePressure',description:'Identify same-level positional competition and likely blockers.'},
+          {tool:'scorePromotionReadiness',description:'Combine prospect quality, performance, age-level fit, momentum and health.'},
+          {tool:'explainDecisionDrivers',description:'Separate evidence supporting promotion from reasons to hold.'},
+          {tool:'recommendDevelopmentAction',description:'Return a promote, monitor, hold or rehab recommendation.'}
+        ],
+        confidence:frontOffice.subject?'moderate':'moderate',
+        limitations:['Exact plate appearances, innings targets, defensive assignments and private scouting reports are not yet integrated.','Affiliate roster listings are inferred from the currently tracked prospect dataset and may not represent every organizational player.'],
+        frontOffice,
+        memory:{activePlayers:memory.activePlayers.slice(0,5)},
+        requestQuestion:question
+      },{headers:{'Cache-Control':'no-store, max-age=0'}});
+    }
+
     if(isOrganizationQuestion(question)&&!matchedPlayers.length){
       const organization=analyzeOrganization(question);
       return NextResponse.json({
         answer:organization.answer,
         matchedPlayers:[],
-        engine:'Prospect Genie simulation and decision lab v7.0',
+        engine:'Prospect Genie Phillies digital front office v8.0',
         intent:{task:'organizational_analysis',metric:'system_depth',filters:{},limit:organization.groups.length},
         plan:[
           {tool:'buildOrganizationMap',description:'Group the tracked system by position and level.'},
@@ -91,7 +114,7 @@ export async function POST(request:NextRequest){
     return NextResponse.json({
       answer,
       matchedPlayers,
-      engine:'Prospect Genie simulation and decision lab v7.0',
+      engine:'Prospect Genie Phillies digital front office v8.0',
       intent:{task:intent.task,metric:intent.metric,filters:intent.filters,limit:intent.limit},
       plan:result.plan.steps,
       confidence:result.confidence,
