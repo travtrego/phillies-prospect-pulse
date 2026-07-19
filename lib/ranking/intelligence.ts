@@ -24,6 +24,7 @@ export type RankingSourceRecord={
 export type RankingIntelligence={
   player:string;
   modelVersion:string;
+  modelScore:number;
   confidence:'high'|'moderate'|'low';
   confidenceScore:number;
   consensusRank:number|null;
@@ -36,7 +37,7 @@ export type RankingIntelligence={
   limitations:string[];
   breakdown:{component:string;raw:number;weight:number;contribution:number;available:boolean}[];
 };
-export type EnrichedRankingRecord=RankingSourceRecord&{intelligence:RankingIntelligence};
+export type EnrichedRankingRecord=RankingSourceRecord&{legacyRank:number;legacyScore:number;intelligence:RankingIntelligence};
 
 const rankings=rankingsData.records as RankingSourceRecord[];
 const stats=statsData.records as Row[];
@@ -73,7 +74,15 @@ export function rankingIntelligence(row:RankingSourceRecord):RankingIntelligence
   const pitchQuality=pitchQualitySignal(stat);
   const development=developmentSignal(row);
   const evaluation=evaluateRanking({scouting:component(row,'scouting'),performance:component(row,'performance'),ageLevel:component(row,'ageLevel'),sentiment:component(row,'sentiment'),movement:component(row,'movement'),risk:100-component(row,'risk'),development,defense:defense??undefined,pitchQuality:pitchQuality??undefined,history:Number.isFinite(Number(row.historicalScore))?Number(row.historicalScore):undefined,consensus:consensus?.agreement});
-  return{player:row.player,modelVersion:RANKING_MODEL_VERSION,confidence:evaluation.confidence,confidenceScore:evaluation.confidenceScore,consensusRank:consensus?.meanRank??null,consensusDifference:consensus?.difference??null,consensusAgreement:consensus?.agreement??null,externalSourceCount:consensus?.sourceCount??0,historicalSignal:Number.isFinite(Number(row.historicalScore))?Number(row.historicalScore):null,defenseSignal:defense,pitchQualitySignal:pitchQuality,limitations:evaluation.limitations,breakdown:evaluation.breakdown};
+  return{player:row.player,modelVersion:RANKING_MODEL_VERSION,modelScore:evaluation.score,confidence:evaluation.confidence,confidenceScore:evaluation.confidenceScore,consensusRank:consensus?.meanRank??null,consensusDifference:consensus?.difference??null,consensusAgreement:consensus?.agreement??null,externalSourceCount:consensus?.sourceCount??0,historicalSignal:Number.isFinite(Number(row.historicalScore))?Number(row.historicalScore):null,defenseSignal:defense,pitchQualitySignal:pitchQuality,limitations:evaluation.limitations,breakdown:evaluation.breakdown};
 }
 
-export function enrichRankings():EnrichedRankingRecord[]{return rankings.map(row=>({...row,intelligence:rankingIntelligence(row)}));}
+export function enrichRankings():EnrichedRankingRecord[]{
+  const scored=rankings.map(row=>({row,intelligence:rankingIntelligence(row)}));
+  scored.sort((a,b)=>b.intelligence.modelScore-a.intelligence.modelScore||b.intelligence.confidenceScore-a.intelligence.confidenceScore||a.row.player.localeCompare(b.row.player));
+  return scored.map(({row,intelligence},index)=>{
+    const rank=index+1;
+    const legacyRank=Number(row.rank);
+    return{...row,legacyRank,legacyScore:Number(row.score),rank,score:intelligence.modelScore,previousRank:legacyRank,change:legacyRank-rank,intelligence};
+  });
+}
