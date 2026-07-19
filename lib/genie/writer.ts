@@ -3,6 +3,7 @@ import { projectionMetricLabel } from './projections';
 
 const rate=(value:unknown,digits=3)=>{const number=Number(value);return Number.isFinite(number)?number.toFixed(digits).replace(/^0/,''):'—'};
 const rounded=(value:unknown)=>Math.round(Number(value)||0);
+const naturalList=(items:string[])=>items.length<=1?(items[0]||''):items.length===2?`${items[0]} and ${items[1]}`:`${items.slice(0,-1).join(', ')}, and ${items.at(-1)}`;
 
 function statLine(item:PlayerEvidence){
   const s=item.stat?.stats;
@@ -12,14 +13,20 @@ function statLine(item:PlayerEvidence){
 }
 
 function bioLine(item:PlayerEvidence){
-  const bits=[item.stat?.currentAge?`age ${item.stat.currentAge}`:null,item.stat?.birthCountry?`from ${item.stat.birthCountry}`:null,item.stat?.height||null,item.stat?.weight?`${item.stat.weight} lb`:null,item.stat?.bats?`bats ${item.stat.bats}`:null,item.stat?.throws?`throws ${item.stat.throws}`:null].filter(Boolean);
-  return bits.join(', ');
+  return [item.stat?.currentAge?`age ${item.stat.currentAge}`:null,item.stat?.birthCountry?`from ${item.stat.birthCountry}`:null,item.stat?.height||null,item.stat?.weight?`${item.stat.weight} lb`:null,item.stat?.bats?`bats ${item.stat.bats}`:null,item.stat?.throws?`throws ${item.stat.throws}`:null].filter(Boolean).join(', ');
+}
+
+function driverLine(item:PlayerEvidence){
+  const drivers=item.projections?.drivers?.filter(driver=>driver.direction!=='neutral').slice(0,3)||[];
+  if(!drivers.length)return'';
+  const pieces=drivers.map(driver=>`${driver.factor.toLowerCase()} (${driver.impact>=0?'+':''}${driver.impact})`);
+  return` The largest modeled drivers are ${naturalList(pieces)}.`;
 }
 
 function projectionLine(item:PlayerEvidence){
   const p=item.projections;
   if(!p)return'';
-  return`The model estimates a ${rounded(p.mlbProbability)}% chance of reaching MLB, a ${rounded(p.promotionProbability)}% promotion score and a ${rounded(p.breakoutProbability)}% breakout score. Its current recommendation is ${p.recommendation.toLowerCase()}.`;
+  return`The model estimates a ${rounded(p.mlbProbability)}% MLB outcome score, a ${rounded(p.promotionProbability)}% promotion score and a ${rounded(p.breakoutProbability)}% breakout score. The current recommendation is ${p.recommendation.toLowerCase()}.${driverLine(item)}`;
 }
 
 function profile(item:PlayerEvidence,result:GenieResult){
@@ -28,8 +35,8 @@ function profile(item:PlayerEvidence,result:GenieResult){
   if(result.intent.asksBiography){const bio=bioLine(item);answer+=bio?` Available biographical information: ${bio}.`:' Verified biographical details are incomplete in the current feed.';}
   const line=statLine(item);
   answer+=line?` The current statistical line is ${line}.`:' A current statistical line is not available in the feed.';
-  if(item.strengths.length)answer+=` The strongest modeled traits are ${item.strengths.join(', ').replace(/, ([^,]*)$/,' and $1')}.`;
-  if(item.concerns.length)answer+=` The main concern${item.concerns.length>1?'s are':' is'} ${item.concerns.join(', ').replace(/, ([^,]*)$/,' and $1')}.`;
+  if(item.strengths.length)answer+=` The strongest modeled traits are ${naturalList(item.strengths)}.`;
+  if(item.concerns.length)answer+=` The main concern${item.concerns.length>1?'s are':' is'} ${naturalList(item.concerns)}.`;
   if(result.intent.asksProjection||result.decisionMetric)answer+=` ${projectionLine(item)}`;
   if(item.injury)answer+=` The current feed also contains a health flag: ${item.injury.timeline||item.injury.status||item.injury.injury||'details unavailable'}.`;
   answer+=` Confidence is ${result.confidence}.`;
@@ -60,7 +67,8 @@ function decisionList(result:GenieResult){
     const p=item.projections;
     const score=Number(p?.[key]||0);
     const reasons=p?.rationale?.length?p.rationale.join(', '):item.strengths.join(', ');
-    return`${index+1}. ${item.player.player} — ${label}: ${rounded(score)}/100. Recommendation: ${p?.recommendation||'Monitor'}. The case rests on ${reasons||'the available ranking and performance evidence'}.${item.concerns[0]?` Main risk: ${item.concerns[0]}.`:''}`;
+    const drivers=p?.drivers?.filter(driver=>driver.direction!=='neutral').slice(0,2).map(driver=>`${driver.factor} ${driver.impact>=0?'+':''}${driver.impact}`).join('; ');
+    return`${index+1}. ${item.player.player} — ${label}: ${rounded(score)}/100. Recommendation: ${p?.recommendation||'Monitor'}. The case rests on ${reasons||'the available ranking and performance evidence'}.${drivers?` Main drivers: ${drivers}.`:''}${item.concerns[0]?` Main risk: ${item.concerns[0]}.`:''}`;
   });
   return`Front-office view: ${label}\n\n${rows.join('\n')}\n\nThese are internal model estimates, not guarantees. Confidence is ${result.confidence}.`;
 }
