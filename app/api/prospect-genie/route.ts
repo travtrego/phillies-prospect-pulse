@@ -3,207 +3,182 @@ import rankingsData from '../../../data/rankings.json';
 import statsData from '../../../data/stats.json';
 import injuriesData from '../../../data/injuries.json';
 import promotionsData from '../../../data/promotions.json';
-import newsData from '../../../data/news.json';
 
 export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
 
-type AnyRecord = Record<string, any>;
-const rankings = rankingsData.records as AnyRecord[];
-const stats = statsData.records as AnyRecord[];
-const injuries = injuriesData.records as AnyRecord[];
-const promotions = promotionsData.records as AnyRecord[];
-const news = newsData.articles as AnyRecord[];
+type Row = Record<string, any>;
+const rankings = rankingsData.records as Row[];
+const stats = statsData.records as Row[];
+const injuries = injuriesData.records as Row[];
+const promotions = promotionsData.records as Row[];
 
-const norm = (value = '') => value.toLowerCase().replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim();
-const tokens = (value = '') => norm(value).split(' ').filter(word => word.length > 2);
-const has = (q: string, ...terms: string[]) => terms.some(term => norm(q).includes(norm(term)));
-const pct = (value: unknown, digits = 1) => Number(value || 0).toFixed(digits);
+const normalize = (value = '') => value.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim();
+const words = (value = '') => new Set(normalize(value).split(' ').filter(Boolean));
+const includesAny = (value: string, terms: string[]) => terms.some(term => normalize(value).includes(normalize(term)));
+const format = (value: unknown, digits = 3) => Number(value || 0).toFixed(digits).replace(/^0/, '');
 
-function playerMatches(question: string) {
-  const q = norm(question);
+function findPlayers(question: string) {
+  const q = normalize(question);
+  const qWords = words(question);
   return rankings.filter(player => {
-    const full = norm(player.player);
+    const full = normalize(player.player);
     const parts = full.split(' ');
-    return q.includes(full) || (parts.length > 1 && q.includes(parts.at(-1)!));
+    const last = parts.at(-1) || '';
+    return q.includes(full) || (last.length >= 4 && qWords.has(last));
   });
 }
 
-function statFor(player: AnyRecord) { return stats.find(record => norm(record.player) === norm(player.player)); }
-function injuryFor(player: AnyRecord) { return injuries.find(record => norm(record.player) === norm(player.player)); }
-function promosFor(player: AnyRecord) { return promotions.filter(record => norm(record.player) === norm(player.player)); }
-function newsFor(player: AnyRecord) {
-  const full = norm(player.player);
-  const last = full.split(' ').at(-1)!;
-  return news.filter(article => {
-    const text = norm(`${article.title || ''} ${article.summary || ''}`);
-    return text.includes(full) || text.includes(last);
-  });
+function statFor(player: Row) { return stats.find(row => normalize(row.player) === normalize(player.player)); }
+function injuryFor(player: Row) { return injuries.find(row => normalize(row.player) === normalize(player.player)); }
+function promotionsFor(player: Row) { return promotions.filter(row => normalize(row.player) === normalize(player.player)); }
+function isPitcher(player: Row) { return /^(P|RHP|LHP)$/i.test(player.position || '') || statFor(player)?.stats?.type === 'pitching'; }
+
+function statLine(player: Row) {
+  const s = statFor(player)?.stats;
+  if (!s) return 'No current stat line is available.';
+  if (s.type === 'pitching') return `${s.inningsPitched ?? '—'} IP, ${Number(s.era ?? 0).toFixed(2)} ERA, ${Number(s.whip ?? 0).toFixed(2)} WHIP, ${Number(s.kPer9 ?? 0).toFixed(1)} K/9 and ${Number(s.bbPer9 ?? 0).toFixed(1)} BB/9`;
+  return `${format(s.average)} AVG, ${format(s.obp)} OBP, ${format(s.slg)} SLG, ${format(s.ops)} OPS, ${s.homeRuns ?? 0} HR and ${s.stolenBases ?? 0} SB`;
 }
 
-function statLine(player: AnyRecord) {
-  const record = statFor(player);
-  const s = record?.stats;
-  if (!s?.type) return 'No current statistical line is available.';
-  if (s.type === 'hitting') return `${s.games ?? '—'} games, ${pct(s.average, 3)} AVG, ${pct(s.obp, 3)} OBP, ${pct(s.slg, 3)} SLG, ${pct(s.ops, 3)} OPS, ${s.homeRuns ?? 0} HR, ${s.stolenBases ?? 0} SB, ${pct(s.walkRate)}% BB and ${pct(s.strikeoutRate)}% K`;
-  return `${s.games ?? '—'} games, ${s.inningsPitched ?? '—'} IP, ${pct(s.era, 2)} ERA, ${pct(s.whip, 2)} WHIP, ${pct(s.kPer9)} K/9 and ${pct(s.bbPer9)} BB/9`;
-}
-
-function performanceScore(player: AnyRecord) {
+function strengths(player: Row) {
   const s = statFor(player)?.stats || {};
-  if (s.type === 'hitting') return Number(s.ops || 0) * 80 + Math.max(0, 22 - Number(s.strikeoutRate || 22)) + Number(s.walkRate || 0) * .6 + Number(s.stolenBases || 0) * .15;
-  if (s.type === 'pitching') return Math.max(0, 60 - Number(s.era || 8) * 7) + Number(s.kPer9 || 0) * 2.5 - Math.max(0, Number(s.bbPer9 || 3) - 3) * 4;
-  return Number(player.components?.performance || 0);
-}
-
-function momentumScore(player: AnyRecord) {
-  const injuryPenalty = injuryFor(player) ? 18 : 0;
-  return performanceScore(player) + Number(player.change || 0) * 4 + Number(player.components?.sentiment || 0) * 1.5 + promosFor(player).length * 5 - injuryPenalty;
-}
-
-function readiness(player: AnyRecord) {
-  const level: Record<string, number> = { MLB: 90, AAA: 76, AA: 57, 'A+': 38, A: 23, Rookie: 10 };
-  let score = level[player.level] ?? 15;
-  score += Math.min(12, Math.max(-8, performanceScore(player) / 8));
-  score += Math.max(-8, Math.min(8, Number(player.change || 0) * 2));
-  if (injuryFor(player)) score -= 22;
-  return Math.round(Math.max(3, Math.min(94, score)));
-}
-
-function confidence(player: AnyRecord) {
-  let evidence = 1;
-  if (statFor(player)) evidence += 2;
-  if (promosFor(player).length) evidence += 2;
-  if (newsFor(player).length) evidence += Math.min(2, newsFor(player).length);
-  if (injuryFor(player)) evidence += 1;
-  return evidence >= 6 ? 'high' : evidence >= 3 ? 'moderate' : 'limited';
-}
-
-function strengths(player: AnyRecord) {
-  const s = statFor(player)?.stats || {};
-  const result: string[] = [];
-  if (s.type === 'hitting') {
-    if (Number(s.ops) >= .850) result.push('impactful overall production');
-    if (Number(s.average) >= .290) result.push('consistent contact results');
-    if (Number(s.walkRate) >= 10) result.push('strong plate discipline');
-    if (Number(s.strikeoutRate) <= 17) result.push('controlled strikeout rate');
-    if (Number(s.stolenBases) >= 15) result.push('baserunning impact');
-    if (Number(s.homeRuns) >= 12) result.push('game power');
-  } else if (s.type === 'pitching') {
-    if (Number(s.kPer9) >= 10) result.push('swing-and-miss ability');
-    if (Number(s.bbPer9) <= 3) result.push('usable command');
-    if (Number(s.era) <= 3.5) result.push('run prevention');
-    if (Number(s.whip) <= 1.2) result.push('traffic management');
+  const output: string[] = [];
+  if (s.type === 'pitching') {
+    if (Number(s.kPer9) >= 10) output.push('bat-missing ability');
+    if (Number(s.bbPer9) <= 3) output.push('control');
+    if (Number(s.era) <= 3.5) output.push('run prevention');
+  } else {
+    if (Number(s.ops) >= .850) output.push('overall offensive production');
+    if (Number(s.average) >= .290) output.push('contact results');
+    if (Number(s.walkRate) >= 10) output.push('plate discipline');
+    if (Number(s.strikeoutRate) <= 17) output.push('contact control');
+    if (Number(s.homeRuns) >= 12) output.push('game power');
+    if (Number(s.stolenBases) >= 15) output.push('baserunning impact');
   }
-  if (Number(player.components?.scouting) >= 27) result.push('strong external scouting standing');
-  return result.slice(0, 3);
+  if (Number(player.components?.scouting) >= 27) output.push('external scouting support');
+  return output.slice(0, 3);
 }
 
-function weaknesses(player: AnyRecord) {
+function concerns(player: Row) {
   const s = statFor(player)?.stats || {};
-  const result: string[] = [];
-  if (s.type === 'hitting') {
-    if (Number(s.strikeoutRate) >= 25) result.push('strikeout pressure');
-    if (Number(s.walkRate) < 7) result.push('limited walk rate');
-    if (Number(s.slg) < .400) result.push('developing impact');
-  } else if (s.type === 'pitching') {
-    if (Number(s.bbPer9) >= 4) result.push('command volatility');
-    if (Number(s.whip) >= 1.45) result.push('too much traffic');
-    if (Number(s.era) >= 5) result.push('inconsistent run prevention');
+  const output: string[] = [];
+  if (s.type === 'pitching') {
+    if (Number(s.bbPer9) >= 4) output.push('command volatility');
+    if (Number(s.whip) >= 1.45) output.push('too much traffic');
+    if (Number(s.era) >= 5) output.push('uneven run prevention');
+  } else {
+    if (Number(s.strikeoutRate) >= 25) output.push('swing-and-miss');
+    if (s.walkRate != null && Number(s.walkRate) < 7) output.push('limited walks');
+    if (s.slg != null && Number(s.slg) < .400) output.push('limited current impact');
   }
-  if (injuryFor(player)) result.push('current health uncertainty');
-  return result.slice(0, 3);
+  if (injuryFor(player)) output.push('health uncertainty');
+  return output.slice(0, 3);
 }
 
-function playerReport(player: AnyRecord, question: string) {
-  const injury = injuryFor(player);
-  const promos = promosFor(player);
-  const articles = newsFor(player);
+function performanceScore(player: Row) {
+  const s = statFor(player)?.stats || {};
+  if (s.type === 'pitching') return Math.max(0, 65 - Number(s.era || 8) * 7 + Number(s.kPer9 || 0) * 2.5 - Math.max(0, Number(s.bbPer9 || 3) - 3) * 5);
+  if (s.type === 'hitting') return Number(s.ops || 0) * 85 + Math.max(0, 23 - Number(s.strikeoutRate || 23)) + Number(s.walkRate || 0) * .5 + Number(s.stolenBases || 0) * .15;
+  return Number(player.components?.performance || 0) * 3;
+}
+
+function readiness(player: Row) {
+  const levels: Record<string, number> = { MLB: 95, AAA: 78, AA: 58, 'A+': 39, A: 24, Rookie: 10 };
+  let value = levels[player.level] ?? 15;
+  value += Math.max(-8, Math.min(12, performanceScore(player) / 10));
+  if (injuryFor(player)) value -= 20;
+  return Math.round(Math.max(5, Math.min(95, value)));
+}
+
+function momentum(player: Row) {
+  return performanceScore(player) + Number(player.change || 0) * 5 + promotionsFor(player).length * 4 - (injuryFor(player) ? 18 : 0);
+}
+
+function playerAnswer(player: Row, question: string) {
   const good = strengths(player);
-  const concerns = weaknesses(player);
-  const movement = player.change > 0 ? `up ${player.change} places` : player.change < 0 ? `down ${Math.abs(player.change)} places` : 'unchanged';
-  const reasons = (player.reasons || []).filter(Boolean).slice(0, 3);
-  const askingWhyNot = has(question, 'why isn', 'why is not', 'not in philadelphia', 'not in mlb', 'not called up');
-
-  let answer = `${player.player} is currently ranked #${player.rank} by Prospect Pulse with a ${Number(player.score).toFixed(1)} score. The ranking is ${movement}, and the current statistical snapshot is ${statLine(player)}.`;
-  if (good.length) answer += ` The strongest evidence in his profile is ${good.join(', ')}.`;
-  if (concerns.length) answer += ` The main caution is ${concerns.join(', ')}.`;
-  if (injury) answer += ` Health matters here: ${injury.timeline || injury.status || injury.injury || 'an injury is currently tracked'}.`;
-  else answer += ` There is no current injury flag in the tracker.`;
-
-  if (askingWhyNot) {
-    const ready = readiness(player);
-    answer += ` My free-engine readiness estimate is ${ready}/100. ${player.level === 'AAA' ? 'Being at Triple-A puts him near the final developmental step, but a call-up still depends on sustained performance, roster opportunity, and whether the organization believes the remaining weaknesses are manageable.' : `At ${player.level || 'his current level'}, the largest obstacle is simply developmental distance from the majors.`}`;
-  }
-
-  if (reasons.length) answer += ` The ranking is being driven by ${reasons.join('; ')}.`;
-  if (promos.length) answer += ` The memory log includes ${promos.slice(0, 2).map(p => p.description || `${p.fromLevel || 'a lower level'} to ${p.toLevel || 'a higher level'}`).join(' and ')}.`;
-  if (articles.length) answer += ` Recent tracked coverage adds ${articles.length} player-specific signal${articles.length === 1 ? '' : 's'}, but repeated coverage is not treated as independent proof.`;
-
-  const next = concerns[0] || (player.level === 'AAA' ? 'force the issue with sustained production and wait for a roster opening' : 'translate the current strengths against more advanced competition');
-  answer += ` What has to happen next: ${next}. Confidence is ${confidence(player)} because this answer is based on ${statFor(player) ? 'current statistics, ' : ''}the live ranking model${promos.length ? ', transaction history' : ''}${articles.length ? ', and tracked reporting' : ''}, while pitch-level, platoon, and multi-month trend data remain limited.`;
+  const bad = concerns(player);
+  const injury = injuryFor(player);
+  const asksReadiness = includesAny(question, ['ready', 'call up', 'called up', 'philadelphia', 'mlb', 'eta']);
+  const asksRank = includesAny(question, ['rank', 'ranking', 'why']);
+  let answer = `${player.player} is currently #${player.rank} in Prospect Pulse at ${player.level || 'an unknown level'}. His current line is ${statLine(player)}.`;
+  if (good.length) answer += ` The best evidence in the profile is ${good.join(', ')}.`;
+  if (bad.length) answer += ` The main concern is ${bad.join(', ')}.`;
+  if (injury) answer += ` He is also carrying an active health flag: ${injury.timeline || injury.status || injury.injury}.`;
+  if (asksReadiness) answer += ` The model's current MLB-readiness estimate is ${readiness(player)}/100. That reflects level, production and health—not inside information from the Phillies.`;
+  if (asksRank && player.reasons?.length) answer += ` The ranking is primarily supported by ${player.reasons.slice(0, 3).join('; ')}.`;
+  answer += ` The next thing to watch is ${bad[0] || (player.level === 'AAA' ? 'whether sustained performance creates a roster opportunity' : 'how the production translates against more advanced competition')}.`;
   return answer;
 }
 
-function comparePlayers(players: AnyRecord[]) {
+function compareAnswer(players: Row[]) {
   const [a, b] = players;
-  const aGood = strengths(a); const bGood = strengths(b);
-  const aConcern = weaknesses(a); const bConcern = weaknesses(b);
-  const leader = a.score >= b.score ? a : b;
-  return `${a.player} versus ${b.player} is a choice between two different evidence profiles. ${a.player} is #${a.rank} at ${a.level || 'an unknown level'} with a ${a.score.toFixed(1)} Pulse score and this line: ${statLine(a)}. ${b.player} is #${b.rank} at ${b.level || 'an unknown level'} with a ${b.score.toFixed(1)} score and this line: ${statLine(b)}.\n\n${a.player}'s clearest strengths are ${aGood.join(', ') || 'not yet clearly separated by the available data'}; the main concern is ${aConcern.join(', ') || 'the lack of deeper trend data'}. ${b.player}'s clearest strengths are ${bGood.join(', ') || 'not yet clearly separated by the available data'}; the main concern is ${bConcern.join(', ') || 'the lack of deeper trend data'}.\n\nRight now, the model gives ${leader.player} the edge because of the stronger combined scouting, performance, age-level, sentiment, movement, and risk profile. Readiness estimates are ${readiness(a)}/100 for ${a.player} and ${readiness(b)}/100 for ${b.player}. Those are transparent estimates, not organizational information. Confidence is moderate because the comparison is grounded in current structured data but does not yet have full tool grades, platoon splits, pitch shapes, or historical game-by-game trends.`;
+  const winner = Number(a.score) >= Number(b.score) ? a : b;
+  return `${a.player} is #${a.rank} at ${a.level || 'an unknown level'} with ${statLine(a)}. ${b.player} is #${b.rank} at ${b.level || 'an unknown level'} with ${statLine(b)}.\n\n${a.player}'s best traits in the available data are ${strengths(a).join(', ') || 'not clearly separated yet'}, while the caution is ${concerns(a).join(', ') || 'limited supporting detail'}. ${b.player}'s best traits are ${strengths(b).join(', ') || 'not clearly separated yet'}, while the caution is ${concerns(b).join(', ') || 'limited supporting detail'}.\n\nRight now I would lean ${winner.player}, based on the stronger combined ranking, production, level and risk profile. Readiness estimates are ${readiness(a)}/100 and ${readiness(b)}/100, respectively.`;
 }
 
-function listAnswer(question: string) {
-  let pool = [...rankings].filter(player => !injuryFor(player));
-  let title = 'The strongest current answer is';
-  if (has(question, 'pitcher', 'pitching', 'left handed pitcher', 'right handed pitcher')) pool = pool.filter(p => /P|RHP|LHP/i.test(p.position || ''));
-  if (has(question, 'hitter', 'hitters', 'position player')) pool = pool.filter(p => !/P|RHP|LHP/i.test(p.position || ''));
+function rankedList(question: string) {
+  let pool = [...rankings];
+  if (includesAny(question, ['pitcher', 'pitching'])) pool = pool.filter(isPitcher);
+  if (includesAny(question, ['hitter', 'position player'])) pool = pool.filter(player => !isPitcher(player));
 
-  if (has(question, 'underrated', 'sleeper', 'breakout')) {
-    title = 'The best underrated or breakout candidates are';
-    pool = pool.filter(p => p.rank > 7).sort((a, b) => momentumScore(b) - momentumScore(a));
-  } else if (has(question, 'closest', 'promotion', 'called up', 'reach mlb', 'ready')) {
-    title = 'The best near-term promotion candidates are';
-    pool.sort((a, b) => readiness(b) - readiness(a));
-  } else if (has(question, 'improved', 'hottest', 'trending up', 'momentum')) {
-    title = 'The strongest current momentum belongs to';
-    pool.sort((a, b) => momentumScore(b) - momentumScore(a));
-  } else if (has(question, 'risk', 'concern', 'trending down', 'falling')) {
-    title = 'The most concerning current profiles are';
-    pool = [...rankings].sort((a, b) => (injuryFor(b) ? 20 : 0) + Math.max(0, -b.change) * 5 - momentumScore(b) - ((injuryFor(a) ? 20 : 0) + Math.max(0, -a.change) * 5 - momentumScore(a)));
+  let intro = 'The strongest current profiles are';
+  if (includesAny(question, ['underrated', 'sleeper', 'breakout'])) {
+    intro = 'My best underrated candidates right now are';
+    pool = pool.filter(player => player.rank > 7 && !injuryFor(player)).sort((a, b) => momentum(b) - momentum(a));
+  } else if (includesAny(question, ['ready', 'closest', 'call up', 'called up', 'debut', 'reach mlb'])) {
+    intro = 'The closest current MLB candidates are';
+    pool = pool.filter(player => !injuryFor(player)).sort((a, b) => readiness(b) - readiness(a));
+  } else if (includesAny(question, ['improved', 'hot', 'hottest', 'momentum', 'trending up'])) {
+    intro = 'The strongest current momentum belongs to';
+    pool = pool.filter(player => !injuryFor(player)).sort((a, b) => momentum(b) - momentum(a));
+  } else if (includesAny(question, ['risk', 'concern', 'cold', 'falling', 'trending down'])) {
+    intro = 'The profiles carrying the most concern are';
+    pool.sort((a, b) => (injuryFor(b) ? 25 : 0) + Math.max(0, -Number(b.change || 0)) * 5 - momentum(b) - ((injuryFor(a) ? 25 : 0) + Math.max(0, -Number(a.change || 0)) * 5 - momentum(a)));
   } else {
     pool.sort((a, b) => a.rank - b.rank);
   }
 
-  const selected = pool.slice(0, 5);
-  if (!selected.length) return 'I do not have enough matching evidence to answer that reliably yet.';
-  const lines = selected.map((p, index) => `${index + 1}. ${p.player}: #${p.rank}, ${p.level || 'level unknown'}, ${statLine(p)}. The case is built around ${strengths(p).join(', ') || 'his overall Pulse profile'}${weaknesses(p).length ? `; the caution is ${weaknesses(p).join(', ')}` : ''}.`);
-  return `${title}:\n\n${lines.join('\n')}\n\nThis ordering combines present production, ranking movement, scouting score, news sentiment, level, promotion history, and health. Confidence is moderate: it is stronger than a keyword lookup, but true trend analysis will improve once the project stores dated stat snapshots rather than only the latest season line.`;
+  const chosen = pool.slice(0, 5);
+  if (!chosen.length) return 'I do not have enough matching data to answer that yet.';
+  return `${intro}:\n\n${chosen.map((player, index) => `${index + 1}. ${player.player} — #${player.rank}, ${player.level || 'level unknown'}, ${statLine(player)}. Best signal: ${strengths(player)[0] || 'overall model strength'}${concerns(player)[0] ? `; concern: ${concerns(player)[0]}` : ''}.`).join('\n')}\n\nThis is a model ranking built from the current data snapshot, not an organizational depth chart.`;
 }
 
-function resolveFollowUp(question: string, history: AnyRecord[]) {
-  if (playerMatches(question).length) return question;
-  const prior = [...history].reverse().find(message => message.role === 'user' && playerMatches(String(message.content || '')).length);
-  if (!prior) return question;
-  if (has(question, 'him', 'he', 'his', 'that player', 'why', 'what about')) return `${question} ${prior.content}`;
-  return question;
+function explicitFollowUp(question: string) {
+  const q = words(question);
+  return ['he', 'him', 'his'].some(word => q.has(word)) || includesAny(question, ['that player', 'the first one', 'the second one', 'compare him']);
+}
+
+function lastMentionedPlayer(history: Row[]) {
+  for (const message of [...history].reverse()) {
+    const matches = findPlayers(String(message.content || ''));
+    if (matches.length) return matches[0];
+  }
+  return null;
 }
 
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    const rawQuestion = typeof body.question === 'string' ? body.question.trim() : '';
+    const question = typeof body.question === 'string' ? body.question.trim() : '';
     const history = Array.isArray(body.history) ? body.history.slice(-8) : [];
-    if (!rawQuestion) return NextResponse.json({ error: 'Ask the Genie a question.' }, { status: 400 });
-    if (rawQuestion.length > 1000) return NextResponse.json({ error: 'Please keep the question under 1,000 characters.' }, { status: 400 });
+    if (!question) return NextResponse.json({ error: 'Ask the Genie a question.' }, { status: 400 });
 
-    const question = resolveFollowUp(rawQuestion, history);
-    const matched = playerMatches(question);
+    let matched = findPlayers(question);
+    if (!matched.length && explicitFollowUp(question)) {
+      const prior = lastMentionedPlayer(history);
+      if (prior) matched = [prior];
+    }
+
     let answer: string;
-    if (matched.length >= 2 || (matched.length === 2 && has(question, 'compare', 'versus', 'vs'))) answer = comparePlayers(matched.slice(0, 2));
-    else if (matched.length === 1) answer = playerReport(matched[0], question);
-    else answer = listAnswer(question);
+    if (matched.length >= 2) answer = compareAnswer(matched.slice(0, 2));
+    else if (matched.length === 1) answer = playerAnswer(matched[0], question);
+    else answer = rankedList(question);
 
-    return NextResponse.json({ answer, evidenceUpdatedAt: new Date().toISOString(), engine: 'Prospect Genie local reasoning engine' });
+    return NextResponse.json(
+      { answer, matchedPlayers: matched.map(player => player.player), engine: 'Prospect Genie rules engine v2', requestQuestion: question },
+      { headers: { 'Cache-Control': 'no-store, max-age=0' } }
+    );
   } catch (error) {
     console.error('Prospect Genie route error:', error);
     return NextResponse.json({ error: 'The Genie hit an unexpected error.' }, { status: 500 });
