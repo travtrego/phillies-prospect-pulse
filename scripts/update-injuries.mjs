@@ -1,4 +1,4 @@
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 const affiliateNames = [
@@ -12,39 +12,9 @@ const affiliateNames = [
 const placedOnIl = /placed .* on (?:the )?(?:(\d+)-day |full-season )?(?:injured|disabled) list|assigned .* to (?:the )?(?:(\d+)-day |full-season )?(?:injured|disabled) list/i;
 const removedFromIl = /activated|reinstated|returned from .*?(?:injured|disabled) list|transferred .* from .*?(?:injured|disabled) list|released|retired/i;
 const positionPattern = /\b(RHP|LHP|P|C|1B|2B|3B|SS|LF|CF|RF|OF|INF|UTIL|DH)\b/;
-const injuryPatterns = [
-  [/(tommy john|ucl tear|ucl surgery|elbow surgery|elbow inflammation|elbow soreness|elbow injury)/i, "Elbow/UCL"],
-  [/(shoulder surgery|shoulder inflammation|shoulder soreness|shoulder injury|rotator cuff|labrum)/i, "Shoulder"],
-  [/(hamstring strain|hamstring injury|hamstring tightness)/i, "Hamstring"],
-  [/(oblique strain|oblique injury)/i, "Oblique"],
-  [/(back strain|back injury|lower-back|lower back)/i, "Back"],
-  [/(wrist fracture|wrist sprain|wrist injury|wrist surgery)/i, "Wrist"],
-  [/(hand fracture|hand injury|finger fracture|finger injury|thumb injury)/i, "Hand/Finger"],
-  [/(ankle sprain|ankle injury|ankle fracture)/i, "Ankle"],
-  [/(knee surgery|knee injury|acl tear|mcl sprain|meniscus)/i, "Knee"],
-  [/(foot injury|foot fracture|toe injury|toe fracture)/i, "Foot/Toe"],
-  [/(hip injury|hip strain|groin strain|groin injury)/i, "Hip/Groin"],
-  [/(concussion)/i, "Concussion"],
-  [/(illness)/i, "Illness"]
-];
 
 function isoDate(date) {
   return date.toISOString().slice(0, 10);
-}
-
-function decodeXml(value = "") {
-  return value
-    .replace(/<!\[CDATA\[|\]\]>/g, "")
-    .replace(/&amp;/g, "&")
-    .replace(/&quot;/g, '"')
-    .replace(/&#39;/g, "'")
-    .replace(/&lt;/g, "<")
-    .replace(/&gt;/g, ">");
-}
-
-function extractTag(item, tag) {
-  const match = item.match(new RegExp(`<${tag}[^>]*>([\\s\\S]*?)<\\/${tag}>`, "i"));
-  return decodeXml(match?.[1]?.trim() ?? "");
 }
 
 function normalizeTimeline(description) {
@@ -56,13 +26,6 @@ function normalizeTimeline(description) {
 
 function extractPosition(description) {
   return description.match(positionPattern)?.[1] ?? "Unknown";
-}
-
-function extractInjury(text) {
-  for (const [pattern, label] of injuryPatterns) {
-    if (pattern.test(text)) return label;
-  }
-  return null;
 }
 
 async function resolveAffiliates() {
@@ -95,44 +58,47 @@ async function fetchPlayerPosition(playerId, fallback) {
   }
 }
 
-async function fetchNewsItems(query) {
-  const url = `https://news.google.com/rss/search?q=${encodeURIComponent(query)}&hl=en-US&gl=US&ceid=US:en`;
-  const response = await fetch(url, { headers: { "User-Agent": "Phillies-Prospect-Pulse/1.0" } });
-  if (!response.ok) return [];
-  const xml = await response.text();
-  return xml.match(/<item>[\s\S]*?<\/item>/gi) ?? [];
+async function loadNewsUniverse() {
+  try {
+    const file = await readFile(path.join(process.cwd(), "data", "news.json"), "utf8");
+    const payload = JSON.parse(file);
+    return Array.isArray(payload.articles) ? payload.articles : [];
+  } catch (error) {
+    console.warn("Could not load shared news universe:", error.message);
+    return [];
+  }
 }
 
-async function findNewsInjury(record) {
-  const queries = [
-    `\"${record.player}\" injury Phillies`,
-    `\"${record.player}\" injured list`,
-    `\"${record.player}\" ${record.affiliate}`
-  ];
+function findNewsInjury(record, articles) {
+  const playerName = record.player.toLowerCase();
+  const affiliateName = record.affiliate.toLowerCase();
 
-  try {
-    for (const query of queries) {
-      const items = await fetchNewsItems(query);
+  const matches = articles
+    .filter((article) => article.injury)
+    .filter((article) => {
+      const text = `${article.title ?? ""} ${article.summary ?? ""}`.toLowerCase();
+      return text.includes(playerName);
+    })
+    .map((article) => {
+      const text = `${article.title ?? ""} ${article.summary ?? ""}`.toLowerCase();
+      let score = 3;
+      if (text.includes(affiliateName)) score += 2;
+      if ((article.tags ?? []).includes("injury")) score += 2;
+      if ((article.tags ?? []).includes("rehab")) score += 1;
+      return { article, score };
+    })
+    .sort((a, b) => b.score - a.score || new Date(b.article.publishedAt ?? 0) - new Date(a.article.publishedAt ?? 0));
 
-      for (const item of items.slice(0, 12)) {
-        const title = extractTag(item, "title");
-        const description = extractTag(item, "description").replace(/<[^>]+>/g, " ");
-        const link = extractTag(item, "link");
-        const publishedAt = extractTag(item, "pubDate");
-        const combined = `${title} ${description}`;
-        const lower = combined.toLowerCase();
-        const injury = extractInjury(combined);
+  const best = matches[0]?.article;
+  if (!best) return null;
 
-        if (injury && lower.includes(record.player.toLowerCase())) {
-          return { injury, newsSource: link, newsHeadline: title, newsPublishedAt: publishedAt || null };
-        }
-      }
-    }
-  } catch (error) {
-    console.warn(`News lookup failed for ${record.player}:`, error.message);
-  }
-
-  return null;
+  return {
+    injury: best.injury,
+    newsSource: best.url,
+    newsHeadline: best.title,
+    newsPublishedAt: best.publishedAt ?? null,
+    injuryConfidence: matches[0].score >= 7 ? "high" : "medium"
+  };
 }
 
 async function fetchAffiliateTransactions(affiliate) {
@@ -180,6 +146,7 @@ async function fetchAffiliateTransactions(affiliate) {
 
 async function main() {
   const affiliates = await resolveAffiliates();
+  const newsArticles = await loadNewsUniverse();
   const results = await Promise.allSettled(affiliates.map(fetchAffiliateTransactions));
   const records = [];
   const errors = [];
@@ -191,7 +158,7 @@ async function main() {
 
   for (const record of records) {
     record.position = await fetchPlayerPosition(record.playerId, record.position);
-    const newsMatch = await findNewsInjury(record);
+    const newsMatch = findNewsInjury(record, newsArticles);
     if (newsMatch) Object.assign(record, newsMatch);
   }
 
@@ -202,7 +169,7 @@ async function main() {
   await mkdir(outputDir, { recursive: true });
   await writeFile(path.join(outputDir, "injuries.json"), `${JSON.stringify(output, null, 2)}\n`, "utf8");
 
-  console.log(`Saved ${records.length} active injury records; ${records.filter((record) => record.newsSource).length} enriched from news.`);
+  console.log(`Saved ${records.length} active injury records; ${records.filter((record) => record.newsSource).length} matched from shared news.`);
   if (errors.length) console.warn("Some affiliate transaction feeds failed:", errors);
 }
 
