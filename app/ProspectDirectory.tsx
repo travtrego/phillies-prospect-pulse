@@ -96,12 +96,11 @@ export default function ProspectDirectory({ players }: { players: Player[] }) {
               <div><span>Bats / Throws</span><strong>{player.bats ?? '—'} / {player.throws ?? '—'}</strong></div>
             </div>
             <div className="scoutingBlock">
-              <div className="scoutingHeader"><h4>Scouting report</h4><span>{formatDate(player.scouting_last_reviewed_at)}</span></div>
+              <div className="scoutingHeader"><h4>Scouting snapshot</h4><span>{formatDate(player.scouting_last_reviewed_at)}</span></div>
               <p>{player.scouting_summary ?? 'A current public scouting report has not yet been added for this player.'}</p>
               {player.scouting_grades && <div className="grades">{Object.entries(player.scouting_grades).map(([tool, grade]) => <span key={tool}><b>{tool}</b>{grade}</span>)}</div>}
-              {player.scouting_source_url && <a href={player.scouting_source_url} target="_blank" rel="noreferrer">View source report →</a>}
             </div>
-            <Link className="statsLink" href={`/players/${player.id}`}>View personal stats →</Link>
+            <Link className="statsLink" href={`/players/${player.id}`}>Open full player profile →</Link>
             <footer><span>{player.source_name}</span><span>Checked {formatDate(player.source_last_verified_at)}</span></footer>
           </article>
         ))}
