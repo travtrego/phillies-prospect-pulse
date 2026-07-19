@@ -8,20 +8,21 @@ import { applyHistoricalIntelligence } from '../../../lib/genie/history';
 import { analyzeOrganization, isOrganizationQuestion } from '../../../lib/genie/organization';
 import { isSimulationQuestion, simulateScenario } from '../../../lib/genie/simulation';
 import { buildFrontOfficeReport, isFrontOfficeQuestion } from '../../../lib/genie/frontoffice';
+import { buildDevelopmentDossier, isDevelopmentQuestion } from '../../../lib/genie/development';
+import { normalizeText } from '../../../lib/genie/shared';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
 
 type Row = Record<string, any>;
 const rankings = rankingsData.records as Row[];
-const normalize = (value = '') => value.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim();
-const wordSet = (value = '') => new Set(normalize(value).split(' ').filter(Boolean));
+const wordSet = (value = '') => new Set(normalizeText(value).split(' ').filter(Boolean));
 
 function findPlayerNames(question:string){
-  const q=normalize(question);
+  const q=normalizeText(question);
   const qWords=wordSet(question);
   return rankings.filter(player=>{
-    const full=normalize(player.player);
+    const full=normalizeText(player.player);
     const last=full.split(' ').at(-1)||'';
     return q.includes(full)||(last.length>=4&&qWords.has(last));
   }).map(player=>player.player);
@@ -39,71 +40,53 @@ export async function POST(request:NextRequest){
     let matchedPlayers=findPlayerNames(question);
     if(!matchedPlayers.length)matchedPlayers=resolveFollowUpPlayers(question,memory);
 
-    if(isSimulationQuestion(question)){
-      const simulation=simulateScenario(question);
+    if(isDevelopmentQuestion(question)){
+      if(!matchedPlayers.length){
+        return NextResponse.json({
+          answer:'Name a Phillies prospect so I can build a development dossier and compare current evidence with historical snapshots.',
+          matchedPlayers:[],
+          engine:'Prospect Genie development intelligence v9.0',
+          intent:{task:'development_dossier',metric:'development_trajectory',filters:{},limit:1},
+          confidence:'low',
+          limitations:['A player must be identified before development trends can be evaluated.'],
+          memory:{activePlayers:memory.activePlayers.slice(0,5)},
+          requestQuestion:question
+        },{headers:{'Cache-Control':'no-store, max-age=0'}});
+      }
+      const development=await buildDevelopmentDossier(matchedPlayers[0]);
       return NextResponse.json({
-        answer:simulation.answer,
+        answer:development.answer,
         matchedPlayers,
-        engine:'Prospect Genie Phillies digital front office v8.0',
-        intent:{task:'simulate_scenario',metric:'system_impact',filters:{},limit:simulation.actions.length},
+        engine:'Prospect Genie development intelligence v9.0',
+        intent:{task:'development_dossier',metric:'development_trajectory',filters:{},limit:development.trajectories.length},
         plan:[
-          {tool:'cloneOrganizationState',description:'Create an isolated copy of the current tracked prospect system.'},
-          {tool:'parseScenarioActions',description:'Identify promotions, graduations, injuries, trades and draft additions.'},
-          {tool:'applyScenario',description:'Apply changes without modifying live prospect data.'},
-          {tool:'rescoreOrganization',description:'Recalculate system and position-group depth after the scenario.'},
-          {tool:'compareOutcomes',description:'Measure winners, risks and before-versus-after changes.'},
-          {tool:'recommendResponse',description:'Suggest development or roster responses to the modeled effects.'}
+          {tool:'loadCurrentPlayerState',description:'Load the current ranking, level, statistics, health and promotion records.'},
+          {tool:'loadHistoricalSnapshots',description:'Retrieve comparable player snapshots in chronological order.'},
+          {tool:'separatePerformanceFromDevelopment',description:'Measure changes in underlying skills rather than relying on one current stat line.'},
+          {tool:'classifySkillTrajectories',description:'Mark contact, discipline, power, command, workload and production as improving, declining or stable.'},
+          {tool:'buildLivingDossier',description:'Create a current focus, concern, milestone, confidence score and development narrative.'}
         ],
-        confidence:simulation.actions.length?'moderate':'low',
-        limitations:simulation.assumptions,
-        simulation,
+        confidence:development.developmentConfidence>=70?'high':development.developmentConfidence>=40?'moderate':'low',
+        limitations:development.limitations,
+        development,
         memory:{activePlayers:memory.activePlayers.slice(0,5)},
         requestQuestion:question
       },{headers:{'Cache-Control':'no-store, max-age=0'}});
+    }
+
+    if(isSimulationQuestion(question)){
+      const simulation=simulateScenario(question);
+      return NextResponse.json({answer:simulation.answer,matchedPlayers,engine:'Prospect Genie development intelligence v9.0',intent:{task:'simulate_scenario',metric:'system_impact',filters:{},limit:simulation.actions.length},plan:[{tool:'cloneOrganizationState',description:'Create an isolated copy of the current tracked prospect system.'},{tool:'parseScenarioActions',description:'Identify promotions, graduations, injuries, trades and draft additions.'},{tool:'applyScenario',description:'Apply changes without modifying live prospect data.'},{tool:'rescoreOrganization',description:'Recalculate system and position-group depth after the scenario.'},{tool:'compareOutcomes',description:'Measure winners, risks and before-versus-after changes.'},{tool:'recommendResponse',description:'Suggest development or roster responses to the modeled effects.'}],confidence:simulation.actions.length?'moderate':'low',limitations:simulation.assumptions,simulation,memory:{activePlayers:memory.activePlayers.slice(0,5)},requestQuestion:question},{headers:{'Cache-Control':'no-store, max-age=0'}});
     }
 
     if(isFrontOfficeQuestion(question)){
       const frontOffice=buildFrontOfficeReport(question,matchedPlayers);
-      return NextResponse.json({
-        answer:frontOffice.answer,
-        matchedPlayers,
-        engine:'Prospect Genie Phillies digital front office v8.0',
-        intent:{task:'phillies_development_decision',metric:'promotion_readiness',filters:{},limit:frontOffice.promotionBoard.length},
-        plan:[
-          {tool:'mapAffiliateAssignments',description:'Build the current Phillies affiliate and level map.'},
-          {tool:'measurePlayingTimePressure',description:'Identify same-level positional competition and likely blockers.'},
-          {tool:'scorePromotionReadiness',description:'Combine prospect quality, performance, age-level fit, momentum and health.'},
-          {tool:'explainDecisionDrivers',description:'Separate evidence supporting promotion from reasons to hold.'},
-          {tool:'recommendDevelopmentAction',description:'Return a promote, monitor, hold or rehab recommendation.'}
-        ],
-        confidence:frontOffice.subject?'moderate':'moderate',
-        limitations:['Exact plate appearances, innings targets, defensive assignments and private scouting reports are not yet integrated.','Affiliate roster listings are inferred from the currently tracked prospect dataset and may not represent every organizational player.'],
-        frontOffice,
-        memory:{activePlayers:memory.activePlayers.slice(0,5)},
-        requestQuestion:question
-      },{headers:{'Cache-Control':'no-store, max-age=0'}});
+      return NextResponse.json({answer:frontOffice.answer,matchedPlayers,engine:'Prospect Genie development intelligence v9.0',intent:{task:'phillies_development_decision',metric:'promotion_readiness',filters:{},limit:frontOffice.promotionBoard.length},plan:[{tool:'mapAffiliateAssignments',description:'Build the current Phillies affiliate and level map.'},{tool:'measurePlayingTimePressure',description:'Identify same-level positional competition and likely blockers.'},{tool:'scorePromotionReadiness',description:'Combine prospect quality, performance, age-level fit, momentum and health.'},{tool:'explainDecisionDrivers',description:'Separate evidence supporting promotion from reasons to hold.'},{tool:'recommendDevelopmentAction',description:'Return a promote, monitor, hold or rehab recommendation.'}],confidence:'moderate',limitations:['Exact plate appearances, innings targets, defensive assignments and private scouting reports are not yet integrated.','Affiliate roster listings are inferred from the currently tracked prospect dataset and may not represent every organizational player.'],frontOffice,memory:{activePlayers:memory.activePlayers.slice(0,5)},requestQuestion:question},{headers:{'Cache-Control':'no-store, max-age=0'}});
     }
 
     if(isOrganizationQuestion(question)&&!matchedPlayers.length){
       const organization=analyzeOrganization(question);
-      return NextResponse.json({
-        answer:organization.answer,
-        matchedPlayers:[],
-        engine:'Prospect Genie Phillies digital front office v8.0',
-        intent:{task:'organizational_analysis',metric:'system_depth',filters:{},limit:organization.groups.length},
-        plan:[
-          {tool:'buildOrganizationMap',description:'Group the tracked system by position and level.'},
-          {tool:'scorePositionDepth',description:'Measure quality, quantity, proximity and injury exposure.'},
-          {tool:'detectSurplusesAndWeaknesses',description:'Identify strong, thin and overcrowded pipelines.'},
-          {tool:'findBlockedPlayers',description:'Flag upper-minors players facing internal depth pressure.'},
-          {tool:'recommendOrganizationActions',description:'Produce development, acquisition and trade recommendations.'}
-        ],
-        confidence:'moderate',
-        limitations:['This layer models the tracked prospect pool. Full MLB contracts, options, 40-man status and Rule 5 eligibility are not integrated yet.'],
-        organization,
-        memory:{activePlayers:memory.activePlayers.slice(0,5)},
-        requestQuestion:question
-      },{headers:{'Cache-Control':'no-store, max-age=0'}});
+      return NextResponse.json({answer:organization.answer,matchedPlayers:[],engine:'Prospect Genie development intelligence v9.0',intent:{task:'organizational_analysis',metric:'system_depth',filters:{},limit:organization.groups.length},plan:[{tool:'buildOrganizationMap',description:'Group the tracked system by position and level.'},{tool:'scorePositionDepth',description:'Measure quality, quantity, proximity and injury exposure.'},{tool:'detectSurplusesAndWeaknesses',description:'Identify strong, thin and overcrowded pipelines.'},{tool:'findBlockedPlayers',description:'Flag upper-minors players facing internal depth pressure.'},{tool:'recommendOrganizationActions',description:'Produce development, acquisition and trade recommendations.'}],confidence:'moderate',limitations:['This layer models the tracked prospect pool. Full MLB contracts, options, 40-man status and Rule 5 eligibility are not integrated yet.'],organization,memory:{activePlayers:memory.activePlayers.slice(0,5)},requestQuestion:question},{headers:{'Cache-Control':'no-store, max-age=0'}});
     }
 
     const intent=parseIntent(question,matchedPlayers);
@@ -111,23 +94,7 @@ export async function POST(request:NextRequest){
     const result=await applyHistoricalIntelligence(currentResult);
     const answer=writeAnswer(result);
 
-    return NextResponse.json({
-      answer,
-      matchedPlayers,
-      engine:'Prospect Genie Phillies digital front office v8.0',
-      intent:{task:intent.task,metric:intent.metric,filters:intent.filters,limit:intent.limit},
-      plan:result.plan.steps,
-      confidence:result.confidence,
-      limitations:result.limitations,
-      evidence:result.evidence.map(item=>({
-        player:item.player.player,
-        currentScores:item.scores,
-        projections:item.projections,
-        history:(item as any).history||null
-      })),
-      memory:{activePlayers:memory.activePlayers.slice(0,5)},
-      requestQuestion:question
-    },{headers:{'Cache-Control':'no-store, max-age=0'}});
+    return NextResponse.json({answer,matchedPlayers,engine:'Prospect Genie development intelligence v9.0',intent:{task:intent.task,metric:intent.metric,filters:intent.filters,limit:intent.limit},plan:result.plan.steps,confidence:result.confidence,limitations:result.limitations,evidence:result.evidence.map(item=>({player:item.player.player,currentScores:item.scores,projections:item.projections,history:(item as any).history||null})),memory:{activePlayers:memory.activePlayers.slice(0,5)},requestQuestion:question},{headers:{'Cache-Control':'no-store, max-age=0'}});
   }catch(error){
     console.error('Prospect Genie route error:',error);
     return NextResponse.json({error:'The Genie hit an unexpected error.'},{status:500});
