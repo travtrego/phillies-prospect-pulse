@@ -5,10 +5,12 @@ const hasAny = (value: string, terms: string[]) => terms.some(term => normalize(
 
 function parseLimit(question: string) {
   const q = normalize(question);
-  const digit = q.match(/\b(?:top|best|list|give me|show me)?\s*(\d{1,2})\b/);
-  if (digit) return Math.max(1, Math.min(10, Number(digit[1])));
+  const explicit = q.match(/\b(?:top|best|list|give me|show me)\s+(\d{1,2})\b/);
+  if (explicit) return Math.max(1, Math.min(10, Number(explicit[1])));
   const numbers: Record<string, number> = { one:1, two:2, three:3, four:4, five:5, six:6, seven:7, eight:8, nine:9, ten:10 };
-  for (const [word, value] of Object.entries(numbers)) if (new RegExp(`\\b${word}\\b`).test(q)) return value;
+  for (const [word, value] of Object.entries(numbers)) {
+    if (new RegExp(`\\b(?:top|best|list|give me|show me)\\s+${word}\\b`).test(q)) return value;
+  }
   return hasAny(q, ['who is', "who s", 'which prospect', 'best prospect']) ? 1 : 5;
 }
 
@@ -29,7 +31,7 @@ function parseMetric(question: string): GenieMetric {
 }
 
 function parseTask(question: string, playerCount: number): GenieTask {
-  if (hasAny(question, ['injury', 'injured', 'health', 'il ', 'injured list'])) return playerCount ? 'player_profile' : 'injury_report';
+  if (hasAny(question, ['injury', 'injured', 'health', 'on the il', 'injured list'])) return playerCount ? 'player_profile' : 'injury_report';
   if (hasAny(question, ['promoted', 'promotion', 'moved up', 'transaction'])) return playerCount ? 'player_profile' : 'promotion_report';
   if (playerCount >= 2 || hasAny(question, ['compare', 'versus', ' vs ', 'better than'])) return 'compare_players';
   if (playerCount === 1) return 'player_profile';
