@@ -1,11 +1,11 @@
-import rankingsData from '../../data/rankings.json';
 import statsData from '../../data/stats.json';
 import injuriesData from '../../data/injuries.json';
 import promotionsData from '../../data/promotions.json';
+import { enrichRankings } from '../ranking/intelligence';
 import type { GenieIntent, GenieMetric, GeniePlan, GenieResult, PlayerEvidence } from './types';
 import { decisionMetric, projectPlayer } from './projections';
 
-const rankings = rankingsData.records as Record<string, any>[];
+const rankings = enrichRankings() as Record<string, any>[];
 const stats = statsData.records as Record<string, any>[];
 const injuries = injuriesData.records as Record<string, any>[];
 const promotions = promotionsData.records as Record<string, any>[];
@@ -48,8 +48,7 @@ function scoreSet(player: Record<string, any>): Record<GenieMetric, number> {
   const strikeouts = s.type === 'pitching' ? clamp(finite(s.kPer9) * 8) : 0;
   const command = s.type === 'pitching' ? clamp(100 - finite(s.bbPer9, 6) * 14) : 0;
   const risk = clamp(100 - floor + healthPenalty);
-  const rawOverall = finite(player.score, NaN);
-  const overall = clamp(Number.isFinite(rawOverall) ? rawOverall : (scouting * .3 + perf * .25 + momentum * .2 + ageLevel * .1 + readiness * .1 + (100-risk) * .05));
+  const overall = clamp(finite(player.intelligence?.modelScore, finite(player.score)));
   return { overall, ceiling, floor, performance:perf, momentum, readiness, power, speed, contact, discipline, strikeouts, command, risk };
 }
 
