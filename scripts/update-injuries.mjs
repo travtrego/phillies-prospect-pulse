@@ -176,7 +176,8 @@ async function fetchAffiliateTransactions(affiliate) {
   transactions.sort((a, b) => new Date(a.effectiveDate ?? a.date ?? 0) - new Date(b.effectiveDate ?? b.date ?? 0)).forEach((transaction) => {
     const description = transaction.description ?? "";
     const playerId = transaction.person?.id ?? null;
-    const player = transaction.person?.fullName ?? description.split(" ").slice(0, 3).join(" ") || "Unknown player";
+    const fallbackPlayer = description.split(" ").slice(0, 3).join(" ");
+    const player = transaction.person?.fullName ?? (fallbackPlayer || "Unknown player");
     const key = playerId ? String(playerId) : normalizeName(player);
     if (placedOnIl.test(description)) {
       current.set(key, {
