@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T20:09:52.403Z",
+  "updatedAt": "2026-07-19T20:26:40.500Z",
   "season": 2026,
   "records": [
     {
@@ -4729,8 +4729,8 @@
       "stats": {
         "type": "hitting",
         "games": 100,
-        "plateAppearances": 420,
-        "atBats": 352,
+        "plateAppearances": 421,
+        "atBats": 353,
         "runs": 59,
         "hits": 91,
         "doubles": 18,
@@ -4739,12 +4739,12 @@
         "rbi": 59,
         "stolenBases": 5,
         "caughtStealing": 4,
-        "average": 0.259,
-        "obp": 0.364,
-        "slg": 0.491,
-        "ops": 0.855,
+        "average": 0.258,
+        "obp": 0.363,
+        "slg": 0.49,
+        "ops": 0.853,
         "walkRate": 14.5,
-        "strikeoutRate": 20.5,
+        "strikeoutRate": 20.7,
         "sourceDate": null
       }
     },
@@ -4983,8 +4983,8 @@
       "stats": {
         "type": "hitting",
         "games": 91,
-        "plateAppearances": 293,
-        "atBats": 272,
+        "plateAppearances": 294,
+        "atBats": 273,
         "runs": 28,
         "hits": 70,
         "doubles": 12,
@@ -4993,12 +4993,12 @@
         "rbi": 21,
         "stolenBases": 12,
         "caughtStealing": 3,
-        "average": 0.257,
-        "obp": 0.306,
-        "slg": 0.346,
-        "ops": 0.652,
+        "average": 0.256,
+        "obp": 0.305,
+        "slg": 0.344,
+        "ops": 0.649,
         "walkRate": 5.8,
-        "strikeoutRate": 20.8,
+        "strikeoutRate": 20.7,
         "sourceDate": null
       }
     },
@@ -5013,8 +5013,8 @@
       "stats": {
         "type": "hitting",
         "games": 96,
-        "plateAppearances": 426,
-        "atBats": 359,
+        "plateAppearances": 427,
+        "atBats": 360,
         "runs": 59,
         "hits": 91,
         "doubles": 10,
@@ -5024,11 +5024,11 @@
         "stolenBases": 2,
         "caughtStealing": 1,
         "average": 0.253,
-        "obp": 0.369,
-        "slg": 0.563,
-        "ops": 0.932,
-        "walkRate": 14.6,
-        "strikeoutRate": 34.3,
+        "obp": 0.368,
+        "slg": 0.561,
+        "ops": 0.929,
+        "walkRate": 14.5,
+        "strikeoutRate": 34.4,
         "sourceDate": null
       }
     },
@@ -5125,7 +5125,7 @@
       "stats": {
         "type": "hitting",
         "games": 97,
-        "plateAppearances": 427,
+        "plateAppearances": 428,
         "atBats": 397,
         "runs": 66,
         "hits": 96,
@@ -5136,10 +5136,10 @@
         "stolenBases": 17,
         "caughtStealing": 2,
         "average": 0.242,
-        "obp": 0.29,
+        "obp": 0.292,
         "slg": 0.375,
-        "ops": 0.665,
-        "walkRate": 6.1,
+        "ops": 0.667,
+        "walkRate": 6.3,
         "strikeoutRate": 22.2,
         "sourceDate": null
       }
