@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import "./injuries.css";
 
 type InjuryRecord = {
   playerId: number | null;
@@ -49,12 +50,14 @@ export default function InjuryReport({ records }: Props) {
             {affiliates.map((option) => <option key={option}>{option}</option>)}
           </select>
         </label>
+
         <label>
           <span>Position</span>
           <select value={position} onChange={(event) => setPosition(event.target.value)}>
             {positions.map((option) => <option key={option}>{option}</option>)}
           </select>
         </label>
+
         <strong>{filtered.length} players</strong>
       </div>
 
