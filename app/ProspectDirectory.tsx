@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { useMemo, useState } from 'react';
 
 export type Player = {
@@ -100,6 +101,7 @@ export default function ProspectDirectory({ players }: { players: Player[] }) {
               {player.scouting_grades && <div className="grades">{Object.entries(player.scouting_grades).map(([tool, grade]) => <span key={tool}><b>{tool}</b>{grade}</span>)}</div>}
               {player.scouting_source_url && <a href={player.scouting_source_url} target="_blank" rel="noreferrer">View source report →</a>}
             </div>
+            <Link className="statsLink" href={`/players/${player.id}`}>View personal stats →</Link>
             <footer><span>{player.source_name}</span><span>Checked {formatDate(player.source_last_verified_at)}</span></footer>
           </article>
         ))}
