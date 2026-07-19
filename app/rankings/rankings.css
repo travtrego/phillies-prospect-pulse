@@ -1,28 +1,24 @@
-.rankingsHeader .headerBadge { max-width: 240px; }
-.rankingsHeader .headerBadge strong { font-size: .85rem; line-height: 1.25; }
-.rankingMethod { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 12px; margin: 24px 0; }
-.rankingMethod div { background: var(--card, #fff); border: 1px solid rgba(30,41,59,.12); border-radius: 14px; padding: 16px; text-align: center; }
-.rankingMethod strong { display: block; font-size: 1.35rem; }
-.rankingMethod span { display: block; margin-top: 4px; text-transform: capitalize; font-size: .78rem; color: #64748b; }
-.rankingList { display: grid; gap: 16px; margin: 24px 0 48px; }
-.rankingCard { display: grid; grid-template-columns: 72px 1fr; gap: 18px; background: var(--card, #fff); border: 1px solid rgba(30,41,59,.12); border-radius: 18px; padding: 20px; }
-.rankNumber { display: grid; place-items: center; width: 58px; height: 58px; border-radius: 16px; background: #8b1020; color: white; font-size: 1.65rem; font-weight: 800; }
-.rankingTitleRow { display: flex; justify-content: space-between; gap: 16px; align-items: flex-start; }
-.rankingTitleRow h2 { margin: 0; }
-.rankingTitleRow p { margin: 4px 0 0; color: #64748b; }
-.rankScore { text-align: right; }
-.rankScore strong { display: block; font-size: 1.7rem; }
-.rankScore span { color: #64748b; font-size: .78rem; text-transform: uppercase; letter-spacing: .08em; }
-.rankMovement { display: flex; flex-wrap: wrap; gap: 14px 24px; margin: 16px 0; padding: 12px 0; border-top: 1px solid rgba(30,41,59,.1); border-bottom: 1px solid rgba(30,41,59,.1); font-size: .9rem; }
-.rankUp { color: #15803d; font-weight: 800; }
-.rankDown { color: #b91c1c; font-weight: 800; }
-.rankEven { color: #64748b; font-weight: 800; }
-.componentGrid { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 8px; }
-.componentGrid div { background: rgba(148,163,184,.1); border-radius: 10px; padding: 10px; }
-.componentGrid span { display: block; text-transform: capitalize; font-size: .72rem; color: #64748b; }
-.componentGrid strong { display: block; margin-top: 3px; }
-.rankReasons { margin-top: 16px; }
-.rankReasons ul { margin: 8px 0 0; padding-left: 20px; }
-.rankReasons li { margin: 4px 0; color: #475569; }
-@media (max-width: 850px) { .rankingMethod, .componentGrid { grid-template-columns: repeat(3, 1fr); } }
-@media (max-width: 560px) { .rankingMethod { grid-template-columns: repeat(2, 1fr); } .rankingCard { grid-template-columns: 48px 1fr; padding: 14px; gap: 12px; } .rankNumber { width: 44px; height: 44px; font-size: 1.25rem; } .rankingTitleRow { flex-direction: column; } .rankScore { text-align: left; } .componentGrid { grid-template-columns: repeat(2, 1fr); } }
+.rankingsHeader { border-left:5px solid var(--phillies-red); }
+.rankingSummaryGrid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; margin-bottom:22px; }
+.rankingSummaryGrid article,.moverPanel { padding:20px; border:1px solid var(--border); border-radius:16px; background:linear-gradient(145deg,rgba(15,26,44,.97),rgba(7,17,32,.98)); box-shadow:0 16px 38px rgba(0,0,0,.2); }
+.rankingSummaryGrid span { color:var(--muted); font-size:.65rem; font-weight:900; letter-spacing:.08em; text-transform:uppercase; }
+.rankingSummaryGrid strong { display:block; margin:8px 0 4px; font-size:2rem; }
+.rankingSummaryGrid p { margin:0; color:var(--muted); font-size:.76rem; line-height:1.45; }
+.moversGrid { display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-bottom:26px; }
+.moverPanel h2 { margin:6px 0 14px; }
+.moverPanel p { display:flex; justify-content:space-between; gap:16px; margin:0; padding:10px 0; border-top:1px solid var(--border); color:#dbe4ef; }
+.moverPanel p span { color:#ff9ba3; font-weight:900; }
+.rankingsToolbar { position:static; }
+.rankingTableWrap { overflow:auto; border:1px solid var(--border); border-radius:18px; background:linear-gradient(145deg,rgba(15,26,44,.97),rgba(7,17,32,.98)); box-shadow:0 16px 38px rgba(0,0,0,.2); }
+.rankingTable { width:100%; min-width:820px; border-collapse:collapse; }
+.rankingTable th,.rankingTable td { padding:15px 16px; border-bottom:1px solid var(--border); text-align:left; }
+.rankingTable th { color:var(--muted); font-size:.64rem; letter-spacing:.08em; text-transform:uppercase; }
+.rankingTable td { font-size:.82rem; }
+.rankingTable tbody tr:hover { background:rgba(255,255,255,.035); }
+.rankingNumber { color:#fff; }
+.rankingPlayer { font-weight:900; text-decoration:none; }
+.rankingPlayer:hover { color:#ff9ba3; }
+.trendUp { color:#8ce5b3; font-weight:900; }
+.trendDown { color:#ff8f98; font-weight:900; }
+.trendFlat { color:var(--muted); font-weight:900; }
+@media (max-width:850px) { .rankingSummaryGrid { grid-template-columns:1fr; } .moversGrid { grid-template-columns:1fr; } }
