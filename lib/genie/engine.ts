@@ -3,6 +3,7 @@ import statsData from '../../data/stats.json';
 import injuriesData from '../../data/injuries.json';
 import promotionsData from '../../data/promotions.json';
 import type { GenieIntent, GenieMetric, GeniePlan, GenieResult, PlayerEvidence } from './types';
+import { decisionMetric, projectPlayer } from './projections';
 
 const rankings = rankingsData.records as Record<string, any>[];
 const stats = statsData.records as Record<string, any>[];
@@ -50,12 +51,8 @@ function scoreSet(player: Record<string, any>): Record<GenieMetric, number> {
   return { overall, ceiling, floor, performance:perf, momentum, readiness, power, speed, contact, discipline, strikeouts, command, risk };
 }
 
-function strengths(player: Record<string, any>, scores: Record<GenieMetric, number>) {
-  return Object.entries(scores)
-    .filter(([metric]) => !['overall','risk','floor'].includes(metric))
-    .sort((a,b)=>b[1]-a[1])
-    .slice(0,3)
-    .map(([metric])=>metric.replace(/([A-Z])/g,' $1').toLowerCase());
+function strengths(_player: Record<string, any>, scores: Record<GenieMetric, number>) {
+  return Object.entries(scores).filter(([metric]) => !['overall','risk','floor'].includes(metric)).sort((a,b)=>b[1]-a[1]).slice(0,3).map(([metric])=>metric.replace(/([A-Z])/g,' $1').toLowerCase());
 }
 
 function concerns(player: Record<string, any>, scores: Record<GenieMetric, number>) {
@@ -75,6 +72,8 @@ function buildPlan(intent: GenieIntent): GeniePlan {
   if (intent.task === 'injury_report' || intent.filters.healthyOnly || intent.filters.injuredOnly || ['risk','floor','readiness'].includes(intent.metric)) steps.push({ tool:'getInjuries', description:'Check current health information.' });
   if (intent.task === 'promotion_report' || ['momentum','readiness'].includes(intent.metric)) steps.push({ tool:'getPromotions', description:'Check recent affiliate movement.' });
   steps.push({ tool:'scorePlayers', description:`Score the matching players for ${intent.metric}.` });
+  if (decisionMetric(intent.rawQuestion) || intent.asksProjection) steps.push({ tool:'projectPlayerOutcomes', description:'Estimate promotion, breakout, MLB, trade and protection outcomes.' });
+  if (decisionMetric(intent.rawQuestion)) steps.push({ tool:'makeFrontOfficeRecommendation', description:'Balance upside, floor, proximity, health and volatility into a recommendation.' });
   steps.push({ tool:'writeAnswer', description:'Explain the result using the strongest evidence and known limitations.' });
   return { intent, steps };
 }
@@ -100,18 +99,25 @@ function applyFilters(intent: GenieIntent) {
 
 export function runEngine(intent: GenieIntent): GenieResult {
   const plan = buildPlan(intent);
+  const selectedDecisionMetric = decisionMetric(intent.rawQuestion);
   const pool = applyFilters(intent);
   const evidence: PlayerEvidence[] = pool.map(player => {
     const scores = scoreSet(player);
-    return { player, stat:statFor(player), injury:injuryFor(player), promotions:promotionsFor(player), scores, strengths:strengths(player,scores), concerns:concerns(player,scores) };
+    const base={ player, stat:statFor(player), injury:injuryFor(player), promotions:promotionsFor(player), scores, strengths:strengths(player,scores), concerns:concerns(player,scores) };
+    return { ...base, projections:projectPlayer(base) };
   });
-  const direction = intent.metric === 'risk' ? -1 : 1;
-  evidence.sort((a,b)=>direction*(b.scores[intent.metric]-a.scores[intent.metric]));
+  if(selectedDecisionMetric){
+    evidence.sort((a,b)=>Number(b.projections?.[selectedDecisionMetric]||0)-Number(a.projections?.[selectedDecisionMetric]||0));
+  }else{
+    const direction = intent.metric === 'risk' ? -1 : 1;
+    evidence.sort((a,b)=>direction*(b.scores[intent.metric]-a.scores[intent.metric]));
+  }
   const selected = evidence.slice(0, intent.task === 'player_profile' || intent.task === 'compare_players' ? Math.max(intent.players.length,1) : intent.limit);
   const limitations:string[]=[];
   if (intent.filters.international && selected.some(item=>!countryFor(item.player))) limitations.push('Some birth-country fields are missing.');
   if (selected.some(item=>!item.stat)) limitations.push('At least one player does not have a current stat line.');
   if (!selected.length) limitations.push('No players matched every requested filter.');
+  if(selectedDecisionMetric)limitations.push('Projection scores are model estimates, not guarantees or externally sourced forecasts.');
   const confidence = !selected.length ? 'low' : limitations.length ? 'moderate' : 'high';
-  return { intent, plan, evidence:selected, confidence, limitations };
+  return { intent, plan, evidence:selected, decisionMetric:selectedDecisionMetric, confidence, limitations };
 }
