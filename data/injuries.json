@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T16:04:31.664Z",
+  "updatedAt": "2026-07-19T16:07:12.093Z",
   "records": [
     {
       "playerId": 804694,
@@ -10,7 +10,7 @@
       "status": "Clearwater Threshers placed LHP Kleyderve Andrade on the 60-day injured list.",
       "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-19&endDate=2026-07-19",
       "transactionDate": "2026-03-22",
-      "lastUpdated": "2026-07-19T16:04:31.006Z"
+      "lastUpdated": "2026-07-19T16:07:11.193Z"
     },
     {
       "playerId": 820837,
@@ -21,7 +21,7 @@
       "status": "Clearwater Threshers placed RHP Kyler Carmack on the 60-day injured list.",
       "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-19&endDate=2026-07-19",
       "transactionDate": "2026-03-22",
-      "lastUpdated": "2026-07-19T16:04:31.006Z"
+      "lastUpdated": "2026-07-19T16:07:11.193Z"
     },
     {
       "playerId": 808253,
@@ -32,7 +32,7 @@
       "status": "Clearwater Threshers placed C Yhoan Escalona on the full-season injured list.",
       "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-19&endDate=2026-07-19",
       "transactionDate": "2026-04-01",
-      "lastUpdated": "2026-07-19T16:04:31.006Z"
+      "lastUpdated": "2026-07-19T16:07:11.193Z"
     },
     {
       "playerId": 821486,
@@ -43,7 +43,7 @@
       "status": "Clearwater Threshers placed RHP Zack Tukis on the full-season injured list.",
       "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-19&endDate=2026-07-19",
       "transactionDate": "2026-04-01",
-      "lastUpdated": "2026-07-19T16:04:31.006Z"
+      "lastUpdated": "2026-07-19T16:07:11.193Z"
     },
     {
       "playerId": 816305,
@@ -54,7 +54,7 @@
       "status": "Lakeland Flying Tigers placed RHP Alistair Tanner on the full-season injured list.",
       "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=570&startDate=2025-07-19&endDate=2026-07-19",
       "transactionDate": "2026-07-17",
-      "lastUpdated": "2026-07-19T16:04:31.070Z"
+      "lastUpdated": "2026-07-19T16:07:11.202Z"
     },
     {
       "playerId": 808986,
@@ -65,7 +65,7 @@
       "status": "Lakeland Flying Tigers placed RHP Duque Hebbert on the 7-day injured list.",
       "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=570&startDate=2025-07-19&endDate=2026-07-19",
       "transactionDate": "2026-07-12",
-      "lastUpdated": "2026-07-19T16:04:31.070Z"
+      "lastUpdated": "2026-07-19T16:07:11.202Z"
     },
     {
       "playerId": 800508,
@@ -76,7 +76,7 @@
       "status": "Lakeland Flying Tigers placed SS Franyerber Montilla on the full-season injured list.",
       "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=570&startDate=2025-07-19&endDate=2026-07-19",
       "transactionDate": "2026-06-20",
-      "lastUpdated": "2026-07-19T16:04:31.070Z"
+      "lastUpdated": "2026-07-19T16:07:11.202Z"
     },
     {
       "playerId": 809898,
@@ -87,7 +87,7 @@
       "status": "Lakeland Flying Tigers placed RHP Joe Ruzicka on the 7-day injured list.",
       "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=570&startDate=2025-07-19&endDate=2026-07-19",
       "transactionDate": "2026-06-26",
-      "lastUpdated": "2026-07-19T16:04:31.070Z"
+      "lastUpdated": "2026-07-19T16:07:11.202Z"
     },
     {
       "playerId": 824716,
@@ -98,7 +98,7 @@
       "status": "Lakeland Flying Tigers placed RHP Joey Wimpelberg on the 7-day injured list.",
       "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=570&startDate=2025-07-19&endDate=2026-07-19",
       "transactionDate": "2026-04-02",
-      "lastUpdated": "2026-07-19T16:04:31.070Z"
+      "lastUpdated": "2026-07-19T16:07:11.202Z"
     },
     {
       "playerId": 800423,
@@ -109,7 +109,7 @@
       "status": "Lakeland Flying Tigers placed LHP Jorger Petri on the full-season injured list.",
       "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=570&startDate=2025-07-19&endDate=2026-07-19",
       "transactionDate": "2026-04-15",
-      "lastUpdated": "2026-07-19T16:04:31.070Z"
+      "lastUpdated": "2026-07-19T16:07:11.202Z"
     },
     {
       "playerId": 808383,
@@ -120,7 +120,7 @@
       "status": "Lakeland Flying Tigers placed RHP Kelvis Salcedo on the 7-day injured list.",
       "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=570&startDate=2025-07-19&endDate=2026-07-19",
       "transactionDate": "2026-06-03",
-      "lastUpdated": "2026-07-19T16:04:31.070Z"
+      "lastUpdated": "2026-07-19T16:07:11.202Z"
     },
     {
       "playerId": 695602,
@@ -131,7 +131,7 @@
       "status": "Lakeland Flying Tigers placed RHP Michael Massey on the 60-day injured list.",
       "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=570&startDate=2025-07-19&endDate=2026-07-19",
       "transactionDate": "2026-03-17",
-      "lastUpdated": "2026-07-19T16:04:31.070Z"
+      "lastUpdated": "2026-07-19T16:07:11.202Z"
     },
     {
       "playerId": 821932,
@@ -142,7 +142,7 @@
       "status": "Lakeland Flying Tigers placed RHP River Hamilton on the full-season injured list.",
       "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=570&startDate=2025-07-19&endDate=2026-07-19",
       "transactionDate": "2026-03-17",
-      "lastUpdated": "2026-07-19T16:04:31.070Z"
+      "lastUpdated": "2026-07-19T16:07:11.202Z"
     },
     {
       "playerId": 808345,
@@ -153,7 +153,7 @@
       "status": "Lakeland Flying Tigers placed RHP Wuilberth Mendez on the full-season injured list.",
       "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=570&startDate=2025-07-19&endDate=2026-07-19",
       "transactionDate": "2026-03-17",
-      "lastUpdated": "2026-07-19T16:04:31.070Z"
+      "lastUpdated": "2026-07-19T16:07:11.202Z"
     },
     {
       "playerId": 809137,
@@ -164,7 +164,7 @@
       "status": "Hudson Valley Renegades placed RHP Brian Hendry on the 60-day injured list.",
       "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=537&startDate=2025-07-19&endDate=2026-07-19",
       "transactionDate": "2026-03-17",
-      "lastUpdated": "2026-07-19T16:04:30.952Z"
+      "lastUpdated": "2026-07-19T16:07:11.169Z"
     },
     {
       "playerId": 692110,
@@ -175,7 +175,7 @@
       "status": "Hudson Valley Renegades placed SS Core Jackson on the 7-day injured list.",
       "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=537&startDate=2025-07-19&endDate=2026-07-19",
       "transactionDate": "2026-05-11",
-      "lastUpdated": "2026-07-19T16:04:30.952Z"
+      "lastUpdated": "2026-07-19T16:07:11.169Z"
     },
     {
       "playerId": 690977,
@@ -186,7 +186,7 @@
       "status": "Hudson Valley Renegades placed RHP Jackson Fristoe on the 7-day injured list.",
       "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=537&startDate=2025-07-19&endDate=2026-07-19",
       "transactionDate": "2026-05-30",
-      "lastUpdated": "2026-07-19T16:04:30.952Z"
+      "lastUpdated": "2026-07-19T16:07:11.169Z"
     },
     {
       "playerId": 809763,
@@ -197,7 +197,7 @@
       "status": "Hudson Valley Renegades placed SS Kaeden Kent on the 7-day injured list.",
       "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=537&startDate=2025-07-19&endDate=2026-07-19",
       "transactionDate": "2026-07-06",
-      "lastUpdated": "2026-07-19T16:04:30.952Z"
+      "lastUpdated": "2026-07-19T16:07:11.170Z"
     },
     {
       "playerId": 691411,
@@ -208,7 +208,7 @@
       "status": "Hudson Valley Renegades placed CF Luis Durango on the 7-day injured list.",
       "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=537&startDate=2025-07-19&endDate=2026-07-19",
       "transactionDate": "2026-04-02",
-      "lastUpdated": "2026-07-19T16:04:30.952Z"
+      "lastUpdated": "2026-07-19T16:07:11.169Z"
     },
     {
       "playerId": 695589,
@@ -219,7 +219,7 @@
       "status": "Hudson Valley Renegades placed RHP Ocean Gabonia on the full-season injured list.",
       "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=537&startDate=2025-07-19&endDate=2026-07-19",
       "transactionDate": "2026-04-15",
-      "lastUpdated": "2026-07-19T16:04:30.952Z"
+      "lastUpdated": "2026-07-19T16:07:11.169Z"
     },
     {
       "playerId": 689456,
@@ -230,7 +230,7 @@
       "status": "Reading Fightin Phils placed LF Austin Murr on the 7-day injured list.",
       "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-19&endDate=2026-07-19",
       "transactionDate": "2026-06-04",
-      "lastUpdated": "2026-07-19T16:04:30.957Z"
+      "lastUpdated": "2026-07-19T16:07:11.183Z"
     },
     {
       "playerId": 805634,
@@ -241,7 +241,7 @@
       "status": "Reading Fightin Phils placed LHP Braeden Fausnaught on the 60-day injured list.",
       "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-19&endDate=2026-07-19",
       "transactionDate": "2026-03-22",
-      "lastUpdated": "2026-07-19T16:04:30.956Z"
+      "lastUpdated": "2026-07-19T16:07:11.183Z"
     },
     {
       "playerId": 685319,
@@ -252,7 +252,7 @@
       "status": "Reading Fightin Phils placed RHP Braydon Tucker on the 7-day injured list.",
       "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-19&endDate=2026-07-19",
       "transactionDate": "2026-07-11",
-      "lastUpdated": "2026-07-19T16:04:30.957Z"
+      "lastUpdated": "2026-07-19T16:07:11.184Z"
     },
     {
       "playerId": 694310,
@@ -263,7 +263,7 @@
       "status": "Reading Fightin Phils placed 3B Bryson Ware on the 7-day injured list.",
       "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-19&endDate=2026-07-19",
       "transactionDate": "2026-06-29",
-      "lastUpdated": "2026-07-19T16:04:30.957Z"
+      "lastUpdated": "2026-07-19T16:07:11.184Z"
     },
     {
       "playerId": 701831,
@@ -274,7 +274,7 @@
       "status": "Reading Fightin Phils placed SS Carson DeMartini on the 7-day injured list.",
       "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-19&endDate=2026-07-19",
       "transactionDate": "2026-05-07",
-      "lastUpdated": "2026-07-19T16:04:30.957Z"
+      "lastUpdated": "2026-07-19T16:07:11.183Z"
     },
     {
       "playerId": 807276,
@@ -285,7 +285,7 @@
       "status": "Reading Fightin Phils placed OF Dante Nori on the 7-day injured list retroactive to June 7, 2026.",
       "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-19&endDate=2026-07-19",
       "transactionDate": "2026-06-07",
-      "lastUpdated": "2026-07-19T16:04:30.957Z"
+      "lastUpdated": "2026-07-19T16:07:11.183Z"
     },
     {
       "playerId": 684081,
@@ -296,7 +296,7 @@
       "status": "Reading Fightin Phils placed SS Erick Brito on the 7-day injured list.",
       "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-19&endDate=2026-07-19",
       "transactionDate": "2026-07-02",
-      "lastUpdated": "2026-07-19T16:04:30.957Z"
+      "lastUpdated": "2026-07-19T16:07:11.184Z"
     },
     {
       "playerId": 682858,
@@ -307,7 +307,7 @@
       "status": "Reading Fightin Phils placed RHP Gabriel Barbosa on the 7-day injured list.",
       "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-19&endDate=2026-07-19",
       "transactionDate": "2026-07-14",
-      "lastUpdated": "2026-07-19T16:04:30.957Z"
+      "lastUpdated": "2026-07-19T16:07:11.184Z"
     },
     {
       "playerId": 667744,
@@ -318,7 +318,7 @@
       "status": "Reading Fightin Phils placed LHP Wesley Moore on the full-season injured list.",
       "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-19&endDate=2026-07-19",
       "transactionDate": "2026-06-16",
-      "lastUpdated": "2026-07-19T16:04:30.957Z"
+      "lastUpdated": "2026-07-19T16:07:11.184Z"
     }
   ],
   "errors": []
