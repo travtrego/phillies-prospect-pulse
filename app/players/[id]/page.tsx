@@ -21,6 +21,7 @@ type StatRecord = {
 };
 
 type InjuryRecord = {
+  playerId?: number;
   player: string;
   injury: string;
   timeline: string;
@@ -31,6 +32,7 @@ type InjuryRecord = {
 };
 
 type PromotionRecord = {
+  playerId?: number;
   player: string;
   date: string;
   fromAffiliate: string;
@@ -66,6 +68,10 @@ function sameName(a: string, b: string) {
   return normalize(a) === normalize(b);
 }
 
+function samePlayer(recordId: number | undefined, recordName: string, playerId: string, playerName: string) {
+  return String(recordId ?? '') === String(playerId) || sameName(recordName, playerName);
+}
+
 function displayStat(value: StatValue, decimals = false) {
   if (value === null || value === undefined || value === '') return '—';
   if (decimals && typeof value === 'number') return value.toFixed(3).replace(/^0/, '');
@@ -78,10 +84,10 @@ export default async function PlayerProfilePage({ params }: { params: Promise<{ 
   if (!player) notFound();
 
   const statRecords = statsData.records as unknown as StatRecord[];
-  const statRecord = statRecords.find(record => sameName(record.player, player.full_name));
-  const injury = (injuriesData.records as InjuryRecord[]).find(record => sameName(record.player, player.full_name));
+  const statRecord = statRecords.find(record => samePlayer(record.playerId, record.player, id, player.full_name));
+  const injury = (injuriesData.records as InjuryRecord[]).find(record => samePlayer(record.playerId, record.player, id, player.full_name));
   const promotions = (promotionsData.records as PromotionRecord[])
-    .filter(record => sameName(record.player, player.full_name))
+    .filter(record => samePlayer(record.playerId, record.player, id, player.full_name))
     .sort((a, b) => b.date.localeCompare(a.date));
   const pitcher = statRecord?.stats.type === 'pitching' || ['P', 'RHP', 'LHP'].includes(player.primary_position ?? '');
 
