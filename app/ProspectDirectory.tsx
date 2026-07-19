@@ -49,12 +49,17 @@ export default function ProspectDirectory({ players }: { players: Player[] }) {
   const [filter, setFilter] = useState('top30');
   const [search, setSearch] = useState('');
 
+  const temporaryRanks = useMemo(() => {
+    return new Map(players.slice(0, 30).map((player, index) => [player.id, player.mlb_pipeline_rank ?? index + 1]));
+  }, [players]);
+
   const visiblePlayers = useMemo(() => {
-    return players.filter((player) => {
+    const pool = filter === 'top30' ? players.slice(0, 30) : players;
+
+    return pool.filter((player) => {
       const matchesSearch = player.full_name.toLowerCase().includes(search.toLowerCase());
       if (!matchesSearch) return false;
-      if (filter === 'top30') return player.mlb_pipeline_rank !== null;
-      if (filter === 'all') return true;
+      if (filter === 'top30' || filter === 'all') return true;
       if (filter === 'pitchers') return isPitcher(player.primary_position);
       if (filter === 'hitters') return !isPitcher(player.primary_position);
       return player.current_level === filter;
@@ -81,29 +86,33 @@ export default function ProspectDirectory({ players }: { players: Player[] }) {
       </div>
 
       <section className="cardGrid">
-        {visiblePlayers.map((player) => (
-          <article className="playerCard" key={player.id}>
-            <div className="cardTop">
-              <span className="rank">{player.mlb_pipeline_rank ? `#${player.mlb_pipeline_rank}` : 'Unranked'}</span>
-              <span className="level">{player.current_level ?? 'TBD'}</span>
-            </div>
-            <div className="playerIdentity">
-              <div className="avatar">{initials(player.full_name)}</div>
-              <div><h3>{player.full_name}</h3><p>{player.primary_position ?? 'Position TBD'}</p></div>
-            </div>
-            <div className="cardDetails">
-              <div><span>Affiliate</span><strong>{player.current_team_name ?? 'TBD'}</strong></div>
-              <div><span>Bats / Throws</span><strong>{player.bats ?? '—'} / {player.throws ?? '—'}</strong></div>
-            </div>
-            <div className="scoutingBlock">
-              <div className="scoutingHeader"><h4>Scouting snapshot</h4><span>{formatDate(player.scouting_last_reviewed_at)}</span></div>
-              <p>{player.scouting_summary ?? 'A current public scouting report has not yet been added for this player.'}</p>
-              {player.scouting_grades && <div className="grades">{Object.entries(player.scouting_grades).map(([tool, grade]) => <span key={tool}><b>{tool}</b>{grade}</span>)}</div>}
-            </div>
-            <Link className="statsLink" href={`/players/${player.id}`}>Stats & Full Profile →</Link>
-            <footer><span>{player.source_name}</span><span>Checked {formatDate(player.source_last_verified_at)}</span></footer>
-          </article>
-        ))}
+        {visiblePlayers.map((player) => {
+          const displayRank = player.mlb_pipeline_rank ?? temporaryRanks.get(player.id);
+
+          return (
+            <article className="playerCard" key={player.id}>
+              <div className="cardTop">
+                <span className="rank">{displayRank ? `#${displayRank}` : 'Unranked'}</span>
+                <span className="level">{player.current_level ?? 'TBD'}</span>
+              </div>
+              <div className="playerIdentity">
+                <div className="avatar">{initials(player.full_name)}</div>
+                <div><h3>{player.full_name}</h3><p>{player.primary_position ?? 'Position TBD'}</p></div>
+              </div>
+              <div className="cardDetails">
+                <div><span>Affiliate</span><strong>{player.current_team_name ?? 'TBD'}</strong></div>
+                <div><span>Bats / Throws</span><strong>{player.bats ?? '—'} / {player.throws ?? '—'}</strong></div>
+              </div>
+              <div className="scoutingBlock">
+                <div className="scoutingHeader"><h4>Scouting snapshot</h4><span>{formatDate(player.scouting_last_reviewed_at)}</span></div>
+                <p>{player.scouting_summary ?? 'A current public scouting report has not yet been added for this player.'}</p>
+                {player.scouting_grades && <div className="grades">{Object.entries(player.scouting_grades).map(([tool, grade]) => <span key={tool}><b>{tool}</b>{grade}</span>)}</div>}
+              </div>
+              <Link className="statsLink" href={`/players/${player.id}`}>Stats & Full Profile →</Link>
+              <footer><span>{player.source_name}</span><span>Checked {formatDate(player.source_last_verified_at)}</span></footer>
+            </article>
+          );
+        })}
       </section>
     </>
   );
