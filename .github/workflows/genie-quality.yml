@@ -23,7 +23,25 @@ jobs:
       - name: Backtest ranking model
         run: npm run backtest:rankings
       - name: Test Genie and ranking logic
-        run: npm run test:genie
+        id: tests
+        continue-on-error: true
+        shell: bash
+        run: |
+          set +e
+          npm run test:genie > tests.log 2>&1
+          code=$?
+          echo "exit_code=$code" >> "$GITHUB_OUTPUT"
+          cat tests.log
+          exit 0
+      - name: Upload test log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: genie-test-log
+          path: tests.log
+      - name: Enforce tests
+        if: always()
+        run: test "${{ steps.tests.outputs.exit_code }}" = "0"
       - name: Type-check
         id: typecheck
         continue-on-error: true
