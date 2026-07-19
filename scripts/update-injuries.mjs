@@ -11,6 +11,7 @@ const affiliates = [
 
 const placedOnIl = /placed .* on (?:the )?(?:(\d+)-day |full-season )?(?:injured|disabled) list|assigned .* to (?:the )?(?:(\d+)-day |full-season )?(?:injured|disabled) list/i;
 const removedFromIl = /activated|reinstated|returned from .*?(?:injured|disabled) list|transferred .* from .*?(?:injured|disabled) list|released|retired/i;
+const positionPattern = /\b(RHP|LHP|P|C|1B|2B|3B|SS|LF|CF|RF|OF|INF|UTIL|DH)\b/;
 
 function isoDate(date) {
   return date.toISOString().slice(0, 10);
@@ -22,6 +23,10 @@ function normalizeTimeline(description) {
   if (/full-season (?:injured|disabled) list/i.test(description)) return "Full-season injured list; no public return date";
   if (/60-day (?:injured|disabled) list/i.test(description)) return "60-day injured list; no public return date";
   return "Injured list; no public return date";
+}
+
+function extractPosition(description) {
+  return description.match(positionPattern)?.[1] ?? "Unknown";
 }
 
 async function fetchAffiliateTransactions(affiliate) {
@@ -56,6 +61,7 @@ async function fetchAffiliateTransactions(affiliate) {
           playerId,
           player,
           affiliate: affiliate.name,
+          position: extractPosition(description),
           injury: "Not publicly disclosed",
           timeline: normalizeTimeline(description),
           status: description,
