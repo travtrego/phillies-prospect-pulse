@@ -23,6 +23,23 @@ h1,h2,h3,h4,p { margin-top:0; }
 .headerBadge { display:grid; place-items:center; flex:0 0 108px; width:108px; height:108px; border:1px solid rgba(232,24,40,.55); border-radius:50%; background:rgba(232,24,40,.1); }
 .headerBadge span { color:#ff9ba3; font-size:.67rem; font-weight:900; letter-spacing:.1em; text-transform:uppercase; }
 .headerBadge strong { margin-top:-12px; font-size:2.35rem; }
+.newsDashboard { display:grid; grid-template-columns:minmax(0,1.65fr) minmax(280px,.75fr); gap:18px; margin-bottom:24px; }
+.newsPanel,.rumorsPanel { border:1px solid var(--border); border-radius:18px; background:linear-gradient(145deg,rgba(16,27,45,.95),rgba(8,18,34,.96)); box-shadow:0 14px 34px rgba(0,0,0,.18); }
+.newsPanel { padding:22px; border-top:4px solid var(--phillies-red); }
+.rumorsPanel { padding:22px; border-top:4px solid var(--phillies-blue); }
+.panelHeading { display:flex; justify-content:space-between; align-items:flex-start; gap:18px; margin-bottom:16px; }
+.panelHeading h2 { margin:5px 0 0; font-size:1.45rem; }
+.liveBadge { padding:7px 10px; border:1px solid rgba(232,24,40,.5); border-radius:999px; background:rgba(232,24,40,.12); color:#ff9ba3; font-size:.7rem; font-weight:900; text-transform:uppercase; }
+.storyList,.rumorList { margin:0; padding:0; list-style:none; }
+.storyList { display:grid; gap:9px; }
+.storyList li { display:flex; align-items:center; gap:12px; padding:12px 13px; border:1px solid var(--border); border-radius:12px; background:rgba(255,255,255,.035); }
+.storyList li > span,.rumorList li > span { display:grid; place-items:center; flex:0 0 28px; width:28px; height:28px; border-radius:50%; background:var(--phillies-red); color:white; font-size:.75rem; font-weight:900; }
+.storyList strong { font-size:.84rem; }
+.rumorList { display:grid; gap:8px; }
+.rumorList li { display:flex; align-items:center; gap:10px; padding:10px 0; border-bottom:1px solid var(--border); }
+.rumorList li:last-child { border-bottom:0; }
+.rumorList li > span { background:var(--phillies-blue); }
+.rumorList p { margin:0; color:#d8e0eb; font-size:.8rem; }
 .directoryToolbar { display:flex; justify-content:space-between; gap:14px; margin-bottom:28px; padding:14px; border:1px solid var(--border); border-radius:16px; background:rgba(16,27,45,.9); position:sticky; top:10px; z-index:5; backdrop-filter:blur(14px); }
 .filterTabs { display:flex; flex-wrap:wrap; gap:8px; }
 .filterTabs button { border:1px solid var(--border); border-radius:999px; padding:9px 13px; background:rgba(255,255,255,.035); color:#dce4ef; font:inherit; font-size:.75rem; font-weight:800; cursor:pointer; }
@@ -61,5 +78,5 @@ h1,h2,h3,h4,p { margin-top:0; }
 .directoryNote { margin-top:28px; padding:16px 18px; border:1px solid var(--border); border-radius:14px; background:rgba(16,27,45,.75); color:var(--muted); font-size:.8rem; line-height:1.5; }
 .empty { padding:52px 24px; text-align:center; border:1px solid var(--border); border-radius:20px; background:var(--panel); }
 .empty p { color:var(--muted); }
-@media (max-width:940px) { .cardGrid { grid-template-columns:repeat(2,minmax(0,1fr)); } .directoryToolbar { align-items:stretch; flex-direction:column; } .directoryToolbar input { width:100%; } }
-@media (max-width:650px) { main { padding:20px 0 50px; } .siteHeader { padding:22px 20px; align-items:flex-start; } .headerBadge { width:78px; height:78px; flex-basis:78px; } .headerBadge strong { font-size:1.7rem; } .cardGrid { grid-template-columns:1fr; } .resultsHeader { align-items:flex-start; flex-direction:column; } .playerCard footer { flex-direction:column; } .directoryToolbar { position:static; } }
+@media (max-width:940px) { .cardGrid { grid-template-columns:repeat(2,minmax(0,1fr)); } .directoryToolbar { align-items:stretch; flex-direction:column; } .directoryToolbar input { width:100%; } .newsDashboard { grid-template-columns:1fr; } }
+@media (max-width:650px) { main { padding:20px 0 50px; } .siteHeader { padding:22px 20px; align-items:flex-start; } .headerBadge { width:78px; height:78px; flex-basis:78px; } .headerBadge strong { font-size:1.7rem; } .cardGrid { grid-template-columns:1fr; } .resultsHeader { align-items:flex-start; flex-direction:column; } .playerCard footer { flex-direction:column; } .directoryToolbar { position:static; } .newsPanel,.rumorsPanel { padding:18px; } }
