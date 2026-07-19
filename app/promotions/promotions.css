@@ -1,0 +1,118 @@
+.promotionList {
+  display: grid;
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.promotionCard {
+  padding: 20px;
+  border: 1px solid var(--border);
+  border-radius: 15px;
+  background: linear-gradient(145deg, rgba(17,30,50,.96), rgba(8,18,33,.98));
+}
+
+.promotionHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.promotionCard h3 {
+  margin: 5px 0 16px;
+  font-size: 1.2rem;
+}
+
+.promotionBadge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  padding: 0 9px;
+  border: 1px solid rgba(52,211,153,.35);
+  border-radius: 999px;
+  background: rgba(52,211,153,.11);
+  color: #8ff0ca;
+  font-size: .68rem;
+  font-weight: 900;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.promotionRoute {
+  display: grid;
+  grid-template-columns: minmax(0,1fr) auto minmax(0,1fr);
+  gap: 14px;
+  align-items: center;
+  margin: 0 0 16px;
+  padding: 14px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: rgba(255,255,255,.025);
+}
+
+.promotionRoute > div {
+  display: grid;
+  gap: 3px;
+}
+
+.promotionRoute > div:last-child {
+  text-align: right;
+}
+
+.promotionRoute span {
+  color: var(--muted);
+  font-size: .65rem;
+  font-weight: 900;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.promotionRoute strong {
+  font-size: 1rem;
+}
+
+.promotionRoute small {
+  color: #cbd5e1;
+  line-height: 1.35;
+}
+
+.promotionRoute b {
+  color: #8ff0ca;
+  font-size: 1.25rem;
+}
+
+.promotionCard p {
+  margin: 0 0 10px;
+  color: #dce4ef;
+  line-height: 1.5;
+}
+
+.promotionCard a {
+  display: inline-flex;
+  margin-top: 6px;
+  color: #fff;
+  font-size: .78rem;
+  font-weight: 850;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+@media (max-width: 650px) {
+  .promotionCard {
+    padding: 18px 16px;
+  }
+
+  .promotionRoute {
+    grid-template-columns: 1fr;
+  }
+
+  .promotionRoute > div:last-child {
+    text-align: left;
+  }
+
+  .promotionRoute b {
+    transform: rotate(90deg);
+    justify-self: start;
+  }
+}
