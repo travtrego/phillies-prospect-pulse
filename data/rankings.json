@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T18:57:31.797Z",
+  "updatedAt": "2026-07-19T19:08:27.098Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -17,7 +17,7 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 71.1,
-      "previousRank": null,
+      "previousRank": 1,
       "rank": 1,
       "change": 0,
       "components": {
@@ -28,10 +28,10 @@
         "movement": 6.6,
         "risk": 5
       },
-      "mediaMentions": 9,
+      "mediaMentions": 8,
       "reasons": [
         "MLB Pipeline rank #2",
-        "9 recent media mentions",
+        "8 recent media mentions",
         "Promoted to AA"
       ]
     },
@@ -42,7 +42,7 @@
       "affiliate": "Philadelphia Phillies",
       "level": "AAA",
       "score": 70.3,
-      "previousRank": null,
+      "previousRank": 2,
       "rank": 2,
       "change": 0,
       "components": {
@@ -68,7 +68,7 @@
       "affiliate": null,
       "level": "AA",
       "score": 69.6,
-      "previousRank": null,
+      "previousRank": 3,
       "rank": 3,
       "change": 0,
       "components": {
@@ -94,7 +94,7 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 68.4,
-      "previousRank": null,
+      "previousRank": 4,
       "rank": 4,
       "change": 0,
       "components": {
@@ -119,7 +119,7 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 66.2,
-      "previousRank": null,
+      "previousRank": 5,
       "rank": 5,
       "change": 0,
       "components": {
@@ -145,7 +145,7 @@
       "affiliate": null,
       "level": "A+",
       "score": 66,
-      "previousRank": null,
+      "previousRank": 6,
       "rank": 6,
       "change": 0,
       "components": {
@@ -169,7 +169,7 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 65.9,
-      "previousRank": null,
+      "previousRank": 7,
       "rank": 7,
       "change": 0,
       "components": {
@@ -194,7 +194,7 @@
       "affiliate": null,
       "level": "AA",
       "score": 65.5,
-      "previousRank": null,
+      "previousRank": 8,
       "rank": 8,
       "change": 0,
       "components": {
@@ -220,7 +220,7 @@
       "affiliate": null,
       "level": "AA",
       "score": 64.6,
-      "previousRank": null,
+      "previousRank": 9,
       "rank": 9,
       "change": 0,
       "components": {
@@ -245,7 +245,7 @@
       "affiliate": null,
       "level": "A",
       "score": 63.8,
-      "previousRank": null,
+      "previousRank": 10,
       "rank": 10,
       "change": 0,
       "components": {
@@ -269,7 +269,7 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 62.5,
-      "previousRank": null,
+      "previousRank": 11,
       "rank": 11,
       "change": 0,
       "components": {
@@ -294,7 +294,7 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 60.9,
-      "previousRank": null,
+      "previousRank": 12,
       "rank": 12,
       "change": 0,
       "components": {
@@ -318,7 +318,7 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 60,
-      "previousRank": null,
+      "previousRank": 13,
       "rank": 13,
       "change": 0,
       "components": {
@@ -344,7 +344,7 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 59.5,
-      "previousRank": null,
+      "previousRank": 14,
       "rank": 14,
       "change": 0,
       "components": {
@@ -369,7 +369,7 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 57.8,
-      "previousRank": null,
+      "previousRank": 15,
       "rank": 15,
       "change": 0,
       "components": {
@@ -393,7 +393,7 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 57.7,
-      "previousRank": null,
+      "previousRank": 16,
       "rank": 16,
       "change": 0,
       "components": {
@@ -417,7 +417,7 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 57.2,
-      "previousRank": null,
+      "previousRank": 17,
       "rank": 17,
       "change": 0,
       "components": {
@@ -441,7 +441,7 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 57.1,
-      "previousRank": null,
+      "previousRank": 18,
       "rank": 18,
       "change": 0,
       "components": {
@@ -465,7 +465,7 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 56.2,
-      "previousRank": null,
+      "previousRank": 19,
       "rank": 19,
       "change": 0,
       "components": {
@@ -490,7 +490,7 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 56.2,
-      "previousRank": null,
+      "previousRank": 20,
       "rank": 20,
       "change": 0,
       "components": {
@@ -514,7 +514,7 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 56.1,
-      "previousRank": null,
+      "previousRank": 21,
       "rank": 21,
       "change": 0,
       "components": {
@@ -539,7 +539,7 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 55.2,
-      "previousRank": null,
+      "previousRank": 22,
       "rank": 22,
       "change": 0,
       "components": {
@@ -563,7 +563,7 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 55,
-      "previousRank": null,
+      "previousRank": 23,
       "rank": 23,
       "change": 0,
       "components": {
@@ -586,7 +586,7 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 55,
-      "previousRank": null,
+      "previousRank": 24,
       "rank": 24,
       "change": 0,
       "components": {
@@ -610,7 +610,7 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 54.4,
-      "previousRank": null,
+      "previousRank": 25,
       "rank": 25,
       "change": 0,
       "components": {
@@ -634,7 +634,7 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 54.2,
-      "previousRank": null,
+      "previousRank": 26,
       "rank": 26,
       "change": 0,
       "components": {
@@ -659,7 +659,7 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 54,
-      "previousRank": null,
+      "previousRank": 27,
       "rank": 27,
       "change": 0,
       "components": {
@@ -683,7 +683,7 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 53.8,
-      "previousRank": null,
+      "previousRank": 28,
       "rank": 28,
       "change": 0,
       "components": {
@@ -707,7 +707,7 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 53.8,
-      "previousRank": null,
+      "previousRank": 29,
       "rank": 29,
       "change": 0,
       "components": {
@@ -730,7 +730,7 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 53.7,
-      "previousRank": null,
+      "previousRank": 30,
       "rank": 30,
       "change": 0,
       "components": {
@@ -753,7 +753,7 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 53.4,
-      "previousRank": null,
+      "previousRank": 31,
       "rank": 31,
       "change": 0,
       "components": {
@@ -778,7 +778,7 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 53.3,
-      "previousRank": null,
+      "previousRank": 32,
       "rank": 32,
       "change": 0,
       "components": {
@@ -801,7 +801,7 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 53.2,
-      "previousRank": null,
+      "previousRank": 33,
       "rank": 33,
       "change": 0,
       "components": {
@@ -825,7 +825,7 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 53.2,
-      "previousRank": null,
+      "previousRank": 34,
       "rank": 34,
       "change": 0,
       "components": {
@@ -849,7 +849,7 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 52.8,
-      "previousRank": null,
+      "previousRank": 35,
       "rank": 35,
       "change": 0,
       "components": {
@@ -872,7 +872,7 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 52.4,
-      "previousRank": null,
+      "previousRank": 36,
       "rank": 36,
       "change": 0,
       "components": {
@@ -898,7 +898,7 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 52.4,
-      "previousRank": null,
+      "previousRank": 37,
       "rank": 37,
       "change": 0,
       "components": {
@@ -922,7 +922,7 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 52.4,
-      "previousRank": null,
+      "previousRank": 38,
       "rank": 38,
       "change": 0,
       "components": {
@@ -946,7 +946,7 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 52.3,
-      "previousRank": null,
+      "previousRank": 39,
       "rank": 39,
       "change": 0,
       "components": {
@@ -970,7 +970,7 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 52.2,
-      "previousRank": null,
+      "previousRank": 40,
       "rank": 40,
       "change": 0,
       "components": {
@@ -994,7 +994,7 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 52.2,
-      "previousRank": null,
+      "previousRank": 41,
       "rank": 41,
       "change": 0,
       "components": {
@@ -1018,7 +1018,7 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 52.1,
-      "previousRank": null,
+      "previousRank": 42,
       "rank": 42,
       "change": 0,
       "components": {
@@ -1042,7 +1042,7 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 52.1,
-      "previousRank": null,
+      "previousRank": 43,
       "rank": 43,
       "change": 0,
       "components": {
@@ -1066,7 +1066,7 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 52,
-      "previousRank": null,
+      "previousRank": 44,
       "rank": 44,
       "change": 0,
       "components": {
@@ -1089,7 +1089,7 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 52,
-      "previousRank": null,
+      "previousRank": 45,
       "rank": 45,
       "change": 0,
       "components": {
@@ -1112,7 +1112,7 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 52,
-      "previousRank": null,
+      "previousRank": 46,
       "rank": 46,
       "change": 0,
       "components": {
@@ -1135,7 +1135,7 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 52,
-      "previousRank": null,
+      "previousRank": 47,
       "rank": 47,
       "change": 0,
       "components": {
@@ -1158,7 +1158,7 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 52,
-      "previousRank": null,
+      "previousRank": 48,
       "rank": 48,
       "change": 0,
       "components": {
@@ -1181,7 +1181,7 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 52,
-      "previousRank": null,
+      "previousRank": 49,
       "rank": 49,
       "change": 0,
       "components": {
@@ -1204,7 +1204,7 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 52,
-      "previousRank": null,
+      "previousRank": 50,
       "rank": 50,
       "change": 0,
       "components": {
@@ -1227,7 +1227,7 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 52,
-      "previousRank": null,
+      "previousRank": 51,
       "rank": 51,
       "change": 0,
       "components": {
@@ -1250,7 +1250,7 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 51.9,
-      "previousRank": null,
+      "previousRank": 52,
       "rank": 52,
       "change": 0,
       "components": {
@@ -1274,7 +1274,7 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 51.9,
-      "previousRank": null,
+      "previousRank": 53,
       "rank": 53,
       "change": 0,
       "components": {
@@ -1298,7 +1298,7 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 51.6,
-      "previousRank": null,
+      "previousRank": 54,
       "rank": 54,
       "change": 0,
       "components": {
@@ -1323,7 +1323,7 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 51.3,
-      "previousRank": null,
+      "previousRank": 55,
       "rank": 55,
       "change": 0,
       "components": {
@@ -1346,7 +1346,7 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 51.2,
-      "previousRank": null,
+      "previousRank": 56,
       "rank": 56,
       "change": 0,
       "components": {
@@ -1369,21 +1369,21 @@
       "position": "P",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 51,
-      "previousRank": null,
+      "score": 51.1,
+      "previousRank": 57,
       "rank": 57,
       "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
         "ageLevel": 9.5,
-        "sentiment": 7.9,
+        "sentiment": 8,
         "movement": 4.1,
         "risk": 5
       },
-      "mediaMentions": 3,
+      "mediaMentions": 4,
       "reasons": [
-        "3 recent media mentions",
+        "4 recent media mentions",
         "Promoted to AA",
         "Advanced to AA"
       ]
@@ -1395,7 +1395,7 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 50.8,
-      "previousRank": null,
+      "previousRank": 58,
       "rank": 58,
       "change": 0,
       "components": {
@@ -1418,7 +1418,7 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 50.7,
-      "previousRank": null,
+      "previousRank": 59,
       "rank": 59,
       "change": 0,
       "components": {
@@ -1441,7 +1441,7 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 50.6,
-      "previousRank": null,
+      "previousRank": 60,
       "rank": 60,
       "change": 0,
       "components": {
@@ -1465,7 +1465,7 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 50.6,
-      "previousRank": null,
+      "previousRank": 61,
       "rank": 61,
       "change": 0,
       "components": {
@@ -1489,7 +1489,7 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 50.6,
-      "previousRank": null,
+      "previousRank": 62,
       "rank": 62,
       "change": 0,
       "components": {
@@ -1513,7 +1513,7 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 50.5,
-      "previousRank": null,
+      "previousRank": 63,
       "rank": 63,
       "change": 0,
       "components": {
@@ -1536,7 +1536,7 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 50.5,
-      "previousRank": null,
+      "previousRank": 64,
       "rank": 64,
       "change": 0,
       "components": {
@@ -1559,7 +1559,7 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 50.5,
-      "previousRank": null,
+      "previousRank": 65,
       "rank": 65,
       "change": 0,
       "components": {
@@ -1582,7 +1582,7 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 50.5,
-      "previousRank": null,
+      "previousRank": 66,
       "rank": 66,
       "change": 0,
       "components": {
@@ -1605,7 +1605,7 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 50.5,
-      "previousRank": null,
+      "previousRank": 67,
       "rank": 67,
       "change": 0,
       "components": {
@@ -1628,7 +1628,7 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 50.5,
-      "previousRank": null,
+      "previousRank": 68,
       "rank": 68,
       "change": 0,
       "components": {
@@ -1651,7 +1651,7 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 50.4,
-      "previousRank": null,
+      "previousRank": 69,
       "rank": 69,
       "change": 0,
       "components": {
@@ -1674,7 +1674,7 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 50.4,
-      "previousRank": null,
+      "previousRank": 70,
       "rank": 70,
       "change": 0,
       "components": {
@@ -1697,7 +1697,7 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 50.4,
-      "previousRank": null,
+      "previousRank": 71,
       "rank": 71,
       "change": 0,
       "components": {
@@ -1720,7 +1720,7 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 50.4,
-      "previousRank": null,
+      "previousRank": 72,
       "rank": 72,
       "change": 0,
       "components": {
@@ -1743,7 +1743,7 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 50.4,
-      "previousRank": null,
+      "previousRank": 73,
       "rank": 73,
       "change": 0,
       "components": {
@@ -1766,7 +1766,7 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 50.4,
-      "previousRank": null,
+      "previousRank": 74,
       "rank": 74,
       "change": 0,
       "components": {
@@ -1791,7 +1791,7 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 50.4,
-      "previousRank": null,
+      "previousRank": 75,
       "rank": 75,
       "change": 0,
       "components": {
@@ -1814,7 +1814,7 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 50.4,
-      "previousRank": null,
+      "previousRank": 76,
       "rank": 76,
       "change": 0,
       "components": {
@@ -1837,7 +1837,7 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 50.4,
-      "previousRank": null,
+      "previousRank": 77,
       "rank": 77,
       "change": 0,
       "components": {
@@ -1860,7 +1860,7 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 50.3,
-      "previousRank": null,
+      "previousRank": 78,
       "rank": 78,
       "change": 0,
       "components": {
@@ -1885,7 +1885,7 @@
       "affiliate": null,
       "level": "AA",
       "score": 50.1,
-      "previousRank": null,
+      "previousRank": 79,
       "rank": 79,
       "change": 0,
       "components": {
@@ -1909,7 +1909,7 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 49.9,
-      "previousRank": null,
+      "previousRank": 80,
       "rank": 80,
       "change": 0,
       "components": {
@@ -1932,7 +1932,7 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 49.6,
-      "previousRank": null,
+      "previousRank": 81,
       "rank": 81,
       "change": 0,
       "components": {
@@ -1957,7 +1957,7 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 49.5,
-      "previousRank": null,
+      "previousRank": 82,
       "rank": 82,
       "change": 0,
       "components": {
@@ -1980,7 +1980,7 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 49.5,
-      "previousRank": null,
+      "previousRank": 83,
       "rank": 83,
       "change": 0,
       "components": {
@@ -2004,7 +2004,7 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 49.5,
-      "previousRank": null,
+      "previousRank": 84,
       "rank": 84,
       "change": 0,
       "components": {
@@ -2029,7 +2029,7 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 49.2,
-      "previousRank": null,
+      "previousRank": 85,
       "rank": 85,
       "change": 0,
       "components": {
@@ -2053,7 +2053,7 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 49.1,
-      "previousRank": null,
+      "previousRank": 86,
       "rank": 86,
       "change": 0,
       "components": {
@@ -2076,7 +2076,7 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 49.1,
-      "previousRank": null,
+      "previousRank": 87,
       "rank": 87,
       "change": 0,
       "components": {
@@ -2099,7 +2099,7 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 49.1,
-      "previousRank": null,
+      "previousRank": 88,
       "rank": 88,
       "change": 0,
       "components": {
@@ -2122,7 +2122,7 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 49.1,
-      "previousRank": null,
+      "previousRank": 89,
       "rank": 89,
       "change": 0,
       "components": {
@@ -2145,7 +2145,7 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 49.1,
-      "previousRank": null,
+      "previousRank": 90,
       "rank": 90,
       "change": 0,
       "components": {
@@ -2168,7 +2168,7 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 49,
-      "previousRank": null,
+      "previousRank": 91,
       "rank": 91,
       "change": 0,
       "components": {
@@ -2189,7 +2189,7 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 49,
-      "previousRank": null,
+      "previousRank": 92,
       "rank": 92,
       "change": 0,
       "components": {
@@ -2210,7 +2210,7 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 49,
-      "previousRank": null,
+      "previousRank": 93,
       "rank": 93,
       "change": 0,
       "components": {
@@ -2231,7 +2231,7 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 49,
-      "previousRank": null,
+      "previousRank": 94,
       "rank": 94,
       "change": 0,
       "components": {
@@ -2252,7 +2252,7 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 49,
-      "previousRank": null,
+      "previousRank": 95,
       "rank": 95,
       "change": 0,
       "components": {
@@ -2273,7 +2273,7 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 49,
-      "previousRank": null,
+      "previousRank": 96,
       "rank": 96,
       "change": 0,
       "components": {
@@ -2294,7 +2294,7 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 49,
-      "previousRank": null,
+      "previousRank": 97,
       "rank": 97,
       "change": 0,
       "components": {
@@ -2315,7 +2315,7 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 48.9,
-      "previousRank": null,
+      "previousRank": 98,
       "rank": 98,
       "change": 0,
       "components": {
@@ -2338,7 +2338,7 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 48.9,
-      "previousRank": null,
+      "previousRank": 99,
       "rank": 99,
       "change": 0,
       "components": {
@@ -2361,7 +2361,7 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 48.9,
-      "previousRank": null,
+      "previousRank": 100,
       "rank": 100,
       "change": 0,
       "components": {
@@ -2384,7 +2384,7 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 48.9,
-      "previousRank": null,
+      "previousRank": 101,
       "rank": 101,
       "change": 0,
       "components": {
@@ -2407,7 +2407,7 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 48.9,
-      "previousRank": null,
+      "previousRank": 102,
       "rank": 102,
       "change": 0,
       "components": {
@@ -2430,7 +2430,7 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 48.9,
-      "previousRank": null,
+      "previousRank": 103,
       "rank": 103,
       "change": 0,
       "components": {
@@ -2453,7 +2453,7 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 48.7,
-      "previousRank": null,
+      "previousRank": 104,
       "rank": 104,
       "change": 0,
       "components": {
@@ -2477,7 +2477,7 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 48.1,
-      "previousRank": null,
+      "previousRank": 105,
       "rank": 105,
       "change": 0,
       "components": {
@@ -2502,7 +2502,7 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 48.1,
-      "previousRank": null,
+      "previousRank": 106,
       "rank": 106,
       "change": 0,
       "components": {
@@ -2527,7 +2527,7 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 48,
-      "previousRank": null,
+      "previousRank": 107,
       "rank": 107,
       "change": 0,
       "components": {
@@ -2551,7 +2551,7 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 47.9,
-      "previousRank": null,
+      "previousRank": 108,
       "rank": 108,
       "change": 0,
       "components": {
@@ -2574,7 +2574,7 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 47.9,
-      "previousRank": null,
+      "previousRank": 109,
       "rank": 109,
       "change": 0,
       "components": {
@@ -2598,7 +2598,7 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 47.9,
-      "previousRank": null,
+      "previousRank": 110,
       "rank": 110,
       "change": 0,
       "components": {
@@ -2622,7 +2622,7 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 47.7,
-      "previousRank": null,
+      "previousRank": 111,
       "rank": 111,
       "change": 0,
       "components": {
@@ -2645,7 +2645,7 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 47.7,
-      "previousRank": null,
+      "previousRank": 112,
       "rank": 112,
       "change": 0,
       "components": {
@@ -2668,7 +2668,7 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 47.6,
-      "previousRank": null,
+      "previousRank": 113,
       "rank": 113,
       "change": 0,
       "components": {
@@ -2691,7 +2691,7 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 47.6,
-      "previousRank": null,
+      "previousRank": 114,
       "rank": 114,
       "change": 0,
       "components": {
@@ -2714,7 +2714,7 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 47.6,
-      "previousRank": null,
+      "previousRank": 115,
       "rank": 115,
       "change": 0,
       "components": {
@@ -2737,7 +2737,7 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 47.6,
-      "previousRank": null,
+      "previousRank": 116,
       "rank": 116,
       "change": 0,
       "components": {
@@ -2760,7 +2760,7 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 47.5,
-      "previousRank": null,
+      "previousRank": 117,
       "rank": 117,
       "change": 0,
       "components": {
@@ -2783,7 +2783,7 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 47.5,
-      "previousRank": null,
+      "previousRank": 118,
       "rank": 118,
       "change": 0,
       "components": {
@@ -2804,7 +2804,7 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 46.6,
-      "previousRank": null,
+      "previousRank": 119,
       "rank": 119,
       "change": 0,
       "components": {
@@ -2828,7 +2828,7 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 46.5,
-      "previousRank": null,
+      "previousRank": 120,
       "rank": 120,
       "change": 0,
       "components": {
@@ -2851,7 +2851,7 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 46.5,
-      "previousRank": null,
+      "previousRank": 121,
       "rank": 121,
       "change": 0,
       "components": {
