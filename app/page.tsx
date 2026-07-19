@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import ProspectDirectory, { type Player } from './ProspectDirectory';
 
 async function getPlayers(): Promise<Player[]> {
@@ -27,7 +28,7 @@ export default async function Home() {
         <div>
           <div className="eyebrow">Philadelphia Phillies farm system</div>
           <h1>Prospect Pulse</h1>
-          <p>Top prospects and full-season rosters, organized in one clean directory.</p>
+          <p>Top prospects, scouting reports and full-season rosters in one clean directory.</p>
         </div>
         <div className="headerBadge">
           <span>Top 30</span>
@@ -35,38 +36,25 @@ export default async function Home() {
         </div>
       </header>
 
-      <section className="newsDashboard">
-        <div className="newsPanel">
-          <div className="panelHeading">
-            <div>
-              <span className="eyebrow">Breaking news</span>
-              <h2>Top prospect stories</h2>
-            </div>
-            <span className="liveBadge">Top 5</span>
+      <section className="newsPanel newsPanelFull">
+        <div className="panelHeading">
+          <div>
+            <span className="eyebrow">Breaking news</span>
+            <h2>Top Phillies prospect stories</h2>
           </div>
-          <ol className="storyList">
-            {[1, 2, 3, 4, 5].map((story) => (
-              <li key={story}>
-                <span>{story}</span>
-                <strong>Phillies prospect news placeholder</strong>
-              </li>
-            ))}
-          </ol>
+          <Link className="sectionLink" href="/news">View all news →</Link>
         </div>
-
-        <aside className="rumorsPanel">
-          <div className="panelHeading compact">
-            <div>
-              <span className="eyebrow">Rumor mill</span>
-              <h2>Prospect rumors</h2>
-            </div>
-          </div>
-          <ol className="rumorList">
-            {[1, 2, 3, 4, 5].map((rumor) => (
-              <li key={rumor}><span>{rumor}</span><p>Rumor placeholder</p></li>
-            ))}
-          </ol>
-        </aside>
+        <ol className="storyList storyListWide">
+          {[1, 2, 3, 4, 5].map((story) => (
+            <li key={story}>
+              <span>{story}</span>
+              <div>
+                <strong>Phillies prospect news placeholder</strong>
+                <p>Story summary and source will appear here.</p>
+              </div>
+            </li>
+          ))}
+        </ol>
       </section>
 
       {players.length === 0 ? (
@@ -78,7 +66,7 @@ export default async function Home() {
         <ProspectDirectory players={players} />
       )}
 
-      <div className="directoryNote">Stats, injury status and news are intentionally excluded from this version.</div>
+      <div className="directoryNote">Player statistics will live on each player’s personal page and in the dedicated Stats section.</div>
     </main>
   );
 }
