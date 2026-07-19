@@ -38,29 +38,43 @@ async function getRoster(team) {
   })).filter(player => player.playerId && player.player);
 }
 
+async function getBio(playerId) {
+  const data = await fetchJson(`https://statsapi.mlb.com/api/v1/people/${playerId}?hydrate=currentTeam,draft`);
+  const person = data.people?.[0] || {};
+  const draft = Array.isArray(person.draftYear) ? person.draftYear[0] : null;
+  return {
+    birthDate: person.birthDate || null,
+    currentAge: person.currentAge ?? null,
+    birthCity: person.birthCity || null,
+    birthStateProvince: person.birthStateProvince || null,
+    birthCountry: person.birthCountry || null,
+    height: person.height || null,
+    weight: person.weight ?? null,
+    bats: person.batSide?.code || person.batSide?.description || null,
+    throws: person.pitchHand?.code || person.pitchHand?.description || null,
+    jerseyNumber: person.primaryNumber || null,
+    active: person.active ?? null,
+    mlbDebutDate: person.mlbDebutDate || null,
+    draftYear: person.draftYear || null,
+    strikeZoneTop: person.strikeZoneTop ?? null,
+    strikeZoneBottom: person.strikeZoneBottom ?? null
+  };
+}
+
 function findBestSplit(data) {
   const blocks = data.stats || [];
   const allSplits = blocks.flatMap(block => block.splits || []);
-  return allSplits
-    .filter(split => split?.stat)
-    .sort((a, b) => {
-      const aGames = Number(a.stat.gamesPlayed ?? a.stat.gamesPitched ?? 0);
-      const bGames = Number(b.stat.gamesPlayed ?? b.stat.gamesPitched ?? 0);
-      return bGames - aGames;
-    })[0] || null;
+  return allSplits.filter(split => split?.stat).sort((a, b) => {
+    const aGames = Number(a.stat.gamesPlayed ?? a.stat.gamesPitched ?? 0);
+    const bGames = Number(b.stat.gamesPlayed ?? b.stat.gamesPitched ?? 0);
+    return bGames - aGames;
+  })[0] || null;
 }
 
 async function getStats(player) {
   const group = player.positionType === 'Pitcher' || ['P','RHP','LHP'].includes(player.position) ? 'pitching' : 'hitting';
-  const params = new URLSearchParams({
-    stats: 'season',
-    group,
-    season: String(SEASON),
-    leagueListId: 'mlb_milb',
-    gameType: 'R'
-  });
-  const url = `https://statsapi.mlb.com/api/v1/people/${player.playerId}/stats?${params.toString()}`;
-  const data = await fetchJson(url);
+  const params = new URLSearchParams({ stats: 'season', group, season: String(SEASON), leagueListId: 'mlb_milb', gameType: 'R' });
+  const data = await fetchJson(`https://statsapi.mlb.com/api/v1/people/${player.playerId}/stats?${params.toString()}`);
   const split = findBestSplit(data);
   const stat = split?.stat || {};
 
@@ -68,73 +82,33 @@ async function getStats(player) {
     const innings = Number(stat.inningsPitched || 0);
     const strikeouts = Number(stat.strikeOuts || 0);
     const walks = Number(stat.baseOnBalls || 0);
-    return {
-      type: 'pitching',
-      games: stat.gamesPlayed ?? stat.gamesPitched ?? null,
-      gamesStarted: stat.gamesStarted ?? null,
-      inningsPitched: stat.inningsPitched ?? null,
-      era: round(stat.era),
-      whip: round(stat.whip),
-      strikeouts: stat.strikeOuts ?? null,
-      walks: stat.baseOnBalls ?? null,
-      hits: stat.hits ?? null,
-      homeRuns: stat.homeRuns ?? null,
-      saves: stat.saves ?? null,
-      kPer9: innings > 0 ? round(strikeouts * 9 / innings, 2) : null,
-      bbPer9: innings > 0 ? round(walks * 9 / innings, 2) : null,
-      strikePercentage: round(stat.strikePercentage),
-      sourceDate: split?.date || null
-    };
+    return { type:'pitching', games:stat.gamesPlayed ?? stat.gamesPitched ?? null, gamesStarted:stat.gamesStarted ?? null, inningsPitched:stat.inningsPitched ?? null, era:round(stat.era), whip:round(stat.whip), strikeouts:stat.strikeOuts ?? null, walks:stat.baseOnBalls ?? null, hits:stat.hits ?? null, homeRuns:stat.homeRuns ?? null, saves:stat.saves ?? null, kPer9:innings > 0 ? round(strikeouts * 9 / innings, 2) : null, bbPer9:innings > 0 ? round(walks * 9 / innings, 2) : null, strikePercentage:round(stat.strikePercentage), sourceDate:split?.date || null };
   }
 
   const plateAppearances = Number(stat.plateAppearances || 0);
   const walks = Number(stat.baseOnBalls || 0);
   const strikeouts = Number(stat.strikeOuts || 0);
-  return {
-    type: 'hitting',
-    games: stat.gamesPlayed ?? null,
-    plateAppearances: stat.plateAppearances ?? null,
-    atBats: stat.atBats ?? null,
-    runs: stat.runs ?? null,
-    hits: stat.hits ?? null,
-    doubles: stat.doubles ?? null,
-    triples: stat.triples ?? null,
-    homeRuns: stat.homeRuns ?? null,
-    rbi: stat.rbi ?? null,
-    stolenBases: stat.stolenBases ?? null,
-    caughtStealing: stat.caughtStealing ?? null,
-    average: round(stat.avg),
-    obp: round(stat.obp),
-    slg: round(stat.slg),
-    ops: round(stat.ops),
-    walkRate: plateAppearances > 0 ? round(walks / plateAppearances * 100, 1) : null,
-    strikeoutRate: plateAppearances > 0 ? round(strikeouts / plateAppearances * 100, 1) : null,
-    sourceDate: split?.date || null
-  };
+  return { type:'hitting', games:stat.gamesPlayed ?? null, plateAppearances:stat.plateAppearances ?? null, atBats:stat.atBats ?? null, runs:stat.runs ?? null, hits:stat.hits ?? null, doubles:stat.doubles ?? null, triples:stat.triples ?? null, homeRuns:stat.homeRuns ?? null, rbi:stat.rbi ?? null, stolenBases:stat.stolenBases ?? null, caughtStealing:stat.caughtStealing ?? null, average:round(stat.avg), obp:round(stat.obp), slg:round(stat.slg), ops:round(stat.ops), walkRate:plateAppearances > 0 ? round(walks / plateAppearances * 100, 1) : null, strikeoutRate:plateAppearances > 0 ? round(strikeouts / plateAppearances * 100, 1) : null, sourceDate:split?.date || null };
 }
 
 const rosterResults = await Promise.allSettled(TEAMS.map(async team => ({ team, roster: await getRoster(team) })));
 const players = [];
 const errors = [];
-
-for (const result of rosterResults) {
-  if (result.status === 'fulfilled') players.push(...result.value.roster);
-  else errors.push({ stage: 'roster', message: result.reason?.message || String(result.reason) });
-}
+for (const result of rosterResults) result.status === 'fulfilled' ? players.push(...result.value.roster) : errors.push({ stage:'roster', message:result.reason?.message || String(result.reason) });
 
 const unique = [...new Map(players.map(player => [player.playerId, player])).values()];
 const records = [];
 const concurrency = 8;
-
 for (let index = 0; index < unique.length; index += concurrency) {
   const batch = unique.slice(index, index + concurrency);
-  const batchResults = await Promise.allSettled(batch.map(async player => ({ ...player, stats: await getStats(player) })));
-  for (const result of batchResults) {
-    if (result.status === 'fulfilled') records.push(result.value);
-    else errors.push({ stage: 'stats', message: result.reason?.message || String(result.reason) });
-  }
+  const batchResults = await Promise.allSettled(batch.map(async player => {
+    const [statsResult, bioResult] = await Promise.allSettled([getStats(player), getBio(player.playerId)]);
+    if (statsResult.status === 'rejected') throw statsResult.reason;
+    return { ...player, ...(bioResult.status === 'fulfilled' ? bioResult.value : {}), stats: statsResult.value };
+  }));
+  for (const result of batchResults) result.status === 'fulfilled' ? records.push(result.value) : errors.push({ stage:'player', message:result.reason?.message || String(result.reason) });
 }
 
 records.sort((a, b) => a.affiliate.localeCompare(b.affiliate) || a.player.localeCompare(b.player));
-await fs.writeFile(OUTPUT, JSON.stringify({ updatedAt: new Date().toISOString(), season: SEASON, records, errors }, null, 2) + '\n');
-console.log(`Wrote stats for ${records.length} players with ${errors.length} errors.`);
+await fs.writeFile(OUTPUT, JSON.stringify({ updatedAt:new Date().toISOString(), season:SEASON, records, errors }, null, 2) + '\n');
+console.log(`Wrote stats and bios for ${records.length} players with ${errors.length} errors.`);
