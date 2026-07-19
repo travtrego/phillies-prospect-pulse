@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T19:38:57.213Z",
+  "updatedAt": "2026-07-19T19:52:03.049Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -994,7 +994,7 @@
       "position": "P",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 52.2,
+      "score": 52.1,
       "previousRank": 41,
       "rank": 41,
       "change": 0,
@@ -1003,7 +1003,7 @@
         "performance": 12.5,
         "ageLevel": 9.5,
         "sentiment": 7.5,
-        "movement": 5.7,
+        "movement": 5.6,
         "risk": 5
       },
       "mediaMentions": 0,
