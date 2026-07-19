@@ -3,6 +3,7 @@ import rankingsData from '../../../data/rankings.json';
 import { parseIntent } from '../../../lib/genie/parser';
 import { runEngine } from '../../../lib/genie/engine';
 import { writeAnswer } from '../../../lib/genie/writer';
+import { buildMemory, resolveFollowUpPlayers } from '../../../lib/genie/memory';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -22,29 +23,17 @@ function findPlayerNames(question:string){
   }).map(player=>player.player);
 }
 
-function explicitFollowUp(question:string){
-  const words=wordSet(question);
-  return ['he','him','his'].some(word=>words.has(word))||['that player','the first one','the second one','compare him'].some(term=>normalize(question).includes(normalize(term)));
-}
-
-function lastMentionedNames(history:Row[]){
-  for(const message of [...history].reverse()){
-    const names=findPlayerNames(String(message.content||''));
-    if(names.length)return names;
-  }
-  return [];
-}
-
 export async function POST(request:NextRequest){
   try{
     const body=await request.json();
     const question=typeof body.question==='string'?body.question.trim():'';
-    const history=Array.isArray(body.history)?body.history.slice(-12):[];
+    const history=Array.isArray(body.history)?body.history.slice(-20):[];
     if(!question)return NextResponse.json({error:'Ask the Genie a question.'},{status:400});
     if(question.length>1000)return NextResponse.json({error:'Please keep the question under 1,000 characters.'},{status:400});
 
+    const memory=buildMemory(history,findPlayerNames);
     let matchedPlayers=findPlayerNames(question);
-    if(!matchedPlayers.length&&explicitFollowUp(question))matchedPlayers=lastMentionedNames(history);
+    if(!matchedPlayers.length)matchedPlayers=resolveFollowUpPlayers(question,memory);
 
     const intent=parseIntent(question,matchedPlayers);
     const result=runEngine(intent);
@@ -53,11 +42,12 @@ export async function POST(request:NextRequest){
     return NextResponse.json({
       answer,
       matchedPlayers,
-      engine:'Prospect Genie structured agent v4',
+      engine:'Prospect Genie structured agent v4.1',
       intent:{task:intent.task,metric:intent.metric,filters:intent.filters,limit:intent.limit},
       plan:result.plan.steps,
       confidence:result.confidence,
       limitations:result.limitations,
+      memory:{activePlayers:memory.activePlayers.slice(0,5)},
       requestQuestion:question
     },{headers:{'Cache-Control':'no-store, max-age=0'}});
   }catch(error){
