@@ -1,0 +1,101 @@
+import rankingsData from '../../data/rankings.json';
+import statsData from '../../data/stats.json';
+import injuriesData from '../../data/injuries.json';
+import promotionsData from '../../data/promotions.json';
+import newsData from '../../data/news.json';
+import { enrichRankings } from '../ranking/intelligence';
+import { normalizeText } from './shared';
+
+export const GENIE_LAYER_10_VERSION='10.0.0';
+export type AuditSeverity='info'|'warning'|'error';
+export type AuditCheck={id:string;passed:boolean;severity:AuditSeverity;message:string};
+export type GenieAudit={
+  layer:number;
+  version:string;
+  passed:boolean;
+  reliabilityScore:number;
+  confidence:'high'|'moderate'|'low';
+  checks:AuditCheck[];
+  limitations:string[];
+  sources:{dataset:string;updatedAt:string|null;ageHours:number|null;stale:boolean}[];
+};
+
+type Payload=Record<string,any>;
+const canonical=enrichRankings();
+const rankByName=new Map(canonical.map(row=>[normalizeText(row.player),row]));
+const finite=(value:unknown)=>Number.isFinite(Number(value));
+const hoursOld=(value:string|null|undefined)=>{if(!value)return null;const time=new Date(value).getTime();return Number.isFinite(time)?Math.max(0,(Date.now()-time)/36e5):null;};
+const datasetSources=[
+  ['rankings',(rankingsData as any).updatedAt],['stats',(statsData as any).updatedAt],['injuries',(injuriesData as any).updatedAt],['promotions',(promotionsData as any).updatedAt],['news',(newsData as any).updatedAt]
+] as const;
+const freshness=()=>datasetSources.map(([dataset,updatedAt])=>{const ageHours=hoursOld(updatedAt);return{dataset,updatedAt:updatedAt??null,ageHours:ageHours===null?null:Number(ageHours.toFixed(1)),stale:ageHours===null||ageHours>168};});
+
+function namedPlayers(payload:Payload){
+  const names=new Set<string>();
+  for(const name of payload.matchedPlayers||[])if(typeof name==='string')names.add(name);
+  for(const item of payload.evidence||[])if(typeof item?.player==='string')names.add(item.player);
+  if(typeof payload.development?.player==='string')names.add(payload.development.player);
+  return [...names];
+}
+
+function canonicalCheck(payload:Payload):AuditCheck{
+  const evidence=Array.isArray(payload.evidence)?payload.evidence:[];
+  const mismatches:string[]=[];
+  for(const item of evidence){
+    const ranking=rankByName.get(normalizeText(item?.player||''));
+    const overall=item?.currentScores?.overall;
+    if(ranking&&finite(overall)&&Math.abs(Number(overall)-ranking.score)>.11)mismatches.push(item.player);
+  }
+  return{id:'canonical-ranking-consistency',passed:mismatches.length===0,severity:'error',message:mismatches.length?`Overall score disagrees with the canonical v4 ranking for ${mismatches.join(', ')}.`:'All returned overall scores agree with the canonical v4 ranking model.'};
+}
+
+function evidenceCheck(payload:Payload):AuditCheck{
+  const task=payload.intent?.task;
+  const exempt=['organizational_analysis','simulate_scenario','phillies_development_decision','development_dossier'];
+  const requiresEvidence=!exempt.includes(task)&&!String(payload.answer||'').startsWith('Name a Phillies prospect');
+  const count=Array.isArray(payload.evidence)?payload.evidence.length:0;
+  return{id:'evidence-present',passed:!requiresEvidence||count>0,severity:'error',message:!requiresEvidence||count>0?'Required evidence is present.':'The answer has no player evidence.'};
+}
+
+function identityCheck(payload:Payload):AuditCheck{
+  const unknown=namedPlayers(payload).filter(name=>!rankByName.has(normalizeText(name)));
+  return{id:'player-identity',passed:unknown.length===0,severity:'error',message:unknown.length?`Unrecognized player identity: ${unknown.join(', ')}.`:'All named players resolve to the tracked Phillies prospect pool.'};
+}
+
+function numericCheck(payload:Payload):AuditCheck{
+  const invalid:string[]=[];
+  for(const item of payload.evidence||[]){
+    for(const [key,value] of Object.entries(item?.currentScores||{}))if(!finite(value)||Number(value)<0||Number(value)>100)invalid.push(`${item.player}:${key}`);
+  }
+  return{id:'bounded-scores',passed:invalid.length===0,severity:'error',message:invalid.length?`Invalid score values: ${invalid.slice(0,5).join(', ')}.`:'All returned scores are finite and bounded from 0 to 100.'};
+}
+
+function freshnessCheck(sources:ReturnType<typeof freshness>):AuditCheck{
+  const stale=sources.filter(source=>source.stale).map(source=>source.dataset);
+  return{id:'source-freshness',passed:stale.length===0,severity:'warning',message:stale.length?`Stale or undated datasets: ${stale.join(', ')}.`:'Core Genie datasets were refreshed within the last seven days.'};
+}
+
+function answerCheck(payload:Payload):AuditCheck{
+  const answer=String(payload.answer||'').trim();
+  return{id:'answer-completeness',passed:answer.length>=25,severity:'error',message:answer.length>=25?'The answer contains a substantive response.':'The generated answer is empty or too short.'};
+}
+
+function confidenceFrom(score:number,hasError:boolean){return hasError||score<55?'low':score<82?'moderate':'high';}
+
+export function auditGeniePayload(payload:Payload):GenieAudit{
+  const sources=freshness();
+  const checks=[answerCheck(payload),identityCheck(payload),evidenceCheck(payload),numericCheck(payload),canonicalCheck(payload),freshnessCheck(sources)];
+  const errors=checks.filter(check=>!check.passed&&check.severity==='error').length;
+  const warnings=checks.filter(check=>!check.passed&&check.severity==='warning').length;
+  const reliabilityScore=Math.max(0,Math.round(100-errors*25-warnings*8));
+  const limitations=[...new Set([...(payload.limitations||[]),...checks.filter(check=>!check.passed).map(check=>check.message)])];
+  return{layer:10,version:GENIE_LAYER_10_VERSION,passed:errors===0,reliabilityScore,confidence:confidenceFrom(reliabilityScore,errors>0),checks,limitations,sources};
+}
+
+export function finalizeGeniePayload(payload:Payload){
+  const audit=auditGeniePayload(payload);
+  const existingConfidence=payload.confidence;
+  const confidenceOrder={low:0,moderate:1,high:2} as const;
+  const confidence=confidenceOrder[audit.confidence]<confidenceOrder[existingConfidence as keyof typeof confidenceOrder]?audit.confidence:existingConfidence||audit.confidence;
+  return{...payload,engine:'Prospect Genie reliability intelligence v10.0',confidence,limitations:audit.limitations,audit};
+}
