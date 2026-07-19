@@ -1,0 +1,13 @@
+{
+  "updatedAt": null,
+  "methodology": {
+    "scouting": 30,
+    "performance": 25,
+    "ageLevel": 15,
+    "sentiment": 15,
+    "movement": 10,
+    "risk": 5,
+    "note": "Run the daily workflow to generate the first rankings."
+  },
+  "records": []
+}
