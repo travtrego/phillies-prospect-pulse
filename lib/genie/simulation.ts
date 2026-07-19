@@ -1,0 +1,145 @@
+import rankingsData from '../../data/rankings.json';
+import statsData from '../../data/stats.json';
+import injuriesData from '../../data/injuries.json';
+
+type Row=Record<string,any>;
+type ScenarioAction={type:'promote'|'injure'|'trade'|'graduate'|'draft';player?:string;targetLevel?:string;group?:string;count?:number;description:string};
+type GroupState={group:string;players:number;averageScore:number;nearTerm:number;injured:number;depthScore:number};
+
+export type SimulationReport={
+  scenario:string;
+  actions:ScenarioAction[];
+  baseline:{systemScore:number;groups:GroupState[]};
+  simulated:{systemScore:number;groups:GroupState[]};
+  systemScoreChange:number;
+  groupChanges:{group:string;before:number;after:number;change:number}[];
+  winners:string[];
+  risks:string[];
+  recommendations:string[];
+  assumptions:string[];
+  answer:string;
+};
+
+const rankings=rankingsData.records as Row[];
+const stats=statsData.records as Row[];
+const injuries=injuriesData.records as Row[];
+const normalize=(value='')=>value.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9 ]/g,' ').replace(/\s+/g,' ').trim();
+const clamp=(value:number,min=0,max=100)=>Math.max(min,Math.min(max,value));
+const statFor=(name:string)=>stats.find(row=>normalize(row.player)===normalize(name));
+const injuryNames=new Set(injuries.map(row=>normalize(row.player)));
+const groupFor=(position='')=>{const p=position.toUpperCase();if(['RHP','LHP','P','SP','RP'].includes(p))return'Pitching';if(p==='C')return'Catcher';if(['SS','2B','3B','1B','IF'].includes(p))return'Infield';if(['CF','LF','RF','OF'].includes(p))return'Outfield';return'Other';};
+const levelWeight=(level?:string)=>({MLB:100,AAA:82,AA:64,'A+':46,A:30,Rookie:15}[level||'']||20);
+
+function roster(){
+  return rankings.map(player=>({
+    name:player.player,
+    position:player.position,
+    group:groupFor(player.position),
+    score:Number(player.score||0),
+    rank:Number(player.rank||999),
+    level:statFor(player.player)?.level||player.level||'Rookie',
+    injured:injuryNames.has(normalize(player.player)),
+    synthetic:false
+  }));
+}
+
+function state(players:ReturnType<typeof roster>){
+  const names=['Pitching','Catcher','Infield','Outfield','Other'];
+  const groups=names.map(group=>{
+    const rows=players.filter(player=>player.group===group);
+    if(!rows.length)return null;
+    const quality=rows.reduce((sum,row)=>sum+row.score,0)/rows.length;
+    const proximity=rows.reduce((sum,row)=>sum+levelWeight(row.level),0)/rows.length;
+    const nearTerm=rows.filter(row=>['AAA','AA'].includes(row.level)).length;
+    const injured=rows.filter(row=>row.injured).length;
+    const topTalent=rows.filter(row=>row.rank<=10).length;
+    const depthScore=clamp(quality*.55+proximity*.25+Math.min(rows.length,8)*3+topTalent*3-injured*4);
+    return{group,players:rows.length,averageScore:Number(quality.toFixed(1)),nearTerm,injured,depthScore:Number(depthScore.toFixed(1))};
+  }).filter(Boolean) as GroupState[];
+  return{systemScore:Number((groups.reduce((sum,row)=>sum+row.depthScore,0)/groups.length).toFixed(1)),groups};
+}
+
+function matchPlayer(question:string){
+  const q=normalize(question);
+  return rankings.filter(player=>q.includes(normalize(player.player))||q.split(' ').includes(normalize(player.player).split(' ').at(-1)||'')).sort((a,b)=>normalize(b.player).length-normalize(a.player).length).map(player=>player.player);
+}
+
+function targetLevel(question:string){
+  const q=normalize(question);
+  if(/major leagues|majors|philadelphia|mlb/.test(q))return'MLB';
+  if(/triple a|triple-a|lehigh valley|aaa/.test(q))return'AAA';
+  if(/double a|double-a|reading|aa/.test(q))return'AA';
+  if(/high a|high-a|jersey shore|a\+/.test(q))return'A+';
+  if(/single a|single-a|clearwater/.test(q))return'A';
+  return undefined;
+}
+
+function parseActions(question:string):ScenarioAction[]{
+  const names=matchPlayer(question);
+  const actions:ScenarioAction[]=[];
+  const level=targetLevel(question);
+  if(/promote|call up|move .* to|send .* to/.test(normalize(question))&&names.length){
+    actions.push(...names.map(player=>({type:level==='MLB'?'graduate':'promote' as const,player,targetLevel:level||'AAA',description:`Move ${player} to ${level||'AAA'}.`})));
+  }
+  if(/injur|misses? the season|out for the season|tommy john|breaks?/.test(normalize(question))&&names.length){
+    actions.push(...names.map(player=>({type:'injure' as const,player,description:`Model ${player} as unavailable due to injury.`})));
+  }
+  if(/trade|deal|package|send away/.test(normalize(question))&&names.length){
+    actions.push(...names.map(player=>({type:'trade' as const,player,description:`Remove ${player} from the Phillies prospect system in a trade.`})));
+  }
+  const draftCount=Number(normalize(question).match(/draft\s+(\d+)/)?.[1]||(/draft/.test(normalize(question))?1:0));
+  if(draftCount){
+    const group=/pitcher/.test(normalize(question))?'Pitching':/catcher/.test(normalize(question))?'Catcher':/outfield/.test(normalize(question))?'Outfield':/shortstop|infielder|infield/.test(normalize(question))?'Infield':'Other';
+    actions.push({type:'draft',group,count:Math.min(draftCount,10),description:`Add ${Math.min(draftCount,10)} modeled ${group.toLowerCase()} prospect${draftCount===1?'':'s'} through the draft.`});
+  }
+  return actions;
+}
+
+export function isSimulationQuestion(question:string){
+  return /what if|simulate|scenario|suppose|assume|trade .+ for|promote|call up|misses? the season|out for the season|draft \d+|future farm|after trading|after promoting/i.test(question);
+}
+
+export function simulateScenario(question:string):SimulationReport{
+  const players=roster();
+  const baseline=state(players);
+  const actions=parseActions(question);
+  const assumptions:string[]=['The simulation changes only the tracked prospect system, not the MLB roster, payroll or incoming trade return.','Player scores remain constant unless the scenario directly changes availability, level or system membership.','Draft additions use a generic 55/100 initial model score and Rookie-level proximity.'];
+
+  for(const action of actions){
+    if(action.type==='draft'){
+      for(let i=0;i<(action.count||1);i++)players.push({name:`Modeled ${action.group} Draft Pick ${i+1}`,position:'',group:action.group||'Other',score:55,rank:999,level:'Rookie',injured:false,synthetic:true});
+      continue;
+    }
+    const player=players.find(row=>normalize(row.name)===normalize(action.player||''));
+    if(!player)continue;
+    if(action.type==='trade'||action.type==='graduate'){
+      players.splice(players.indexOf(player),1);
+    }else if(action.type==='promote'){
+      player.level=action.targetLevel||'AAA';
+    }else if(action.type==='injure'){
+      player.injured=true;
+      player.score=clamp(player.score-8);
+    }
+  }
+
+  const simulated=state(players);
+  const groupChanges=baseline.groups.map(before=>{
+    const after=simulated.groups.find(group=>group.group===before.group);
+    return{group:before.group,before:before.depthScore,after:after?.depthScore||0,change:Number(((after?.depthScore||0)-before.depthScore).toFixed(1))};
+  }).sort((a,b)=>a.change-b.change);
+  const winners=groupChanges.filter(change=>change.change>0).map(change=>`${change.group} improves by ${change.change.toFixed(1)} points.`);
+  const risks=groupChanges.filter(change=>change.change<0).map(change=>`${change.group} declines by ${Math.abs(change.change).toFixed(1)} points.`);
+  if(!actions.length)risks.push('No supported scenario action was detected. Name a player and specify a promotion, injury, trade or draft action.');
+  const recommendations:string[]=[];
+  const worst=groupChanges[0];
+  if(worst?.change<0)recommendations.push(`Backfill ${worst.group.toLowerCase()} depth because it takes the largest modeled loss.`);
+  if(actions.some(action=>action.type==='trade'))recommendations.push('Compare the incoming MLB value against the lost prospect depth before treating the deal as favorable.');
+  if(actions.some(action=>action.type==='promote'||action.type==='graduate'))recommendations.push('Reassign playing time at the vacated affiliate so the promotion creates a development chain rather than an empty roster spot.');
+  if(actions.some(action=>action.type==='injure'))recommendations.push('Preserve conservative recovery assumptions and identify the next two depth options rather than relying on one replacement.');
+  if(actions.some(action=>action.type==='draft'))recommendations.push('Treat draft additions as long-horizon depth; they should not materially solve an upper-minors shortage immediately.');
+
+  const change=Number((simulated.systemScore-baseline.systemScore).toFixed(1));
+  const actionText=actions.length?actions.map((action,index)=>`${index+1}. ${action.description}`).join('\n'):'No valid action detected.';
+  const answer=`Scenario simulated: ${question}\n\nActions applied:\n${actionText}\n\nFarm-system score: ${baseline.systemScore}/100 → ${simulated.systemScore}/100 (${change>=0?'+':''}${change}).\n\nLargest position-group effects:\n${groupChanges.slice(0,5).map(change=>`- ${change.group}: ${change.before} → ${change.after} (${change.change>=0?'+':''}${change.change})`).join('\n')}\n\nKey risks:\n${(risks.length?risks:['No major modeled downside detected.']).map(risk=>`- ${risk}`).join('\n')}\n\nRecommended response:\n${(recommendations.length?recommendations:['No additional action is required under the current simplified assumptions.']).map(item=>`- ${item}`).join('\n')}\n\nThis is a deterministic decision-support scenario, not a forecast of what will actually happen. Incoming trade returns, MLB roster effects, contracts and player-development uncertainty are not yet fully modeled.`;
+  return{scenario:question,actions,baseline,simulated,systemScoreChange:change,groupChanges,winners,risks,recommendations,assumptions,answer};
+}
