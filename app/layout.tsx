@@ -3,6 +3,7 @@ import Link from "next/link";
 import "./globals.css";
 import "./phase-two.css";
 import "./ask.css";
+import "./movement.css";
 
 export const metadata: Metadata = {
   title: "Phillies Prospect Pulse",
