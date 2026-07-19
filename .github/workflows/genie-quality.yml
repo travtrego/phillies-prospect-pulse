@@ -19,6 +19,44 @@ jobs:
       - name: Audit Genie data
         run: npm run audit:genie
       - name: Type-check
-        run: npm run typecheck
+        id: typecheck
+        continue-on-error: true
+        shell: bash
+        run: |
+          set +e
+          npm run typecheck -- --pretty false > typecheck.log 2>&1
+          code=$?
+          echo "exit_code=$code" >> "$GITHUB_OUTPUT"
+          cat typecheck.log
+          exit 0
       - name: Production build
-        run: npm run build
+        id: build
+        continue-on-error: true
+        shell: bash
+        run: |
+          set +e
+          npm run build > build.log 2>&1
+          code=$?
+          echo "exit_code=$code" >> "$GITHUB_OUTPUT"
+          cat build.log
+          exit 0
+      - name: Upload quality logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: genie-quality-logs
+          path: |
+            typecheck.log
+            build.log
+      - name: Enforce quality result
+        if: always()
+        shell: bash
+        run: |
+          if [ "${{ steps.typecheck.outputs.exit_code }}" != "0" ]; then
+            echo "TypeScript validation failed."
+            exit 1
+          fi
+          if [ "${{ steps.build.outputs.exit_code }}" != "0" ]; then
+            echo "Production build failed."
+            exit 1
+          fi
