@@ -47,7 +47,8 @@ async function fetchAffiliateTransactions(affiliate) {
     .forEach((transaction) => {
       const description = transaction.description ?? "";
       const playerId = transaction.person?.id ?? null;
-      const player = transaction.person?.fullName ?? description.split(" ").slice(0, 3).join(" ") || "Unknown player";
+      const fallbackPlayer = description.split(" ").slice(0, 3).join(" ");
+      const player = transaction.person?.fullName ?? (fallbackPlayer || "Unknown player");
       const key = playerId ? String(playerId) : player.toLowerCase();
 
       if (placedOnIl.test(description)) {
