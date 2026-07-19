@@ -67,7 +67,7 @@ h1,h2,h3 { letter-spacing:-.025em; }
 .filterTabs button.active { border-color:var(--phillies-red); background:var(--phillies-red); color:#fff; box-shadow:0 6px 18px rgba(232,24,40,.22); }
 .directoryToolbar input { width:min(230px,100%); border:1px solid var(--border); border-radius:10px; padding:10px 12px; background:#071323; color:#fff; outline:none; }
 .directoryToolbar input:focus { border-color:var(--phillies-red); box-shadow:0 0 0 3px rgba(232,24,40,.1); }
-.resultsHeader { display:flex; justify-content:space-between; align-items:end; gap:16px; margin-bottom:18px; }
+.resultsHeader { display:flex; justify-content:space-between; align-items:flex-end; gap:16px; margin-bottom:18px; }
 .resultsHeader h2 { margin:5px 0 0; font-size:clamp(1.8rem,4vw,2.6rem); }
 .status { border:1px solid rgba(232,24,40,.45); background:rgba(232,24,40,.1); color:#ff969f; border-radius:999px; padding:9px 13px; font-size:.72rem; font-weight:900; }
 .cardGrid,.statsCardGrid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:18px; align-items:start; }
@@ -94,59 +94,47 @@ h1,h2,h3 { letter-spacing:-.025em; }
 .grades b { color:#ff919a; font-size:.59rem; text-transform:uppercase; letter-spacing:.04em; }
 .statsLink { display:block; margin:0 16px 14px; padding:11px 12px; border:1px solid rgba(0,92,190,.28); border-radius:10px; background:linear-gradient(90deg,rgba(0,45,114,.5),rgba(0,67,145,.34)); color:#fff; font-size:.74rem; font-weight:900; text-align:center; text-decoration:none; transition:.16s ease; }
 .statsLink:hover { border-color:rgba(232,24,40,.45); background:linear-gradient(90deg,rgba(232,24,40,.3),rgba(0,45,114,.46)); }
-.playerCard footer { display:flex; justify-content:space-between; gap:12px; padding:12px 16px; border-top:1px solid var(--border); color:var(--muted); font-size:.61rem; }
-.statIdentity { padding:18px 16px 12px; }
-.statIdentity h3 { margin:0 0 6px; }
-.statIdentity p { margin:0; color:var(--muted); font-size:.76rem; }
-.statPlaceholderGrid,.personalStatsGrid { display:grid; grid-template-columns:repeat(3,1fr); gap:10px; padding:0 16px 16px; }
-.statPlaceholderGrid div,.personalStatsGrid div { padding:13px; border:1px solid var(--border); border-radius:11px; background:rgba(255,255,255,.025); }
-.statPlaceholderGrid span,.personalStatsGrid span { display:block; color:var(--muted); font-size:.62rem; text-transform:uppercase; letter-spacing:.07em; }
-.statPlaceholderGrid strong,.personalStatsGrid strong { display:block; margin-top:7px; font-size:1.15rem; }
-.backLink { display:inline-flex; align-items:center; margin-bottom:16px; color:#dce5f2; font-size:.78rem; font-weight:800; text-decoration:none; }
-.backLink:hover { color:#fff; }
-.premiumHeader { position:relative; overflow:hidden; }
-.premiumHeader::after { content:""; position:absolute; right:-90px; top:-120px; width:330px; height:330px; border:1px solid rgba(255,255,255,.055); border-radius:50%; box-shadow:0 0 0 50px rgba(255,255,255,.018),0 0 0 100px rgba(255,255,255,.012); pointer-events:none; }
-.profileHeroCopy { position:relative; z-index:1; }
-.profileStatusRow { display:flex; align-items:center; gap:10px; flex-wrap:wrap; }
-.verifiedPill { padding:5px 8px; border:1px solid rgba(75,210,139,.3); border-radius:999px; background:rgba(75,210,139,.08); color:#8ce5b3; font-size:.61rem; font-weight:900; text-transform:uppercase; letter-spacing:.05em; }
-.profileQuickFacts { display:flex; flex-wrap:wrap; gap:10px; margin-top:20px; }
-.profileQuickFacts span { min-width:118px; padding:10px 12px; border:1px solid var(--border); border-radius:10px; background:rgba(255,255,255,.025); color:#e5ebf3; font-size:.75rem; }
-.profileQuickFacts b { display:block; margin-bottom:4px; color:var(--muted); font-size:.58rem; text-transform:uppercase; letter-spacing:.08em; }
-.profileSubnav { display:flex; gap:7px; overflow:auto; margin:-7px 0 24px; padding:10px; border:1px solid var(--border); border-radius:13px; background:rgba(8,18,33,.88); }
-.profileSubnav a { white-space:nowrap; padding:8px 11px; border-radius:8px; color:#cdd7e5; font-size:.71rem; font-weight:850; text-decoration:none; }
-.profileSubnav a:hover { background:rgba(255,255,255,.05); color:#fff; }
-.profileOverviewGrid { display:grid; grid-template-columns:minmax(0,1.5fr) minmax(260px,.65fr); gap:18px; margin-bottom:20px; }
-.profileSummaryCard,.profileSignalCard,.placeholderPanel { padding:22px; }
-.profileSummaryCard h2,.profileSignalCard h2,.placeholderPanel h2 { margin:6px 0 12px; font-size:1.3rem; }
-.profileSummaryCard > p,.profileSignalCard > p { color:#d1dae7; line-height:1.65; }
-.profileMetaList { display:grid; grid-template-columns:repeat(2,1fr); gap:9px; margin-top:18px; }
-.profileMetaList div { padding:12px; border:1px solid var(--border); border-radius:10px; background:rgba(255,255,255,.024); }
-.profileMetaList span { display:block; margin-bottom:5px; color:var(--muted); font-size:.61rem; text-transform:uppercase; letter-spacing:.07em; }
-.profileMetaList strong { font-size:.82rem; }
-.neutralSignal { display:inline-flex; margin-bottom:13px; padding:8px 10px; border:1px solid rgba(255,190,92,.27); border-radius:8px; background:rgba(255,190,92,.07); color:#ffd18a; font-size:.72rem; font-weight:900; text-transform:uppercase; letter-spacing:.04em; }
-.personalStatsPanel,.playerReportPanel { padding:22px; margin-bottom:20px; scroll-margin-top:150px; }
-.personalStatsGrid { grid-template-columns:repeat(6,1fr); padding:0; }
-.timeWindowBar { display:flex; gap:7px; margin-top:14px; padding-top:14px; border-top:1px solid var(--border); }
-.timeWindowBar button { border:1px solid var(--border); border-radius:8px; padding:7px 10px; background:rgba(255,255,255,.025); color:var(--muted); font-size:.67rem; font-weight:850; }
-.timeWindowBar button.active { border-color:rgba(232,24,40,.4); background:rgba(232,24,40,.11); color:#fff; }
-.playerReportPanel p { margin:10px 0 0; color:#d6deea; line-height:1.7; }
-.reviewDate { color:var(--muted); font-size:.66rem; }
-.profileGrades { display:grid; grid-template-columns:repeat(2,1fr); gap:12px; margin-top:20px; }
-.profileGrades > div { padding:12px; border:1px solid var(--border); border-radius:10px; background:rgba(255,255,255,.023); }
-.profileGrades span { color:var(--muted); font-size:.63rem; font-weight:800; text-transform:uppercase; letter-spacing:.07em; }
-.profileGrades strong { float:right; font-size:.84rem; }
+.cardFooter { display:flex; justify-content:space-between; align-items:center; gap:12px; padding:13px 16px; border-top:1px solid var(--border); background:rgba(0,0,0,.12); color:var(--muted); font-size:.65rem; }
+.cardFooter a { color:#fff; font-weight:850; text-decoration:none; }
+.cardFooter a:hover { color:#ff8e98; }
+.emptyState { grid-column:1/-1; padding:42px; border:1px dashed var(--border-strong); border-radius:18px; color:var(--muted); text-align:center; }
+.backLink { display:inline-block; margin-bottom:20px; color:#ffc2c7; font-size:.78rem; font-weight:850; text-decoration:none; }
+.profileHeroCopy { min-width:0; }
+.profileStatusRow { display:flex; gap:8px; flex-wrap:wrap; }
+.profileQuickFacts { display:flex; flex-wrap:wrap; gap:10px; margin-top:18px; }
+.profileQuickFacts span { min-width:110px; padding:10px 12px; border:1px solid var(--border); border-radius:10px; background:rgba(255,255,255,.025); color:var(--muted); font-size:.68rem; }
+.profileQuickFacts b { display:block; margin-bottom:4px; color:#fff; font-size:.58rem; text-transform:uppercase; letter-spacing:.07em; }
+.profileSubnav { display:flex; gap:8px; flex-wrap:wrap; margin:0 0 22px; }
+.profileSubnav a { padding:8px 11px; border:1px solid var(--border); border-radius:999px; background:rgba(255,255,255,.025); color:#d7e0ee; font-size:.68rem; font-weight:850; text-decoration:none; }
+.profileSubnav a:hover { border-color:rgba(232,24,40,.5); color:#fff; }
+.personalStatsPanel,.playerReportPanel { margin-bottom:20px; padding:24px; }
+.personalStatsGrid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:11px; }
+.personalStatsGrid div { padding:13px; border:1px solid var(--border); border-radius:11px; background:rgba(255,255,255,.025); }
+.personalStatsGrid span { display:block; margin-bottom:6px; color:var(--muted); font-size:.62rem; text-transform:uppercase; letter-spacing:.06em; }
+.personalStatsGrid strong { font-size:.82rem; }
+.statsFootnote { margin:16px 0 0; color:var(--muted); font-size:.73rem; }
+.profileTwoColumn { display:grid; grid-template-columns:1fr 1fr; gap:18px; margin-bottom:20px; }
+.profileTwoColumn article { padding:22px; }
+.profileTwoColumn h3 { margin-bottom:11px; font-size:1rem; }
+.profileTwoColumn ul { margin:0; padding-left:18px; color:#d9e1ec; font-size:.79rem; line-height:1.6; }
+.playerReportPanel > p { color:#dce5f1; line-height:1.7; }
+.profileGrades { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:10px; margin:18px 0; }
+.profileGrades > div { padding:12px; border:1px solid var(--border); border-radius:10px; background:rgba(255,255,255,.025); }
+.profileGrades span { color:var(--muted); font-size:.61rem; text-transform:uppercase; }
+.profileGrades strong { float:right; }
 .profileGrades div div { clear:both; height:5px; margin-top:10px; overflow:hidden; border-radius:999px; background:rgba(255,255,255,.08); }
-.profileGrades i { display:block; height:100%; border-radius:999px; background:linear-gradient(90deg,var(--phillies-blue),var(--phillies-red)); }
-.sourceButton { display:inline-flex; margin-top:18px; padding:10px 12px; border:1px solid var(--border); border-radius:9px; color:#fff; font-size:.72rem; font-weight:850; text-decoration:none; }
-.sourceButton:hover { border-color:rgba(232,24,40,.45); }
-.profileTwoColumn { display:grid; grid-template-columns:1fr 1fr; gap:18px; }
-.placeholderPanel { scroll-margin-top:150px; }
-.emptyStateCompact { margin-top:15px; padding:18px; border:1px dashed rgba(255,255,255,.14); border-radius:12px; background:rgba(255,255,255,.018); }
-.emptyStateCompact strong { display:block; margin-bottom:6px; font-size:.82rem; }
-.emptyStateCompact p { margin:0; color:var(--muted); font-size:.76rem; line-height:1.5; }
-.profileSourceFooter { display:flex; justify-content:space-between; gap:16px; margin-top:20px; padding:15px 18px; border:1px solid var(--border); border-radius:12px; background:rgba(8,18,33,.72); color:var(--muted); font-size:.67rem; }
-.directoryNote { margin-top:28px; padding:16px 18px; border:1px solid var(--border); border-radius:14px; background:rgba(13,24,41,.78); color:var(--muted); font-size:.78rem; line-height:1.5; }
-.empty { padding:52px 24px; text-align:center; border:1px solid var(--border); border-radius:20px; background:var(--panel); }
-.empty p { color:var(--muted); }
-@media (max-width:940px) { .cardGrid,.statsCardGrid { grid-template-columns:repeat(2,minmax(0,1fr)); } .directoryToolbar { align-items:stretch; flex-direction:column; } .directoryToolbar input { width:100%; } .personalStatsGrid { grid-template-columns:repeat(3,1fr); } .profileOverviewGrid { grid-template-columns:1fr; } }
-@media (max-width:650px) { .navInner { align-items:flex-start; flex-direction:column; padding:12px 0; } .navLinks { width:100%; overflow:auto; flex-wrap:nowrap; } main { padding:20px 0 50px; } .siteHeader,.playerPageHeader { padding:22px 20px; align-items:flex-start; } .headerBadge { width:76px; height:76px; flex-basis:76px; } .headerBadge strong { font-size:1.65rem; } .cardGrid,.statsCardGrid { grid-template-columns:1fr; } .resultsHeader { align-items:flex-start; flex-direction:column; } .playerCard footer,.profileSourceFooter { flex-direction:column; } .directoryToolbar { position:static; } .newsPanel,.rumorsPanel { padding:18px; } .fullStory,.rumorStory { padding:17px; } .personalStatsGrid { grid-template-columns:repeat(2,1fr); } .profileMetaList,.profileGrades,.profileTwoColumn { grid-template-columns:1fr; } .profileQuickFacts { display:grid; grid-template-columns:1fr 1fr; } }
+.profileGrades i { display:block; height:100%; background:linear-gradient(90deg,var(--phillies-blue),var(--phillies-red)); }
+.sourceButton { display:inline-block; margin-top:12px; padding:9px 12px; border:1px solid rgba(232,24,40,.4); border-radius:9px; background:rgba(232,24,40,.08); color:#fff; font-size:.7rem; font-weight:850; text-decoration:none; }
+.sourceButton:hover { background:rgba(232,24,40,.16); }
+.playerReportPanel small,.profileDataBlock small,.profileSourceFooter { color:var(--muted); font-size:.65rem; }
+.profileDataBlock p { margin:8px 0 0; color:var(--muted); font-size:.78rem; line-height:1.5; }
+.emptyStateCompact { padding:16px 0; color:var(--muted); }
+.emptyStateCompact strong { color:#fff; }
+.profileTimeline { margin:0; padding-left:20px; }
+.profileTimeline li { margin-bottom:14px; padding-left:4px; }
+.profileTimeline time { display:block; color:#ff9aa3; font-size:.63rem; font-weight:850; }
+.profileTimeline strong { display:block; margin:3px 0; font-size:.78rem; }
+.profileTimeline p { margin:0; color:var(--muted); font-size:.72rem; }
+.profileSourceFooter { display:flex; justify-content:space-between; gap:16px; padding:14px 2px; }
+@media (max-width:900px){.cardGrid,.statsCardGrid{grid-template-columns:repeat(2,minmax(0,1fr))}.personalStatsGrid{grid-template-columns:repeat(2,minmax(0,1fr))}.siteHeader,.playerPageHeader{align-items:flex-start}.profileGrades{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:640px){.navInner{align-items:flex-start;padding:13px 0}.navLinks{justify-content:flex-end}.siteHeader,.playerPageHeader{padding:24px 20px;align-items:flex-start}.headerBadge{width:78px;height:78px;flex-basis:78px}.headerBadge strong{font-size:1.7rem}.directoryToolbar{position:static;display:grid}.directoryToolbar input{width:100%}.cardGrid,.statsCardGrid,.profileTwoColumn,.personalStatsGrid,.profileGrades{grid-template-columns:1fr}.resultsHeader,.panelHeading,.profileSourceFooter{align-items:flex-start;flex-direction:column}.fullStory,.rumorStory{padding:17px}.storyNumber{display:none}main{width:min(100% - 20px,1180px);padding-top:22px}}
