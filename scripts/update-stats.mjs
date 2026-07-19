@@ -38,11 +38,30 @@ async function getRoster(team) {
   })).filter(player => player.playerId && player.player);
 }
 
+function findBestSplit(data) {
+  const blocks = data.stats || [];
+  const allSplits = blocks.flatMap(block => block.splits || []);
+  return allSplits
+    .filter(split => split?.stat)
+    .sort((a, b) => {
+      const aGames = Number(a.stat.gamesPlayed ?? a.stat.gamesPitched ?? 0);
+      const bGames = Number(b.stat.gamesPlayed ?? b.stat.gamesPitched ?? 0);
+      return bGames - aGames;
+    })[0] || null;
+}
+
 async function getStats(player) {
   const group = player.positionType === 'Pitcher' || ['P','RHP','LHP'].includes(player.position) ? 'pitching' : 'hitting';
-  const url = `https://statsapi.mlb.com/api/v1/people/${player.playerId}/stats?stats=season&group=${group}&season=${SEASON}`;
+  const params = new URLSearchParams({
+    stats: 'season',
+    group,
+    season: String(SEASON),
+    leagueListId: 'mlb_milb',
+    gameType: 'R'
+  });
+  const url = `https://statsapi.mlb.com/api/v1/people/${player.playerId}/stats?${params.toString()}`;
   const data = await fetchJson(url);
-  const split = data.stats?.[0]?.splits?.[0];
+  const split = findBestSplit(data);
   const stat = split?.stat || {};
 
   if (group === 'pitching') {
