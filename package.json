@@ -10,7 +10,8 @@
     "typecheck": "tsc --noEmit",
     "test:genie": "tsx --test tests/genie.test.ts",
     "audit:genie": "node scripts/audit-genie.mjs",
-    "quality": "npm run audit:genie && npm run test:genie && npm run typecheck && npm run build"
+    "audit:ui": "node scripts/audit-ui.mjs",
+    "quality": "npm run audit:genie && npm run audit:ui && npm run test:genie && npm run typecheck && npm run build"
   },
   "dependencies": {
     "next": "15.5.18",
