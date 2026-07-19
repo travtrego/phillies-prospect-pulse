@@ -30,11 +30,11 @@ assert(profile.includes('getDirectoryPlayer'),'Player profiles are not using the
 const home=readText('app/page.tsx');
 const affiliates=readText('app/affiliates/page.tsx');
 assert(home.includes('getDirectoryPlayers'),'Homepage cards are not using the resilient player loader');
+assert(home.includes('enrichRankings'),'Homepage cards are not using canonical v4 rankings');
 assert(affiliates.includes('getDirectoryPlayers'),'Affiliates tab is not using the resilient player loader');
 
 const rankings=readJson('data/rankings.json').records||[];
 const stats=readJson('data/stats.json').records||[];
-const rankingNames=new Set(rankings.map(row=>normalize(row.player)));
 const statNames=new Set(stats.map(row=>normalize(row.player)));
 assert(rankings.length>=30,`Expected at least 30 ranking records; found ${rankings.length}`);
 for(const row of rankings.slice(0,30)){
@@ -54,14 +54,17 @@ const layers={
   6:['lib/genie/organization.ts'],
   7:['lib/genie/simulation.ts'],
   8:['lib/genie/frontoffice.ts'],
-  9:['lib/genie/development.ts','lib/genie/history.ts']
+  9:['lib/genie/development.ts','lib/genie/history.ts'],
+  10:['lib/genie/predictiveFrontOffice.ts']
 };
 for(const [layer,files] of Object.entries(layers))for(const file of files)assert(exists(file),`Genie layer ${layer} is missing ${file}`);
 const route=readText('app/api/prospect-genie/route.ts');
-for(const marker of ['parseIntent','runEngine','applyHistoricalIntelligence','analyzeOrganization','simulateScenario','buildFrontOfficeReport','buildDevelopmentDossier'])assert(route.includes(marker),`Genie route is not wired to ${marker}`);
-assert(route.includes('development intelligence v9.0'),'Genie API does not identify itself as v9.0');
+for(const marker of ['parseIntent','runEngine','applyHistoricalIntelligence','analyzeOrganization','simulateScenario','buildFrontOfficeReport','buildDevelopmentDossier','buildPredictiveFrontOfficeReport','finalizeGeniePayload'])assert(route.includes(marker),`Genie route is not wired to ${marker}`);
+assert(route.includes('Prospect Genie Predictive Front Office v10.0'),'Genie API does not identify the predictive front office as v10.0');
+const reliability=readText('lib/genie/reliability.ts');
+assert(!reliability.includes('GENIE_LAYER_10_VERSION'),'Internal reliability guardrail is incorrectly labeled as Genie layer 10');
 
-console.log(`UI audit: ${requiredPages.length} pages, ${rankings.length} rankings and Genie layers 1-9 inspected.`);
+console.log(`UI audit: ${requiredPages.length} pages, ${rankings.length} rankings and Genie layers 1-10 inspected.`);
 for(const warning of warnings.slice(0,20))console.warn(`WARNING: ${warning}`);
 if(failures.length){for(const failure of failures)console.error(`FAIL: ${failure}`);process.exit(1)}
-console.log('PASS: player cards, profile tabs, navigation tabs and Genie layers 1-9 passed static integration checks.');
+console.log('PASS: player cards, profile tabs, navigation tabs and Genie layers 1-10 passed static integration checks.');
