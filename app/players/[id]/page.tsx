@@ -1,6 +1,40 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import type { Player } from '../../ProspectDirectory';
+import statsData from '../../../data/stats.json';
+import injuriesData from '../../../data/injuries.json';
+import promotionsData from '../../../data/promotions.json';
+
+type StatRecord = {
+  playerId: number;
+  player: string;
+  affiliate: string;
+  level: string;
+  position: string | null;
+  status: string | null;
+  stats: Record<string, string | number | null> & { type: 'hitting' | 'pitching' };
+};
+
+type InjuryRecord = {
+  player: string;
+  injury: string;
+  timeline: string;
+  status: string;
+  source?: string;
+  transactionDate?: string;
+  injurySourceType?: string;
+};
+
+type PromotionRecord = {
+  player: string;
+  date: string;
+  fromAffiliate: string;
+  fromLevel: string;
+  toAffiliate: string;
+  toLevel: string;
+  description?: string;
+  source?: string;
+};
 
 async function getPlayer(id: string): Promise<Player | null> {
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
@@ -17,9 +51,20 @@ async function getPlayer(id: string): Promise<Player | null> {
   return players[0] ?? null;
 }
 
-function formatDate(value: string | null) {
+function formatDate(value: string | null | undefined) {
   if (!value) return 'Pending review';
   return new Intl.DateTimeFormat('en-US', { month: 'short', day: 'numeric', year: 'numeric' }).format(new Date(value));
+}
+
+function sameName(a: string, b: string) {
+  const normalize = (value: string) => value.toLowerCase().replace(/[^a-z0-9]/g, '');
+  return normalize(a) === normalize(b);
+}
+
+function displayStat(value: string | number | null | undefined, decimals = false) {
+  if (value === null || value === undefined || value === '') return '—';
+  if (decimals && typeof value === 'number') return value.toFixed(3).replace(/^0/, '');
+  return String(value);
 }
 
 export default async function PlayerProfilePage({ params }: { params: Promise<{ id: string }> }) {
@@ -27,10 +72,34 @@ export default async function PlayerProfilePage({ params }: { params: Promise<{ 
   const player = await getPlayer(id);
   if (!player) notFound();
 
-  const pitcher = ['P', 'RHP', 'LHP'].includes(player.primary_position ?? '');
-  const statLabels = pitcher
-    ? ['G', 'IP', 'ERA', 'SO', 'WHIP', 'BB%']
-    : ['G', 'PA', 'AVG', 'OBP', 'SLG', 'OPS'];
+  const statRecord = (statsData.records as StatRecord[]).find(record => sameName(record.player, player.full_name));
+  const injury = (injuriesData.records as InjuryRecord[]).find(record => sameName(record.player, player.full_name));
+  const promotions = (promotionsData.records as PromotionRecord[])
+    .filter(record => sameName(record.player, player.full_name))
+    .sort((a, b) => b.date.localeCompare(a.date));
+  const pitcher = statRecord?.stats.type === 'pitching' || ['P', 'RHP', 'LHP'].includes(player.primary_position ?? '');
+
+  const statItems = pitcher
+    ? [
+        ['G', statRecord?.stats.games],
+        ['GS', statRecord?.stats.gamesStarted],
+        ['IP', statRecord?.stats.inningsPitched],
+        ['ERA', statRecord?.stats.era],
+        ['WHIP', statRecord?.stats.whip],
+        ['SO', statRecord?.stats.strikeouts],
+        ['BB', statRecord?.stats.walks],
+        ['K/9', statRecord?.stats.kPer9]
+      ]
+    : [
+        ['G', statRecord?.stats.games],
+        ['PA', statRecord?.stats.plateAppearances],
+        ['AVG', statRecord?.stats.average],
+        ['OBP', statRecord?.stats.obp],
+        ['SLG', statRecord?.stats.slg],
+        ['OPS', statRecord?.stats.ops],
+        ['HR', statRecord?.stats.homeRuns],
+        ['SB', statRecord?.stats.stolenBases]
+      ];
 
   return (
     <main>
@@ -61,12 +130,23 @@ export default async function PlayerProfilePage({ params }: { params: Promise<{ 
 
       <section className="personalStatsPanel" id="stats">
         <div className="panelHeading">
-          <div><span className="eyebrow">2026 season</span><h2>Current stats</h2></div>
-          <span className="dataStatusPill">Data source pending</span>
+          <div><span className="eyebrow">{statsData.season} season</span><h2>Current stats</h2></div>
+          <span className="dataStatusPill">{statRecord ? `${statRecord.affiliate} · Updated ${formatDate(statsData.updatedAt)}` : 'No current stat line found'}</span>
         </div>
         <div className="personalStatsGrid">
-          {statLabels.map((label) => <div key={label}><span>{label}</span><strong>—</strong></div>)}
+          {statItems.map(([label, value]) => (
+            <div key={String(label)}>
+              <span>{label}</span>
+              <strong>{displayStat(value as string | number | null, ['AVG', 'OBP', 'SLG', 'OPS', 'ERA', 'WHIP'].includes(String(label)))}</strong>
+            </div>
+          ))}
         </div>
+        {statRecord && !pitcher && (
+          <p className="statsFootnote">BB% {displayStat(statRecord.stats.walkRate)} · K% {displayStat(statRecord.stats.strikeoutRate)} · RBI {displayStat(statRecord.stats.rbi)}</p>
+        )}
+        {statRecord && pitcher && (
+          <p className="statsFootnote">BB/9 {displayStat(statRecord.stats.bbPer9)} · H {displayStat(statRecord.stats.hits)} · HR {displayStat(statRecord.stats.homeRuns)}</p>
+        )}
       </section>
 
       <section className="playerReportPanel" id="scouting">
@@ -89,17 +169,35 @@ export default async function PlayerProfilePage({ params }: { params: Promise<{ 
         <article className="placeholderPanel" id="injury">
           <span className="eyebrow">Quick health note</span>
           <h2>Injury status</h2>
-          <div className="emptyStateCompact">
-            <strong>No active injury note</strong>
-            <p>Any current injured-list status or return estimate will appear here.</p>
-          </div>
+          {injury ? (
+            <div className="profileDataBlock">
+              <strong>{injury.injury}</strong>
+              <p>{injury.timeline}</p>
+              <p>{injury.status}</p>
+              <small>{injury.transactionDate ? `Recorded ${formatDate(injury.transactionDate)}` : injury.injurySourceType}</small>
+            </div>
+          ) : (
+            <div className="emptyStateCompact"><strong>No active injury note</strong><p>No current injured-list transaction or verified injury report was found.</p></div>
+          )}
           <Link className="sourceButton" href="/injuries">View full injury report →</Link>
         </article>
 
         <article className="placeholderPanel" id="movement">
           <span className="eyebrow">Roster history</span>
           <h2>Transactions</h2>
-          <div className="emptyStateCompact"><strong>No timeline loaded yet</strong><p>Promotions, demotions, injured-list placements and activations will appear here.</p></div>
+          {promotions.length > 0 ? (
+            <ol className="profileTimeline">
+              {promotions.map(record => (
+                <li key={`${record.date}-${record.fromAffiliate}-${record.toAffiliate}`}>
+                  <time>{formatDate(record.date)}</time>
+                  <strong>{record.fromLevel} → {record.toLevel}</strong>
+                  <p>{record.fromAffiliate} to {record.toAffiliate}</p>
+                </li>
+              ))}
+            </ol>
+          ) : (
+            <div className="emptyStateCompact"><strong>No recorded promotions yet</strong><p>Future affiliate promotions will appear here automatically.</p></div>
+          )}
         </article>
       </section>
 
