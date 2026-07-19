@@ -5,6 +5,7 @@ import { runEngine } from '../../../lib/genie/engine';
 import { writeAnswer } from '../../../lib/genie/writer';
 import { buildMemory, resolveFollowUpPlayers } from '../../../lib/genie/memory';
 import { applyHistoricalIntelligence } from '../../../lib/genie/history';
+import { analyzeOrganization, isOrganizationQuestion } from '../../../lib/genie/organization';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -36,6 +37,28 @@ export async function POST(request:NextRequest){
     let matchedPlayers=findPlayerNames(question);
     if(!matchedPlayers.length)matchedPlayers=resolveFollowUpPlayers(question,memory);
 
+    if(isOrganizationQuestion(question)&&!matchedPlayers.length){
+      const organization=analyzeOrganization(question);
+      return NextResponse.json({
+        answer:organization.answer,
+        matchedPlayers:[],
+        engine:'Prospect Genie organizational intelligence v6.0',
+        intent:{task:'organizational_analysis',metric:'system_depth',filters:{},limit:organization.groups.length},
+        plan:[
+          {tool:'buildOrganizationMap',description:'Group the tracked system by position and level.'},
+          {tool:'scorePositionDepth',description:'Measure quality, quantity, proximity and injury exposure.'},
+          {tool:'detectSurplusesAndWeaknesses',description:'Identify strong, thin and overcrowded pipelines.'},
+          {tool:'findBlockedPlayers',description:'Flag upper-minors players facing internal depth pressure.'},
+          {tool:'recommendOrganizationActions',description:'Produce development, acquisition and trade recommendations.'}
+        ],
+        confidence:'moderate',
+        limitations:['This layer models the tracked prospect pool. Full MLB contracts, options, 40-man status and Rule 5 eligibility are not integrated yet.'],
+        organization,
+        memory:{activePlayers:memory.activePlayers.slice(0,5)},
+        requestQuestion:question
+      },{headers:{'Cache-Control':'no-store, max-age=0'}});
+    }
+
     const intent=parseIntent(question,matchedPlayers);
     const currentResult=runEngine(intent);
     const result=await applyHistoricalIntelligence(currentResult);
@@ -44,7 +67,7 @@ export async function POST(request:NextRequest){
     return NextResponse.json({
       answer,
       matchedPlayers,
-      engine:'Prospect Genie historical intelligence v5.0',
+      engine:'Prospect Genie organizational intelligence v6.0',
       intent:{task:intent.task,metric:intent.metric,filters:intent.filters,limit:intent.limit},
       plan:result.plan.steps,
       confidence:result.confidence,
