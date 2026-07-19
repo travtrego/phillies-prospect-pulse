@@ -36,12 +36,24 @@ export type GeniePlan = {
   steps: GeniePlanStep[];
 };
 
+export type ProjectionEvidence = {
+  mlbProbability: number;
+  promotionProbability: number;
+  breakoutProbability: number;
+  tradeValue: number;
+  protectScore: number;
+  volatility: number;
+  recommendation: string;
+  rationale: string[];
+};
+
 export type PlayerEvidence = {
   player: Record<string, any>;
   stat?: Record<string, any>;
   injury?: Record<string, any>;
   promotions: Record<string, any>[];
   scores: Record<GenieMetric, number>;
+  projections?: ProjectionEvidence;
   strengths: string[];
   concerns: string[];
 };
@@ -50,6 +62,7 @@ export type GenieResult = {
   intent: GenieIntent;
   plan: GeniePlan;
   evidence: PlayerEvidence[];
+  decisionMetric?: keyof ProjectionEvidence | null;
   confidence: 'high' | 'moderate' | 'low';
   limitations: string[];
 };
