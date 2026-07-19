@@ -77,12 +77,17 @@ export function rankingIntelligence(row:RankingSourceRecord):RankingIntelligence
   return{player:row.player,modelVersion:RANKING_MODEL_VERSION,modelScore:evaluation.score,confidence:evaluation.confidence,confidenceScore:evaluation.confidenceScore,consensusRank:consensus?.meanRank??null,consensusDifference:consensus?.difference??null,consensusAgreement:consensus?.agreement??null,externalSourceCount:consensus?.sourceCount??0,historicalSignal:Number.isFinite(Number(row.historicalScore))?Number(row.historicalScore):null,defenseSignal:defense,pitchQualitySignal:pitchQuality,limitations:evaluation.limitations,breakdown:evaluation.breakdown};
 }
 
-export function enrichRankings():EnrichedRankingRecord[]{
-  const scored=rankings.map(row=>({row,intelligence:rankingIntelligence(row)}));
-  scored.sort((a,b)=>b.intelligence.modelScore-a.intelligence.modelScore||b.intelligence.confidenceScore-a.intelligence.confidenceScore||a.row.player.localeCompare(b.row.player));
+export function rankRecords(sourceRecords:RankingSourceRecord[]):EnrichedRankingRecord[]{
+  const scored=sourceRecords.map(row=>({row,intelligence:rankingIntelligence(row)}));
+  scored.sort((a,b)=>b.intelligence.modelScore-a.intelligence.modelScore||b.intelligence.confidenceScore-a.intelligence.confidenceScore||component(b.row,'ageLevel')-component(a.row,'ageLevel')||a.row.player.localeCompare(b.row.player));
   return scored.map(({row,intelligence},index)=>{
     const rank=index+1;
     const legacyRank=Number(row.rank);
     return{...row,legacyRank,legacyScore:Number(row.score),rank,score:intelligence.modelScore,previousRank:legacyRank,change:legacyRank-rank,intelligence};
   });
 }
+
+const canonicalRankings=rankRecords(rankings);
+export function enrichRankings():EnrichedRankingRecord[]{return canonicalRankings.map(record=>({...record,intelligence:{...record.intelligence,breakdown:record.intelligence.breakdown.map(item=>({...item})),limitations:[...record.intelligence.limitations]}}));}
+export function getCanonicalRankingByPlayerId(playerId:string){return canonicalRankings.find(record=>String(record.playerId)===String(playerId))??null;}
+export function getCanonicalRankingByName(player:string){return canonicalRankings.find(record=>normalizeText(record.player)===normalizeText(player))??null;}
