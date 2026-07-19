@@ -18,7 +18,7 @@ export default function RankingsPage() {
       <header className="pageHeader rankingsHeader">
         <span className="eyebrow">Prospect Pulse rankings</span>
         <h1>Phillies Top 30</h1>
-        <p>Our automated ranking blends scouting pedigree, current performance, age versus level, recent coverage, movement and availability. Updated {formatDate(rankingsData.updatedAt)}.</p>
+        <p>Our automated ranking blends scouting pedigree, current performance, baseball-specific media sentiment, age and level, organizational movement and availability. Updated {formatDate(rankingsData.updatedAt)}.</p>
       </header>
 
       <section className="rankingSummaryGrid">
@@ -36,7 +36,7 @@ export default function RankingsPage() {
 
       <div className="resultsHeader"><div><span className="eyebrow">Current board</span><h2>Top 30 rankings</h2></div><span className="status">Updated daily</span></div>
       <RankingsTable records={records} />
-      <p className="directoryNote">Prospect Pulse rankings are an automated editorial model, not a republication of any single outlet's list. The model weights scouting 30%, performance 25%, age versus level 15%, sentiment 15%, movement 10% and risk 5%.</p>
+      <p className="directoryNote">Prospect Pulse rankings are an automated editorial model, not a republication of any single outlet's list. The model weights scouting 30%, performance 25%, media sentiment 20%, age and level 10%, organizational movement 10% and risk 5%. Sentiment accounts for baseball-specific language, article recency, source quality, title prominence and basic negation.</p>
     </main>
   );
 }
