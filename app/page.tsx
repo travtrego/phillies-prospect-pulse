@@ -17,7 +17,7 @@ async function getPlayers(): Promise<Player[]> {
 
 export default async function Home() {
   const players = await getPlayers();
-  const rankedPlayers = players.filter((player) => player.mlb_pipeline_rank !== null);
+  const topProspectCount = Math.min(30, players.length);
 
   return (
     <main>
@@ -27,7 +27,7 @@ export default async function Home() {
           <h1>Prospect Pulse</h1>
           <p>Prospect news, scouting reports and full-season rosters in one focused directory.</p>
         </div>
-        <div className="headerBadge"><span>Top 30</span><strong>{rankedPlayers.length}</strong></div>
+        <div className="headerBadge"><span>Top 30</span><strong>{topProspectCount}</strong></div>
       </header>
 
       <section className="newsPanel newsPanelFull">
