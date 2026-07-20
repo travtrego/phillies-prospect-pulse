@@ -1,0 +1,69 @@
+name: Refresh Prospect Data
+
+on:
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: prospect-data-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Refresh all source data in dependency order
+        run: npm run update:all
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_PUBLISHABLE_KEY: ${{ secrets.SUPABASE_PUBLISHABLE_KEY }}
+
+      - name: Verify refreshed data reaches presentation and Genie
+        run: npm run quality
+
+      - name: Commit refreshed presentation data
+        id: commit
+        shell: bash
+        run: |
+          if git diff --quiet -- data; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No data changes to publish."
+            exit 0
+          fi
+          git config user.name "Phillies Prospect Pulse Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/news.json data/stats.json data/promotions.json data/injuries.json data/rankings.json
+          git commit -m "Automated prospect data refresh"
+          git push origin main
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Refresh summary
+        if: always()
+        run: |
+          echo "## Phillies Prospect Pulse refresh" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Schedule: every 6 hours at minute 17 UTC" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Order: news → stats → promotions → injuries → rankings" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Presentation validation: full quality suite" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Published new data: ${{ steps.commit.outputs.changed || 'false' }}" >> "$GITHUB_STEP_SUMMARY"
