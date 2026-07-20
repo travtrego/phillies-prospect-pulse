@@ -74,5 +74,6 @@ jobs:
           echo "- Order: news → stats → promotions → injuries → rankings" >> "$GITHUB_STEP_SUMMARY"
           echo "- Assignment source: official active MLB/MiLB affiliate rosters" >> "$GITHUB_STEP_SUMMARY"
           echo "- Assignment validation: every displayed player compared by MLB player ID" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Certification rule: zero missing, extra, duplicate, or mismatched assignments" >> "$GITHUB_STEP_SUMMARY"
           echo "- Presentation validation: full quality suite" >> "$GITHUB_STEP_SUMMARY"
           echo "- Published new data: ${{ steps.commit.outputs.changed || 'false' }}" >> "$GITHUB_STEP_SUMMARY"
