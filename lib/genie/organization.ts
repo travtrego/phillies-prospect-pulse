@@ -1,9 +1,9 @@
-import rankingsData from '../../data/rankings.json';
 import statsData from '../../data/stats.json';
 import injuriesData from '../../data/injuries.json';
+import { enrichRankings } from '../ranking/intelligence';
 
 type Row=Record<string,any>;
-const rankings=rankingsData.records as Row[];
+const rankings=enrichRankings() as Row[];
 const stats=statsData.records as Row[];
 const injuries=injuriesData.records as Row[];
 const normalize=(value='')=>value.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9 ]/g,' ').replace(/\s+/g,' ').trim();
@@ -39,7 +39,7 @@ function buildGroups():PositionGroup[]{
 }
 function blockedPlayers(groups:PositionGroup[]){
   const crowded=new Set(groups.filter(group=>group.players>=6&&group.depthScore>=60).map(group=>group.group));
-  return rankings.filter(player=>{const level=statFor(player)?.level||player.level;return crowded.has(groupFor(player.position))&&['AAA','AA'].includes(level)&&Number(player.rank)>5;}).slice(0,5).map(player=>({player:player.player,group:groupFor(player.position),reason:`Near the upper minors in a crowded ${groupFor(player.position).toLowerCase()} pipeline.`}));
+  return rankings.filter(player=>{const level=statFor(player)?.level||player.level;return crowded.has(groupFor(player.position))&&['AAA','AA'].includes(level)&&Number(player.rank)>5;}).sort((a,b)=>Number(a.rank)-Number(b.rank)).slice(0,5).map(player=>({player:player.player,group:groupFor(player.position),reason:`Near the upper minors in a crowded ${groupFor(player.position).toLowerCase()} pipeline.`}));
 }
 function recommendations(groups:PositionGroup[],blocked:{player:string;group:string;reason:string}[]){
   const strongest=groups[0],weakest=groups.at(-1);
@@ -60,6 +60,6 @@ export function analyzeOrganization(question:string):OrganizationReport{
   const systemScore=groups.length?Number((groups.reduce((sum,group)=>sum+group.depthScore,0)/groups.length).toFixed(1)):0;
   const focus=/weak|need|lack|thin/i.test(question)?weaknesses:/surplus|trade|blocked/i.test(question)?surpluses:strengths;
   const lines=focus.map((group,index)=>`${index+1}. ${group.group} — depth score ${group.depthScore}/100, ${group.players} tracked prospects and ${group.nearTerm} at Double-A or Triple-A. Leaders: ${group.leaders.join(', ')}.`);
-  const answer=`The organizational model rates the Phillies farm system at ${systemScore}/100.\n\n${/weak|need|lack|thin/i.test(question)?'Biggest weaknesses':/surplus|trade|blocked/i.test(question)?'Most usable surpluses':'Biggest strengths'}:\n${lines.join('\n')}\n\nRecommended actions:\n${actions.map((action,index)=>`${index+1}. ${action}`).join('\n')}${blocked.length?`\n\nPotentially blocked players:\n${blocked.map(player=>`- ${player.player}: ${player.reason}`).join('\n')}`:''}\n\nThis is an internal organizational model based on the tracked prospect pool, level, ranking, performance score and injury evidence—not a complete MLB 40-man roster model.`;
+  const answer=`The organizational model rates the Phillies farm system at ${systemScore}/100.\n\n${/weak|need|lack|thin/i.test(question)?'Biggest weaknesses':/surplus|trade|blocked/i.test(question)?'Most usable surpluses':'Biggest strengths'}:\n${lines.join('\n')}\n\nRecommended actions:\n${actions.map((action,index)=>`${index+1}. ${action}`).join('\n')}${blocked.length?`\n\nPotentially blocked players:\n${blocked.map(player=>`- ${player.player}: ${player.reason}`).join('\n')}`:''}\n\nThis is an internal organizational model based on the canonical v4 prospect board, level, performance and injury evidence—not a complete MLB 40-man roster model.`;
   return{systemScore,strengths,weaknesses,surpluses,blockedPlayers:blocked,recommendations:actions,groups,answer};
 }
