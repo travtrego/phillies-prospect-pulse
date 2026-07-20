@@ -25,7 +25,7 @@ async function fetchJson(url) {
 }
 
 async function getRoster(team) {
-  const url = `https://statsapi.mlb.com/api/v1/teams/${team.id}/roster?rosterType=fullSeason&season=${SEASON}`;
+  const url = `https://statsapi.mlb.com/api/v1/teams/${team.id}/roster?rosterType=active&season=${SEASON}`;
   const data = await fetchJson(url);
   return (data.roster || []).map(entry => ({
     playerId: entry.person?.id,
@@ -41,7 +41,6 @@ async function getRoster(team) {
 async function getBio(playerId) {
   const data = await fetchJson(`https://statsapi.mlb.com/api/v1/people/${playerId}?hydrate=currentTeam,draft`);
   const person = data.people?.[0] || {};
-  const draft = Array.isArray(person.draftYear) ? person.draftYear[0] : null;
   return {
     birthDate: person.birthDate || null,
     currentAge: person.currentAge ?? null,
@@ -96,7 +95,12 @@ const players = [];
 const errors = [];
 for (const result of rosterResults) result.status === 'fulfilled' ? players.push(...result.value.roster) : errors.push({ stage:'roster', message:result.reason?.message || String(result.reason) });
 
-const unique = [...new Map(players.map(player => [player.playerId, player])).values()];
+const uniqueById = new Map();
+for (const player of players) {
+  if (!uniqueById.has(player.playerId)) uniqueById.set(player.playerId, player);
+  else errors.push({ stage:'duplicate-active-roster', playerId:player.playerId, player:player.player, message:`Player appeared on more than one active affiliate roster; retained ${uniqueById.get(player.playerId).affiliate} and ignored ${player.affiliate}.` });
+}
+const unique = [...uniqueById.values()];
 const records = [];
 const concurrency = 8;
 for (let index = 0; index < unique.length; index += concurrency) {
@@ -110,5 +114,5 @@ for (let index = 0; index < unique.length; index += concurrency) {
 }
 
 records.sort((a, b) => a.affiliate.localeCompare(b.affiliate) || a.player.localeCompare(b.player));
-await fs.writeFile(OUTPUT, JSON.stringify({ updatedAt:new Date().toISOString(), season:SEASON, records, errors }, null, 2) + '\n');
-console.log(`Wrote stats and bios for ${records.length} players with ${errors.length} errors.`);
+await fs.writeFile(OUTPUT, JSON.stringify({ updatedAt:new Date().toISOString(), season:SEASON, rosterType:'active', records, errors }, null, 2) + '\n');
+console.log(`Wrote current stats and bios for ${records.length} active-roster players with ${errors.length} errors.`);
