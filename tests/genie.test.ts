@@ -5,6 +5,10 @@ import { decisionMetric, projectPlayer } from '../lib/genie/projections';
 import { buildDevelopmentDossier, isDevelopmentQuestion } from '../lib/genie/development';
 import { buildPredictiveFrontOfficeReport, isPredictiveFrontOfficeQuestion, GENIE_PREDICTIVE_FRONT_OFFICE_VERSION } from '../lib/genie/predictiveFrontOffice';
 import { auditGeniePayload, finalizeGeniePayload, GENIE_INTERNAL_AUDIT_VERSION } from '../lib/genie/reliability';
+import { analyzeOrganization } from '../lib/genie/organization';
+import { simulateScenario } from '../lib/genie/simulation';
+import { buildFrontOfficeReport } from '../lib/genie/frontoffice';
+import { runEngine } from '../lib/genie/engine';
 import { enrichRankings } from '../lib/ranking/intelligence';
 import type { PlayerEvidence } from '../lib/genie/types';
 
@@ -32,9 +36,7 @@ test('promotion and trade questions route to the correct decision metric',()=>{
 
 test('projection scores remain bounded and include explanations',()=>{
   const result=projectPlayer(evidence);
-  for(const value of [result.mlbProbability,result.promotionProbability,result.breakoutProbability,result.tradeValue,result.protectScore,result.volatility]){
-    assert.ok(value>=0&&value<=100);
-  }
+  for(const value of [result.mlbProbability,result.promotionProbability,result.breakoutProbability,result.tradeValue,result.protectScore,result.volatility])assert.ok(value>=0&&value<=100);
   assert.ok(result.drivers.length>=4);
   assert.ok(result.drivers.every(driver=>driver.explanation.length>0));
 });
@@ -86,6 +88,56 @@ test('Genie 10 creates bounded trade-package simulations',async()=>{
   assert.ok((report.tradePackage?.packageValue??-1)>=0&&(report.tradePackage?.packageValue??101)<=100);
   assert.equal(report.tradePackage?.targetTier,'impact');
   assert.ok(report.tradePackage?.players.includes('Aidan Miller'));
+});
+
+test('core Genie overall scores equal the canonical v4 board',()=>{
+  const canonical=enrichRankings();
+  const intent=parseIntent('Show me the top 5 prospects overall',[]);
+  const result=runEngine(intent);
+  assert.ok(result.evidence.length>0);
+  for(const item of result.evidence){
+    const ranking=canonical.find(row=>row.player===item.player.player);
+    assert.ok(ranking);
+    assert.equal(item.scores.overall,ranking?.score);
+    assert.equal(item.player.rank,ranking?.rank);
+  }
+});
+
+test('organization leaders are selected from canonical v4 ranks',()=>{
+  const canonical=enrichRankings();
+  const report=analyzeOrganization('What are the Phillies farm system strengths?');
+  for(const group of report.groups){
+    for(const leader of group.leaders){
+      const leaderRank=canonical.find(row=>row.player===leader)?.rank??999;
+      const sameGroupRanks=canonical.filter(row=>{
+        const p=String(row.position||'').toUpperCase();
+        const groupName=['RHP','LHP','P','SP','RP'].includes(p)?'Pitching':p==='C'?'Catcher':['SS','2B','3B','1B','IF'].includes(p)?'Infield':['CF','LF','RF','OF'].includes(p)?'Outfield':'Other';
+        return groupName===group.group;
+      }).map(row=>row.rank).sort((a,b)=>a-b).slice(0,3);
+      assert.ok(sameGroupRanks.includes(leaderRank));
+    }
+  }
+});
+
+test('farm-system simulation baseline uses canonical v4 scores',()=>{
+  const canonical=enrichRankings();
+  const report=simulateScenario('What if the Phillies draft 1 pitcher?');
+  const pitching=report.baseline.groups.find(group=>group.group==='Pitching');
+  const pitcherScores=canonical.filter(row=>/^(P|RHP|LHP|SP|RP)$/i.test(String(row.position||''))).map(row=>row.score);
+  const expected=pitcherScores.reduce((sum,value)=>sum+value,0)/pitcherScores.length;
+  assert.ok(pitching);
+  assert.ok(Math.abs((pitching?.averageScore??0)-expected)<.11);
+});
+
+test('promotion board exposes canonical rank and score for every player',()=>{
+  const canonical=enrichRankings();
+  const report=buildFrontOfficeReport('Show me the promotion board',[]);
+  assert.ok(report.promotionBoard.length>0);
+  for(const player of report.promotionBoard){
+    const ranking=canonical.find(row=>row.player===player.player);
+    assert.equal(player.rank,ranking?.rank);
+    assert.equal(player.score,ranking?.score);
+  }
 });
 
 test('internal reliability guardrail is not presented as Genie layer 10',()=>{
