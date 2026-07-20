@@ -4,6 +4,13 @@ on:
   schedule:
     - cron: '17 */6 * * *'
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/update-stats.mjs'
+      - 'scripts/audit-assignments.mjs'
+      - 'package.json'
+      - '.github/workflows/refresh-prospect-data.yml'
 
 permissions:
   contents: write
@@ -65,5 +72,7 @@ jobs:
           echo "## Phillies Prospect Pulse refresh" >> "$GITHUB_STEP_SUMMARY"
           echo "- Schedule: every 6 hours at minute 17 UTC" >> "$GITHUB_STEP_SUMMARY"
           echo "- Order: news → stats → promotions → injuries → rankings" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Assignment source: official active MLB/MiLB affiliate rosters" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Assignment validation: every displayed player compared by MLB player ID" >> "$GITHUB_STEP_SUMMARY"
           echo "- Presentation validation: full quality suite" >> "$GITHUB_STEP_SUMMARY"
           echo "- Published new data: ${{ steps.commit.outputs.changed || 'false' }}" >> "$GITHUB_STEP_SUMMARY"
