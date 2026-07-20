@@ -112,7 +112,12 @@ export function runEngine(intent: GenieIntent): GenieResult {
   }else{
     evidence.sort((a,b)=>finite(b.scores[intent.metric])-finite(a.scores[intent.metric]));
   }
-  const selected = evidence.slice(0, intent.task === 'player_profile' || intent.task === 'compare_players' ? Math.max(intent.players.length,1) : intent.limit);
+  const selectionLimit = intent.task === 'player_profile'
+    ? 1
+    : intent.task === 'compare_players'
+      ? Math.max(intent.players.length, intent.limit, 2)
+      : intent.limit;
+  const selected = evidence.slice(0, selectionLimit);
   const limitations:string[]=[];
   if (intent.filters.international && selected.some(item=>!countryFor(item.player))) limitations.push('Some birth-country fields are missing.');
   if (selected.some(item=>!item.stat)) limitations.push('At least one player does not have a current stat line.');
