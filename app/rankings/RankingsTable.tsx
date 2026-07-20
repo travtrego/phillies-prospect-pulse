@@ -3,46 +3,20 @@
 import Link from 'next/link';
 import { useMemo, useState } from 'react';
 
-export type RankingRecord = {
-  playerId:string;
-  player:string;
-  position:string|null;
-  affiliate:string|null;
-  level:string|null;
-  score:number;
-  previousRank:number|null;
-  rank:number;
-  change:number;
-  mediaMentions:number;
-  reasons:string[];
-  intelligence:{
-    modelVersion:string;
-    confidence:'high'|'moderate'|'low';
-    confidenceScore:number;
-    consensusRank:number|null;
-    consensusDifference:number|null;
-    consensusAgreement:number|null;
-    externalSourceCount:number;
-    limitations:string[];
-  };
-};
+export type RankingRecord={playerId:string;player:string;position:string|null;affiliate:string|null;level:string|null;score:number;previousRank:number|null;rank:number;change:number;mediaMentions:number;reasons:string[];intelligence:{modelVersion:string;confidence:'high'|'moderate'|'low';confidenceScore:number;consensusRank:number|null;consensusDifference:number|null;consensusAgreement:number|null;externalSourceCount:number;limitations:string[]}};
+const pitcher=(position:string|null)=>['P','RHP','LHP','SP','RP'].includes((position??'').toUpperCase());
 
 export default function RankingsTable({records}:{records:RankingRecord[]}){
  const[search,setSearch]=useState('');
  const[sort,setSort]=useState<'rank'|'score'|'change'|'confidence'>('rank');
- const visible=useMemo(()=>{
-  const query=search.trim().toLowerCase();
-  return [...records].filter(record=>!query||record.player.toLowerCase().includes(query)||(record.position??'').toLowerCase().includes(query)||(record.level??'').toLowerCase().includes(query)||(record.affiliate??'').toLowerCase().includes(query)).sort((a,b)=>sort==='score'?b.score-a.score:sort==='change'?b.change-a.change:sort==='confidence'?b.intelligence.confidenceScore-a.intelligence.confidenceScore:a.rank-b.rank);
- },[records,search,sort]);
+ const[level,setLevel]=useState('all');
+ const[type,setType]=useState('all');
+ const affiliateOptions=useMemo(()=>[...new Set(records.map(record=>record.affiliate).filter(Boolean) as string[])].sort(),[records]);
+ const[affiliate,setAffiliate]=useState('all');
+ const visible=useMemo(()=>{const query=search.trim().toLowerCase();return [...records].filter(record=>(!query||`${record.player} ${record.position??''} ${record.level??''} ${record.affiliate??''}`.toLowerCase().includes(query))&&(level==='all'||record.level===level)&&(affiliate==='all'||record.affiliate===affiliate)&&(type==='all'||(type==='pitchers'?pitcher(record.position):!pitcher(record.position)))).sort((a,b)=>sort==='score'?b.score-a.score:sort==='change'?b.change-a.change:sort==='confidence'?b.intelligence.confidenceScore-a.intelligence.confidenceScore:a.rank-b.rank)},[records,search,sort,level,type,affiliate]);
  return <>
-  <section className="directoryToolbar rankingsToolbar"><div className="filterTabs" role="tablist" aria-label="Sort rankings"><button type="button" role="tab" aria-selected={sort==='rank'} className={sort==='rank'?'active':''} onClick={()=>setSort('rank')}>Current rank</button><button type="button" role="tab" aria-selected={sort==='score'} className={sort==='score'?'active':''} onClick={()=>setSort('score')}>Pulse score</button><button type="button" role="tab" aria-selected={sort==='change'} className={sort==='change'?'active':''} onClick={()=>setSort('change')}>Movement</button><button type="button" role="tab" aria-selected={sort==='confidence'} className={sort==='confidence'?'active':''} onClick={()=>setSort('confidence')}>Confidence</button></div><input aria-label="Search rankings" placeholder="Search player, team or level…" value={search} onChange={event=>setSearch(event.target.value)}/></section>
-  <div className="rankingTableWrap"><table className="rankingTable"><thead><tr><th>Rank</th><th>Player</th><th>Pos.</th><th>Level</th><th>Affiliate</th><th>Previous</th><th>Trend</th><th>Score</th><th>Confidence</th><th>Consensus</th></tr></thead><tbody>
-   {visible.map(record=>{const trend=record.change>0?`▲ ${record.change}`:record.change<0?`▼ ${Math.abs(record.change)}`:'—';const trendClass=record.change>0?'trendUp':record.change<0?'trendDown':'trendFlat';const consensus=record.intelligence.consensusRank===null?'—':`#${record.intelligence.consensusRank}`;return <tr key={record.playerId}>
-    <td><strong className="rankingNumber">#{record.rank}</strong></td>
-    <td><Link className="rankingPlayer" href={`/players/${record.playerId}`}>{record.player}</Link></td>
-    <td>{record.position??'—'}</td><td>{record.level??'—'}</td><td>{record.affiliate??'—'}</td><td>{record.previousRank?`#${record.previousRank}`:'New'}</td><td><span className={trendClass}>{trend}</span></td><td><strong>{record.score.toFixed(1)}</strong></td><td title={`${record.intelligence.confidenceScore}% data confidence; ${record.intelligence.limitations.join(' ')}`}>{record.intelligence.confidence} · {record.intelligence.confidenceScore}%</td><td title={record.intelligence.externalSourceCount?`${record.intelligence.externalSourceCount} external observations`:'No external observations loaded'}>{consensus}</td>
-   </tr>})}
-   {visible.length===0&&<tr><td colSpan={10}>No rankings match this search.</td></tr>}
-  </tbody></table></div>
+  <section className="directoryToolbar rankingsToolbar"><div className="toolbarStack"><div className="filterTabs" role="tablist" aria-label="Sort rankings">{([['rank','Current rank'],['score','Pulse score'],['change','Movement'],['confidence','Confidence']] as const).map(([value,label])=><button type="button" role="tab" aria-selected={sort===value} className={sort===value?'active':''} onClick={()=>setSort(value)} key={value}>{label}</button>)}</div><span className="filterCount">{visible.length} prospects</span></div><div className="advancedFilters"><select aria-label="Filter by player type" value={type} onChange={event=>setType(event.target.value)}><option value="all">All players</option><option value="pitchers">Pitchers</option><option value="hitters">Position players</option></select><select aria-label="Filter by level" value={level} onChange={event=>setLevel(event.target.value)}><option value="all">All levels</option>{['MLB','AAA','AA','A+','A','Rookie'].map(value=><option value={value} key={value}>{value}</option>)}</select><select aria-label="Filter by affiliate" value={affiliate} onChange={event=>setAffiliate(event.target.value)}><option value="all">All affiliates</option>{affiliateOptions.map(value=><option value={value} key={value}>{value}</option>)}</select><input aria-label="Search rankings" placeholder="Search player, team or level…" value={search} onChange={event=>setSearch(event.target.value)}/></div></section>
+  <div className="rankingTableWrap"><table className="rankingTable"><thead><tr><th>Rank</th><th>Player</th><th>Pos.</th><th>Level</th><th>Affiliate</th><th>Previous</th><th>Trend</th><th>Score</th><th>Confidence</th><th>Consensus</th></tr></thead><tbody>{visible.map(record=>{const trend=record.change>0?`▲ ${record.change}`:record.change<0?`▼ ${Math.abs(record.change)}`:'—';const trendClass=record.change>0?'trendUp':record.change<0?'trendDown':'trendFlat';return <tr key={record.playerId}><td><strong className="rankingNumber">#{record.rank}</strong></td><td><Link className="rankingPlayer" href={`/players/${record.playerId}`}>{record.player}</Link></td><td>{record.position??'—'}</td><td>{record.level??'—'}</td><td>{record.affiliate??'—'}</td><td>{record.previousRank?`#${record.previousRank}`:'New'}</td><td><span className={trendClass}>{trend}</span></td><td><strong>{record.score.toFixed(1)}</strong></td><td>{record.intelligence.confidence} · {record.intelligence.confidenceScore}%</td><td>{record.intelligence.consensusRank===null?'—':`#${record.intelligence.consensusRank}`}</td></tr>})}{visible.length===0&&<tr><td colSpan={10}>No rankings match these filters.</td></tr>}</tbody></table></div>
+  <div className="rankingMobileList">{visible.map(record=>{const trend=record.change>0?`▲ ${record.change}`:record.change<0?`▼ ${Math.abs(record.change)}`:'—';return <article className="rankingMobileCard" key={record.playerId}><div className="rankingMobileTop"><Link href={`/players/${record.playerId}`}>#{record.rank} {record.player}</Link><span className={record.change>0?'trendUp':record.change<0?'trendDown':'trendFlat'}>{trend}</span></div><div className="rankingMobileMeta"><div><span>Assignment</span><strong>{record.level??'—'} · {record.affiliate??'—'}</strong></div><div><span>Position</span><strong>{record.position??'—'}</strong></div><div><span>Pulse score</span><strong>{record.score.toFixed(1)}</strong></div><div><span>Confidence</span><strong>{record.intelligence.confidenceScore}%</strong></div></div></article>})}</div>
  </>;
 }
