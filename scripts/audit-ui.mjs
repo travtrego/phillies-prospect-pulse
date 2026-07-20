@@ -27,6 +27,12 @@ for(const anchor of ['#bio','#stats','#scouting','#injury','#movement'])assert(p
 for(const section of ['id="bio"','id="stats"','id="scouting"','id="injury"','id="movement"'])assert(profile.includes(section),`Player profile target is missing ${section}`);
 assert(profile.includes('getDirectoryPlayer'),'Player profiles are not using the resilient player loader');
 
+const playerDirectory=readText('lib/playerDirectory.ts');
+assert(playerDirectory.includes('current_level:stat?.level||record.level||null'),'Local directory players do not prioritize the current stats level over the preseason ranking level');
+assert(playerDirectory.includes('current_team_name:stat?.affiliate||record.affiliate||null'),'Local directory players do not prioritize the current stats affiliate over the preseason ranking affiliate');
+assert(playerDirectory.includes('current_level:stat?.level||player.current_level'),'Remote directory players do not allow the fresher stats level to override stale stored assignments');
+assert(playerDirectory.includes('current_team_name:stat?.affiliate||player.current_team_name'),'Remote directory players do not allow the fresher stats affiliate to override stale stored assignments');
+
 const home=readText('app/page.tsx');
 const affiliates=readText('app/affiliates/page.tsx');
 const newsPage=readText('app/news/page.tsx');
@@ -62,6 +68,10 @@ for(const row of rankings.slice(0,30)){
   assert(Number.isFinite(Number(row.score)),`${row.player} lacks a numeric ranking score`);
   if(!statNames.has(normalize(row.player)))warnings.push(`${row.player} has no current stat record; profile will show an explicit empty stat state.`);
 }
+const gageWood=stats.find(row=>normalize(row.player)==='gage wood');
+assert(Boolean(gageWood),'Current stats feed is missing Gage Wood');
+assert(gageWood?.level==='AA',`Gage Wood current level must be AA; found ${gageWood?.level||'missing'}`);
+assert(/reading/i.test(String(gageWood?.affiliate||'')),`Gage Wood current affiliate must be Reading; found ${gageWood?.affiliate||'missing'}`);
 
 const workflowPath='.github/workflows/refresh-prospect-data.yml';
 assert(exists(workflowPath),'Timed prospect refresh workflow is missing');
@@ -87,4 +97,4 @@ assert(!reliability.includes('GENIE_LAYER_10_VERSION'),'Internal reliability gua
 console.log(`UI audit: ${requiredPages.length} pages, ${rankings.length} rankings, ${datasets.length} timed datasets and Genie layers 1-10 inspected.`);
 for(const warning of warnings.slice(0,20))console.warn(`WARNING: ${warning}`);
 if(failures.length){for(const failure of failures)console.error(`FAIL: ${failure}`);process.exit(1)}
-console.log('PASS: automation, freshness metadata, presentation surfaces, player cards, profile tabs, navigation and Genie layers 1-10 passed integration checks.');
+console.log('PASS: automation, freshness metadata, current affiliate precedence, presentation surfaces, player cards, profile tabs, navigation and Genie layers 1-10 passed integration checks.');
