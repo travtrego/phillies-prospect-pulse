@@ -17,8 +17,9 @@
     "test:genie": "tsx --test tests/genie.test.ts tests/ranking.test.ts",
     "audit:genie": "node scripts/audit-genie.mjs",
     "audit:ui": "node scripts/audit-ui.mjs",
+    "audit:assignments": "node scripts/audit-assignments.mjs",
     "backtest:rankings": "node scripts/backtest-rankings.mjs",
-    "quality": "npm run audit:genie && npm run audit:ui && npm run backtest:rankings && npm run test:genie && npm run typecheck && npm run build"
+    "quality": "npm run audit:genie && npm run audit:ui && npm run audit:assignments && npm run backtest:rankings && npm run test:genie && npm run typecheck && npm run build"
   },
   "dependencies": {
     "next": "15.5.18",
