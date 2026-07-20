@@ -3,6 +3,10 @@ import assert from 'node:assert/strict';
 import { consensusScore, evaluateRanking, rankCorrelation, RANKING_MODEL_VERSION } from '../lib/ranking/model';
 import { enrichRankings, rankRecords, type RankingSourceRecord } from '../lib/ranking/intelligence';
 
+const base=(player:string,playerId:string,overrides:Partial<RankingSourceRecord>={}):RankingSourceRecord=>({
+  playerId,player,position:'SS',affiliate:'Reading Fightin Phils',level:'AA',score:50,previousRank:null,rank:1,change:0,mediaMentions:0,reasons:[],components:{scouting:15,performance:12.5,ageLevel:5,sentiment:10,movement:5,risk:2.5},...overrides
+});
+
 test('ranking model has a version',()=>{
   assert.match(RANKING_MODEL_VERSION,/^\d+\.\d+\.\d+$/);
 });
@@ -45,22 +49,43 @@ test('every published ranking receives intelligence metadata and v4 score',()=>{
 
 test('published board is sorted by the v4 model score',()=>{
   const records=enrichRankings();
-  for(let index=1;index<records.length;index++){
-    assert.ok(records[index-1].score>=records[index].score);
-  }
+  for(let index=1;index<records.length;index++)assert.ok(records[index-1].score>=records[index].score);
 });
 
 test('changing a model input changes the published score and order',()=>{
-  const base=(player:string,playerId:string,scouting:number):RankingSourceRecord=>({
-    playerId,player,position:'SS',affiliate:'Reading Fightin Phils',level:'AA',score:50,previousRank:null,rank:1,change:0,mediaMentions:0,reasons:[],components:{scouting,performance:12.5,ageLevel:5,sentiment:10,movement:5,risk:2.5}
-  });
-  const initial=rankRecords([base('Alpha Prospect','alpha',15),base('Beta Prospect','beta',30)]);
+  const initial=rankRecords([base('Alpha Prospect','alpha',{components:{scouting:15,performance:12.5,ageLevel:5,sentiment:10,movement:5,risk:2.5}}),base('Beta Prospect','beta',{components:{scouting:30,performance:12.5,ageLevel:5,sentiment:10,movement:5,risk:2.5}})]);
   assert.equal(initial[0].player,'Beta Prospect');
   const alphaInitial=initial.find(record=>record.player==='Alpha Prospect')!;
-  const updated=rankRecords([base('Alpha Prospect','alpha',30),base('Beta Prospect','beta',15)]);
+  const updated=rankRecords([base('Alpha Prospect','alpha',{components:{scouting:30,performance:12.5,ageLevel:5,sentiment:10,movement:5,risk:2.5}}),base('Beta Prospect','beta',{components:{scouting:15,performance:12.5,ageLevel:5,sentiment:10,movement:5,risk:2.5}})]);
   assert.equal(updated[0].player,'Alpha Prospect');
-  const alphaUpdated=updated.find(record=>record.player==='Alpha Prospect')!;
-  assert.ok(alphaUpdated.score>alphaInitial.score);
+  assert.ok(updated.find(record=>record.player==='Alpha Prospect')!.score>alphaInitial.score);
+});
+
+test('safer source risk scores improve rather than reduce v4 score',()=>{
+  const risky=rankRecords([base('Risky Prospect','risky',{components:{scouting:15,performance:12.5,ageLevel:5,sentiment:10,movement:5,risk:.5}})])[0];
+  const healthy=rankRecords([base('Healthy Prospect','healthy',{components:{scouting:15,performance:12.5,ageLevel:5,sentiment:10,movement:5,risk:5}})])[0];
+  assert.ok(healthy.score>risky.score);
+  assert.equal(healthy.intelligence.breakdown.find(item=>item.component==='risk')?.raw,100);
+});
+
+test('movement is measured against the supplied previous snapshot rank',()=>{
+  const records=rankRecords([
+    base('Alpha Prospect','alpha',{rank:20,previousRank:2,components:{scouting:30,performance:25,ageLevel:10,sentiment:20,movement:10,risk:5}}),
+    base('Beta Prospect','beta',{rank:1,previousRank:1,components:{scouting:10,performance:4,ageLevel:1,sentiment:1,movement:0,risk:.5}})
+  ]);
+  const alpha=records.find(record=>record.player==='Alpha Prospect')!;
+  assert.equal(alpha.rank,1);
+  assert.equal(alpha.previousRank,2);
+  assert.equal(alpha.change,1);
+  assert.equal(alpha.legacyRank,20);
+});
+
+test('unavailable defensive and pitch-quality data are not fabricated from position or box-score proxies',()=>{
+  const record=rankRecords([base('Synthetic Prospect','synthetic')])[0];
+  assert.equal(record.intelligence.defenseSignal,null);
+  assert.equal(record.intelligence.pitchQualitySignal,null);
+  assert.ok(record.intelligence.limitations.includes('Defensive-quality input unavailable.'));
+  assert.ok(record.intelligence.limitations.includes('Pitch-quality input unavailable.'));
 });
 
 test('published v4 scores are not merely legacy metadata',()=>{
