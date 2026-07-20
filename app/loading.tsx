@@ -1,0 +1,1 @@
+export default function Loading(){return <div className="skeletonPage" aria-label="Loading page"><div className="skeletonHero"/><div className="skeletonBar"/><div className="skeletonGrid"><div className="skeletonCard"/><div className="skeletonCard"/><div className="skeletonCard"/></div></div>}
