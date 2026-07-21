@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T12:02:10.819Z",
+  "updatedAt": "2026-07-21T14:23:05.570Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -42,7 +42,7 @@
       "position": "RHP",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 70.2,
+      "score": 72.7,
       "previousRank": 2,
       "rank": 2,
       "change": 0,
@@ -50,14 +50,14 @@
         "scouting": 19.5,
         "performance": 12.5,
         "ageLevel": 6.4,
-        "sentiment": 16.9,
+        "sentiment": 19.4,
         "movement": 9.9,
         "risk": 5
       },
-      "mediaMentions": 5,
+      "mediaMentions": 6,
       "reasons": [
         "MLB Pipeline rank #17",
-        "5 recent media mentions",
+        "6 recent media mentions",
         "Strong positive prospect coverage",
         "Promoted to MLB"
       ]
@@ -655,29 +655,6 @@
       ]
     },
     {
-      "playerId": "285d47d5-92a7-4f48-be72-5fbe35722d52",
-      "player": "Guillermo Rosario",
-      "position": "C",
-      "affiliate": "Clearwater Threshers",
-      "level": "A",
-      "score": 53.4,
-      "previousRank": 27,
-      "rank": 27,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 12.5,
-        "ageLevel": 4.2,
-        "sentiment": 10,
-        "movement": 9.7,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to High-A"
-      ]
-    },
-    {
       "playerId": "abb820d6-d295-4677-8faa-6f11f95879b6",
       "player": "Raider Tello",
       "position": "INF",
@@ -685,8 +662,8 @@
       "level": "A+",
       "score": 53.4,
       "previousRank": 28,
-      "rank": 28,
-      "change": 0,
+      "rank": 27,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -708,8 +685,8 @@
       "level": "A",
       "score": 53,
       "previousRank": 29,
-      "rank": 29,
-      "change": 0,
+      "rank": 28,
+      "change": 1,
       "components": {
         "scouting": 17.3,
         "performance": 12.5,
@@ -731,8 +708,8 @@
       "level": "AA",
       "score": 53,
       "previousRank": 30,
-      "rank": 30,
-      "change": 0,
+      "rank": 29,
+      "change": 1,
       "components": {
         "scouting": 20.2,
         "performance": 9.9,
@@ -756,8 +733,8 @@
       "level": "AAA",
       "score": 53,
       "previousRank": 31,
-      "rank": 31,
-      "change": 0,
+      "rank": 30,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -780,8 +757,8 @@
       "level": "AAA",
       "score": 52.8,
       "previousRank": 32,
-      "rank": 32,
-      "change": 0,
+      "rank": 31,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -804,8 +781,8 @@
       "level": "AAA",
       "score": 52.8,
       "previousRank": 33,
-      "rank": 33,
-      "change": 0,
+      "rank": 32,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -829,8 +806,8 @@
       "level": "AAA",
       "score": 52.2,
       "previousRank": 34,
-      "rank": 34,
-      "change": 0,
+      "rank": 33,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -853,8 +830,8 @@
       "level": "AA",
       "score": 51.7,
       "previousRank": 35,
-      "rank": 35,
-      "change": 0,
+      "rank": 34,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -863,9 +840,8 @@
         "movement": 5.8,
         "risk": 5
       },
-      "mediaMentions": 1,
+      "mediaMentions": 0,
       "reasons": [
-        "1 recent media mention",
         "Promoted to AAA",
         "Advanced to AA"
       ]
@@ -878,8 +854,8 @@
       "level": "AA",
       "score": 51.7,
       "previousRank": 36,
-      "rank": 36,
-      "change": 0,
+      "rank": 35,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -902,8 +878,8 @@
       "level": "AA",
       "score": 51.5,
       "previousRank": 37,
-      "rank": 37,
-      "change": 0,
+      "rank": 36,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -926,8 +902,8 @@
       "level": "AA",
       "score": 51.5,
       "previousRank": 38,
-      "rank": 38,
-      "change": 0,
+      "rank": 37,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -950,8 +926,8 @@
       "level": "AA",
       "score": 51.4,
       "previousRank": 39,
-      "rank": 39,
-      "change": 0,
+      "rank": 38,
+      "change": 1,
       "components": {
         "scouting": 12.3,
         "performance": 12.5,
@@ -976,8 +952,8 @@
       "level": "A",
       "score": 51.4,
       "previousRank": 40,
-      "rank": 40,
-      "change": 0,
+      "rank": 39,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -989,6 +965,30 @@
       "mediaMentions": 0,
       "reasons": [
         "Promoted to High-A"
+      ]
+    },
+    {
+      "playerId": "66e212da-5ac0-4a0c-96fc-16526f1c9aa5",
+      "player": "Bryan De La Cruz",
+      "position": "OF",
+      "affiliate": "Lehigh Valley IronPigs",
+      "level": "AAA",
+      "score": 51.2,
+      "previousRank": 45,
+      "rank": 40,
+      "change": 5,
+      "components": {
+        "scouting": 12,
+        "performance": 12.5,
+        "ageLevel": 7.5,
+        "sentiment": 10.2,
+        "movement": 4,
+        "risk": 5
+      },
+      "mediaMentions": 1,
+      "reasons": [
+        "1 recent media mention",
+        "Advanced to AAA"
       ]
     },
     {
@@ -1088,29 +1088,6 @@
       ]
     },
     {
-      "playerId": "66e212da-5ac0-4a0c-96fc-16526f1c9aa5",
-      "player": "Bryan De La Cruz",
-      "position": "OF",
-      "affiliate": "Lehigh Valley IronPigs",
-      "level": "AAA",
-      "score": 51,
-      "previousRank": 45,
-      "rank": 45,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 12.5,
-        "ageLevel": 7.5,
-        "sentiment": 10,
-        "movement": 4,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Advanced to AAA"
-      ]
-    },
-    {
       "playerId": "5c0eaf4f-42e2-4939-a8a7-e7a33166e0e5",
       "player": "Carter Kieboom",
       "position": "INF",
@@ -1118,8 +1095,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 46,
-      "rank": 46,
-      "change": 0,
+      "rank": 45,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1141,8 +1118,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 47,
-      "rank": 47,
-      "change": 0,
+      "rank": 46,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1164,8 +1141,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 48,
-      "rank": 48,
-      "change": 0,
+      "rank": 47,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1187,8 +1164,8 @@
       "level": "AA",
       "score": 51,
       "previousRank": 49,
-      "rank": 49,
-      "change": 0,
+      "rank": 48,
+      "change": 1,
       "components": {
         "scouting": 13,
         "performance": 12.5,
@@ -1212,8 +1189,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 50,
-      "rank": 50,
-      "change": 0,
+      "rank": 49,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1235,8 +1212,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 51,
-      "rank": 51,
-      "change": 0,
+      "rank": 50,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1258,8 +1235,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 52,
-      "rank": 52,
-      "change": 0,
+      "rank": 51,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1281,8 +1258,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 53,
-      "rank": 53,
-      "change": 0,
+      "rank": 52,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1304,8 +1281,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 54,
-      "rank": 54,
-      "change": 0,
+      "rank": 53,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1327,8 +1304,8 @@
       "level": "A+",
       "score": 50.9,
       "previousRank": 55,
-      "rank": 55,
-      "change": 0,
+      "rank": 54,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1351,8 +1328,8 @@
       "level": "A+",
       "score": 50.6,
       "previousRank": 56,
-      "rank": 56,
-      "change": 0,
+      "rank": 55,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1374,8 +1351,8 @@
       "level": "A",
       "score": 50.5,
       "previousRank": 57,
-      "rank": 57,
-      "change": 0,
+      "rank": 56,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1397,8 +1374,8 @@
       "level": "A+",
       "score": 50.5,
       "previousRank": 58,
-      "rank": 58,
-      "change": 0,
+      "rank": 57,
+      "change": 1,
       "components": {
         "scouting": 13.7,
         "performance": 12.5,
@@ -1420,8 +1397,8 @@
       "level": "A",
       "score": 50.5,
       "previousRank": 59,
-      "rank": 59,
-      "change": 0,
+      "rank": 58,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1443,8 +1420,8 @@
       "level": "A",
       "score": 50.4,
       "previousRank": 60,
-      "rank": 60,
-      "change": 0,
+      "rank": 59,
+      "change": 1,
       "components": {
         "scouting": 14.4,
         "performance": 12.5,
@@ -1461,12 +1438,35 @@
       ]
     },
     {
+      "playerId": "285d47d5-92a7-4f48-be72-5fbe35722d52",
+      "player": "Guillermo Rosario",
+      "position": "C",
+      "affiliate": "Clearwater Threshers",
+      "level": "A",
+      "score": 50.3,
+      "previousRank": 27,
+      "rank": 60,
+      "change": -33,
+      "components": {
+        "scouting": 9,
+        "performance": 12.5,
+        "ageLevel": 4.2,
+        "sentiment": 10,
+        "movement": 9.6,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to High-A"
+      ]
+    },
+    {
       "playerId": "63e62eb8-bf2a-4e5a-99e9-ca7773e314be",
       "player": "Saul Teran",
       "position": "P",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 50.4,
+      "score": 50.2,
       "previousRank": 61,
       "rank": 61,
       "change": 0,
@@ -1474,13 +1474,13 @@
         "scouting": 12,
         "performance": 12.5,
         "ageLevel": 6.4,
-        "sentiment": 10.4,
+        "sentiment": 10.2,
         "movement": 4.1,
         "risk": 5
       },
-      "mediaMentions": 4,
+      "mediaMentions": 3,
       "reasons": [
-        "4 recent media mentions",
+        "3 recent media mentions",
         "Promoted to AA",
         "Advanced to AA"
       ]
