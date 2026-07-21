@@ -23,9 +23,8 @@ button,input { font:inherit; }
 .navInner { width:min(1180px,calc(100% - 32px)); margin:0 auto; min-height:64px; display:flex; align-items:center; justify-content:space-between; gap:20px; }
 .navBrand { color:#fff; font-weight:950; text-decoration:none; text-transform:uppercase; letter-spacing:.055em; }
 .navBrand::before { content:"P"; display:inline-grid; place-items:center; width:28px; height:28px; margin-right:10px; border-radius:8px; background:var(--phillies-red); font-family:Georgia,serif; font-style:italic; }
-.navLinks { display:flex; gap:6px; flex:1; min-width:0; overflow-x:auto; scrollbar-width:none; }
-.navLinks::-webkit-scrollbar { display:none; }
-.navLinks a { flex:none; padding:9px 13px; border:1px solid transparent; border-radius:999px; color:#cbd5e4; font-size:.76rem; font-weight:800; text-decoration:none; text-wrap:nowrap; transition:.18s ease; }
+.navLinks { display:flex; gap:6px; flex-wrap:wrap; }
+.navLinks a { padding:9px 13px; border:1px solid transparent; border-radius:999px; color:#cbd5e4; font-size:.76rem; font-weight:800; text-decoration:none; transition:.18s ease; }
 .navLinks a:hover { border-color:var(--border); background:rgba(255,255,255,.045); color:#fff; }
 main { position:relative; width:min(1180px,calc(100% - 32px)); margin:0 auto; padding:38px 0 76px; }
 h1,h2,h3,h4,p { margin-top:0; }
