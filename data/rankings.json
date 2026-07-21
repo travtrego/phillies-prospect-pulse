@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T22:06:19.001Z",
+  "updatedAt": "2026-07-21T22:14:24.822Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -1196,9 +1196,8 @@
         "movement": 4,
         "risk": 5
       },
-      "mediaMentions": 1,
+      "mediaMentions": 0,
       "reasons": [
-        "1 recent media mention",
         "Advanced to AAA"
       ]
     },
@@ -2225,6 +2224,30 @@
       "reasons": []
     },
     {
+      "playerId": "0efac77a-9009-46c9-9aeb-720bea522604",
+      "player": "Jack Barker",
+      "position": "OF",
+      "affiliate": "Clearwater Threshers",
+      "level": "A",
+      "score": 48.8,
+      "previousRank": 105,
+      "rank": 94,
+      "change": 11,
+      "components": {
+        "scouting": 12,
+        "performance": 12.5,
+        "ageLevel": 4.2,
+        "sentiment": 11,
+        "movement": 4.1,
+        "risk": 5
+      },
+      "mediaMentions": 1,
+      "reasons": [
+        "1 recent media mention",
+        "Promoted to Single-A"
+      ]
+    },
+    {
       "playerId": "48c4d66a-8e86-48bb-aeb8-92d91c296d61",
       "player": "Jake Eddington",
       "position": "P",
@@ -2232,8 +2255,8 @@
       "level": "A+",
       "score": 48.8,
       "previousRank": 94,
-      "rank": 94,
-      "change": 0,
+      "rank": 95,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2253,8 +2276,8 @@
       "level": "A+",
       "score": 48.8,
       "previousRank": 95,
-      "rank": 95,
-      "change": 0,
+      "rank": 96,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2274,8 +2297,8 @@
       "level": "A+",
       "score": 48.8,
       "previousRank": 96,
-      "rank": 96,
-      "change": 0,
+      "rank": 97,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2295,8 +2318,8 @@
       "level": "A+",
       "score": 48.8,
       "previousRank": 97,
-      "rank": 97,
-      "change": 0,
+      "rank": 98,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2316,8 +2339,8 @@
       "level": "A+",
       "score": 48.8,
       "previousRank": 98,
-      "rank": 98,
-      "change": 0,
+      "rank": 99,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2337,8 +2360,8 @@
       "level": "A+",
       "score": 48.8,
       "previousRank": 99,
-      "rank": 99,
-      "change": 0,
+      "rank": 100,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2358,8 +2381,8 @@
       "level": "AAA",
       "score": 48.6,
       "previousRank": 100,
-      "rank": 100,
-      "change": 0,
+      "rank": 101,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2383,8 +2406,8 @@
       "level": "AAA",
       "score": 48.5,
       "previousRank": 101,
-      "rank": 101,
-      "change": 0,
+      "rank": 102,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2407,8 +2430,8 @@
       "level": "AAA",
       "score": 48.5,
       "previousRank": 102,
-      "rank": 102,
-      "change": 0,
+      "rank": 103,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2432,8 +2455,8 @@
       "level": "A+",
       "score": 48.5,
       "previousRank": 103,
-      "rank": 103,
-      "change": 0,
+      "rank": 104,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2456,8 +2479,8 @@
       "level": "A",
       "score": 47.9,
       "previousRank": 104,
-      "rank": 104,
-      "change": 0,
+      "rank": 105,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2469,29 +2492,6 @@
       "mediaMentions": 1,
       "reasons": [
         "1 recent media mention"
-      ]
-    },
-    {
-      "playerId": "0efac77a-9009-46c9-9aeb-720bea522604",
-      "player": "Jack Barker",
-      "position": "OF",
-      "affiliate": "Clearwater Threshers",
-      "level": "A",
-      "score": 47.8,
-      "previousRank": 105,
-      "rank": 105,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 12.5,
-        "ageLevel": 4.2,
-        "sentiment": 10,
-        "movement": 4.1,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to Single-A"
       ]
     },
     {

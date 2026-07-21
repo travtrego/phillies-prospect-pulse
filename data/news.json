@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-07-21T22:05:52.930Z",
+  "updatedAt": "2026-07-21T22:13:58.302Z",
   "articles": [
+    {
+      "id": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZ2p2aEJnUHhFM3U4MEcxcjNQYjh4UXI2U0VkaDR0SXhNRHVUSlZneEN6VUpNb1BoQkc1STFuNS10aWJ5M3IyWHVWbDFBN3lPY2JaTjd2Y3dDWTZvSnNUQWhkb0h1c1VzTkFQMVFqOVJsTjVncG9XekFqdEh4a0RMcnk5dDJuUjdrUENhd0l3VEZwSHVGUU9KbHV6TnpsaWMxeUUxVVRrenZWdnBra2c?oc=5",
+      "title": "Phillies’ Former Top Prospect Gets Dumped Once Again - Yardbarker",
+      "summary": "Phillies’ Former Top Prospect Gets Dumped Once Again &nbsp;&nbsp; Yardbarker",
+      "source": "Yardbarker",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZ2p2aEJnUHhFM3U4MEcxcjNQYjh4UXI2U0VkaDR0SXhNRHVUSlZneEN6VUpNb1BoQkc1STFuNS10aWJ5M3IyWHVWbDFBN3lPY2JaTjd2Y3dDWTZvSnNUQWhkb0h1c1VzTkFQMVFqOVJsTjVncG9XekFqdEh4a0RMcnk5dDJuUjdrUENhd0l3VEZwSHVGUU9KbHV6TnpsaWMxeUUxVVRrenZWdnBra2c?oc=5",
+      "publishedAt": "2026-07-21T21:14:16.000Z",
+      "tags": [
+        "general"
+      ],
+      "injury": null,
+      "matchedQuery": "Phillies prospects"
+    },
     {
       "id": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8zajFKVnRUN3liRzhRZG5zeWhqLTlzS1FrMlZBSjBzeUZwZng4UUVsNk1oeHUzU29qWlFzQnh1MWdiTW9CS0oxZWs1Qk9qbGtOYTFZU0dnUHlkUEsyamZzWDNtY2U3eVlnR2c?oc=5",
       "title": "Top 100 Baseball Prospects - MLB.com",
@@ -238,11 +251,11 @@
       "matchedQuery": "Phillies prospects"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZExFbm1jUzdNdnN0d2ZBckFzUVNMT1Vqa3JYSkFLVVBkZ2p6WVU0S0JOOTV5YUdaTDBsSlM3THh0eWlTYUdMUjJYMmJ6eFIyVHlhTzdyUDhKb1lNOExjdkdFS1RrSjdoZXRPUDNTZ3VZWm53YVFSVW9vTTBWWWpJejRQdkZjaFhYTTU1M3U2OVFQcFlKZzlIZW9Hd21fTXVF?oc=5",
-      "title": "Phillies on the Pharm: 7/19/2026 - The Good Phight",
-      "summary": "Phillies on the Pharm: 7/19/2026 &nbsp;&nbsp; The Good Phight",
-      "source": "The Good Phight",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZExFbm1jUzdNdnN0d2ZBckFzUVNMT1Vqa3JYSkFLVVBkZ2p6WVU0S0JOOTV5YUdaTDBsSlM3THh0eWlTYUdMUjJYMmJ6eFIyVHlhTzdyUDhKb1lNOExjdkdFS1RrSjdoZXRPUDNTZ3VZWm53YVFSVW9vTTBWWWpJejRQdkZjaFhYTTU1M3U2OVFQcFlKZzlIZW9Hd21fTXVF?oc=5",
+      "id": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9zYWpUQ3htcHBma0Flay1Pd0x0YnM0RVM4QkdobXVMeVF6N1pLMDhfZEZtQU83bUxEMFJuNlduWm9kVkdEb01nY3hmSlVSXzI4M0VaYkp4eFp2UjNENU9DZ2pJUDdYdUhuUkg0YW55T0hGRVRVbV9FbS1GbG1uUQ?oc=5",
+      "title": "Phillies on the Pharm: 7/19/2026 - Yahoo Sports",
+      "summary": "Phillies on the Pharm: 7/19/2026 &nbsp;&nbsp; Yahoo Sports",
+      "source": "Yahoo Sports",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9zYWpUQ3htcHBma0Flay1Pd0x0YnM0RVM4QkdobXVMeVF6N1pLMDhfZEZtQU83bUxEMFJuNlduWm9kVkdEb01nY3hmSlVSXzI4M0VaYkp4eFp2UjNENU9DZ2pJUDdYdUhuUkg0YW55T0hGRVRVbV9FbS1GbG1uUQ?oc=5",
       "publishedAt": "2026-07-19T14:00:00.000Z",
       "tags": [
         "general"
@@ -678,19 +691,6 @@
       ],
       "injury": null,
       "matchedQuery": "FCL Phillies"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSXQ4ZzFTSERfTXRJMGlGRU5Od08taFE5OGRmNGwxMG8wcWt3NndwSmhpbG9idWtCU2Rsa2pEUFdZMjEzdVlfVmpDYjR6WC1GODlUNktray1hckh4SFJFNW1oMVNCSEx1NnVBRF9hWkVOM2ZoOWdrY2I3VnFHdkJOc0U2ZjBRX241djFjdk9KY0YxdHNBZ0pEM2VYcTlTWDg?oc=5",
-      "title": "What it means to be 29th best - The Good Phight",
-      "summary": "What it means to be 29th best &nbsp;&nbsp; The Good Phight",
-      "source": "The Good Phight",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSXQ4ZzFTSERfTXRJMGlGRU5Od08taFE5OGRmNGwxMG8wcWt3NndwSmhpbG9idWtCU2Rsa2pEUFdZMjEzdVlfVmpDYjR6WC1GODlUNktray1hckh4SFJFNW1oMVNCSEx1NnVBRF9hWkVOM2ZoOWdrY2I3VnFHdkJOc0U2ZjBRX241djFjdk9KY0YxdHNBZ0pEM2VYcTlTWDg?oc=5",
-      "publishedAt": "2026-07-08T07:00:00.000Z",
-      "tags": [
-        "general"
-      ],
-      "injury": null,
-      "matchedQuery": "Phillies prospects"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbGZxNHpBLVRNWUJWVG80Y2ZJcXdjWWNhdW16UDZKbkw0UjNEcW81NkYwN2Q1c05WeGNuQy14aWtuUmFJcWFleWVub1RySjFMZV9RY3ZCUkNPYmk5eGlUdS1mYjB6dkZzY0FwZDFTUERmUlg1RXJFWUhHeVJuRTB1YlFDVW9LOHo1UUxOU0RLMA?oc=5",
@@ -1918,19 +1918,6 @@
       "matchedQuery": "Jersey Shore BlueClaws Phillies"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYjcxeWdkUTFaUXJjY0ZTd3M5ZGx3dEFjenZ2ZTdrak5SWHhyZFIyUG43dTZEZWN0X1hjZ1pyTnZ2UGxWLU8wY2lHQ19fQ0tiWERtRFIwZUJLeFprWlB5Rzl6THlRVEhfTUZKRHRSWFBSV0lVYmF3OTBIQ2NKY3VQbm1NTU51cUNYVWN4dDZUYjd3ekl1SjRLZjVR?oc=5",
-      "title": "Phillies Sign Lou Trivino To Minor League Contract - MLB Trade Rumors",
-      "summary": "Phillies Sign Lou Trivino To Minor League Contract &nbsp;&nbsp; MLB Trade Rumors",
-      "source": "MLB Trade Rumors",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYjcxeWdkUTFaUXJjY0ZTd3M5ZGx3dEFjenZ2ZTdrak5SWHhyZFIyUG43dTZEZWN0X1hjZ1pyTnZ2UGxWLU8wY2lHQ19fQ0tiWERtRFIwZUJLeFprWlB5Rzl6THlRVEhfTUZKRHRSWFBSV0lVYmF3OTBIQ2NKY3VQbm1NTU51cUNYVWN4dDZUYjd3ekl1SjRLZjVR?oc=5",
-      "publishedAt": "2026-05-16T07:00:00.000Z",
-      "tags": [
-        "general"
-      ],
-      "injury": null,
-      "matchedQuery": "Phillies minor league injured list"
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNRm90Y0t6dkhhQUgtWm95dzNSY3hvb1NlZWk1MjBNdlF0aVBXSTBNY2RBYnFuWWlFaU1XallQemItVG01bGZNQU1kZWdQcFJrOFlVdlhXY2lHVUhNbnJobnM2UEs4N0NTV01UZ0EyTlJ5R0xKWHVBWkZnZFB5SHdnNURZYl82RHg2b05tNkZvVFpYdUg4Z3FGNEdiVDBobkl2aFV4eU9XSi0xWC1DZW1FZXlKOVlQeEZKOHY5N0RQWFZ5d3VuWllOWXFqN21STEp3dFBUWXRHX1Nodw?oc=5",
       "title": "Phillies taking it ‘slow’ with top prospect Aidan Miller - Phillies Nation",
       "summary": "Phillies taking it ‘slow’ with top prospect Aidan Miller &nbsp;&nbsp; Phillies Nation",
@@ -3060,6 +3047,19 @@
       ],
       "injury": null,
       "matchedQuery": "Phillies prospect rehab assignment"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPc19wTjVFLU43WjhyZXZHeUNIcy1QRm5lbmRKcDZoZHMtR000UXZZbXl4R3hqRXBFdUVpaHBwbTBOaDNXdzBrd0VLOHR6ZGs1ZmJ4QUl2Ym5wTmhQQzNoaE12bEdhR3dSWHFrbGo1T2llNm1abndaaXZCbUh0Ukg0NWk4ZFp6WUV1QlJISXZZWQ?oc=5",
+      "title": "Rays top prospect Caminero to miss 4-6 weeks with quad strain - MLB.com",
+      "summary": "Rays top prospect Caminero to miss 4-6 weeks with quad strain &nbsp;&nbsp; MLB.com",
+      "source": "MLB.com",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPc19wTjVFLU43WjhyZXZHeUNIcy1QRm5lbmRKcDZoZHMtR000UXZZbXl4R3hqRXBFdUVpaHBwbTBOaDNXdzBrd0VLOHR6ZGs1ZmJ4QUl2Ym5wTmhQQzNoaE12bEdhR3dSWHFrbGo1T2llNm1abndaaXZCbUh0Ukg0NWk4ZFp6WUV1QlJISXZZWQ?oc=5",
+      "publishedAt": "2024-05-29T07:00:00.000Z",
+      "tags": [
+        "injury"
+      ],
+      "injury": null,
+      "matchedQuery": "Phillies minor league injured list"
     }
   ],
   "errors": []
