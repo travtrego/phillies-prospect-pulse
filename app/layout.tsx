@@ -7,6 +7,7 @@ import "./product.css";
 import SiteNavigation from "./SiteNavigation";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://phillies-prospect-pulse-git-main-travis-trego.vercel.app"),
   title: "Phillies Prospect Pulse",
   description: "A focused, source-tracked view of the Philadelphia Phillies farm system."
 };

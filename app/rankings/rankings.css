@@ -12,3 +12,8 @@
 .trendUp { color:#8ce5b3; font-weight:900; }
 .trendDown { color:#ff8f98; font-weight:900; }
 .trendFlat { color:var(--muted); font-weight:900; }
+.confidenceBadge { display:inline-flex; align-items:center; gap:6px; padding:4px 9px; border-radius:999px; border:1px solid rgba(255,255,255,.14); background:rgba(255,255,255,.045); font-size:.7rem; font-weight:850; text-transform:capitalize; }
+.confidenceBadge::before { content:""; width:7px; height:7px; border-radius:50%; background:currentColor; }
+.confidenceBadge.conf-high { border-color:rgba(65,217,135,.4); background:rgba(65,217,135,.1); color:#7ce4ad; }
+.confidenceBadge.conf-moderate { border-color:rgba(90,150,255,.4); background:rgba(90,150,255,.1); color:#8fb7ff; }
+.confidenceBadge.conf-low { border-color:rgba(255,176,32,.4); background:rgba(255,176,32,.1); color:#ffc04d; }
