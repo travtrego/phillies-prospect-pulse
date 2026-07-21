@@ -20,12 +20,14 @@ body::before { content:""; position:fixed; inset:0; pointer-events:none; opacity
 a { color: inherit; }
 button,input { font:inherit; }
 .topNav { position:sticky; top:0; z-index:20; border-bottom:1px solid var(--border); background:rgba(4,9,18,.9); backdrop-filter:blur(18px); }
-.navInner { width:min(1180px,calc(100% - 32px)); margin:0 auto; min-height:64px; display:flex; align-items:center; justify-content:space-between; gap:20px; }
+.navInner { width:min(1180px,calc(100% - 32px)); margin:0 auto; min-height:64px; display:flex; align-items:center; justify-content:space-between; gap:20px; position:relative; }
 .navBrand { color:#fff; font-weight:950; text-decoration:none; text-transform:uppercase; letter-spacing:.055em; }
 .navBrand::before { content:"P"; display:inline-grid; place-items:center; width:28px; height:28px; margin-right:10px; border-radius:8px; background:var(--phillies-red); font-family:Georgia,serif; font-style:italic; }
 .navLinks { display:flex; gap:6px; flex-wrap:wrap; }
 .navLinks a { padding:9px 13px; border:1px solid transparent; border-radius:999px; color:#cbd5e4; font-size:.76rem; font-weight:800; text-decoration:none; transition:.18s ease; }
 .navLinks a:hover { border-color:var(--border); background:rgba(255,255,255,.045); color:#fff; }
+.navToggle { display:none; flex-direction:column; justify-content:center; align-items:center; gap:4px; width:36px; height:36px; padding:0; border:1px solid var(--border); border-radius:9px; background:rgba(255,255,255,.035); cursor:pointer; }
+.navToggle span { display:block; width:16px; height:2px; background:#e7edf5; border-radius:2px; }
 main { position:relative; width:min(1180px,calc(100% - 32px)); margin:0 auto; padding:38px 0 76px; }
 h1,h2,h3,h4,p { margin-top:0; }
 h1,h2,h3 { letter-spacing:-.025em; }
@@ -70,9 +72,9 @@ h1,h2,h3 { letter-spacing:-.025em; }
 .resultsHeader { display:flex; justify-content:space-between; align-items:flex-end; gap:16px; margin-bottom:18px; }
 .resultsHeader h2 { margin:5px 0 0; font-size:clamp(1.8rem,4vw,2.6rem); }
 .status { border:1px solid rgba(232,24,40,.45); background:rgba(232,24,40,.1); color:#ff969f; border-radius:999px; padding:9px 13px; font-size:.72rem; font-weight:900; }
-.cardGrid,.statsCardGrid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:18px; align-items:start; }
-.playerCard,.statPlayerCard { min-width:0; overflow:hidden; border:1px solid var(--border); border-radius:18px; background:linear-gradient(155deg,rgba(20,34,56,.98),rgba(8,18,33,.99)); box-shadow:0 16px 34px rgba(0,0,0,.22); transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease; }
-.playerCard:hover,.statPlayerCard:hover { transform:translateY(-4px); border-color:rgba(232,24,40,.5); box-shadow:0 22px 45px rgba(0,0,0,.3); }
+.cardGrid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:18px; align-items:start; }
+.playerCard { min-width:0; overflow:hidden; border:1px solid var(--border); border-radius:18px; background:linear-gradient(155deg,rgba(20,34,56,.98),rgba(8,18,33,.99)); box-shadow:0 16px 34px rgba(0,0,0,.22); transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease; }
+.playerCard:hover { transform:translateY(-4px); border-color:rgba(232,24,40,.5); box-shadow:0 22px 45px rgba(0,0,0,.3); }
 .cardTop { display:flex; justify-content:space-between; align-items:center; padding:14px 16px; border-bottom:1px solid var(--border); background:linear-gradient(90deg,rgba(232,24,40,.11),rgba(0,45,114,.09)); }
 .rank { color:#fff; font-size:.92rem; font-weight:950; }
 .level { border:1px solid rgba(255,255,255,.14); background:rgba(255,255,255,.045); border-radius:999px; padding:5px 9px; color:#dce7fb; font-size:.68rem; font-weight:850; }
@@ -150,5 +152,5 @@ h1,h2,h3 { letter-spacing:-.025em; }
 .profileTimeline strong { display:block; margin:3px 0; font-size:.78rem; }
 .profileTimeline p { margin:0; color:var(--muted); font-size:.72rem; }
 .profileSourceFooter { display:flex; justify-content:space-between; gap:16px; padding:14px 2px; }
-@media (max-width:900px){.cardGrid,.statsCardGrid{grid-template-columns:repeat(2,minmax(0,1fr))}.personalStatsGrid{grid-template-columns:repeat(2,minmax(0,1fr))}.siteHeader,.playerPageHeader{align-items:flex-start}.profileGrades{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media (max-width:640px){.navInner{align-items:flex-start;padding:13px 0}.navLinks{justify-content:flex-end}.siteHeader,.playerPageHeader{padding:24px 20px;align-items:flex-start}.headerBadge{width:78px;height:78px;flex-basis:78px}.headerBadge strong{font-size:1.7rem}.directoryToolbar{position:static;display:grid}.directoryToolbar input{width:100%}.cardGrid,.statsCardGrid,.profileTwoColumn,.personalStatsGrid,.profileGrades{grid-template-columns:1fr}.resultsHeader,.panelHeading,.profileSourceFooter{align-items:flex-start;flex-direction:column}.fullStory,.rumorStory{padding:17px}.storyNumber{display:none}main{width:min(100% - 20px,1180px);padding-top:22px}}
+@media (max-width:900px){.cardGrid{grid-template-columns:repeat(2,minmax(0,1fr))}.personalStatsGrid{grid-template-columns:repeat(2,minmax(0,1fr))}.siteHeader,.playerPageHeader{align-items:flex-start}.profileGrades{grid-template-columns:repeat(2,minmax(0,1fr))}.navToggle{display:flex}.navLinks{display:none;position:absolute;top:100%;left:0;right:0;flex-direction:column;gap:2px;margin-top:1px;padding:10px;border:1px solid var(--border);border-radius:0 0 14px 14px;background:rgba(6,13,26,.98);backdrop-filter:blur(18px);box-shadow:0 18px 34px rgba(0,0,0,.35)}.navLinks.navLinksOpen{display:flex}.navLinks a{padding:12px 14px;border-radius:10px}}
+@media (max-width:640px){.siteHeader,.playerPageHeader{padding:24px 20px;align-items:flex-start}.headerBadge{width:78px;height:78px;flex-basis:78px}.headerBadge strong{font-size:1.7rem}.directoryToolbar{position:static;display:grid}.directoryToolbar input{width:100%}.cardGrid,.profileTwoColumn,.personalStatsGrid,.profileGrades{grid-template-columns:1fr}.resultsHeader,.panelHeading,.profileSourceFooter{align-items:flex-start;flex-direction:column}.fullStory,.rumorStory{padding:17px}.storyNumber{display:none}main{width:min(100% - 20px,1180px);padding-top:22px}}
