@@ -7,6 +7,8 @@ import type { Player } from '../ProspectDirectory';
 const filters = [
   ['top30', 'Top 30'], ['all', 'All Players'], ['AAA', 'AAA'], ['AA', 'AA'], ['A+', 'High-A'], ['A', 'Single-A']
 ] as const;
+const LEVEL_CLASS: Record<string, string> = { MLB: 'lvl-mlb', AAA: 'lvl-aaa', AA: 'lvl-aa', 'A+': 'lvl-aplus', A: 'lvl-a', Rookie: 'lvl-rookie' };
+function levelClass(level: string | null | undefined) { return `level ${LEVEL_CLASS[level ?? ''] ?? ''}`.trim(); }
 
 export default function StatsDirectory({ players }: { players: Player[] }) {
   const [filter, setFilter] = useState('top30');
@@ -36,7 +38,7 @@ export default function StatsDirectory({ players }: { players: Player[] }) {
       <section className="statsCardGrid">
         {visible.map((player) => (
           <article className="statPlayerCard" key={player.id}>
-            <div className="cardTop"><span className="rank">{player.mlb_pipeline_rank ? `#${player.mlb_pipeline_rank}` : 'Unranked'}</span><span className="level">{player.current_level ?? 'TBD'}</span></div>
+            <div className="cardTop"><span className="rank">{player.mlb_pipeline_rank ? `#${player.mlb_pipeline_rank}` : 'Unranked'}</span><span className={levelClass(player.current_level)}>{player.current_level ?? 'TBD'}</span></div>
             <div className="statIdentity"><h3>{player.full_name}</h3><p>{player.current_team_name ?? 'Affiliate TBD'} · {player.primary_position ?? 'Position TBD'}</p></div>
             <div className="statPlaceholderGrid">
               <div><span>Games</span><strong>—</strong></div>
