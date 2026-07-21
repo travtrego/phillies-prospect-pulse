@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T02:40:09.572Z",
+  "updatedAt": "2026-07-21T03:45:54.920Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -704,29 +704,6 @@
       ]
     },
     {
-      "playerId": "abb820d6-d295-4677-8faa-6f11f95879b6",
-      "player": "Raider Tello",
-      "position": "INF",
-      "affiliate": "Jersey Shore BlueClaws",
-      "level": "A+",
-      "score": 53.5,
-      "previousRank": 29,
-      "rank": 29,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 12.5,
-        "ageLevel": 5.3,
-        "sentiment": 10,
-        "movement": 8.7,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to AA"
-      ]
-    },
-    {
       "playerId": "285d47d5-92a7-4f48-be72-5fbe35722d52",
       "player": "Guillermo Rosario",
       "position": "C",
@@ -734,8 +711,8 @@
       "level": "A",
       "score": 53.4,
       "previousRank": 30,
-      "rank": 30,
-      "change": 0,
+      "rank": 29,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -747,6 +724,29 @@
       "mediaMentions": 0,
       "reasons": [
         "Promoted to High-A"
+      ]
+    },
+    {
+      "playerId": "abb820d6-d295-4677-8faa-6f11f95879b6",
+      "player": "Raider Tello",
+      "position": "INF",
+      "affiliate": "Jersey Shore BlueClaws",
+      "level": "A+",
+      "score": 53.4,
+      "previousRank": 29,
+      "rank": 30,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 12.5,
+        "ageLevel": 5.3,
+        "sentiment": 10,
+        "movement": 8.6,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to AA"
       ]
     },
     {
@@ -1608,9 +1608,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 50.1,
-      "previousRank": 68,
+      "previousRank": 67,
       "rank": 67,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1631,9 +1631,9 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 50.1,
-      "previousRank": 69,
+      "previousRank": 68,
       "rank": 68,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1654,9 +1654,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 50.1,
-      "previousRank": 70,
+      "previousRank": 69,
       "rank": 69,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1677,9 +1677,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 50,
-      "previousRank": 71,
+      "previousRank": 70,
       "rank": 70,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1701,9 +1701,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 50,
-      "previousRank": 72,
+      "previousRank": 71,
       "rank": 71,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1725,9 +1725,9 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 50,
-      "previousRank": 67,
+      "previousRank": 72,
       "rank": 72,
-      "change": -5,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2546,29 +2546,6 @@
       ]
     },
     {
-      "playerId": "8b7a23de-db4b-489c-b2b0-c7a56e09370d",
-      "player": "Nate Humphreys",
-      "position": "OF",
-      "affiliate": "Clearwater Threshers",
-      "level": "A",
-      "score": 47.9,
-      "previousRank": 108,
-      "rank": 108,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 12.5,
-        "ageLevel": 4.2,
-        "sentiment": 10.2,
-        "movement": 4,
-        "risk": 5
-      },
-      "mediaMentions": 1,
-      "reasons": [
-        "1 recent media mention"
-      ]
-    },
-    {
       "playerId": "c16c7468-fda9-463b-9fbe-e846f5e1c41e",
       "player": "Jonathan Hogart",
       "position": "OF",
@@ -2576,8 +2553,8 @@
       "level": "A",
       "score": 47.8,
       "previousRank": 109,
-      "rank": 109,
-      "change": 0,
+      "rank": 108,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2589,6 +2566,29 @@
       "mediaMentions": 0,
       "reasons": [
         "Promoted to Single-A"
+      ]
+    },
+    {
+      "playerId": "8b7a23de-db4b-489c-b2b0-c7a56e09370d",
+      "player": "Nate Humphreys",
+      "position": "OF",
+      "affiliate": "Clearwater Threshers",
+      "level": "A",
+      "score": 47.8,
+      "previousRank": 108,
+      "rank": 109,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 12.5,
+        "ageLevel": 4.2,
+        "sentiment": 10.1,
+        "movement": 4,
+        "risk": 5
+      },
+      "mediaMentions": 1,
+      "reasons": [
+        "1 recent media mention"
       ]
     },
     {
