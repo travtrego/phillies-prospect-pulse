@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-07-21T19:51:24.675Z",
+  "updatedAt": "2026-07-21T22:03:23.666Z",
   "records": [
+    {
+      "playerId": 650559,
+      "player": "Bryan De La Cruz",
+      "date": "2026-07-21",
+      "fromAffiliate": "Lehigh Valley IronPigs",
+      "fromLevel": "AAA",
+      "toAffiliate": "Philadelphia Phillies",
+      "toLevel": "MLB",
+      "description": "Philadelphia Phillies recalled OF Bryan De La Cruz from Lehigh Valley IronPigs.",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-21&endDate=2026-07-21"
+    },
     {
       "playerId": 686934,
       "player": "Alex McFarlane",
