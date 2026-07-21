@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T11:31:47.267Z",
+  "updatedAt": "2026-07-21T12:02:10.819Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -16,7 +16,7 @@
       "position": "RHP",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 76.5,
+      "score": 76.6,
       "previousRank": 1,
       "rank": 1,
       "change": 0,
@@ -24,14 +24,14 @@
         "scouting": 30,
         "performance": 18.1,
         "ageLevel": 5,
-        "sentiment": 11.9,
+        "sentiment": 12,
         "movement": 6.5,
         "risk": 5
       },
-      "mediaMentions": 7,
+      "mediaMentions": 8,
       "reasons": [
         "MLB Pipeline rank #2",
-        "7 recent media mentions",
+        "8 recent media mentions",
         "Positive recent coverage",
         "Promoted to AA"
       ]
