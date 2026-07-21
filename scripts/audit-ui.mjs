@@ -13,8 +13,8 @@ const normalize=(value='')=>String(value).toLowerCase().normalize('NFD').replace
 const requiredPages=['app/page.tsx','app/rankings/page.tsx','app/affiliates/page.tsx','app/news/page.tsx','app/promotions/page.tsx','app/injuries/page.tsx','app/prospect-genie/page.tsx','app/players/[id]/page.tsx'];
 for(const page of requiredPages)assert(exists(page),`Required tab/page is missing: ${page}`);
 
-const layout=readText('app/layout.tsx');
-for(const href of ['/','/rankings','/prospect-genie','/affiliates','/news','/promotions','/injuries'])assert(layout.includes(`href="${href}"`),`Main navigation is missing ${href}`);
+const navigation=readText('app/SiteNavigation.tsx');
+for(const href of ['/','/rankings','/prospect-genie','/affiliates','/news','/promotions','/injuries'])assert(navigation.includes(`'${href}'`)||navigation.includes(`"${href}"`),`Main navigation is missing ${href}`);
 
 const directory=readText('app/ProspectDirectory.tsx');
 for(const field of ['full_name','primary_position','current_level','current_team_name','bats','throws','draft_year','estimated_arrival_year','scouting_summary'])assert(directory.includes(`player.${field}`),`Player card does not present ${field}`);
@@ -28,10 +28,10 @@ for(const section of ['id="bio"','id="stats"','id="scouting"','id="injury"','id=
 assert(profile.includes('getDirectoryPlayer'),'Player profiles are not using the resilient player loader');
 
 const playerDirectory=readText('lib/playerDirectory.ts');
-assert(playerDirectory.includes('current_level:stat?.level||record.level||null'),'Local directory players do not prioritize the current stats level over the preseason ranking level');
+assert(playerDirectory.includes('current_level:normalizeLevel(stat?.level||record.level)'),'Local directory players do not prioritize the current stats level over the preseason ranking level');
 assert(playerDirectory.includes('current_team_name:stat?.affiliate||record.affiliate||null'),'Local directory players do not prioritize the current stats affiliate over the preseason ranking affiliate');
-assert(playerDirectory.includes('current_level:stat?.level||player.current_level'),'Remote directory players do not allow the fresher stats level to override stale stored assignments');
-assert(playerDirectory.includes('current_team_name:stat?.affiliate||player.current_team_name'),'Remote directory players do not allow the fresher stats affiliate to override stale stored assignments');
+assert(playerDirectory.includes('current_level:normalizeLevel(stat?.level||row.current_level)'),'Supabase-only directory players do not allow the fresher stats level to override stale stored assignments');
+assert(playerDirectory.includes('current_team_name:stat?.affiliate||row.current_team_name'),'Supabase-only directory players do not allow the fresher stats affiliate to override stale stored assignments');
 
 const home=readText('app/page.tsx');
 const affiliates=readText('app/affiliates/page.tsx');
