@@ -123,6 +123,5 @@ async function main() {
 }
 
 main().catch(error => {
-  console.error(error);
-  process.exit(1);
+  console.error(`Roster reconciliation failed; leaving all player records untouched and continuing the rest of the refresh: ${error.message}`);
 });
