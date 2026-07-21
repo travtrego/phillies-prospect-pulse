@@ -14,6 +14,7 @@ export default async function Home(){
  const homepageRankings=enriched.map(record=>({playerId:record.playerId,player:record.player,rank:record.rank,confidence:record.intelligence.confidence})) as HomepageRanking[];
  const latestStories=[...(newsData.articles as NewsArticle[])].filter(article=>article.title&&article.url&&article.publishedAt).sort((a,b)=>new Date(b.publishedAt).getTime()-new Date(a.publishedAt).getTime()).slice(0,6);
  return <main>
+  <header className="pageHeader"><span className="eyebrow">Welcome to</span><h1>Prospect Pulse</h1><p>Your home for tracking the Phillies farm system — rankings, stats, injuries and news, all in one place.</p></header>
   <ProspectDirectory players={players} rankings={homepageRankings}/>
   <section className="newsPanel newsPanelFull"><div className="panelHeading"><div><span className="eyebrow">Latest news</span><h2>Phillies prospect stories</h2></div><Link className="sectionLink" href="/news">View all news →</Link></div>{latestStories.length>0?<ol className="storyList storyListWide">{latestStories.map((story,index)=><li key={story.id||story.url}><span>{index+1}</span><div><a href={story.url} target="_blank" rel="noreferrer"><strong>{story.title}</strong></a><p>{cleanSummary(story.summary,story.source,story.title)}</p><small>{story.source} · {formatNewsDate(story.publishedAt)}</small></div></li>)}</ol>:<div className="empty"><h3>No current prospect stories found.</h3><p>The next automated refresh will add new stories here.</p></div>}</section>
  </main>;
