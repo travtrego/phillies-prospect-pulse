@@ -53,8 +53,12 @@ function withScoutingDepth(player:DirectoryPlayer,row:SupabaseRow|undefined):Dir
 function supabaseExtra(row:SupabaseRow):DirectoryPlayer{
   const stat=statByName.get(normalizeName(row.full_name));
   const evaluation=buildPlayerEvaluation(stat);
+  const level=normalizeLevel(stat?.level||row.current_level);
+  // Rookie-level players are intentionally excluded from the ranking model (not enough
+  // signal yet), so never surface a stale Supabase preseason rank number for them.
+  const rank=level==='Rookie'?null:row.mlb_pipeline_rank;
   return{
-    id:row.id,full_name:row.full_name,primary_position:stat?.position||row.primary_position,current_level:normalizeLevel(stat?.level||row.current_level),current_team_name:stat?.affiliate||row.current_team_name,mlb_pipeline_rank:row.mlb_pipeline_rank,estimated_arrival_year:row.estimated_arrival_year,bats:stat?.bats||row.bats,throws:stat?.throws||row.throws,source_name:row.source_name,source_last_verified_at:row.source_last_verified_at,scouting_summary:row.scouting_summary||evaluation.summary,scouting_grades:row.scouting_grades,scouting_source_url:row.scouting_source_url,scouting_last_reviewed_at:row.scouting_last_reviewed_at,
+    id:row.id,full_name:row.full_name,primary_position:stat?.position||row.primary_position,current_level:level,current_team_name:stat?.affiliate||row.current_team_name,mlb_pipeline_rank:rank,estimated_arrival_year:row.estimated_arrival_year,bats:stat?.bats||row.bats,throws:stat?.throws||row.throws,source_name:row.source_name,source_last_verified_at:row.source_last_verified_at,scouting_summary:row.scouting_summary||evaluation.summary,scouting_grades:row.scouting_grades,scouting_source_url:row.scouting_source_url,scouting_last_reviewed_at:row.scouting_last_reviewed_at,
     mlb_id:stat?.playerId??null,current_age:stat?.currentAge??null,birth_date:stat?.birthDate??null,birth_city:stat?.birthCity??null,birth_state_province:stat?.birthStateProvince??null,birth_country:stat?.birthCountry??null,height:stat?.height??null,weight:stat?.weight??null,draft_year:stat?.draftYear??null,mlb_debut_date:stat?.mlbDebutDate??null,scouting_strengths:evaluation.strengths,scouting_concerns:evaluation.concerns,scouting_source_label:row.scouting_summary?'Public scouting report':evaluation.sourceLabel
   };
 }

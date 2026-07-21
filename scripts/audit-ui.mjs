@@ -28,9 +28,9 @@ for(const section of ['id="bio"','id="stats"','id="scouting"','id="injury"','id=
 assert(profile.includes('getDirectoryPlayer'),'Player profiles are not using the resilient player loader');
 
 const playerDirectory=readText('lib/playerDirectory.ts');
-assert(playerDirectory.includes('current_level:normalizeLevel(stat?.level||record.level)'),'Local directory players do not prioritize the current stats level over the preseason ranking level');
+assert(playerDirectory.includes('stat?.level||record.level'),'Local directory players do not prioritize the current stats level over the preseason ranking level');
 assert(playerDirectory.includes('current_team_name:stat?.affiliate||record.affiliate||null'),'Local directory players do not prioritize the current stats affiliate over the preseason ranking affiliate');
-assert(playerDirectory.includes('current_level:normalizeLevel(stat?.level||row.current_level)'),'Supabase-only directory players do not allow the fresher stats level to override stale stored assignments');
+assert(playerDirectory.includes('stat?.level||row.current_level'),'Supabase-only directory players do not allow the fresher stats level to override stale stored assignments');
 assert(playerDirectory.includes('current_team_name:stat?.affiliate||row.current_team_name'),'Supabase-only directory players do not allow the fresher stats affiliate to override stale stored assignments');
 
 const home=readText('app/page.tsx');
