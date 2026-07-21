@@ -58,12 +58,12 @@ async function loadPlayers(statRecords) {
   const key = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY || process.env.SUPABASE_PUBLISHABLE_KEY;
   if (!url || !key) { console.log('Supabase secrets not present; using local stats roster for rankings.'); return localPlayers; }
   try {
-    const endpoint = `${url}/rest/v1/players?select=id,full_name,primary_position,current_level,current_team_name,mlb_pipeline_rank,estimated_arrival_year,scouting_grades,scouting_summary&current_level=in.(AAA,AA,A%2B,A,Rookie)&order=full_name.asc`;
+    const endpoint = `${url}/rest/v1/players?select=id,full_name,primary_position,current_level,current_team_name,mlb_pipeline_rank,estimated_arrival_year,scouting_grades,scouting_summary,mlb_id&current_level=in.(AAA,AA,A%2B,A,Rookie)&organization_status=eq.active&order=full_name.asc`;
     const response = await fetch(endpoint, { headers: { apikey: key, Authorization: `Bearer ${key}` } });
     if (!response.ok) throw new Error(`Supabase returned ${response.status}`);
     const enriched = await response.json();
     const statsById = new Map(localPlayers.map(player => [String(player.id), player.stats]));
-    return enriched.map(player => ({ ...player, stats: statsById.get(String(player.id)) || null }));
+    return enriched.map(player => ({ ...player, stats: player.mlb_id ? (statsById.get(String(player.mlb_id)) || null) : null }));
   } catch (error) { console.warn(`Supabase enrichment failed; using local stats roster: ${error.message}`); return localPlayers; }
 }
 

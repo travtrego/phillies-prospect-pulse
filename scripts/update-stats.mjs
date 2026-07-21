@@ -25,7 +25,7 @@ async function fetchJson(url) {
 }
 
 async function getRoster(team) {
-  const url = `https://statsapi.mlb.com/api/v1/teams/${team.id}/roster?rosterType=active&season=${SEASON}`;
+  const url = `https://statsapi.mlb.com/api/v1/teams/${team.id}/roster?rosterType=fullRoster&season=${SEASON}`;
   const data = await fetchJson(url);
   return (data.roster || []).map(entry => ({
     playerId: entry.person?.id,
@@ -114,5 +114,5 @@ for (let index = 0; index < unique.length; index += concurrency) {
 }
 
 records.sort((a, b) => a.affiliate.localeCompare(b.affiliate) || a.player.localeCompare(b.player));
-await fs.writeFile(OUTPUT, JSON.stringify({ updatedAt:new Date().toISOString(), season:SEASON, rosterType:'active', records, errors }, null, 2) + '\n');
+await fs.writeFile(OUTPUT, JSON.stringify({ updatedAt:new Date().toISOString(), season:SEASON, rosterType:'fullRoster', records, errors }, null, 2) + '\n');
 console.log(`Wrote current stats and bios for ${records.length} active-roster players with ${errors.length} errors.`);

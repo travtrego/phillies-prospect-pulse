@@ -22,7 +22,7 @@ async function fetchJson(url){
 
 const official=[];
 for(const team of teams){
-  const data=await fetchJson(`https://statsapi.mlb.com/api/v1/teams/${team.id}/roster?rosterType=active&season=${season}`);
+  const data=await fetchJson(`https://statsapi.mlb.com/api/v1/teams/${team.id}/roster?rosterType=fullRoster&season=${season}`);
   for(const entry of data.roster||[]){
     const playerId=entry.person?.id;
     const player=entry.person?.fullName;
