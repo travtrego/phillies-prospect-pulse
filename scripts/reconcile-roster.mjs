@@ -67,7 +67,10 @@ async function main() {
   const playersResponse = await fetch(`${url}/rest/v1/players?select=id,full_name,mlb_id&organization_status=eq.active`, {
     headers: { apikey: serviceKey, Authorization: `Bearer ${serviceKey}` }
   });
-  if (!playersResponse.ok) throw new Error(`Supabase read failed: ${playersResponse.status}`);
+  if (!playersResponse.ok) {
+    const body = await playersResponse.text().catch(() => '');
+    throw new Error(`Supabase read failed: ${playersResponse.status} ${body}`);
+  }
   const players = await playersResponse.json();
 
   const idFills = [];
@@ -103,7 +106,7 @@ async function main() {
       headers: { apikey: serviceKey, Authorization: `Bearer ${serviceKey}`, 'Content-Type': 'application/json', Prefer: 'return=minimal' },
       body: JSON.stringify({ mlb_id: fill.mlbId })
     });
-    if (!response.ok) console.error(`Failed to set mlb_id for ${fill.name}: ${response.status}`);
+    if (!response.ok) console.error(`Failed to set mlb_id for ${fill.name}: ${response.status} ${await response.text().catch(() => '')}`);
   }
 
   for (const item of confirmed) {
@@ -112,7 +115,7 @@ async function main() {
       headers: { apikey: serviceKey, Authorization: `Bearer ${serviceKey}`, 'Content-Type': 'application/json', Prefer: 'return=minimal' },
       body: JSON.stringify({ organization_status: item.status, source_last_verified_at: now })
     });
-    if (!response.ok) console.error(`Failed to update organization_status for ${item.name}: ${response.status}`);
+    if (!response.ok) console.error(`Failed to update organization_status for ${item.name}: ${response.status} ${await response.text().catch(() => '')}`);
   }
 
   await fs.writeFile(WATCH_FILE, `${JSON.stringify(nextWatch, null, 2)}\n`);
