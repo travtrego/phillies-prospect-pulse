@@ -11,7 +11,7 @@ function cleanSummary(summary:string,source:string,title:string){let cleaned=sum
 export default async function Home(){
  const players=await getDirectoryPlayers();
  const enriched=enrichRankings().slice(0,30).sort((a,b)=>a.rank-b.rank);
- const homepageRankings=enriched.map(record=>({playerId:record.playerId,player:record.player,rank:record.rank})) as HomepageRanking[];
+ const homepageRankings=enriched.map(record=>({playerId:record.playerId,player:record.player,rank:record.rank,confidence:record.intelligence.confidence})) as HomepageRanking[];
  const latestStories=[...(newsData.articles as NewsArticle[])].filter(article=>article.title&&article.url&&article.publishedAt).sort((a,b)=>new Date(b.publishedAt).getTime()-new Date(a.publishedAt).getTime()).slice(0,6);
  return <main>
   <ProspectDirectory players={players} rankings={homepageRankings}/>

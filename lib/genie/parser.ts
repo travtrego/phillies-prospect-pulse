@@ -5,11 +5,11 @@ const hasAny = (value: string, terms: string[]) => terms.some(term => normalize(
 
 function parseLimit(question: string) {
   const q = normalize(question);
-  const explicit = q.match(/\b(?:top|best|list|give me|show me)\s+(\d{1,2})\b/);
+  const explicit = q.match(/\b(?:top|best|list|give me|show me)\s+(\d{1,2})\b/) ?? q.match(/\b(\d{1,2})\s+(?:top|best)\b/);
   if (explicit) return Math.max(1, Math.min(10, Number(explicit[1])));
   const numbers: Record<string, number> = { one:1, two:2, three:3, four:4, five:5, six:6, seven:7, eight:8, nine:9, ten:10 };
   for (const [word, value] of Object.entries(numbers)) {
-    if (new RegExp(`\\b(?:top|best|list|give me|show me)\\s+${word}\\b`).test(q)) return value;
+    if (new RegExp(`\\b(?:top|best|list|give me|show me)\\s+${word}\\b`).test(q) || new RegExp(`\\b${word}\\s+(?:top|best)\\b`).test(q)) return value;
   }
   return hasAny(q, ['who is', "who s", 'which prospect', 'best prospect']) ? 1 : 5;
 }
