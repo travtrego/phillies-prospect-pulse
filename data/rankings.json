@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T03:45:54.920Z",
+  "updatedAt": "2026-07-21T08:45:10.282Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -16,7 +16,7 @@
       "position": "RHP",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 71.2,
+      "score": 70.9,
       "previousRank": 1,
       "rank": 1,
       "change": 0,
@@ -24,14 +24,14 @@
         "scouting": 30,
         "performance": 12.5,
         "ageLevel": 5,
-        "sentiment": 12.1,
-        "movement": 6.6,
+        "sentiment": 11.9,
+        "movement": 6.5,
         "risk": 5
       },
-      "mediaMentions": 8,
+      "mediaMentions": 7,
       "reasons": [
         "MLB Pipeline rank #2",
-        "8 recent media mentions",
+        "7 recent media mentions",
         "Positive recent coverage",
         "Promoted to AA"
       ]
@@ -68,7 +68,7 @@
       "position": "OF",
       "affiliate": null,
       "level": "AA",
-      "score": 68.7,
+      "score": 68.6,
       "previousRank": 3,
       "rank": 3,
       "change": 0,
@@ -77,7 +77,7 @@
         "performance": 12.5,
         "ageLevel": 6.4,
         "sentiment": 9.8,
-        "movement": 7.6,
+        "movement": 7.5,
         "risk": 5
       },
       "mediaMentions": 2,
@@ -171,7 +171,7 @@
       "position": "RHP",
       "affiliate": null,
       "level": "A+",
-      "score": 65.8,
+      "score": 65.7,
       "previousRank": 7,
       "rank": 7,
       "change": 0,
@@ -180,7 +180,7 @@
         "performance": 12.5,
         "ageLevel": 5.3,
         "sentiment": 10,
-        "movement": 7.8,
+        "movement": 7.7,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -321,7 +321,7 @@
       "position": "RHP",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 61.1,
+      "score": 61,
       "previousRank": 13,
       "rank": 13,
       "change": 0,
@@ -330,7 +330,7 @@
         "performance": 12.5,
         "ageLevel": 4.2,
         "sentiment": 10,
-        "movement": 7.8,
+        "movement": 7.7,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -515,7 +515,7 @@
       "position": "RHP",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 55.4,
+      "score": 55.3,
       "previousRank": 21,
       "rank": 21,
       "change": 0,
@@ -524,7 +524,7 @@
         "performance": 12.5,
         "ageLevel": 4.2,
         "sentiment": 10,
-        "movement": 7.8,
+        "movement": 7.7,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -539,7 +539,7 @@
       "position": "P",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 54.9,
+      "score": 54.8,
       "previousRank": 22,
       "rank": 22,
       "change": 0,
@@ -548,7 +548,7 @@
         "performance": 12.5,
         "ageLevel": 7.5,
         "sentiment": 10,
-        "movement": 7.9,
+        "movement": 7.8,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -586,7 +586,7 @@
       "position": "P",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 54,
+      "score": 53.9,
       "previousRank": 24,
       "rank": 24,
       "change": 0,
@@ -595,7 +595,7 @@
         "performance": 12.5,
         "ageLevel": 7.5,
         "sentiment": 10,
-        "movement": 7,
+        "movement": 6.9,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -710,9 +710,9 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 53.4,
-      "previousRank": 30,
+      "previousRank": 29,
       "rank": 29,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -733,9 +733,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 53.4,
-      "previousRank": 29,
+      "previousRank": 30,
       "rank": 30,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -967,29 +967,6 @@
       ]
     },
     {
-      "playerId": "7501d444-5df0-48f6-9ae4-9daa262d1309",
-      "player": "Tanner Gresham",
-      "position": "P",
-      "affiliate": "Clearwater Threshers",
-      "level": "A",
-      "score": 51.5,
-      "previousRank": 40,
-      "rank": 40,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 12.5,
-        "ageLevel": 4.2,
-        "sentiment": 10,
-        "movement": 7.8,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to High-A"
-      ]
-    },
-    {
       "playerId": "5a9ca442-aa33-48e9-82f4-aacd5435bc0c",
       "player": "Bryan Rincon",
       "position": "SS",
@@ -997,8 +974,8 @@
       "level": "AA",
       "score": 51.4,
       "previousRank": 41,
-      "rank": 41,
-      "change": 0,
+      "rank": 40,
+      "change": 1,
       "components": {
         "scouting": 12.3,
         "performance": 12.5,
@@ -1013,6 +990,29 @@
         "4 recent media mentions",
         "Promoted to AA",
         "Advanced to AA"
+      ]
+    },
+    {
+      "playerId": "7501d444-5df0-48f6-9ae4-9daa262d1309",
+      "player": "Tanner Gresham",
+      "position": "P",
+      "affiliate": "Clearwater Threshers",
+      "level": "A",
+      "score": 51.4,
+      "previousRank": 40,
+      "rank": 41,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 12.5,
+        "ageLevel": 4.2,
+        "sentiment": 10,
+        "movement": 7.7,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to High-A"
       ]
     },
     {
@@ -1906,31 +1906,6 @@
       ]
     },
     {
-      "playerId": "9ed61891-8ae1-4a55-882e-d7a9f83cedb9",
-      "player": "Levi Stoudt",
-      "position": "P",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 49.8,
-      "previousRank": 80,
-      "rank": 80,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 12.5,
-        "ageLevel": 6.4,
-        "sentiment": 10,
-        "movement": 6.4,
-        "risk": 2.5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to AAA",
-        "Current injury lowers availability",
-        "Advanced to AA"
-      ]
-    },
-    {
       "playerId": "d04e944a-e015-46b1-b32c-988723904e96",
       "player": "Camron Hill",
       "position": "P",
@@ -1938,8 +1913,8 @@
       "level": "A",
       "score": 49.7,
       "previousRank": 81,
-      "rank": 81,
-      "change": 0,
+      "rank": 80,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1951,6 +1926,31 @@
       "mediaMentions": 0,
       "reasons": [
         "Promoted to High-A"
+      ]
+    },
+    {
+      "playerId": "9ed61891-8ae1-4a55-882e-d7a9f83cedb9",
+      "player": "Levi Stoudt",
+      "position": "P",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 49.7,
+      "previousRank": 80,
+      "rank": 81,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 12.5,
+        "ageLevel": 6.4,
+        "sentiment": 10,
+        "movement": 6.3,
+        "risk": 2.5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to AAA",
+        "Current injury lowers availability",
+        "Advanced to AA"
       ]
     },
     {
@@ -2552,9 +2552,9 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 47.8,
-      "previousRank": 109,
+      "previousRank": 108,
       "rank": 108,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2563,8 +2563,9 @@
         "movement": 4.1,
         "risk": 5
       },
-      "mediaMentions": 0,
+      "mediaMentions": 1,
       "reasons": [
+        "1 recent media mention",
         "Promoted to Single-A"
       ]
     },
@@ -2575,9 +2576,9 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 47.8,
-      "previousRank": 108,
+      "previousRank": 109,
       "rank": 109,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
