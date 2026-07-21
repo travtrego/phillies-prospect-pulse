@@ -11,6 +11,11 @@ const normalize=(value:string)=>value.toLowerCase().normalize('NFD').replace(/[\
 function initials(name:string){return name.split(' ').filter(Boolean).slice(0,2).map(part=>part[0]).join('')||'PP'}
 function formatDate(value:string|null){if(!value)return'Pending';const date=new Date(value);if(Number.isNaN(date.getTime()))return'Pending';return new Intl.DateTimeFormat('en-US',{month:'short',day:'numeric',year:'numeric'}).format(date)}
 function isPitcher(position:string|null){return['P','RHP','LHP','SP','RP'].includes((position??'').toUpperCase())}
+function PlayerAvatar({mlbId,name}:{mlbId?:number|null;name:string}){
+ const[failed,setFailed]=useState(false);
+ if(mlbId&&!failed)return <img className="avatarImg" src={`https://img.mlbstatic.com/mlb-photos/image/upload/w_120,q_auto:best/v1/people/${mlbId}/headshot/milb/current`} alt="" loading="lazy" onError={()=>setFailed(true)}/>;
+ return <>{initials(name)}</>;
+}
 
 export default function ProspectDirectory({players,rankings}:{players:Player[];rankings:HomepageRanking[]}){
  const[filter,setFilter]=useState('top30');
@@ -29,7 +34,7 @@ export default function ProspectDirectory({players,rankings}:{players:Player[];r
   <div className="resultsHeader"><div><span className="eyebrow">Player directory</span><h2>{filters.find(([value])=>value===filter)?.[1]}</h2></div><span className="status">Live assignments</span></div>
   <section className="cardGrid" aria-live="polite">{visiblePlayers.map(player=>{const displayRank=getRank(player);const confidence=getConfidence(player);const bio=[player.current_age?`Age ${player.current_age}`:null,player.height,player.weight?`${player.weight} lb`:null].filter(Boolean).join(' · ');return <article className="playerCard" key={player.id}>
    <div className="cardTop"><span className="rank">{displayRank?`#${displayRank}`:'Unranked'}</span><span className="level">{player.current_level??'Level unavailable'}</span></div>
-   <div className="playerIdentity"><div className="avatar" aria-hidden="true">{initials(player.full_name)}</div><div><h3>{player.full_name}</h3><p>{player.primary_position??'Position unavailable'}{bio?` · ${bio}`:''}</p></div></div>
+   <div className="playerIdentity"><div className="avatar" aria-hidden="true"><PlayerAvatar mlbId={player.mlb_id} name={player.full_name}/></div><div><h3>{player.full_name}</h3><p>{player.primary_position??'Position unavailable'}{bio?` · ${bio}`:''}</p></div></div>
    <div className="cardSignalRow"><span className="signalPill positive">Current roster</span>{player.estimated_arrival_year&&<span className="signalPill">ETA {player.estimated_arrival_year}</span>}{player.scouting_grades&&<span className="signalPill">Grades available</span>}{confidence==='low'&&<span className="signalPill warning" title="This rank leans on limited scouting or performance data">Low-confidence rank</span>}</div>
    <div className="cardDetails"><div><span>Affiliate</span><strong>{player.current_team_name??'Not available'}</strong></div><div><span>Bats / Throws</span><strong>{player.bats??'—'} / {player.throws??'—'}</strong></div><div><span>Draft year</span><strong>{player.draft_year??'Not available'}</strong></div><div><span>Last verified</span><strong>{formatDate(player.source_last_verified_at)}</strong></div></div>
    <div className="scoutingBlock"><div className="scoutingHeader"><h4>Player evaluation</h4><span>{formatDate(player.scouting_last_reviewed_at)}</span></div><p>{player.scouting_summary??'There is not enough verified information to publish a responsible evaluation yet.'}</p>{player.scouting_grades&&<div className="grades">{Object.entries(player.scouting_grades).slice(0,5).map(([tool,grade])=><span key={tool}><b>{tool}</b>{grade}</span>)}</div>}</div>
