@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T22:15:43.201Z",
+  "updatedAt": "2026-07-21T22:27:17.639Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -466,7 +466,7 @@
       "position": "P",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 56.1,
+      "score": 56,
       "previousRank": 19,
       "rank": 19,
       "change": 0,
@@ -475,7 +475,7 @@
         "performance": 12.5,
         "ageLevel": 7.5,
         "sentiment": 10,
-        "movement": 9.1,
+        "movement": 9,
         "risk": 5
       },
       "mediaMentions": 0,
