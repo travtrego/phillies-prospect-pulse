@@ -5,8 +5,8 @@ import { FormEvent, useEffect, useRef, useState } from 'react';
 type Message = { role: 'user' | 'assistant'; content: string };
 
 const starters = [
-  'Why is Justin Crawford not in Philadelphia yet?',
-  'Which prospect is most underrated right now?',
+  'Why is Aidan Miller not in Philadelphia yet?',
+  'Who are the top shortstop prospects?',
   'Compare the two best pitching prospects in the system.',
   'Who has improved the most recently, and why?',
 ];

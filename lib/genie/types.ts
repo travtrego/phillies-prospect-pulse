@@ -1,7 +1,7 @@
 export type GenieTask = 'player_profile' | 'compare_players' | 'rank_players' | 'trend_players' | 'injury_report' | 'promotion_report' | 'system_summary' | 'unknown';
 export type GenieMetric = 'overall' | 'ceiling' | 'floor' | 'performance' | 'momentum' | 'readiness' | 'power' | 'speed' | 'contact' | 'discipline' | 'strikeouts' | 'command' | 'risk';
 
-export type GenieFilters = {level?:string;positionType?:'pitcher'|'hitter';international?:boolean;healthyOnly?:boolean;injuredOnly?:boolean;ageUnder?:number;ageOver?:number;etaBy?:number};
+export type GenieFilters = {level?:string;positionType?:'pitcher'|'hitter';position?:string;international?:boolean;healthyOnly?:boolean;injuredOnly?:boolean;ageUnder?:number;ageOver?:number;etaBy?:number};
 export type GenieIntent = {task:GenieTask;metric:GenieMetric;players:string[];filters:GenieFilters;limit:number;asksWhy:boolean;asksBiography:boolean;asksStats:boolean;asksProjection:boolean;asksRecent:boolean;rawQuestion:string};
 export type GeniePlanStep = {tool:string;description:string};
 export type GeniePlan = {intent:GenieIntent;steps:GeniePlanStep[]};

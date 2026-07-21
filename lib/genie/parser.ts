@@ -40,12 +40,31 @@ function parseTask(question: string, playerCount: number): GenieTask {
   return 'rank_players';
 }
 
+const positionKeywords: Array<[string[], string]> = [
+  [['catcher', 'catchers', 'behind the plate'], 'C'],
+  [['shortstop', 'shortstops'], 'SS'],
+  [['second base', 'second baseman', 'second basemen'], '2B'],
+  [['third base', 'third baseman', 'third basemen'], '3B'],
+  [['first base', 'first baseman', 'first basemen'], '1B'],
+  [['center field', 'center fielder', 'centerfielder'], 'CF'],
+  [['left field', 'left fielder'], 'LF'],
+  [['right field', 'right fielder'], 'RF'],
+  [['outfield', 'outfielder', 'outfielders'], 'OF'],
+  [['infield', 'infielder', 'infielders'], 'IF']
+];
+function parsePosition(question: string) {
+  for (const [terms, code] of positionKeywords) if (hasAny(question, terms)) return code;
+  return undefined;
+}
+
 export function parseIntent(question: string, matchedPlayers: string[]): GenieIntent {
   const q = normalize(question);
   const filters: GenieFilters = {};
   if (hasAny(q, ['international', 'foreign born', 'outside the united states'])) filters.international = true;
-  if (hasAny(q, ['pitcher', 'pitching'])) filters.positionType = 'pitcher';
-  if (hasAny(q, ['hitter', 'position player', 'bat'])) filters.positionType = 'hitter';
+  const position = parsePosition(q);
+  if (position) filters.position = position;
+  else if (hasAny(q, ['pitcher', 'pitching'])) filters.positionType = 'pitcher';
+  else if (hasAny(q, ['hitter', 'position player', 'bat'])) filters.positionType = 'hitter';
   if (hasAny(q, ['triple a', 'triple-a', 'aaa'])) filters.level = 'AAA';
   else if (hasAny(q, ['double a', 'double-a', 'aa'])) filters.level = 'AA';
   else if (hasAny(q, ['high a', 'high-a', 'a+'])) filters.level = 'A+';

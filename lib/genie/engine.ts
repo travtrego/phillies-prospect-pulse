@@ -21,6 +21,12 @@ function levelFor(player: Record<string, any>) { return statFor(player)?.level |
 function ageFor(player: Record<string, any>) { return finite(statFor(player)?.currentAge || player.age, 0) || null; }
 function countryFor(player: Record<string, any>) { return statFor(player)?.birthCountry || player.birthCountry || null; }
 function isPitcher(player: Record<string, any>) { return /^(P|RHP|LHP|SP|RP)$/i.test(player.position || '') || statFor(player)?.stats?.type === 'pitching'; }
+function matchesPosition(player: Record<string, any>, wanted: string) {
+  const pos = String(player.position || '').toUpperCase();
+  if (wanted === 'OF') return ['CF', 'LF', 'RF', 'OF'].includes(pos);
+  if (wanted === 'IF') return ['SS', '2B', '3B', '1B', 'IF'].includes(pos);
+  return pos === wanted;
+}
 
 function performance(player: Record<string, any>) {
   const s = statFor(player)?.stats || {};
@@ -88,6 +94,7 @@ function applyFilters(intent: GenieIntent) {
     if (intent.filters.level && level !== intent.filters.level) return false;
     if (intent.filters.positionType === 'pitcher' && !isPitcher(player)) return false;
     if (intent.filters.positionType === 'hitter' && isPitcher(player)) return false;
+    if (intent.filters.position && !matchesPosition(player, intent.filters.position)) return false;
     if (intent.filters.international && (!country || ['usa','united states','united states of america'].includes(country))) return false;
     if (intent.filters.healthyOnly && injuryFor(player)) return false;
     if (intent.filters.injuredOnly && !injuryFor(player)) return false;
@@ -98,9 +105,11 @@ function applyFilters(intent: GenieIntent) {
   });
 }
 
+const FACTUAL_REPORT_TASKS = ['promotion_report', 'injury_report', 'system_summary'];
+
 export function runEngine(intent: GenieIntent): GenieResult {
   const plan = buildPlan(intent);
-  const selectedDecisionMetric = decisionMetric(intent.rawQuestion);
+  const selectedDecisionMetric = FACTUAL_REPORT_TASKS.includes(intent.task) ? null : decisionMetric(intent.rawQuestion);
   const pool = applyFilters(intent);
   const evidence: PlayerEvidence[] = pool.map(player => {
     const scores = scoreSet(player);

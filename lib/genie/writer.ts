@@ -73,13 +73,31 @@ function decisionList(result:GenieResult){
   return`Front-office view: ${label}\n\n${rows.join('\n')}\n\nThese are internal model estimates, not guarantees. Confidence is ${result.confidence}.`;
 }
 
+const POSITION_LABEL:Record<string,string>={C:'catching',SS:'shortstop',['2B']:'second base',['3B']:'third base',['1B']:'first base',CF:'center field',LF:'left field',RF:'right field',OF:'outfield',IF:'infield'};
+
+function scopePhrase(result:GenieResult){
+  const{filters}=result.intent;
+  const parts=[filters.position?POSITION_LABEL[filters.position]||filters.position:filters.positionType==='pitcher'?'pitching':filters.positionType==='hitter'?'position-player':null,filters.level?filters.level:null].filter(Boolean);
+  return parts.length?` among ${parts.join(', ')} prospects`:'';
+}
+
+function taskIntro(result:GenieResult){
+  const{task,metric}=result.intent;
+  const scope=scopePhrase(result);
+  if(task==='injury_report')return`The current health picture${scope} is`;
+  if(task==='promotion_report')return`The players with the most relevant recent affiliate movement${scope} are`;
+  if(task==='system_summary')return`Here is a snapshot of the tracked system${scope}, ranked by ${metric==='overall'?'overall profile':metric}`;
+  const intro:Record<string,string>={overall:'The strongest overall profiles',ceiling:'The highest-ceiling profiles',floor:'The safest current profiles',performance:'The best current performers',momentum:'The strongest momentum belongs to',readiness:'The players closest to helping in Philadelphia',power:'The strongest power profiles',speed:'The strongest speed profiles',contact:'The strongest contact profiles',discipline:'The best plate-discipline profiles',strikeouts:'The best bat-missing profiles',command:'The strongest command profiles',risk:'The profiles carrying the most risk'};
+  const suffix=metric==='momentum'?'':' are';
+  return`${intro[metric]||intro.overall}${scope}${suffix}`;
+}
+
 function list(result:GenieResult){
   if(result.decisionMetric)return decisionList(result);
   if(!result.evidence.length)return`I could not find a player matching every part of that request.${result.limitations.length?` ${result.limitations.join(' ')}`:''}`;
   const metric=result.intent.metric;
-  const intro:Record<string,string>={overall:'The strongest overall profiles are',ceiling:'The highest-ceiling profiles are',floor:'The safest current profiles are',performance:'The best current performers are',momentum:'The strongest momentum belongs to',readiness:'The players closest to helping in Philadelphia are',power:'The strongest power profiles are',speed:'The strongest speed profiles are',contact:'The strongest contact profiles are',discipline:'The best plate-discipline profiles are',strikeouts:'The best bat-missing profiles are',command:'The strongest command profiles are',risk:'The profiles carrying the most risk are'};
   const rows=result.evidence.map((item,index)=>{const line=statLine(item);return`${index+1}. ${item.player.player} — #${item.player.rank}, ${item.stat?.level||item.player.level||'level unavailable'}${line?`, ${line}`:''}. ${metric} score: ${rounded(item.scores[metric])}/100.${item.strengths[0]?` Best evidence: ${item.strengths[0]}.`:''}${item.concerns[0]?` Main concern: ${item.concerns[0]}.`:''}`;});
-  return`${intro[metric]||intro.overall}:\n\n${rows.join('\n')}\n\nConfidence is ${result.confidence}.${result.limitations.length?` Limitations: ${result.limitations.join(' ')}`:''}`;
+  return`${taskIntro(result)}:\n\n${rows.join('\n')}\n\nConfidence is ${result.confidence}.${result.limitations.length?` Limitations: ${result.limitations.join(' ')}`:''}`;
 }
 
 export function writeAnswer(result:GenieResult){

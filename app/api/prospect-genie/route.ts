@@ -21,6 +21,12 @@ const rankings=enrichRankings() as Row[];
 const wordSet=(value='')=>new Set(normalizeText(value).split(' ').filter(Boolean));
 const respond=(payload:Record<string,any>)=>NextResponse.json(finalizeGeniePayload({engine:'Prospect Genie v10.0',...payload}),{headers:{'Cache-Control':'no-store, max-age=0'}});
 function findPlayerNames(question:string){const q=normalizeText(question);const qWords=wordSet(question);return rankings.filter(player=>{const full=normalizeText(player.player);const last=full.split(' ').at(-1)||'';return q.includes(full)||(last.length>=4&&qWords.has(last));}).map(player=>player.player);}
+const KNOWN_ORG_PHRASES=['Philadelphia Phillies','Lehigh Valley IronPigs','Reading Fightin Phils','Jersey Shore BlueClaws','Clearwater Threshers','FCL Phillies','Prospect Pulse','Prospect Genie','Rule 5'];
+function unrecognizedNameHint(question:string,matchedPlayers:string[]){
+ if(matchedPlayers.length)return null;
+ const candidates=question.match(/\b[A-Z][a-zA-Z'.-]+(?:\s+[A-Z][a-zA-Z'.-]+)+\b/g)||[];
+ return candidates.find(name=>!KNOWN_ORG_PHRASES.some(phrase=>phrase.includes(name)))??null;
+}
 
 export async function POST(request:NextRequest){
  try{
@@ -33,6 +39,11 @@ export async function POST(request:NextRequest){
   let matchedPlayers=findPlayerNames(question);
   if(!matchedPlayers.length)matchedPlayers=resolveFollowUpPlayers(question,memory);
   const route=selectGenieRoute(question,matchedPlayers.length);
+
+  if((route==='core'||route==='front_office_decision')&&!matchedPlayers.length){
+   const hint=unrecognizedNameHint(question,matchedPlayers);
+   if(hint)return respond({answer:`I don't have "${hint}" in the tracked Phillies prospect list right now — they may have already graduated to the majors, been traded, or just aren't tracked yet. Ask about a player who's currently in the system, or ask a general question like "who are the top pitching prospects?"`,matchedPlayers:[],intent:{task:'unknown',metric:'overall',filters:{},limit:0},confidence:'low',limitations:['The named entity was not found in the tracked prospect pool.'],memory:{activePlayers:memory.activePlayers.slice(0,5)},requestQuestion:question});
+  }
 
   if(route==='predictive_front_office'){
    const predictiveFrontOffice=await buildPredictiveFrontOfficeReport(question,matchedPlayers);
