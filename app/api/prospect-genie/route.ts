@@ -1,10 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { enrichRankings } from '../../../lib/ranking/intelligence';
-import { parseIntent } from '../../../lib/genie/parser';
-import { runEngine } from '../../../lib/genie/engine';
-import { writeAnswer } from '../../../lib/genie/writer';
+import { answerGenieQuestion } from '../../../lib/genie/claude';
 import { buildMemory, resolveFollowUpPlayers } from '../../../lib/genie/memory';
-import { applyHistoricalIntelligence } from '../../../lib/genie/history';
 import { analyzeOrganization } from '../../../lib/genie/organization';
 import { simulateScenario } from '../../../lib/genie/simulation';
 import { buildFrontOfficeReport } from '../../../lib/genie/frontoffice';
@@ -66,8 +63,7 @@ export async function POST(request:NextRequest){
    const organization=analyzeOrganization(question);
    return respond({answer:organization.answer,matchedPlayers:[],intent:{task:'organizational_analysis',metric:'system_depth',filters:{},limit:organization.groups.length},plan:[{tool:'buildOrganizationMap',description:'Group the tracked system by position and level.'},{tool:'scorePositionDepth',description:'Measure quality, quantity, proximity and injury exposure.'},{tool:'detectSurplusesAndWeaknesses',description:'Identify strong, thin and overcrowded pipelines.'},{tool:'findBlockedPlayers',description:'Flag upper-minors players facing internal depth pressure.'},{tool:'recommendOrganizationActions',description:'Produce development, acquisition and trade recommendations.'},{tool:'auditAnswerReliability',description:'Run the internal consistency and source-freshness guardrail.'}],confidence:'moderate',limitations:['This layer models the tracked prospect pool. Full MLB contracts, options, 40-man status and Rule 5 eligibility are not integrated yet.'],organization,memory:{activePlayers:memory.activePlayers.slice(0,5)},requestQuestion:question});
   }
-  const intent=parseIntent(question,matchedPlayers);
-  const result=await applyHistoricalIntelligence(runEngine(intent));
-  return respond({answer:writeAnswer(result),matchedPlayers,intent:{task:intent.task,metric:intent.metric,filters:intent.filters,limit:intent.limit},plan:[...result.plan.steps,{tool:'auditAnswerReliability',description:'Run the internal consistency and source-freshness guardrail.'}],confidence:result.confidence,limitations:result.limitations,evidence:result.evidence.map(item=>({player:item.player.player,currentScores:item.scores,projections:item.projections,history:(item as any).history||null})),memory:{activePlayers:memory.activePlayers.slice(0,5)},requestQuestion:question});
+  const genieAnswer=await answerGenieQuestion(question,history);
+  return respond({answer:genieAnswer.answer,matchedPlayers:genieAnswer.matchedPlayers,intent:{task:'ai_answer',metric:'overall',filters:{},limit:0},plan:[{tool:'buildContextSnapshot',description:'Assemble current rankings, stats, injuries, promotions and news into a grounded context.'},{tool:'askClaude',description:'Ask Claude Sonnet 5 to answer directly from the tracked data, citing the players and data it used.'},{tool:'verifyPlayerIdentities',description:'Confirm every named player resolves to the tracked Phillies prospect pool.'},{tool:'auditAnswerReliability',description:'Run the internal consistency and source-freshness guardrail.'}],confidence:genieAnswer.confidence,limitations:genieAnswer.limitations,memory:{activePlayers:memory.activePlayers.slice(0,5)},requestQuestion:question});
  }catch(error){console.error('Prospect Genie route error:',error);return NextResponse.json({error:'The Genie hit an unexpected error.'},{status:500});}
 }

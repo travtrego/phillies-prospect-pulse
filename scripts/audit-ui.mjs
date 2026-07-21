@@ -86,10 +86,10 @@ if(exists(workflowPath)){
   for(const command of order){const index=allLine.indexOf(command);assert(index>previous,`update:all dependency order is incorrect around ${command}`);previous=index;}
 }
 
-const layers={1:['lib/genie/parser.ts','lib/genie/engine.ts'],2:['lib/genie/parser.ts'],3:['lib/genie/writer.ts'],4:['lib/genie/engine.ts'],5:['lib/genie/projections.ts'],6:['lib/genie/organization.ts'],7:['lib/genie/simulation.ts'],8:['lib/genie/frontoffice.ts'],9:['lib/genie/development.ts','lib/genie/history.ts'],10:['lib/genie/predictiveFrontOffice.ts']};
+const layers={1:['lib/genie/context.ts','lib/genie/claude.ts'],2:['lib/genie/context.ts'],3:['lib/genie/claude.ts'],4:['lib/genie/memory.ts'],5:['lib/genie/projections.ts'],6:['lib/genie/organization.ts'],7:['lib/genie/simulation.ts'],8:['lib/genie/frontoffice.ts'],9:['lib/genie/development.ts'],10:['lib/genie/predictiveFrontOffice.ts']};
 for(const [layer,files] of Object.entries(layers))for(const file of files)assert(exists(file),`Genie layer ${layer} is missing ${file}`);
 const route=readText('app/api/prospect-genie/route.ts');
-for(const marker of ['parseIntent','runEngine','applyHistoricalIntelligence','analyzeOrganization','simulateScenario','buildFrontOfficeReport','buildDevelopmentDossier','buildPredictiveFrontOfficeReport','finalizeGeniePayload','selectGenieRoute'])assert(route.includes(marker),`Genie route is not wired to ${marker}`);
+for(const marker of ['answerGenieQuestion','buildMemory','analyzeOrganization','simulateScenario','buildFrontOfficeReport','buildDevelopmentDossier','buildPredictiveFrontOfficeReport','finalizeGeniePayload','selectGenieRoute'])assert(route.includes(marker),`Genie route is not wired to ${marker}`);
 assert(route.includes('Prospect Genie Predictive Front Office v10.0'),'Genie API does not identify the predictive front office as v10.0');
 const reliability=readText('lib/genie/reliability.ts');
 assert(!reliability.includes('GENIE_LAYER_10_VERSION'),'Internal reliability guardrail is incorrectly labeled as Genie layer 10');
