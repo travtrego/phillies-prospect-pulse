@@ -6,12 +6,12 @@ const payload=JSON.parse(fs.readFileSync(path.join(root,'data/stats.json'),'utf8
 const records=payload.records||[];
 const season=payload.season||new Date().getUTCFullYear();
 const teams=[
-  {id:143,name:'Philadelphia Phillies',level:'MLB'},
-  {id:1410,name:'Lehigh Valley IronPigs',level:'AAA'},
-  {id:522,name:'Reading Fightin Phils',level:'AA'},
-  {id:427,name:'Jersey Shore BlueClaws',level:'A+'},
-  {id:566,name:'Clearwater Threshers',level:'A'},
-  {id:469,name:'FCL Phillies',level:'Rookie'}
+  {id:143,name:'Philadelphia Phillies',level:'MLB',rosterType:'active'},
+  {id:1410,name:'Lehigh Valley IronPigs',level:'AAA',rosterType:'fullRoster'},
+  {id:522,name:'Reading Fightin Phils',level:'AA',rosterType:'fullRoster'},
+  {id:427,name:'Jersey Shore BlueClaws',level:'A+',rosterType:'fullRoster'},
+  {id:566,name:'Clearwater Threshers',level:'A',rosterType:'fullRoster'},
+  {id:469,name:'FCL Phillies',level:'Rookie',rosterType:'fullRoster'}
 ];
 
 async function fetchJson(url){
@@ -22,7 +22,7 @@ async function fetchJson(url){
 
 const official=[];
 for(const team of teams){
-  const data=await fetchJson(`https://statsapi.mlb.com/api/v1/teams/${team.id}/roster?rosterType=fullRoster&season=${season}`);
+  const data=await fetchJson(`https://statsapi.mlb.com/api/v1/teams/${team.id}/roster?rosterType=${team.rosterType}&season=${season}`);
   for(const entry of data.roster||[]){
     const playerId=entry.person?.id;
     const player=entry.person?.fullName;

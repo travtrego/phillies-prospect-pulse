@@ -3,12 +3,12 @@ import fs from 'node:fs/promises';
 const OUTPUT = new URL('../data/stats.json', import.meta.url);
 const SEASON = new Date().getUTCFullYear();
 const TEAMS = [
-  { id: 143, name: 'Philadelphia Phillies', level: 'MLB' },
-  { id: 1410, name: 'Lehigh Valley IronPigs', level: 'AAA' },
-  { id: 522, name: 'Reading Fightin Phils', level: 'AA' },
-  { id: 427, name: 'Jersey Shore BlueClaws', level: 'A+' },
-  { id: 566, name: 'Clearwater Threshers', level: 'A' },
-  { id: 469, name: 'FCL Phillies', level: 'Rookie' }
+  { id: 143, name: 'Philadelphia Phillies', level: 'MLB', rosterType: 'active' },
+  { id: 1410, name: 'Lehigh Valley IronPigs', level: 'AAA', rosterType: 'fullRoster' },
+  { id: 522, name: 'Reading Fightin Phils', level: 'AA', rosterType: 'fullRoster' },
+  { id: 427, name: 'Jersey Shore BlueClaws', level: 'A+', rosterType: 'fullRoster' },
+  { id: 566, name: 'Clearwater Threshers', level: 'A', rosterType: 'fullRoster' },
+  { id: 469, name: 'FCL Phillies', level: 'Rookie', rosterType: 'fullRoster' }
 ];
 
 const round = (value, digits = 3) => {
@@ -25,7 +25,7 @@ async function fetchJson(url) {
 }
 
 async function getRoster(team) {
-  const url = `https://statsapi.mlb.com/api/v1/teams/${team.id}/roster?rosterType=fullRoster&season=${SEASON}`;
+  const url = `https://statsapi.mlb.com/api/v1/teams/${team.id}/roster?rosterType=${team.rosterType}&season=${SEASON}`;
   const data = await fetchJson(url);
   return (data.roster || []).map(entry => ({
     playerId: entry.person?.id,
@@ -114,5 +114,5 @@ for (let index = 0; index < unique.length; index += concurrency) {
 }
 
 records.sort((a, b) => a.affiliate.localeCompare(b.affiliate) || a.player.localeCompare(b.player));
-await fs.writeFile(OUTPUT, JSON.stringify({ updatedAt:new Date().toISOString(), season:SEASON, rosterType:'fullRoster', records, errors }, null, 2) + '\n');
+await fs.writeFile(OUTPUT, JSON.stringify({ updatedAt:new Date().toISOString(), season:SEASON, rosterType:'active (MLB) + fullRoster (affiliates)', records, errors }, null, 2) + '\n');
 console.log(`Wrote current stats and bios for ${records.length} active-roster players with ${errors.length} errors.`);
