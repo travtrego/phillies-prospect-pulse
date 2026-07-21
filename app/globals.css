@@ -28,6 +28,8 @@ button,input { font:inherit; }
 .navLinks a:hover { border-color:var(--border); background:rgba(255,255,255,.045); color:#fff; }
 .navToggle { display:none; flex-direction:column; justify-content:center; align-items:center; gap:4px; width:36px; height:36px; padding:0; border:1px solid var(--border); border-radius:9px; background:rgba(255,255,255,.035); cursor:pointer; }
 .navToggle span { display:block; width:16px; height:2px; background:#e7edf5; border-radius:2px; }
+.rankSparkline { display:flex; align-items:center; gap:10px; margin-top:16px; }
+.rankSparkline span { color:var(--muted); font-size:.68rem; font-weight:800; }
 main { position:relative; width:min(1180px,calc(100% - 32px)); margin:0 auto; padding:38px 0 76px; }
 h1,h2,h3,h4,p { margin-top:0; }
 h1,h2,h3 { letter-spacing:-.025em; }
