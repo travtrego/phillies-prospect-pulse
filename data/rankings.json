@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T08:45:10.282Z",
+  "updatedAt": "2026-07-21T11:30:29.591Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -16,22 +16,22 @@
       "position": "RHP",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 70.9,
+      "score": 76.7,
       "previousRank": 1,
       "rank": 1,
       "change": 0,
       "components": {
         "scouting": 30,
-        "performance": 12.5,
+        "performance": 18.1,
         "ageLevel": 5,
-        "sentiment": 11.9,
+        "sentiment": 12.1,
         "movement": 6.5,
         "risk": 5
       },
-      "mediaMentions": 7,
+      "mediaMentions": 8,
       "reasons": [
         "MLB Pipeline rank #2",
-        "7 recent media mentions",
+        "8 recent media mentions",
         "Positive recent coverage",
         "Promoted to AA"
       ]
@@ -42,7 +42,7 @@
       "position": "RHP",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 70.3,
+      "score": 70.2,
       "previousRank": 2,
       "rank": 2,
       "change": 0,
@@ -50,7 +50,7 @@
         "scouting": 19.5,
         "performance": 12.5,
         "ageLevel": 6.4,
-        "sentiment": 17,
+        "sentiment": 16.9,
         "movement": 9.9,
         "risk": 5
       },
@@ -92,7 +92,7 @@
       "playerId": "240e0058-6aec-4107-881b-2e66e860c81f",
       "player": "Aidan Miller",
       "position": "SS",
-      "affiliate": "Philadelphia Phillies",
+      "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 67.3,
       "previousRank": 4,
@@ -141,31 +141,6 @@
       ]
     },
     {
-      "playerId": "4c385b38-3891-46a2-869e-f7f73f3bb154",
-      "player": "Aroon Escobar",
-      "position": "2B",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 66.6,
-      "previousRank": 6,
-      "rank": 6,
-      "change": 0,
-      "components": {
-        "scouting": 28.8,
-        "performance": 12.5,
-        "ageLevel": 6.2,
-        "sentiment": 10,
-        "movement": 4.1,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "MLB Pipeline rank #4",
-        "Promoted to AA",
-        "Advanced to AA"
-      ]
-    },
-    {
       "playerId": "adf09101-f49c-4127-a851-19f3e4a0bbd8",
       "player": "Ramon Marquez",
       "position": "RHP",
@@ -173,8 +148,8 @@
       "level": "A+",
       "score": 65.7,
       "previousRank": 7,
-      "rank": 7,
-      "change": 0,
+      "rank": 6,
+      "change": 1,
       "components": {
         "scouting": 25.2,
         "performance": 12.5,
@@ -187,6 +162,31 @@
       "reasons": [
         "MLB Pipeline rank #9",
         "Promoted to High-A"
+      ]
+    },
+    {
+      "playerId": "4c385b38-3891-46a2-869e-f7f73f3bb154",
+      "player": "Aroon Escobar",
+      "position": "2B",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 64.7,
+      "previousRank": 6,
+      "rank": 7,
+      "change": -1,
+      "components": {
+        "scouting": 28.8,
+        "performance": 10.6,
+        "ageLevel": 6.2,
+        "sentiment": 10,
+        "movement": 4.1,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "MLB Pipeline rank #4",
+        "Promoted to AA",
+        "Advanced to AA"
       ]
     },
     {
@@ -215,32 +215,6 @@
       ]
     },
     {
-      "playerId": "7a4408f1-d3cf-4b7c-9e20-c7ecf26f797d",
-      "player": "Dante Nori",
-      "position": "OF",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 64.4,
-      "previousRank": 9,
-      "rank": 9,
-      "change": 0,
-      "components": {
-        "scouting": 28.1,
-        "performance": 12.5,
-        "ageLevel": 7.2,
-        "sentiment": 10,
-        "movement": 4.1,
-        "risk": 2.5
-      },
-      "mediaMentions": 2,
-      "reasons": [
-        "MLB Pipeline rank #5",
-        "2 recent media mentions",
-        "Promoted to AA",
-        "Current injury lowers availability"
-      ]
-    },
-    {
       "playerId": "13315340-3eb4-4b12-a283-cc384919b692",
       "player": "Moisés Chace",
       "position": "RHP",
@@ -248,8 +222,8 @@
       "level": "AA",
       "score": 64,
       "previousRank": 10,
-      "rank": 10,
-      "change": 0,
+      "rank": 9,
+      "change": 1,
       "components": {
         "scouting": 26,
         "performance": 12.5,
@@ -273,8 +247,8 @@
       "level": "A",
       "score": 63.9,
       "previousRank": 11,
-      "rank": 11,
-      "change": 0,
+      "rank": 10,
+      "change": 1,
       "components": {
         "scouting": 24.5,
         "performance": 12.5,
@@ -298,8 +272,8 @@
       "level": "AAA",
       "score": 61.5,
       "previousRank": 12,
-      "rank": 12,
-      "change": 0,
+      "rank": 11,
+      "change": 1,
       "components": {
         "scouting": 22.4,
         "performance": 12.5,
@@ -323,8 +297,8 @@
       "level": "A",
       "score": 61,
       "previousRank": 13,
-      "rank": 13,
-      "change": 0,
+      "rank": 12,
+      "change": 1,
       "components": {
         "scouting": 21.6,
         "performance": 12.5,
@@ -337,6 +311,32 @@
       "reasons": [
         "MLB Pipeline rank #14",
         "Promoted to High-A"
+      ]
+    },
+    {
+      "playerId": "7a4408f1-d3cf-4b7c-9e20-c7ecf26f797d",
+      "player": "Dante Nori",
+      "position": "OF",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 60.8,
+      "previousRank": 9,
+      "rank": 13,
+      "change": -4,
+      "components": {
+        "scouting": 28.1,
+        "performance": 8.9,
+        "ageLevel": 7.2,
+        "sentiment": 10,
+        "movement": 4.1,
+        "risk": 2.5
+      },
+      "mediaMentions": 2,
+      "reasons": [
+        "MLB Pipeline rank #5",
+        "2 recent media mentions",
+        "Promoted to AA",
+        "Current injury lowers availability"
       ]
     },
     {
@@ -413,6 +413,30 @@
       ]
     },
     {
+      "playerId": "2da80f7a-4e55-4897-a922-6dd69968a16d",
+      "player": "Alan Rangel",
+      "position": "P",
+      "affiliate": "Lehigh Valley IronPigs",
+      "level": "AAA",
+      "score": 56.5,
+      "previousRank": 18,
+      "rank": 17,
+      "change": 1,
+      "components": {
+        "scouting": 12,
+        "performance": 13,
+        "ageLevel": 7.5,
+        "sentiment": 10,
+        "movement": 9,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to MLB",
+        "Advanced to AAA"
+      ]
+    },
+    {
       "playerId": "0c7667e3-3eec-438b-b7e6-0f59ec7b2a0a",
       "player": "Chase Shugart",
       "position": "P",
@@ -420,8 +444,8 @@
       "level": "AAA",
       "score": 56.1,
       "previousRank": 17,
-      "rank": 17,
-      "change": 0,
+      "rank": 18,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -437,55 +461,6 @@
       ]
     },
     {
-      "playerId": "2da80f7a-4e55-4897-a922-6dd69968a16d",
-      "player": "Alan Rangel",
-      "position": "P",
-      "affiliate": "Lehigh Valley IronPigs",
-      "level": "AAA",
-      "score": 56,
-      "previousRank": 18,
-      "rank": 18,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 12.5,
-        "ageLevel": 7.5,
-        "sentiment": 10,
-        "movement": 9,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to MLB",
-        "Advanced to AAA"
-      ]
-    },
-    {
-      "playerId": "4025d691-9f48-454e-9a06-6ac3911eed7a",
-      "player": "Carson DeMartini",
-      "position": "3B",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 55.6,
-      "previousRank": 19,
-      "rank": 19,
-      "change": 0,
-      "components": {
-        "scouting": 20.2,
-        "performance": 12.5,
-        "ageLevel": 6.4,
-        "sentiment": 10,
-        "movement": 4,
-        "risk": 2.5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "MLB Pipeline rank #16",
-        "Current injury lowers availability",
-        "Advanced to AA"
-      ]
-    },
-    {
       "playerId": "c6342e73-430f-4111-b7b6-7ce6703e0df8",
       "player": "Lou Albrecht",
       "position": "C",
@@ -493,8 +468,8 @@
       "level": "AA",
       "score": 55.5,
       "previousRank": 20,
-      "rank": 20,
-      "change": 0,
+      "rank": 19,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -517,8 +492,8 @@
       "level": "A",
       "score": 55.3,
       "previousRank": 21,
-      "rank": 21,
-      "change": 0,
+      "rank": 20,
+      "change": 1,
       "components": {
         "scouting": 15.9,
         "performance": 12.5,
@@ -534,30 +509,6 @@
       ]
     },
     {
-      "playerId": "5a957d9c-1afa-4f3b-8721-277d213872fa",
-      "player": "Bryse Wilson",
-      "position": "P",
-      "affiliate": "Lehigh Valley IronPigs",
-      "level": "AAA",
-      "score": 54.8,
-      "previousRank": 22,
-      "rank": 22,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 12.5,
-        "ageLevel": 7.5,
-        "sentiment": 10,
-        "movement": 7.8,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to MLB",
-        "Advanced to AAA"
-      ]
-    },
-    {
       "playerId": "c279b76e-6995-4afe-be49-dbc4441a534b",
       "player": "Devin Saltiban",
       "position": "OF",
@@ -565,8 +516,8 @@
       "level": "A+",
       "score": 54.8,
       "previousRank": 23,
-      "rank": 23,
-      "change": 0,
+      "rank": 21,
+      "change": 2,
       "components": {
         "scouting": 18,
         "performance": 12.5,
@@ -588,8 +539,8 @@
       "level": "AAA",
       "score": 53.9,
       "previousRank": 24,
-      "rank": 24,
-      "change": 0,
+      "rank": 22,
+      "change": 2,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -612,8 +563,8 @@
       "level": "AAA",
       "score": 53.8,
       "previousRank": 25,
-      "rank": 25,
-      "change": 0,
+      "rank": 23,
+      "change": 2,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -638,8 +589,8 @@
       "level": "AA",
       "score": 53.7,
       "previousRank": 26,
-      "rank": 26,
-      "change": 0,
+      "rank": 24,
+      "change": 2,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -662,8 +613,8 @@
       "level": "AAA",
       "score": 53.7,
       "previousRank": 27,
-      "rank": 27,
-      "change": 0,
+      "rank": 25,
+      "change": 2,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -688,8 +639,8 @@
       "level": "A+",
       "score": 53.5,
       "previousRank": 28,
-      "rank": 28,
-      "change": 0,
+      "rank": 26,
+      "change": 2,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -711,8 +662,8 @@
       "level": "A",
       "score": 53.4,
       "previousRank": 29,
-      "rank": 29,
-      "change": 0,
+      "rank": 27,
+      "change": 2,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -734,8 +685,8 @@
       "level": "A+",
       "score": 53.4,
       "previousRank": 30,
-      "rank": 30,
-      "change": 0,
+      "rank": 28,
+      "change": 2,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -757,8 +708,8 @@
       "level": "A",
       "score": 53,
       "previousRank": 31,
-      "rank": 31,
-      "change": 0,
+      "rank": 29,
+      "change": 2,
       "components": {
         "scouting": 17.3,
         "performance": 12.5,
@@ -773,6 +724,31 @@
       ]
     },
     {
+      "playerId": "4025d691-9f48-454e-9a06-6ac3911eed7a",
+      "player": "Carson DeMartini",
+      "position": "3B",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 53,
+      "previousRank": 19,
+      "rank": 30,
+      "change": -11,
+      "components": {
+        "scouting": 20.2,
+        "performance": 9.9,
+        "ageLevel": 6.4,
+        "sentiment": 10,
+        "movement": 4,
+        "risk": 2.5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "MLB Pipeline rank #16",
+        "Current injury lowers availability",
+        "Advanced to AA"
+      ]
+    },
+    {
       "playerId": "2ba6ecb9-bbce-44c9-a6d9-9cdcd23bd74b",
       "player": "Trevor Richards",
       "position": "P",
@@ -780,8 +756,8 @@
       "level": "AAA",
       "score": 53,
       "previousRank": 32,
-      "rank": 32,
-      "change": 0,
+      "rank": 31,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -804,8 +780,8 @@
       "level": "AAA",
       "score": 52.8,
       "previousRank": 33,
-      "rank": 33,
-      "change": 0,
+      "rank": 32,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -828,8 +804,8 @@
       "level": "AAA",
       "score": 52.8,
       "previousRank": 34,
-      "rank": 34,
-      "change": 0,
+      "rank": 33,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -853,8 +829,8 @@
       "level": "AAA",
       "score": 52.2,
       "previousRank": 35,
-      "rank": 35,
-      "change": 0,
+      "rank": 34,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -877,8 +853,8 @@
       "level": "AA",
       "score": 51.7,
       "previousRank": 36,
-      "rank": 36,
-      "change": 0,
+      "rank": 35,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -902,8 +878,8 @@
       "level": "AA",
       "score": 51.7,
       "previousRank": 37,
-      "rank": 37,
-      "change": 0,
+      "rank": 36,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -926,8 +902,8 @@
       "level": "AA",
       "score": 51.5,
       "previousRank": 38,
-      "rank": 38,
-      "change": 0,
+      "rank": 37,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -950,8 +926,8 @@
       "level": "AA",
       "score": 51.5,
       "previousRank": 39,
-      "rank": 39,
-      "change": 0,
+      "rank": 38,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -973,8 +949,8 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 51.4,
-      "previousRank": 41,
-      "rank": 40,
+      "previousRank": 40,
+      "rank": 39,
       "change": 1,
       "components": {
         "scouting": 12.3,
@@ -999,9 +975,9 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 51.4,
-      "previousRank": 40,
-      "rank": 41,
-      "change": -1,
+      "previousRank": 41,
+      "rank": 40,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1023,8 +999,8 @@
       "level": "AA",
       "score": 51.2,
       "previousRank": 42,
-      "rank": 42,
-      "change": 0,
+      "rank": 41,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1047,8 +1023,8 @@
       "level": "AA",
       "score": 51.2,
       "previousRank": 43,
-      "rank": 43,
-      "change": 0,
+      "rank": 42,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1071,8 +1047,8 @@
       "level": "AAA",
       "score": 51.1,
       "previousRank": 44,
-      "rank": 44,
-      "change": 0,
+      "rank": 43,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1095,8 +1071,8 @@
       "level": "AAA",
       "score": 51.1,
       "previousRank": 45,
-      "rank": 45,
-      "change": 0,
+      "rank": 44,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1119,8 +1095,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 46,
-      "rank": 46,
-      "change": 0,
+      "rank": 45,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1142,8 +1118,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 47,
-      "rank": 47,
-      "change": 0,
+      "rank": 46,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1165,8 +1141,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 48,
-      "rank": 48,
-      "change": 0,
+      "rank": 47,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1188,8 +1164,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 49,
-      "rank": 49,
-      "change": 0,
+      "rank": 48,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1211,8 +1187,8 @@
       "level": "AA",
       "score": 51,
       "previousRank": 50,
-      "rank": 50,
-      "change": 0,
+      "rank": 49,
+      "change": 1,
       "components": {
         "scouting": 13,
         "performance": 12.5,
@@ -1236,8 +1212,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 51,
-      "rank": 51,
-      "change": 0,
+      "rank": 50,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1259,8 +1235,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 52,
-      "rank": 52,
-      "change": 0,
+      "rank": 51,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1282,8 +1258,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 53,
-      "rank": 53,
-      "change": 0,
+      "rank": 52,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1305,8 +1281,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 54,
-      "rank": 54,
-      "change": 0,
+      "rank": 53,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1328,8 +1304,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 55,
-      "rank": 55,
-      "change": 0,
+      "rank": 54,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1351,8 +1327,8 @@
       "level": "A+",
       "score": 50.9,
       "previousRank": 56,
-      "rank": 56,
-      "change": 0,
+      "rank": 55,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1375,8 +1351,8 @@
       "level": "A+",
       "score": 50.6,
       "previousRank": 57,
-      "rank": 57,
-      "change": 0,
+      "rank": 56,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1398,8 +1374,8 @@
       "level": "A",
       "score": 50.5,
       "previousRank": 58,
-      "rank": 58,
-      "change": 0,
+      "rank": 57,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1421,8 +1397,8 @@
       "level": "A+",
       "score": 50.5,
       "previousRank": 59,
-      "rank": 59,
-      "change": 0,
+      "rank": 58,
+      "change": 1,
       "components": {
         "scouting": 13.7,
         "performance": 12.5,
@@ -1444,8 +1420,8 @@
       "level": "A",
       "score": 50.5,
       "previousRank": 60,
-      "rank": 60,
-      "change": 0,
+      "rank": 59,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1467,8 +1443,8 @@
       "level": "A",
       "score": 50.4,
       "previousRank": 61,
-      "rank": 61,
-      "change": 0,
+      "rank": 60,
+      "change": 1,
       "components": {
         "scouting": 14.4,
         "performance": 12.5,
@@ -1490,21 +1466,21 @@
       "position": "P",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 50.4,
+      "score": 50.2,
       "previousRank": 62,
-      "rank": 62,
-      "change": 0,
+      "rank": 61,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
         "ageLevel": 6.4,
-        "sentiment": 10.4,
+        "sentiment": 10.2,
         "movement": 4.1,
         "risk": 5
       },
-      "mediaMentions": 4,
+      "mediaMentions": 3,
       "reasons": [
-        "4 recent media mentions",
+        "3 recent media mentions",
         "Promoted to AA",
         "Advanced to AA"
       ]
@@ -1517,8 +1493,8 @@
       "level": "A+",
       "score": 50.1,
       "previousRank": 63,
-      "rank": 63,
-      "change": 0,
+      "rank": 62,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1540,8 +1516,8 @@
       "level": "A+",
       "score": 50.1,
       "previousRank": 64,
-      "rank": 64,
-      "change": 0,
+      "rank": 63,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1563,8 +1539,8 @@
       "level": "A+",
       "score": 50.1,
       "previousRank": 65,
-      "rank": 65,
-      "change": 0,
+      "rank": 64,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1586,8 +1562,8 @@
       "level": "A+",
       "score": 50.1,
       "previousRank": 66,
-      "rank": 66,
-      "change": 0,
+      "rank": 65,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1609,8 +1585,8 @@
       "level": "A+",
       "score": 50.1,
       "previousRank": 67,
-      "rank": 67,
-      "change": 0,
+      "rank": 66,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1632,8 +1608,8 @@
       "level": "A",
       "score": 50.1,
       "previousRank": 68,
-      "rank": 68,
-      "change": 0,
+      "rank": 67,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1655,8 +1631,8 @@
       "level": "A+",
       "score": 50.1,
       "previousRank": 69,
-      "rank": 69,
-      "change": 0,
+      "rank": 68,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1678,8 +1654,8 @@
       "level": "AA",
       "score": 50,
       "previousRank": 70,
-      "rank": 70,
-      "change": 0,
+      "rank": 69,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1702,8 +1678,8 @@
       "level": "AA",
       "score": 50,
       "previousRank": 71,
-      "rank": 71,
-      "change": 0,
+      "rank": 70,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1719,31 +1695,6 @@
       ]
     },
     {
-      "playerId": "0efac77a-9009-46c9-9aeb-720bea522604",
-      "player": "Jack Barker",
-      "position": "OF",
-      "affiliate": "Clearwater Threshers",
-      "level": "A",
-      "score": 50,
-      "previousRank": 72,
-      "rank": 72,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 12.5,
-        "ageLevel": 4.2,
-        "sentiment": 12.2,
-        "movement": 4.1,
-        "risk": 5
-      },
-      "mediaMentions": 1,
-      "reasons": [
-        "1 recent media mention",
-        "Positive recent coverage",
-        "Promoted to Single-A"
-      ]
-    },
-    {
       "playerId": "e0548f18-f2b0-49bd-acb2-c3ea01088ff9",
       "player": "Tristan Garnett",
       "position": "P",
@@ -1751,8 +1702,8 @@
       "level": "AA",
       "score": 50,
       "previousRank": 73,
-      "rank": 73,
-      "change": 0,
+      "rank": 71,
+      "change": 2,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1775,8 +1726,8 @@
       "level": "AA",
       "score": 49.9,
       "previousRank": 74,
-      "rank": 74,
-      "change": 0,
+      "rank": 72,
+      "change": 2,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1798,8 +1749,8 @@
       "level": "AA",
       "score": 49.9,
       "previousRank": 75,
-      "rank": 75,
-      "change": 0,
+      "rank": 73,
+      "change": 2,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1821,8 +1772,8 @@
       "level": "AA",
       "score": 49.9,
       "previousRank": 76,
-      "rank": 76,
-      "change": 0,
+      "rank": 74,
+      "change": 2,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1844,8 +1795,8 @@
       "level": "AA",
       "score": 49.9,
       "previousRank": 77,
-      "rank": 77,
-      "change": 0,
+      "rank": 75,
+      "change": 2,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1867,8 +1818,8 @@
       "level": "AA",
       "score": 49.9,
       "previousRank": 78,
-      "rank": 78,
-      "change": 0,
+      "rank": 76,
+      "change": 2,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1890,8 +1841,8 @@
       "level": "AA",
       "score": 49.9,
       "previousRank": 79,
-      "rank": 79,
-      "change": 0,
+      "rank": 77,
+      "change": 2,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1912,9 +1863,9 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 49.7,
-      "previousRank": 81,
-      "rank": 80,
-      "change": 1,
+      "previousRank": 80,
+      "rank": 78,
+      "change": 2,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1935,9 +1886,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 49.7,
-      "previousRank": 80,
-      "rank": 81,
-      "change": -1,
+      "previousRank": 81,
+      "rank": 79,
+      "change": 2,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1961,8 +1912,8 @@
       "level": "AA",
       "score": 49.5,
       "previousRank": 82,
-      "rank": 82,
-      "change": 0,
+      "rank": 80,
+      "change": 2,
       "components": {
         "scouting": 11.6,
         "performance": 12.5,
@@ -1985,8 +1936,8 @@
       "level": "A",
       "score": 49.2,
       "previousRank": 83,
-      "rank": 83,
-      "change": 0,
+      "rank": 81,
+      "change": 2,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2009,8 +1960,8 @@
       "level": "A",
       "score": 49.2,
       "previousRank": 84,
-      "rank": 84,
-      "change": 0,
+      "rank": 82,
+      "change": 2,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2032,8 +1983,8 @@
       "level": "A",
       "score": 49,
       "previousRank": 85,
-      "rank": 85,
-      "change": 0,
+      "rank": 83,
+      "change": 2,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2055,8 +2006,8 @@
       "level": "A",
       "score": 49,
       "previousRank": 86,
-      "rank": 86,
-      "change": 0,
+      "rank": 84,
+      "change": 2,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2078,8 +2029,8 @@
       "level": "A",
       "score": 49,
       "previousRank": 87,
-      "rank": 87,
-      "change": 0,
+      "rank": 85,
+      "change": 2,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2101,8 +2052,8 @@
       "level": "A",
       "score": 49,
       "previousRank": 88,
-      "rank": 88,
-      "change": 0,
+      "rank": 86,
+      "change": 2,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2124,8 +2075,8 @@
       "level": "A",
       "score": 49,
       "previousRank": 89,
-      "rank": 89,
-      "change": 0,
+      "rank": 87,
+      "change": 2,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2147,8 +2098,8 @@
       "level": "A",
       "score": 49,
       "previousRank": 90,
-      "rank": 90,
-      "change": 0,
+      "rank": 88,
+      "change": 2,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2170,8 +2121,8 @@
       "level": "A+",
       "score": 48.9,
       "previousRank": 91,
-      "rank": 91,
-      "change": 0,
+      "rank": 89,
+      "change": 2,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2193,8 +2144,8 @@
       "level": "A+",
       "score": 48.9,
       "previousRank": 92,
-      "rank": 92,
-      "change": 0,
+      "rank": 90,
+      "change": 2,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2216,8 +2167,8 @@
       "level": "A+",
       "score": 48.9,
       "previousRank": 93,
-      "rank": 93,
-      "change": 0,
+      "rank": 91,
+      "change": 2,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2239,8 +2190,8 @@
       "level": "A+",
       "score": 48.9,
       "previousRank": 94,
-      "rank": 94,
-      "change": 0,
+      "rank": 92,
+      "change": 2,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2262,8 +2213,8 @@
       "level": "A+",
       "score": 48.8,
       "previousRank": 95,
-      "rank": 95,
-      "change": 0,
+      "rank": 93,
+      "change": 2,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2285,8 +2236,8 @@
       "level": "A+",
       "score": 48.8,
       "previousRank": 96,
-      "rank": 96,
-      "change": 0,
+      "rank": 94,
+      "change": 2,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2306,8 +2257,8 @@
       "level": "A+",
       "score": 48.8,
       "previousRank": 97,
-      "rank": 97,
-      "change": 0,
+      "rank": 95,
+      "change": 2,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2327,8 +2278,8 @@
       "level": "A+",
       "score": 48.8,
       "previousRank": 98,
-      "rank": 98,
-      "change": 0,
+      "rank": 96,
+      "change": 2,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2348,8 +2299,8 @@
       "level": "A+",
       "score": 48.8,
       "previousRank": 99,
-      "rank": 99,
-      "change": 0,
+      "rank": 97,
+      "change": 2,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2369,8 +2320,8 @@
       "level": "A+",
       "score": 48.8,
       "previousRank": 100,
-      "rank": 100,
-      "change": 0,
+      "rank": 98,
+      "change": 2,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2390,8 +2341,8 @@
       "level": "A+",
       "score": 48.8,
       "previousRank": 101,
-      "rank": 101,
-      "change": 0,
+      "rank": 99,
+      "change": 2,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2411,8 +2362,8 @@
       "level": "A+",
       "score": 48.8,
       "previousRank": 102,
-      "rank": 102,
-      "change": 0,
+      "rank": 100,
+      "change": 2,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2432,8 +2383,8 @@
       "level": "AAA",
       "score": 48.6,
       "previousRank": 103,
-      "rank": 103,
-      "change": 0,
+      "rank": 101,
+      "change": 2,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2457,8 +2408,8 @@
       "level": "AAA",
       "score": 48.5,
       "previousRank": 104,
-      "rank": 104,
-      "change": 0,
+      "rank": 102,
+      "change": 2,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2481,8 +2432,8 @@
       "level": "AAA",
       "score": 48.5,
       "previousRank": 105,
-      "rank": 105,
-      "change": 0,
+      "rank": 103,
+      "change": 2,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2506,8 +2457,8 @@
       "level": "A+",
       "score": 48.5,
       "previousRank": 106,
-      "rank": 106,
-      "change": 0,
+      "rank": 104,
+      "change": 2,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2530,8 +2481,8 @@
       "level": "A",
       "score": 47.9,
       "previousRank": 107,
-      "rank": 107,
-      "change": 0,
+      "rank": 105,
+      "change": 2,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2546,6 +2497,29 @@
       ]
     },
     {
+      "playerId": "0efac77a-9009-46c9-9aeb-720bea522604",
+      "player": "Jack Barker",
+      "position": "OF",
+      "affiliate": "Clearwater Threshers",
+      "level": "A",
+      "score": 47.8,
+      "previousRank": 72,
+      "rank": 106,
+      "change": -34,
+      "components": {
+        "scouting": 12,
+        "performance": 12.5,
+        "ageLevel": 4.2,
+        "sentiment": 10,
+        "movement": 4.1,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to Single-A"
+      ]
+    },
+    {
       "playerId": "c16c7468-fda9-463b-9fbe-e846f5e1c41e",
       "player": "Jonathan Hogart",
       "position": "OF",
@@ -2553,8 +2527,8 @@
       "level": "A",
       "score": 47.8,
       "previousRank": 108,
-      "rank": 108,
-      "change": 0,
+      "rank": 107,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2577,8 +2551,8 @@
       "level": "A",
       "score": 47.8,
       "previousRank": 109,
-      "rank": 109,
-      "change": 0,
+      "rank": 108,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2600,8 +2574,8 @@
       "level": "A",
       "score": 47.8,
       "previousRank": 110,
-      "rank": 110,
-      "change": 0,
+      "rank": 109,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2623,8 +2597,8 @@
       "level": "A",
       "score": 47.8,
       "previousRank": 111,
-      "rank": 111,
-      "change": 0,
+      "rank": 110,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2646,8 +2620,8 @@
       "level": "A",
       "score": 47.7,
       "previousRank": 112,
-      "rank": 112,
-      "change": 0,
+      "rank": 111,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2669,8 +2643,8 @@
       "level": "A",
       "score": 47.7,
       "previousRank": 113,
-      "rank": 113,
-      "change": 0,
+      "rank": 112,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2690,8 +2664,8 @@
       "level": "A+",
       "score": 47.6,
       "previousRank": 114,
-      "rank": 114,
-      "change": 0,
+      "rank": 113,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2714,8 +2688,8 @@
       "level": "A+",
       "score": 47.6,
       "previousRank": 115,
-      "rank": 115,
-      "change": 0,
+      "rank": 114,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2738,8 +2712,8 @@
       "level": "AA",
       "score": 47.5,
       "previousRank": 116,
-      "rank": 116,
-      "change": 0,
+      "rank": 115,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2763,8 +2737,8 @@
       "level": "AA",
       "score": 47.5,
       "previousRank": 117,
-      "rank": 117,
-      "change": 0,
+      "rank": 116,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2788,8 +2762,8 @@
       "level": "AA",
       "score": 47.4,
       "previousRank": 118,
-      "rank": 118,
-      "change": 0,
+      "rank": 117,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2812,8 +2786,8 @@
       "level": "A+",
       "score": 46.5,
       "previousRank": 119,
-      "rank": 119,
-      "change": 0,
+      "rank": 118,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2837,8 +2811,8 @@
       "level": "A+",
       "score": 46.3,
       "previousRank": 120,
-      "rank": 120,
-      "change": 0,
+      "rank": 119,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2860,8 +2834,8 @@
       "level": "A+",
       "score": 46.3,
       "previousRank": 121,
-      "rank": 121,
-      "change": 0,
+      "rank": 120,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
