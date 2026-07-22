@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-22T08:44:47.940Z",
+  "updatedAt": "2026-07-22T12:04:51.798Z",
   "season": 2026,
   "rosterType": "active (MLB) + fullRoster (affiliates)",
   "records": [
@@ -929,7 +929,7 @@
         "saves": 0,
         "kPer9": 11.58,
         "bbPer9": 6.24,
-        "strikePercentage": 0.61,
+        "strikePercentage": 0.6,
         "sourceDate": null
       }
     },
@@ -1781,7 +1781,7 @@
         "saves": 0,
         "kPer9": 8.7,
         "bbPer9": 5.7,
-        "strikePercentage": 0.58,
+        "strikePercentage": 0.57,
         "sourceDate": null
       }
     },
@@ -2989,7 +2989,7 @@
         "saves": 0,
         "kPer9": 12.43,
         "bbPer9": 5.97,
-        "strikePercentage": 0.64,
+        "strikePercentage": 0.63,
         "sourceDate": null
       }
     },
