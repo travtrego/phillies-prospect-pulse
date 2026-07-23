@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-23T12:04:01.916Z",
+  "updatedAt": "2026-07-23T14:33:02.358Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -16,7 +16,7 @@
       "position": "RHP",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 76.4,
+      "score": 76.7,
       "previousRank": 1,
       "rank": 1,
       "change": 0,
@@ -24,15 +24,15 @@
         "scouting": 30,
         "performance": 18.1,
         "ageLevel": 5,
-        "sentiment": 11.8,
+        "sentiment": 12.1,
         "movement": 6.5,
         "risk": 5
       },
-      "mediaMentions": 9,
+      "mediaMentions": 10,
       "reasons": [
         "MLB Pipeline rank #2",
-        "9 recent media mentions",
-        "Positive recent coverage",
+        "10 recent media mentions",
+        "Strong positive prospect coverage",
         "Promoted to AA"
       ]
     },
@@ -67,7 +67,7 @@
       "position": "RHP",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 73.5,
+      "score": 73.4,
       "previousRank": 3,
       "rank": 3,
       "change": 0,
@@ -75,7 +75,7 @@
         "scouting": 19.5,
         "performance": 16.4,
         "ageLevel": 6.4,
-        "sentiment": 16.5,
+        "sentiment": 16.4,
         "movement": 9.7,
         "risk": 5
       },
@@ -320,7 +320,7 @@
       "position": "OF",
       "affiliate": null,
       "level": "AA",
-      "score": 60.1,
+      "score": 60,
       "previousRank": 13,
       "rank": 13,
       "change": 0,
@@ -329,7 +329,7 @@
         "performance": 4,
         "ageLevel": 6.4,
         "sentiment": 9.8,
-        "movement": 7.5,
+        "movement": 7.4,
         "risk": 5
       },
       "mediaMentions": 2,
@@ -1566,30 +1566,6 @@
       "reasons": []
     },
     {
-      "playerId": "9e48f4e3-3271-4087-80fa-5ad6bd7a0c0d",
-      "player": "Liover Peguero",
-      "position": "INF",
-      "affiliate": "Lehigh Valley IronPigs",
-      "level": "AAA",
-      "score": 48.8,
-      "previousRank": 66,
-      "rank": 66,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 10,
-        "ageLevel": 7.5,
-        "sentiment": 10.3,
-        "movement": 4,
-        "risk": 5
-      },
-      "mediaMentions": 1,
-      "reasons": [
-        "1 recent media mention",
-        "Advanced to AAA"
-      ]
-    },
-    {
       "playerId": "b2595b1b-7ca3-4c4e-83b8-1b5cb7a78026",
       "player": "Braydon Tucker",
       "position": "P",
@@ -1597,8 +1573,8 @@
       "level": "AA",
       "score": 48.7,
       "previousRank": 67,
-      "rank": 67,
-      "change": 0,
+      "rank": 66,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 13.7,
@@ -1612,6 +1588,30 @@
         "Promoted to AA",
         "Current injury lowers availability",
         "Advanced to AA"
+      ]
+    },
+    {
+      "playerId": "9e48f4e3-3271-4087-80fa-5ad6bd7a0c0d",
+      "player": "Liover Peguero",
+      "position": "INF",
+      "affiliate": "Lehigh Valley IronPigs",
+      "level": "AAA",
+      "score": 48.7,
+      "previousRank": 66,
+      "rank": 67,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 10,
+        "ageLevel": 7.5,
+        "sentiment": 10.2,
+        "movement": 4,
+        "risk": 5
+      },
+      "mediaMentions": 1,
+      "reasons": [
+        "1 recent media mention",
+        "Advanced to AAA"
       ]
     },
     {
@@ -1790,9 +1790,9 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 47.5,
-      "previousRank": 76,
+      "previousRank": 75,
       "rank": 75,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 11,
@@ -1813,9 +1813,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 47.4,
-      "previousRank": 75,
+      "previousRank": 76,
       "rank": 76,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 9.2,
@@ -1925,29 +1925,6 @@
       ]
     },
     {
-      "playerId": "aad86f1a-7bf6-4ded-9f02-50a43718783f",
-      "player": "Tyler Pettorini",
-      "position": "INF",
-      "affiliate": "Clearwater Threshers",
-      "level": "A",
-      "score": 46.4,
-      "previousRank": 81,
-      "rank": 81,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 8.4,
-        "ageLevel": 4.2,
-        "sentiment": 10,
-        "movement": 6.8,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to High-A"
-      ]
-    },
-    {
       "playerId": "c2c54b0c-cc4a-4837-aba2-c591bf3850a5",
       "player": "Jacob Pruitt",
       "position": "P",
@@ -1955,8 +1932,8 @@
       "level": "A",
       "score": 46.3,
       "previousRank": 82,
-      "rank": 82,
-      "change": 0,
+      "rank": 81,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 9.8,
@@ -1978,8 +1955,8 @@
       "level": "A+",
       "score": 46.3,
       "previousRank": 83,
-      "rank": 83,
-      "change": 0,
+      "rank": 82,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1991,6 +1968,29 @@
       "mediaMentions": 0,
       "reasons": [
         "Current injury lowers availability"
+      ]
+    },
+    {
+      "playerId": "aad86f1a-7bf6-4ded-9f02-50a43718783f",
+      "player": "Tyler Pettorini",
+      "position": "INF",
+      "affiliate": "Clearwater Threshers",
+      "level": "A",
+      "score": 46.3,
+      "previousRank": 81,
+      "rank": 83,
+      "change": -2,
+      "components": {
+        "scouting": 12,
+        "performance": 8.4,
+        "ageLevel": 4.2,
+        "sentiment": 10,
+        "movement": 6.7,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to High-A"
       ]
     },
     {
@@ -2593,29 +2593,6 @@
       ]
     },
     {
-      "playerId": "64388537-7a9c-437a-ba75-3a906b76b588",
-      "player": "Manolfi Jimenez",
-      "position": "OF",
-      "affiliate": "Clearwater Threshers",
-      "level": "A",
-      "score": 42.1,
-      "previousRank": 110,
-      "rank": 110,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 4.1,
-        "ageLevel": 4.2,
-        "sentiment": 10,
-        "movement": 6.8,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to High-A"
-      ]
-    },
-    {
       "playerId": "63e62eb8-bf2a-4e5a-99e9-ca7773e314be",
       "player": "Saul Teran",
       "position": "P",
@@ -2623,8 +2600,8 @@
       "level": "AA",
       "score": 42.1,
       "previousRank": 111,
-      "rank": 111,
-      "change": 0,
+      "rank": 110,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 4.4,
@@ -2648,14 +2625,37 @@
       "level": "A+",
       "score": 42.1,
       "previousRank": 112,
-      "rank": 112,
-      "change": 0,
+      "rank": 111,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 5.7,
         "ageLevel": 5.3,
         "sentiment": 10,
         "movement": 4.1,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to High-A"
+      ]
+    },
+    {
+      "playerId": "64388537-7a9c-437a-ba75-3a906b76b588",
+      "player": "Manolfi Jimenez",
+      "position": "OF",
+      "affiliate": "Clearwater Threshers",
+      "level": "A",
+      "score": 42,
+      "previousRank": 110,
+      "rank": 112,
+      "change": -2,
+      "components": {
+        "scouting": 12,
+        "performance": 4.1,
+        "ageLevel": 4.2,
+        "sentiment": 10,
+        "movement": 6.7,
         "risk": 5
       },
       "mediaMentions": 0,
