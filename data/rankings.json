@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-23T08:45:30.995Z",
+  "updatedAt": "2026-07-23T12:04:01.916Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -93,7 +93,7 @@
       "position": "SS",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 67.5,
+      "score": 67.4,
       "previousRank": 4,
       "rank": 4,
       "change": 0,
@@ -101,14 +101,14 @@
         "scouting": 30,
         "performance": 12.5,
         "ageLevel": 9.3,
-        "sentiment": 9.1,
+        "sentiment": 9,
         "movement": 4.1,
         "risk": 2.5
       },
-      "mediaMentions": 16,
+      "mediaMentions": 15,
       "reasons": [
         "MLB Pipeline rank #1",
-        "16 recent media mentions",
+        "15 recent media mentions",
         "Strong positive prospect coverage",
         "Material negative recent coverage"
       ]
@@ -587,9 +587,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 54.7,
-      "previousRank": 25,
+      "previousRank": 24,
       "rank": 24,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 14.4,
@@ -612,9 +612,9 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 54.6,
-      "previousRank": 26,
+      "previousRank": 25,
       "rank": 25,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 15.9,
         "performance": 11.9,
@@ -636,9 +636,9 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 54.6,
-      "previousRank": 24,
+      "previousRank": 26,
       "rank": 26,
-      "change": -2,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 18,
@@ -853,7 +853,7 @@
       "position": "P",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 52,
+      "score": 51.9,
       "previousRank": 35,
       "rank": 35,
       "change": 0,
@@ -862,7 +862,7 @@
         "performance": 8.5,
         "ageLevel": 7.5,
         "sentiment": 10,
-        "movement": 9,
+        "movement": 8.9,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -1437,9 +1437,9 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 49.4,
-      "previousRank": 61,
+      "previousRank": 60,
       "rank": 60,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 14.1,
@@ -1460,9 +1460,9 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 49.4,
-      "previousRank": 60,
+      "previousRank": 61,
       "rank": 61,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 10.6,
@@ -1784,30 +1784,6 @@
       ]
     },
     {
-      "playerId": "a68ca598-ad9e-460a-98df-4b98c0332d9b",
-      "player": "Gabriel Barbosa",
-      "position": "P",
-      "affiliate": "Jersey Shore BlueClaws",
-      "level": "A+",
-      "score": 47.5,
-      "previousRank": 75,
-      "rank": 75,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 9.2,
-        "ageLevel": 5.3,
-        "sentiment": 10,
-        "movement": 8.5,
-        "risk": 2.5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to AA",
-        "Current injury lowers availability"
-      ]
-    },
-    {
       "playerId": "96b47eb0-02ec-434b-825c-523ed83e1919",
       "player": "Jaeden Calderon",
       "position": "INF",
@@ -1815,8 +1791,8 @@
       "level": "A",
       "score": 47.5,
       "previousRank": 76,
-      "rank": 76,
-      "change": 0,
+      "rank": 75,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 11,
@@ -1828,6 +1804,30 @@
       "mediaMentions": 0,
       "reasons": [
         "Promoted to Single-A"
+      ]
+    },
+    {
+      "playerId": "a68ca598-ad9e-460a-98df-4b98c0332d9b",
+      "player": "Gabriel Barbosa",
+      "position": "P",
+      "affiliate": "Jersey Shore BlueClaws",
+      "level": "A+",
+      "score": 47.4,
+      "previousRank": 75,
+      "rank": 76,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 9.2,
+        "ageLevel": 5.3,
+        "sentiment": 10,
+        "movement": 8.4,
+        "risk": 2.5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to AA",
+        "Current injury lowers availability"
       ]
     },
     {
