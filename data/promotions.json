@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-07-24T14:13:33.611Z",
+  "updatedAt": "2026-07-24T19:46:53.675Z",
   "records": [
+    {
+      "playerId": 668721,
+      "player": "Payton Henry",
+      "date": "2026-07-24",
+      "fromAffiliate": "Lehigh Valley IronPigs",
+      "fromLevel": "AAA",
+      "toAffiliate": "Philadelphia Phillies",
+      "toLevel": "MLB",
+      "description": "Philadelphia Phillies selected the contract of C Payton Henry from Lehigh Valley IronPigs.",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
+    },
     {
       "playerId": 650559,
       "player": "Bryan De La Cruz",
