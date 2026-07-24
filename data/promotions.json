@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-23T19:46:15.846Z",
+  "updatedAt": "2026-07-24T03:44:28.660Z",
   "records": [
     {
       "playerId": 650559,
@@ -10,7 +10,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies recalled OF Bryan De La Cruz from Lehigh Valley IronPigs.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 686934,
@@ -21,7 +21,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies recalled RHP Alex McFarlane from Reading Fightin Phils.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 806518,
@@ -32,7 +32,7 @@
       "toAffiliate": "Jersey Shore BlueClaws",
       "toLevel": "High-A",
       "description": "C Guillermo Rosario assigned to Jersey Shore BlueClaws from Clearwater Threshers.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 815694,
@@ -43,7 +43,7 @@
       "toAffiliate": "Lehigh Valley IronPigs",
       "toLevel": "AAA",
       "description": "C Lou Albrecht assigned to Lehigh Valley IronPigs from Jersey Shore BlueClaws.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 686751,
@@ -54,7 +54,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies recalled RHP Seth Johnson from Lehigh Valley IronPigs.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 663767,
@@ -65,7 +65,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies recalled RHP Chase Shugart from Lehigh Valley IronPigs.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 660604,
@@ -76,7 +76,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies recalled RHP Alan Rangel from Lehigh Valley IronPigs.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 815009,
@@ -87,7 +87,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "C Cesar Mujica assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 806518,
@@ -98,7 +98,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "C Guillermo Rosario assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 676661,
@@ -109,7 +109,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies recalled RHP Max Lazar from Lehigh Valley IronPigs.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 827411,
@@ -120,7 +120,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "C Gabriel Azocar assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 621383,
@@ -131,7 +131,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies recalled LHP Tanner Banks from Lehigh Valley IronPigs.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 691908,
@@ -142,7 +142,7 @@
       "toAffiliate": "Jersey Shore BlueClaws",
       "toLevel": "High-A",
       "description": "RHP Giussepe Velasquez assigned to Jersey Shore BlueClaws from Clearwater Threshers.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 808864,
@@ -153,7 +153,7 @@
       "toAffiliate": "Reading Fightin Phils",
       "toLevel": "AA",
       "description": "SS Raider Tello assigned to Reading Fightin Phils from Jersey Shore BlueClaws.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 682858,
@@ -164,7 +164,7 @@
       "toAffiliate": "Reading Fightin Phils",
       "toLevel": "AA",
       "description": "RHP Gabriel Barbosa assigned to Reading Fightin Phils from Jersey Shore BlueClaws.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 827412,
@@ -175,7 +175,7 @@
       "toAffiliate": "Jersey Shore BlueClaws",
       "toLevel": "High-A",
       "description": "C Gabriel Flores assigned to Jersey Shore BlueClaws from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 502054,
@@ -186,7 +186,7 @@
       "toAffiliate": "Lehigh Valley IronPigs",
       "toLevel": "AAA",
       "description": "LF Tommy Pham assigned to Lehigh Valley IronPigs from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 642152,
@@ -197,7 +197,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies selected the contract of RHP Lou Trivino from Lehigh Valley IronPigs.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 660604,
@@ -208,7 +208,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies recalled RHP Alan Rangel from Lehigh Valley IronPigs.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 669060,
@@ -219,7 +219,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies selected the contract of RHP Bryse Wilson from Lehigh Valley IronPigs.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 682858,
@@ -230,7 +230,7 @@
       "toAffiliate": "Lehigh Valley IronPigs",
       "toLevel": "AAA",
       "description": "RHP Gabriel Barbosa assigned to Lehigh Valley IronPigs from Jersey Shore BlueClaws.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 800444,
@@ -241,7 +241,7 @@
       "toAffiliate": "Reading Fightin Phils",
       "toLevel": "AA",
       "description": "SS Nikau Pouaka-Grego assigned to Reading Fightin Phils from Jersey Shore BlueClaws.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 686751,
@@ -252,7 +252,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies recalled RHP Seth Johnson from Lehigh Valley IronPigs.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 688753,
@@ -263,7 +263,7 @@
       "toAffiliate": "Lehigh Valley IronPigs",
       "toLevel": "AAA",
       "description": "RHP Evan Gates assigned to Lehigh Valley IronPigs from Reading Fightin Phils.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 805790,
@@ -274,7 +274,7 @@
       "toAffiliate": "Jersey Shore BlueClaws",
       "toLevel": "High-A",
       "description": "RHP Cody Bowker assigned to Jersey Shore BlueClaws from Clearwater Threshers.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 700582,
@@ -285,7 +285,7 @@
       "toAffiliate": "Jersey Shore BlueClaws",
       "toLevel": "High-A",
       "description": "RHP Gabe Craig assigned to Jersey Shore BlueClaws from Clearwater Threshers.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 676661,
@@ -296,7 +296,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies recalled RHP Max Lazar from Lehigh Valley IronPigs.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 827408,
@@ -307,7 +307,7 @@
       "toAffiliate": "Jersey Shore BlueClaws",
       "toLevel": "High-A",
       "description": "RHP Ramon Marquez assigned to Jersey Shore BlueClaws from Clearwater Threshers.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 823242,
@@ -318,7 +318,7 @@
       "toAffiliate": "Jersey Shore BlueClaws",
       "toLevel": "High-A",
       "description": "RHP Tanner Gresham assigned to Jersey Shore BlueClaws from Clearwater Threshers.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 832455,
@@ -329,7 +329,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "RHP Matthew Fisher assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 808207,
@@ -340,7 +340,7 @@
       "toAffiliate": "Reading Fightin Phils",
       "toLevel": "AA",
       "description": "RHP Wen-Hui Pan assigned to Reading Fightin Phils from Jersey Shore BlueClaws.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 827412,
@@ -351,7 +351,7 @@
       "toAffiliate": "Jersey Shore BlueClaws",
       "toLevel": "High-A",
       "description": "C Gabriel Flores assigned to Jersey Shore BlueClaws from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 687282,
@@ -362,7 +362,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies recalled RF Gabriel Rincones Jr. from Lehigh Valley IronPigs.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 800444,
@@ -373,7 +373,7 @@
       "toAffiliate": "Reading Fightin Phils",
       "toLevel": "AA",
       "description": "SS Nikau Pouaka-Grego assigned to Reading Fightin Phils from Jersey Shore BlueClaws.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 804627,
@@ -384,7 +384,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "RHP Wilmer Blanco assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 666748,
@@ -395,7 +395,7 @@
       "toAffiliate": "Lehigh Valley IronPigs",
       "toLevel": "AAA",
       "description": "RHP Mitch Neunborn assigned to Lehigh Valley IronPigs from Reading Fightin Phils.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 815004,
@@ -406,7 +406,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "OF Maylerson Casanova assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 682858,
@@ -417,7 +417,7 @@
       "toAffiliate": "Lehigh Valley IronPigs",
       "toLevel": "AAA",
       "description": "RHP Gabriel Barbosa assigned to Lehigh Valley IronPigs from Jersey Shore BlueClaws.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 827412,
@@ -428,7 +428,7 @@
       "toAffiliate": "Reading Fightin Phils",
       "toLevel": "AA",
       "description": "C Gabriel Flores assigned to Reading Fightin Phils from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 662144,
@@ -439,7 +439,7 @@
       "toAffiliate": "Lehigh Valley IronPigs",
       "toLevel": "AAA",
       "description": "RHP Brian Keller assigned to Lehigh Valley IronPigs from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 676510,
@@ -450,7 +450,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies recalled RHP Nolan Hoffman from Lehigh Valley IronPigs.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 672642,
@@ -461,7 +461,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies recalled RF Steward Berroa from Lehigh Valley IronPigs.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 804627,
@@ -472,7 +472,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "RHP Wilmer Blanco assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 800272,
@@ -483,7 +483,7 @@
       "toAffiliate": "Jersey Shore BlueClaws",
       "toLevel": "High-A",
       "description": "OF Manolfi Jimenez assigned to Jersey Shore BlueClaws from Clearwater Threshers.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 807737,
@@ -494,7 +494,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "OF TJayy Walton assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 808805,
@@ -505,7 +505,7 @@
       "toAffiliate": "Jersey Shore BlueClaws",
       "toLevel": "High-A",
       "description": "2B Tyler Pettorini assigned to Jersey Shore BlueClaws from Clearwater Threshers.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 808282,
@@ -516,7 +516,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "OF Victor Cardoza assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 669912,
@@ -527,7 +527,7 @@
       "toAffiliate": "Lehigh Valley IronPigs",
       "toLevel": "AAA",
       "description": "LHP Kirby Snead assigned to Lehigh Valley IronPigs from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 805906,
@@ -538,7 +538,7 @@
       "toAffiliate": "Reading Fightin Phils",
       "toLevel": "AA",
       "description": "RHP Gage Wood assigned to Reading Fightin Phils from Clearwater Threshers.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 805249,
@@ -549,7 +549,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies recalled OF Otto Kemp from Lehigh Valley IronPigs.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 700176,
@@ -560,7 +560,7 @@
       "toAffiliate": "Jersey Shore BlueClaws",
       "toLevel": "High-A",
       "description": "RHP Keegan Batka assigned to Jersey Shore BlueClaws from Clearwater Threshers.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 823136,
@@ -571,7 +571,7 @@
       "toAffiliate": "Lehigh Valley IronPigs",
       "toLevel": "AAA",
       "description": "RHP Tegan Cain assigned to Lehigh Valley IronPigs from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 686651,
@@ -582,7 +582,7 @@
       "toAffiliate": "Lehigh Valley IronPigs",
       "toLevel": "AAA",
       "description": "RHP Levi Stoudt assigned to Lehigh Valley IronPigs from Reading Fightin Phils.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 815694,
@@ -593,7 +593,7 @@
       "toAffiliate": "Lehigh Valley IronPigs",
       "toLevel": "AAA",
       "description": "C Lou Albrecht assigned to Lehigh Valley IronPigs from Reading Fightin Phils.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 804627,
@@ -604,7 +604,7 @@
       "toAffiliate": "Jersey Shore BlueClaws",
       "toLevel": "High-A",
       "description": "RHP Wilmer Blanco assigned to Jersey Shore BlueClaws from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 827408,
@@ -615,7 +615,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "RHP Ramon Marquez assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 808282,
@@ -626,7 +626,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "OF Victor Cardoza assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 823804,
@@ -637,7 +637,7 @@
       "toAffiliate": "Reading Fightin Phils",
       "toLevel": "AA",
       "description": "RHP Ryan Dromboski assigned to Reading Fightin Phils from Jersey Shore BlueClaws.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 701320,
@@ -648,7 +648,7 @@
       "toAffiliate": "Jersey Shore BlueClaws",
       "toLevel": "High-A",
       "description": "LHP Camron Hill assigned to Jersey Shore BlueClaws from Clearwater Threshers.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 676510,
@@ -659,7 +659,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies recalled RHP Nolan Hoffman from Lehigh Valley IronPigs.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 670950,
@@ -670,7 +670,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies selected the contract of RHP Trevor Richards from Lehigh Valley IronPigs.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 686934,
@@ -681,7 +681,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies recalled RHP Alex McFarlane from Reading Fightin Phils.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 666155,
@@ -692,7 +692,7 @@
       "toAffiliate": "Lehigh Valley IronPigs",
       "toLevel": "AAA",
       "description": "RHP Chuck King assigned to Lehigh Valley IronPigs from Reading Fightin Phils.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 676510,
@@ -703,7 +703,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies recalled RHP Nolan Hoffman from Lehigh Valley IronPigs.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 681495,
@@ -714,7 +714,7 @@
       "toAffiliate": "Lehigh Valley IronPigs",
       "toLevel": "AAA",
       "description": "OF Cade Fergus assigned to Lehigh Valley IronPigs from Reading Fightin Phils.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 596117,
@@ -725,7 +725,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies selected the contract of C Garrett Stubbs from Lehigh Valley IronPigs.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 691908,
@@ -736,7 +736,7 @@
       "toAffiliate": "Reading Fightin Phils",
       "toLevel": "AA",
       "description": "RHP Giussepe Velasquez assigned to Reading Fightin Phils from Jersey Shore BlueClaws.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 694551,
@@ -747,7 +747,7 @@
       "toAffiliate": "Reading Fightin Phils",
       "toLevel": "AA",
       "description": "RHP Aaron Combs assigned to Reading Fightin Phils from Jersey Shore BlueClaws.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 660604,
@@ -758,7 +758,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies recalled RHP Alan Rangel from Lehigh Valley IronPigs.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 678013,
@@ -769,7 +769,7 @@
       "toAffiliate": "Lehigh Valley IronPigs",
       "toLevel": "AAA",
       "description": "RHP Lenny Torres Jr. assigned to Lehigh Valley IronPigs from Reading Fightin Phils.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 800444,
@@ -780,7 +780,7 @@
       "toAffiliate": "Reading Fightin Phils",
       "toLevel": "AA",
       "description": "SS Nikau Pouaka-Grego assigned to Reading Fightin Phils from Clearwater Threshers.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 809126,
@@ -791,7 +791,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "RHP Cole Gilley assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 694025,
@@ -802,7 +802,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies selected the contract of OF Felix Reyes from Lehigh Valley IronPigs.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 686751,
@@ -813,7 +813,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies recalled RHP Seth Johnson from Lehigh Valley IronPigs.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 800171,
@@ -824,7 +824,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "C Angel Mata assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 682858,
@@ -835,7 +835,7 @@
       "toAffiliate": "Reading Fightin Phils",
       "toLevel": "AA",
       "description": "RHP Gabriel Barbosa assigned to Reading Fightin Phils from Jersey Shore BlueClaws.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 806518,
@@ -846,7 +846,7 @@
       "toAffiliate": "Reading Fightin Phils",
       "toLevel": "AA",
       "description": "C Guillermo Rosario assigned to Reading Fightin Phils from Clearwater Threshers.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 820857,
@@ -857,7 +857,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "RHP Eligio Arias assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 668761,
@@ -868,7 +868,7 @@
       "toAffiliate": "Lehigh Valley IronPigs",
       "toLevel": "AAA",
       "description": "RHP Colin Peluse assigned to Lehigh Valley IronPigs from Reading Fightin Phils.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 679775,
@@ -879,7 +879,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies recalled LHP Kyle Backhus from Lehigh Valley IronPigs.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 663767,
@@ -890,7 +890,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies recalled RHP Chase Shugart from Lehigh Valley IronPigs.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 679702,
@@ -901,7 +901,7 @@
       "toAffiliate": "Lehigh Valley IronPigs",
       "toLevel": "AAA",
       "description": "RHP Daniel Harper assigned to Lehigh Valley IronPigs from Reading Fightin Phils.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 686751,
@@ -912,7 +912,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies recalled RHP Seth Johnson from Lehigh Valley IronPigs.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 808282,
@@ -923,7 +923,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "OF Victor Cardoza assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 800444,
@@ -934,7 +934,7 @@
       "toAffiliate": "Reading Fightin Phils",
       "toLevel": "AA",
       "description": "SS Nikau Pouaka-Grego assigned to Reading Fightin Phils from Jersey Shore BlueClaws.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 800444,
@@ -945,7 +945,7 @@
       "toAffiliate": "Jersey Shore BlueClaws",
       "toLevel": "High-A",
       "description": "SS Nikau Pouaka-Grego assigned to Jersey Shore BlueClaws from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 701432,
@@ -956,7 +956,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "RHP Orlando Gonzalez assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 810890,
@@ -967,7 +967,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "LHP James Tallon assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 815009,
@@ -978,7 +978,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "C Cesar Mujica assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 667744,
@@ -989,7 +989,7 @@
       "toAffiliate": "Reading Fightin Phils",
       "toLevel": "AA",
       "description": "LHP Wesley Moore assigned to Reading Fightin Phils from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 800179,
@@ -1000,7 +1000,7 @@
       "toAffiliate": "Reading Fightin Phils",
       "toLevel": "AA",
       "description": "SS Nolan Beltran assigned to Reading Fightin Phils from Clearwater Threshers.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 800012,
@@ -1011,7 +1011,7 @@
       "toAffiliate": "Jersey Shore BlueClaws",
       "toLevel": "High-A",
       "description": "RHP Adilson Peralta assigned to Jersey Shore BlueClaws from Clearwater Threshers.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 814372,
@@ -1022,7 +1022,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "RHP Brad Pacheco assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 800953,
@@ -1033,7 +1033,7 @@
       "toAffiliate": "Jersey Shore BlueClaws",
       "toLevel": "High-A",
       "description": "SS Brady Day assigned to Jersey Shore BlueClaws from Clearwater Threshers.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 805758,
@@ -1044,7 +1044,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "RHP Brian Walters assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 804858,
@@ -1055,7 +1055,7 @@
       "toAffiliate": "Reading Fightin Phils",
       "toLevel": "AA",
       "description": "SS Bryan Rincon assigned to Reading Fightin Phils from Jersey Shore BlueClaws.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 805261,
@@ -1066,7 +1066,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "LHP Cade Obermueller assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 701296,
@@ -1077,7 +1077,7 @@
       "toAffiliate": "Jersey Shore BlueClaws",
       "toLevel": "High-A",
       "description": "OF Carter Mathison assigned to Jersey Shore BlueClaws from Clearwater Threshers.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 805790,
@@ -1088,7 +1088,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "RHP Cody Bowker assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 699707,
@@ -1099,7 +1099,7 @@
       "toAffiliate": "Jersey Shore BlueClaws",
       "toLevel": "High-A",
       "description": "RHP Danyony Pulido assigned to Jersey Shore BlueClaws from Clearwater Threshers.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 691908,
@@ -1110,7 +1110,7 @@
       "toAffiliate": "Jersey Shore BlueClaws",
       "toLevel": "High-A",
       "description": "RHP Giussepe Velasquez assigned to Jersey Shore BlueClaws from Clearwater Threshers.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 809131,
@@ -1121,7 +1121,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "RHP Jacob Pruitt assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 808496,
@@ -1132,7 +1132,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "OF Jaeden Calderon assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 805301,
@@ -1143,7 +1143,7 @@
       "toAffiliate": "Reading Fightin Phils",
       "toLevel": "AA",
       "description": "C Jordan Dissin assigned to Reading Fightin Phils from Jersey Shore BlueClaws.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 702431,
@@ -1154,7 +1154,7 @@
       "toAffiliate": "Jersey Shore BlueClaws",
       "toLevel": "High-A",
       "description": "LHP Juan Amarante assigned to Jersey Shore BlueClaws from Clearwater Threshers.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 809701,
@@ -1165,7 +1165,7 @@
       "toAffiliate": "Jersey Shore BlueClaws",
       "toLevel": "High-A",
       "description": "RHP Luis Avila assigned to Jersey Shore BlueClaws from Clearwater Threshers.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 701592,
@@ -1176,7 +1176,7 @@
       "toAffiliate": "Jersey Shore BlueClaws",
       "toLevel": "High-A",
       "description": "C Luke Davis assigned to Jersey Shore BlueClaws from Clearwater Threshers.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 700429,
@@ -1187,7 +1187,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "RHP MT Morrissey assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 808864,
@@ -1198,7 +1198,7 @@
       "toAffiliate": "Jersey Shore BlueClaws",
       "toLevel": "High-A",
       "description": "SS Raider Tello assigned to Jersey Shore BlueClaws from Clearwater Threshers.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 699712,
@@ -1209,7 +1209,7 @@
       "toAffiliate": "Reading Fightin Phils",
       "toLevel": "AA",
       "description": "OF Raylin Heredia assigned to Reading Fightin Phils from Jersey Shore BlueClaws.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 834395,
@@ -1220,7 +1220,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "RHP Richie Cortese assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 813869,
@@ -1231,7 +1231,7 @@
       "toAffiliate": "Jersey Shore BlueClaws",
       "toLevel": "High-A",
       "description": "RHP Ryan Degges assigned to Jersey Shore BlueClaws from Clearwater Threshers.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 823781,
@@ -1242,7 +1242,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "RHP Sean Youngerman assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 823242,
@@ -1253,7 +1253,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "RHP Tanner Gresham assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 834579,
@@ -1264,7 +1264,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "RHP Tyler Bowen assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 669111,
@@ -1275,7 +1275,7 @@
       "toAffiliate": "Lehigh Valley IronPigs",
       "toLevel": "AAA",
       "description": "RHP John McMillon assigned to Lehigh Valley IronPigs from Reading Fightin Phils.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 679563,
@@ -1286,7 +1286,7 @@
       "toAffiliate": "Lehigh Valley IronPigs",
       "toLevel": "AAA",
       "description": "SS José Rodríguez assigned to Lehigh Valley IronPigs from Reading Fightin Phils.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 686551,
@@ -1297,7 +1297,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies selected the contract of SS Christian Cairo from Lehigh Valley IronPigs.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 702222,
@@ -1308,7 +1308,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies selected the contract of CF Justin Crawford from Lehigh Valley IronPigs.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 681080,
@@ -1319,7 +1319,7 @@
       "toAffiliate": "Lehigh Valley IronPigs",
       "toLevel": "AAA",
       "description": "C Caleb Ricketts assigned to Lehigh Valley IronPigs from Reading Fightin Phils.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 691001,
@@ -1330,7 +1330,7 @@
       "toAffiliate": "Lehigh Valley IronPigs",
       "toLevel": "AAA",
       "description": "2B Robert Moore assigned to Lehigh Valley IronPigs from Reading Fightin Phils.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 822499,
@@ -1341,7 +1341,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "LHP Jonathan Gonzalez assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 811638,
@@ -1352,7 +1352,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "RHP Naoel Mejia assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 686934,
@@ -1363,7 +1363,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies selected the contract of RHP Alex McFarlane from Reading Fightin Phils.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 691725,
@@ -1374,7 +1374,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies selected the contract of RHP Andrew Painter from Lehigh Valley IronPigs.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 687282,
@@ -1385,7 +1385,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies selected the contract of RF Gabriel Rincones Jr. from Lehigh Valley IronPigs.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 660604,
@@ -1396,7 +1396,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies recalled RHP Alan Rangel from Lehigh Valley IronPigs.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 691893,
@@ -1407,7 +1407,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies recalled RHP Jean Cabrera from Reading Fightin Phils.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 679032,
@@ -1418,7 +1418,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies recalled CF Johan Rojas from Lehigh Valley IronPigs.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 676661,
@@ -1429,7 +1429,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies recalled RHP Max Lazar from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=469&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=469&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 675650,
@@ -1440,7 +1440,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies recalled RHP Michael Mercado from Lehigh Valley IronPigs.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 691330,
@@ -1451,7 +1451,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies recalled RHP Moisés Chace from Reading Fightin Phils.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 676510,
@@ -1462,7 +1462,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies recalled RHP Nolan Hoffman from Lehigh Valley IronPigs.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 672463,
@@ -1473,7 +1473,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies recalled 2B Rafael Lantigua from Lehigh Valley IronPigs.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 686751,
@@ -1484,7 +1484,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies recalled RHP Seth Johnson from Lehigh Valley IronPigs.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 681495,
@@ -1495,7 +1495,7 @@
       "toAffiliate": "Lehigh Valley IronPigs",
       "toLevel": "AAA",
       "description": "OF Cade Fergus assigned to Lehigh Valley IronPigs from Reading Fightin Phils.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 702911,
@@ -1506,7 +1506,7 @@
       "toAffiliate": "Lehigh Valley IronPigs",
       "toLevel": "AAA",
       "description": "LHP Tristan Garnett assigned to Lehigh Valley IronPigs from Reading Fightin Phils.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 676046,
@@ -1517,7 +1517,7 @@
       "toAffiliate": "Lehigh Valley IronPigs",
       "toLevel": "AAA",
       "description": "RHP Griff McGarry assigned to Lehigh Valley IronPigs from Reading Fightin Phils.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 684081,
@@ -1528,7 +1528,7 @@
       "toAffiliate": "Lehigh Valley IronPigs",
       "toLevel": "AAA",
       "description": "SS Erick Brito assigned to Lehigh Valley IronPigs from Reading Fightin Phils.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 694025,
@@ -1539,7 +1539,7 @@
       "toAffiliate": "Lehigh Valley IronPigs",
       "toLevel": "AAA",
       "description": "RF Felix Reyes assigned to Lehigh Valley IronPigs from Reading Fightin Phils.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 672463,
@@ -1550,7 +1550,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies selected the contract of 2B Rafael Lantigua from Lehigh Valley IronPigs.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 695294,
@@ -1561,7 +1561,7 @@
       "toAffiliate": "Lehigh Valley IronPigs",
       "toLevel": "AAA",
       "description": "RHP Tommy McCollum assigned to Lehigh Valley IronPigs from Reading Fightin Phils.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 621111,
@@ -1572,7 +1572,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies selected the contract of RHP Walker Buehler from Lehigh Valley IronPigs.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 665993,
@@ -1583,7 +1583,7 @@
       "toAffiliate": "Reading Fightin Phils",
       "toLevel": "AA",
       "description": "LHP Cristhian Tortosa assigned to Reading Fightin Phils from Jersey Shore BlueClaws.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 699703,
@@ -1594,7 +1594,7 @@
       "toAffiliate": "Reading Fightin Phils",
       "toLevel": "AA",
       "description": "RHP Saul Teran assigned to Reading Fightin Phils from Jersey Shore BlueClaws.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 805795,
@@ -1605,7 +1605,7 @@
       "toAffiliate": "Lehigh Valley IronPigs",
       "toLevel": "AAA",
       "description": "SS Aidan Miller assigned to Lehigh Valley IronPigs from Reading Fightin Phils.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 681003,
@@ -1616,7 +1616,7 @@
       "toAffiliate": "Lehigh Valley IronPigs",
       "toLevel": "AAA",
       "description": "LHP Andrew Walling assigned to Lehigh Valley IronPigs from Reading Fightin Phils.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 807276,
@@ -1627,7 +1627,7 @@
       "toAffiliate": "Reading Fightin Phils",
       "toLevel": "AA",
       "description": "OF Dante Nori assigned to Reading Fightin Phils from Jersey Shore BlueClaws.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 800169,
@@ -1638,7 +1638,7 @@
       "toAffiliate": "Reading Fightin Phils",
       "toLevel": "AA",
       "description": "3B Aroon Escobar assigned to Reading Fightin Phils from Jersey Shore BlueClaws.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 622268,
@@ -1649,7 +1649,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies selected the contract of 2B Donovan Walton from Lehigh Valley IronPigs.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 805249,
@@ -1660,7 +1660,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies recalled 1B Otto Kemp from Lehigh Valley IronPigs.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 805906,
@@ -1671,7 +1671,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "RHP Gage Wood assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 814973,
@@ -1682,7 +1682,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "SS Logan Dawson assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 809126,
@@ -1693,7 +1693,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "RHP Cole Gilley assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 676661,
@@ -1704,7 +1704,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies recalled RHP Max Lazar from Lehigh Valley IronPigs.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 823028,
@@ -1715,7 +1715,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "RHP Peyton Havard assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 686934,
@@ -1726,7 +1726,7 @@
       "toAffiliate": "Reading Fightin Phils",
       "toLevel": "AA",
       "description": "RHP Alex McFarlane assigned to Reading Fightin Phils from Jersey Shore BlueClaws.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 657510,
@@ -1737,7 +1737,7 @@
       "toAffiliate": "Lehigh Valley IronPigs",
       "toLevel": "AAA",
       "description": "RHP Andrew Bechtold assigned to Lehigh Valley IronPigs from Reading Fightin Phils.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 700673,
@@ -1748,7 +1748,7 @@
       "toAffiliate": "Jersey Shore BlueClaws",
       "toLevel": "High-A",
       "description": "LHP Danny Wilkinson assigned to Jersey Shore BlueClaws from Clearwater Threshers.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 800607,
@@ -1759,7 +1759,7 @@
       "toAffiliate": "Reading Fightin Phils",
       "toLevel": "AA",
       "description": "C Kehden Hettiger assigned to Reading Fightin Phils from Jersey Shore BlueClaws.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 800091,
@@ -1770,7 +1770,7 @@
       "toAffiliate": "Jersey Shore BlueClaws",
       "toLevel": "High-A",
       "description": "RHP Maxwel Hernandez assigned to Jersey Shore BlueClaws from Clearwater Threshers.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 596117,
@@ -1781,7 +1781,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies recalled C Garrett Stubbs from Lehigh Valley IronPigs.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 700582,
@@ -1792,7 +1792,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "RHP Gabe Craig assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 700176,
@@ -1803,7 +1803,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "RHP Keegan Batka assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 666159,
@@ -1814,7 +1814,7 @@
       "toAffiliate": "Reading Fightin Phils",
       "toLevel": "AA",
       "description": "RHP Matt Manning assigned to Reading Fightin Phils from Clearwater Threshers.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 682192,
@@ -1825,7 +1825,7 @@
       "toAffiliate": "Lehigh Valley IronPigs",
       "toLevel": "AAA",
       "description": "C Paul McIntosh assigned to Lehigh Valley IronPigs from Reading Fightin Phils.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 642016,
@@ -1836,7 +1836,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies recalled RHP Daniel Robert from Lehigh Valley IronPigs.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 807276,
@@ -1847,7 +1847,7 @@
       "toAffiliate": "Jersey Shore BlueClaws",
       "toLevel": "High-A",
       "description": "OF Dante Nori assigned to Jersey Shore BlueClaws from Clearwater Threshers.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 835716,
@@ -1858,7 +1858,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "OF Jack Barker assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 642152,
@@ -1869,7 +1869,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies selected the contract of RHP Lou Trivino from Lehigh Valley IronPigs.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 800461,
@@ -1880,7 +1880,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "RHP Luis Gonzalez assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 815320,
@@ -1891,7 +1891,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "LHP Raymon Rosario assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 687954,
@@ -1902,7 +1902,7 @@
       "toAffiliate": "Jersey Shore BlueClaws",
       "toLevel": "High-A",
       "description": "LHP A.J. Wilson assigned to Jersey Shore BlueClaws from Clearwater Threshers.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 804116,
@@ -1913,7 +1913,7 @@
       "toAffiliate": "Jersey Shore BlueClaws",
       "toLevel": "High-A",
       "description": "LHP Erik Ritchie assigned to Jersey Shore BlueClaws from Clearwater Threshers.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 800091,
@@ -1924,7 +1924,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "RHP Maxwel Hernandez assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 685319,
@@ -1935,7 +1935,7 @@
       "toAffiliate": "Reading Fightin Phils",
       "toLevel": "AA",
       "description": "RHP Braydon Tucker assigned to Reading Fightin Phils from Jersey Shore BlueClaws.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 676510,
@@ -1946,7 +1946,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies recalled RHP Nolan Hoffman from Lehigh Valley IronPigs.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 703863,
@@ -1957,7 +1957,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "RHP Josbel Garcia assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 826939,
@@ -1968,7 +1968,7 @@
       "toAffiliate": "Jersey Shore BlueClaws",
       "toLevel": "High-A",
       "description": "RHP Luke Gabrysh assigned to Jersey Shore BlueClaws from Clearwater Threshers.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 687900,
@@ -1979,7 +1979,7 @@
       "toAffiliate": "Reading Fightin Phils",
       "toLevel": "AA",
       "description": "RHP Andrew Baker assigned to Reading Fightin Phils from Jersey Shore BlueClaws.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 806518,
@@ -1990,7 +1990,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "C Guillermo Rosario assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 814955,
@@ -2001,7 +2001,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "SS Matthew Ferrara assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 502085,
@@ -2012,7 +2012,7 @@
       "toAffiliate": "Philadelphia Phillies",
       "toLevel": "MLB",
       "description": "Philadelphia Phillies recalled RHP David Robertson from Lehigh Valley IronPigs.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 666748,
@@ -2023,7 +2023,7 @@
       "toAffiliate": "Lehigh Valley IronPigs",
       "toLevel": "AAA",
       "description": "RHP Mitch Neunborn assigned to Lehigh Valley IronPigs from Reading Fightin Phils.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 808158,
@@ -2034,7 +2034,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "LHP Angel Liranzo assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 823804,
@@ -2045,7 +2045,7 @@
       "toAffiliate": "Jersey Shore BlueClaws",
       "toLevel": "High-A",
       "description": "RHP Ryan Dromboski assigned to Jersey Shore BlueClaws from Clearwater Threshers.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 694310,
@@ -2056,7 +2056,7 @@
       "toAffiliate": "Reading Fightin Phils",
       "toLevel": "AA",
       "description": "3B Bryson Ware assigned to Reading Fightin Phils from Jersey Shore BlueClaws.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 814781,
@@ -2067,7 +2067,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "OF Jonathan Hogart assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 801537,
@@ -2078,7 +2078,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "OF Nathan Humphreys assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 800179,
@@ -2089,7 +2089,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "SS Nolan Beltran assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 689984,
@@ -2100,7 +2100,7 @@
       "toAffiliate": "Reading Fightin Phils",
       "toLevel": "AA",
       "description": "SS Zach Arnold assigned to Reading Fightin Phils from Jersey Shore BlueClaws.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 701811,
@@ -2111,7 +2111,7 @@
       "toAffiliate": "Jersey Shore BlueClaws",
       "toLevel": "High-A",
       "description": "OF John Spikerman assigned to Jersey Shore BlueClaws from Clearwater Threshers.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 825100,
@@ -2122,7 +2122,7 @@
       "toAffiliate": "Jersey Shore BlueClaws",
       "toLevel": "High-A",
       "description": "LHP Kevin Warunek assigned to Jersey Shore BlueClaws from Clearwater Threshers.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 809975,
@@ -2133,7 +2133,7 @@
       "toAffiliate": "Jersey Shore BlueClaws",
       "toLevel": "High-A",
       "description": "C Kodey Shojinaga assigned to Jersey Shore BlueClaws from Clearwater Threshers.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 800444,
@@ -2144,7 +2144,7 @@
       "toAffiliate": "Jersey Shore BlueClaws",
       "toLevel": "High-A",
       "description": "SS Nikau Pouaka-Grego assigned to Jersey Shore BlueClaws from Clearwater Threshers.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 691001,
@@ -2155,7 +2155,7 @@
       "toAffiliate": "Lehigh Valley IronPigs",
       "toLevel": "AAA",
       "description": "2B Robert Moore assigned to Lehigh Valley IronPigs from Reading Fightin Phils.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 813901,
@@ -2166,7 +2166,7 @@
       "toAffiliate": "Jersey Shore BlueClaws",
       "toLevel": "High-A",
       "description": "RHP Titan Kennedy-Hayes assigned to Jersey Shore BlueClaws from Clearwater Threshers.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 682858,
@@ -2177,7 +2177,7 @@
       "toAffiliate": "Reading Fightin Phils",
       "toLevel": "AA",
       "description": "RHP Gabriel Barbosa assigned to Reading Fightin Phils from Jersey Shore BlueClaws.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 827408,
@@ -2188,7 +2188,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "RHP Ramon Marquez assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 687122,
@@ -2199,7 +2199,7 @@
       "toAffiliate": "Jersey Shore BlueClaws",
       "toLevel": "High-A",
       "description": "RHP Sam Highfill assigned to Jersey Shore BlueClaws from Clearwater Threshers.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 808805,
@@ -2210,7 +2210,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "2B Tyler Pettorini assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 808253,
@@ -2221,7 +2221,7 @@
       "toAffiliate": "Lehigh Valley IronPigs",
       "toLevel": "AAA",
       "description": "C Yhoan Escalona assigned to Lehigh Valley IronPigs from Clearwater Threshers.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 823358,
@@ -2232,7 +2232,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "LHP Zuher Yousuf assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 699552,
@@ -2243,7 +2243,7 @@
       "toAffiliate": "Reading Fightin Phils",
       "toLevel": "AA",
       "description": "RHP Brandon Beckel assigned to Reading Fightin Phils from Jersey Shore BlueClaws.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-07-24&endDate=2026-07-24"
     },
     {
       "playerId": 816120,
@@ -2254,29 +2254,7 @@
       "toAffiliate": "Clearwater Threshers",
       "toLevel": "Single-A",
       "description": "OF Griffin Burkholder assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
-    },
-    {
-      "playerId": 658431,
-      "player": "Adonis Medina",
-      "date": "2025-07-23",
-      "fromAffiliate": "Reading Fightin Phils",
-      "fromLevel": "AA",
-      "toAffiliate": "Lehigh Valley IronPigs",
-      "toLevel": "AAA",
-      "description": "RHP Adonis Medina assigned to Lehigh Valley IronPigs from Reading Fightin Phils.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-23&endDate=2026-07-23"
-    },
-    {
-      "playerId": 800272,
-      "player": "Manolfi Jimenez",
-      "date": "2025-07-23",
-      "fromAffiliate": "FCL Phillies",
-      "fromLevel": "Rookie",
-      "toAffiliate": "Clearwater Threshers",
-      "toLevel": "Single-A",
-      "description": "OF Manolfi Jimenez assigned to Clearwater Threshers from FCL Phillies.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-23&endDate=2026-07-23"
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-07-24&endDate=2026-07-24"
     }
   ],
   "errors": []
