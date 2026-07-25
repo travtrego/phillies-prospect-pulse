@@ -1,6 +1,28 @@
 {
-  "updatedAt": "2026-07-25T14:02:13.810Z",
+  "updatedAt": "2026-07-25T19:35:17.456Z",
   "records": [
+    {
+      "playerId": 662144,
+      "player": "Brian Keller",
+      "date": "2026-07-25",
+      "fromAffiliate": "Lehigh Valley IronPigs",
+      "fromLevel": "AAA",
+      "toAffiliate": "Philadelphia Phillies",
+      "toLevel": "MLB",
+      "description": "Philadelphia Phillies selected the contract of RHP Brian Keller from Lehigh Valley IronPigs.",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-25&endDate=2026-07-25"
+    },
+    {
+      "playerId": 679775,
+      "player": "Kyle Backhus",
+      "date": "2026-07-25",
+      "fromAffiliate": "Lehigh Valley IronPigs",
+      "fromLevel": "AAA",
+      "toAffiliate": "Philadelphia Phillies",
+      "toLevel": "MLB",
+      "description": "Philadelphia Phillies recalled LHP Kyle Backhus from Lehigh Valley IronPigs.",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-07-25&endDate=2026-07-25"
+    },
     {
       "playerId": 668721,
       "player": "Payton Henry",
