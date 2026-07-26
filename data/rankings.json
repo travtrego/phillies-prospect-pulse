@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T08:40:19.658Z",
+  "updatedAt": "2026-07-26T11:37:47.218Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -41,7 +41,7 @@
       "position": "RHP",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 74.8,
+      "score": 74.3,
       "previousRank": 2,
       "rank": 2,
       "change": 0,
@@ -49,14 +49,14 @@
         "scouting": 30,
         "performance": 17.5,
         "ageLevel": 5,
-        "sentiment": 10.9,
+        "sentiment": 10.4,
         "movement": 6.4,
         "risk": 5
       },
-      "mediaMentions": 9,
+      "mediaMentions": 6,
       "reasons": [
         "MLB Pipeline rank #2",
-        "9 recent media mentions",
+        "6 recent media mentions",
         "Promoted to AA"
       ]
     },
@@ -66,7 +66,7 @@
       "position": "RHP",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 70.4,
+      "score": 69.2,
       "previousRank": 3,
       "rank": 3,
       "change": 0,
@@ -74,42 +74,16 @@
         "scouting": 19.5,
         "performance": 16.4,
         "ageLevel": 6.4,
-        "sentiment": 13.6,
+        "sentiment": 12.4,
         "movement": 9.5,
         "risk": 5
       },
-      "mediaMentions": 5,
+      "mediaMentions": 4,
       "reasons": [
         "MLB Pipeline rank #17",
-        "5 recent media mentions",
+        "4 recent media mentions",
         "Positive recent coverage",
         "Promoted to MLB"
-      ]
-    },
-    {
-      "playerId": "b2c73058-570a-45a4-9872-b734627c893d",
-      "player": "Cade Obermueller",
-      "position": "LHP",
-      "affiliate": "Clearwater Threshers",
-      "level": "A",
-      "score": 68.3,
-      "previousRank": 4,
-      "rank": 4,
-      "change": 0,
-      "components": {
-        "scouting": 26.7,
-        "performance": 14.6,
-        "ageLevel": 4.2,
-        "sentiment": 12.6,
-        "movement": 5.2,
-        "risk": 5
-      },
-      "mediaMentions": 2,
-      "reasons": [
-        "MLB Pipeline rank #7",
-        "2 recent media mentions",
-        "Positive recent coverage",
-        "Promoted to Single-A"
       ]
     },
     {
@@ -120,8 +94,8 @@
       "level": "AAA",
       "score": 67.7,
       "previousRank": 5,
-      "rank": 5,
-      "change": 0,
+      "rank": 4,
+      "change": 1,
       "components": {
         "scouting": 30,
         "performance": 12.5,
@@ -136,6 +110,31 @@
         "16 recent media mentions",
         "Strong positive prospect coverage",
         "Material negative recent coverage"
+      ]
+    },
+    {
+      "playerId": "b2c73058-570a-45a4-9872-b734627c893d",
+      "player": "Cade Obermueller",
+      "position": "LHP",
+      "affiliate": "Clearwater Threshers",
+      "level": "A",
+      "score": 66.9,
+      "previousRank": 4,
+      "rank": 5,
+      "change": -1,
+      "components": {
+        "scouting": 26.7,
+        "performance": 14.6,
+        "ageLevel": 4.2,
+        "sentiment": 11.2,
+        "movement": 5.2,
+        "risk": 5
+      },
+      "mediaMentions": 1,
+      "reasons": [
+        "MLB Pipeline rank #7",
+        "1 recent media mention",
+        "Promoted to Single-A"
       ]
     },
     {
@@ -206,9 +205,10 @@
         "movement": 7.5,
         "risk": 5
       },
-      "mediaMentions": 0,
+      "mediaMentions": 1,
       "reasons": [
         "MLB Pipeline rank #10",
+        "1 recent media mention",
         "Promoted to Single-A"
       ]
     },
@@ -279,10 +279,10 @@
         "movement": 4.1,
         "risk": 2.5
       },
-      "mediaMentions": 4,
+      "mediaMentions": 3,
       "reasons": [
         "MLB Pipeline rank #5",
-        "4 recent media mentions",
+        "3 recent media mentions",
         "Material negative recent coverage",
         "Promoted to AA"
       ]
@@ -511,7 +511,7 @@
       "position": "INF",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 55.4,
+      "score": 55.3,
       "previousRank": 21,
       "rank": 21,
       "change": 0,
@@ -519,7 +519,7 @@
         "scouting": 12,
         "performance": 18.9,
         "ageLevel": 4.2,
-        "sentiment": 11.3,
+        "sentiment": 11.2,
         "movement": 4,
         "risk": 5
       },
@@ -872,9 +872,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 51.9,
-      "previousRank": 37,
+      "previousRank": 36,
       "rank": 36,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 15.6,
@@ -893,9 +893,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 51.8,
-      "previousRank": 38,
+      "previousRank": 37,
       "rank": 37,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 8.5,
@@ -917,9 +917,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 51.8,
-      "previousRank": 36,
+      "previousRank": 38,
       "rank": 38,
-      "change": -2,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 10.9,
@@ -2111,9 +2111,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 45.8,
-      "previousRank": 90,
+      "previousRank": 89,
       "rank": 89,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 9.5,
@@ -2134,9 +2134,9 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 45.8,
-      "previousRank": 89,
+      "previousRank": 90,
       "rank": 90,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 8,
@@ -2636,31 +2636,6 @@
       ]
     },
     {
-      "playerId": "63e62eb8-bf2a-4e5a-99e9-ca7773e314be",
-      "player": "Saul Teran",
-      "position": "P",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 42.1,
-      "previousRank": 112,
-      "rank": 112,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 4.4,
-        "ageLevel": 6.4,
-        "sentiment": 10.2,
-        "movement": 4.1,
-        "risk": 5
-      },
-      "mediaMentions": 2,
-      "reasons": [
-        "2 recent media mentions",
-        "Promoted to AA",
-        "Advanced to AA"
-      ]
-    },
-    {
       "playerId": "2c40bdf1-3a90-444e-8bf8-80587d2504f0",
       "player": "Adilson Peralta",
       "position": "P",
@@ -2668,8 +2643,8 @@
       "level": "A+",
       "score": 42,
       "previousRank": 113,
-      "rank": 113,
-      "change": 0,
+      "rank": 112,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 4.5,
@@ -2681,6 +2656,31 @@
       "mediaMentions": 0,
       "reasons": [
         "Promoted to High-A"
+      ]
+    },
+    {
+      "playerId": "63e62eb8-bf2a-4e5a-99e9-ca7773e314be",
+      "player": "Saul Teran",
+      "position": "P",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 42,
+      "previousRank": 112,
+      "rank": 113,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 4.4,
+        "ageLevel": 6.4,
+        "sentiment": 10.1,
+        "movement": 4.1,
+        "risk": 5
+      },
+      "mediaMentions": 1,
+      "reasons": [
+        "1 recent media mention",
+        "Promoted to AA",
+        "Advanced to AA"
       ]
     },
     {
