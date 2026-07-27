@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T10:10:05.572Z",
+  "updatedAt": "2026-07-27T13:22:54.850Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -16,7 +16,7 @@
       "position": "RHP",
       "affiliate": null,
       "level": "A+",
-      "score": 76.1,
+      "score": 76,
       "previousRank": 1,
       "rank": 1,
       "change": 0,
@@ -25,7 +25,7 @@
         "performance": 23.1,
         "ageLevel": 5.3,
         "sentiment": 10,
-        "movement": 7.5,
+        "movement": 7.4,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -41,7 +41,7 @@
       "position": "RHP",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 74.7,
+      "score": 74.9,
       "previousRank": 2,
       "rank": 2,
       "change": 0,
@@ -49,14 +49,14 @@
         "scouting": 30,
         "performance": 17.5,
         "ageLevel": 5,
-        "sentiment": 10.9,
+        "sentiment": 11.1,
         "movement": 6.3,
         "risk": 5
       },
-      "mediaMentions": 7,
+      "mediaMentions": 8,
       "reasons": [
         "MLB Pipeline rank #2",
-        "7 recent media mentions",
+        "8 recent media mentions",
         "Promoted to AA"
       ]
     },
@@ -218,7 +218,7 @@
       "position": "RHP",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 63.6,
+      "score": 63.5,
       "previousRank": 9,
       "rank": 9,
       "change": 0,
@@ -227,7 +227,7 @@
         "performance": 15.3,
         "ageLevel": 4.2,
         "sentiment": 10,
-        "movement": 7.5,
+        "movement": 7.4,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -367,7 +367,7 @@
       "position": "P",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 58.1,
+      "score": 58,
       "previousRank": 15,
       "rank": 15,
       "change": 0,
@@ -376,7 +376,7 @@
         "performance": 14.4,
         "ageLevel": 7.5,
         "sentiment": 10,
-        "movement": 9.2,
+        "movement": 9.1,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -418,9 +418,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 57.4,
-      "previousRank": 18,
+      "previousRank": 17,
       "rank": 17,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 15.3,
@@ -441,9 +441,9 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 57.3,
-      "previousRank": 17,
+      "previousRank": 18,
       "rank": 18,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 17.3,
         "performance": 16.8,
@@ -510,7 +510,7 @@
       "position": "RHP",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 55.6,
+      "score": 55.5,
       "previousRank": 21,
       "rank": 21,
       "change": 0,
@@ -519,7 +519,7 @@
         "performance": 13,
         "ageLevel": 4.2,
         "sentiment": 10,
-        "movement": 7.5,
+        "movement": 7.4,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -558,7 +558,7 @@
       "position": "C",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 55.1,
+      "score": 55,
       "previousRank": 23,
       "rank": 23,
       "change": 0,
@@ -567,7 +567,7 @@
         "performance": 12.5,
         "ageLevel": 6.4,
         "sentiment": 10,
-        "movement": 9.2,
+        "movement": 9.1,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -1094,8 +1094,9 @@
         "movement": 5.7,
         "risk": 5
       },
-      "mediaMentions": 0,
+      "mediaMentions": 1,
       "reasons": [
+        "1 recent media mention",
         "Promoted to AAA",
         "Advanced to AA"
       ]
@@ -1270,9 +1271,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 50.8,
-      "previousRank": 54,
+      "previousRank": 53,
       "rank": 53,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 10.2,
@@ -1293,9 +1294,9 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 50.7,
-      "previousRank": 53,
+      "previousRank": 54,
       "rank": 54,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 13.7,
@@ -1455,7 +1456,7 @@
       "position": "P",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 49.7,
+      "score": 49.6,
       "previousRank": 61,
       "rank": 61,
       "change": 0,
@@ -1464,7 +1465,7 @@
         "performance": 11,
         "ageLevel": 4.2,
         "sentiment": 10,
-        "movement": 7.5,
+        "movement": 7.4,
         "risk": 5
       },
       "mediaMentions": 0,
