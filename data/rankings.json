@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T13:22:54.850Z",
+  "updatedAt": "2026-07-27T15:14:25.229Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -41,7 +41,7 @@
       "position": "RHP",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 74.9,
+      "score": 74.7,
       "previousRank": 2,
       "rank": 2,
       "change": 0,
@@ -49,14 +49,14 @@
         "scouting": 30,
         "performance": 17.5,
         "ageLevel": 5,
-        "sentiment": 11.1,
+        "sentiment": 10.9,
         "movement": 6.3,
         "risk": 5
       },
-      "mediaMentions": 8,
+      "mediaMentions": 7,
       "reasons": [
         "MLB Pipeline rank #2",
-        "8 recent media mentions",
+        "7 recent media mentions",
         "Promoted to AA"
       ]
     },
@@ -92,7 +92,7 @@
       "position": "RHP",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 67,
+      "score": 66.9,
       "previousRank": 4,
       "rank": 4,
       "change": 0,
@@ -100,14 +100,14 @@
         "scouting": 19.5,
         "performance": 16.4,
         "ageLevel": 6.4,
-        "sentiment": 10.3,
+        "sentiment": 10.2,
         "movement": 9.4,
         "risk": 5
       },
-      "mediaMentions": 3,
+      "mediaMentions": 2,
       "reasons": [
         "MLB Pipeline rank #17",
-        "3 recent media mentions",
+        "2 recent media mentions",
         "Promoted to MLB",
         "Advanced to AA"
       ]
