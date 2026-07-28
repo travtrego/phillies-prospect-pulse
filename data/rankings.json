@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T03:35:58.380Z",
+  "updatedAt": "2026-07-28T09:05:03.373Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -42,7 +42,7 @@
       "position": "RHP",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 74.7,
+      "score": 74.6,
       "previousRank": 2,
       "rank": 2,
       "change": 0,
@@ -50,7 +50,7 @@
         "scouting": 30,
         "performance": 17.5,
         "ageLevel": 5,
-        "sentiment": 10.9,
+        "sentiment": 10.8,
         "movement": 6.3,
         "risk": 5
       },
@@ -317,9 +317,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 60.3,
-      "previousRank": 14,
+      "previousRank": 13,
       "rank": 13,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 28.1,
         "performance": 8.9,
@@ -343,9 +343,9 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 60.1,
-      "previousRank": 13,
+      "previousRank": 14,
       "rank": 14,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 19,
@@ -392,7 +392,7 @@
       "position": "OF",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 59.4,
+      "score": 59.3,
       "previousRank": 16,
       "rank": 16,
       "change": 0,
@@ -401,7 +401,7 @@
         "performance": 15.4,
         "ageLevel": 7.5,
         "sentiment": 10,
-        "movement": 9.5,
+        "movement": 9.4,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -466,7 +466,7 @@
       "position": "P",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 57.4,
+      "score": 57.3,
       "previousRank": 19,
       "rank": 19,
       "change": 0,
@@ -475,7 +475,7 @@
         "performance": 15.3,
         "ageLevel": 5.3,
         "sentiment": 10,
-        "movement": 9.8,
+        "movement": 9.7,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -965,9 +965,9 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 51.6,
-      "previousRank": 42,
+      "previousRank": 40,
       "rank": 40,
-      "change": 2,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 16.1,
@@ -988,9 +988,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 51.5,
-      "previousRank": 40,
+      "previousRank": 41,
       "rank": 41,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1012,9 +1012,9 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 51.3,
-      "previousRank": 41,
+      "previousRank": 42,
       "rank": 42,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 14.8,
@@ -1296,9 +1296,9 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 50.7,
-      "previousRank": 55,
+      "previousRank": 54,
       "rank": 54,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 13.7,
@@ -1319,9 +1319,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 50.7,
-      "previousRank": 56,
+      "previousRank": 55,
       "rank": 55,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 13.3,
@@ -1342,9 +1342,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 50.7,
-      "previousRank": 54,
+      "previousRank": 56,
       "rank": 56,
-      "change": -2,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 10.2,
@@ -1399,8 +1399,9 @@
         "movement": 4.1,
         "risk": 5
       },
-      "mediaMentions": 0,
+      "mediaMentions": 1,
       "reasons": [
+        "1 recent media mention",
         "Promoted to Single-A"
       ]
     },
