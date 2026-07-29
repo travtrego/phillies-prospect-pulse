@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T14:32:12.361Z",
+  "updatedAt": "2026-07-29T19:43:51.718Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -16,7 +16,7 @@
       "position": "RHP",
       "affiliate": null,
       "level": "A+",
-      "score": 76,
+      "score": 75.9,
       "previousRank": 1,
       "rank": 1,
       "change": 0,
@@ -25,7 +25,7 @@
         "performance": 23.1,
         "ageLevel": 5.3,
         "sentiment": 10,
-        "movement": 7.4,
+        "movement": 7.3,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -41,7 +41,7 @@
       "position": "RHP",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 74.6,
+      "score": 74.9,
       "previousRank": 2,
       "rank": 2,
       "change": 0,
@@ -49,14 +49,14 @@
         "scouting": 30,
         "performance": 17.5,
         "ageLevel": 5,
-        "sentiment": 10.8,
+        "sentiment": 11.1,
         "movement": 6.3,
         "risk": 5
       },
-      "mediaMentions": 8,
+      "mediaMentions": 10,
       "reasons": [
         "MLB Pipeline rank #2",
-        "8 recent media mentions",
+        "10 recent media mentions",
         "Promoted to AA"
       ]
     },
@@ -90,7 +90,7 @@
       "position": "SS",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 67.7,
+      "score": 67.6,
       "previousRank": 4,
       "rank": 4,
       "change": 0,
@@ -98,14 +98,14 @@
         "scouting": 30,
         "performance": 12.5,
         "ageLevel": 9.3,
-        "sentiment": 9.3,
+        "sentiment": 9.2,
         "movement": 4.1,
         "risk": 2.5
       },
-      "mediaMentions": 16,
+      "mediaMentions": 14,
       "reasons": [
         "MLB Pipeline rank #1",
-        "16 recent media mentions",
+        "14 recent media mentions",
         "Strong positive prospect coverage",
         "Material negative recent coverage"
       ]
@@ -240,7 +240,7 @@
       "position": "RHP",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 63.5,
+      "score": 63.4,
       "previousRank": 10,
       "rank": 10,
       "change": 0,
@@ -249,7 +249,7 @@
         "performance": 15.3,
         "ageLevel": 4.2,
         "sentiment": 10,
-        "movement": 7.4,
+        "movement": 7.3,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -557,7 +557,7 @@
       "position": "RHP",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 55.5,
+      "score": 55.4,
       "previousRank": 23,
       "rank": 23,
       "change": 0,
@@ -566,7 +566,7 @@
         "performance": 13,
         "ageLevel": 4.2,
         "sentiment": 10,
-        "movement": 7.4,
+        "movement": 7.3,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -822,7 +822,7 @@
       "position": "P",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 53.1,
+      "score": 53,
       "previousRank": 34,
       "rank": 34,
       "change": 0,
@@ -831,7 +831,7 @@
         "performance": 10,
         "ageLevel": 7.5,
         "sentiment": 10,
-        "movement": 8.6,
+        "movement": 8.5,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -1184,8 +1184,9 @@
         "movement": 4,
         "risk": 5
       },
-      "mediaMentions": 0,
+      "mediaMentions": 1,
       "reasons": [
+        "1 recent media mention",
         "Advanced to AAA"
       ]
     },
@@ -1336,7 +1337,7 @@
       "position": "INF",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 50.7,
+      "score": 50.6,
       "previousRank": 56,
       "rank": 56,
       "change": 0,
@@ -1345,7 +1346,7 @@
         "performance": 10.2,
         "ageLevel": 5.3,
         "sentiment": 10,
-        "movement": 8.2,
+        "movement": 8.1,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -1394,8 +1395,9 @@
         "movement": 4.1,
         "risk": 5
       },
-      "mediaMentions": 0,
+      "mediaMentions": 1,
       "reasons": [
+        "1 recent media mention",
         "Promoted to Single-A"
       ]
     },
@@ -1494,29 +1496,6 @@
       ]
     },
     {
-      "playerId": "7501d444-5df0-48f6-9ae4-9daa262d1309",
-      "player": "Tanner Gresham",
-      "position": "P",
-      "affiliate": "Clearwater Threshers",
-      "level": "A",
-      "score": 49.6,
-      "previousRank": 63,
-      "rank": 63,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 11,
-        "ageLevel": 4.2,
-        "sentiment": 10,
-        "movement": 7.4,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to High-A"
-      ]
-    },
-    {
       "playerId": "38bb5322-106a-4d6c-88be-80bae95a816b",
       "player": "Nick Biddison",
       "position": "INF",
@@ -1524,8 +1503,8 @@
       "level": "A+",
       "score": 49.5,
       "previousRank": 64,
-      "rank": 64,
-      "change": 0,
+      "rank": 63,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 13.2,
@@ -1536,6 +1515,29 @@
       },
       "mediaMentions": 0,
       "reasons": []
+    },
+    {
+      "playerId": "7501d444-5df0-48f6-9ae4-9daa262d1309",
+      "player": "Tanner Gresham",
+      "position": "P",
+      "affiliate": "Clearwater Threshers",
+      "level": "A",
+      "score": 49.5,
+      "previousRank": 63,
+      "rank": 64,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 11,
+        "ageLevel": 4.2,
+        "sentiment": 10,
+        "movement": 7.3,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to High-A"
+      ]
     },
     {
       "playerId": "285d47d5-92a7-4f48-be72-5fbe35722d52",
@@ -2168,30 +2170,6 @@
       ]
     },
     {
-      "playerId": "0efac77a-9009-46c9-9aeb-720bea522604",
-      "player": "Jack Barker",
-      "position": "OF",
-      "affiliate": "Clearwater Threshers",
-      "level": "A",
-      "score": 45.7,
-      "previousRank": 92,
-      "rank": 92,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 10.2,
-        "ageLevel": 4.2,
-        "sentiment": 10.2,
-        "movement": 4.1,
-        "risk": 5
-      },
-      "mediaMentions": 1,
-      "reasons": [
-        "1 recent media mention",
-        "Promoted to Single-A"
-      ]
-    },
-    {
       "playerId": "e0548f18-f2b0-49bd-acb2-c3ea01088ff9",
       "player": "Tristan Garnett",
       "position": "P",
@@ -2199,8 +2177,8 @@
       "level": "AA",
       "score": 45.7,
       "previousRank": 93,
-      "rank": 93,
-      "change": 0,
+      "rank": 92,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 8.2,
@@ -2223,8 +2201,8 @@
       "level": "A",
       "score": 45.6,
       "previousRank": 94,
-      "rank": 94,
-      "change": 0,
+      "rank": 93,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 7.9,
@@ -2236,6 +2214,29 @@
       "mediaMentions": 0,
       "reasons": [
         "Promoted to High-A"
+      ]
+    },
+    {
+      "playerId": "0efac77a-9009-46c9-9aeb-720bea522604",
+      "player": "Jack Barker",
+      "position": "OF",
+      "affiliate": "Clearwater Threshers",
+      "level": "A",
+      "score": 45.5,
+      "previousRank": 92,
+      "rank": 94,
+      "change": -2,
+      "components": {
+        "scouting": 12,
+        "performance": 10.2,
+        "ageLevel": 4.2,
+        "sentiment": 10,
+        "movement": 4.1,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to Single-A"
       ]
     },
     {
