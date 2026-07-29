@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T09:09:13.301Z",
+  "updatedAt": "2026-07-29T12:22:14.971Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -41,7 +41,7 @@
       "position": "RHP",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 74.7,
+      "score": 74.4,
       "previousRank": 2,
       "rank": 2,
       "change": 0,
@@ -49,14 +49,14 @@
         "scouting": 30,
         "performance": 17.5,
         "ageLevel": 5,
-        "sentiment": 10.9,
+        "sentiment": 10.6,
         "movement": 6.3,
         "risk": 5
       },
-      "mediaMentions": 9,
+      "mediaMentions": 7,
       "reasons": [
         "MLB Pipeline rank #2",
-        "9 recent media mentions",
+        "7 recent media mentions",
         "Promoted to AA"
       ]
     },
@@ -463,7 +463,7 @@
       "position": "P",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 57.3,
+      "score": 57.2,
       "previousRank": 19,
       "rank": 19,
       "change": 0,
@@ -472,7 +472,7 @@
         "performance": 15.3,
         "ageLevel": 5.3,
         "sentiment": 10,
-        "movement": 9.7,
+        "movement": 9.6,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -1826,9 +1826,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 47.5,
-      "previousRank": 78,
+      "previousRank": 77,
       "rank": 77,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1850,9 +1850,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 47.4,
-      "previousRank": 79,
+      "previousRank": 78,
       "rank": 78,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 11.1,
@@ -1873,9 +1873,9 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 47.4,
-      "previousRank": 77,
+      "previousRank": 79,
       "rank": 79,
-      "change": -2,
+      "change": 0,
       "components": {
         "scouting": 14.4,
         "performance": 9.6,
@@ -2008,30 +2008,6 @@
       ]
     },
     {
-      "playerId": "fbd5a3d7-ab1c-43b4-8412-3ca70609bd49",
-      "player": "Daniel Harper",
-      "position": "P",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 46.6,
-      "previousRank": 85,
-      "rank": 85,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 7.7,
-        "ageLevel": 6.4,
-        "sentiment": 10,
-        "movement": 5.5,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to AAA",
-        "Advanced to AA"
-      ]
-    },
-    {
       "playerId": "48c4d66a-8e86-48bb-aeb8-92d91c296d61",
       "player": "Jake Eddington",
       "position": "P",
@@ -2039,8 +2015,8 @@
       "level": "A+",
       "score": 46.6,
       "previousRank": 86,
-      "rank": 86,
-      "change": 0,
+      "rank": 85,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 10.3,
@@ -2051,6 +2027,30 @@
       },
       "mediaMentions": 0,
       "reasons": []
+    },
+    {
+      "playerId": "fbd5a3d7-ab1c-43b4-8412-3ca70609bd49",
+      "player": "Daniel Harper",
+      "position": "P",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 46.5,
+      "previousRank": 85,
+      "rank": 86,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 7.7,
+        "ageLevel": 6.4,
+        "sentiment": 10,
+        "movement": 5.4,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to AAA",
+        "Advanced to AA"
+      ]
     },
     {
       "playerId": "2b3b922e-ed61-4243-a439-f1fff05c6d0d",
@@ -2168,15 +2168,39 @@
       ]
     },
     {
+      "playerId": "0efac77a-9009-46c9-9aeb-720bea522604",
+      "player": "Jack Barker",
+      "position": "OF",
+      "affiliate": "Clearwater Threshers",
+      "level": "A",
+      "score": 45.7,
+      "previousRank": 94,
+      "rank": 92,
+      "change": 2,
+      "components": {
+        "scouting": 12,
+        "performance": 10.2,
+        "ageLevel": 4.2,
+        "sentiment": 10.2,
+        "movement": 4.1,
+        "risk": 5
+      },
+      "mediaMentions": 1,
+      "reasons": [
+        "1 recent media mention",
+        "Promoted to Single-A"
+      ]
+    },
+    {
       "playerId": "e0548f18-f2b0-49bd-acb2-c3ea01088ff9",
       "player": "Tristan Garnett",
       "position": "P",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 45.7,
-      "previousRank": 93,
-      "rank": 92,
-      "change": 1,
+      "previousRank": 92,
+      "rank": 93,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 8.2,
@@ -2198,9 +2222,9 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 45.6,
-      "previousRank": 94,
-      "rank": 93,
-      "change": 1,
+      "previousRank": 93,
+      "rank": 94,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 7.9,
@@ -2212,29 +2236,6 @@
       "mediaMentions": 0,
       "reasons": [
         "Promoted to High-A"
-      ]
-    },
-    {
-      "playerId": "0efac77a-9009-46c9-9aeb-720bea522604",
-      "player": "Jack Barker",
-      "position": "OF",
-      "affiliate": "Clearwater Threshers",
-      "level": "A",
-      "score": 45.5,
-      "previousRank": 92,
-      "rank": 94,
-      "change": -2,
-      "components": {
-        "scouting": 12,
-        "performance": 10.2,
-        "ageLevel": 4.2,
-        "sentiment": 10,
-        "movement": 4.1,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to Single-A"
       ]
     },
     {
@@ -2660,9 +2661,9 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 41.8,
-      "previousRank": 114,
+      "previousRank": 113,
       "rank": 113,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 6.6,
@@ -2681,9 +2682,9 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 41.7,
-      "previousRank": 113,
+      "previousRank": 114,
       "rank": 114,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 4,
