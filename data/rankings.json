@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T14:32:11.030Z",
+  "updatedAt": "2026-07-30T19:52:39.034Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -42,7 +42,7 @@
       "position": "RHP",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 74.4,
+      "score": 74.5,
       "previousRank": 2,
       "rank": 2,
       "change": 0,
@@ -50,7 +50,7 @@
         "scouting": 30,
         "performance": 17.5,
         "ageLevel": 5,
-        "sentiment": 10.7,
+        "sentiment": 10.8,
         "movement": 6.2,
         "risk": 5
       },
@@ -91,7 +91,7 @@
       "position": "SS",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 67.8,
+      "score": 67.6,
       "previousRank": 4,
       "rank": 4,
       "change": 0,
@@ -99,7 +99,7 @@
         "scouting": 30,
         "performance": 12.5,
         "ageLevel": 9.3,
-        "sentiment": 9.4,
+        "sentiment": 9.2,
         "movement": 4.1,
         "risk": 2.5
       },
@@ -535,9 +535,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 55.6,
-      "previousRank": 23,
+      "previousRank": 22,
       "rank": 22,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 13.7,
         "performance": 11.7,
@@ -560,9 +560,9 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 55.4,
-      "previousRank": 22,
+      "previousRank": 23,
       "rank": 23,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 15.9,
         "performance": 13,
@@ -985,7 +985,7 @@
       "position": "P",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 51.8,
+      "score": 51.7,
       "previousRank": 41,
       "rank": 41,
       "change": 0,
@@ -994,7 +994,7 @@
         "performance": 11,
         "ageLevel": 6.4,
         "sentiment": 10,
-        "movement": 7.4,
+        "movement": 7.3,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -1726,29 +1726,6 @@
       ]
     },
     {
-      "playerId": "8b7a23de-db4b-489c-b2b0-c7a56e09370d",
-      "player": "Nate Humphreys",
-      "position": "OF",
-      "affiliate": "Clearwater Threshers",
-      "level": "A",
-      "score": 47.8,
-      "previousRank": 73,
-      "rank": 73,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 12.5,
-        "ageLevel": 4.2,
-        "sentiment": 10.1,
-        "movement": 4,
-        "risk": 5
-      },
-      "mediaMentions": 1,
-      "reasons": [
-        "1 recent media mention"
-      ]
-    },
-    {
       "playerId": "7578b19f-435e-4b15-ad35-02cf900183e4",
       "player": "Bryson Ware",
       "position": "INF",
@@ -1756,8 +1733,8 @@
       "level": "AA",
       "score": 47.7,
       "previousRank": 74,
-      "rank": 74,
-      "change": 0,
+      "rank": 73,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.8,
@@ -1772,6 +1749,27 @@
         "Current injury lowers availability",
         "Advanced to AA"
       ]
+    },
+    {
+      "playerId": "8b7a23de-db4b-489c-b2b0-c7a56e09370d",
+      "player": "Nate Humphreys",
+      "position": "OF",
+      "affiliate": "Clearwater Threshers",
+      "level": "A",
+      "score": 47.7,
+      "previousRank": 73,
+      "rank": 74,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 12.5,
+        "ageLevel": 4.2,
+        "sentiment": 10,
+        "movement": 4,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": []
     },
     {
       "playerId": "ffee4217-f454-4f1d-9397-796fe79fec59",
@@ -2055,29 +2053,6 @@
       ]
     },
     {
-      "playerId": "2b3b922e-ed61-4243-a439-f1fff05c6d0d",
-      "player": "Giussepe Velasquez",
-      "position": "P",
-      "affiliate": "Jersey Shore BlueClaws",
-      "level": "A+",
-      "score": 46.3,
-      "previousRank": 87,
-      "rank": 87,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 5.8,
-        "ageLevel": 5.3,
-        "sentiment": 10,
-        "movement": 8.2,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to High-A"
-      ]
-    },
-    {
       "playerId": "753dded3-8c3f-4474-ad64-26924d20025d",
       "player": "Jose Colmenares",
       "position": "INF",
@@ -2085,8 +2060,8 @@
       "level": "A+",
       "score": 46.3,
       "previousRank": 88,
-      "rank": 88,
-      "change": 0,
+      "rank": 87,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -2098,6 +2073,29 @@
       "mediaMentions": 0,
       "reasons": [
         "Current injury lowers availability"
+      ]
+    },
+    {
+      "playerId": "2b3b922e-ed61-4243-a439-f1fff05c6d0d",
+      "player": "Giussepe Velasquez",
+      "position": "P",
+      "affiliate": "Jersey Shore BlueClaws",
+      "level": "A+",
+      "score": 46.2,
+      "previousRank": 87,
+      "rank": 88,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 5.8,
+        "ageLevel": 5.3,
+        "sentiment": 10,
+        "movement": 8.1,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to High-A"
       ]
     },
     {
