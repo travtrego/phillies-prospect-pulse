@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T11:37:02.255Z",
+  "updatedAt": "2026-08-01T13:55:47.681Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -67,7 +67,7 @@
       "position": "LHP",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 70.8,
+      "score": 71.7,
       "previousRank": 3,
       "rank": 3,
       "change": 0,
@@ -75,7 +75,7 @@
         "scouting": 26.7,
         "performance": 13.9,
         "ageLevel": 4.2,
-        "sentiment": 11.4,
+        "sentiment": 12.3,
         "movement": 9.6,
         "risk": 5
       },
@@ -83,6 +83,7 @@
       "reasons": [
         "MLB Pipeline rank #7",
         "3 recent media mentions",
+        "Positive recent coverage",
         "Promoted to High-A"
       ]
     },
@@ -118,7 +119,7 @@
       "position": "SS",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 67.5,
+      "score": 67.7,
       "previousRank": 5,
       "rank": 5,
       "change": 0,
@@ -126,7 +127,7 @@
         "scouting": 30,
         "performance": 12.5,
         "ageLevel": 9.3,
-        "sentiment": 9.1,
+        "sentiment": 9.3,
         "movement": 4.1,
         "risk": 2.5
       },
@@ -342,7 +343,7 @@
       "position": "INF",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 60,
+      "score": 60.4,
       "previousRank": 14,
       "rank": 14,
       "change": 0,
@@ -350,7 +351,7 @@
         "scouting": 12,
         "performance": 18.6,
         "ageLevel": 4.2,
-        "sentiment": 10.6,
+        "sentiment": 11,
         "movement": 9.6,
         "risk": 5
       },
@@ -439,7 +440,7 @@
       "position": "SS",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 58.1,
+      "score": 58.2,
       "previousRank": 18,
       "rank": 18,
       "change": 0,
@@ -447,7 +448,7 @@
         "scouting": 12.3,
         "performance": 19.3,
         "ageLevel": 6.4,
-        "sentiment": 10,
+        "sentiment": 10.1,
         "movement": 5.1,
         "risk": 5
       },
@@ -536,7 +537,7 @@
       "position": "RHP",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 56,
+      "score": 56.6,
       "previousRank": 22,
       "rank": 22,
       "change": 0,
@@ -544,13 +545,14 @@
         "scouting": 15.9,
         "performance": 13.7,
         "ageLevel": 4.2,
-        "sentiment": 10,
+        "sentiment": 10.6,
         "movement": 7.2,
         "risk": 5
       },
-      "mediaMentions": 0,
+      "mediaMentions": 1,
       "reasons": [
         "MLB Pipeline rank #22",
+        "1 recent media mention",
         "Promoted to High-A"
       ]
     },
@@ -634,7 +636,7 @@
       "position": "P",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 55,
+      "score": 54.9,
       "previousRank": 26,
       "rank": 26,
       "change": 0,
@@ -643,7 +645,7 @@
         "performance": 17.7,
         "ageLevel": 4.2,
         "sentiment": 10,
-        "movement": 6.1,
+        "movement": 6,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -869,15 +871,41 @@
       ]
     },
     {
+      "playerId": "fd0ee31f-7ea6-4cc3-82a0-a7a3e9c78bd6",
+      "player": "Jean Cabrera",
+      "position": "RHP",
+      "affiliate": "Lehigh Valley IronPigs",
+      "level": "AAA",
+      "score": 53.3,
+      "previousRank": 37,
+      "rank": 36,
+      "change": 1,
+      "components": {
+        "scouting": 22.4,
+        "performance": 4,
+        "ageLevel": 7.5,
+        "sentiment": 10.3,
+        "movement": 4.1,
+        "risk": 5
+      },
+      "mediaMentions": 1,
+      "reasons": [
+        "MLB Pipeline rank #13",
+        "1 recent media mention",
+        "Promoted to MLB",
+        "Advanced to AAA"
+      ]
+    },
+    {
       "playerId": "35d01828-d46e-4209-9dd2-a355e05f82e5",
       "player": "Marty Gair",
       "position": "P",
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 53.3,
-      "previousRank": 37,
-      "rank": 36,
-      "change": 1,
+      "previousRank": 36,
+      "rank": 37,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -889,32 +917,6 @@
       "mediaMentions": 0,
       "reasons": [
         "Promoted to High-A"
-      ]
-    },
-    {
-      "playerId": "fd0ee31f-7ea6-4cc3-82a0-a7a3e9c78bd6",
-      "player": "Jean Cabrera",
-      "position": "RHP",
-      "affiliate": "Lehigh Valley IronPigs",
-      "level": "AAA",
-      "score": 53.2,
-      "previousRank": 36,
-      "rank": 37,
-      "change": -1,
-      "components": {
-        "scouting": 22.4,
-        "performance": 4,
-        "ageLevel": 7.5,
-        "sentiment": 10.2,
-        "movement": 4.1,
-        "risk": 5
-      },
-      "mediaMentions": 1,
-      "reasons": [
-        "MLB Pipeline rank #13",
-        "1 recent media mention",
-        "Promoted to MLB",
-        "Advanced to AAA"
       ]
     },
     {
@@ -1080,15 +1082,39 @@
       ]
     },
     {
+      "playerId": "7dc9fbba-ab85-4e33-861c-93c73db693ec",
+      "player": "Génesis Cabrera",
+      "position": "P",
+      "affiliate": "Lehigh Valley IronPigs",
+      "level": "AAA",
+      "score": 51.3,
+      "previousRank": 46,
+      "rank": 45,
+      "change": 1,
+      "components": {
+        "scouting": 12,
+        "performance": 12.5,
+        "ageLevel": 7.5,
+        "sentiment": 10.3,
+        "movement": 4,
+        "risk": 5
+      },
+      "mediaMentions": 1,
+      "reasons": [
+        "1 recent media mention",
+        "Advanced to AAA"
+      ]
+    },
+    {
       "playerId": "d27bdf7d-9b27-4db9-9e78-241a16c2c762",
       "player": "Chuck King",
       "position": "P",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 51.2,
-      "previousRank": 46,
-      "rank": 45,
-      "change": 1,
+      "previousRank": 45,
+      "rank": 46,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.2,
@@ -1101,30 +1127,6 @@
       "reasons": [
         "Promoted to AAA",
         "Advanced to AA"
-      ]
-    },
-    {
-      "playerId": "7dc9fbba-ab85-4e33-861c-93c73db693ec",
-      "player": "Génesis Cabrera",
-      "position": "P",
-      "affiliate": "Lehigh Valley IronPigs",
-      "level": "AAA",
-      "score": 51.2,
-      "previousRank": 45,
-      "rank": 46,
-      "change": -1,
-      "components": {
-        "scouting": 12,
-        "performance": 12.5,
-        "ageLevel": 7.5,
-        "sentiment": 10.2,
-        "movement": 4,
-        "risk": 5
-      },
-      "mediaMentions": 1,
-      "reasons": [
-        "1 recent media mention",
-        "Advanced to AAA"
       ]
     },
     {
