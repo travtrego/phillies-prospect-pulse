@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T13:55:47.681Z",
+  "updatedAt": "2026-08-01T19:34:19.120Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -16,7 +16,7 @@
       "position": "RHP",
       "affiliate": null,
       "level": "A+",
-      "score": 76.1,
+      "score": 76.3,
       "previousRank": 1,
       "rank": 1,
       "change": 0,
@@ -24,15 +24,15 @@
         "scouting": 25.2,
         "performance": 23.1,
         "ageLevel": 5.3,
-        "sentiment": 10.3,
+        "sentiment": 10.5,
         "movement": 7.2,
         "risk": 5
       },
-      "mediaMentions": 2,
+      "mediaMentions": 3,
       "reasons": [
         "Strong current-season performance",
         "MLB Pipeline rank #9",
-        "2 recent media mentions",
+        "3 recent media mentions",
         "Promoted to High-A"
       ]
     },
@@ -42,7 +42,7 @@
       "position": "RHP",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 73.1,
+      "score": 73.2,
       "previousRank": 2,
       "rank": 2,
       "change": 0,
@@ -50,14 +50,14 @@
         "scouting": 30,
         "performance": 16.5,
         "ageLevel": 5,
-        "sentiment": 10.4,
+        "sentiment": 10.5,
         "movement": 6.2,
         "risk": 5
       },
-      "mediaMentions": 7,
+      "mediaMentions": 8,
       "reasons": [
         "MLB Pipeline rank #2",
-        "7 recent media mentions",
+        "8 recent media mentions",
         "Promoted to AA"
       ]
     },
@@ -67,7 +67,7 @@
       "position": "LHP",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 71.7,
+      "score": 70.5,
       "previousRank": 3,
       "rank": 3,
       "change": 0,
@@ -75,15 +75,14 @@
         "scouting": 26.7,
         "performance": 13.9,
         "ageLevel": 4.2,
-        "sentiment": 12.3,
+        "sentiment": 11.1,
         "movement": 9.6,
         "risk": 5
       },
-      "mediaMentions": 3,
+      "mediaMentions": 2,
       "reasons": [
         "MLB Pipeline rank #7",
-        "3 recent media mentions",
-        "Positive recent coverage",
+        "2 recent media mentions",
         "Promoted to High-A"
       ]
     },
@@ -367,7 +366,7 @@
       "position": "OF",
       "affiliate": null,
       "level": "AA",
-      "score": 59.9,
+      "score": 59.8,
       "previousRank": 15,
       "rank": 15,
       "change": 0,
@@ -376,7 +375,7 @@
         "performance": 4,
         "ageLevel": 6.4,
         "sentiment": 10,
-        "movement": 7.1,
+        "movement": 7,
         "risk": 5
       },
       "mediaMentions": 1,
@@ -780,7 +779,7 @@
       "position": "INF",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 53.7,
+      "score": 53.6,
       "previousRank": 32,
       "rank": 32,
       "change": 0,
@@ -789,7 +788,7 @@
         "performance": 14.1,
         "ageLevel": 7.5,
         "sentiment": 10,
-        "movement": 5.1,
+        "movement": 5,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -877,9 +876,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 53.3,
-      "previousRank": 37,
+      "previousRank": 36,
       "rank": 36,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 22.4,
         "performance": 4,
@@ -903,9 +902,9 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 53.3,
-      "previousRank": 36,
+      "previousRank": 37,
       "rank": 37,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1088,9 +1087,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 51.3,
-      "previousRank": 46,
+      "previousRank": 45,
       "rank": 45,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1112,9 +1111,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 51.2,
-      "previousRank": 45,
+      "previousRank": 46,
       "rank": 46,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.2,
@@ -2455,7 +2454,7 @@
       "position": "C",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 43.6,
+      "score": 43.5,
       "previousRank": 104,
       "rank": 104,
       "change": 0,
@@ -2464,7 +2463,7 @@
         "performance": 4,
         "ageLevel": 7.5,
         "sentiment": 10,
-        "movement": 5.1,
+        "movement": 5,
         "risk": 5
       },
       "mediaMentions": 0,
