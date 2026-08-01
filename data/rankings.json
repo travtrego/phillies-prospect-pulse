@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T19:53:13.376Z",
+  "updatedAt": "2026-08-01T03:50:50.834Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -16,7 +16,7 @@
       "position": "RHP",
       "affiliate": null,
       "level": "A+",
-      "score": 76.4,
+      "score": 76.1,
       "previousRank": 1,
       "rank": 1,
       "change": 0,
@@ -24,15 +24,15 @@
         "scouting": 25.2,
         "performance": 23.1,
         "ageLevel": 5.3,
-        "sentiment": 10.5,
-        "movement": 7.3,
+        "sentiment": 10.3,
+        "movement": 7.2,
         "risk": 5
       },
-      "mediaMentions": 3,
+      "mediaMentions": 2,
       "reasons": [
         "Strong current-season performance",
         "MLB Pipeline rank #9",
-        "3 recent media mentions",
+        "2 recent media mentions",
         "Promoted to High-A"
       ]
     },
@@ -42,15 +42,15 @@
       "position": "RHP",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 76.1,
+      "score": 73.3,
       "previousRank": 2,
       "rank": 2,
       "change": 0,
       "components": {
         "scouting": 30,
-        "performance": 17.5,
+        "performance": 16.5,
         "ageLevel": 5,
-        "sentiment": 12.4,
+        "sentiment": 10.6,
         "movement": 6.2,
         "risk": 5
       },
@@ -58,7 +58,6 @@
       "reasons": [
         "MLB Pipeline rank #2",
         "8 recent media mentions",
-        "Positive recent coverage",
         "Promoted to AA"
       ]
     },
@@ -68,7 +67,7 @@
       "position": "LHP",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 70.2,
+      "score": 71.7,
       "previousRank": 3,
       "rank": 3,
       "change": 0,
@@ -76,41 +75,16 @@
         "scouting": 26.7,
         "performance": 13.9,
         "ageLevel": 4.2,
-        "sentiment": 10.8,
+        "sentiment": 12.3,
         "movement": 9.6,
         "risk": 5
       },
-      "mediaMentions": 2,
+      "mediaMentions": 3,
       "reasons": [
         "MLB Pipeline rank #7",
-        "2 recent media mentions",
+        "3 recent media mentions",
+        "Positive recent coverage",
         "Promoted to High-A"
-      ]
-    },
-    {
-      "playerId": "240e0058-6aec-4107-881b-2e66e860c81f",
-      "player": "Aidan Miller",
-      "position": "SS",
-      "affiliate": "Lehigh Valley IronPigs",
-      "level": "AAA",
-      "score": 69.5,
-      "previousRank": 4,
-      "rank": 4,
-      "change": 0,
-      "components": {
-        "scouting": 30,
-        "performance": 12.5,
-        "ageLevel": 9.3,
-        "sentiment": 11.1,
-        "movement": 4.1,
-        "risk": 2.5
-      },
-      "mediaMentions": 16,
-      "reasons": [
-        "MLB Pipeline rank #1",
-        "16 recent media mentions",
-        "Strong positive prospect coverage",
-        "Material negative recent coverage"
       ]
     },
     {
@@ -119,13 +93,13 @@
       "position": "RHP",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 67.5,
+      "score": 68.6,
       "previousRank": 5,
-      "rank": 5,
-      "change": 0,
+      "rank": 4,
+      "change": 1,
       "components": {
         "scouting": 19.5,
-        "performance": 17.3,
+        "performance": 18.4,
         "ageLevel": 6.4,
         "sentiment": 10.2,
         "movement": 9.1,
@@ -137,6 +111,32 @@
         "2 recent media mentions",
         "Promoted to MLB",
         "Advanced to AA"
+      ]
+    },
+    {
+      "playerId": "240e0058-6aec-4107-881b-2e66e860c81f",
+      "player": "Aidan Miller",
+      "position": "SS",
+      "affiliate": "Lehigh Valley IronPigs",
+      "level": "AAA",
+      "score": 67.6,
+      "previousRank": 4,
+      "rank": 5,
+      "change": -1,
+      "components": {
+        "scouting": 30,
+        "performance": 12.5,
+        "ageLevel": 9.3,
+        "sentiment": 9.2,
+        "movement": 4.1,
+        "risk": 2.5
+      },
+      "mediaMentions": 15,
+      "reasons": [
+        "MLB Pipeline rank #1",
+        "15 recent media mentions",
+        "Strong positive prospect coverage",
+        "Material negative recent coverage"
       ]
     },
     {
@@ -157,10 +157,9 @@
         "movement": 9.6,
         "risk": 5
       },
-      "mediaMentions": 1,
+      "mediaMentions": 0,
       "reasons": [
         "MLB Pipeline rank #11",
-        "1 recent media mention",
         "Promoted to High-A"
       ]
     },
@@ -215,30 +214,6 @@
       ]
     },
     {
-      "playerId": "e5eba231-6025-4d9b-9365-8666b2481e96",
-      "player": "Cody Bowker",
-      "position": "RHP",
-      "affiliate": "Clearwater Threshers",
-      "level": "A",
-      "score": 63.6,
-      "previousRank": 9,
-      "rank": 9,
-      "change": 0,
-      "components": {
-        "scouting": 21.6,
-        "performance": 15.5,
-        "ageLevel": 4.2,
-        "sentiment": 10,
-        "movement": 7.3,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "MLB Pipeline rank #14",
-        "Promoted to High-A"
-      ]
-    },
-    {
       "playerId": "b71dc9da-f667-4080-835c-c596d0d3da35",
       "player": "Matthew Fisher",
       "position": "RHP",
@@ -246,8 +221,8 @@
       "level": "A",
       "score": 63.6,
       "previousRank": 10,
-      "rank": 10,
-      "change": 0,
+      "rank": 9,
+      "change": 1,
       "components": {
         "scouting": 24.5,
         "performance": 12.7,
@@ -263,18 +238,42 @@
       ]
     },
     {
+      "playerId": "e5eba231-6025-4d9b-9365-8666b2481e96",
+      "player": "Cody Bowker",
+      "position": "RHP",
+      "affiliate": "Clearwater Threshers",
+      "level": "A",
+      "score": 63.5,
+      "previousRank": 9,
+      "rank": 10,
+      "change": -1,
+      "components": {
+        "scouting": 21.6,
+        "performance": 15.5,
+        "ageLevel": 4.2,
+        "sentiment": 10,
+        "movement": 7.2,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "MLB Pipeline rank #14",
+        "Promoted to High-A"
+      ]
+    },
+    {
       "playerId": "95c3b2e4-284d-42ef-b8e6-274b348a7802",
       "player": "Alirio Ferrebus",
       "position": "C",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 62.5,
+      "score": 62.4,
       "previousRank": 11,
       "rank": 11,
       "change": 0,
       "components": {
         "scouting": 17.3,
-        "performance": 16.4,
+        "performance": 16.3,
         "ageLevel": 4.2,
         "sentiment": 10,
         "movement": 9.6,
@@ -338,27 +337,51 @@
       ]
     },
     {
+      "playerId": "419b2cbb-e224-4f4c-a84b-fa7a0d990f37",
+      "player": "Juan Villavicencio",
+      "position": "INF",
+      "affiliate": "Clearwater Threshers",
+      "level": "A",
+      "score": 60.4,
+      "previousRank": 16,
+      "rank": 14,
+      "change": 2,
+      "components": {
+        "scouting": 12,
+        "performance": 18.6,
+        "ageLevel": 4.2,
+        "sentiment": 11,
+        "movement": 9.6,
+        "risk": 5
+      },
+      "mediaMentions": 1,
+      "reasons": [
+        "1 recent media mention",
+        "Promoted to High-A"
+      ]
+    },
+    {
       "playerId": "bfbb8a90-0673-4bd3-bace-7ccb7cd64884",
       "player": "Gabriel Rincones Jr.",
       "position": "OF",
       "affiliate": null,
       "level": "AA",
-      "score": 59.9,
+      "score": 59.8,
       "previousRank": 14,
-      "rank": 14,
-      "change": 0,
+      "rank": 15,
+      "change": -1,
       "components": {
         "scouting": 27.4,
         "performance": 4,
         "ageLevel": 6.4,
-        "sentiment": 10,
+        "sentiment": 9.9,
         "movement": 7.1,
         "risk": 5
       },
-      "mediaMentions": 1,
+      "mediaMentions": 2,
       "reasons": [
         "MLB Pipeline rank #6",
-        "1 recent media mention",
+        "2 recent media mentions",
         "Promoted to MLB",
         "Advanced to AA"
       ]
@@ -371,8 +394,8 @@
       "level": "AAA",
       "score": 59.1,
       "previousRank": 15,
-      "rank": 15,
-      "change": 0,
+      "rank": 16,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 15.4,
@@ -388,50 +411,26 @@
       ]
     },
     {
-      "playerId": "419b2cbb-e224-4f4c-a84b-fa7a0d990f37",
-      "player": "Juan Villavicencio",
-      "position": "INF",
-      "affiliate": "Clearwater Threshers",
-      "level": "A",
-      "score": 59,
-      "previousRank": 16,
-      "rank": 16,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 18.2,
-        "ageLevel": 4.2,
-        "sentiment": 10,
-        "movement": 9.6,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to High-A"
-      ]
-    },
-    {
-      "playerId": "a3ca7737-a934-4aaa-ae3f-a713b64d6d26",
-      "player": "Seth Johnson",
-      "position": "P",
-      "affiliate": "Lehigh Valley IronPigs",
-      "level": "AAA",
-      "score": 57.8,
-      "previousRank": 17,
+      "playerId": "35010e4b-9e4d-4809-9fb6-7eb1e13f779b",
+      "player": "Luis Caicuto",
+      "position": "C",
+      "affiliate": "Jersey Shore BlueClaws",
+      "level": "A+",
+      "score": 58.5,
+      "previousRank": 37,
       "rank": 17,
-      "change": 0,
+      "change": 20,
       "components": {
         "scouting": 12,
-        "performance": 14.4,
-        "ageLevel": 7.5,
+        "performance": 16.3,
+        "ageLevel": 5.3,
         "sentiment": 10,
-        "movement": 8.9,
+        "movement": 9.9,
         "risk": 5
       },
       "mediaMentions": 0,
       "reasons": [
-        "Promoted to MLB",
-        "Advanced to AAA"
+        "Promoted to AA"
       ]
     },
     {
@@ -440,24 +439,48 @@
       "position": "SS",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 57.3,
+      "score": 58,
       "previousRank": 18,
       "rank": 18,
       "change": 0,
       "components": {
         "scouting": 12.3,
-        "performance": 18.4,
+        "performance": 19.3,
         "ageLevel": 6.4,
-        "sentiment": 10,
-        "movement": 5.2,
+        "sentiment": 9.9,
+        "movement": 5.1,
         "risk": 5
       },
-      "mediaMentions": 2,
+      "mediaMentions": 3,
       "reasons": [
+        "Strong current-season performance",
         "MLB Pipeline rank #27",
-        "2 recent media mentions",
-        "Promoted to AA",
-        "Advanced to AA"
+        "3 recent media mentions",
+        "Promoted to AA"
+      ]
+    },
+    {
+      "playerId": "a3ca7737-a934-4aaa-ae3f-a713b64d6d26",
+      "player": "Seth Johnson",
+      "position": "P",
+      "affiliate": "Lehigh Valley IronPigs",
+      "level": "AAA",
+      "score": 57.7,
+      "previousRank": 17,
+      "rank": 19,
+      "change": -2,
+      "components": {
+        "scouting": 12,
+        "performance": 14.4,
+        "ageLevel": 7.5,
+        "sentiment": 10,
+        "movement": 8.8,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to MLB",
+        "Advanced to AAA"
       ]
     },
     {
@@ -468,8 +491,8 @@
       "level": "A+",
       "score": 57.1,
       "previousRank": 19,
-      "rank": 19,
-      "change": 0,
+      "rank": 20,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 15.3,
@@ -489,13 +512,13 @@
       "position": "INF",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 56.6,
+      "score": 57,
       "previousRank": 20,
-      "rank": 20,
-      "change": 0,
+      "rank": 21,
+      "change": -1,
       "components": {
         "scouting": 12,
-        "performance": 19.2,
+        "performance": 19.6,
         "ageLevel": 6.4,
         "sentiment": 10,
         "movement": 4,
@@ -513,22 +536,48 @@
       "position": "RHP",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 56.1,
+      "score": 56,
       "previousRank": 21,
-      "rank": 21,
-      "change": 0,
+      "rank": 22,
+      "change": -1,
       "components": {
         "scouting": 15.9,
         "performance": 13.7,
         "ageLevel": 4.2,
         "sentiment": 10,
-        "movement": 7.3,
+        "movement": 7.2,
         "risk": 5
       },
       "mediaMentions": 0,
       "reasons": [
         "MLB Pipeline rank #22",
         "Promoted to High-A"
+      ]
+    },
+    {
+      "playerId": "4025d691-9f48-454e-9a06-6ac3911eed7a",
+      "player": "Carson DeMartini",
+      "position": "3B",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 55.8,
+      "previousRank": 24,
+      "rank": 23,
+      "change": 1,
+      "components": {
+        "scouting": 20.2,
+        "performance": 12.5,
+        "ageLevel": 6.4,
+        "sentiment": 10.2,
+        "movement": 4,
+        "risk": 2.5
+      },
+      "mediaMentions": 1,
+      "reasons": [
+        "MLB Pipeline rank #16",
+        "1 recent media mention",
+        "Current injury lowers availability",
+        "Advanced to AA"
       ]
     },
     {
@@ -539,8 +588,8 @@
       "level": "AA",
       "score": 55.7,
       "previousRank": 22,
-      "rank": 22,
-      "change": 0,
+      "rank": 24,
+      "change": -2,
       "components": {
         "scouting": 12,
         "performance": 18.3,
@@ -562,8 +611,8 @@
       "level": "A+",
       "score": 55.5,
       "previousRank": 23,
-      "rank": 23,
-      "change": 0,
+      "rank": 25,
+      "change": -2,
       "components": {
         "scouting": 13.7,
         "performance": 11.7,
@@ -580,32 +629,6 @@
       ]
     },
     {
-      "playerId": "4025d691-9f48-454e-9a06-6ac3911eed7a",
-      "player": "Carson DeMartini",
-      "position": "3B",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 55.1,
-      "previousRank": 24,
-      "rank": 24,
-      "change": 0,
-      "components": {
-        "scouting": 20.2,
-        "performance": 11.8,
-        "ageLevel": 6.4,
-        "sentiment": 10.2,
-        "movement": 4,
-        "risk": 2.5
-      },
-      "mediaMentions": 1,
-      "reasons": [
-        "MLB Pipeline rank #16",
-        "1 recent media mention",
-        "Current injury lowers availability",
-        "Advanced to AA"
-      ]
-    },
-    {
       "playerId": "94676efc-cb38-4956-90de-921758f475b0",
       "player": "Keegan Batka",
       "position": "P",
@@ -613,8 +636,8 @@
       "level": "A",
       "score": 55,
       "previousRank": 25,
-      "rank": 25,
-      "change": 0,
+      "rank": 26,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 17.7,
@@ -634,16 +657,16 @@
       "position": "C",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 54.8,
+      "score": 54.7,
       "previousRank": 26,
-      "rank": 26,
-      "change": 0,
+      "rank": 27,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
         "ageLevel": 6.4,
         "sentiment": 10,
-        "movement": 8.9,
+        "movement": 8.8,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -660,8 +683,8 @@
       "level": "AAA",
       "score": 54.5,
       "previousRank": 27,
-      "rank": 27,
-      "change": 0,
+      "rank": 28,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 14.9,
@@ -682,16 +705,16 @@
       "position": "P",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 54.2,
+      "score": 54.1,
       "previousRank": 28,
-      "rank": 28,
-      "change": 0,
+      "rank": 29,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 11.3,
         "ageLevel": 7.5,
         "sentiment": 10,
-        "movement": 8.4,
+        "movement": 8.3,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -701,18 +724,42 @@
       ]
     },
     {
+      "playerId": "c22a13e8-a828-417b-98e5-309e7789ebd2",
+      "player": "Keaton Anthony",
+      "position": "1B",
+      "affiliate": null,
+      "level": "AA",
+      "score": 54.1,
+      "previousRank": 31,
+      "rank": 30,
+      "change": 1,
+      "components": {
+        "scouting": 11.6,
+        "performance": 17.1,
+        "ageLevel": 6.4,
+        "sentiment": 10,
+        "movement": 4,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "MLB Pipeline rank #28",
+        "Advanced to AA"
+      ]
+    },
+    {
       "playerId": "683da5fa-f1a2-4b5f-b05a-31e448302f83",
       "player": "Felix Reyes",
       "position": "OF",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 53.8,
+      "score": 54,
       "previousRank": 29,
-      "rank": 29,
-      "change": 0,
+      "rank": 31,
+      "change": -2,
       "components": {
         "scouting": 12,
-        "performance": 13.8,
+        "performance": 14,
         "ageLevel": 7.5,
         "sentiment": 10,
         "movement": 5.5,
@@ -733,8 +780,8 @@
       "level": "AAA",
       "score": 53.7,
       "previousRank": 30,
-      "rank": 30,
-      "change": 0,
+      "rank": 32,
+      "change": -2,
       "components": {
         "scouting": 12,
         "performance": 14.1,
@@ -750,27 +797,27 @@
       ]
     },
     {
-      "playerId": "c22a13e8-a828-417b-98e5-309e7789ebd2",
-      "player": "Keaton Anthony",
-      "position": "1B",
-      "affiliate": null,
-      "level": "AA",
-      "score": 53.6,
-      "previousRank": 31,
-      "rank": 31,
-      "change": 0,
+      "playerId": "0c7667e3-3eec-438b-b7e6-0f59ec7b2a0a",
+      "player": "Chase Shugart",
+      "position": "P",
+      "affiliate": "Lehigh Valley IronPigs",
+      "level": "AAA",
+      "score": 53.4,
+      "previousRank": 36,
+      "rank": 33,
+      "change": 3,
       "components": {
-        "scouting": 11.6,
-        "performance": 16.6,
-        "ageLevel": 6.4,
+        "scouting": 12,
+        "performance": 10.5,
+        "ageLevel": 7.5,
         "sentiment": 10,
-        "movement": 4,
+        "movement": 8.4,
         "risk": 5
       },
       "mediaMentions": 0,
       "reasons": [
-        "MLB Pipeline rank #28",
-        "Advanced to AA"
+        "Promoted to MLB",
+        "Advanced to AAA"
       ]
     },
     {
@@ -779,16 +826,16 @@
       "position": "RHP",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 53.5,
+      "score": 53.4,
       "previousRank": 32,
-      "rank": 32,
-      "change": 0,
+      "rank": 34,
+      "change": -2,
       "components": {
         "scouting": 20.9,
         "performance": 8.2,
         "ageLevel": 4.2,
         "sentiment": 10,
-        "movement": 5.2,
+        "movement": 5.1,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -805,8 +852,8 @@
       "level": "AA",
       "score": 53.3,
       "previousRank": 33,
-      "rank": 33,
-      "change": 0,
+      "rank": 35,
+      "change": -2,
       "components": {
         "scouting": 12,
         "performance": 18.4,
@@ -822,6 +869,32 @@
       ]
     },
     {
+      "playerId": "fd0ee31f-7ea6-4cc3-82a0-a7a3e9c78bd6",
+      "player": "Jean Cabrera",
+      "position": "RHP",
+      "affiliate": "Lehigh Valley IronPigs",
+      "level": "AAA",
+      "score": 53.3,
+      "previousRank": 35,
+      "rank": 36,
+      "change": -1,
+      "components": {
+        "scouting": 22.4,
+        "performance": 4,
+        "ageLevel": 7.5,
+        "sentiment": 10.3,
+        "movement": 4.1,
+        "risk": 5
+      },
+      "mediaMentions": 1,
+      "reasons": [
+        "MLB Pipeline rank #13",
+        "1 recent media mention",
+        "Promoted to MLB",
+        "Advanced to AAA"
+      ]
+    },
+    {
       "playerId": "35d01828-d46e-4209-9dd2-a355e05f82e5",
       "player": "Marty Gair",
       "position": "P",
@@ -829,8 +902,8 @@
       "level": "A",
       "score": 53.3,
       "previousRank": 34,
-      "rank": 34,
-      "change": 0,
+      "rank": 37,
+      "change": -3,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -845,74 +918,27 @@
       ]
     },
     {
-      "playerId": "fd0ee31f-7ea6-4cc3-82a0-a7a3e9c78bd6",
-      "player": "Jean Cabrera",
-      "position": "RHP",
-      "affiliate": "Lehigh Valley IronPigs",
-      "level": "AAA",
-      "score": 53,
-      "previousRank": 35,
-      "rank": 35,
-      "change": 0,
-      "components": {
-        "scouting": 22.4,
-        "performance": 4,
-        "ageLevel": 7.5,
-        "sentiment": 10,
-        "movement": 4.1,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "MLB Pipeline rank #13",
-        "Promoted to MLB",
-        "Advanced to AAA"
-      ]
-    },
-    {
-      "playerId": "0c7667e3-3eec-438b-b7e6-0f59ec7b2a0a",
-      "player": "Chase Shugart",
-      "position": "P",
-      "affiliate": "Lehigh Valley IronPigs",
-      "level": "AAA",
-      "score": 52.9,
-      "previousRank": 36,
-      "rank": 36,
-      "change": 0,
+      "playerId": "117ca4fe-1ad5-43ff-9f1f-aec72f0d1bb6",
+      "player": "Robert Phelps",
+      "position": "INF",
+      "affiliate": "Clearwater Threshers",
+      "level": "A",
+      "score": 52,
+      "previousRank": 39,
+      "rank": 38,
+      "change": 1,
       "components": {
         "scouting": 12,
-        "performance": 10,
-        "ageLevel": 7.5,
-        "sentiment": 10,
-        "movement": 8.4,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to MLB",
-        "Advanced to AAA"
-      ]
-    },
-    {
-      "playerId": "35010e4b-9e4d-4809-9fb6-7eb1e13f779b",
-      "player": "Luis Caicuto",
-      "position": "C",
-      "affiliate": "Jersey Shore BlueClaws",
-      "level": "A+",
-      "score": 52.6,
-      "previousRank": 37,
-      "rank": 37,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 16.3,
-        "ageLevel": 5.3,
+        "performance": 16.8,
+        "ageLevel": 4.2,
         "sentiment": 10,
         "movement": 4,
         "risk": 5
       },
-      "mediaMentions": 0,
-      "reasons": []
+      "mediaMentions": 1,
+      "reasons": [
+        "1 recent media mention"
+      ]
     },
     {
       "playerId": "a36448bb-2136-412a-943f-51d18d7f95c6",
@@ -922,8 +948,8 @@
       "level": "A+",
       "score": 51.9,
       "previousRank": 38,
-      "rank": 38,
-      "change": 0,
+      "rank": 39,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 15.6,
@@ -936,35 +962,12 @@
       "reasons": []
     },
     {
-      "playerId": "117ca4fe-1ad5-43ff-9f1f-aec72f0d1bb6",
-      "player": "Robert Phelps",
-      "position": "INF",
-      "affiliate": "Clearwater Threshers",
-      "level": "A",
-      "score": 51.9,
-      "previousRank": 39,
-      "rank": 39,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 16.7,
-        "ageLevel": 4.2,
-        "sentiment": 10,
-        "movement": 4,
-        "risk": 5
-      },
-      "mediaMentions": 1,
-      "reasons": [
-        "1 recent media mention"
-      ]
-    },
-    {
       "playerId": "51fe5804-a957-4c79-af0a-08399b915c7d",
       "player": "Brad Pacheco",
       "position": "P",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 51.8,
+      "score": 51.7,
       "previousRank": 40,
       "rank": 40,
       "change": 0,
@@ -973,7 +976,7 @@
         "performance": 15.3,
         "ageLevel": 4.2,
         "sentiment": 10.1,
-        "movement": 5.2,
+        "movement": 5.1,
         "risk": 5
       },
       "mediaMentions": 1,
@@ -1035,13 +1038,13 @@
       "position": "OF",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 51.4,
+      "score": 51.7,
       "previousRank": 43,
       "rank": 43,
       "change": 0,
       "components": {
         "scouting": 12,
-        "performance": 16.2,
+        "performance": 16.5,
         "ageLevel": 4.2,
         "sentiment": 10,
         "movement": 4,
@@ -1077,26 +1080,27 @@
       ]
     },
     {
-      "playerId": "9d5fd7a5-8b2c-47c7-90a4-f4e42de96d79",
-      "player": "Brady Day",
-      "position": "INF",
-      "affiliate": "Jersey Shore BlueClaws",
-      "level": "A+",
-      "score": 51.2,
-      "previousRank": 45,
+      "playerId": "7dc9fbba-ab85-4e33-861c-93c73db693ec",
+      "player": "Génesis Cabrera",
+      "position": "P",
+      "affiliate": "Lehigh Valley IronPigs",
+      "level": "AAA",
+      "score": 51.3,
+      "previousRank": 52,
       "rank": 45,
-      "change": 0,
+      "change": 7,
       "components": {
         "scouting": 12,
-        "performance": 13.7,
-        "ageLevel": 5.3,
-        "sentiment": 10,
-        "movement": 5.2,
+        "performance": 12.5,
+        "ageLevel": 7.5,
+        "sentiment": 10.3,
+        "movement": 4,
         "risk": 5
       },
-      "mediaMentions": 0,
+      "mediaMentions": 1,
       "reasons": [
-        "Promoted to High-A"
+        "1 recent media mention",
+        "Advanced to AAA"
       ]
     },
     {
@@ -1124,6 +1128,29 @@
       ]
     },
     {
+      "playerId": "9d5fd7a5-8b2c-47c7-90a4-f4e42de96d79",
+      "player": "Brady Day",
+      "position": "INF",
+      "affiliate": "Jersey Shore BlueClaws",
+      "level": "A+",
+      "score": 51.1,
+      "previousRank": 45,
+      "rank": 47,
+      "change": -2,
+      "components": {
+        "scouting": 12,
+        "performance": 13.7,
+        "ageLevel": 5.3,
+        "sentiment": 10,
+        "movement": 5.1,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to High-A"
+      ]
+    },
+    {
       "playerId": "b2595b1b-7ca3-4c4e-83b8-1b5cb7a78026",
       "player": "Braydon Tucker",
       "position": "P",
@@ -1131,8 +1158,8 @@
       "level": "AA",
       "score": 51.1,
       "previousRank": 47,
-      "rank": 47,
-      "change": 0,
+      "rank": 48,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 13.6,
@@ -1145,29 +1172,6 @@
       "reasons": [
         "Promoted to AA",
         "Advanced to AA"
-      ]
-    },
-    {
-      "playerId": "5c0eaf4f-42e2-4939-a8a7-e7a33166e0e5",
-      "player": "Carter Kieboom",
-      "position": "INF",
-      "affiliate": "Lehigh Valley IronPigs",
-      "level": "AAA",
-      "score": 51.1,
-      "previousRank": 48,
-      "rank": 48,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 12.6,
-        "ageLevel": 7.5,
-        "sentiment": 10,
-        "movement": 4,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Advanced to AAA"
       ]
     },
     {
@@ -1242,29 +1246,6 @@
       ]
     },
     {
-      "playerId": "7dc9fbba-ab85-4e33-861c-93c73db693ec",
-      "player": "Génesis Cabrera",
-      "position": "P",
-      "affiliate": "Lehigh Valley IronPigs",
-      "level": "AAA",
-      "score": 51,
-      "previousRank": 52,
-      "rank": 52,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 12.5,
-        "ageLevel": 7.5,
-        "sentiment": 10,
-        "movement": 4,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Advanced to AAA"
-      ]
-    },
-    {
       "playerId": "0f1ccc28-810c-4f9c-9bf0-b3a743dd31f5",
       "player": "Jonathan Hernández",
       "position": "P",
@@ -1272,8 +1253,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 53,
-      "rank": 53,
-      "change": 0,
+      "rank": 52,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1295,8 +1276,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 54,
-      "rank": 54,
-      "change": 0,
+      "rank": 53,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1318,11 +1299,34 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 55,
-      "rank": 55,
-      "change": 0,
+      "rank": 54,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
+        "ageLevel": 7.5,
+        "sentiment": 10,
+        "movement": 4,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Advanced to AAA"
+      ]
+    },
+    {
+      "playerId": "5c0eaf4f-42e2-4939-a8a7-e7a33166e0e5",
+      "player": "Carter Kieboom",
+      "position": "INF",
+      "affiliate": "Lehigh Valley IronPigs",
+      "level": "AAA",
+      "score": 50.7,
+      "previousRank": 48,
+      "rank": 55,
+      "change": -7,
+      "components": {
+        "scouting": 12,
+        "performance": 12.2,
         "ageLevel": 7.5,
         "sentiment": 10,
         "movement": 4,
@@ -1380,29 +1384,6 @@
       ]
     },
     {
-      "playerId": "abb820d6-d295-4677-8faa-6f11f95879b6",
-      "player": "Raider Tello",
-      "position": "INF",
-      "affiliate": "Jersey Shore BlueClaws",
-      "level": "A+",
-      "score": 50.3,
-      "previousRank": 58,
-      "rank": 58,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 10,
-        "ageLevel": 5.3,
-        "sentiment": 10,
-        "movement": 8,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to AA"
-      ]
-    },
-    {
       "playerId": "cc36ef45-f0bf-4472-99a6-07ad26c47b33",
       "player": "Andrew Baker",
       "position": "P",
@@ -1410,8 +1391,8 @@
       "level": "AA",
       "score": 50,
       "previousRank": 59,
-      "rank": 59,
-      "change": 0,
+      "rank": 58,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1434,8 +1415,8 @@
       "level": "AA",
       "score": 50,
       "previousRank": 60,
-      "rank": 60,
-      "change": 0,
+      "rank": 59,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1451,29 +1432,6 @@
       ]
     },
     {
-      "playerId": "ae34149a-c1e4-4d6c-b7bf-2938a99f8dbb",
-      "player": "Luke Davis",
-      "position": "C",
-      "affiliate": "Jersey Shore BlueClaws",
-      "level": "A+",
-      "score": 50,
-      "previousRank": 61,
-      "rank": 61,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 12.5,
-        "ageLevel": 5.3,
-        "sentiment": 10,
-        "movement": 5.2,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to High-A"
-      ]
-    },
-    {
       "playerId": "a0437950-770c-486f-8329-8c9f99f0b082",
       "player": "Dylan Campbell",
       "position": "OF",
@@ -1481,8 +1439,8 @@
       "level": "AA",
       "score": 49.9,
       "previousRank": 62,
-      "rank": 62,
-      "change": 0,
+      "rank": 60,
+      "change": 2,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1497,18 +1455,87 @@
       ]
     },
     {
+      "playerId": "ae34149a-c1e4-4d6c-b7bf-2938a99f8dbb",
+      "player": "Luke Davis",
+      "position": "C",
+      "affiliate": "Jersey Shore BlueClaws",
+      "level": "A+",
+      "score": 49.9,
+      "previousRank": 61,
+      "rank": 61,
+      "change": 0,
+      "components": {
+        "scouting": 12,
+        "performance": 12.5,
+        "ageLevel": 5.3,
+        "sentiment": 10,
+        "movement": 5.1,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to High-A"
+      ]
+    },
+    {
+      "playerId": "abb820d6-d295-4677-8faa-6f11f95879b6",
+      "player": "Raider Tello",
+      "position": "INF",
+      "affiliate": "Jersey Shore BlueClaws",
+      "level": "A+",
+      "score": 49.8,
+      "previousRank": 58,
+      "rank": 62,
+      "change": -4,
+      "components": {
+        "scouting": 12,
+        "performance": 9.5,
+        "ageLevel": 5.3,
+        "sentiment": 10,
+        "movement": 8,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to AA"
+      ]
+    },
+    {
+      "playerId": "7501d444-5df0-48f6-9ae4-9daa262d1309",
+      "player": "Tanner Gresham",
+      "position": "P",
+      "affiliate": "Clearwater Threshers",
+      "level": "A",
+      "score": 49.4,
+      "previousRank": 64,
+      "rank": 63,
+      "change": 1,
+      "components": {
+        "scouting": 12,
+        "performance": 11,
+        "ageLevel": 4.2,
+        "sentiment": 10,
+        "movement": 7.2,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to High-A"
+      ]
+    },
+    {
       "playerId": "2803d573-b2f4-40ce-87da-b070d0e04e5b",
       "player": "Pedro León",
       "position": "OF",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 49.7,
+      "score": 49.3,
       "previousRank": 63,
-      "rank": 63,
-      "change": 0,
+      "rank": 64,
+      "change": -1,
       "components": {
         "scouting": 12,
-        "performance": 13.7,
+        "performance": 13.3,
         "ageLevel": 7.5,
         "sentiment": 10,
         "movement": 4,
@@ -1522,26 +1549,51 @@
       ]
     },
     {
-      "playerId": "7501d444-5df0-48f6-9ae4-9daa262d1309",
-      "player": "Tanner Gresham",
+      "playerId": "2b7cd238-a794-4470-a4dc-5ef8b9ce9f45",
+      "player": "Nolan Hoffman",
       "position": "P",
-      "affiliate": "Clearwater Threshers",
-      "level": "A",
-      "score": 49.5,
-      "previousRank": 64,
-      "rank": 64,
-      "change": 0,
+      "affiliate": "Lehigh Valley IronPigs",
+      "level": "AAA",
+      "score": 49.2,
+      "previousRank": 69,
+      "rank": 65,
+      "change": 4,
       "components": {
         "scouting": 12,
-        "performance": 11,
-        "ageLevel": 4.2,
+        "performance": 8.1,
+        "ageLevel": 7.5,
         "sentiment": 10,
-        "movement": 7.3,
+        "movement": 6.6,
         "risk": 5
       },
       "mediaMentions": 0,
       "reasons": [
-        "Promoted to High-A"
+        "Promoted to MLB",
+        "Advanced to AAA"
+      ]
+    },
+    {
+      "playerId": "36c4ee1b-b7fc-4264-965f-85547f960fa8",
+      "player": "Raylin Heredia",
+      "position": "OF",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 49.2,
+      "previousRank": 66,
+      "rank": 66,
+      "change": 0,
+      "components": {
+        "scouting": 12,
+        "performance": 10.7,
+        "ageLevel": 6.4,
+        "sentiment": 10,
+        "movement": 5.1,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to AA",
+        "Advanced to AA"
       ]
     },
     {
@@ -1552,8 +1604,8 @@
       "level": "A+",
       "score": 49.1,
       "previousRank": 65,
-      "rank": 65,
-      "change": 0,
+      "rank": 67,
+      "change": -2,
       "components": {
         "scouting": 12,
         "performance": 12.8,
@@ -1566,30 +1618,6 @@
       "reasons": []
     },
     {
-      "playerId": "36c4ee1b-b7fc-4264-965f-85547f960fa8",
-      "player": "Raylin Heredia",
-      "position": "OF",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 49,
-      "previousRank": 66,
-      "rank": 66,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 10.4,
-        "ageLevel": 6.4,
-        "sentiment": 10,
-        "movement": 5.2,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to AA",
-        "Advanced to AA"
-      ]
-    },
-    {
       "playerId": "0013fde7-6dbf-4bc2-a4ed-c2176e6d8ef6",
       "player": "John Spikerman",
       "position": "OF",
@@ -1597,8 +1625,8 @@
       "level": "A+",
       "score": 48.9,
       "previousRank": 67,
-      "rank": 67,
-      "change": 0,
+      "rank": 68,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.6,
@@ -1620,8 +1648,8 @@
       "level": "A+",
       "score": 48.8,
       "previousRank": 68,
-      "rank": 68,
-      "change": 0,
+      "rank": 69,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1632,30 +1660,6 @@
       },
       "mediaMentions": 0,
       "reasons": []
-    },
-    {
-      "playerId": "2b7cd238-a794-4470-a4dc-5ef8b9ce9f45",
-      "player": "Nolan Hoffman",
-      "position": "P",
-      "affiliate": "Lehigh Valley IronPigs",
-      "level": "AAA",
-      "score": 48.7,
-      "previousRank": 69,
-      "rank": 69,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 7.6,
-        "ageLevel": 7.5,
-        "sentiment": 10,
-        "movement": 6.6,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to MLB",
-        "Advanced to AAA"
-      ]
     },
     {
       "playerId": "48c4d66a-8e86-48bb-aeb8-92d91c296d61",
@@ -1727,21 +1731,21 @@
       ]
     },
     {
-      "playerId": "7be9e107-5cfb-4e3a-a751-4ac159ff78a6",
-      "player": "Luke Gabrysh",
-      "position": "P",
+      "playerId": "4aa1b6ed-57fd-4c1f-9b34-0e98ae3b3735",
+      "player": "Kodey Shojinaga",
+      "position": "C",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 48.1,
-      "previousRank": 73,
+      "score": 48,
+      "previousRank": 75,
       "rank": 73,
-      "change": 0,
+      "change": 2,
       "components": {
         "scouting": 12,
         "performance": 11.7,
         "ageLevel": 5.3,
         "sentiment": 10,
-        "movement": 4.1,
+        "movement": 4,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -1773,29 +1777,6 @@
       ]
     },
     {
-      "playerId": "4aa1b6ed-57fd-4c1f-9b34-0e98ae3b3735",
-      "player": "Kodey Shojinaga",
-      "position": "C",
-      "affiliate": "Jersey Shore BlueClaws",
-      "level": "A+",
-      "score": 47.8,
-      "previousRank": 75,
-      "rank": 75,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 11.5,
-        "ageLevel": 5.3,
-        "sentiment": 10,
-        "movement": 4,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to High-A"
-      ]
-    },
-    {
       "playerId": "7578b19f-435e-4b15-ad35-02cf900183e4",
       "player": "Bryson Ware",
       "position": "INF",
@@ -1803,8 +1784,8 @@
       "level": "AA",
       "score": 47.7,
       "previousRank": 76,
-      "rank": 76,
-      "change": 0,
+      "rank": 75,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.8,
@@ -1828,8 +1809,8 @@
       "level": "A",
       "score": 47.7,
       "previousRank": 77,
-      "rank": 77,
-      "change": 0,
+      "rank": 76,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1842,51 +1823,28 @@
       "reasons": []
     },
     {
-      "playerId": "fbd5a3d7-ab1c-43b4-8412-3ca70609bd49",
-      "player": "Daniel Harper",
-      "position": "P",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
+      "playerId": "c30cf3e9-c48e-412e-b965-554cf5670f21",
+      "player": "Matthew Ferrara",
+      "position": "SS",
+      "affiliate": "Clearwater Threshers",
+      "level": "A",
       "score": 47.6,
-      "previousRank": 78,
-      "rank": 78,
-      "change": 0,
+      "previousRank": 82,
+      "rank": 77,
+      "change": 5,
       "components": {
-        "scouting": 12,
-        "performance": 8.6,
-        "ageLevel": 6.4,
-        "sentiment": 10.2,
-        "movement": 5.4,
+        "scouting": 14.4,
+        "performance": 9.8,
+        "ageLevel": 4.2,
+        "sentiment": 10.1,
+        "movement": 4.1,
         "risk": 5
       },
-      "mediaMentions": 1,
+      "mediaMentions": 2,
       "reasons": [
-        "1 recent media mention",
-        "Promoted to AAA",
-        "Advanced to AA"
-      ]
-    },
-    {
-      "playerId": "ffee4217-f454-4f1d-9397-796fe79fec59",
-      "player": "Juan Amarante",
-      "position": "P",
-      "affiliate": "Jersey Shore BlueClaws",
-      "level": "A+",
-      "score": 47.5,
-      "previousRank": 79,
-      "rank": 79,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 10,
-        "ageLevel": 5.3,
-        "sentiment": 10,
-        "movement": 5.2,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to High-A"
+        "MLB Pipeline rank #24",
+        "2 recent media mentions",
+        "Promoted to Single-A"
       ]
     },
     {
@@ -1897,8 +1855,8 @@
       "level": "AA",
       "score": 47.5,
       "previousRank": 80,
-      "rank": 80,
-      "change": 0,
+      "rank": 78,
+      "change": 2,
       "components": {
         "scouting": 13,
         "performance": 9,
@@ -1915,75 +1873,97 @@
       ]
     },
     {
+      "playerId": "fbd5a3d7-ab1c-43b4-8412-3ca70609bd49",
+      "player": "Daniel Harper",
+      "position": "P",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 47.4,
+      "previousRank": 78,
+      "rank": 79,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 8.6,
+        "ageLevel": 6.4,
+        "sentiment": 10,
+        "movement": 5.4,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to AAA",
+        "Advanced to AA"
+      ]
+    },
+    {
+      "playerId": "ffee4217-f454-4f1d-9397-796fe79fec59",
+      "player": "Juan Amarante",
+      "position": "P",
+      "affiliate": "Jersey Shore BlueClaws",
+      "level": "A+",
+      "score": 47.4,
+      "previousRank": 79,
+      "rank": 80,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 10,
+        "ageLevel": 5.3,
+        "sentiment": 10,
+        "movement": 5.1,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to High-A"
+      ]
+    },
+    {
+      "playerId": "7be9e107-5cfb-4e3a-a751-4ac159ff78a6",
+      "player": "Luke Gabrysh",
+      "position": "P",
+      "affiliate": "Jersey Shore BlueClaws",
+      "level": "A+",
+      "score": 47.4,
+      "previousRank": 73,
+      "rank": 81,
+      "change": -8,
+      "components": {
+        "scouting": 12,
+        "performance": 11,
+        "ageLevel": 5.3,
+        "sentiment": 10,
+        "movement": 4.1,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to High-A"
+      ]
+    },
+    {
       "playerId": "a9ed9bc1-1b2b-4659-84d8-2ad75ba07112",
       "player": "Ryan Degges",
       "position": "P",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 47.5,
+      "score": 47.4,
       "previousRank": 81,
-      "rank": 81,
-      "change": 0,
+      "rank": 82,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
         "ageLevel": 5.3,
         "sentiment": 10,
-        "movement": 5.2,
+        "movement": 5.1,
         "risk": 2.5
       },
       "mediaMentions": 0,
       "reasons": [
         "Promoted to High-A",
         "Current injury lowers availability"
-      ]
-    },
-    {
-      "playerId": "c30cf3e9-c48e-412e-b965-554cf5670f21",
-      "player": "Matthew Ferrara",
-      "position": "SS",
-      "affiliate": "Clearwater Threshers",
-      "level": "A",
-      "score": 47.3,
-      "previousRank": 82,
-      "rank": 82,
-      "change": 0,
-      "components": {
-        "scouting": 14.4,
-        "performance": 9.5,
-        "ageLevel": 4.2,
-        "sentiment": 10.1,
-        "movement": 4.1,
-        "risk": 5
-      },
-      "mediaMentions": 2,
-      "reasons": [
-        "MLB Pipeline rank #24",
-        "2 recent media mentions",
-        "Promoted to Single-A"
-      ]
-    },
-    {
-      "playerId": "96b47eb0-02ec-434b-825c-523ed83e1919",
-      "player": "Jaeden Calderon",
-      "position": "INF",
-      "affiliate": "Clearwater Threshers",
-      "level": "A",
-      "score": 47.1,
-      "previousRank": 83,
-      "rank": 83,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 10.7,
-        "ageLevel": 4.2,
-        "sentiment": 10,
-        "movement": 5.2,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to Single-A"
       ]
     },
     {
@@ -1994,8 +1974,8 @@
       "level": "A+",
       "score": 47,
       "previousRank": 84,
-      "rank": 84,
-      "change": 0,
+      "rank": 83,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 9.2,
@@ -2008,6 +1988,29 @@
       "reasons": [
         "Promoted to AA",
         "Current injury lowers availability"
+      ]
+    },
+    {
+      "playerId": "96b47eb0-02ec-434b-825c-523ed83e1919",
+      "player": "Jaeden Calderon",
+      "position": "INF",
+      "affiliate": "Clearwater Threshers",
+      "level": "A",
+      "score": 47,
+      "previousRank": 83,
+      "rank": 84,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 10.7,
+        "ageLevel": 4.2,
+        "sentiment": 10,
+        "movement": 5.1,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to Single-A"
       ]
     },
     {
@@ -2040,13 +2043,13 @@
       "position": "INF",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 46.7,
+      "score": 46.6,
       "previousRank": 86,
       "rank": 86,
       "change": 0,
       "components": {
         "scouting": 12,
-        "performance": 10.4,
+        "performance": 10.3,
         "ageLevel": 5.3,
         "sentiment": 10,
         "movement": 4,
@@ -2125,21 +2128,45 @@
       ]
     },
     {
+      "playerId": "e0548f18-f2b0-49bd-acb2-c3ea01088ff9",
+      "player": "Tristan Garnett",
+      "position": "P",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 46.1,
+      "previousRank": 92,
+      "rank": 90,
+      "change": 2,
+      "components": {
+        "scouting": 12,
+        "performance": 8.6,
+        "ageLevel": 6.4,
+        "sentiment": 10,
+        "movement": 4.1,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to AAA",
+        "Advanced to AA"
+      ]
+    },
+    {
       "playerId": "070dd035-8274-4d6b-913f-5fc424f23148",
       "player": "Richie Cortese",
       "position": "P",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 45.9,
+      "score": 45.8,
       "previousRank": 90,
-      "rank": 90,
-      "change": 0,
+      "rank": 91,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 9.5,
         "ageLevel": 4.2,
         "sentiment": 10,
-        "movement": 5.2,
+        "movement": 5.1,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -2155,14 +2182,14 @@
       "level": "A",
       "score": 45.7,
       "previousRank": 91,
-      "rank": 91,
-      "change": 0,
+      "rank": 92,
+      "change": -1,
       "components": {
         "scouting": 12,
-        "performance": 9.3,
+        "performance": 9.4,
         "ageLevel": 4.2,
         "sentiment": 10,
-        "movement": 5.2,
+        "movement": 5.1,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -2171,27 +2198,26 @@
       ]
     },
     {
-      "playerId": "e0548f18-f2b0-49bd-acb2-c3ea01088ff9",
-      "player": "Tristan Garnett",
-      "position": "P",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 45.7,
-      "previousRank": 92,
-      "rank": 92,
-      "change": 0,
+      "playerId": "aad86f1a-7bf6-4ded-9f02-50a43718783f",
+      "player": "Tyler Pettorini",
+      "position": "INF",
+      "affiliate": "Clearwater Threshers",
+      "level": "A",
+      "score": 45.6,
+      "previousRank": 96,
+      "rank": 93,
+      "change": 3,
       "components": {
         "scouting": 12,
-        "performance": 8.2,
-        "ageLevel": 6.4,
+        "performance": 7.9,
+        "ageLevel": 4.2,
         "sentiment": 10,
-        "movement": 4.1,
+        "movement": 6.5,
         "risk": 5
       },
       "mediaMentions": 0,
       "reasons": [
-        "Promoted to AAA",
-        "Advanced to AA"
+        "Promoted to High-A"
       ]
     },
     {
@@ -2202,8 +2228,8 @@
       "level": "A",
       "score": 45.5,
       "previousRank": 93,
-      "rank": 93,
-      "change": 0,
+      "rank": 94,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 10.2,
@@ -2223,16 +2249,16 @@
       "position": "P",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 45.5,
+      "score": 45.4,
       "previousRank": 94,
-      "rank": 94,
-      "change": 0,
+      "rank": 95,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 8,
         "ageLevel": 5.3,
         "sentiment": 10,
-        "movement": 5.2,
+        "movement": 5.1,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -2248,8 +2274,8 @@
       "level": "A+",
       "score": 45.3,
       "previousRank": 95,
-      "rank": 95,
-      "change": 0,
+      "rank": 96,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 11.5,
@@ -2264,44 +2290,21 @@
       ]
     },
     {
-      "playerId": "aad86f1a-7bf6-4ded-9f02-50a43718783f",
-      "player": "Tyler Pettorini",
-      "position": "INF",
-      "affiliate": "Clearwater Threshers",
-      "level": "A",
-      "score": 45.3,
-      "previousRank": 96,
-      "rank": 96,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 7.6,
-        "ageLevel": 4.2,
-        "sentiment": 10,
-        "movement": 6.5,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to High-A"
-      ]
-    },
-    {
       "playerId": "c2c54b0c-cc4a-4837-aba2-c591bf3850a5",
       "player": "Jacob Pruitt",
       "position": "P",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 45.1,
+      "score": 44.8,
       "previousRank": 97,
       "rank": 97,
       "change": 0,
       "components": {
         "scouting": 12,
-        "performance": 8.7,
+        "performance": 8.5,
         "ageLevel": 4.2,
         "sentiment": 10,
-        "movement": 5.2,
+        "movement": 5.1,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -2362,7 +2365,7 @@
       "position": "P",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 44.6,
+      "score": 44.5,
       "previousRank": 100,
       "rank": 100,
       "change": 0,
@@ -2371,7 +2374,7 @@
         "performance": 8.2,
         "ageLevel": 4.2,
         "sentiment": 10,
-        "movement": 5.2,
+        "movement": 5.1,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -2422,6 +2425,29 @@
       "reasons": []
     },
     {
+      "playerId": "16e2187a-2795-4fd3-926d-1f29b4323efa",
+      "player": "Danyony Pulido",
+      "position": "P",
+      "affiliate": "Jersey Shore BlueClaws",
+      "level": "A+",
+      "score": 43.9,
+      "previousRank": 107,
+      "rank": 103,
+      "change": 4,
+      "components": {
+        "scouting": 12,
+        "performance": 6.5,
+        "ageLevel": 5.3,
+        "sentiment": 10,
+        "movement": 5.1,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to High-A"
+      ]
+    },
+    {
       "playerId": "62ebd038-11f5-429c-bc5c-368982d5c942",
       "player": "Caleb Ricketts",
       "position": "C",
@@ -2429,8 +2455,8 @@
       "level": "AAA",
       "score": 43.6,
       "previousRank": 103,
-      "rank": 103,
-      "change": 0,
+      "rank": 104,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 4,
@@ -2443,29 +2469,6 @@
       "reasons": [
         "Promoted to AAA",
         "Advanced to AAA"
-      ]
-    },
-    {
-      "playerId": "b730cff6-6525-41c4-aa4a-0acfd9932e29",
-      "player": "Carter Mathison",
-      "position": "OF",
-      "affiliate": "Jersey Shore BlueClaws",
-      "level": "A+",
-      "score": 43.6,
-      "previousRank": 104,
-      "rank": 104,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 6.1,
-        "ageLevel": 5.3,
-        "sentiment": 10,
-        "movement": 5.2,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to High-A"
       ]
     },
     {
@@ -2498,13 +2501,13 @@
       "position": "P",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 43,
+      "score": 43.2,
       "previousRank": 106,
       "rank": 106,
       "change": 0,
       "components": {
         "scouting": 12,
-        "performance": 7.8,
+        "performance": 8,
         "ageLevel": 4.2,
         "sentiment": 10,
         "movement": 4,
@@ -2514,21 +2517,21 @@
       "reasons": []
     },
     {
-      "playerId": "16e2187a-2795-4fd3-926d-1f29b4323efa",
-      "player": "Danyony Pulido",
-      "position": "P",
+      "playerId": "b730cff6-6525-41c4-aa4a-0acfd9932e29",
+      "player": "Carter Mathison",
+      "position": "OF",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 42.9,
-      "previousRank": 107,
+      "score": 43.1,
+      "previousRank": 104,
       "rank": 107,
-      "change": 0,
+      "change": -3,
       "components": {
         "scouting": 12,
-        "performance": 5.4,
+        "performance": 5.7,
         "ageLevel": 5.3,
         "sentiment": 10,
-        "movement": 5.2,
+        "movement": 5.1,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -2542,13 +2545,13 @@
       "position": "P",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 42.8,
+      "score": 43.1,
       "previousRank": 108,
       "rank": 108,
       "change": 0,
       "components": {
         "scouting": 12,
-        "performance": 4.3,
+        "performance": 4.6,
         "ageLevel": 7.5,
         "sentiment": 10,
         "movement": 4,
@@ -2634,9 +2637,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 42.1,
-      "previousRank": 113,
+      "previousRank": 112,
       "rank": 112,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 4.4,
@@ -2658,16 +2661,16 @@
       "position": "P",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 42,
-      "previousRank": 112,
+      "score": 41.9,
+      "previousRank": 113,
       "rank": 113,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 4.5,
         "ageLevel": 5.3,
         "sentiment": 10,
-        "movement": 5.2,
+        "movement": 5.1,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -2728,7 +2731,7 @@
       "position": "P",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 40.4,
+      "score": 40.3,
       "previousRank": 116,
       "rank": 116,
       "change": 0,
@@ -2737,7 +2740,7 @@
         "performance": 4,
         "ageLevel": 4.2,
         "sentiment": 10,
-        "movement": 5.2,
+        "movement": 5.1,
         "risk": 5
       },
       "mediaMentions": 0,
