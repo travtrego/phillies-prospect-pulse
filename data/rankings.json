@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T08:37:15.902Z",
+  "updatedAt": "2026-08-02T11:35:13.085Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -104,10 +104,10 @@
         "movement": 9,
         "risk": 5
       },
-      "mediaMentions": 3,
+      "mediaMentions": 2,
       "reasons": [
         "MLB Pipeline rank #17",
-        "3 recent media mentions",
+        "2 recent media mentions",
         "Promoted to MLB",
         "Advanced to AA"
       ]
@@ -561,7 +561,7 @@
       "position": "3B",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 55.8,
+      "score": 55.7,
       "previousRank": 23,
       "rank": 23,
       "change": 0,
@@ -569,7 +569,7 @@
         "scouting": 20.2,
         "performance": 12.5,
         "ageLevel": 6.4,
-        "sentiment": 10.2,
+        "sentiment": 10.1,
         "movement": 4,
         "risk": 2.5
       },
@@ -901,7 +901,7 @@
       "position": "P",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 53.3,
+      "score": 53.2,
       "previousRank": 37,
       "rank": 37,
       "change": 0,
@@ -909,13 +909,12 @@
         "scouting": 12,
         "performance": 12.5,
         "ageLevel": 4.2,
-        "sentiment": 10.1,
+        "sentiment": 10,
         "movement": 9.5,
         "risk": 5
       },
-      "mediaMentions": 1,
+      "mediaMentions": 0,
       "reasons": [
-        "1 recent media mention",
         "Promoted to High-A"
       ]
     },
