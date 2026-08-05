@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T09:05:55.711Z",
+  "updatedAt": "2026-08-05T12:18:12.490Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -16,7 +16,7 @@
       "position": "RHP",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 72.9,
+      "score": 73.1,
       "previousRank": 1,
       "rank": 1,
       "change": 0,
@@ -24,14 +24,14 @@
         "scouting": 30,
         "performance": 16.5,
         "ageLevel": 5,
-        "sentiment": 10.3,
+        "sentiment": 10.5,
         "movement": 6.1,
         "risk": 5
       },
-      "mediaMentions": 7,
+      "mediaMentions": 8,
       "reasons": [
         "MLB Pipeline rank #2",
-        "7 recent media mentions",
+        "8 recent media mentions",
         "Promoted to AA"
       ]
     },
@@ -41,7 +41,7 @@
       "position": "LHP",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 69.1,
+      "score": 70,
       "previousRank": 2,
       "rank": 2,
       "change": 0,
@@ -49,13 +49,14 @@
         "scouting": 26.7,
         "performance": 13.9,
         "ageLevel": 4.2,
-        "sentiment": 10,
+        "sentiment": 10.9,
         "movement": 9.3,
         "risk": 5
       },
-      "mediaMentions": 0,
+      "mediaMentions": 1,
       "reasons": [
         "MLB Pipeline rank #7",
+        "1 recent media mention",
         "Promoted to High-A"
       ]
     },
@@ -103,10 +104,10 @@
         "movement": 4.1,
         "risk": 2.5
       },
-      "mediaMentions": 14,
+      "mediaMentions": 15,
       "reasons": [
         "MLB Pipeline rank #1",
-        "14 recent media mentions",
+        "15 recent media mentions",
         "Strong positive prospect coverage",
         "Material negative recent coverage"
       ]
@@ -335,15 +336,39 @@
       ]
     },
     {
+      "playerId": "419b2cbb-e224-4f4c-a84b-fa7a0d990f37",
+      "player": "Juan Villavicencio",
+      "position": "INF",
+      "affiliate": "Clearwater Threshers",
+      "level": "A",
+      "score": 59.4,
+      "previousRank": 15,
+      "rank": 14,
+      "change": 1,
+      "components": {
+        "scouting": 12,
+        "performance": 18,
+        "ageLevel": 4.2,
+        "sentiment": 10.9,
+        "movement": 9.3,
+        "risk": 5
+      },
+      "mediaMentions": 1,
+      "reasons": [
+        "1 recent media mention",
+        "Promoted to High-A"
+      ]
+    },
+    {
       "playerId": "5a9ca442-aa33-48e9-82f4-aacd5435bc0c",
       "player": "Bryan Rincon",
       "position": "SS",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 58.6,
-      "previousRank": 15,
-      "rank": 14,
-      "change": 1,
+      "previousRank": 14,
+      "rank": 15,
+      "change": -1,
       "components": {
         "scouting": 12.3,
         "performance": 19.7,
@@ -358,29 +383,6 @@
         "MLB Pipeline rank #27",
         "3 recent media mentions",
         "Promoted to AA"
-      ]
-    },
-    {
-      "playerId": "419b2cbb-e224-4f4c-a84b-fa7a0d990f37",
-      "player": "Juan Villavicencio",
-      "position": "INF",
-      "affiliate": "Clearwater Threshers",
-      "level": "A",
-      "score": 58.5,
-      "previousRank": 14,
-      "rank": 15,
-      "change": -1,
-      "components": {
-        "scouting": 12,
-        "performance": 18,
-        "ageLevel": 4.2,
-        "sentiment": 10,
-        "movement": 9.3,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to High-A"
       ]
     },
     {
@@ -581,7 +583,7 @@
       "position": "P",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 55.7,
+      "score": 55.6,
       "previousRank": 24,
       "rank": 24,
       "change": 0,
@@ -590,7 +592,7 @@
         "performance": 14.2,
         "ageLevel": 5.3,
         "sentiment": 10,
-        "movement": 9.2,
+        "movement": 9.1,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -1895,9 +1897,9 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 46.6,
-      "previousRank": 81,
+      "previousRank": 80,
       "rank": 80,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 9.1,
@@ -1918,9 +1920,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 46.5,
-      "previousRank": 80,
+      "previousRank": 81,
       "rank": 81,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 6.4,
