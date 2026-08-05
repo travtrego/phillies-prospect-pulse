@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T12:18:12.490Z",
+  "updatedAt": "2026-08-05T14:33:22.706Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -342,9 +342,9 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 59.4,
-      "previousRank": 15,
+      "previousRank": 14,
       "rank": 14,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 18,
@@ -366,9 +366,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 58.6,
-      "previousRank": 14,
+      "previousRank": 15,
       "rank": 15,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12.3,
         "performance": 19.7,
@@ -967,7 +967,7 @@
       "position": "P",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 51.4,
+      "score": 51.3,
       "previousRank": 40,
       "rank": 40,
       "change": 0,
@@ -976,7 +976,7 @@
         "performance": 12.5,
         "ageLevel": 6.4,
         "sentiment": 10,
-        "movement": 5.5,
+        "movement": 5.4,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -1103,6 +1103,29 @@
       ]
     },
     {
+      "playerId": "9e48f4e3-3271-4087-80fa-5ad6bd7a0c0d",
+      "player": "Liover Peguero",
+      "position": "INF",
+      "affiliate": "Lehigh Valley IronPigs",
+      "level": "AAA",
+      "score": 51,
+      "previousRank": 73,
+      "rank": 46,
+      "change": 27,
+      "components": {
+        "scouting": 12,
+        "performance": 12.5,
+        "ageLevel": 7.5,
+        "sentiment": 10,
+        "movement": 4,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Advanced to AAA"
+      ]
+    },
+    {
       "playerId": "3532bb84-da89-4b57-9d88-9d5499335fe2",
       "player": "Lou Trivino",
       "position": "P",
@@ -1110,8 +1133,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 46,
-      "rank": 46,
-      "change": 0,
+      "rank": 47,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1133,8 +1156,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 47,
-      "rank": 47,
-      "change": 0,
+      "rank": 48,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.4,
@@ -1157,8 +1180,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 48,
-      "rank": 48,
-      "change": 0,
+      "rank": 49,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1180,8 +1203,8 @@
       "level": "A+",
       "score": 50.9,
       "previousRank": 49,
-      "rank": 49,
-      "change": 0,
+      "rank": 50,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 14.6,
@@ -1201,8 +1224,8 @@
       "level": "A+",
       "score": 50.8,
       "previousRank": 50,
-      "rank": 50,
-      "change": 0,
+      "rank": 51,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 14.5,
@@ -1222,8 +1245,8 @@
       "level": "AAA",
       "score": 50.7,
       "previousRank": 51,
-      "rank": 51,
-      "change": 0,
+      "rank": 52,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.2,
@@ -1245,8 +1268,8 @@
       "level": "A",
       "score": 50.4,
       "previousRank": 52,
-      "rank": 52,
-      "change": 0,
+      "rank": 53,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 13.6,
@@ -1268,8 +1291,8 @@
       "level": "AA",
       "score": 50.4,
       "previousRank": 53,
-      "rank": 53,
-      "change": 0,
+      "rank": 54,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 13,
@@ -1291,8 +1314,8 @@
       "level": "AA",
       "score": 50,
       "previousRank": 54,
-      "rank": 54,
-      "change": 0,
+      "rank": 55,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1315,8 +1338,8 @@
       "level": "AA",
       "score": 50,
       "previousRank": 55,
-      "rank": 55,
-      "change": 0,
+      "rank": 56,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1339,8 +1362,8 @@
       "level": "A",
       "score": 50,
       "previousRank": 56,
-      "rank": 56,
-      "change": 0,
+      "rank": 57,
+      "change": -1,
       "components": {
         "scouting": 9,
         "performance": 12.5,
@@ -1362,8 +1385,8 @@
       "level": "AA",
       "score": 49.9,
       "previousRank": 57,
-      "rank": 57,
-      "change": 0,
+      "rank": 58,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1385,8 +1408,8 @@
       "level": "A+",
       "score": 49.9,
       "previousRank": 58,
-      "rank": 58,
-      "change": 0,
+      "rank": 59,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1408,8 +1431,8 @@
       "level": "AA",
       "score": 49.5,
       "previousRank": 59,
-      "rank": 59,
-      "change": 0,
+      "rank": 60,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.1,
@@ -1431,8 +1454,8 @@
       "level": "AAA",
       "score": 49.5,
       "previousRank": 60,
-      "rank": 60,
-      "change": 0,
+      "rank": 61,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 13.5,
@@ -1456,8 +1479,8 @@
       "level": "A+",
       "score": 49.4,
       "previousRank": 61,
-      "rank": 61,
-      "change": 0,
+      "rank": 62,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 9.3,
@@ -1479,8 +1502,8 @@
       "level": "A",
       "score": 49.3,
       "previousRank": 62,
-      "rank": 62,
-      "change": 0,
+      "rank": 63,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 11,
@@ -1502,8 +1525,8 @@
       "level": "AA",
       "score": 49.2,
       "previousRank": 63,
-      "rank": 63,
-      "change": 0,
+      "rank": 64,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 10.7,
@@ -1526,8 +1549,29 @@
       "level": "A+",
       "score": 48.8,
       "previousRank": 64,
-      "rank": 64,
-      "change": 0,
+      "rank": 65,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 12.5,
+        "ageLevel": 5.3,
+        "sentiment": 10,
+        "movement": 4,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": []
+    },
+    {
+      "playerId": "e426bf04-0b9d-46b9-8867-22bf28392f86",
+      "player": "Trent Farquhar",
+      "position": "INF",
+      "affiliate": "Jersey Shore BlueClaws",
+      "level": "A+",
+      "score": 48.8,
+      "previousRank": 82,
+      "rank": 66,
+      "change": 16,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1547,8 +1591,8 @@
       "level": "A+",
       "score": 48.7,
       "previousRank": 65,
-      "rank": 65,
-      "change": 0,
+      "rank": 67,
+      "change": -2,
       "components": {
         "scouting": 12,
         "performance": 12.4,
@@ -1568,8 +1612,8 @@
       "level": "A+",
       "score": 48.4,
       "previousRank": 66,
-      "rank": 66,
-      "change": 0,
+      "rank": 68,
+      "change": -2,
       "components": {
         "scouting": 12,
         "performance": 11,
@@ -1591,8 +1635,8 @@
       "level": "A+",
       "score": 48.3,
       "previousRank": 67,
-      "rank": 67,
-      "change": 0,
+      "rank": 69,
+      "change": -2,
       "components": {
         "scouting": 18,
         "performance": 6,
@@ -1614,8 +1658,8 @@
       "level": "AA",
       "score": 48.2,
       "previousRank": 68,
-      "rank": 68,
-      "change": 0,
+      "rank": 70,
+      "change": -2,
       "components": {
         "scouting": 12,
         "performance": 11.4,
@@ -1639,8 +1683,8 @@
       "level": "AA",
       "score": 47.7,
       "previousRank": 69,
-      "rank": 69,
-      "change": 0,
+      "rank": 71,
+      "change": -2,
       "components": {
         "scouting": 12,
         "performance": 12.8,
@@ -1664,8 +1708,8 @@
       "level": "A",
       "score": 47.7,
       "previousRank": 70,
-      "rank": 70,
-      "change": 0,
+      "rank": 72,
+      "change": -2,
       "components": {
         "scouting": 14.4,
         "performance": 10,
@@ -1689,8 +1733,8 @@
       "level": "A",
       "score": 47.7,
       "previousRank": 71,
-      "rank": 71,
-      "change": 0,
+      "rank": 73,
+      "change": -2,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1710,8 +1754,8 @@
       "level": "AA",
       "score": 47.5,
       "previousRank": 72,
-      "rank": 72,
-      "change": 0,
+      "rank": 74,
+      "change": -2,
       "components": {
         "scouting": 13,
         "performance": 9,
@@ -1728,29 +1772,6 @@
       ]
     },
     {
-      "playerId": "9e48f4e3-3271-4087-80fa-5ad6bd7a0c0d",
-      "player": "Liover Peguero",
-      "position": "INF",
-      "affiliate": "Lehigh Valley IronPigs",
-      "level": "AAA",
-      "score": 47.5,
-      "previousRank": 73,
-      "rank": 73,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 9,
-        "ageLevel": 7.5,
-        "sentiment": 10,
-        "movement": 4,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Advanced to AAA"
-      ]
-    },
-    {
       "playerId": "4aa1b6ed-57fd-4c1f-9b34-0e98ae3b3735",
       "player": "Kodey Shojinaga",
       "position": "C",
@@ -1758,8 +1779,8 @@
       "level": "A+",
       "score": 47.4,
       "previousRank": 74,
-      "rank": 74,
-      "change": 0,
+      "rank": 75,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 11.1,
@@ -1779,8 +1800,8 @@
       "level": "A+",
       "score": 47.4,
       "previousRank": 75,
-      "rank": 75,
-      "change": 0,
+      "rank": 76,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1803,8 +1824,8 @@
       "level": "A",
       "score": 47,
       "previousRank": 76,
-      "rank": 76,
-      "change": 0,
+      "rank": 77,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 10.7,
@@ -1826,8 +1847,8 @@
       "level": "A+",
       "score": 46.7,
       "previousRank": 77,
-      "rank": 77,
-      "change": 0,
+      "rank": 78,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 9.2,
@@ -1850,8 +1871,8 @@
       "level": "AA",
       "score": 46.7,
       "previousRank": 78,
-      "rank": 78,
-      "change": 0,
+      "rank": 79,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 4,
@@ -1874,8 +1895,8 @@
       "level": "AA",
       "score": 46.7,
       "previousRank": 79,
-      "rank": 79,
-      "change": 0,
+      "rank": 80,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 9.2,
@@ -1898,8 +1919,8 @@
       "level": "A",
       "score": 46.6,
       "previousRank": 80,
-      "rank": 80,
-      "change": 0,
+      "rank": 81,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 9.1,
@@ -1921,8 +1942,8 @@
       "level": "A+",
       "score": 46.5,
       "previousRank": 81,
-      "rank": 81,
-      "change": 0,
+      "rank": 82,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 6.4,
@@ -1935,27 +1956,6 @@
       "reasons": [
         "Promoted to High-A"
       ]
-    },
-    {
-      "playerId": "e426bf04-0b9d-46b9-8867-22bf28392f86",
-      "player": "Trent Farquhar",
-      "position": "INF",
-      "affiliate": "Jersey Shore BlueClaws",
-      "level": "A+",
-      "score": 46.4,
-      "previousRank": 82,
-      "rank": 82,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 10.1,
-        "ageLevel": 5.3,
-        "sentiment": 10,
-        "movement": 4,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": []
     },
     {
       "playerId": "753dded3-8c3f-4474-ad64-26924d20025d",
@@ -2303,7 +2303,7 @@
       "position": "P",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 43.7,
+      "score": 43.6,
       "previousRank": 98,
       "rank": 98,
       "change": 0,
@@ -2312,7 +2312,7 @@
         "performance": 8.4,
         "ageLevel": 5.3,
         "sentiment": 10,
-        "movement": 5.5,
+        "movement": 5.4,
         "risk": 2.5
       },
       "mediaMentions": 0,
