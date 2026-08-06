@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06T12:20:44.820Z",
+  "updatedAt": "2026-08-06T14:35:09.115Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -16,7 +16,7 @@
       "position": "RHP",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 73.1,
+      "score": 73,
       "previousRank": 1,
       "rank": 1,
       "change": 0,
@@ -25,7 +25,7 @@
         "performance": 16.5,
         "ageLevel": 5,
         "sentiment": 10.5,
-        "movement": 6.1,
+        "movement": 6,
         "risk": 5
       },
       "mediaMentions": 8,
@@ -41,7 +41,7 @@
       "position": "RHP",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 68.4,
+      "score": 68.3,
       "previousRank": 2,
       "rank": 2,
       "change": 0,
@@ -50,7 +50,7 @@
         "performance": 18.5,
         "ageLevel": 6.4,
         "sentiment": 10.2,
-        "movement": 8.8,
+        "movement": 8.7,
         "risk": 5
       },
       "mediaMentions": 2,
@@ -92,7 +92,7 @@
       "position": "SS",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 67.1,
+      "score": 67,
       "previousRank": 4,
       "rank": 4,
       "change": 0,
@@ -100,7 +100,7 @@
         "scouting": 30,
         "performance": 12.5,
         "ageLevel": 9.3,
-        "sentiment": 8.7,
+        "sentiment": 8.6,
         "movement": 4.1,
         "risk": 2.5
       },
