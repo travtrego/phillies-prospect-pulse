@@ -62,8 +62,19 @@ async function loadPlayers(statRecords) {
     const response = await fetch(endpoint, { headers: { apikey: key, Authorization: `Bearer ${key}` } });
     if (!response.ok) throw new Error(`Supabase returned ${response.status}`);
     const enriched = await response.json();
-    const statsById = new Map(localPlayers.map(player => [String(player.id), player.stats]));
-    return enriched.map(player => ({ ...player, stats: player.mlb_id ? (statsById.get(String(player.mlb_id)) || null) : null }));
+    const localById = new Map(localPlayers.map(player => [String(player.id), player]));
+    return enriched.map(player => {
+      const local = player.mlb_id ? localById.get(String(player.mlb_id)) : null;
+      // Prefer the roster level/affiliate just fetched into stats.json over Supabase's
+      // player_master snapshot, which syncs on its own slower cadence and can lag behind a
+      // same-day promotion, demotion or trade reassignment.
+      return {
+        ...player,
+        current_level: local?.current_level ?? player.current_level,
+        current_team_name: local?.current_team_name ?? player.current_team_name,
+        stats: local?.stats ?? null
+      };
+    });
   } catch (error) { console.warn(`Supabase enrichment failed; using local stats roster: ${error.message}`); return localPlayers; }
 }
 
