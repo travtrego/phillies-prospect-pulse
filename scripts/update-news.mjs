@@ -1,4 +1,4 @@
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 const queries = [
@@ -13,6 +13,42 @@ const queries = [
   "Phillies minor league injured list",
   "Phillies prospect rehab assignment"
 ];
+
+// The broad queries above ("Phillies minor leagues", "...injured list", etc.) return real
+// Google News results, but the search engine's own relevance matching is loose enough that
+// generic MLB-wide wire posts about other teams (a Cubs/Reds/Brewers injury roundup) slip
+// through. The affiliate-specific queries don't have this problem - trust those outright,
+// and require an actual Phillies/affiliate/tracked-player mention for the broad ones.
+const NARROW_QUERIES = new Set([
+  "Lehigh Valley IronPigs Phillies",
+  "Reading Fightin Phils Phillies",
+  "Jersey Shore BlueClaws Phillies",
+  "Clearwater Threshers Phillies",
+  "FCL Phillies"
+]);
+
+async function loadRelevanceTerms() {
+  const terms = new Set(["phillies", "phils", "ironpig", "fightin", "blueclaws", "threshers", "reading", "clearwater"]);
+  try {
+    const stats = JSON.parse(await readFile(path.join(process.cwd(), "data", "stats.json"), "utf8"));
+    for (const record of stats.records ?? []) {
+      const lastName = (record.player ?? "").toLowerCase().split(" ").filter(Boolean).at(-1);
+      if (lastName && lastName.length >= 4) terms.add(lastName);
+    }
+  } catch {
+    // First run before stats.json exists, or unreadable - fall back to the base term list.
+  }
+  return terms;
+}
+
+function isPhilliesRelevant(article, terms) {
+  if (NARROW_QUERIES.has(article.matchedQuery)) return true;
+  const text = `${article.title} ${article.summary}`.toLowerCase();
+  for (const term of terms) {
+    if (new RegExp(`\\b${term}`).test(text)) return true;
+  }
+  return false;
+}
 
 const injuryPatterns = [
   [/(tommy john|ucl tear|ucl surgery|elbow surgery|elbow inflammation|elbow soreness|elbow injury)/i, "Elbow/UCL"],
@@ -99,7 +135,10 @@ async function fetchQuery(query) {
 }
 
 async function main() {
-  const results = await Promise.allSettled(queries.map(fetchQuery));
+  const [results, relevanceTerms] = await Promise.all([
+    Promise.allSettled(queries.map(fetchQuery)),
+    loadRelevanceTerms()
+  ]);
   const articlesById = new Map();
   const errors = [];
 
@@ -115,7 +154,7 @@ async function main() {
   });
 
   const articles = [...articlesById.values()]
-    .filter((article) => article.title && article.url)
+    .filter((article) => article.title && article.url && isPhilliesRelevant(article, relevanceTerms))
     .sort((a, b) => new Date(b.publishedAt ?? 0) - new Date(a.publishedAt ?? 0))
     .slice(0, 250);
 
