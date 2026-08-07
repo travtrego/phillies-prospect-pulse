@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T13:39:34.647Z",
+  "updatedAt": "2026-08-07T19:15:29.761Z",
   "season": 2026,
   "rosterType": "active (MLB) + fullRoster (affiliates)",
   "records": [
@@ -3645,7 +3645,7 @@
       "weight": 190,
       "bats": "L",
       "throws": "R",
-      "jerseyNumber": null,
+      "jerseyNumber": "5",
       "active": true,
       "mlbDebutDate": null,
       "draftYear": 2024,
@@ -9422,6 +9422,12 @@
       "playerId": 656627,
       "player": "Mark Kolozsvary",
       "message": "Player appeared on more than one active affiliate roster; retained Lehigh Valley IronPigs and ignored Jersey Shore BlueClaws."
+    },
+    {
+      "stage": "duplicate-active-roster",
+      "playerId": 800953,
+      "player": "Brady Day",
+      "message": "Player appeared on more than one active affiliate roster; retained Jersey Shore BlueClaws and ignored Clearwater Threshers."
     },
     {
       "stage": "duplicate-active-roster",
