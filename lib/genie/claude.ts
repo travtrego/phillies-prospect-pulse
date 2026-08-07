@@ -61,7 +61,7 @@ export async function answerGenieQuestion(question: string, history: HistoryMess
   try {
     const response = await client.messages.create({
       model: 'claude-sonnet-5',
-      max_tokens: 1024,
+      max_tokens: 4096,
       system: [
         { type: 'text', text: SYSTEM_INSTRUCTIONS },
         { type: 'text', text: context.text, cache_control: { type: 'ephemeral', ttl: '1h' } }
