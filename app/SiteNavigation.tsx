@@ -11,7 +11,8 @@ const links=[
  {href:'/news',label:'News'},
  {href:'/promotions',label:'Promotions'},
  {href:'/injuries',label:'Injuries'},
- {href:'/prospect-genie',label:'Genie'}
+ {href:'/prospect-genie',label:'Genie'},
+ {href:'/methodology',label:'Methodology'}
 ];
 
 export default function SiteNavigation(){

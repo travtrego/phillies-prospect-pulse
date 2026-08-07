@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import "./phase-two.css";
-import "./ask.css";
 import "./movement.css";
 import "./product.css";
 import SiteNavigation from "./SiteNavigation";
