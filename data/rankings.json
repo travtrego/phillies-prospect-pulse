@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T11:08:43.990Z",
+  "updatedAt": "2026-08-07T13:39:56.378Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -28,10 +28,10 @@
         "movement": 6,
         "risk": 5
       },
-      "mediaMentions": 8,
+      "mediaMentions": 9,
       "reasons": [
         "MLB Pipeline rank #2",
-        "8 recent media mentions",
+        "9 recent media mentions",
         "Promoted to AA",
         "Advanced to AA"
       ]
@@ -93,7 +93,7 @@
       "position": "SS",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 67,
+      "score": 67.3,
       "previousRank": 4,
       "rank": 4,
       "change": 0,
@@ -101,14 +101,14 @@
         "scouting": 30,
         "performance": 12.5,
         "ageLevel": 9.3,
-        "sentiment": 8.6,
+        "sentiment": 8.9,
         "movement": 4.1,
         "risk": 2.5
       },
-      "mediaMentions": 16,
+      "mediaMentions": 15,
       "reasons": [
         "MLB Pipeline rank #1",
-        "16 recent media mentions",
+        "15 recent media mentions",
         "Strong positive prospect coverage",
         "Material negative recent coverage"
       ]
@@ -169,9 +169,9 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 64.2,
-      "previousRank": 8,
+      "previousRank": 7,
       "rank": 7,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 24.5,
         "performance": 13.6,
@@ -194,9 +194,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 64.1,
-      "previousRank": 7,
+      "previousRank": 8,
       "rank": 8,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 23.8,
         "performance": 10.9,
@@ -303,10 +303,10 @@
         "movement": 4.1,
         "risk": 2.5
       },
-      "mediaMentions": 2,
+      "mediaMentions": 3,
       "reasons": [
         "MLB Pipeline rank #5",
-        "2 recent media mentions",
+        "3 recent media mentions",
         "Promoted to AA",
         "Current injury lowers availability"
       ]
@@ -367,7 +367,7 @@
       "position": "OF",
       "affiliate": "Philadelphia Phillies",
       "level": "MLB",
-      "score": 58.8,
+      "score": 58.7,
       "previousRank": 15,
       "rank": 15,
       "change": 0,
@@ -376,7 +376,7 @@
         "performance": 15.4,
         "ageLevel": 8.2,
         "sentiment": 9.4,
-        "movement": 8.8,
+        "movement": 8.7,
         "risk": 5
       },
       "mediaMentions": 1,
@@ -428,11 +428,11 @@
         "movement": 5.1,
         "risk": 5
       },
-      "mediaMentions": 3,
+      "mediaMentions": 4,
       "reasons": [
         "Strong current-season performance",
         "MLB Pipeline rank #27",
-        "3 recent media mentions",
+        "4 recent media mentions",
         "Promoted to AA"
       ]
     },
@@ -775,30 +775,6 @@
       ]
     },
     {
-      "playerId": "0c7667e3-3eec-438b-b7e6-0f59ec7b2a0a",
-      "player": "Chase Shugart",
-      "position": "P",
-      "affiliate": "Philadelphia Phillies",
-      "level": "MLB",
-      "score": 53.4,
-      "previousRank": 32,
-      "rank": 32,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 10.1,
-        "ageLevel": 8.2,
-        "sentiment": 10,
-        "movement": 8.1,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to MLB",
-        "Advanced to MLB"
-      ]
-    },
-    {
       "playerId": "6491e98b-817a-4d4f-99e4-79fd6c0f10c1",
       "player": "Sean Youngerman",
       "position": "RHP",
@@ -806,8 +782,8 @@
       "level": "A",
       "score": 53.4,
       "previousRank": 33,
-      "rank": 33,
-      "change": 0,
+      "rank": 32,
+      "change": 1,
       "components": {
         "scouting": 20.9,
         "performance": 8.2,
@@ -830,8 +806,8 @@
       "level": "AA",
       "score": 53.3,
       "previousRank": 34,
-      "rank": 34,
-      "change": 0,
+      "rank": 33,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 18.4,
@@ -844,6 +820,30 @@
       "reasons": [
         "Current injury lowers availability",
         "Advanced to AA"
+      ]
+    },
+    {
+      "playerId": "0c7667e3-3eec-438b-b7e6-0f59ec7b2a0a",
+      "player": "Chase Shugart",
+      "position": "P",
+      "affiliate": "Philadelphia Phillies",
+      "level": "MLB",
+      "score": 53.3,
+      "previousRank": 32,
+      "rank": 34,
+      "change": -2,
+      "components": {
+        "scouting": 12,
+        "performance": 10.1,
+        "ageLevel": 8.2,
+        "sentiment": 10,
+        "movement": 8,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to MLB",
+        "Advanced to MLB"
       ]
     },
     {
@@ -877,9 +877,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 52,
-      "previousRank": 37,
+      "previousRank": 36,
       "rank": 36,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 14.5,
@@ -901,9 +901,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 52,
-      "previousRank": 38,
+      "previousRank": 37,
       "rank": 37,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 15,
@@ -926,9 +926,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 52,
-      "previousRank": 36,
+      "previousRank": 38,
       "rank": 38,
-      "change": -2,
+      "change": 0,
       "components": {
         "scouting": 9,
         "performance": 12.5,
@@ -1135,31 +1135,6 @@
       ]
     },
     {
-      "playerId": "d27bdf7d-9b27-4db9-9e78-241a16c2c762",
-      "player": "Chuck King",
-      "position": "P",
-      "affiliate": "Lehigh Valley IronPigs",
-      "level": "AAA",
-      "score": 51,
-      "previousRank": 47,
-      "rank": 47,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 11,
-        "ageLevel": 7.5,
-        "sentiment": 10,
-        "movement": 5.5,
-        "risk": 5
-      },
-      "mediaMentions": 1,
-      "reasons": [
-        "1 recent media mention",
-        "Promoted to AAA",
-        "Advanced to AAA"
-      ]
-    },
-    {
       "playerId": "7dc9fbba-ab85-4e33-861c-93c73db693ec",
       "player": "Génesis Cabrera",
       "position": "P",
@@ -1167,8 +1142,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 48,
-      "rank": 48,
-      "change": 0,
+      "rank": 47,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1190,8 +1165,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 49,
-      "rank": 49,
-      "change": 0,
+      "rank": 48,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1213,8 +1188,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 50,
-      "rank": 50,
-      "change": 0,
+      "rank": 49,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1236,8 +1211,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 51,
-      "rank": 51,
-      "change": 0,
+      "rank": 50,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1259,8 +1234,8 @@
       "level": "AAA",
       "score": 50.9,
       "previousRank": 52,
-      "rank": 52,
-      "change": 0,
+      "rank": 51,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.4,
@@ -1271,6 +1246,31 @@
       },
       "mediaMentions": 0,
       "reasons": [
+        "Advanced to AAA"
+      ]
+    },
+    {
+      "playerId": "d27bdf7d-9b27-4db9-9e78-241a16c2c762",
+      "player": "Chuck King",
+      "position": "P",
+      "affiliate": "Lehigh Valley IronPigs",
+      "level": "AAA",
+      "score": 50.9,
+      "previousRank": 47,
+      "rank": 52,
+      "change": -5,
+      "components": {
+        "scouting": 12,
+        "performance": 11,
+        "ageLevel": 7.5,
+        "sentiment": 10,
+        "movement": 5.4,
+        "risk": 5
+      },
+      "mediaMentions": 1,
+      "reasons": [
+        "1 recent media mention",
+        "Promoted to AAA",
         "Advanced to AAA"
       ]
     },
@@ -1725,9 +1725,9 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 47.7,
-      "previousRank": 73,
+      "previousRank": 72,
       "rank": 72,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1746,9 +1746,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 47.6,
-      "previousRank": 72,
+      "previousRank": 73,
       "rank": 73,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 4,
@@ -1764,29 +1764,6 @@
       ]
     },
     {
-      "playerId": "aad86f1a-7bf6-4ded-9f02-50a43718783f",
-      "player": "Tyler Pettorini",
-      "position": "INF",
-      "affiliate": "Jersey Shore BlueClaws",
-      "level": "A+",
-      "score": 47.6,
-      "previousRank": 74,
-      "rank": 74,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 9,
-        "ageLevel": 5.3,
-        "sentiment": 10,
-        "movement": 6.3,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to High-A"
-      ]
-    },
-    {
       "playerId": "1afc5bb5-5988-43ea-b924-42ae5d6690d6",
       "player": "Kehden Hettiger",
       "position": "C",
@@ -1794,8 +1771,8 @@
       "level": "AA",
       "score": 47.5,
       "previousRank": 75,
-      "rank": 75,
-      "change": 0,
+      "rank": 74,
+      "change": 1,
       "components": {
         "scouting": 13,
         "performance": 9,
@@ -1809,6 +1786,29 @@
         "MLB Pipeline rank #26",
         "Promoted to AA",
         "Advanced to AA"
+      ]
+    },
+    {
+      "playerId": "aad86f1a-7bf6-4ded-9f02-50a43718783f",
+      "player": "Tyler Pettorini",
+      "position": "INF",
+      "affiliate": "Jersey Shore BlueClaws",
+      "level": "A+",
+      "score": 47.5,
+      "previousRank": 74,
+      "rank": 75,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 9,
+        "ageLevel": 5.3,
+        "sentiment": 10,
+        "movement": 6.2,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to High-A"
       ]
     },
     {
@@ -2554,7 +2554,7 @@
       "position": "OF",
       "affiliate": "FCL Phillies",
       "level": "Rookie",
-      "score": 40,
+      "score": 39.9,
       "previousRank": 108,
       "rank": 108,
       "change": 0,
@@ -2563,7 +2563,7 @@
         "performance": 4,
         "ageLevel": 2.7,
         "sentiment": 10,
-        "movement": 6.3,
+        "movement": 6.2,
         "risk": 5
       },
       "mediaMentions": 0,
