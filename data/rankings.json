@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T10:52:20.865Z",
+  "updatedAt": "2026-08-08T13:12:53.654Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -16,7 +16,7 @@
       "position": "RHP",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 74,
+      "score": 74.1,
       "previousRank": 1,
       "rank": 1,
       "change": 0,
@@ -24,7 +24,7 @@
         "scouting": 30,
         "performance": 15.6,
         "ageLevel": 7.2,
-        "sentiment": 10.2,
+        "sentiment": 10.3,
         "movement": 6,
         "risk": 5
       },
@@ -362,6 +362,31 @@
       ]
     },
     {
+      "playerId": "66e212da-5ac0-4a0c-96fc-16526f1c9aa5",
+      "player": "Bryan De La Cruz",
+      "position": "OF",
+      "affiliate": "Philadelphia Phillies",
+      "level": "MLB",
+      "score": 58.8,
+      "previousRank": 16,
+      "rank": 15,
+      "change": 1,
+      "components": {
+        "scouting": 12,
+        "performance": 15.4,
+        "ageLevel": 8.2,
+        "sentiment": 9.5,
+        "movement": 8.7,
+        "risk": 5
+      },
+      "mediaMentions": 1,
+      "reasons": [
+        "1 recent media mention",
+        "Promoted to MLB",
+        "Advanced to MLB"
+      ]
+    },
+    {
       "playerId": "94676efc-cb38-4956-90de-921758f475b0",
       "player": "Keegan Batka",
       "position": "P",
@@ -369,8 +394,8 @@
       "level": "A+",
       "score": 58.8,
       "previousRank": 15,
-      "rank": 15,
-      "change": 0,
+      "rank": 16,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 20.6,
@@ -386,37 +411,12 @@
       ]
     },
     {
-      "playerId": "66e212da-5ac0-4a0c-96fc-16526f1c9aa5",
-      "player": "Bryan De La Cruz",
-      "position": "OF",
-      "affiliate": "Philadelphia Phillies",
-      "level": "MLB",
-      "score": 58.7,
-      "previousRank": 16,
-      "rank": 16,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 15.4,
-        "ageLevel": 8.2,
-        "sentiment": 9.4,
-        "movement": 8.7,
-        "risk": 5
-      },
-      "mediaMentions": 1,
-      "reasons": [
-        "1 recent media mention",
-        "Promoted to MLB",
-        "Advanced to MLB"
-      ]
-    },
-    {
       "playerId": "117ca4fe-1ad5-43ff-9f1f-aec72f0d1bb6",
       "player": "Robert Phelps",
       "position": "INF",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 58.7,
+      "score": 58.6,
       "previousRank": 17,
       "rank": 17,
       "change": 0,
@@ -425,7 +425,7 @@
         "performance": 16.7,
         "ageLevel": 5.3,
         "sentiment": 10,
-        "movement": 9.7,
+        "movement": 9.6,
         "risk": 5
       },
       "mediaMentions": 1,
@@ -661,9 +661,9 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 54.9,
-      "previousRank": 28,
+      "previousRank": 27,
       "rank": 27,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 18,
@@ -685,9 +685,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 54.8,
-      "previousRank": 27,
+      "previousRank": 28,
       "rank": 28,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.4,
