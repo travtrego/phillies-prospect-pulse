@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T13:12:53.654Z",
+  "updatedAt": "2026-08-08T18:58:37.354Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -28,10 +28,10 @@
         "movement": 6,
         "risk": 5
       },
-      "mediaMentions": 7,
+      "mediaMentions": 6,
       "reasons": [
         "MLB Pipeline rank #2",
-        "7 recent media mentions",
+        "6 recent media mentions",
         "Promoted to AA",
         "Advanced to AA"
       ]
@@ -42,7 +42,7 @@
       "position": "RHP",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 69.2,
+      "score": 69.3,
       "previousRank": 2,
       "rank": 2,
       "change": 0,
@@ -50,14 +50,14 @@
         "scouting": 19.5,
         "performance": 18.5,
         "ageLevel": 7.5,
-        "sentiment": 10.1,
+        "sentiment": 10.2,
         "movement": 8.6,
         "risk": 5
       },
-      "mediaMentions": 2,
+      "mediaMentions": 3,
       "reasons": [
         "MLB Pipeline rank #17",
-        "2 recent media mentions",
+        "3 recent media mentions",
         "Promoted to MLB",
         "Advanced to AAA"
       ]
@@ -368,9 +368,9 @@
       "affiliate": "Philadelphia Phillies",
       "level": "MLB",
       "score": 58.8,
-      "previousRank": 16,
+      "previousRank": 15,
       "rank": 15,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 15.4,
@@ -393,9 +393,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 58.8,
-      "previousRank": 15,
+      "previousRank": 16,
       "rank": 16,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 20.6,
@@ -466,7 +466,7 @@
       "position": "C",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 58.2,
+      "score": 58.1,
       "previousRank": 19,
       "rank": 19,
       "change": 0,
@@ -475,7 +475,7 @@
         "performance": 15.4,
         "ageLevel": 6.4,
         "sentiment": 10,
-        "movement": 9.4,
+        "movement": 9.3,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -799,6 +799,31 @@
       ]
     },
     {
+      "playerId": "683da5fa-f1a2-4b5f-b05a-31e448302f83",
+      "player": "Felix Reyes",
+      "position": "OF",
+      "affiliate": "Lehigh Valley IronPigs",
+      "level": "AAA",
+      "score": 53.5,
+      "previousRank": 34,
+      "rank": 33,
+      "change": 1,
+      "components": {
+        "scouting": 12,
+        "performance": 13.5,
+        "ageLevel": 7.5,
+        "sentiment": 10.2,
+        "movement": 5.3,
+        "risk": 5
+      },
+      "mediaMentions": 2,
+      "reasons": [
+        "2 recent media mentions",
+        "Promoted to MLB",
+        "Advanced to AAA"
+      ]
+    },
+    {
       "playerId": "7359f8aa-ef01-4381-ba96-6045235b1969",
       "player": "Austin Murr",
       "position": "OF",
@@ -806,8 +831,8 @@
       "level": "AA",
       "score": 53.3,
       "previousRank": 33,
-      "rank": 33,
-      "change": 0,
+      "rank": 34,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 18.4,
@@ -820,31 +845,6 @@
       "reasons": [
         "Current injury lowers availability",
         "Advanced to AA"
-      ]
-    },
-    {
-      "playerId": "683da5fa-f1a2-4b5f-b05a-31e448302f83",
-      "player": "Felix Reyes",
-      "position": "OF",
-      "affiliate": "Lehigh Valley IronPigs",
-      "level": "AAA",
-      "score": 53.3,
-      "previousRank": 34,
-      "rank": 34,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 13.5,
-        "ageLevel": 7.5,
-        "sentiment": 10,
-        "movement": 5.3,
-        "risk": 5
-      },
-      "mediaMentions": 1,
-      "reasons": [
-        "1 recent media mention",
-        "Promoted to MLB",
-        "Advanced to AAA"
       ]
     },
     {
@@ -1018,26 +1018,49 @@
       ]
     },
     {
-      "playerId": "51fe5804-a957-4c79-af0a-08399b915c7d",
-      "player": "Brad Pacheco",
+      "playerId": "3532bb84-da89-4b57-9d88-9d5499335fe2",
+      "player": "Lou Trivino",
       "position": "P",
-      "affiliate": "Clearwater Threshers",
-      "level": "A",
+      "affiliate": "Lehigh Valley IronPigs",
+      "level": "AAA",
       "score": 51.2,
-      "previousRank": 42,
+      "previousRank": 47,
       "rank": 42,
-      "change": 0,
+      "change": 5,
       "components": {
         "scouting": 12,
-        "performance": 14.9,
-        "ageLevel": 4.2,
-        "sentiment": 10.1,
-        "movement": 5,
+        "performance": 12.5,
+        "ageLevel": 7.5,
+        "sentiment": 10.2,
+        "movement": 4,
         "risk": 5
       },
       "mediaMentions": 1,
       "reasons": [
         "1 recent media mention",
+        "Advanced to AAA"
+      ]
+    },
+    {
+      "playerId": "51fe5804-a957-4c79-af0a-08399b915c7d",
+      "player": "Brad Pacheco",
+      "position": "P",
+      "affiliate": "Clearwater Threshers",
+      "level": "A",
+      "score": 51.1,
+      "previousRank": 42,
+      "rank": 43,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 14.9,
+        "ageLevel": 4.2,
+        "sentiment": 10,
+        "movement": 5,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
         "Promoted to Single-A"
       ]
     },
@@ -1049,8 +1072,8 @@
       "level": "A+",
       "score": 51.1,
       "previousRank": 43,
-      "rank": 43,
-      "change": 0,
+      "rank": 44,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 13.2,
@@ -1072,8 +1095,8 @@
       "level": "AAA",
       "score": 51.1,
       "previousRank": 44,
-      "rank": 44,
-      "change": 0,
+      "rank": 45,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1096,8 +1119,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 45,
-      "rank": 45,
-      "change": 0,
+      "rank": 46,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1119,31 +1142,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 46,
-      "rank": 46,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 12.5,
-        "ageLevel": 7.5,
-        "sentiment": 10,
-        "movement": 4,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Advanced to AAA"
-      ]
-    },
-    {
-      "playerId": "3532bb84-da89-4b57-9d88-9d5499335fe2",
-      "player": "Lou Trivino",
-      "position": "P",
-      "affiliate": "Lehigh Valley IronPigs",
-      "level": "AAA",
-      "score": 51,
-      "previousRank": 47,
       "rank": 47,
-      "change": 0,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1874,9 +1874,8 @@
         "movement": 5.3,
         "risk": 5
       },
-      "mediaMentions": 1,
+      "mediaMentions": 0,
       "reasons": [
-        "1 recent media mention",
         "Promoted to AAA",
         "Advanced to AA"
       ]
