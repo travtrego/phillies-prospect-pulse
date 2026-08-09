@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T10:53:38.106Z",
+  "updatedAt": "2026-08-09T13:16:17.682Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -293,7 +293,7 @@
       "position": "OF",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 60.7,
+      "score": 60.6,
       "previousRank": 12,
       "rank": 12,
       "change": 0,
@@ -302,7 +302,7 @@
         "performance": 4,
         "ageLevel": 7.5,
         "sentiment": 10,
-        "movement": 6.8,
+        "movement": 6.7,
         "risk": 5
       },
       "mediaMentions": 1,
@@ -587,7 +587,7 @@
       "position": "INF",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 56.8,
+      "score": 56.7,
       "previousRank": 24,
       "rank": 24,
       "change": 0,
@@ -596,7 +596,7 @@
         "performance": 13.7,
         "ageLevel": 6.4,
         "sentiment": 10,
-        "movement": 9.7,
+        "movement": 9.6,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -920,29 +920,6 @@
       ]
     },
     {
-      "playerId": "d04e944a-e015-46b1-b32c-988723904e96",
-      "player": "Camron Hill",
-      "position": "P",
-      "affiliate": "Jersey Shore BlueClaws",
-      "level": "A+",
-      "score": 51.9,
-      "previousRank": 38,
-      "rank": 38,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 14,
-        "ageLevel": 5.3,
-        "sentiment": 10,
-        "movement": 5.6,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to High-A"
-      ]
-    },
-    {
       "playerId": "285d47d5-92a7-4f48-be72-5fbe35722d52",
       "player": "Guillermo Rosario",
       "position": "C",
@@ -950,8 +927,8 @@
       "level": "AA",
       "score": 51.9,
       "previousRank": 39,
-      "rank": 39,
-      "change": 0,
+      "rank": 38,
+      "change": 1,
       "components": {
         "scouting": 9,
         "performance": 12.5,
@@ -974,8 +951,8 @@
       "level": "AA",
       "score": 51.9,
       "previousRank": 40,
-      "rank": 40,
-      "change": 0,
+      "rank": 39,
+      "change": 1,
       "components": {
         "scouting": 22.4,
         "performance": 4,
@@ -989,6 +966,29 @@
         "MLB Pipeline rank #13",
         "Promoted to MLB",
         "Advanced to AA"
+      ]
+    },
+    {
+      "playerId": "d04e944a-e015-46b1-b32c-988723904e96",
+      "player": "Camron Hill",
+      "position": "P",
+      "affiliate": "Jersey Shore BlueClaws",
+      "level": "A+",
+      "score": 51.8,
+      "previousRank": 38,
+      "rank": 40,
+      "change": -2,
+      "components": {
+        "scouting": 12,
+        "performance": 14,
+        "ageLevel": 5.3,
+        "sentiment": 10,
+        "movement": 5.5,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to High-A"
       ]
     },
     {
@@ -1040,30 +1040,6 @@
       ]
     },
     {
-      "playerId": "3532bb84-da89-4b57-9d88-9d5499335fe2",
-      "player": "Lou Trivino",
-      "position": "P",
-      "affiliate": "Lehigh Valley IronPigs",
-      "level": "AAA",
-      "score": 51.2,
-      "previousRank": 43,
-      "rank": 43,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 12.5,
-        "ageLevel": 7.5,
-        "sentiment": 10.2,
-        "movement": 4,
-        "risk": 5
-      },
-      "mediaMentions": 1,
-      "reasons": [
-        "1 recent media mention",
-        "Advanced to AAA"
-      ]
-    },
-    {
       "playerId": "51fe5804-a957-4c79-af0a-08399b915c7d",
       "player": "Brad Pacheco",
       "position": "P",
@@ -1071,8 +1047,8 @@
       "level": "A",
       "score": 51.1,
       "previousRank": 44,
-      "rank": 44,
-      "change": 0,
+      "rank": 43,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 14.9,
@@ -1094,8 +1070,8 @@
       "level": "AAA",
       "score": 51.1,
       "previousRank": 45,
-      "rank": 45,
-      "change": 0,
+      "rank": 44,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1107,6 +1083,30 @@
       "mediaMentions": 0,
       "reasons": [
         "Promoted to AAA",
+        "Advanced to AAA"
+      ]
+    },
+    {
+      "playerId": "3532bb84-da89-4b57-9d88-9d5499335fe2",
+      "player": "Lou Trivino",
+      "position": "P",
+      "affiliate": "Lehigh Valley IronPigs",
+      "level": "AAA",
+      "score": 51.1,
+      "previousRank": 43,
+      "rank": 45,
+      "change": -2,
+      "components": {
+        "scouting": 12,
+        "performance": 12.5,
+        "ageLevel": 7.5,
+        "sentiment": 10.1,
+        "movement": 4,
+        "risk": 5
+      },
+      "mediaMentions": 1,
+      "reasons": [
+        "1 recent media mention",
         "Advanced to AAA"
       ]
     },
@@ -1699,9 +1699,9 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 47.7,
-      "previousRank": 72,
+      "previousRank": 71,
       "rank": 71,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1720,9 +1720,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 47.6,
-      "previousRank": 71,
+      "previousRank": 72,
       "rank": 72,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 9.2,
