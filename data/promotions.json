@@ -1,6 +1,28 @@
 {
-  "updatedAt": "2026-08-09T13:15:57.774Z",
+  "updatedAt": "2026-08-09T19:00:38.404Z",
   "records": [
+    {
+      "playerId": 660604,
+      "player": "Alan Rangel",
+      "date": "2026-08-09",
+      "fromAffiliate": "Lehigh Valley IronPigs",
+      "fromLevel": "AAA",
+      "toAffiliate": "Philadelphia Phillies",
+      "toLevel": "MLB",
+      "description": "Philadelphia Phillies recalled RHP Alan Rangel from Lehigh Valley IronPigs.",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-08-09&endDate=2026-08-09"
+    },
+    {
+      "playerId": 699552,
+      "player": "Brandon Beckel",
+      "date": "2026-08-09",
+      "fromAffiliate": "Jersey Shore BlueClaws",
+      "fromLevel": "High-A",
+      "toAffiliate": "Lehigh Valley IronPigs",
+      "toLevel": "AAA",
+      "description": "RHP Brandon Beckel assigned to Lehigh Valley IronPigs from Jersey Shore BlueClaws.",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-08-09&endDate=2026-08-09"
+    },
     {
       "playerId": 829089,
       "player": "Romeli Espinosa",
