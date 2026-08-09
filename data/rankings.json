@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T07:16:29.778Z",
+  "updatedAt": "2026-08-09T10:53:38.106Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -16,7 +16,7 @@
       "position": "RHP",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 74,
+      "score": 74.1,
       "previousRank": 1,
       "rank": 1,
       "change": 0,
@@ -24,7 +24,7 @@
         "scouting": 30,
         "performance": 15.6,
         "ageLevel": 7.2,
-        "sentiment": 10.2,
+        "sentiment": 10.3,
         "movement": 6,
         "risk": 5
       },
@@ -393,9 +393,9 @@
       "affiliate": "Philadelphia Phillies",
       "level": "MLB",
       "score": 59.2,
-      "previousRank": 17,
+      "previousRank": 16,
       "rank": 16,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 15.4,
@@ -417,9 +417,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 59,
-      "previousRank": 16,
+      "previousRank": 17,
       "rank": 17,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 17.1,
@@ -707,7 +707,7 @@
       "position": "P",
       "affiliate": "Philadelphia Phillies",
       "level": "MLB",
-      "score": 54.2,
+      "score": 54.1,
       "previousRank": 29,
       "rank": 29,
       "change": 0,
@@ -716,7 +716,7 @@
         "performance": 11,
         "ageLevel": 8.2,
         "sentiment": 10,
-        "movement": 8,
+        "movement": 7.9,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -1279,9 +1279,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 50.8,
-      "previousRank": 54,
+      "previousRank": 53,
       "rank": 53,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 9.8,
@@ -1303,9 +1303,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 50.7,
-      "previousRank": 55,
+      "previousRank": 54,
       "rank": 54,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 13.2,
@@ -1327,9 +1327,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 50.7,
-      "previousRank": 53,
+      "previousRank": 55,
       "rank": 55,
-      "change": -2,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 10.4,
@@ -1693,31 +1693,6 @@
       ]
     },
     {
-      "playerId": "a68ca598-ad9e-460a-98df-4b98c0332d9b",
-      "player": "Gabriel Barbosa",
-      "position": "P",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 47.7,
-      "previousRank": 71,
-      "rank": 71,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 9.2,
-        "ageLevel": 6.4,
-        "sentiment": 10,
-        "movement": 7.6,
-        "risk": 2.5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to AA",
-        "Current injury lowers availability",
-        "Advanced to AA"
-      ]
-    },
-    {
       "playerId": "8b7a23de-db4b-489c-b2b0-c7a56e09370d",
       "player": "Nate Humphreys",
       "position": "OF",
@@ -1725,8 +1700,8 @@
       "level": "A",
       "score": 47.7,
       "previousRank": 72,
-      "rank": 72,
-      "change": 0,
+      "rank": 71,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1737,6 +1712,31 @@
       },
       "mediaMentions": 0,
       "reasons": []
+    },
+    {
+      "playerId": "a68ca598-ad9e-460a-98df-4b98c0332d9b",
+      "player": "Gabriel Barbosa",
+      "position": "P",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 47.6,
+      "previousRank": 71,
+      "rank": 72,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 9.2,
+        "ageLevel": 6.4,
+        "sentiment": 10,
+        "movement": 7.5,
+        "risk": 2.5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to AA",
+        "Current injury lowers availability",
+        "Advanced to AA"
+      ]
     },
     {
       "playerId": "afee8713-2602-49f1-a02e-c93aa38e49ef",
@@ -2387,9 +2387,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 42.8,
-      "previousRank": 102,
+      "previousRank": 101,
       "rank": 101,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 5.1,
@@ -2412,9 +2412,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 42.7,
-      "previousRank": 101,
+      "previousRank": 102,
       "rank": 102,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 4.4,
