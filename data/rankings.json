@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T13:47:32.501Z",
+  "updatedAt": "2026-08-12T19:20:57.697Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -28,10 +28,10 @@
         "movement": 5.9,
         "risk": 5
       },
-      "mediaMentions": 6,
+      "mediaMentions": 7,
       "reasons": [
         "MLB Pipeline rank #2",
-        "6 recent media mentions",
+        "7 recent media mentions",
         "Promoted to AA",
         "Advanced to AA"
       ]
@@ -63,55 +63,55 @@
       ]
     },
     {
-      "playerId": "240e0058-6aec-4107-881b-2e66e860c81f",
-      "player": "Aidan Miller",
-      "position": "SS",
-      "affiliate": "Lehigh Valley IronPigs",
-      "level": "AAA",
-      "score": 68,
-      "previousRank": 3,
-      "rank": 3,
-      "change": 0,
-      "components": {
-        "scouting": 30,
-        "performance": 12.5,
-        "ageLevel": 9.3,
-        "sentiment": 9.6,
-        "movement": 4.1,
-        "risk": 2.5
-      },
-      "mediaMentions": 15,
-      "reasons": [
-        "MLB Pipeline rank #1",
-        "15 recent media mentions",
-        "Strong positive prospect coverage",
-        "Material negative recent coverage"
-      ]
-    },
-    {
       "playerId": "b2c73058-570a-45a4-9872-b734627c893d",
       "player": "Cade Obermueller",
       "position": "LHP",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 67.8,
+      "score": 69.3,
       "previousRank": 4,
-      "rank": 4,
-      "change": 0,
+      "rank": 3,
+      "change": 1,
       "components": {
         "scouting": 26.7,
         "performance": 10.5,
         "ageLevel": 5.3,
-        "sentiment": 11.5,
+        "sentiment": 13,
         "movement": 8.8,
         "risk": 5
       },
-      "mediaMentions": 1,
+      "mediaMentions": 2,
       "reasons": [
         "MLB Pipeline rank #7",
-        "1 recent media mention",
+        "2 recent media mentions",
         "Positive recent coverage",
         "Promoted to High-A"
+      ]
+    },
+    {
+      "playerId": "240e0058-6aec-4107-881b-2e66e860c81f",
+      "player": "Aidan Miller",
+      "position": "SS",
+      "affiliate": "Lehigh Valley IronPigs",
+      "level": "AAA",
+      "score": 67.9,
+      "previousRank": 3,
+      "rank": 4,
+      "change": -1,
+      "components": {
+        "scouting": 30,
+        "performance": 12.5,
+        "ageLevel": 9.3,
+        "sentiment": 9.5,
+        "movement": 4.1,
+        "risk": 2.5
+      },
+      "mediaMentions": 16,
+      "reasons": [
+        "MLB Pipeline rank #1",
+        "16 recent media mentions",
+        "Strong positive prospect coverage",
+        "Material negative recent coverage"
       ]
     },
     {
@@ -120,7 +120,7 @@
       "position": "RHP",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 65.6,
+      "score": 67.1,
       "previousRank": 5,
       "rank": 5,
       "change": 0,
@@ -128,14 +128,14 @@
         "scouting": 21.6,
         "performance": 15.4,
         "ageLevel": 5.3,
-        "sentiment": 11.5,
+        "sentiment": 13,
         "movement": 6.8,
         "risk": 5
       },
-      "mediaMentions": 1,
+      "mediaMentions": 2,
       "reasons": [
         "MLB Pipeline rank #14",
-        "1 recent media mention",
+        "2 recent media mentions",
         "Positive recent coverage",
         "Promoted to High-A"
       ]
@@ -295,7 +295,7 @@
       "position": "OF",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 60.5,
+      "score": 60.4,
       "previousRank": 12,
       "rank": 12,
       "change": 0,
@@ -303,14 +303,14 @@
         "scouting": 27.4,
         "performance": 4,
         "ageLevel": 7.5,
-        "sentiment": 10,
+        "sentiment": 9.9,
         "movement": 6.6,
         "risk": 5
       },
-      "mediaMentions": 1,
+      "mediaMentions": 2,
       "reasons": [
         "MLB Pipeline rank #6",
-        "1 recent media mention",
+        "2 recent media mentions",
         "Promoted to MLB",
         "Advanced to AAA"
       ]
@@ -419,7 +419,7 @@
       "position": "INF",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 58.8,
+      "score": 58.7,
       "previousRank": 17,
       "rank": 17,
       "change": 0,
@@ -428,7 +428,7 @@
         "performance": 17.1,
         "ageLevel": 5.3,
         "sentiment": 10,
-        "movement": 9.4,
+        "movement": 9.3,
         "risk": 5
       },
       "mediaMentions": 1,
@@ -480,11 +480,11 @@
         "movement": 5,
         "risk": 5
       },
-      "mediaMentions": 2,
+      "mediaMentions": 3,
       "reasons": [
         "Strong current-season performance",
         "MLB Pipeline rank #27",
-        "2 recent media mentions",
+        "3 recent media mentions",
         "Promoted to AA"
       ]
     },
@@ -781,7 +781,7 @@
       "position": "RHP",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 53.8,
+      "score": 53.7,
       "previousRank": 32,
       "rank": 32,
       "change": 0,
@@ -789,14 +789,13 @@
         "scouting": 20.9,
         "performance": 8.6,
         "ageLevel": 4.2,
-        "sentiment": 10.1,
+        "sentiment": 10,
         "movement": 5,
         "risk": 5
       },
-      "mediaMentions": 1,
+      "mediaMentions": 0,
       "reasons": [
         "MLB Pipeline rank #15",
-        "1 recent media mention",
         "Promoted to Single-A"
       ]
     },
@@ -1166,9 +1165,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 51,
-      "previousRank": 49,
+      "previousRank": 48,
       "rank": 48,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1189,9 +1188,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 50.9,
-      "previousRank": 50,
+      "previousRank": 49,
       "rank": 49,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 11,
@@ -1213,9 +1212,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 50.9,
-      "previousRank": 48,
+      "previousRank": 50,
       "rank": 50,
-      "change": -2,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 10.1,
@@ -1856,9 +1855,8 @@
         "movement": 5.2,
         "risk": 5
       },
-      "mediaMentions": 1,
+      "mediaMentions": 0,
       "reasons": [
-        "1 recent media mention",
         "Promoted to AAA",
         "Advanced to AA"
       ]
@@ -1956,6 +1954,30 @@
       ]
     },
     {
+      "playerId": "0efac77a-9009-46c9-9aeb-720bea522604",
+      "player": "Jack Barker",
+      "position": "OF",
+      "affiliate": "FCL Phillies",
+      "level": "Rookie",
+      "score": 45.5,
+      "previousRank": 92,
+      "rank": 82,
+      "change": 10,
+      "components": {
+        "scouting": 12,
+        "performance": 10.2,
+        "ageLevel": 2.7,
+        "sentiment": 11.5,
+        "movement": 4.1,
+        "risk": 5
+      },
+      "mediaMentions": 1,
+      "reasons": [
+        "1 recent media mention",
+        "Promoted to Single-A"
+      ]
+    },
+    {
       "playerId": "96b47eb0-02ec-434b-825c-523ed83e1919",
       "player": "Jaeden Calderon",
       "position": "INF",
@@ -1963,8 +1985,8 @@
       "level": "Rookie",
       "score": 45.4,
       "previousRank": 82,
-      "rank": 82,
-      "change": 0,
+      "rank": 83,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 10.7,
@@ -1986,8 +2008,8 @@
       "level": "A",
       "score": 45.3,
       "previousRank": 83,
-      "rank": 83,
-      "change": 0,
+      "rank": 84,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 6.6,
@@ -2009,8 +2031,8 @@
       "level": "A+",
       "score": 45.3,
       "previousRank": 84,
-      "rank": 84,
-      "change": 0,
+      "rank": 85,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 11.5,
@@ -2032,8 +2054,8 @@
       "level": "AAA",
       "score": 44.7,
       "previousRank": 85,
-      "rank": 85,
-      "change": 0,
+      "rank": 86,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 8.7,
@@ -2056,8 +2078,8 @@
       "level": "AA",
       "score": 44.6,
       "previousRank": 86,
-      "rank": 86,
-      "change": 0,
+      "rank": 87,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 8.4,
@@ -2081,8 +2103,8 @@
       "level": "A",
       "score": 44.6,
       "previousRank": 87,
-      "rank": 87,
-      "change": 0,
+      "rank": 88,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 8.4,
@@ -2104,8 +2126,8 @@
       "level": "AA",
       "score": 44.5,
       "previousRank": 88,
-      "rank": 88,
-      "change": 0,
+      "rank": 89,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 7,
@@ -2128,8 +2150,8 @@
       "level": "A",
       "score": 44.4,
       "previousRank": 89,
-      "rank": 89,
-      "change": 0,
+      "rank": 90,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 8.2,
@@ -2151,8 +2173,8 @@
       "level": "A+",
       "score": 44.1,
       "previousRank": 90,
-      "rank": 90,
-      "change": 0,
+      "rank": 91,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 7.8,
@@ -2172,8 +2194,8 @@
       "level": "A+",
       "score": 44.1,
       "previousRank": 91,
-      "rank": 91,
-      "change": 0,
+      "rank": 92,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 7.8,
@@ -2184,29 +2206,6 @@
       },
       "mediaMentions": 0,
       "reasons": []
-    },
-    {
-      "playerId": "0efac77a-9009-46c9-9aeb-720bea522604",
-      "player": "Jack Barker",
-      "position": "OF",
-      "affiliate": "FCL Phillies",
-      "level": "Rookie",
-      "score": 44,
-      "previousRank": 92,
-      "rank": 92,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 10.2,
-        "ageLevel": 2.7,
-        "sentiment": 10,
-        "movement": 4.1,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to Single-A"
-      ]
     },
     {
       "playerId": "8b39c0e5-2371-45df-96a7-963b7d79a96b",
