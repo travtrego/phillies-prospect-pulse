@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T19:20:57.007Z",
+  "updatedAt": "2026-08-13T02:47:42.837Z",
   "records": [
     {
       "playerId": 820837,
@@ -9,9 +9,22 @@
       "injury": "Not publicly disclosed",
       "timeline": "60-day injured list; no public return date",
       "status": "Clearwater Threshers placed RHP Kyler Carmack on the 60-day injured list.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-08-12&endDate=2026-08-12",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-08-13&endDate=2026-08-13",
       "transactionDate": "2026-03-22",
-      "lastUpdated": "2026-08-12T19:20:34.985Z",
+      "lastUpdated": "2026-08-13T02:47:22.799Z",
+      "injurySourceType": "official-transaction"
+    },
+    {
+      "playerId": 700429,
+      "player": "MT Morrissey",
+      "affiliate": "Clearwater Threshers",
+      "position": "P",
+      "injury": "Not publicly disclosed",
+      "timeline": "7-day injured list; no public return date",
+      "status": "Clearwater Threshers placed RHP MT Morrissey on the 7-day injured list retroactive to August 10, 2026.",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-08-13&endDate=2026-08-13",
+      "transactionDate": "2026-08-10",
+      "lastUpdated": "2026-08-13T02:47:22.799Z",
       "injurySourceType": "official-transaction"
     },
     {
@@ -22,9 +35,9 @@
       "injury": "Not publicly disclosed",
       "timeline": "7-day injured list; no public return date",
       "status": "Clearwater Threshers placed SS Owen Clyne on the 7-day injured list.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-08-12&endDate=2026-08-12",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-08-13&endDate=2026-08-13",
       "transactionDate": "2026-08-08",
-      "lastUpdated": "2026-08-12T19:20:34.986Z",
+      "lastUpdated": "2026-08-13T02:47:22.799Z",
       "injurySourceType": "official-transaction"
     },
     {
@@ -35,9 +48,9 @@
       "injury": "Not publicly disclosed",
       "timeline": "Full-season injured list; no public return date",
       "status": "Clearwater Threshers placed C Yhoan Escalona on the full-season injured list.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-08-12&endDate=2026-08-12",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-08-13&endDate=2026-08-13",
       "transactionDate": "2026-04-01",
-      "lastUpdated": "2026-08-12T19:20:34.985Z",
+      "lastUpdated": "2026-08-13T02:47:22.799Z",
       "injurySourceType": "official-transaction"
     },
     {
@@ -48,9 +61,9 @@
       "injury": "Not publicly disclosed",
       "timeline": "Full-season injured list; no public return date",
       "status": "Clearwater Threshers placed RHP Zack Tukis on the full-season injured list.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-08-12&endDate=2026-08-12",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-08-13&endDate=2026-08-13",
       "transactionDate": "2026-04-01",
-      "lastUpdated": "2026-08-12T19:20:34.985Z",
+      "lastUpdated": "2026-08-13T02:47:22.799Z",
       "injurySourceType": "official-transaction"
     },
     {
@@ -61,9 +74,9 @@
       "injury": "Not publicly disclosed",
       "timeline": "Full-season injured list; no public return date",
       "status": "FCL Phillies placed OF Jalvin Arias on the full-season injured list.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=469&startDate=2025-08-12&endDate=2026-08-12",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=469&startDate=2025-08-13&endDate=2026-08-13",
       "transactionDate": "2026-07-21",
-      "lastUpdated": "2026-08-12T19:20:34.983Z",
+      "lastUpdated": "2026-08-13T02:47:22.795Z",
       "injurySourceType": "official-transaction"
     },
     {
@@ -74,9 +87,9 @@
       "injury": "Not publicly disclosed",
       "timeline": "7-day injured list; no public return date",
       "status": "FCL Phillies placed RHP Matthew Potok on the 7-day injured list retroactive to May 11, 2026.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=469&startDate=2025-08-12&endDate=2026-08-12",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=469&startDate=2025-08-13&endDate=2026-08-13",
       "transactionDate": "2026-05-11",
-      "lastUpdated": "2026-08-12T19:20:34.983Z",
+      "lastUpdated": "2026-08-13T02:47:22.795Z",
       "injurySourceType": "official-transaction"
     },
     {
@@ -87,9 +100,9 @@
       "injury": "Not publicly disclosed",
       "timeline": "Full-season injured list; no public return date",
       "status": "FCL Phillies placed OF Maylerson Casanova on the full-season injured list.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=469&startDate=2025-08-12&endDate=2026-08-12",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=469&startDate=2025-08-13&endDate=2026-08-13",
       "transactionDate": "2026-07-21",
-      "lastUpdated": "2026-08-12T19:20:34.983Z",
+      "lastUpdated": "2026-08-13T02:47:22.795Z",
       "injurySourceType": "official-transaction"
     },
     {
@@ -100,9 +113,9 @@
       "injury": "Not publicly disclosed",
       "timeline": "60-day injured list; no public return date",
       "status": "FCL Phillies placed RHP Naiker Velazquez on the 60-day injured list.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=469&startDate=2025-08-12&endDate=2026-08-12",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=469&startDate=2025-08-13&endDate=2026-08-13",
       "transactionDate": "2026-05-04",
-      "lastUpdated": "2026-08-12T19:20:34.983Z",
+      "lastUpdated": "2026-08-13T02:47:22.795Z",
       "injurySourceType": "official-transaction"
     },
     {
@@ -113,9 +126,9 @@
       "injury": "Not publicly disclosed",
       "timeline": "Full-season injured list; no public return date",
       "status": "FCL Phillies placed OF Nathanael Cijntje on the full-season injured list.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=469&startDate=2025-08-12&endDate=2026-08-12",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=469&startDate=2025-08-13&endDate=2026-08-13",
       "transactionDate": "2026-05-03",
-      "lastUpdated": "2026-08-12T19:20:34.983Z",
+      "lastUpdated": "2026-08-13T02:47:22.795Z",
       "injurySourceType": "official-transaction"
     },
     {
@@ -126,9 +139,9 @@
       "injury": "Not publicly disclosed",
       "timeline": "7-day injured list; no public return date",
       "status": "Jersey Shore BlueClaws placed C Alirio Ferrebus on the 7-day injured list retroactive to August 6, 2026.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-08-12&endDate=2026-08-12",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-08-13&endDate=2026-08-13",
       "transactionDate": "2026-08-06",
-      "lastUpdated": "2026-08-12T19:20:34.977Z",
+      "lastUpdated": "2026-08-13T02:47:22.797Z",
       "injurySourceType": "official-transaction"
     },
     {
@@ -139,9 +152,9 @@
       "injury": "Not publicly disclosed",
       "timeline": "Full-season injured list; no public return date",
       "status": "Jersey Shore BlueClaws placed RHP Casey Steward on the full-season injured list.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-08-12&endDate=2026-08-12",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-08-13&endDate=2026-08-13",
       "transactionDate": "2026-04-27",
-      "lastUpdated": "2026-08-12T19:20:34.977Z",
+      "lastUpdated": "2026-08-13T02:47:22.797Z",
       "injurySourceType": "official-transaction"
     },
     {
@@ -152,9 +165,9 @@
       "injury": "Not publicly disclosed",
       "timeline": "Full-season injured list; no public return date",
       "status": "Jersey Shore BlueClaws placed RHP Ethan Chenault on the full-season injured list.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-08-12&endDate=2026-08-12",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-08-13&endDate=2026-08-13",
       "transactionDate": "2026-04-27",
-      "lastUpdated": "2026-08-12T19:20:34.977Z",
+      "lastUpdated": "2026-08-13T02:47:22.797Z",
       "injurySourceType": "official-transaction"
     },
     {
@@ -165,9 +178,9 @@
       "injury": "Not publicly disclosed",
       "timeline": "7-day injured list; no public return date",
       "status": "Jersey Shore BlueClaws placed SS Jose Colmenares on the 7-day injured list.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-08-12&endDate=2026-08-12",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-08-13&endDate=2026-08-13",
       "transactionDate": "2026-05-25",
-      "lastUpdated": "2026-08-12T19:20:34.977Z",
+      "lastUpdated": "2026-08-13T02:47:22.797Z",
       "injurySourceType": "official-transaction"
     },
     {
@@ -178,9 +191,9 @@
       "injury": "Not publicly disclosed",
       "timeline": "7-day injured list; no public return date",
       "status": "Jersey Shore BlueClaws placed RHP Jose Pena Jr. on the 7-day injured list.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-08-12&endDate=2026-08-12",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-08-13&endDate=2026-08-13",
       "transactionDate": "2026-06-22",
-      "lastUpdated": "2026-08-12T19:20:34.977Z",
+      "lastUpdated": "2026-08-13T02:47:22.797Z",
       "injurySourceType": "official-transaction"
     },
     {
@@ -191,9 +204,22 @@
       "injury": "Not publicly disclosed",
       "timeline": "7-day injured list; no public return date",
       "status": "Jersey Shore BlueClaws placed RHP Ryan Degges on the 7-day injured list.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-08-12&endDate=2026-08-12",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-08-13&endDate=2026-08-13",
       "transactionDate": "2026-05-17",
-      "lastUpdated": "2026-08-12T19:20:34.977Z",
+      "lastUpdated": "2026-08-13T02:47:22.797Z",
+      "injurySourceType": "official-transaction"
+    },
+    {
+      "playerId": 808805,
+      "player": "Tyler Pettorini",
+      "affiliate": "Jersey Shore BlueClaws",
+      "position": "2B",
+      "injury": "Not publicly disclosed",
+      "timeline": "7-day injured list; no public return date",
+      "status": "Jersey Shore BlueClaws placed 2B Tyler Pettorini on the 7-day injured list.",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-08-13&endDate=2026-08-13",
+      "transactionDate": "2026-08-12",
+      "lastUpdated": "2026-08-13T02:47:22.797Z",
       "injurySourceType": "official-transaction"
     },
     {
@@ -204,9 +230,9 @@
       "injury": "Discogenic pain and facet inflammation in back",
       "timeline": "Expected return: August 2026",
       "status": "Lehigh Valley IronPigs placed SS Aidan Miller on the 7-day injured list.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-08-12&endDate=2026-08-12",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-08-13&endDate=2026-08-13",
       "transactionDate": "2026-03-27",
-      "lastUpdated": "2026-08-12T19:20:34.948Z",
+      "lastUpdated": "2026-08-13T02:47:22.785Z",
       "injurySourceType": "verified-registry",
       "newsSource": "https://www.mlb.com/news/phillies-injuries-and-roster-moves",
       "newsHeadline": "Latest Phillies injuries & transactions - MLB.com",
@@ -221,9 +247,9 @@
       "injury": "Not publicly disclosed",
       "timeline": "7-day injured list; no public return date",
       "status": "Lehigh Valley IronPigs placed CF Cal Stevenson on the 7-day injured list.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-08-12&endDate=2026-08-12",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-08-13&endDate=2026-08-13",
       "transactionDate": "2025-08-13",
-      "lastUpdated": "2026-08-12T19:20:34.948Z",
+      "lastUpdated": "2026-08-13T02:47:22.785Z",
       "injurySourceType": "official-transaction"
     },
     {
@@ -234,9 +260,9 @@
       "injury": "Not publicly disclosed",
       "timeline": "7-day injured list; no public return date",
       "status": "Lehigh Valley IronPigs placed SS Christian Cairo on the 7-day injured list.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-08-12&endDate=2026-08-12",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-08-13&endDate=2026-08-13",
       "transactionDate": "2026-08-05",
-      "lastUpdated": "2026-08-12T19:20:34.949Z",
+      "lastUpdated": "2026-08-13T02:47:22.786Z",
       "injurySourceType": "official-transaction"
     },
     {
@@ -247,9 +273,9 @@
       "injury": "Not publicly disclosed",
       "timeline": "Full-season injured list; no public return date",
       "status": "Lehigh Valley IronPigs placed RHP Connor Gillispie on the full-season injured list.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-08-12&endDate=2026-08-12",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-08-13&endDate=2026-08-13",
       "transactionDate": "2026-05-02",
-      "lastUpdated": "2026-08-12T19:20:34.948Z",
+      "lastUpdated": "2026-08-13T02:47:22.785Z",
       "injurySourceType": "official-transaction"
     },
     {
@@ -260,9 +286,9 @@
       "injury": "Not publicly disclosed",
       "timeline": "Full-season injured list; no public return date",
       "status": "Lehigh Valley IronPigs placed RHP Daniel Robert on the full-season injured list.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-08-12&endDate=2026-08-12",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-08-13&endDate=2026-08-13",
       "transactionDate": "2026-08-11",
-      "lastUpdated": "2026-08-12T19:20:34.949Z",
+      "lastUpdated": "2026-08-13T02:47:22.786Z",
       "injurySourceType": "official-transaction"
     },
     {
@@ -273,9 +299,9 @@
       "injury": "Not publicly disclosed",
       "timeline": "60-day injured list; no public return date",
       "status": "Lehigh Valley IronPigs placed SS Erick Brito on the 60-day injured list.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-08-12&endDate=2026-08-12",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-08-13&endDate=2026-08-13",
       "transactionDate": "2026-03-27",
-      "lastUpdated": "2026-08-12T19:20:34.948Z",
+      "lastUpdated": "2026-08-13T02:47:22.785Z",
       "injurySourceType": "official-transaction"
     },
     {
@@ -286,9 +312,9 @@
       "injury": "Not publicly disclosed",
       "timeline": "Full-season injured list; no public return date",
       "status": "Lehigh Valley IronPigs placed RHP Levi Stoudt on the full-season injured list.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-08-12&endDate=2026-08-12",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-08-13&endDate=2026-08-13",
       "transactionDate": "2026-07-24",
-      "lastUpdated": "2026-08-12T19:20:34.949Z",
+      "lastUpdated": "2026-08-13T02:47:22.786Z",
       "injurySourceType": "official-transaction"
     },
     {
@@ -299,9 +325,9 @@
       "injury": "Not publicly disclosed",
       "timeline": "60-day injured list; no public return date",
       "status": "Lehigh Valley IronPigs placed C Mark Kolozsvary on the 60-day injured list.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-08-12&endDate=2026-08-12",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-08-13&endDate=2026-08-13",
       "transactionDate": "2026-03-27",
-      "lastUpdated": "2026-08-12T19:20:34.948Z",
+      "lastUpdated": "2026-08-13T02:47:22.785Z",
       "injurySourceType": "official-transaction"
     },
     {
@@ -312,9 +338,9 @@
       "injury": "Not publicly disclosed",
       "timeline": "7-day injured list; no public return date",
       "status": "Lehigh Valley IronPigs placed RF Pedro León on the 7-day injured list.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-08-12&endDate=2026-08-12",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-08-13&endDate=2026-08-13",
       "transactionDate": "2026-04-11",
-      "lastUpdated": "2026-08-12T19:20:34.948Z",
+      "lastUpdated": "2026-08-13T02:47:22.785Z",
       "injurySourceType": "official-transaction"
     },
     {
@@ -325,9 +351,9 @@
       "injury": "Not publicly disclosed",
       "timeline": "7-day injured list; no public return date",
       "status": "Reading Fightin Phils placed RHP Aaron Combs on the 7-day injured list.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-08-12&endDate=2026-08-12",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-08-13&endDate=2026-08-13",
       "transactionDate": "2026-08-04",
-      "lastUpdated": "2026-08-12T19:20:34.984Z",
+      "lastUpdated": "2026-08-13T02:47:22.796Z",
       "injurySourceType": "official-transaction"
     },
     {
@@ -338,9 +364,9 @@
       "injury": "Not publicly disclosed",
       "timeline": "7-day injured list; no public return date",
       "status": "Reading Fightin Phils placed LF Austin Murr on the 7-day injured list.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-08-12&endDate=2026-08-12",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-08-13&endDate=2026-08-13",
       "transactionDate": "2026-06-04",
-      "lastUpdated": "2026-08-12T19:20:34.984Z",
+      "lastUpdated": "2026-08-13T02:47:22.796Z",
       "injurySourceType": "official-transaction"
     },
     {
@@ -351,9 +377,9 @@
       "injury": "Not publicly disclosed",
       "timeline": "60-day injured list; no public return date",
       "status": "Reading Fightin Phils placed LHP Braeden Fausnaught on the 60-day injured list.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-08-12&endDate=2026-08-12",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-08-13&endDate=2026-08-13",
       "transactionDate": "2026-03-22",
-      "lastUpdated": "2026-08-12T19:20:34.984Z",
+      "lastUpdated": "2026-08-13T02:47:22.796Z",
       "injurySourceType": "official-transaction"
     },
     {
@@ -364,9 +390,9 @@
       "injury": "Not publicly disclosed",
       "timeline": "7-day injured list; no public return date",
       "status": "Reading Fightin Phils placed 3B Bryson Ware on the 7-day injured list.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-08-12&endDate=2026-08-12",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-08-13&endDate=2026-08-13",
       "transactionDate": "2026-06-29",
-      "lastUpdated": "2026-08-12T19:20:34.984Z",
+      "lastUpdated": "2026-08-13T02:47:22.796Z",
       "injurySourceType": "official-transaction"
     },
     {
@@ -377,9 +403,9 @@
       "injury": "Lower-body injury",
       "timeline": "7-day injured list; no public return date",
       "status": "Reading Fightin Phils placed OF Dante Nori on the 7-day injured list retroactive to June 7, 2026.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-08-12&endDate=2026-08-12",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-08-13&endDate=2026-08-13",
       "transactionDate": "2026-06-07",
-      "lastUpdated": "2026-08-12T19:20:34.984Z",
+      "lastUpdated": "2026-08-13T02:47:22.796Z",
       "injurySourceType": "verified-registry",
       "newsSource": "https://www.baseballamerica.com/stories/2026-philadelphia-phillies-top-30-prospects-july-update/",
       "newsHeadline": "2026 Philadelphia Phillies Top 30 Prospects July Update - Baseball America",
@@ -394,9 +420,9 @@
       "injury": "Not publicly disclosed",
       "timeline": "Full-season injured list; no public return date",
       "status": "Reading Fightin Phils placed RHP Gabriel Barbosa on the full-season injured list.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-08-12&endDate=2026-08-12",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-08-13&endDate=2026-08-13",
       "transactionDate": "2026-07-27",
-      "lastUpdated": "2026-08-12T19:20:34.984Z",
+      "lastUpdated": "2026-08-13T02:47:22.796Z",
       "injurySourceType": "official-transaction"
     },
     {
@@ -407,9 +433,9 @@
       "injury": "Not publicly disclosed",
       "timeline": "Full-season injured list; no public return date",
       "status": "Reading Fightin Phils placed LHP Wesley Moore on the full-season injured list.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-08-12&endDate=2026-08-12",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-08-13&endDate=2026-08-13",
       "transactionDate": "2026-06-16",
-      "lastUpdated": "2026-08-12T19:20:34.984Z",
+      "lastUpdated": "2026-08-13T02:47:22.796Z",
       "injurySourceType": "official-transaction"
     }
   ],
