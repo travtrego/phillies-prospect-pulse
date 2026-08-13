@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T13:47:36.265Z",
+  "updatedAt": "2026-08-13T19:20:11.053Z",
   "season": 2026,
   "rosterType": "active (MLB) + fullRoster (affiliates)",
   "records": [
@@ -4186,7 +4186,7 @@
       "player": "Jose Pena Jr.",
       "position": "P",
       "positionType": "Pitcher",
-      "status": "Injured 7-Day",
+      "status": "Injured 60-Day",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "birthDate": "2003-07-08",
