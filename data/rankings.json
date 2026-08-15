@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T12:58:57.726Z",
+  "updatedAt": "2026-08-15T18:48:10.967Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -28,10 +28,10 @@
         "movement": 5.8,
         "risk": 5
       },
-      "mediaMentions": 8,
+      "mediaMentions": 7,
       "reasons": [
         "MLB Pipeline rank #2",
-        "8 recent media mentions",
+        "7 recent media mentions",
         "Promoted to AA",
         "Advanced to AA"
       ]
@@ -54,11 +54,11 @@
         "movement": 9.6,
         "risk": 5
       },
-      "mediaMentions": 3,
+      "mediaMentions": 2,
       "reasons": [
         "Strong current-season performance",
         "MLB Pipeline rank #17",
-        "3 recent media mentions",
+        "2 recent media mentions",
         "Promoted to MLB"
       ]
     },
@@ -80,10 +80,10 @@
         "movement": 4.1,
         "risk": 2.5
       },
-      "mediaMentions": 16,
+      "mediaMentions": 15,
       "reasons": [
         "MLB Pipeline rank #1",
-        "16 recent media mentions",
+        "15 recent media mentions",
         "Strong positive prospect coverage",
         "Material negative recent coverage"
       ]
@@ -924,9 +924,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 52,
-      "previousRank": 39,
+      "previousRank": 38,
       "rank": 38,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 13.5,
@@ -947,9 +947,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 51.9,
-      "previousRank": 40,
+      "previousRank": 39,
       "rank": 39,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 14.2,
@@ -970,9 +970,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 51.9,
-      "previousRank": 38,
+      "previousRank": 40,
       "rank": 40,
-      "change": -2,
+      "change": 0,
       "components": {
         "scouting": 22.4,
         "performance": 4,
@@ -1043,9 +1043,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 51.2,
-      "previousRank": 44,
+      "previousRank": 43,
       "rank": 43,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1067,9 +1067,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 51.1,
-      "previousRank": 45,
+      "previousRank": 44,
       "rank": 44,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1091,9 +1091,9 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 51,
-      "previousRank": 46,
+      "previousRank": 45,
       "rank": 45,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 14.9,
@@ -1114,9 +1114,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 51,
-      "previousRank": 43,
+      "previousRank": 46,
       "rank": 46,
-      "change": -3,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1830,6 +1830,31 @@
       "reasons": []
     },
     {
+      "playerId": "fbd5a3d7-ab1c-43b4-8412-3ca70609bd49",
+      "player": "Daniel Harper",
+      "position": "P",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 46.4,
+      "previousRank": 78,
+      "rank": 77,
+      "change": 1,
+      "components": {
+        "scouting": 12,
+        "performance": 7.6,
+        "ageLevel": 6.4,
+        "sentiment": 10.2,
+        "movement": 5.2,
+        "risk": 5
+      },
+      "mediaMentions": 1,
+      "reasons": [
+        "1 recent media mention",
+        "Promoted to AAA",
+        "Advanced to AA"
+      ]
+    },
+    {
       "playerId": "753dded3-8c3f-4474-ad64-26924d20025d",
       "player": "Jose Colmenares",
       "position": "INF",
@@ -1837,8 +1862,8 @@
       "level": "A+",
       "score": 46.3,
       "previousRank": 77,
-      "rank": 77,
-      "change": 0,
+      "rank": 78,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1850,30 +1875,6 @@
       "mediaMentions": 0,
       "reasons": [
         "Current injury lowers availability"
-      ]
-    },
-    {
-      "playerId": "fbd5a3d7-ab1c-43b4-8412-3ca70609bd49",
-      "player": "Daniel Harper",
-      "position": "P",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 46.2,
-      "previousRank": 78,
-      "rank": 78,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 7.6,
-        "ageLevel": 6.4,
-        "sentiment": 10,
-        "movement": 5.2,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to AAA",
-        "Advanced to AA"
       ]
     },
     {
@@ -1952,7 +1953,7 @@
       "position": "P",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 45.2,
+      "score": 45.1,
       "previousRank": 82,
       "rank": 82,
       "change": 0,
@@ -1961,7 +1962,7 @@
         "performance": 6.6,
         "ageLevel": 4.2,
         "sentiment": 10,
-        "movement": 7.4,
+        "movement": 7.3,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -2388,7 +2389,7 @@
       "position": "P",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 42.4,
+      "score": 42.3,
       "previousRank": 101,
       "rank": 101,
       "change": 0,
@@ -2396,13 +2397,13 @@
         "scouting": 12,
         "performance": 4.5,
         "ageLevel": 6.4,
-        "sentiment": 10.4,
+        "sentiment": 10.3,
         "movement": 4.1,
         "risk": 5
       },
-      "mediaMentions": 4,
+      "mediaMentions": 2,
       "reasons": [
-        "4 recent media mentions",
+        "2 recent media mentions",
         "Promoted to AA",
         "Advanced to AA"
       ]
