@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T10:42:17.239Z",
+  "updatedAt": "2026-08-16T13:00:52.923Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -80,10 +80,10 @@
         "movement": 4.1,
         "risk": 2.5
       },
-      "mediaMentions": 15,
+      "mediaMentions": 16,
       "reasons": [
         "MLB Pipeline rank #1",
-        "15 recent media mentions",
+        "16 recent media mentions",
         "Strong positive prospect coverage",
         "Material negative recent coverage"
       ]
@@ -411,40 +411,15 @@
       ]
     },
     {
-      "playerId": "2a362ae5-4e37-484a-85bf-045b09564892",
-      "player": "Alex Binelas",
-      "position": "INF",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 58.2,
-      "previousRank": 21,
-      "rank": 17,
-      "change": 4,
-      "components": {
-        "scouting": 12,
-        "performance": 20,
-        "ageLevel": 6.4,
-        "sentiment": 10.8,
-        "movement": 4,
-        "risk": 5
-      },
-      "mediaMentions": 1,
-      "reasons": [
-        "Strong current-season performance",
-        "1 recent media mention",
-        "Advanced to AA"
-      ]
-    },
-    {
       "playerId": "94676efc-cb38-4956-90de-921758f475b0",
       "player": "Keegan Batka",
       "position": "P",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 58.1,
-      "previousRank": 17,
-      "rank": 18,
-      "change": -1,
+      "previousRank": 18,
+      "rank": 17,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 20.1,
@@ -466,9 +441,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 57.8,
-      "previousRank": 18,
-      "rank": 19,
-      "change": -1,
+      "previousRank": 19,
+      "rank": 18,
+      "change": 1,
       "components": {
         "scouting": 12.3,
         "performance": 19.2,
@@ -492,9 +467,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 57.8,
-      "previousRank": 19,
-      "rank": 20,
-      "change": -1,
+      "previousRank": 20,
+      "rank": 19,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 16.4,
@@ -516,9 +491,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 57.5,
-      "previousRank": 20,
-      "rank": 21,
-      "change": -1,
+      "previousRank": 21,
+      "rank": 20,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 15.3,
@@ -530,6 +505,30 @@
       "mediaMentions": 0,
       "reasons": [
         "Promoted to AA",
+        "Advanced to AA"
+      ]
+    },
+    {
+      "playerId": "2a362ae5-4e37-484a-85bf-045b09564892",
+      "player": "Alex Binelas",
+      "position": "INF",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 57.4,
+      "previousRank": 17,
+      "rank": 21,
+      "change": -4,
+      "components": {
+        "scouting": 12,
+        "performance": 20,
+        "ageLevel": 6.4,
+        "sentiment": 10,
+        "movement": 4,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Strong current-season performance",
         "Advanced to AA"
       ]
     },
@@ -583,46 +582,21 @@
       ]
     },
     {
-      "playerId": "2da80f7a-4e55-4897-a922-6dd69968a16d",
-      "player": "Alan Rangel",
-      "position": "P",
-      "affiliate": "Lehigh Valley IronPigs",
-      "level": "AAA",
-      "score": 56.3,
-      "previousRank": 24,
-      "rank": 24,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 11.5,
-        "ageLevel": 7.5,
-        "sentiment": 10.9,
-        "movement": 9.4,
-        "risk": 5
-      },
-      "mediaMentions": 1,
-      "reasons": [
-        "1 recent media mention",
-        "Promoted to MLB",
-        "Advanced to AAA"
-      ]
-    },
-    {
       "playerId": "38bb5322-106a-4d6c-88be-80bae95a816b",
       "player": "Nick Biddison",
       "position": "INF",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 56.3,
+      "score": 56.2,
       "previousRank": 25,
-      "rank": 25,
-      "change": 0,
+      "rank": 24,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 13.7,
         "ageLevel": 6.4,
         "sentiment": 10,
-        "movement": 9.2,
+        "movement": 9.1,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -639,8 +613,8 @@
       "level": "A+",
       "score": 55.7,
       "previousRank": 26,
-      "rank": 26,
-      "change": 0,
+      "rank": 25,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 14,
@@ -652,6 +626,30 @@
       "mediaMentions": 0,
       "reasons": [
         "Promoted to AAA"
+      ]
+    },
+    {
+      "playerId": "2da80f7a-4e55-4897-a922-6dd69968a16d",
+      "player": "Alan Rangel",
+      "position": "P",
+      "affiliate": "Lehigh Valley IronPigs",
+      "level": "AAA",
+      "score": 55.4,
+      "previousRank": 24,
+      "rank": 26,
+      "change": -2,
+      "components": {
+        "scouting": 12,
+        "performance": 11.5,
+        "ageLevel": 7.5,
+        "sentiment": 10,
+        "movement": 9.4,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to MLB",
+        "Advanced to AAA"
       ]
     },
     {
@@ -780,9 +778,9 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 53.4,
-      "previousRank": 36,
+      "previousRank": 32,
       "rank": 32,
-      "change": 4,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 16.9,
@@ -803,9 +801,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 53.3,
-      "previousRank": 32,
+      "previousRank": 33,
       "rank": 33,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 18.4,
@@ -827,9 +825,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 53.3,
-      "previousRank": 33,
+      "previousRank": 34,
       "rank": 34,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 13.9,
@@ -851,9 +849,9 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 53.3,
-      "previousRank": 34,
+      "previousRank": 35,
       "rank": 35,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 20.9,
         "performance": 8.3,
@@ -875,9 +873,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 53,
-      "previousRank": 35,
+      "previousRank": 36,
       "rank": 36,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 14.4,
@@ -1854,40 +1852,15 @@
       "reasons": []
     },
     {
-      "playerId": "fbd5a3d7-ab1c-43b4-8412-3ca70609bd49",
-      "player": "Daniel Harper",
-      "position": "P",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 46.3,
-      "previousRank": 79,
-      "rank": 78,
-      "change": 1,
-      "components": {
-        "scouting": 12,
-        "performance": 7.6,
-        "ageLevel": 6.4,
-        "sentiment": 10.2,
-        "movement": 5.1,
-        "risk": 5
-      },
-      "mediaMentions": 2,
-      "reasons": [
-        "2 recent media mentions",
-        "Promoted to AAA",
-        "Advanced to AA"
-      ]
-    },
-    {
       "playerId": "753dded3-8c3f-4474-ad64-26924d20025d",
       "player": "Jose Colmenares",
       "position": "INF",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 46.3,
-      "previousRank": 78,
-      "rank": 79,
-      "change": -1,
+      "previousRank": 79,
+      "rank": 78,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1899,6 +1872,31 @@
       "mediaMentions": 0,
       "reasons": [
         "Current injury lowers availability"
+      ]
+    },
+    {
+      "playerId": "fbd5a3d7-ab1c-43b4-8412-3ca70609bd49",
+      "player": "Daniel Harper",
+      "position": "P",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 46.1,
+      "previousRank": 78,
+      "rank": 79,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 7.6,
+        "ageLevel": 6.4,
+        "sentiment": 10,
+        "movement": 5.1,
+        "risk": 5
+      },
+      "mediaMentions": 1,
+      "reasons": [
+        "1 recent media mention",
+        "Promoted to AAA",
+        "Advanced to AA"
       ]
     },
     {
@@ -2000,7 +1998,7 @@
       "position": "P",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 45,
+      "score": 44.9,
       "previousRank": 84,
       "rank": 84,
       "change": 0,
@@ -2009,7 +2007,7 @@
         "performance": 7.1,
         "ageLevel": 5.3,
         "sentiment": 10,
-        "movement": 5.6,
+        "movement": 5.5,
         "risk": 5
       },
       "mediaMentions": 0,
