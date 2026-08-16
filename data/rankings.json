@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T06:59:48.256Z",
+  "updatedAt": "2026-08-16T10:42:17.239Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -28,10 +28,10 @@
         "movement": 5.8,
         "risk": 5
       },
-      "mediaMentions": 7,
+      "mediaMentions": 6,
       "reasons": [
         "MLB Pipeline rank #2",
-        "7 recent media mentions",
+        "6 recent media mentions",
         "Promoted to AA",
         "Advanced to AA"
       ]
@@ -68,7 +68,7 @@
       "position": "SS",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 67.7,
+      "score": 67.8,
       "previousRank": 3,
       "rank": 3,
       "change": 0,
@@ -76,14 +76,14 @@
         "scouting": 30,
         "performance": 12.5,
         "ageLevel": 9.3,
-        "sentiment": 9.3,
+        "sentiment": 9.4,
         "movement": 4.1,
         "risk": 2.5
       },
-      "mediaMentions": 16,
+      "mediaMentions": 15,
       "reasons": [
         "MLB Pipeline rank #1",
-        "16 recent media mentions",
+        "15 recent media mentions",
         "Strong positive prospect coverage",
         "Material negative recent coverage"
       ]
@@ -120,9 +120,9 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 65.3,
-      "previousRank": 6,
+      "previousRank": 5,
       "rank": 5,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 24.5,
         "performance": 15,
@@ -144,9 +144,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 65.2,
-      "previousRank": 5,
+      "previousRank": 6,
       "rank": 6,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 21.6,
         "performance": 15.4,
@@ -291,7 +291,7 @@
       "position": "OF",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 60.7,
+      "score": 60.8,
       "previousRank": 12,
       "rank": 12,
       "change": 0,
@@ -299,14 +299,14 @@
         "scouting": 28.1,
         "performance": 8.8,
         "ageLevel": 7.2,
-        "sentiment": 10,
+        "sentiment": 10.1,
         "movement": 4.1,
         "risk": 2.5
       },
-      "mediaMentions": 3,
+      "mediaMentions": 4,
       "reasons": [
         "MLB Pipeline rank #5",
-        "3 recent media mentions",
+        "4 recent media mentions",
         "Promoted to AA",
         "Current injury lowers availability"
       ]
@@ -411,15 +411,40 @@
       ]
     },
     {
+      "playerId": "2a362ae5-4e37-484a-85bf-045b09564892",
+      "player": "Alex Binelas",
+      "position": "INF",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 58.2,
+      "previousRank": 21,
+      "rank": 17,
+      "change": 4,
+      "components": {
+        "scouting": 12,
+        "performance": 20,
+        "ageLevel": 6.4,
+        "sentiment": 10.8,
+        "movement": 4,
+        "risk": 5
+      },
+      "mediaMentions": 1,
+      "reasons": [
+        "Strong current-season performance",
+        "1 recent media mention",
+        "Advanced to AA"
+      ]
+    },
+    {
       "playerId": "94676efc-cb38-4956-90de-921758f475b0",
       "player": "Keegan Batka",
       "position": "P",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 58.1,
-      "previousRank": 18,
-      "rank": 17,
-      "change": 1,
+      "previousRank": 17,
+      "rank": 18,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 20.1,
@@ -441,9 +466,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 57.8,
-      "previousRank": 19,
-      "rank": 18,
-      "change": 1,
+      "previousRank": 18,
+      "rank": 19,
+      "change": -1,
       "components": {
         "scouting": 12.3,
         "performance": 19.2,
@@ -467,9 +492,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 57.8,
-      "previousRank": 20,
-      "rank": 19,
-      "change": 1,
+      "previousRank": 19,
+      "rank": 20,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 16.4,
@@ -491,9 +516,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 57.5,
-      "previousRank": 21,
-      "rank": 20,
-      "change": 1,
+      "previousRank": 20,
+      "rank": 21,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 15.3,
@@ -509,39 +534,15 @@
       ]
     },
     {
-      "playerId": "2a362ae5-4e37-484a-85bf-045b09564892",
-      "player": "Alex Binelas",
-      "position": "INF",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 57.4,
-      "previousRank": 17,
-      "rank": 21,
-      "change": -4,
-      "components": {
-        "scouting": 12,
-        "performance": 20,
-        "ageLevel": 6.4,
-        "sentiment": 10,
-        "movement": 4,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Strong current-season performance",
-        "Advanced to AA"
-      ]
-    },
-    {
       "playerId": "ed4dbc30-ab6a-4976-9cbc-b057894e134f",
       "player": "Mavis Graves",
       "position": "LHP",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 57.2,
-      "previousRank": 23,
+      "previousRank": 22,
       "rank": 22,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 13.7,
         "performance": 13.5,
@@ -564,9 +565,9 @@
       "affiliate": "Philadelphia Phillies",
       "level": "MLB",
       "score": 57.1,
-      "previousRank": 22,
+      "previousRank": 23,
       "rank": 23,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.4,
@@ -706,7 +707,7 @@
       "position": "P",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 54.4,
+      "score": 54.3,
       "previousRank": 29,
       "rank": 29,
       "change": 0,
@@ -715,7 +716,7 @@
         "performance": 12.5,
         "ageLevel": 6.4,
         "sentiment": 10,
-        "movement": 8.5,
+        "movement": 8.4,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -773,6 +774,29 @@
       ]
     },
     {
+      "playerId": "c16c7468-fda9-463b-9fbe-e846f5e1c41e",
+      "player": "Jonathan Hogart",
+      "position": "OF",
+      "affiliate": "Clearwater Threshers",
+      "level": "A",
+      "score": 53.4,
+      "previousRank": 36,
+      "rank": 32,
+      "change": 4,
+      "components": {
+        "scouting": 12,
+        "performance": 16.9,
+        "ageLevel": 4.2,
+        "sentiment": 11.3,
+        "movement": 4,
+        "risk": 5
+      },
+      "mediaMentions": 2,
+      "reasons": [
+        "2 recent media mentions"
+      ]
+    },
+    {
       "playerId": "7359f8aa-ef01-4381-ba96-6045235b1969",
       "player": "Austin Murr",
       "position": "OF",
@@ -780,8 +804,8 @@
       "level": "AA",
       "score": 53.3,
       "previousRank": 32,
-      "rank": 32,
-      "change": 0,
+      "rank": 33,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 18.4,
@@ -803,9 +827,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 53.3,
-      "previousRank": 34,
-      "rank": 33,
-      "change": 1,
+      "previousRank": 33,
+      "rank": 34,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 13.9,
@@ -827,9 +851,9 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 53.3,
-      "previousRank": 35,
-      "rank": 34,
-      "change": 1,
+      "previousRank": 34,
+      "rank": 35,
+      "change": -1,
       "components": {
         "scouting": 20.9,
         "performance": 8.3,
@@ -851,9 +875,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 53,
-      "previousRank": 36,
-      "rank": 35,
-      "change": 1,
+      "previousRank": 35,
+      "rank": 36,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 14.4,
@@ -866,29 +890,6 @@
       "reasons": [
         "Promoted to AAA",
         "Advanced to AAA"
-      ]
-    },
-    {
-      "playerId": "c16c7468-fda9-463b-9fbe-e846f5e1c41e",
-      "player": "Jonathan Hogart",
-      "position": "OF",
-      "affiliate": "Clearwater Threshers",
-      "level": "A",
-      "score": 52.8,
-      "previousRank": 33,
-      "rank": 36,
-      "change": -3,
-      "components": {
-        "scouting": 12,
-        "performance": 16.9,
-        "ageLevel": 4.2,
-        "sentiment": 10.7,
-        "movement": 4,
-        "risk": 5
-      },
-      "mediaMentions": 2,
-      "reasons": [
-        "2 recent media mentions"
       ]
     },
     {
@@ -1168,8 +1169,9 @@
         "movement": 4,
         "risk": 5
       },
-      "mediaMentions": 0,
+      "mediaMentions": 1,
       "reasons": [
+        "1 recent media mention",
         "Advanced to AAA"
       ]
     },
@@ -1393,9 +1395,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 49.8,
-      "previousRank": 65,
+      "previousRank": 58,
       "rank": 58,
-      "change": 7,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.6,
@@ -1439,9 +1441,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 49.7,
-      "previousRank": 58,
+      "previousRank": 60,
       "rank": 60,
-      "change": -2,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 11.3,
@@ -1464,9 +1466,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 49.6,
-      "previousRank": 60,
+      "previousRank": 61,
       "rank": 61,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.2,
@@ -1487,9 +1489,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 49.5,
-      "previousRank": 61,
+      "previousRank": 62,
       "rank": 62,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 13.2,
@@ -1508,9 +1510,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 49.3,
-      "previousRank": 62,
+      "previousRank": 63,
       "rank": 63,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 11.9,
@@ -1532,9 +1534,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 49.1,
-      "previousRank": 63,
+      "previousRank": 64,
       "rank": 64,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 11.4,
@@ -1557,9 +1559,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 49.1,
-      "previousRank": 64,
+      "previousRank": 65,
       "rank": 65,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 14.2,
@@ -1852,6 +1854,31 @@
       "reasons": []
     },
     {
+      "playerId": "fbd5a3d7-ab1c-43b4-8412-3ca70609bd49",
+      "player": "Daniel Harper",
+      "position": "P",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 46.3,
+      "previousRank": 79,
+      "rank": 78,
+      "change": 1,
+      "components": {
+        "scouting": 12,
+        "performance": 7.6,
+        "ageLevel": 6.4,
+        "sentiment": 10.2,
+        "movement": 5.1,
+        "risk": 5
+      },
+      "mediaMentions": 2,
+      "reasons": [
+        "2 recent media mentions",
+        "Promoted to AAA",
+        "Advanced to AA"
+      ]
+    },
+    {
       "playerId": "753dded3-8c3f-4474-ad64-26924d20025d",
       "player": "Jose Colmenares",
       "position": "INF",
@@ -1859,8 +1886,8 @@
       "level": "A+",
       "score": 46.3,
       "previousRank": 78,
-      "rank": 78,
-      "change": 0,
+      "rank": 79,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1872,31 +1899,6 @@
       "mediaMentions": 0,
       "reasons": [
         "Current injury lowers availability"
-      ]
-    },
-    {
-      "playerId": "fbd5a3d7-ab1c-43b4-8412-3ca70609bd49",
-      "player": "Daniel Harper",
-      "position": "P",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 46.1,
-      "previousRank": 79,
-      "rank": 79,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 7.6,
-        "ageLevel": 6.4,
-        "sentiment": 10,
-        "movement": 5.1,
-        "risk": 5
-      },
-      "mediaMentions": 1,
-      "reasons": [
-        "1 recent media mention",
-        "Promoted to AAA",
-        "Advanced to AA"
       ]
     },
     {
@@ -1976,9 +1978,9 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 45,
-      "previousRank": 88,
+      "previousRank": 83,
       "rank": 83,
-      "change": 5,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 8.9,
@@ -1999,9 +2001,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 45,
-      "previousRank": 83,
+      "previousRank": 84,
       "rank": 84,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 7.1,
@@ -2022,9 +2024,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 44.9,
-      "previousRank": 84,
+      "previousRank": 85,
       "rank": 85,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 9.1,
@@ -2046,9 +2048,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 44.7,
-      "previousRank": 85,
+      "previousRank": 86,
       "rank": 86,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 8.7,
@@ -2070,9 +2072,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 44.6,
-      "previousRank": 86,
+      "previousRank": 87,
       "rank": 87,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 8.4,
@@ -2095,9 +2097,9 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 44.6,
-      "previousRank": 87,
+      "previousRank": 88,
       "rank": 88,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 9.4,
