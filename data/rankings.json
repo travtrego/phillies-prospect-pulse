@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T07:16:23.997Z",
+  "updatedAt": "2026-08-17T10:49:24.138Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -539,9 +539,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 57.1,
-      "previousRank": 23,
+      "previousRank": 22,
       "rank": 22,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 13.7,
         "performance": 13.5,
@@ -564,9 +564,9 @@
       "affiliate": "Philadelphia Phillies",
       "level": "MLB",
       "score": 57,
-      "previousRank": 22,
+      "previousRank": 23,
       "rank": 23,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.4,
@@ -897,9 +897,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 51.9,
-      "previousRank": 38,
+      "previousRank": 37,
       "rank": 37,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 14.2,
@@ -920,9 +920,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 51.9,
-      "previousRank": 37,
+      "previousRank": 38,
       "rank": 38,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 11.9,
@@ -2335,6 +2335,31 @@
       ]
     },
     {
+      "playerId": "63e62eb8-bf2a-4e5a-99e9-ca7773e314be",
+      "player": "Saul Teran",
+      "position": "P",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 42.4,
+      "previousRank": 100,
+      "rank": 99,
+      "change": 1,
+      "components": {
+        "scouting": 12,
+        "performance": 4.5,
+        "ageLevel": 6.4,
+        "sentiment": 10.4,
+        "movement": 4.1,
+        "risk": 5
+      },
+      "mediaMentions": 4,
+      "reasons": [
+        "4 recent media mentions",
+        "Promoted to AA",
+        "Advanced to AA"
+      ]
+    },
+    {
       "playerId": "62ebd038-11f5-429c-bc5c-368982d5c942",
       "player": "Caleb Ricketts",
       "position": "C",
@@ -2342,8 +2367,8 @@
       "level": "AA",
       "score": 42.3,
       "previousRank": 99,
-      "rank": 99,
-      "change": 0,
+      "rank": 100,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 4,
@@ -2355,31 +2380,6 @@
       "mediaMentions": 0,
       "reasons": [
         "Promoted to AAA",
-        "Advanced to AA"
-      ]
-    },
-    {
-      "playerId": "63e62eb8-bf2a-4e5a-99e9-ca7773e314be",
-      "player": "Saul Teran",
-      "position": "P",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 42.3,
-      "previousRank": 100,
-      "rank": 100,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 4.5,
-        "ageLevel": 6.4,
-        "sentiment": 10.3,
-        "movement": 4.1,
-        "risk": 5
-      },
-      "mediaMentions": 3,
-      "reasons": [
-        "3 recent media mentions",
-        "Promoted to AA",
         "Advanced to AA"
       ]
     },
