@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T10:49:24.138Z",
+  "updatedAt": "2026-08-17T13:06:11.023Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -42,7 +42,7 @@
       "position": "RHP",
       "affiliate": "Philadelphia Phillies",
       "level": "MLB",
-      "score": 71.8,
+      "score": 72,
       "previousRank": 2,
       "rank": 2,
       "change": 0,
@@ -50,15 +50,15 @@
         "scouting": 19.5,
         "performance": 19.5,
         "ageLevel": 8.2,
-        "sentiment": 10.1,
+        "sentiment": 10.3,
         "movement": 9.5,
         "risk": 5
       },
-      "mediaMentions": 2,
+      "mediaMentions": 4,
       "reasons": [
         "Strong current-season performance",
         "MLB Pipeline rank #17",
-        "2 recent media mentions",
+        "4 recent media mentions",
         "Promoted to MLB"
       ]
     },
@@ -461,30 +461,6 @@
       ]
     },
     {
-      "playerId": "35010e4b-9e4d-4809-9fb6-7eb1e13f779b",
-      "player": "Luis Caicuto",
-      "position": "C",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 57.5,
-      "previousRank": 19,
-      "rank": 19,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 15.3,
-        "ageLevel": 6.4,
-        "sentiment": 10,
-        "movement": 8.8,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to AA",
-        "Advanced to AA"
-      ]
-    },
-    {
       "playerId": "2a362ae5-4e37-484a-85bf-045b09564892",
       "player": "Alex Binelas",
       "position": "INF",
@@ -492,8 +468,8 @@
       "level": "AA",
       "score": 57.4,
       "previousRank": 20,
-      "rank": 20,
-      "change": 0,
+      "rank": 19,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 20,
@@ -505,6 +481,30 @@
       "mediaMentions": 0,
       "reasons": [
         "Strong current-season performance",
+        "Advanced to AA"
+      ]
+    },
+    {
+      "playerId": "35010e4b-9e4d-4809-9fb6-7eb1e13f779b",
+      "player": "Luis Caicuto",
+      "position": "C",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 57.4,
+      "previousRank": 19,
+      "rank": 20,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 15.3,
+        "ageLevel": 6.4,
+        "sentiment": 10,
+        "movement": 8.7,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to AA",
         "Advanced to AA"
       ]
     },
@@ -2341,9 +2341,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 42.4,
-      "previousRank": 100,
+      "previousRank": 99,
       "rank": 99,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 4.5,
@@ -2352,9 +2352,9 @@
         "movement": 4.1,
         "risk": 5
       },
-      "mediaMentions": 4,
+      "mediaMentions": 3,
       "reasons": [
-        "4 recent media mentions",
+        "3 recent media mentions",
         "Promoted to AA",
         "Advanced to AA"
       ]
@@ -2366,9 +2366,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 42.3,
-      "previousRank": 99,
+      "previousRank": 100,
       "rank": 100,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 4,
