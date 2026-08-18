@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T01:50:51.921Z",
+  "updatedAt": "2026-08-18T07:04:18.239Z",
   "season": 2026,
   "rosterType": "active (MLB) + fullRoster (affiliates)",
   "records": [
@@ -7345,16 +7345,16 @@
         "type": "pitching",
         "games": 47,
         "gamesStarted": 0,
-        "inningsPitched": "43.2",
-        "era": 1.85,
-        "whip": 1.05,
+        "inningsPitched": "44.1",
+        "era": 1.83,
+        "whip": 1.04,
         "strikeouts": 62,
         "walks": 8,
         "hits": 38,
         "homeRuns": 1,
-        "saves": 26,
-        "kPer9": 12.92,
-        "bbPer9": 1.67,
+        "saves": 27,
+        "kPer9": 12.65,
+        "bbPer9": 1.63,
         "strikePercentage": 0.65,
         "sourceDate": null
       }
