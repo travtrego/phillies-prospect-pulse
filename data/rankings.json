@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T13:07:54.465Z",
+  "updatedAt": "2026-08-18T18:56:47.903Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -28,10 +28,10 @@
         "movement": 5.7,
         "risk": 5
       },
-      "mediaMentions": 6,
+      "mediaMentions": 7,
       "reasons": [
         "MLB Pipeline rank #2",
-        "6 recent media mentions",
+        "7 recent media mentions",
         "Promoted to AA",
         "Advanced to AA"
       ]
@@ -69,9 +69,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 67.8,
-      "previousRank": 4,
+      "previousRank": 3,
       "rank": 3,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 30,
         "performance": 12.5,
@@ -95,9 +95,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 66.8,
-      "previousRank": 3,
+      "previousRank": 4,
       "rank": 4,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 26.7,
         "performance": 11.4,
@@ -143,9 +143,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 64.2,
-      "previousRank": 7,
+      "previousRank": 6,
       "rank": 6,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 28.8,
         "performance": 10.1,
@@ -168,9 +168,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 64,
-      "previousRank": 8,
+      "previousRank": 7,
       "rank": 7,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 26,
         "performance": 12.5,
@@ -193,9 +193,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 63.9,
-      "previousRank": 6,
+      "previousRank": 8,
       "rank": 8,
-      "change": -2,
+      "change": 0,
       "components": {
         "scouting": 21.6,
         "performance": 15.4,
@@ -531,30 +531,6 @@
       ]
     },
     {
-      "playerId": "0c7667e3-3eec-438b-b7e6-0f59ec7b2a0a",
-      "player": "Chase Shugart",
-      "position": "P",
-      "affiliate": "Philadelphia Phillies",
-      "level": "MLB",
-      "score": 57,
-      "previousRank": 22,
-      "rank": 22,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 12.4,
-        "ageLevel": 8.2,
-        "sentiment": 10,
-        "movement": 9.4,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to MLB",
-        "Advanced to MLB"
-      ]
-    },
-    {
       "playerId": "ed4dbc30-ab6a-4976-9cbc-b057894e134f",
       "player": "Mavis Graves",
       "position": "LHP",
@@ -562,8 +538,8 @@
       "level": "AA",
       "score": 57,
       "previousRank": 23,
-      "rank": 23,
-      "change": 0,
+      "rank": 22,
+      "change": 1,
       "components": {
         "scouting": 13.7,
         "performance": 13.5,
@@ -577,6 +553,30 @@
         "MLB Pipeline rank #25",
         "Promoted to AA",
         "Advanced to AA"
+      ]
+    },
+    {
+      "playerId": "0c7667e3-3eec-438b-b7e6-0f59ec7b2a0a",
+      "player": "Chase Shugart",
+      "position": "P",
+      "affiliate": "Philadelphia Phillies",
+      "level": "MLB",
+      "score": 56.9,
+      "previousRank": 22,
+      "rank": 23,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 12.4,
+        "ageLevel": 8.2,
+        "sentiment": 10,
+        "movement": 9.3,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to MLB",
+        "Advanced to MLB"
       ]
     },
     {
@@ -727,7 +727,7 @@
       "position": "INF",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 54,
+      "score": 53.9,
       "previousRank": 30,
       "rank": 30,
       "change": 0,
@@ -736,7 +736,7 @@
         "performance": 14.6,
         "ageLevel": 7.5,
         "sentiment": 10,
-        "movement": 4.9,
+        "movement": 4.8,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -1223,7 +1223,7 @@
       "position": "P",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 50.8,
+      "score": 50.7,
       "previousRank": 51,
       "rank": 51,
       "change": 0,
@@ -1232,7 +1232,7 @@
         "performance": 11,
         "ageLevel": 7.5,
         "sentiment": 10,
-        "movement": 5.3,
+        "movement": 5.2,
         "risk": 5
       },
       "mediaMentions": 0,
