@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T13:08:47.971Z",
+  "updatedAt": "2026-08-19T18:53:45.797Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -42,7 +42,7 @@
       "position": "RHP",
       "affiliate": "Philadelphia Phillies",
       "level": "MLB",
-      "score": 71.8,
+      "score": 71.7,
       "previousRank": 2,
       "rank": 2,
       "change": 0,
@@ -51,7 +51,7 @@
         "performance": 19.5,
         "ageLevel": 8.2,
         "sentiment": 10.2,
-        "movement": 9.4,
+        "movement": 9.3,
         "risk": 5
       },
       "mediaMentions": 3,
@@ -69,9 +69,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 68.3,
-      "previousRank": 4,
+      "previousRank": 3,
       "rank": 3,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 21.6,
         "performance": 15.4,
@@ -94,9 +94,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 68.2,
-      "previousRank": 3,
+      "previousRank": 4,
       "rank": 4,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 30,
         "performance": 12.5,
@@ -237,30 +237,6 @@
       ]
     },
     {
-      "playerId": "731551df-3c70-4c1f-9284-bfd823091735",
-      "player": "Griffin Burkholder",
-      "position": "OF",
-      "affiliate": "Jersey Shore BlueClaws",
-      "level": "A+",
-      "score": 62.5,
-      "previousRank": 10,
-      "rank": 10,
-      "change": 0,
-      "components": {
-        "scouting": 23.8,
-        "performance": 10,
-        "ageLevel": 5.3,
-        "sentiment": 10,
-        "movement": 8.4,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "MLB Pipeline rank #11",
-        "Promoted to High-A"
-      ]
-    },
-    {
       "playerId": "4025d691-9f48-454e-9a06-6ac3911eed7a",
       "player": "Carson DeMartini",
       "position": "3B",
@@ -268,8 +244,8 @@
       "level": "AA",
       "score": 62.3,
       "previousRank": 11,
-      "rank": 11,
-      "change": 0,
+      "rank": 10,
+      "change": 1,
       "components": {
         "scouting": 20.2,
         "performance": 16.7,
@@ -285,18 +261,42 @@
       ]
     },
     {
+      "playerId": "731551df-3c70-4c1f-9284-bfd823091735",
+      "player": "Griffin Burkholder",
+      "position": "OF",
+      "affiliate": "Jersey Shore BlueClaws",
+      "level": "A+",
+      "score": 62.3,
+      "previousRank": 10,
+      "rank": 11,
+      "change": -1,
+      "components": {
+        "scouting": 23.8,
+        "performance": 9.8,
+        "ageLevel": 5.3,
+        "sentiment": 10,
+        "movement": 8.4,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "MLB Pipeline rank #11",
+        "Promoted to High-A"
+      ]
+    },
+    {
       "playerId": "7a4408f1-d3cf-4b7c-9e20-c7ecf26f797d",
       "player": "Dante Nori",
       "position": "OF",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 60.3,
+      "score": 60.8,
       "previousRank": 12,
       "rank": 12,
       "change": 0,
       "components": {
         "scouting": 28.1,
-        "performance": 8.3,
+        "performance": 8.8,
         "ageLevel": 7.2,
         "sentiment": 10.1,
         "movement": 4.1,
@@ -441,13 +441,13 @@
       "position": "INF",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 57.8,
+      "score": 57.7,
       "previousRank": 18,
       "rank": 18,
       "change": 0,
       "components": {
         "scouting": 12,
-        "performance": 17.1,
+        "performance": 17,
         "ageLevel": 5.3,
         "sentiment": 10,
         "movement": 8.4,
@@ -488,13 +488,13 @@
       "position": "INF",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 57.3,
+      "score": 57.1,
       "previousRank": 20,
       "rank": 20,
       "change": 0,
       "components": {
         "scouting": 12,
-        "performance": 16.1,
+        "performance": 15.9,
         "ageLevel": 5.3,
         "sentiment": 10,
         "movement": 8.9,
@@ -984,6 +984,29 @@
       ]
     },
     {
+      "playerId": "ffee4217-f454-4f1d-9397-796fe79fec59",
+      "player": "Juan Amarante",
+      "position": "P",
+      "affiliate": "Jersey Shore BlueClaws",
+      "level": "A+",
+      "score": 51.5,
+      "previousRank": 52,
+      "rank": 41,
+      "change": 11,
+      "components": {
+        "scouting": 12,
+        "performance": 14.3,
+        "ageLevel": 5.3,
+        "sentiment": 10,
+        "movement": 4.9,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to High-A"
+      ]
+    },
+    {
       "playerId": "51fe5804-a957-4c79-af0a-08399b915c7d",
       "player": "Brad Pacheco",
       "position": "P",
@@ -991,8 +1014,8 @@
       "level": "A",
       "score": 51.4,
       "previousRank": 41,
-      "rank": 41,
-      "change": 0,
+      "rank": 42,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 15.3,
@@ -1014,8 +1037,8 @@
       "level": "AAA",
       "score": 51.4,
       "previousRank": 42,
-      "rank": 42,
-      "change": 0,
+      "rank": 43,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 11.7,
@@ -1038,8 +1061,8 @@
       "level": "AA",
       "score": 51.3,
       "previousRank": 43,
-      "rank": 43,
-      "change": 0,
+      "rank": 44,
+      "change": -1,
       "components": {
         "scouting": 9,
         "performance": 12.5,
@@ -1062,8 +1085,8 @@
       "level": "A+",
       "score": 51.2,
       "previousRank": 44,
-      "rank": 44,
-      "change": 0,
+      "rank": 45,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.4,
@@ -1085,8 +1108,8 @@
       "level": "AAA",
       "score": 51.1,
       "previousRank": 45,
-      "rank": 45,
-      "change": 0,
+      "rank": 46,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1109,8 +1132,8 @@
       "level": "AA",
       "score": 51.1,
       "previousRank": 46,
-      "rank": 46,
-      "change": 0,
+      "rank": 47,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1133,8 +1156,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 47,
-      "rank": 47,
-      "change": 0,
+      "rank": 48,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1156,8 +1179,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 48,
-      "rank": 48,
-      "change": 0,
+      "rank": 49,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1179,8 +1202,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 49,
-      "rank": 49,
-      "change": 0,
+      "rank": 50,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1203,8 +1226,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 50,
-      "rank": 50,
-      "change": 0,
+      "rank": 51,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1226,8 +1249,8 @@
       "level": "AA",
       "score": 50.8,
       "previousRank": 51,
-      "rank": 51,
-      "change": 0,
+      "rank": 52,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 10.3,
@@ -1243,18 +1266,18 @@
       ]
     },
     {
-      "playerId": "ffee4217-f454-4f1d-9397-796fe79fec59",
-      "player": "Juan Amarante",
-      "position": "P",
+      "playerId": "9d5fd7a5-8b2c-47c7-90a4-f4e42de96d79",
+      "player": "Brady Day",
+      "position": "INF",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 50.5,
-      "previousRank": 52,
-      "rank": 52,
-      "change": 0,
+      "score": 50.6,
+      "previousRank": 54,
+      "rank": 53,
+      "change": 1,
       "components": {
         "scouting": 12,
-        "performance": 13.3,
+        "performance": 13.4,
         "ageLevel": 5.3,
         "sentiment": 10,
         "movement": 4.9,
@@ -1273,8 +1296,8 @@
       "level": "AAA",
       "score": 50.4,
       "previousRank": 53,
-      "rank": 53,
-      "change": 0,
+      "rank": 54,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 13.2,
@@ -1289,29 +1312,6 @@
         "Promoted to MLB",
         "Current injury lowers availability",
         "Advanced to AAA"
-      ]
-    },
-    {
-      "playerId": "9d5fd7a5-8b2c-47c7-90a4-f4e42de96d79",
-      "player": "Brady Day",
-      "position": "INF",
-      "affiliate": "Jersey Shore BlueClaws",
-      "level": "A+",
-      "score": 50.2,
-      "previousRank": 54,
-      "rank": 54,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 13,
-        "ageLevel": 5.3,
-        "sentiment": 10,
-        "movement": 4.9,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to High-A"
       ]
     },
     {
@@ -1525,6 +1525,29 @@
       ]
     },
     {
+      "playerId": "c279b76e-6995-4afe-be49-dbc4441a534b",
+      "player": "Devin Saltiban",
+      "position": "OF",
+      "affiliate": "Jersey Shore BlueClaws",
+      "level": "A+",
+      "score": 49.2,
+      "previousRank": 69,
+      "rank": 64,
+      "change": 5,
+      "components": {
+        "scouting": 18,
+        "performance": 6.9,
+        "ageLevel": 5.3,
+        "sentiment": 10,
+        "movement": 4,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "MLB Pipeline rank #19"
+      ]
+    },
+    {
       "playerId": "2b3b922e-ed61-4243-a439-f1fff05c6d0d",
       "player": "Giussepe Velasquez",
       "position": "P",
@@ -1532,8 +1555,8 @@
       "level": "A+",
       "score": 49.1,
       "previousRank": 64,
-      "rank": 64,
-      "change": 0,
+      "rank": 65,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 7.2,
@@ -1555,8 +1578,8 @@
       "level": "AAA",
       "score": 49,
       "previousRank": 65,
-      "rank": 65,
-      "change": 0,
+      "rank": 66,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 11.4,
@@ -1580,8 +1603,8 @@
       "level": "A+",
       "score": 48.8,
       "previousRank": 66,
-      "rank": 66,
-      "change": 0,
+      "rank": 67,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1601,8 +1624,8 @@
       "level": "A",
       "score": 48.5,
       "previousRank": 67,
-      "rank": 67,
-      "change": 0,
+      "rank": 68,
+      "change": -1,
       "components": {
         "scouting": 14.4,
         "performance": 10.9,
@@ -1625,8 +1648,8 @@
       "level": "AA",
       "score": 48.3,
       "previousRank": 68,
-      "rank": 68,
-      "change": 0,
+      "rank": 69,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 10.9,
@@ -1638,29 +1661,6 @@
       "mediaMentions": 0,
       "reasons": [
         "Advanced to AA"
-      ]
-    },
-    {
-      "playerId": "c279b76e-6995-4afe-be49-dbc4441a534b",
-      "player": "Devin Saltiban",
-      "position": "OF",
-      "affiliate": "Jersey Shore BlueClaws",
-      "level": "A+",
-      "score": 48.2,
-      "previousRank": 69,
-      "rank": 69,
-      "change": 0,
-      "components": {
-        "scouting": 18,
-        "performance": 5.9,
-        "ageLevel": 5.3,
-        "sentiment": 10,
-        "movement": 4,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "MLB Pipeline rank #19"
       ]
     },
     {
@@ -1853,6 +1853,27 @@
       ]
     },
     {
+      "playerId": "4aa1b6ed-57fd-4c1f-9b34-0e98ae3b3735",
+      "player": "Kodey Shojinaga",
+      "position": "C",
+      "affiliate": "Jersey Shore BlueClaws",
+      "level": "A+",
+      "score": 46.5,
+      "previousRank": 79,
+      "rank": 78,
+      "change": 1,
+      "components": {
+        "scouting": 12,
+        "performance": 10.2,
+        "ageLevel": 5.3,
+        "sentiment": 10,
+        "movement": 4,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": []
+    },
+    {
       "playerId": "753dded3-8c3f-4474-ad64-26924d20025d",
       "player": "Jose Colmenares",
       "position": "INF",
@@ -1860,8 +1881,8 @@
       "level": "A+",
       "score": 46.3,
       "previousRank": 78,
-      "rank": 78,
-      "change": 0,
+      "rank": 79,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1874,27 +1895,6 @@
       "reasons": [
         "Current injury lowers availability"
       ]
-    },
-    {
-      "playerId": "4aa1b6ed-57fd-4c1f-9b34-0e98ae3b3735",
-      "player": "Kodey Shojinaga",
-      "position": "C",
-      "affiliate": "Jersey Shore BlueClaws",
-      "level": "A+",
-      "score": 46.3,
-      "previousRank": 79,
-      "rank": 79,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 10,
-        "ageLevel": 5.3,
-        "sentiment": 10,
-        "movement": 4,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": []
     },
     {
       "playerId": "fbd5a3d7-ab1c-43b4-8412-3ca70609bd49",
@@ -2130,6 +2130,27 @@
       ]
     },
     {
+      "playerId": "da43f7d2-9349-4f99-a764-31e73a6f20f4",
+      "player": "Titan Kennedy-Hayes",
+      "position": "P",
+      "affiliate": "Jersey Shore BlueClaws",
+      "level": "A+",
+      "score": 44.3,
+      "previousRank": 95,
+      "rank": 90,
+      "change": 5,
+      "components": {
+        "scouting": 12,
+        "performance": 8,
+        "ageLevel": 5.3,
+        "sentiment": 10,
+        "movement": 4,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": []
+    },
+    {
       "playerId": "0efac77a-9009-46c9-9aeb-720bea522604",
       "player": "Jack Barker",
       "position": "OF",
@@ -2137,8 +2158,8 @@
       "level": "Rookie",
       "score": 44,
       "previousRank": 90,
-      "rank": 90,
-      "change": 0,
+      "rank": 91,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 10.2,
@@ -2160,8 +2181,8 @@
       "level": "A",
       "score": 44,
       "previousRank": 91,
-      "rank": 91,
-      "change": 0,
+      "rank": 92,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 7.9,
@@ -2174,27 +2195,6 @@
       "reasons": [
         "Promoted to Single-A"
       ]
-    },
-    {
-      "playerId": "b2646c8f-8fd0-417a-9044-ffe6708422b3",
-      "player": "Sam Highfill",
-      "position": "P",
-      "affiliate": "Jersey Shore BlueClaws",
-      "level": "A+",
-      "score": 43.9,
-      "previousRank": 92,
-      "rank": 92,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 7.6,
-        "ageLevel": 5.3,
-        "sentiment": 10,
-        "movement": 4,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": []
     },
     {
       "playerId": "33402233-750c-4cb9-a220-790ba37a50ed",
@@ -2242,18 +2242,18 @@
       ]
     },
     {
-      "playerId": "da43f7d2-9349-4f99-a764-31e73a6f20f4",
-      "player": "Titan Kennedy-Hayes",
+      "playerId": "b2646c8f-8fd0-417a-9044-ffe6708422b3",
+      "player": "Sam Highfill",
       "position": "P",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 42.9,
-      "previousRank": 95,
+      "score": 43.1,
+      "previousRank": 92,
       "rank": 95,
-      "change": 0,
+      "change": -3,
       "components": {
         "scouting": 12,
-        "performance": 6.6,
+        "performance": 6.8,
         "ageLevel": 5.3,
         "sentiment": 10,
         "movement": 4,
@@ -2410,13 +2410,13 @@
       "position": "P",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 42.1,
+      "score": 41.7,
       "previousRank": 102,
       "rank": 102,
       "change": 0,
       "components": {
         "scouting": 12,
-        "performance": 4.9,
+        "performance": 4.5,
         "ageLevel": 5.3,
         "sentiment": 10,
         "movement": 4.9,
