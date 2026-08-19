@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T10:47:45.924Z",
+  "updatedAt": "2026-08-19T13:08:47.971Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -28,10 +28,10 @@
         "movement": 5.7,
         "risk": 5
       },
-      "mediaMentions": 5,
+      "mediaMentions": 7,
       "reasons": [
         "MLB Pipeline rank #2",
-        "5 recent media mentions",
+        "7 recent media mentions",
         "Promoted to AA",
         "Advanced to AA"
       ]
@@ -42,7 +42,7 @@
       "position": "RHP",
       "affiliate": "Philadelphia Phillies",
       "level": "MLB",
-      "score": 71.9,
+      "score": 71.8,
       "previousRank": 2,
       "rank": 2,
       "change": 0,
@@ -50,7 +50,7 @@
         "scouting": 19.5,
         "performance": 19.5,
         "ageLevel": 8.2,
-        "sentiment": 10.3,
+        "sentiment": 10.2,
         "movement": 9.4,
         "risk": 5
       },
@@ -63,41 +63,15 @@
       ]
     },
     {
-      "playerId": "240e0058-6aec-4107-881b-2e66e860c81f",
-      "player": "Aidan Miller",
-      "position": "SS",
-      "affiliate": "Lehigh Valley IronPigs",
-      "level": "AAA",
-      "score": 68.3,
-      "previousRank": 4,
-      "rank": 3,
-      "change": 1,
-      "components": {
-        "scouting": 30,
-        "performance": 12.5,
-        "ageLevel": 9.3,
-        "sentiment": 9.9,
-        "movement": 4.1,
-        "risk": 2.5
-      },
-      "mediaMentions": 14,
-      "reasons": [
-        "MLB Pipeline rank #1",
-        "14 recent media mentions",
-        "Strong positive prospect coverage",
-        "Material negative recent coverage"
-      ]
-    },
-    {
       "playerId": "e5eba231-6025-4d9b-9365-8666b2481e96",
       "player": "Cody Bowker",
       "position": "RHP",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 68.3,
-      "previousRank": 3,
-      "rank": 4,
-      "change": -1,
+      "previousRank": 4,
+      "rank": 3,
+      "change": 1,
       "components": {
         "scouting": 21.6,
         "performance": 15.4,
@@ -111,6 +85,32 @@
         "MLB Pipeline rank #14",
         "Promoted to AA",
         "Advanced to AA"
+      ]
+    },
+    {
+      "playerId": "240e0058-6aec-4107-881b-2e66e860c81f",
+      "player": "Aidan Miller",
+      "position": "SS",
+      "affiliate": "Lehigh Valley IronPigs",
+      "level": "AAA",
+      "score": 68.2,
+      "previousRank": 3,
+      "rank": 4,
+      "change": -1,
+      "components": {
+        "scouting": 30,
+        "performance": 12.5,
+        "ageLevel": 9.3,
+        "sentiment": 9.8,
+        "movement": 4.1,
+        "risk": 2.5
+      },
+      "mediaMentions": 13,
+      "reasons": [
+        "MLB Pipeline rank #1",
+        "13 recent media mentions",
+        "Strong positive prospect coverage",
+        "Material negative recent coverage"
       ]
     },
     {
@@ -316,7 +316,7 @@
       "position": "OF",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 60.3,
+      "score": 60.2,
       "previousRank": 13,
       "rank": 13,
       "change": 0,
@@ -324,14 +324,14 @@
         "scouting": 27.4,
         "performance": 4,
         "ageLevel": 7.5,
-        "sentiment": 10,
+        "sentiment": 9.9,
         "movement": 6.4,
         "risk": 5
       },
-      "mediaMentions": 1,
+      "mediaMentions": 2,
       "reasons": [
         "MLB Pipeline rank #6",
-        "1 recent media mention",
+        "2 recent media mentions",
         "Promoted to MLB",
         "Advanced to AAA"
       ]
@@ -367,16 +367,16 @@
       "position": "OF",
       "affiliate": "Philadelphia Phillies",
       "level": "MLB",
-      "score": 58.7,
-      "previousRank": 16,
+      "score": 58.6,
+      "previousRank": 15,
       "rank": 15,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 15.4,
         "ageLevel": 8.2,
         "sentiment": 10,
-        "movement": 8.1,
+        "movement": 8,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -392,9 +392,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 58.4,
-      "previousRank": 15,
+      "previousRank": 16,
       "rank": 16,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 20.5,
@@ -415,7 +415,7 @@
       "position": "SS",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 57.9,
+      "score": 57.8,
       "previousRank": 17,
       "rank": 17,
       "change": 0,
@@ -423,15 +423,15 @@
         "scouting": 12.3,
         "performance": 19.3,
         "ageLevel": 6.4,
-        "sentiment": 10,
+        "sentiment": 9.9,
         "movement": 4.9,
         "risk": 5
       },
-      "mediaMentions": 1,
+      "mediaMentions": 2,
       "reasons": [
         "Strong current-season performance",
         "MLB Pipeline rank #27",
-        "1 recent media mention",
+        "2 recent media mentions",
         "Promoted to AA"
       ]
     },
@@ -2339,9 +2339,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 42.3,
-      "previousRank": 100,
+      "previousRank": 99,
       "rank": 99,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 4.5,
@@ -2364,9 +2364,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 42.2,
-      "previousRank": 99,
+      "previousRank": 100,
       "rank": 100,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 4,
