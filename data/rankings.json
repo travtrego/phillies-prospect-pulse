@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T13:11:20.507Z",
+  "updatedAt": "2026-08-20T18:59:34.287Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -28,10 +28,10 @@
         "movement": 5.7,
         "risk": 5
       },
-      "mediaMentions": 5,
+      "mediaMentions": 6,
       "reasons": [
         "MLB Pipeline rank #2",
-        "5 recent media mentions",
+        "6 recent media mentions",
         "Promoted to AA",
         "Advanced to AA"
       ]
@@ -68,15 +68,15 @@
       "position": "RHP",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 69.4,
-      "previousRank": 4,
+      "score": 69.3,
+      "previousRank": 3,
       "rank": 3,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 21.6,
         "performance": 15.4,
         "ageLevel": 6.4,
-        "sentiment": 11.2,
+        "sentiment": 11.1,
         "movement": 9.8,
         "risk": 5
       },
@@ -95,9 +95,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 68.2,
-      "previousRank": 3,
+      "previousRank": 4,
       "rank": 4,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 30,
         "performance": 12.5,
@@ -120,7 +120,7 @@
       "position": "LHP",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 67.9,
+      "score": 67.8,
       "previousRank": 5,
       "rank": 5,
       "change": 0,
@@ -128,7 +128,7 @@
         "scouting": 26.7,
         "performance": 11.4,
         "ageLevel": 5.3,
-        "sentiment": 11.2,
+        "sentiment": 11.1,
         "movement": 8.3,
         "risk": 5
       },
@@ -466,7 +466,7 @@
       "position": "C",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 57.3,
+      "score": 57.2,
       "previousRank": 19,
       "rank": 19,
       "change": 0,
@@ -475,7 +475,7 @@
         "performance": 15.3,
         "ageLevel": 6.4,
         "sentiment": 10,
-        "movement": 8.6,
+        "movement": 8.5,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -1290,32 +1290,6 @@
       ]
     },
     {
-      "playerId": "683da5fa-f1a2-4b5f-b05a-31e448302f83",
-      "player": "Felix Reyes",
-      "position": "OF",
-      "affiliate": "Lehigh Valley IronPigs",
-      "level": "AAA",
-      "score": 50.3,
-      "previousRank": 54,
-      "rank": 54,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 13.2,
-        "ageLevel": 7.5,
-        "sentiment": 10,
-        "movement": 5.1,
-        "risk": 2.5
-      },
-      "mediaMentions": 1,
-      "reasons": [
-        "1 recent media mention",
-        "Promoted to MLB",
-        "Current injury lowers availability",
-        "Advanced to AAA"
-      ]
-    },
-    {
       "playerId": "443355d9-f184-45d1-87cf-c33c135bf55d",
       "player": "Jack Dallas",
       "position": "P",
@@ -1323,8 +1297,8 @@
       "level": "AA",
       "score": 50.2,
       "previousRank": 55,
-      "rank": 55,
-      "change": 0,
+      "rank": 54,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.8,
@@ -1346,8 +1320,8 @@
       "level": "AA",
       "score": 50,
       "previousRank": 56,
-      "rank": 56,
-      "change": 0,
+      "rank": 55,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1369,8 +1343,8 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 49.9,
-      "previousRank": 58,
-      "rank": 57,
+      "previousRank": 57,
+      "rank": 56,
       "change": 1,
       "components": {
         "scouting": 12,
@@ -1392,8 +1366,8 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 49.9,
-      "previousRank": 59,
-      "rank": 58,
+      "previousRank": 58,
+      "rank": 57,
       "change": 1,
       "components": {
         "scouting": 12,
@@ -1415,9 +1389,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 49.9,
-      "previousRank": 57,
-      "rank": 59,
-      "change": -2,
+      "previousRank": 59,
+      "rank": 58,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 11.6,
@@ -1440,8 +1414,8 @@
       "level": "AA",
       "score": 49.8,
       "previousRank": 60,
-      "rank": 60,
-      "change": 0,
+      "rank": 59,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 14.9,
@@ -1465,8 +1439,8 @@
       "level": "A+",
       "score": 49.7,
       "previousRank": 61,
-      "rank": 61,
-      "change": 0,
+      "rank": 60,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1488,8 +1462,8 @@
       "level": "A+",
       "score": 49.5,
       "previousRank": 62,
-      "rank": 62,
-      "change": 0,
+      "rank": 61,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 13.2,
@@ -1509,8 +1483,8 @@
       "level": "AA",
       "score": 49.4,
       "previousRank": 63,
-      "rank": 63,
-      "change": 0,
+      "rank": 62,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12,
@@ -1532,8 +1506,8 @@
       "level": "A+",
       "score": 49.2,
       "previousRank": 64,
-      "rank": 64,
-      "change": 0,
+      "rank": 63,
+      "change": 1,
       "components": {
         "scouting": 18,
         "performance": 6.9,
@@ -1555,8 +1529,8 @@
       "level": "A+",
       "score": 49,
       "previousRank": 65,
-      "rank": 65,
-      "change": 0,
+      "rank": 64,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 7.2,
@@ -1578,8 +1552,8 @@
       "level": "AAA",
       "score": 49,
       "previousRank": 66,
-      "rank": 66,
-      "change": 0,
+      "rank": 65,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 11.4,
@@ -1603,8 +1577,8 @@
       "level": "A+",
       "score": 48.8,
       "previousRank": 67,
-      "rank": 67,
-      "change": 0,
+      "rank": 66,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1624,8 +1598,8 @@
       "level": "A",
       "score": 48.3,
       "previousRank": 68,
-      "rank": 68,
-      "change": 0,
+      "rank": 67,
+      "change": 1,
       "components": {
         "scouting": 14.4,
         "performance": 10.7,
@@ -1648,8 +1622,8 @@
       "level": "AA",
       "score": 48.1,
       "previousRank": 69,
-      "rank": 69,
-      "change": 0,
+      "rank": 68,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 10.7,
@@ -1661,6 +1635,32 @@
       "mediaMentions": 0,
       "reasons": [
         "Advanced to AA"
+      ]
+    },
+    {
+      "playerId": "683da5fa-f1a2-4b5f-b05a-31e448302f83",
+      "player": "Felix Reyes",
+      "position": "OF",
+      "affiliate": "Lehigh Valley IronPigs",
+      "level": "AAA",
+      "score": 47.9,
+      "previousRank": 54,
+      "rank": 69,
+      "change": -15,
+      "components": {
+        "scouting": 12,
+        "performance": 12.5,
+        "ageLevel": 7.5,
+        "sentiment": 8.3,
+        "movement": 5.1,
+        "risk": 2.5
+      },
+      "mediaMentions": 2,
+      "reasons": [
+        "2 recent media mentions",
+        "Negative recent coverage",
+        "Promoted to MLB",
+        "Current injury lowers availability"
       ]
     },
     {
@@ -1755,31 +1755,6 @@
       ]
     },
     {
-      "playerId": "a68ca598-ad9e-460a-98df-4b98c0332d9b",
-      "player": "Gabriel Barbosa",
-      "position": "P",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 47.2,
-      "previousRank": 74,
-      "rank": 74,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 9.2,
-        "ageLevel": 6.4,
-        "sentiment": 10,
-        "movement": 7.1,
-        "risk": 2.5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to AA",
-        "Current injury lowers availability",
-        "Advanced to AA"
-      ]
-    },
-    {
       "playerId": "a9ed9bc1-1b2b-4659-84d8-2ad75ba07112",
       "player": "Ryan Degges",
       "position": "P",
@@ -1787,8 +1762,8 @@
       "level": "A+",
       "score": 47.2,
       "previousRank": 75,
-      "rank": 75,
-      "change": 0,
+      "rank": 74,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1801,6 +1776,31 @@
       "reasons": [
         "Promoted to High-A",
         "Current injury lowers availability"
+      ]
+    },
+    {
+      "playerId": "a68ca598-ad9e-460a-98df-4b98c0332d9b",
+      "player": "Gabriel Barbosa",
+      "position": "P",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 47.1,
+      "previousRank": 74,
+      "rank": 75,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 9.2,
+        "ageLevel": 6.4,
+        "sentiment": 10,
+        "movement": 7,
+        "risk": 2.5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to AA",
+        "Current injury lowers availability",
+        "Advanced to AA"
       ]
     },
     {
