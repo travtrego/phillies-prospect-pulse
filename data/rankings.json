@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T10:48:57.475Z",
+  "updatedAt": "2026-08-20T13:11:20.507Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -28,10 +28,10 @@
         "movement": 5.7,
         "risk": 5
       },
-      "mediaMentions": 6,
+      "mediaMentions": 5,
       "reasons": [
         "MLB Pipeline rank #2",
-        "6 recent media mentions",
+        "5 recent media mentions",
         "Promoted to AA",
         "Advanced to AA"
       ]
@@ -63,6 +63,32 @@
       ]
     },
     {
+      "playerId": "e5eba231-6025-4d9b-9365-8666b2481e96",
+      "player": "Cody Bowker",
+      "position": "RHP",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 69.4,
+      "previousRank": 4,
+      "rank": 3,
+      "change": 1,
+      "components": {
+        "scouting": 21.6,
+        "performance": 15.4,
+        "ageLevel": 6.4,
+        "sentiment": 11.2,
+        "movement": 9.8,
+        "risk": 5
+      },
+      "mediaMentions": 1,
+      "reasons": [
+        "MLB Pipeline rank #14",
+        "1 recent media mention",
+        "Promoted to AA",
+        "Advanced to AA"
+      ]
+    },
+    {
       "playerId": "240e0058-6aec-4107-881b-2e66e860c81f",
       "player": "Aidan Miller",
       "position": "SS",
@@ -70,8 +96,8 @@
       "level": "AAA",
       "score": 68.2,
       "previousRank": 3,
-      "rank": 3,
-      "change": 0,
+      "rank": 4,
+      "change": -1,
       "components": {
         "scouting": 30,
         "performance": 12.5,
@@ -89,37 +115,12 @@
       ]
     },
     {
-      "playerId": "e5eba231-6025-4d9b-9365-8666b2481e96",
-      "player": "Cody Bowker",
-      "position": "RHP",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 68.2,
-      "previousRank": 4,
-      "rank": 4,
-      "change": 0,
-      "components": {
-        "scouting": 21.6,
-        "performance": 15.4,
-        "ageLevel": 6.4,
-        "sentiment": 10,
-        "movement": 9.8,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "MLB Pipeline rank #14",
-        "Promoted to AA",
-        "Advanced to AA"
-      ]
-    },
-    {
       "playerId": "b2c73058-570a-45a4-9872-b734627c893d",
       "player": "Cade Obermueller",
       "position": "LHP",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 66.7,
+      "score": 67.9,
       "previousRank": 5,
       "rank": 5,
       "change": 0,
@@ -127,13 +128,14 @@
         "scouting": 26.7,
         "performance": 11.4,
         "ageLevel": 5.3,
-        "sentiment": 10,
+        "sentiment": 11.2,
         "movement": 8.3,
         "risk": 5
       },
-      "mediaMentions": 0,
+      "mediaMentions": 1,
       "reasons": [
         "MLB Pipeline rank #7",
+        "1 recent media mention",
         "Promoted to High-A"
       ]
     },
@@ -609,7 +611,7 @@
       "position": "P",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 55.2,
+      "score": 55.1,
       "previousRank": 25,
       "rank": 25,
       "change": 0,
@@ -618,7 +620,7 @@
         "performance": 11.5,
         "ageLevel": 7.5,
         "sentiment": 10,
-        "movement": 9.2,
+        "movement": 9.1,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -633,7 +635,7 @@
       "position": "P",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 54.6,
+      "score": 54.5,
       "previousRank": 26,
       "rank": 26,
       "change": 0,
@@ -642,7 +644,7 @@
         "performance": 13.1,
         "ageLevel": 5.3,
         "sentiment": 10,
-        "movement": 9.2,
+        "movement": 9.1,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -1361,31 +1363,6 @@
       ]
     },
     {
-      "playerId": "36c4ee1b-b7fc-4264-965f-85547f960fa8",
-      "player": "Raylin Heredia",
-      "position": "OF",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 50,
-      "previousRank": 57,
-      "rank": 57,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 11.6,
-        "ageLevel": 6.4,
-        "sentiment": 10.1,
-        "movement": 4.9,
-        "risk": 5
-      },
-      "mediaMentions": 1,
-      "reasons": [
-        "1 recent media mention",
-        "Promoted to AA",
-        "Advanced to AA"
-      ]
-    },
-    {
       "playerId": "cc36ef45-f0bf-4472-99a6-07ad26c47b33",
       "player": "Andrew Baker",
       "position": "P",
@@ -1393,8 +1370,8 @@
       "level": "AA",
       "score": 49.9,
       "previousRank": 58,
-      "rank": 58,
-      "change": 0,
+      "rank": 57,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1416,8 +1393,8 @@
       "level": "AA",
       "score": 49.9,
       "previousRank": 59,
-      "rank": 59,
-      "change": 0,
+      "rank": 58,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1428,6 +1405,30 @@
       },
       "mediaMentions": 0,
       "reasons": [
+        "Advanced to AA"
+      ]
+    },
+    {
+      "playerId": "36c4ee1b-b7fc-4264-965f-85547f960fa8",
+      "player": "Raylin Heredia",
+      "position": "OF",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 49.9,
+      "previousRank": 57,
+      "rank": 59,
+      "change": -2,
+      "components": {
+        "scouting": 12,
+        "performance": 11.6,
+        "ageLevel": 6.4,
+        "sentiment": 10,
+        "movement": 4.9,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to AA",
         "Advanced to AA"
       ]
     },
