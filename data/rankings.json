@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T10:49:25.183Z",
+  "updatedAt": "2026-08-21T13:11:03.057Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -489,7 +489,7 @@
       "position": "INF",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 57,
+      "score": 56.9,
       "previousRank": 20,
       "rank": 20,
       "change": 0,
@@ -498,37 +498,13 @@
         "performance": 15.9,
         "ageLevel": 5.3,
         "sentiment": 10,
-        "movement": 8.8,
+        "movement": 8.7,
         "risk": 5
       },
       "mediaMentions": 1,
       "reasons": [
         "1 recent media mention",
         "Promoted to High-A"
-      ]
-    },
-    {
-      "playerId": "0c7667e3-3eec-438b-b7e6-0f59ec7b2a0a",
-      "player": "Chase Shugart",
-      "position": "P",
-      "affiliate": "Philadelphia Phillies",
-      "level": "MLB",
-      "score": 56.8,
-      "previousRank": 21,
-      "rank": 21,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 12.4,
-        "ageLevel": 8.2,
-        "sentiment": 10,
-        "movement": 9.2,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to MLB",
-        "Advanced to MLB"
       ]
     },
     {
@@ -539,8 +515,8 @@
       "level": "AA",
       "score": 56.8,
       "previousRank": 22,
-      "rank": 22,
-      "change": 0,
+      "rank": 21,
+      "change": 1,
       "components": {
         "scouting": 13.7,
         "performance": 13.4,
@@ -554,6 +530,30 @@
         "MLB Pipeline rank #25",
         "Promoted to AA",
         "Advanced to AA"
+      ]
+    },
+    {
+      "playerId": "0c7667e3-3eec-438b-b7e6-0f59ec7b2a0a",
+      "player": "Chase Shugart",
+      "position": "P",
+      "affiliate": "Philadelphia Phillies",
+      "level": "MLB",
+      "score": 56.7,
+      "previousRank": 21,
+      "rank": 22,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 12.4,
+        "ageLevel": 8.2,
+        "sentiment": 10,
+        "movement": 9.1,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to MLB",
+        "Advanced to MLB"
       ]
     },
     {
@@ -1545,31 +1545,6 @@
       ]
     },
     {
-      "playerId": "9ed61891-8ae1-4a55-882e-d7a9f83cedb9",
-      "player": "Levi Stoudt",
-      "position": "P",
-      "affiliate": "Lehigh Valley IronPigs",
-      "level": "AAA",
-      "score": 49,
-      "previousRank": 65,
-      "rank": 65,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 11.4,
-        "ageLevel": 7.5,
-        "sentiment": 10,
-        "movement": 5.6,
-        "risk": 2.5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to AAA",
-        "Current injury lowers availability",
-        "Advanced to AAA"
-      ]
-    },
-    {
       "playerId": "2b3b922e-ed61-4243-a439-f1fff05c6d0d",
       "player": "Giussepe Velasquez",
       "position": "P",
@@ -1577,8 +1552,8 @@
       "level": "A+",
       "score": 48.9,
       "previousRank": 66,
-      "rank": 66,
-      "change": 0,
+      "rank": 65,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 7.2,
@@ -1590,6 +1565,31 @@
       "mediaMentions": 0,
       "reasons": [
         "Promoted to High-A"
+      ]
+    },
+    {
+      "playerId": "9ed61891-8ae1-4a55-882e-d7a9f83cedb9",
+      "player": "Levi Stoudt",
+      "position": "P",
+      "affiliate": "Lehigh Valley IronPigs",
+      "level": "AAA",
+      "score": 48.9,
+      "previousRank": 65,
+      "rank": 66,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 11.4,
+        "ageLevel": 7.5,
+        "sentiment": 10,
+        "movement": 5.5,
+        "risk": 2.5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to AAA",
+        "Current injury lowers availability",
+        "Advanced to AAA"
       ]
     },
     {
@@ -1661,32 +1661,6 @@
       ]
     },
     {
-      "playerId": "683da5fa-f1a2-4b5f-b05a-31e448302f83",
-      "player": "Felix Reyes",
-      "position": "OF",
-      "affiliate": "Lehigh Valley IronPigs",
-      "level": "AAA",
-      "score": 47.9,
-      "previousRank": 70,
-      "rank": 70,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 12.5,
-        "ageLevel": 7.5,
-        "sentiment": 8.3,
-        "movement": 5.1,
-        "risk": 2.5
-      },
-      "mediaMentions": 2,
-      "reasons": [
-        "2 recent media mentions",
-        "Negative recent coverage",
-        "Promoted to MLB",
-        "Current injury lowers availability"
-      ]
-    },
-    {
       "playerId": "31d49623-9347-440c-902f-da1b91afb497",
       "player": "Jose Pena Jr.",
       "position": "P",
@@ -1694,8 +1668,8 @@
       "level": "A+",
       "score": 47.8,
       "previousRank": 71,
-      "rank": 71,
-      "change": 0,
+      "rank": 70,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 11.5,
@@ -1715,8 +1689,8 @@
       "level": "A",
       "score": 47.7,
       "previousRank": 72,
-      "rank": 72,
-      "change": 0,
+      "rank": 71,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1736,8 +1710,8 @@
       "level": "AA",
       "score": 47.5,
       "previousRank": 73,
-      "rank": 73,
-      "change": 0,
+      "rank": 72,
+      "change": 1,
       "components": {
         "scouting": 13,
         "performance": 9,
@@ -1761,8 +1735,8 @@
       "level": "AA",
       "score": 47.3,
       "previousRank": 74,
-      "rank": 74,
-      "change": 0,
+      "rank": 73,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 8.7,
@@ -1785,8 +1759,8 @@
       "level": "A+",
       "score": 47.2,
       "previousRank": 75,
-      "rank": 75,
-      "change": 0,
+      "rank": 74,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1809,8 +1783,8 @@
       "level": "AA",
       "score": 47.1,
       "previousRank": 76,
-      "rank": 76,
-      "change": 0,
+      "rank": 75,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 9.2,
@@ -1834,8 +1808,8 @@
       "level": "AA",
       "score": 46.8,
       "previousRank": 77,
-      "rank": 77,
-      "change": 0,
+      "rank": 76,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 11.9,
@@ -1858,8 +1832,8 @@
       "level": "AAA",
       "score": 46.8,
       "previousRank": 78,
-      "rank": 78,
-      "change": 0,
+      "rank": 77,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 4,
@@ -1882,8 +1856,8 @@
       "level": "A+",
       "score": 46.5,
       "previousRank": 79,
-      "rank": 79,
-      "change": 0,
+      "rank": 78,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 10.2,
@@ -1903,8 +1877,8 @@
       "level": "A+",
       "score": 46.3,
       "previousRank": 80,
-      "rank": 80,
-      "change": 0,
+      "rank": 79,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1926,8 +1900,8 @@
       "level": "AA",
       "score": 46.1,
       "previousRank": 81,
-      "rank": 81,
-      "change": 0,
+      "rank": 80,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 7.6,
@@ -1951,8 +1925,8 @@
       "level": "A",
       "score": 45.8,
       "previousRank": 82,
-      "rank": 82,
-      "change": 0,
+      "rank": 81,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 10.6,
@@ -1972,8 +1946,8 @@
       "level": "A",
       "score": 45.6,
       "previousRank": 83,
-      "rank": 83,
-      "change": 0,
+      "rank": 82,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 9.5,
@@ -1995,8 +1969,8 @@
       "level": "Rookie",
       "score": 45.3,
       "previousRank": 84,
-      "rank": 84,
-      "change": 0,
+      "rank": 83,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 10.7,
@@ -2016,16 +1990,16 @@
       "position": "P",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 44.9,
+      "score": 44.8,
       "previousRank": 85,
-      "rank": 85,
-      "change": 0,
+      "rank": 84,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 7.1,
         "ageLevel": 5.3,
         "sentiment": 10,
-        "movement": 5.5,
+        "movement": 5.4,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -2041,8 +2015,8 @@
       "level": "A+",
       "score": 44.8,
       "previousRank": 86,
-      "rank": 86,
-      "change": 0,
+      "rank": 85,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 9.1,
@@ -2065,8 +2039,8 @@
       "level": "AAA",
       "score": 44.7,
       "previousRank": 87,
-      "rank": 87,
-      "change": 0,
+      "rank": 86,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 8.7,
@@ -2089,8 +2063,8 @@
       "level": "A",
       "score": 44.7,
       "previousRank": 88,
-      "rank": 88,
-      "change": 0,
+      "rank": 87,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 8.6,
@@ -2112,8 +2086,8 @@
       "level": "A",
       "score": 44.6,
       "previousRank": 89,
-      "rank": 89,
-      "change": 0,
+      "rank": 88,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 8.5,
@@ -2135,8 +2109,8 @@
       "level": "A+",
       "score": 44.3,
       "previousRank": 90,
-      "rank": 90,
-      "change": 0,
+      "rank": 89,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 8,
@@ -2156,8 +2130,8 @@
       "level": "A",
       "score": 44.2,
       "previousRank": 91,
-      "rank": 91,
-      "change": 0,
+      "rank": 90,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 8.1,
@@ -2179,8 +2153,8 @@
       "level": "Rookie",
       "score": 43.9,
       "previousRank": 92,
-      "rank": 92,
-      "change": 0,
+      "rank": 91,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 10.2,
@@ -2202,8 +2176,8 @@
       "level": "A+",
       "score": 43.8,
       "previousRank": 93,
-      "rank": 93,
-      "change": 0,
+      "rank": 92,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 7.5,
@@ -2223,8 +2197,8 @@
       "level": "A",
       "score": 43.2,
       "previousRank": 94,
-      "rank": 94,
-      "change": 0,
+      "rank": 93,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 9.6,
@@ -2247,8 +2221,8 @@
       "level": "A+",
       "score": 43.1,
       "previousRank": 95,
-      "rank": 95,
-      "change": 0,
+      "rank": 94,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 6.8,
@@ -2268,8 +2242,8 @@
       "level": "AAA",
       "score": 42.6,
       "previousRank": 96,
-      "rank": 96,
-      "change": 0,
+      "rank": 95,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 4,
@@ -2292,8 +2266,8 @@
       "level": "AA",
       "score": 42.6,
       "previousRank": 97,
-      "rank": 97,
-      "change": 0,
+      "rank": 96,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 4.4,
@@ -2316,8 +2290,8 @@
       "level": "AAA",
       "score": 42.6,
       "previousRank": 98,
-      "rank": 98,
-      "change": 0,
+      "rank": 97,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 4.1,
@@ -2339,8 +2313,8 @@
       "level": "AAA",
       "score": 42.5,
       "previousRank": 99,
-      "rank": 99,
-      "change": 0,
+      "rank": 98,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 4,
@@ -2362,8 +2336,8 @@
       "level": "AA",
       "score": 42.3,
       "previousRank": 100,
-      "rank": 100,
-      "change": 0,
+      "rank": 99,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 4.5,
@@ -2387,8 +2361,8 @@
       "level": "A+",
       "score": 42.1,
       "previousRank": 101,
-      "rank": 101,
-      "change": 0,
+      "rank": 100,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 4.9,
@@ -2410,8 +2384,8 @@
       "level": "A+",
       "score": 41.7,
       "previousRank": 102,
-      "rank": 102,
-      "change": 0,
+      "rank": 101,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 4.5,
@@ -2433,8 +2407,8 @@
       "level": "A",
       "score": 40.9,
       "previousRank": 103,
-      "rank": 103,
-      "change": 0,
+      "rank": 102,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 5.7,
@@ -2454,8 +2428,8 @@
       "level": "A",
       "score": 40.3,
       "previousRank": 104,
-      "rank": 104,
-      "change": 0,
+      "rank": 103,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 4.2,
@@ -2477,8 +2451,8 @@
       "level": "A+",
       "score": 39.7,
       "previousRank": 105,
-      "rank": 105,
-      "change": 0,
+      "rank": 104,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 5,
@@ -2501,8 +2475,8 @@
       "level": "Rookie",
       "score": 39.6,
       "previousRank": 106,
-      "rank": 106,
-      "change": 0,
+      "rank": 105,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 4,
