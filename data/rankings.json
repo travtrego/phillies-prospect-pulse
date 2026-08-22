@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T10:42:59.423Z",
+  "updatedAt": "2026-08-22T18:49:05.380Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -28,10 +28,10 @@
         "movement": 5.7,
         "risk": 5
       },
-      "mediaMentions": 5,
+      "mediaMentions": 4,
       "reasons": [
         "MLB Pipeline rank #2",
-        "5 recent media mentions",
+        "4 recent media mentions",
         "Promoted to AA",
         "Advanced to AA"
       ]
@@ -42,7 +42,7 @@
       "position": "RHP",
       "affiliate": "Philadelphia Phillies",
       "level": "MLB",
-      "score": 71.6,
+      "score": 71.5,
       "previousRank": 2,
       "rank": 2,
       "change": 0,
@@ -51,7 +51,7 @@
         "performance": 19.5,
         "ageLevel": 8.2,
         "sentiment": 10.2,
-        "movement": 9.2,
+        "movement": 9.1,
         "risk": 5
       },
       "mediaMentions": 4,
@@ -68,7 +68,7 @@
       "position": "RHP",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 69.1,
+      "score": 69,
       "previousRank": 3,
       "rank": 3,
       "change": 0,
@@ -77,7 +77,7 @@
         "performance": 16.2,
         "ageLevel": 6.4,
         "sentiment": 10.2,
-        "movement": 9.7,
+        "movement": 9.6,
         "risk": 5
       },
       "mediaMentions": 1,
@@ -418,7 +418,7 @@
       "position": "P",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 58,
+      "score": 57.9,
       "previousRank": 17,
       "rank": 17,
       "change": 0,
@@ -427,7 +427,7 @@
         "performance": 20.1,
         "ageLevel": 5.3,
         "sentiment": 10,
-        "movement": 5.6,
+        "movement": 5.5,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -585,7 +585,7 @@
       "position": "INF",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 56,
+      "score": 55.9,
       "previousRank": 24,
       "rank": 24,
       "change": 0,
@@ -594,7 +594,7 @@
         "performance": 13.8,
         "ageLevel": 6.4,
         "sentiment": 10,
-        "movement": 8.8,
+        "movement": 8.7,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -1544,29 +1544,6 @@
       ]
     },
     {
-      "playerId": "2b3b922e-ed61-4243-a439-f1fff05c6d0d",
-      "player": "Giussepe Velasquez",
-      "position": "P",
-      "affiliate": "Jersey Shore BlueClaws",
-      "level": "A+",
-      "score": 48.9,
-      "previousRank": 65,
-      "rank": 65,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 7.2,
-        "ageLevel": 5.3,
-        "sentiment": 10,
-        "movement": 9.4,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to High-A"
-      ]
-    },
-    {
       "playerId": "9ed61891-8ae1-4a55-882e-d7a9f83cedb9",
       "player": "Levi Stoudt",
       "position": "P",
@@ -1574,8 +1551,8 @@
       "level": "AAA",
       "score": 48.9,
       "previousRank": 66,
-      "rank": 66,
-      "change": 0,
+      "rank": 65,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 11.4,
@@ -1599,8 +1576,8 @@
       "level": "A+",
       "score": 48.8,
       "previousRank": 67,
-      "rank": 67,
-      "change": 0,
+      "rank": 66,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1620,8 +1597,8 @@
       "level": "AA",
       "score": 48.8,
       "previousRank": 68,
-      "rank": 68,
-      "change": 0,
+      "rank": 67,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 11.4,
@@ -1633,6 +1610,29 @@
       "mediaMentions": 0,
       "reasons": [
         "Advanced to AA"
+      ]
+    },
+    {
+      "playerId": "2b3b922e-ed61-4243-a439-f1fff05c6d0d",
+      "player": "Giussepe Velasquez",
+      "position": "P",
+      "affiliate": "Jersey Shore BlueClaws",
+      "level": "A+",
+      "score": 48.8,
+      "previousRank": 65,
+      "rank": 68,
+      "change": -3,
+      "components": {
+        "scouting": 12,
+        "performance": 7.2,
+        "ageLevel": 5.3,
+        "sentiment": 10,
+        "movement": 9.3,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to High-A"
       ]
     },
     {
@@ -1824,31 +1824,6 @@
       ]
     },
     {
-      "playerId": "fbd5a3d7-ab1c-43b4-8412-3ca70609bd49",
-      "player": "Daniel Harper",
-      "position": "P",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 46.7,
-      "previousRank": 77,
-      "rank": 77,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 8.2,
-        "ageLevel": 6.4,
-        "sentiment": 10,
-        "movement": 5.1,
-        "risk": 5
-      },
-      "mediaMentions": 1,
-      "reasons": [
-        "1 recent media mention",
-        "Promoted to AAA",
-        "Advanced to AA"
-      ]
-    },
-    {
       "playerId": "afee8713-2602-49f1-a02e-c93aa38e49ef",
       "player": "Jordan Dissin",
       "position": "C",
@@ -1856,8 +1831,8 @@
       "level": "AAA",
       "score": 46.7,
       "previousRank": 78,
-      "rank": 78,
-      "change": 0,
+      "rank": 77,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 4,
@@ -1870,6 +1845,31 @@
       "reasons": [
         "Promoted to AAA",
         "Advanced to AAA"
+      ]
+    },
+    {
+      "playerId": "fbd5a3d7-ab1c-43b4-8412-3ca70609bd49",
+      "player": "Daniel Harper",
+      "position": "P",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 46.6,
+      "previousRank": 77,
+      "rank": 78,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 8.2,
+        "ageLevel": 6.4,
+        "sentiment": 10,
+        "movement": 5,
+        "risk": 5
+      },
+      "mediaMentions": 1,
+      "reasons": [
+        "1 recent media mention",
+        "Promoted to AAA",
+        "Advanced to AA"
       ]
     },
     {
