@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T10:43:02.654Z",
+  "updatedAt": "2026-08-23T13:02:33.872Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -650,30 +650,6 @@
       ]
     },
     {
-      "playerId": "8d6ddf59-1ba0-4003-a774-10fef1e46a64",
-      "player": "Reese Dutton",
-      "position": "P",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 53.9,
-      "previousRank": 27,
-      "rank": 27,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 12.4,
-        "ageLevel": 6.4,
-        "sentiment": 10,
-        "movement": 8.1,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to AA",
-        "Advanced to AA"
-      ]
-    },
-    {
       "playerId": "598cf251-8e99-47cf-a850-c7b0d73b5f2a",
       "player": "Adam Seminaris",
       "position": "P",
@@ -681,8 +657,8 @@
       "level": "AA",
       "score": 53.8,
       "previousRank": 28,
-      "rank": 28,
-      "change": 0,
+      "rank": 27,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 16.4,
@@ -693,6 +669,30 @@
       },
       "mediaMentions": 0,
       "reasons": [
+        "Advanced to AA"
+      ]
+    },
+    {
+      "playerId": "8d6ddf59-1ba0-4003-a774-10fef1e46a64",
+      "player": "Reese Dutton",
+      "position": "P",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 53.8,
+      "previousRank": 27,
+      "rank": 28,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 12.4,
+        "ageLevel": 6.4,
+        "sentiment": 10,
+        "movement": 8,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to AA",
         "Advanced to AA"
       ]
     },
