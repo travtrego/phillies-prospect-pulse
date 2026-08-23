@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-08-23T13:02:16.093Z",
+  "updatedAt": "2026-08-23T18:48:16.255Z",
   "records": [
+    {
+      "playerId": 825130,
+      "player": "Lane Haworth",
+      "date": "2026-08-23",
+      "fromAffiliate": "FCL Phillies",
+      "fromLevel": "Rookie",
+      "toAffiliate": "Clearwater Threshers",
+      "toLevel": "Single-A",
+      "description": "OF Lane Haworth assigned to Clearwater Threshers from FCL Phillies.",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-08-23&endDate=2026-08-23"
+    },
     {
       "playerId": 825751,
       "player": "Gerardo Lopez",
