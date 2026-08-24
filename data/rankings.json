@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T07:20:59.356Z",
+  "updatedAt": "2026-08-24T10:54:52.270Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -513,7 +513,7 @@
       "position": "P",
       "affiliate": "Philadelphia Phillies",
       "level": "MLB",
-      "score": 56.4,
+      "score": 56.3,
       "previousRank": 21,
       "rank": 21,
       "change": 0,
@@ -522,7 +522,7 @@
         "performance": 12.2,
         "ageLevel": 8.2,
         "sentiment": 10,
-        "movement": 9,
+        "movement": 8.9,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -989,9 +989,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 51.4,
-      "previousRank": 42,
+      "previousRank": 41,
       "rank": 41,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 11.7,
@@ -1013,9 +1013,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 51.4,
-      "previousRank": 43,
+      "previousRank": 42,
       "rank": 42,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 14.3,
@@ -1036,9 +1036,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 51.4,
-      "previousRank": 41,
+      "previousRank": 43,
       "rank": 43,
-      "change": -2,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 11.1,
