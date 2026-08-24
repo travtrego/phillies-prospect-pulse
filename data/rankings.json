@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T10:54:52.270Z",
+  "updatedAt": "2026-08-24T13:13:17.993Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -242,7 +242,7 @@
       "position": "3B",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 62.9,
+      "score": 63.1,
       "previousRank": 10,
       "rank": 10,
       "change": 0,
@@ -250,13 +250,14 @@
         "scouting": 20.2,
         "performance": 17.3,
         "ageLevel": 6.4,
-        "sentiment": 10,
+        "sentiment": 10.2,
         "movement": 4,
         "risk": 5
       },
-      "mediaMentions": 0,
+      "mediaMentions": 1,
       "reasons": [
         "MLB Pipeline rank #16",
+        "1 recent media mention",
         "Advanced to AA"
       ]
     },
@@ -888,30 +889,6 @@
       ]
     },
     {
-      "playerId": "e0548f18-f2b0-49bd-acb2-c3ea01088ff9",
-      "player": "Tristan Garnett",
-      "position": "P",
-      "affiliate": "Lehigh Valley IronPigs",
-      "level": "AAA",
-      "score": 52,
-      "previousRank": 37,
-      "rank": 37,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 7.8,
-        "ageLevel": 7.5,
-        "sentiment": 10,
-        "movement": 9.7,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to AAA",
-        "Advanced to AAA"
-      ]
-    },
-    {
       "playerId": "d04e944a-e015-46b1-b32c-988723904e96",
       "player": "Camron Hill",
       "position": "P",
@@ -919,8 +896,8 @@
       "level": "A+",
       "score": 51.9,
       "previousRank": 38,
-      "rank": 38,
-      "change": 0,
+      "rank": 37,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 14.3,
@@ -942,8 +919,8 @@
       "level": "AAA",
       "score": 51.9,
       "previousRank": 39,
-      "rank": 39,
-      "change": 0,
+      "rank": 38,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 13.4,
@@ -965,8 +942,8 @@
       "level": "AA",
       "score": 51.9,
       "previousRank": 40,
-      "rank": 40,
-      "change": 0,
+      "rank": 39,
+      "change": 1,
       "components": {
         "scouting": 22.4,
         "performance": 4,
@@ -980,6 +957,30 @@
         "MLB Pipeline rank #13",
         "Promoted to MLB",
         "Advanced to AA"
+      ]
+    },
+    {
+      "playerId": "e0548f18-f2b0-49bd-acb2-c3ea01088ff9",
+      "player": "Tristan Garnett",
+      "position": "P",
+      "affiliate": "Lehigh Valley IronPigs",
+      "level": "AAA",
+      "score": 51.9,
+      "previousRank": 37,
+      "rank": 40,
+      "change": -3,
+      "components": {
+        "scouting": 12,
+        "performance": 7.8,
+        "ageLevel": 7.5,
+        "sentiment": 10,
+        "movement": 9.6,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to AAA",
+        "Advanced to AAA"
       ]
     },
     {
