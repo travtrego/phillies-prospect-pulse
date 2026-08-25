@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T18:59:51.628Z",
+  "updatedAt": "2026-08-25T01:52:55.582Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -16,7 +16,7 @@
       "position": "RHP",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 74,
+      "score": 74.1,
       "previousRank": 1,
       "rank": 1,
       "change": 0,
@@ -24,14 +24,14 @@
         "scouting": 30,
         "performance": 15.9,
         "ageLevel": 7.2,
-        "sentiment": 10.3,
+        "sentiment": 10.4,
         "movement": 5.6,
         "risk": 5
       },
-      "mediaMentions": 5,
+      "mediaMentions": 6,
       "reasons": [
         "MLB Pipeline rank #2",
-        "5 recent media mentions",
+        "6 recent media mentions",
         "Promoted to AA",
         "Advanced to AA"
       ]
@@ -54,11 +54,11 @@
         "movement": 9,
         "risk": 5
       },
-      "mediaMentions": 3,
+      "mediaMentions": 4,
       "reasons": [
         "Strong current-season performance",
         "MLB Pipeline rank #17",
-        "3 recent media mentions",
+        "4 recent media mentions",
         "Promoted to MLB"
       ]
     },
@@ -94,7 +94,7 @@
       "position": "SS",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 68.2,
+      "score": 68.4,
       "previousRank": 4,
       "rank": 4,
       "change": 0,
@@ -102,7 +102,7 @@
         "scouting": 30,
         "performance": 12.5,
         "ageLevel": 9.3,
-        "sentiment": 9.8,
+        "sentiment": 10,
         "movement": 4.1,
         "risk": 2.5
       },
@@ -705,7 +705,7 @@
       "position": "P",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 53.5,
+      "score": 53.4,
       "previousRank": 29,
       "rank": 29,
       "change": 0,
@@ -714,7 +714,7 @@
         "performance": 12.3,
         "ageLevel": 5.3,
         "sentiment": 10,
-        "movement": 8.9,
+        "movement": 8.8,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -752,7 +752,7 @@
       "position": "INF",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 52.9,
+      "score": 53,
       "previousRank": 31,
       "rank": 31,
       "change": 0,
@@ -760,37 +760,14 @@
         "scouting": 12,
         "performance": 13.6,
         "ageLevel": 7.5,
-        "sentiment": 10,
+        "sentiment": 10.1,
         "movement": 4.8,
         "risk": 5
       },
-      "mediaMentions": 0,
+      "mediaMentions": 1,
       "reasons": [
+        "1 recent media mention",
         "Promoted to AAA",
-        "Advanced to AAA"
-      ]
-    },
-    {
-      "playerId": "2da80f7a-4e55-4897-a922-6dd69968a16d",
-      "player": "Alan Rangel",
-      "position": "P",
-      "affiliate": "Lehigh Valley IronPigs",
-      "level": "AAA",
-      "score": 52.6,
-      "previousRank": 32,
-      "rank": 32,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 9.2,
-        "ageLevel": 7.5,
-        "sentiment": 10,
-        "movement": 8.9,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to MLB",
         "Advanced to AAA"
       ]
     },
@@ -802,8 +779,8 @@
       "level": "A",
       "score": 52.6,
       "previousRank": 33,
-      "rank": 33,
-      "change": 0,
+      "rank": 32,
+      "change": 1,
       "components": {
         "scouting": 20.9,
         "performance": 7.7,
@@ -816,6 +793,30 @@
       "reasons": [
         "MLB Pipeline rank #15",
         "Promoted to Single-A"
+      ]
+    },
+    {
+      "playerId": "2da80f7a-4e55-4897-a922-6dd69968a16d",
+      "player": "Alan Rangel",
+      "position": "P",
+      "affiliate": "Lehigh Valley IronPigs",
+      "level": "AAA",
+      "score": 52.5,
+      "previousRank": 32,
+      "rank": 33,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 9.2,
+        "ageLevel": 7.5,
+        "sentiment": 10,
+        "movement": 8.8,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to MLB",
+        "Advanced to AAA"
       ]
     },
     {
@@ -985,30 +986,6 @@
       ]
     },
     {
-      "playerId": "d27bdf7d-9b27-4db9-9e78-241a16c2c762",
-      "player": "Chuck King",
-      "position": "P",
-      "affiliate": "Lehigh Valley IronPigs",
-      "level": "AAA",
-      "score": 51.4,
-      "previousRank": 41,
-      "rank": 41,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 11.7,
-        "ageLevel": 7.5,
-        "sentiment": 10,
-        "movement": 5.2,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to AAA",
-        "Advanced to AAA"
-      ]
-    },
-    {
       "playerId": "ffee4217-f454-4f1d-9397-796fe79fec59",
       "player": "Juan Amarante",
       "position": "P",
@@ -1016,8 +993,8 @@
       "level": "A+",
       "score": 51.4,
       "previousRank": 42,
-      "rank": 42,
-      "change": 0,
+      "rank": 41,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 14.3,
@@ -1039,8 +1016,8 @@
       "level": "AA",
       "score": 51.4,
       "previousRank": 43,
-      "rank": 43,
-      "change": 0,
+      "rank": 42,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 11.1,
@@ -1063,8 +1040,8 @@
       "level": "A",
       "score": 51.3,
       "previousRank": 44,
-      "rank": 44,
-      "change": 0,
+      "rank": 43,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 15.3,
@@ -1076,6 +1053,30 @@
       "mediaMentions": 0,
       "reasons": [
         "Promoted to Single-A"
+      ]
+    },
+    {
+      "playerId": "d27bdf7d-9b27-4db9-9e78-241a16c2c762",
+      "player": "Chuck King",
+      "position": "P",
+      "affiliate": "Lehigh Valley IronPigs",
+      "level": "AAA",
+      "score": 51.3,
+      "previousRank": 41,
+      "rank": 44,
+      "change": -3,
+      "components": {
+        "scouting": 12,
+        "performance": 11.7,
+        "ageLevel": 7.5,
+        "sentiment": 10,
+        "movement": 5.1,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to AAA",
+        "Advanced to AAA"
       ]
     },
     {
@@ -1631,10 +1632,10 @@
         "movement": 4,
         "risk": 5
       },
-      "mediaMentions": 2,
+      "mediaMentions": 1,
       "reasons": [
         "MLB Pipeline rank #24",
-        "2 recent media mentions"
+        "1 recent media mention"
       ]
     },
     {
@@ -1842,9 +1843,9 @@
         "movement": 5,
         "risk": 5
       },
-      "mediaMentions": 1,
+      "mediaMentions": 2,
       "reasons": [
-        "1 recent media mention",
+        "2 recent media mentions",
         "Promoted to AAA",
         "Advanced to AA"
       ]
