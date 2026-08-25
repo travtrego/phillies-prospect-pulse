@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T01:52:55.582Z",
+  "updatedAt": "2026-08-25T07:08:35.886Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -68,7 +68,7 @@
       "position": "RHP",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 68.8,
+      "score": 68.7,
       "previousRank": 3,
       "rank": 3,
       "change": 0,
@@ -77,7 +77,7 @@
         "performance": 16.2,
         "ageLevel": 6.4,
         "sentiment": 10.1,
-        "movement": 9.5,
+        "movement": 9.4,
         "risk": 5
       },
       "mediaMentions": 1,
@@ -94,7 +94,7 @@
       "position": "SS",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 68.4,
+      "score": 68.2,
       "previousRank": 4,
       "rank": 4,
       "change": 0,
@@ -102,14 +102,14 @@
         "scouting": 30,
         "performance": 12.5,
         "ageLevel": 9.3,
-        "sentiment": 10,
+        "sentiment": 9.8,
         "movement": 4.1,
         "risk": 2.5
       },
-      "mediaMentions": 14,
+      "mediaMentions": 13,
       "reasons": [
         "MLB Pipeline rank #1",
-        "14 recent media mentions",
+        "13 recent media mentions",
         "Strong positive prospect coverage",
         "Material negative recent coverage"
       ]
@@ -354,10 +354,10 @@
         "movement": 4.1,
         "risk": 2.5
       },
-      "mediaMentions": 1,
+      "mediaMentions": 2,
       "reasons": [
         "MLB Pipeline rank #5",
-        "1 recent media mention",
+        "2 recent media mentions",
         "Promoted to AA",
         "Current injury lowers availability"
       ]
@@ -394,7 +394,7 @@
       "position": "OF",
       "affiliate": "Philadelphia Phillies",
       "level": "MLB",
-      "score": 58.1,
+      "score": 58,
       "previousRank": 16,
       "rank": 16,
       "change": 0,
@@ -403,7 +403,7 @@
         "performance": 15.4,
         "ageLevel": 8.2,
         "sentiment": 9.7,
-        "movement": 7.8,
+        "movement": 7.7,
         "risk": 5
       },
       "mediaMentions": 1,
@@ -515,13 +515,13 @@
       "position": "P",
       "affiliate": "Philadelphia Phillies",
       "level": "MLB",
-      "score": 56.3,
+      "score": 56.5,
       "previousRank": 21,
       "rank": 21,
       "change": 0,
       "components": {
         "scouting": 12,
-        "performance": 12.2,
+        "performance": 12.4,
         "ageLevel": 8.2,
         "sentiment": 10,
         "movement": 8.9,
@@ -778,9 +778,9 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 52.6,
-      "previousRank": 33,
+      "previousRank": 32,
       "rank": 32,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 20.9,
         "performance": 7.7,
@@ -802,9 +802,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 52.5,
-      "previousRank": 32,
+      "previousRank": 33,
       "rank": 33,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 9.2,
@@ -844,29 +844,6 @@
       ]
     },
     {
-      "playerId": "c16c7468-fda9-463b-9fbe-e846f5e1c41e",
-      "player": "Jonathan Hogart",
-      "position": "OF",
-      "affiliate": "Clearwater Threshers",
-      "level": "A",
-      "score": 52.5,
-      "previousRank": 35,
-      "rank": 35,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 16.3,
-        "ageLevel": 4.2,
-        "sentiment": 11,
-        "movement": 4,
-        "risk": 5
-      },
-      "mediaMentions": 2,
-      "reasons": [
-        "2 recent media mentions"
-      ]
-    },
-    {
       "playerId": "664e2816-001f-49a6-a263-70799c1d32b1",
       "player": "Paul McIntosh",
       "position": "C",
@@ -874,8 +851,8 @@
       "level": "AAA",
       "score": 52.5,
       "previousRank": 36,
-      "rank": 36,
-      "change": 0,
+      "rank": 35,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 14,
@@ -888,6 +865,29 @@
       "reasons": [
         "Promoted to AAA",
         "Advanced to AAA"
+      ]
+    },
+    {
+      "playerId": "c16c7468-fda9-463b-9fbe-e846f5e1c41e",
+      "player": "Jonathan Hogart",
+      "position": "OF",
+      "affiliate": "Clearwater Threshers",
+      "level": "A",
+      "score": 52.4,
+      "previousRank": 35,
+      "rank": 36,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 16.3,
+        "ageLevel": 4.2,
+        "sentiment": 10.9,
+        "movement": 4,
+        "risk": 5
+      },
+      "mediaMentions": 2,
+      "reasons": [
+        "2 recent media mentions"
       ]
     },
     {
@@ -992,9 +992,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 51.4,
-      "previousRank": 42,
+      "previousRank": 41,
       "rank": 41,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 14.3,
@@ -1015,9 +1015,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 51.4,
-      "previousRank": 43,
+      "previousRank": 42,
       "rank": 42,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 11.1,
@@ -1039,9 +1039,9 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 51.3,
-      "previousRank": 44,
+      "previousRank": 43,
       "rank": 43,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 15.3,
@@ -1062,9 +1062,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 51.3,
-      "previousRank": 41,
+      "previousRank": 44,
       "rank": 44,
-      "change": -3,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 11.7,
@@ -1632,10 +1632,10 @@
         "movement": 4,
         "risk": 5
       },
-      "mediaMentions": 1,
+      "mediaMentions": 2,
       "reasons": [
         "MLB Pipeline rank #24",
-        "1 recent media mention"
+        "2 recent media mentions"
       ]
     },
     {
@@ -1843,9 +1843,9 @@
         "movement": 5,
         "risk": 5
       },
-      "mediaMentions": 2,
+      "mediaMentions": 1,
       "reasons": [
-        "2 recent media mentions",
+        "1 recent media mention",
         "Promoted to AAA",
         "Advanced to AA"
       ]
