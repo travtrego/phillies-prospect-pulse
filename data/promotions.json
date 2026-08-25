@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-08-25T13:11:37.888Z",
+  "updatedAt": "2026-08-25T18:56:45.283Z",
   "records": [
+    {
+      "playerId": 686404,
+      "player": "Wuilfredo Antunez",
+      "date": "2026-08-25",
+      "fromAffiliate": "Reading Fightin Phils",
+      "fromLevel": "AA",
+      "toAffiliate": "Lehigh Valley IronPigs",
+      "toLevel": "AAA",
+      "description": "CF Wuilfredo Antunez assigned to Lehigh Valley IronPigs from Reading Fightin Phils.",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-08-25&endDate=2026-08-25"
+    },
     {
       "playerId": 825130,
       "player": "Lane Haworth",
