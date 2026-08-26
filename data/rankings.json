@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T07:09:09.319Z",
+  "updatedAt": "2026-08-26T10:52:41.580Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -190,6 +190,32 @@
       ]
     },
     {
+      "playerId": "7a4408f1-d3cf-4b7c-9e20-c7ecf26f797d",
+      "player": "Dante Nori",
+      "position": "OF",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 64.1,
+      "previousRank": 11,
+      "rank": 8,
+      "change": 3,
+      "components": {
+        "scouting": 28.1,
+        "performance": 8.8,
+        "ageLevel": 7.2,
+        "sentiment": 10.9,
+        "movement": 4.1,
+        "risk": 5
+      },
+      "mediaMentions": 4,
+      "reasons": [
+        "MLB Pipeline rank #5",
+        "4 recent media mentions",
+        "Promoted to AA",
+        "Advanced to AA"
+      ]
+    },
+    {
       "playerId": "13315340-3eb4-4b12-a283-cc384919b692",
       "player": "Moisés Chace",
       "position": "RHP",
@@ -197,8 +223,8 @@
       "level": "AA",
       "score": 64,
       "previousRank": 8,
-      "rank": 8,
-      "change": 0,
+      "rank": 9,
+      "change": -1,
       "components": {
         "scouting": 26,
         "performance": 12.5,
@@ -222,8 +248,8 @@
       "level": "AA",
       "score": 63.9,
       "previousRank": 9,
-      "rank": 9,
-      "change": 0,
+      "rank": 10,
+      "change": -1,
       "components": {
         "scouting": 20.2,
         "performance": 18.2,
@@ -247,8 +273,8 @@
       "level": "A",
       "score": 63.5,
       "previousRank": 10,
-      "rank": 10,
-      "change": 0,
+      "rank": 11,
+      "change": -1,
       "components": {
         "scouting": 24.5,
         "performance": 13.5,
@@ -264,38 +290,12 @@
       ]
     },
     {
-      "playerId": "7a4408f1-d3cf-4b7c-9e20-c7ecf26f797d",
-      "player": "Dante Nori",
-      "position": "OF",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 63.2,
-      "previousRank": 11,
-      "rank": 11,
-      "change": 0,
-      "components": {
-        "scouting": 28.1,
-        "performance": 8.8,
-        "ageLevel": 7.2,
-        "sentiment": 10,
-        "movement": 4.1,
-        "risk": 5
-      },
-      "mediaMentions": 3,
-      "reasons": [
-        "MLB Pipeline rank #5",
-        "3 recent media mentions",
-        "Promoted to AA",
-        "Advanced to AA"
-      ]
-    },
-    {
       "playerId": "a7942849-a3bc-483c-97f5-7c4654f0a2b9",
       "player": "Wen-Hui Pan",
       "position": "RHP",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 63.2,
+      "score": 63.1,
       "previousRank": 12,
       "rank": 12,
       "change": 0,
@@ -303,14 +303,13 @@
         "scouting": 23.1,
         "performance": 12.4,
         "ageLevel": 6.4,
-        "sentiment": 10.1,
+        "sentiment": 10,
         "movement": 6.2,
         "risk": 5
       },
-      "mediaMentions": 1,
+      "mediaMentions": 0,
       "reasons": [
         "MLB Pipeline rank #12",
-        "1 recent media mention",
         "Promoted to AA",
         "Advanced to AA"
       ]
@@ -540,7 +539,7 @@
       "position": "INF",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 56.2,
+      "score": 56.1,
       "previousRank": 22,
       "rank": 22,
       "change": 0,
@@ -549,7 +548,7 @@
         "performance": 15.4,
         "ageLevel": 5.3,
         "sentiment": 10,
-        "movement": 8.5,
+        "movement": 8.4,
         "risk": 5
       },
       "mediaMentions": 1,
@@ -1150,30 +1149,6 @@
       ]
     },
     {
-      "playerId": "cefc8b59-47ed-46e9-820d-daba4f905d87",
-      "player": "Evan Gates",
-      "position": "P",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 51,
-      "previousRank": 48,
-      "rank": 48,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 11.2,
-        "ageLevel": 6.4,
-        "sentiment": 10,
-        "movement": 6.4,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to AAA",
-        "Advanced to AA"
-      ]
-    },
-    {
       "playerId": "7dc9fbba-ab85-4e33-861c-93c73db693ec",
       "player": "Génesis Cabrera",
       "position": "P",
@@ -1181,8 +1156,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 49,
-      "rank": 49,
-      "change": 0,
+      "rank": 48,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1204,8 +1179,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 50,
-      "rank": 50,
-      "change": 0,
+      "rank": 49,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1227,8 +1202,8 @@
       "level": "AA",
       "score": 51,
       "previousRank": 51,
-      "rank": 51,
-      "change": 0,
+      "rank": 50,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1251,8 +1226,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 52,
-      "rank": 52,
-      "change": 0,
+      "rank": 51,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1274,8 +1249,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 53,
-      "rank": 53,
-      "change": 0,
+      "rank": 52,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1287,6 +1262,30 @@
       "mediaMentions": 0,
       "reasons": [
         "Advanced to AAA"
+      ]
+    },
+    {
+      "playerId": "cefc8b59-47ed-46e9-820d-daba4f905d87",
+      "player": "Evan Gates",
+      "position": "P",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 50.9,
+      "previousRank": 48,
+      "rank": 53,
+      "change": -5,
+      "components": {
+        "scouting": 12,
+        "performance": 11.2,
+        "ageLevel": 6.4,
+        "sentiment": 10,
+        "movement": 6.3,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to AAA",
+        "Advanced to AA"
       ]
     },
     {
@@ -2079,30 +2078,6 @@
       ]
     },
     {
-      "playerId": "aad86f1a-7bf6-4ded-9f02-50a43718783f",
-      "player": "Tyler Pettorini",
-      "position": "INF",
-      "affiliate": "Jersey Shore BlueClaws",
-      "level": "A+",
-      "score": 44.7,
-      "previousRank": 88,
-      "rank": 88,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 9.1,
-        "ageLevel": 5.3,
-        "sentiment": 10,
-        "movement": 5.8,
-        "risk": 2.5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to High-A",
-        "Current injury lowers availability"
-      ]
-    },
-    {
       "playerId": "da43f7d2-9349-4f99-a764-31e73a6f20f4",
       "player": "Titan Kennedy-Hayes",
       "position": "P",
@@ -2110,8 +2085,8 @@
       "level": "A+",
       "score": 44.6,
       "previousRank": 89,
-      "rank": 89,
-      "change": 0,
+      "rank": 88,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 8.3,
@@ -2122,6 +2097,30 @@
       },
       "mediaMentions": 0,
       "reasons": []
+    },
+    {
+      "playerId": "aad86f1a-7bf6-4ded-9f02-50a43718783f",
+      "player": "Tyler Pettorini",
+      "position": "INF",
+      "affiliate": "Jersey Shore BlueClaws",
+      "level": "A+",
+      "score": 44.6,
+      "previousRank": 88,
+      "rank": 89,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 9.1,
+        "ageLevel": 5.3,
+        "sentiment": 10,
+        "movement": 5.7,
+        "risk": 2.5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to High-A",
+        "Current injury lowers availability"
+      ]
     },
     {
       "playerId": "c2c54b0c-cc4a-4837-aba2-c591bf3850a5",
@@ -2474,7 +2473,7 @@
       "position": "OF",
       "affiliate": "FCL Phillies",
       "level": "Rookie",
-      "score": 39.5,
+      "score": 39.4,
       "previousRank": 105,
       "rank": 105,
       "change": 0,
@@ -2483,7 +2482,7 @@
         "performance": 4,
         "ageLevel": 2.7,
         "sentiment": 10,
-        "movement": 5.8,
+        "movement": 5.7,
         "risk": 5
       },
       "mediaMentions": 0,
