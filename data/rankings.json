@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T13:16:55.084Z",
+  "updatedAt": "2026-08-26T20:03:01.935Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -28,10 +28,10 @@
         "movement": 5.6,
         "risk": 5
       },
-      "mediaMentions": 7,
+      "mediaMentions": 6,
       "reasons": [
         "MLB Pipeline rank #2",
-        "7 recent media mentions",
+        "6 recent media mentions",
         "Promoted to AA",
         "Advanced to AA"
       ]
@@ -42,7 +42,7 @@
       "position": "RHP",
       "affiliate": "Philadelphia Phillies",
       "level": "MLB",
-      "score": 71.3,
+      "score": 71.4,
       "previousRank": 2,
       "rank": 2,
       "change": 0,
@@ -50,7 +50,7 @@
         "scouting": 19.5,
         "performance": 19.5,
         "ageLevel": 8.2,
-        "sentiment": 10.2,
+        "sentiment": 10.3,
         "movement": 8.9,
         "risk": 5
       },
@@ -68,7 +68,7 @@
       "position": "RHP",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 68.7,
+      "score": 68.6,
       "previousRank": 3,
       "rank": 3,
       "change": 0,
@@ -77,7 +77,7 @@
         "performance": 16.2,
         "ageLevel": 6.4,
         "sentiment": 10.1,
-        "movement": 9.4,
+        "movement": 9.3,
         "risk": 5
       },
       "mediaMentions": 1,
@@ -295,7 +295,7 @@
       "position": "RHP",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 63.2,
+      "score": 63.1,
       "previousRank": 12,
       "rank": 12,
       "change": 0,
@@ -303,14 +303,13 @@
         "scouting": 23.1,
         "performance": 12.4,
         "ageLevel": 6.4,
-        "sentiment": 10.1,
+        "sentiment": 10,
         "movement": 6.2,
         "risk": 5
       },
-      "mediaMentions": 1,
+      "mediaMentions": 0,
       "reasons": [
         "MLB Pipeline rank #12",
-        "1 recent media mention",
         "Promoted to AA",
         "Advanced to AA"
       ]
@@ -369,7 +368,7 @@
       "position": "SS",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 58.8,
+      "score": 59,
       "previousRank": 15,
       "rank": 15,
       "change": 0,
@@ -377,15 +376,15 @@
         "scouting": 12.3,
         "performance": 20.3,
         "ageLevel": 6.4,
-        "sentiment": 10,
+        "sentiment": 10.2,
         "movement": 4.8,
         "risk": 5
       },
-      "mediaMentions": 1,
+      "mediaMentions": 2,
       "reasons": [
         "Strong current-season performance",
         "MLB Pipeline rank #27",
-        "1 recent media mention",
+        "2 recent media mentions",
         "Promoted to AA"
       ]
     },
@@ -706,9 +705,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 53.4,
-      "previousRank": 30,
+      "previousRank": 29,
       "rank": 29,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 14.1,
@@ -730,9 +729,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 53.3,
-      "previousRank": 29,
+      "previousRank": 30,
       "rank": 30,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.3,
@@ -849,9 +848,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 52.5,
-      "previousRank": 36,
+      "previousRank": 35,
       "rank": 35,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 14,
@@ -873,9 +872,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 52.4,
-      "previousRank": 35,
+      "previousRank": 36,
       "rank": 36,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 9.2,
@@ -1056,30 +1055,6 @@
       ]
     },
     {
-      "playerId": "abb820d6-d295-4677-8faa-6f11f95879b6",
-      "player": "Raider Tello",
-      "position": "INF",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 51.4,
-      "previousRank": 44,
-      "rank": 44,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 11.1,
-        "ageLevel": 6.4,
-        "sentiment": 10,
-        "movement": 6.9,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to AA",
-        "Advanced to AA"
-      ]
-    },
-    {
       "playerId": "51fe5804-a957-4c79-af0a-08399b915c7d",
       "player": "Brad Pacheco",
       "position": "P",
@@ -1087,8 +1062,8 @@
       "level": "A",
       "score": 51.3,
       "previousRank": 45,
-      "rank": 45,
-      "change": 0,
+      "rank": 44,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 15.3,
@@ -1100,6 +1075,30 @@
       "mediaMentions": 0,
       "reasons": [
         "Promoted to Single-A"
+      ]
+    },
+    {
+      "playerId": "abb820d6-d295-4677-8faa-6f11f95879b6",
+      "player": "Raider Tello",
+      "position": "INF",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 51.3,
+      "previousRank": 44,
+      "rank": 45,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 11.1,
+        "ageLevel": 6.4,
+        "sentiment": 10,
+        "movement": 6.8,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to AA",
+        "Advanced to AA"
       ]
     },
     {
@@ -1575,9 +1574,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 48.8,
-      "previousRank": 67,
+      "previousRank": 66,
       "rank": 66,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1596,9 +1595,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 48.8,
-      "previousRank": 66,
+      "previousRank": 67,
       "rank": 67,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 11.4,
