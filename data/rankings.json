@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T10:52:41.580Z",
+  "updatedAt": "2026-08-26T13:16:55.084Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -28,10 +28,10 @@
         "movement": 5.6,
         "risk": 5
       },
-      "mediaMentions": 6,
+      "mediaMentions": 7,
       "reasons": [
         "MLB Pipeline rank #2",
-        "6 recent media mentions",
+        "7 recent media mentions",
         "Promoted to AA",
         "Advanced to AA"
       ]
@@ -196,9 +196,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 64.1,
-      "previousRank": 11,
+      "previousRank": 8,
       "rank": 8,
-      "change": 3,
+      "change": 0,
       "components": {
         "scouting": 28.1,
         "performance": 8.8,
@@ -222,9 +222,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 64,
-      "previousRank": 8,
+      "previousRank": 9,
       "rank": 9,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 26,
         "performance": 12.5,
@@ -247,9 +247,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 63.9,
-      "previousRank": 9,
+      "previousRank": 10,
       "rank": 10,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 20.2,
         "performance": 18.2,
@@ -272,9 +272,9 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 63.5,
-      "previousRank": 10,
+      "previousRank": 11,
       "rank": 11,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 24.5,
         "performance": 13.5,
@@ -295,7 +295,7 @@
       "position": "RHP",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 63.1,
+      "score": 63.2,
       "previousRank": 12,
       "rank": 12,
       "change": 0,
@@ -303,13 +303,14 @@
         "scouting": 23.1,
         "performance": 12.4,
         "ageLevel": 6.4,
-        "sentiment": 10,
+        "sentiment": 10.1,
         "movement": 6.2,
         "risk": 5
       },
-      "mediaMentions": 0,
+      "mediaMentions": 1,
       "reasons": [
         "MLB Pipeline rank #12",
+        "1 recent media mention",
         "Promoted to AA",
         "Advanced to AA"
       ]
@@ -699,29 +700,6 @@
       ]
     },
     {
-      "playerId": "a36448bb-2136-412a-943f-51d18d7f95c6",
-      "player": "Brandon Beckel",
-      "position": "P",
-      "affiliate": "Jersey Shore BlueClaws",
-      "level": "A+",
-      "score": 53.4,
-      "previousRank": 29,
-      "rank": 29,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 12.3,
-        "ageLevel": 5.3,
-        "sentiment": 10,
-        "movement": 8.8,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to AAA"
-      ]
-    },
-    {
       "playerId": "9e995667-14c4-43a9-860b-a6af2636e47b",
       "player": "Christian Cairo",
       "position": "INF",
@@ -729,8 +707,8 @@
       "level": "AAA",
       "score": 53.4,
       "previousRank": 30,
-      "rank": 30,
-      "change": 0,
+      "rank": 29,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 14.1,
@@ -743,6 +721,29 @@
       "reasons": [
         "Promoted to MLB",
         "Advanced to AAA"
+      ]
+    },
+    {
+      "playerId": "a36448bb-2136-412a-943f-51d18d7f95c6",
+      "player": "Brandon Beckel",
+      "position": "P",
+      "affiliate": "Jersey Shore BlueClaws",
+      "level": "A+",
+      "score": 53.3,
+      "previousRank": 29,
+      "rank": 30,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 12.3,
+        "ageLevel": 5.3,
+        "sentiment": 10,
+        "movement": 8.7,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to AAA"
       ]
     },
     {
@@ -842,30 +843,6 @@
       ]
     },
     {
-      "playerId": "2da80f7a-4e55-4897-a922-6dd69968a16d",
-      "player": "Alan Rangel",
-      "position": "P",
-      "affiliate": "Lehigh Valley IronPigs",
-      "level": "AAA",
-      "score": 52.5,
-      "previousRank": 35,
-      "rank": 35,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 9.2,
-        "ageLevel": 7.5,
-        "sentiment": 10,
-        "movement": 8.8,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to MLB",
-        "Advanced to AAA"
-      ]
-    },
-    {
       "playerId": "664e2816-001f-49a6-a263-70799c1d32b1",
       "player": "Paul McIntosh",
       "position": "C",
@@ -873,8 +850,8 @@
       "level": "AAA",
       "score": 52.5,
       "previousRank": 36,
-      "rank": 36,
-      "change": 0,
+      "rank": 35,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 14,
@@ -886,6 +863,30 @@
       "mediaMentions": 0,
       "reasons": [
         "Promoted to AAA",
+        "Advanced to AAA"
+      ]
+    },
+    {
+      "playerId": "2da80f7a-4e55-4897-a922-6dd69968a16d",
+      "player": "Alan Rangel",
+      "position": "P",
+      "affiliate": "Lehigh Valley IronPigs",
+      "level": "AAA",
+      "score": 52.4,
+      "previousRank": 35,
+      "rank": 36,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 9.2,
+        "ageLevel": 7.5,
+        "sentiment": 10,
+        "movement": 8.7,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to MLB",
         "Advanced to AAA"
       ]
     },
@@ -1155,9 +1156,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 51,
-      "previousRank": 49,
+      "previousRank": 48,
       "rank": 48,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1178,9 +1179,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 51,
-      "previousRank": 50,
+      "previousRank": 49,
       "rank": 49,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1201,9 +1202,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 51,
-      "previousRank": 51,
+      "previousRank": 50,
       "rank": 50,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1225,9 +1226,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 51,
-      "previousRank": 52,
+      "previousRank": 51,
       "rank": 51,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1248,9 +1249,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 51,
-      "previousRank": 53,
+      "previousRank": 52,
       "rank": 52,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1271,9 +1272,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 50.9,
-      "previousRank": 48,
+      "previousRank": 53,
       "rank": 53,
-      "change": -5,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 11.2,
@@ -1568,31 +1569,6 @@
       ]
     },
     {
-      "playerId": "9ed61891-8ae1-4a55-882e-d7a9f83cedb9",
-      "player": "Levi Stoudt",
-      "position": "P",
-      "affiliate": "Lehigh Valley IronPigs",
-      "level": "AAA",
-      "score": 48.9,
-      "previousRank": 66,
-      "rank": 66,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 11.4,
-        "ageLevel": 7.5,
-        "sentiment": 10,
-        "movement": 5.5,
-        "risk": 2.5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to AAA",
-        "Current injury lowers availability",
-        "Advanced to AAA"
-      ]
-    },
-    {
       "playerId": "787c7c49-9e1e-46e5-9209-97bf43137308",
       "player": "Brock Vradenburg",
       "position": "INF",
@@ -1600,8 +1576,8 @@
       "level": "A+",
       "score": 48.8,
       "previousRank": 67,
-      "rank": 67,
-      "change": 0,
+      "rank": 66,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1612,6 +1588,31 @@
       },
       "mediaMentions": 0,
       "reasons": []
+    },
+    {
+      "playerId": "9ed61891-8ae1-4a55-882e-d7a9f83cedb9",
+      "player": "Levi Stoudt",
+      "position": "P",
+      "affiliate": "Lehigh Valley IronPigs",
+      "level": "AAA",
+      "score": 48.8,
+      "previousRank": 66,
+      "rank": 67,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 11.4,
+        "ageLevel": 7.5,
+        "sentiment": 10,
+        "movement": 5.4,
+        "risk": 2.5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to AAA",
+        "Current injury lowers availability",
+        "Advanced to AAA"
+      ]
     },
     {
       "playerId": "7578b19f-435e-4b15-ad35-02cf900183e4",
@@ -2084,9 +2085,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 44.6,
-      "previousRank": 89,
+      "previousRank": 88,
       "rank": 88,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 8.3,
@@ -2105,9 +2106,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 44.6,
-      "previousRank": 88,
+      "previousRank": 89,
       "rank": 89,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 9.1,
