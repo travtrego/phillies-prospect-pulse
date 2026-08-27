@@ -1,6 +1,39 @@
 {
-  "updatedAt": "2026-08-27T09:49:05.273Z",
+  "updatedAt": "2026-08-27T20:32:52.695Z",
   "records": [
+    {
+      "playerId": 821310,
+      "player": "Brendan Sweeney",
+      "date": "2026-08-26",
+      "fromAffiliate": "FCL Phillies",
+      "fromLevel": "Rookie",
+      "toAffiliate": "Clearwater Threshers",
+      "toLevel": "Single-A",
+      "description": "RHP Brendan Sweeney assigned to Clearwater Threshers from FCL Phillies.",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-08-27&endDate=2026-08-27"
+    },
+    {
+      "playerId": 834984,
+      "player": "Cal Higgins",
+      "date": "2026-08-26",
+      "fromAffiliate": "FCL Phillies",
+      "fromLevel": "Rookie",
+      "toAffiliate": "Clearwater Threshers",
+      "toLevel": "Single-A",
+      "description": "LHP Cal Higgins assigned to Clearwater Threshers from FCL Phillies.",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-08-27&endDate=2026-08-27"
+    },
+    {
+      "playerId": 808762,
+      "player": "Kobe Minchey",
+      "date": "2026-08-26",
+      "fromAffiliate": "FCL Phillies",
+      "fromLevel": "Rookie",
+      "toAffiliate": "Clearwater Threshers",
+      "toLevel": "Single-A",
+      "description": "RHP Kobe Minchey assigned to Clearwater Threshers from FCL Phillies.",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-08-27&endDate=2026-08-27"
+    },
     {
       "playerId": 825751,
       "player": "Gerardo Lopez",
