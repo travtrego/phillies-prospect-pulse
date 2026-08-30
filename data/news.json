@@ -1,6 +1,19 @@
 {
-  "updatedAt": "2026-08-30T16:41:13.315Z",
+  "updatedAt": "2026-08-30T21:05:57.779Z",
   "articles": [
+    {
+      "id": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBoZkhJeTZSdUF1cmtTRkNHNzhzRzFQX0NZMEhUemc4SWI0Y1VEN0VIR2w0SWNsS1ZzMDluZUFzMjcwSmZibUFjREoxbExnb2RWazEyQnl1WEctYnRsNlA0d0RnMzVWOUpMcDdJ?oc=5",
+      "title": "‘Pigs No-Hit by Mets - MLB.com",
+      "summary": "‘Pigs No-Hit by Mets &nbsp;&nbsp; MLB.com",
+      "source": "MLB.com",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBoZkhJeTZSdUF1cmtTRkNHNzhzRzFQX0NZMEhUemc4SWI0Y1VEN0VIR2w0SWNsS1ZzMDluZUFzMjcwSmZibUFjREoxbExnb2RWazEyQnl1WEctYnRsNlA0d0RnMzVWOUpMcDdJ?oc=5",
+      "publishedAt": "2026-08-30T20:54:00.000Z",
+      "tags": [
+        "general"
+      ],
+      "injury": null,
+      "matchedQuery": "Lehigh Valley IronPigs Phillies"
+    },
     {
       "id": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNemZfZ2dLQ0VCY0dXc2xsZTBFNHI0SGtHUURmbGh6QXNNSkhXM3NZZGtXeUhzSlNaVFJONzFjNy1PYVo1em1wT3h5RkNlWkJHcGxrTG8zeUNrZTZjaDNmRGFTYU4wSV9WNGFnRVh3am5uZjlsb1kxdEMwNUwzNmxrbzR3VGFhS0JlSHdRVGYwOFZmTktacFVMTQ?oc=5",
       "title": "Why the Phillies are restructuring how they run player development - The New York Times",
@@ -117,19 +130,6 @@
       ],
       "injury": null,
       "matchedQuery": "Clearwater Threshers Phillies"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMzlRY0tfWUp1ZFB0NHIxel9BSnF3QTJnb25YS2dKblNUdHJ3ZldfR0lOSHZDUVMzMHFTM3ZqWXF4ZklKN3BEVDBYSE5VdG52bUZDbHFKX3VHN1lnZWt0eVdBdThSZnV0TWtMXzU2MWI1MDlvVXI5dnFmZnNOR0RpNXF2QVF6dTNRblFEbzNYRWtMX2JBd2RQU180VmNrTlU?oc=5",
-      "title": "Big Swing Bob Moore Blasts Walk-Off Homer to Down Syracuse - MLB.com",
-      "summary": "Big Swing Bob Moore Blasts Walk-Off Homer to Down Syracuse &nbsp;&nbsp; MLB.com",
-      "source": "MLB.com",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMzlRY0tfWUp1ZFB0NHIxel9BSnF3QTJnb25YS2dKblNUdHJ3ZldfR0lOSHZDUVMzMHFTM3ZqWXF4ZklKN3BEVDBYSE5VdG52bUZDbHFKX3VHN1lnZWt0eVdBdThSZnV0TWtMXzU2MWI1MDlvVXI5dnFmZnNOR0RpNXF2QVF6dTNRblFEbzNYRWtMX2JBd2RQU180VmNrTlU?oc=5",
-      "publishedAt": "2026-08-29T02:08:41.000Z",
-      "tags": [
-        "general"
-      ],
-      "injury": null,
-      "matchedQuery": "Lehigh Valley IronPigs Phillies"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObEJqMEptWVhZbVpXVXR3SkIzd2RWN1hlWHowT2pSYXo1TlpCbjA4cjdhenBpb0xxbEVFU0hpRFRqRDctM2J1WnlSaU1rS1VNSlBwM2t0RUtiOEZVSUE4Y2ZLWGpySng2bzBfSXJmbDM1UXZUb1QxbDJvRGpGajF2WDh4TmpKZXEtb19uM1pWdTBydw?oc=5",
@@ -340,17 +340,17 @@
       "matchedQuery": "Clearwater Threshers Phillies"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPY3J5cDE5dzlJMENtSHRXMjNsMG1TRjExdU5uZjNha2hUSFNJb2hHSUlqd3NkSEJDTlN1dURQSEd2cXFEQzhQR25SWGRrSUFVSzFwRDhMXzFrVUFndm4xWEZlem5kYnhoQWV4bXJRd3d4WEpkQTdVYUwyZkVTa2hiX1MtUzdEOVVBTHBmUlNrWVdNd1JGT3B0bW9fTzNkMHll?oc=5",
-      "title": "Phillies on the Pharm: 8/26/2026 - The Good Phight",
-      "summary": "Phillies on the Pharm: 8/26/2026 &nbsp;&nbsp; The Good Phight",
-      "source": "The Good Phight",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPY3J5cDE5dzlJMENtSHRXMjNsMG1TRjExdU5uZjNha2hUSFNJb2hHSUlqd3NkSEJDTlN1dURQSEd2cXFEQzhQR25SWGRrSUFVSzFwRDhMXzFrVUFndm4xWEZlem5kYnhoQWV4bXJRd3d4WEpkQTdVYUwyZkVTa2hiX1MtUzdEOVVBTHBmUlNrWVdNd1JGT3B0bW9fTzNkMHll?oc=5",
-      "publishedAt": "2026-08-26T13:59:00.000Z",
+      "id": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9RYUZBcDhPOGZoM0xLUHZub1d1ZzdDcVRHaHVwN0lPWWJoQUhEdUQzMFRUVUtZM0NJbHNGb2lnQlZDS3Z2aWoteWdJY1hacjk4Ymc?oc=5",
+      "title": "Florida Complex League | Minor League Baseball - MLB.com",
+      "summary": "Florida Complex League | Minor League Baseball &nbsp;&nbsp; MLB.com",
+      "source": "MLB.com",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9RYUZBcDhPOGZoM0xLUHZub1d1ZzdDcVRHaHVwN0lPWWJoQUhEdUQzMFRUVUtZM0NJbHNGb2lnQlZDS3Z2aWoteWdJY1hacjk4Ymc?oc=5",
+      "publishedAt": "2026-08-26T22:02:00.000Z",
       "tags": [
         "general"
       ],
       "injury": null,
-      "matchedQuery": "Lehigh Valley IronPigs Phillies"
+      "matchedQuery": "FCL Phillies"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQT2xWSFd1bzlCMDBYN1RxLW11SUF2ajgwWVdOc1U1bVRyWkhrcjV4c1RZZ2FzWnBRQmZESXZkRTFtcWZoTlFfa08yYzV2Ui1ZMXk4LUltQTJDMTFiRUdoNUdZUWdWMGlLRmgyRHhaZWctMjMxZEdrUHBZTEs3b1JSR0ZkQ19kUzZ0MVJxUndNWE9oMHFoY09VTHk0RzF4cUlUekdTN2VNVVdCc0Q2eU9vVk55SmZHdzF6?oc=5",
@@ -405,19 +405,6 @@
       "matchedQuery": "Lehigh Valley IronPigs Phillies"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBja2REeG5Gd3pZRXJGR1hmbnppWG5TWUtvRWdiVW5Bd21QRkdHeHhNcVN0QTctOTdZVHZZT1pNS0c3aTRPalJJd1NZUkNUOVlKS2pmNGZRUG5Xc3JnWmxSQ1lfNDd6SVJWREVabXhUZFg3M1RkQmdrVXg0cw?oc=5",
-      "title": "IronPigs column: Marchan nears return - Times News Online",
-      "summary": "IronPigs column: Marchan nears return &nbsp;&nbsp; Times News Online",
-      "source": "Times News Online",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBja2REeG5Gd3pZRXJGR1hmbnppWG5TWUtvRWdiVW5Bd21QRkdHeHhNcVN0QTctOTdZVHZZT1pNS0c3aTRPalJJd1NZUkNUOVlKS2pmNGZRUG5Xc3JnWmxSQ1lfNDd6SVJWREVabXhUZFg3M1RkQmdrVXg0cw?oc=5",
-      "publishedAt": "2026-08-25T15:48:12.000Z",
-      "tags": [
-        "general"
-      ],
-      "injury": null,
-      "matchedQuery": "Lehigh Valley IronPigs Phillies"
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTUdLOEwyZC1fcW5rX2VydjNydVcya3dkdk1FWmluUXJXZDRTZFZ6ZVVxNjdoX0NHdU83R0gxTDUzTm1ORWEzcjVtQkhfNld0NUlPdTZJNUhpUmFuYWNmNGZNM3ZIQWpyWTlSUW4wMDlXVVJoM2dJT1RZbkdXMEpUbVJYWGhRaHRUNUpWZnlkZldFVzBVSzVDYQ?oc=5",
       "title": "Trio of Homers Gives Reading Season Best Sixth Straight Win - MLB.com",
       "summary": "Trio of Homers Gives Reading Season Best Sixth Straight Win &nbsp;&nbsp; MLB.com",
@@ -437,19 +424,6 @@
       "source": "Inquirer.com",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMWJScHZIWEh5SGdRS0gtV2Rqd2p4emJPc3hwOUVRUjJYYXZKcW1CQW5OTU9ZRHdsVHhKVVpCTDhpNUJ1RGJvWm9GZzVMMDJEWEpxTkx3RkVpZmpFVlFOMHlmZ25NeFNaVE12UzFyb3BlWHhJS1hpWGxzeU9tX041eTN4eW96a19PWWJodzFLOEx2WF9sUVdySzJn?oc=5",
       "publishedAt": "2026-08-24T09:01:01.000Z",
-      "tags": [
-        "general"
-      ],
-      "injury": null,
-      "matchedQuery": "Lehigh Valley IronPigs Phillies"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPa3pROXVMdjE4TXo5ZU82cmRCcDhfUU5LUENZTS1telJjcjZhaHNnWkx5SnVuajNhS29VV3lnWklyQmdmTXlMdkdGRmNaQngyRC1jdFBBWUVFVU9LcFE3Y0o3YTdySk44WjQ3YkZHRUF6aGxFV3dOUU04cENhNUh2MXJZRU94NjFsRzR5SDhMME9yTnQ2OTk2NlhWMVF1NVZHeWxTTUVsMmJxYzFGZmYtSXhDa3dpd3lZMkpMbQ?oc=5",
-      "title": "IronPigs Hosting Movie Night at Coca-Cola Park with Screening of Guardians of the Galaxy Vol. 3 on August 24th! - MLB.com",
-      "summary": "IronPigs Hosting Movie Night at Coca-Cola Park with Screening of Guardians of the Galaxy Vol. 3 on August 24th! &nbsp;&nbsp; MLB.com",
-      "source": "MLB.com",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPa3pROXVMdjE4TXo5ZU82cmRCcDhfUU5LUENZTS1telJjcjZhaHNnWkx5SnVuajNhS29VV3lnWklyQmdmTXlMdkdGRmNaQngyRC1jdFBBWUVFVU9LcFE3Y0o3YTdySk44WjQ3YkZHRUF6aGxFV3dOUU04cENhNUh2MXJZRU94NjFsRzR5SDhMME9yTnQ2OTk2NlhWMVF1NVZHeWxTTUVsMmJxYzFGZmYtSXhDa3dpd3lZMkpMbQ?oc=5",
-      "publishedAt": "2026-08-24T07:00:00.000Z",
       "tags": [
         "general"
       ],
@@ -496,11 +470,11 @@
       "matchedQuery": "Clearwater Threshers Phillies"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVGlJRktNMURmNFNwSWkzM2V1b2tmVld3Sm9VQlNHUEJqLV9HZ3doa2c1R3pKdV81UVQ4UDhfUFZfOFlRdGhXcVpuRDhMY19yWTlRMjVqekQ3WXdyU1Z5eVdFVTZhcjRfTXR3RDk0Q0pycXdBdUpFYUdtUG9DaG9fbU1GT3U?oc=5",
+      "id": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVGlJRktNMURmNFNwSWkzM2V1b2tmVld3Sm9VQlNHUEJqLV9HZ3doa2c1R3pKdV81UVQ4UDhfUFZfOFlRdGhXcVpuRDhMY19yWTlRMjVqekQ3WXdyU1Z5eVdFVTZhcjRfTXR3RDk0Q0pycXdBdUpFYUdtUG9DaG9fbU1GT3XSAZABQVVfeXFMTjdWSWxSM1BVUTZBNUYwNkRIR3RHajgyTUlmQW00OE41c2dncmlxN3l3YVZRcFAxM0ZLZWpyNi10U2RjZWNJTFNZUWZwdG13VDBYenBtTjFzMERTakNFZlJYU0NkMnVYMWstbjRPcmVmelYxMGtELUV0bEU5N01nUWhEaXlXMnpyMm9MX05DSFZ2?oc=5",
       "title": "Wood's best Double-A start yet includes K of rehabbing Team USA standout - MLB.com",
       "summary": "Wood's best Double-A start yet includes K of rehabbing Team USA standout &nbsp;&nbsp; MLB.com",
       "source": "MLB.com",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVGlJRktNMURmNFNwSWkzM2V1b2tmVld3Sm9VQlNHUEJqLV9HZ3doa2c1R3pKdV81UVQ4UDhfUFZfOFlRdGhXcVpuRDhMY19yWTlRMjVqekQ3WXdyU1Z5eVdFVTZhcjRfTXR3RDk0Q0pycXdBdUpFYUdtUG9DaG9fbU1GT3U?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVGlJRktNMURmNFNwSWkzM2V1b2tmVld3Sm9VQlNHUEJqLV9HZ3doa2c1R3pKdV81UVQ4UDhfUFZfOFlRdGhXcVpuRDhMY19yWTlRMjVqekQ3WXdyU1Z5eVdFVTZhcjRfTXR3RDk0Q0pycXdBdUpFYUdtUG9DaG9fbU1GT3XSAZABQVVfeXFMTjdWSWxSM1BVUTZBNUYwNkRIR3RHajgyTUlmQW00OE41c2dncmlxN3l3YVZRcFAxM0ZLZWpyNi10U2RjZWNJTFNZUWZwdG13VDBYenBtTjFzMERTakNFZlJYU0NkMnVYMWstbjRPcmVmelYxMGtELUV0bEU5N01nUWhEaXlXMnpyMm9MX05DSFZ2?oc=5",
       "publishedAt": "2026-08-21T07:00:00.000Z",
       "tags": [
         "rehab"
@@ -634,6 +608,19 @@
       "publishedAt": "2026-08-17T07:00:00.000Z",
       "tags": [
         "general"
+      ],
+      "injury": null,
+      "matchedQuery": "Lehigh Valley IronPigs Phillies"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOa0pYal9lSlJobExMR3RVVGV5RlY2aXNXUDBnREFkM1cyYXQ4Wnd6VWxOcG5zelRhdGJQbmdQTkdzcE5xVlFWX0NVeHNfOC0tZjRSR1hMM0dhN3REb0F2YWcyT01JckNzVFhtTUloS1k5Y0MtbDRELTR6RE9HaXBIdngzQjgwYkx3QVE3VURCc0ZrN2NLblRuVWNjd05RdUN6Y25vRGt1ZmhxVGtiV2xVZmRmbzlSY1I0WnFSZG5kRmNCcmU2WkE?oc=5",
+      "title": "Phillies catcher Rafael Marchan staying positive through latest injury recovery with IronPigs - The Morning Call",
+      "summary": "Phillies catcher Rafael Marchan staying positive through latest injury recovery with IronPigs &nbsp;&nbsp; The Morning Call",
+      "source": "The Morning Call",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOa0pYal9lSlJobExMR3RVVGV5RlY2aXNXUDBnREFkM1cyYXQ4Wnd6VWxOcG5zelRhdGJQbmdQTkdzcE5xVlFWX0NVeHNfOC0tZjRSR1hMM0dhN3REb0F2YWcyT01JckNzVFhtTUloS1k5Y0MtbDRELTR6RE9HaXBIdngzQjgwYkx3QVE3VURCc0ZrN2NLblRuVWNjd05RdUN6Y25vRGt1ZmhxVGtiV2xVZmRmbzlSY1I0WnFSZG5kRmNCcmU2WkE?oc=5",
+      "publishedAt": "2026-08-17T07:00:00.000Z",
+      "tags": [
+        "injury"
       ],
       "injury": null,
       "matchedQuery": "Lehigh Valley IronPigs Phillies"
@@ -821,6 +808,19 @@
       "matchedQuery": "Clearwater Threshers Phillies"
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcUhrMmg1d2pJclZ4amFvWENmTUpYMXZZSl9vMlJSckxrV2Z5ZXAtZk5IRGU5VnFPOUNZTU5FdVBubDJMRHBKemstSmpaTXhTWHZ6MHd5ZzlLNXhqZ2FKblRoZm1ETGV5ck5OaS12NF9oN2h0SmhWVnFsWlU0VHVVVk5XWFJtU3FIdERnRkZZRk1GQQ?oc=5",
+      "title": "$2 Tuesday on August 18th Thanks to Santander Bank | BlueClaws - MLB.com",
+      "summary": "$2 Tuesday on August 18th Thanks to Santander Bank | BlueClaws &nbsp;&nbsp; MLB.com",
+      "source": "MLB.com",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcUhrMmg1d2pJclZ4amFvWENmTUpYMXZZSl9vMlJSckxrV2Z5ZXAtZk5IRGU5VnFPOUNZTU5FdVBubDJMRHBKemstSmpaTXhTWHZ6MHd5ZzlLNXhqZ2FKblRoZm1ETGV5ck5OaS12NF9oN2h0SmhWVnFsWlU0VHVVVk5XWFJtU3FIdERnRkZZRk1GQQ?oc=5",
+      "publishedAt": "2026-08-10T14:18:34.000Z",
+      "tags": [
+        "general"
+      ],
+      "injury": null,
+      "matchedQuery": "Jersey Shore BlueClaws Phillies"
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPblc5LUZqWlRqZDU2dGFRU0Q0eGZ4dmhfdFVUS2d5dVN5b3AwX2FRXzFJWk5GcGYtdGJhRXVMLTJPZjFZVzRJaU1SMzlKb29YcW1oV1pHcHBVbU5hRWU2dTFmSDFZamRidW9UeFZiektvVVQyYkpVQWNFY2FPTm43MTBEOEJfbTQ1S0U3czExeXVLLVF1cTA1UU1qMA?oc=5",
       "title": "Threshers Score Final Five Runs After Falling Behind Early - MLB.com",
       "summary": "Threshers Score Final Five Runs After Falling Behind Early &nbsp;&nbsp; MLB.com",
@@ -847,12 +847,12 @@
       "matchedQuery": "Jersey Shore BlueClaws Phillies"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQN3IzSVlIaUlXaEtrOTJsNms3amlfck5HTE9qNXppNTk3UGFtSGF3YnFMdXF6YkhTLVd5UE1tbmpwTjNoZzhpTmNZNGp2anozcnZxZFlibEpHNkRCd3B0M2hOZW5ISlp0QVRrZUU1RmY1Z0lIZGZVSUo0ajJkZ0t3SEhKS3hrZTVUSU1KaHFIbGIxSDRDUXNKdWo0bXI?oc=5",
+      "id": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeU54dS1aXzF3ZWtTY0h0V0lOWU93TkJpUU1BcjVORm5GLVJ5Z0lqMWlPbXlPUXcwTURQOTJjYlljUjRfTGR3Z1dib3ZUOGM5NXBNem50LWtPSjBEQmJNUjdCSmd1Z2d0RVh1cVhHX250RFZ5OVJrWU9qUWMtWjlaS1EyMUpQS0l1YlBHU0h5X3BfUUNhN2cyYWZTRVNmTExJVGc?oc=5",
       "title": "Keys Secure Fifth Straight Win Over BlueClaws Saturday Night - MLB.com",
       "summary": "Keys Secure Fifth Straight Win Over BlueClaws Saturday Night &nbsp;&nbsp; MLB.com",
       "source": "MLB.com",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQN3IzSVlIaUlXaEtrOTJsNms3amlfck5HTE9qNXppNTk3UGFtSGF3YnFMdXF6YkhTLVd5UE1tbmpwTjNoZzhpTmNZNGp2anozcnZxZFlibEpHNkRCd3B0M2hOZW5ISlp0QVRrZUU1RmY1Z0lIZGZVSUo0ajJkZ0t3SEhKS3hrZTVUSU1KaHFIbGIxSDRDUXNKdWo0bXI?oc=5",
-      "publishedAt": "2026-08-09T03:23:27.000Z",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeU54dS1aXzF3ZWtTY0h0V0lOWU93TkJpUU1BcjVORm5GLVJ5Z0lqMWlPbXlPUXcwTURQOTJjYlljUjRfTGR3Z1dib3ZUOGM5NXBNem50LWtPSjBEQmJNUjdCSmd1Z2d0RVh1cVhHX250RFZ5OVJrWU9qUWMtWjlaS1EyMUpQS0l1YlBHU0h5X3BfUUNhN2cyYWZTRVNmTExJVGc?oc=5",
+      "publishedAt": "2026-08-08T07:00:00.000Z",
       "tags": [
         "general"
       ],
@@ -936,6 +936,19 @@
       ],
       "injury": null,
       "matchedQuery": "Jersey Shore BlueClaws Phillies"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBjbTh4VEYwclM0LWRUY1ljY1A0RU56WDdSU1FsbUxySjRJZXJ5WUVrQkJrWGxrU3N6SUtPX3hoTVBYZEtVRGlHQlRQRjRIRXRPSFJ3ZzVRQWRmeEhtU2xoQkRyVFNZNEtoQ0hPU2YyVThPb2QwSF92cQ?oc=5",
+      "title": "08-05-26 Threshers PreGame Show - MLB.com",
+      "summary": "08-05-26 Threshers PreGame Show &nbsp;&nbsp; MLB.com",
+      "source": "MLB.com",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBjbTh4VEYwclM0LWRUY1ljY1A0RU56WDdSU1FsbUxySjRJZXJ5WUVrQkJrWGxrU3N6SUtPX3hoTVBYZEtVRGlHQlRQRjRIRXRPSFJ3ZzVRQWRmeEhtU2xoQkRyVFNZNEtoQ0hPU2YyVThPb2QwSF92cQ?oc=5",
+      "publishedAt": "2026-08-05T07:00:00.000Z",
+      "tags": [
+        "general"
+      ],
+      "injury": null,
+      "matchedQuery": "Clearwater Threshers Phillies"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPY0tpZWt2Q1ZlSTUtTm8tcE01VU1uRjhHNS1FODhkV0h2WERXYnFKckdZR3liUGx3SGVZTWxOQjFGSzR2b1pqTzB6b0dpcVZxYnFnNHE5OUc3eGJYNzRQZ19nd2ZaT3Q1ckp5UTlPRDRQMUc5TzBTOWM3V0V4QThLZ3hCUmtITE90M0I1U0hvS25YempFM2c?oc=5",
@@ -1250,19 +1263,6 @@
       "matchedQuery": "FCL Phillies"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTWZJOFlLOHVfMTN6N1Q0NHB6RUlvamh5N2ZDRElaZXZzQWpjWFFnVmw4THhEenpZWkFlZ0NQVzRRSGl2dEFqUm4tRllvOHB6bVprX1U4UmhRMUdZQ0xRdWZOcWdGWlhGRDIwOFN1cHhEZWVVUkZNdlYtRHk3VWh6MEF2OVNmOFU?oc=5",
-      "title": "Gameday: FCL Yankees 3, FCL Phillies 2 Final Score (07/13/2026) - MLB.com",
-      "summary": "Gameday: FCL Yankees 3, FCL Phillies 2 Final Score (07/13/2026) &nbsp;&nbsp; MLB.com",
-      "source": "MLB.com",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTWZJOFlLOHVfMTN6N1Q0NHB6RUlvamh5N2ZDRElaZXZzQWpjWFFnVmw4THhEenpZWkFlZ0NQVzRRSGl2dEFqUm4tRllvOHB6bVprX1U4UmhRMUdZQ0xRdWZOcWdGWlhGRDIwOFN1cHhEZWVVUkZNdlYtRHk3VWh6MEF2OVNmOFU?oc=5",
-      "publishedAt": "2026-07-13T07:00:00.000Z",
-      "tags": [
-        "general"
-      ],
-      "injury": null,
-      "matchedQuery": "FCL Phillies"
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOb003aTRBWGpVZ1Q1d0ZGQU54amFNczlCQVZIU2E0dG9QZFh0YjFUM0FTS0RXdzA3NmdsVjNXbEozZnI3NDRONVVxRktkOHJaMDFwV3NOcVpUVkoyLThrZHhCYlZydElGUGd2MVE3ZXA3c1RFWjJBcWp3VmZNcWVyU19GN1ZLNV9GN1YxeGxtRUJXOUI3dFp1RzR2LUdDY3Vv?oc=5",
       "title": "Phillies Prospects Gage Wood and Wen-Hui Pan Selected to MLB Futures Game | MiLB.com - MLB.com",
       "summary": "Phillies Prospects Gage Wood and Wen-Hui Pan Selected to MLB Futures Game | MiLB.com &nbsp;&nbsp; MLB.com",
@@ -1315,6 +1315,19 @@
       "matchedQuery": "FCL Phillies"
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPM1d6YXpRV1ByQ2Q2YjdVQk5QRmJZb1dfYVg0V2tsVGliT1JvQWdwYnBGcWVzemE0blVYZmFvcjdsNl9QQ0w5Ym5GX2JsTUdxRzhWSl9BUzd6R25KZXp3dVZmWHdTM3diem1lM2tQWWF3bE9tdVJwRlIwVTNBaFV6QmFkRmQtVzdsOHN5Y3JqZ2VMN1V0RmU3WmdWZE5wazl4TjZQZnIxd1FndThqOXhsTEY0SHA4UmVpZUxHVA?oc=5",
+      "title": "‘Pigs ‘n Rigs: IronPigs and Mack Trucks Announce Collab for Salute to Lehigh Valley - MLB.com",
+      "summary": "‘Pigs ‘n Rigs: IronPigs and Mack Trucks Announce Collab for Salute to Lehigh Valley &nbsp;&nbsp; MLB.com",
+      "source": "MLB.com",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPM1d6YXpRV1ByQ2Q2YjdVQk5QRmJZb1dfYVg0V2tsVGliT1JvQWdwYnBGcWVzemE0blVYZmFvcjdsNl9QQ0w5Ym5GX2JsTUdxRzhWSl9BUzd6R25KZXp3dVZmWHdTM3diem1lM2tQWWF3bE9tdVJwRlIwVTNBaFV6QmFkRmQtVzdsOHN5Y3JqZ2VMN1V0RmU3WmdWZE5wazl4TjZQZnIxd1FndThqOXhsTEY0SHA4UmVpZUxHVA?oc=5",
+      "publishedAt": "2026-07-10T15:33:29.000Z",
+      "tags": [
+        "general"
+      ],
+      "injury": null,
+      "matchedQuery": "Lehigh Valley IronPigs Phillies"
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSlZUdzAxcXJtT3pHcmZSU3pIM2lQbHcyQVJ2ZFBFeVVGcTZ4R0M4aVFVY25LekZTVnpWZk1SN2RfclVaNDNLZktFRGt3b0k0YnNqVlFGZnpnbENhb1AtV29QbjIzTVFEYUlqRGVIdTlkazdHZXpoU0Q5UFowMmRQTkxBMEIzWm1iUWw2RzlTcw?oc=5",
       "title": "Gameday: FCL Phillies 1, FCL Blue Jays 4 Final Score (07/10/2026) - MLB.com",
       "summary": "Gameday: FCL Phillies 1, FCL Blue Jays 4 Final Score (07/10/2026) &nbsp;&nbsp; MLB.com",
@@ -1354,6 +1367,19 @@
       "matchedQuery": "Jersey Shore BlueClaws Phillies"
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWk1XcTk0el9KYjh0QTV0YkxSUTdkdW9VaGN1ZWNtdlF1U1k2U2ZwS2tLXzFyTWVJUGtNTTBjUi05N2VwR29VVUlydzZmMFZhaXJKZkhvXzM3WUlkcVFLRGV2aFZGbm9XTmVkUDVFYVFhR0p0c0pqT3BvVTN1ZGM1eWZTZFdGUlRrT2Rv?oc=5",
+      "title": "Gameday: FCL Tigers 9, FCL Phillies 8 Final Score (07/06/2026) - MLB.com",
+      "summary": "Gameday: FCL Tigers 9, FCL Phillies 8 Final Score (07/06/2026) &nbsp;&nbsp; MLB.com",
+      "source": "MLB.com",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWk1XcTk0el9KYjh0QTV0YkxSUTdkdW9VaGN1ZWNtdlF1U1k2U2ZwS2tLXzFyTWVJUGtNTTBjUi05N2VwR29VVUlydzZmMFZhaXJKZkhvXzM3WUlkcVFLRGV2aFZGbm9XTmVkUDVFYVFhR0p0c0pqT3BvVTN1ZGM1eWZTZFdGUlRrT2Rv?oc=5",
+      "publishedAt": "2026-07-06T07:00:00.000Z",
+      "tags": [
+        "general"
+      ],
+      "injury": null,
+      "matchedQuery": "FCL Phillies"
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQSTZ6X3hTak9DalJWb2h3VVUtNkRpcUxtc2pkZHZMbVVBYndZMnBJc0RON1Jjel91aGotSFBCcjZvaEdBM0VPZHNIcUlldTUyTHNQVEFIQXlQNkR6aGNGdmFfLXZkdUZPc1ZDRm1aTUJ5VGtnaTRvUWppdTh2OWlvZFBkTzFiZw?oc=5",
       "title": "Gameday: FCL Tigers 9, FCL Phillies 8 Final Score (07/06/2026) - MLB.com",
       "summary": "Gameday: FCL Tigers 9, FCL Phillies 8 Final Score (07/06/2026) &nbsp;&nbsp; MLB.com",
@@ -1378,19 +1404,6 @@
       ],
       "injury": null,
       "matchedQuery": "Lehigh Valley IronPigs Phillies"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1BTm1Xa2J4TjR2bmdEX1J2YllBT3FSbGZaWXdObm5uaGhoQm83X0dmLTlmRVZYdUZDaDhMWWYwU0JkWTVuNWh6WjM3ZVVoSzRCLXllQUtfaDB1d2ctMnZGSVhzTUdjUQ?oc=5",
-      "title": "Clearwater Threshers Independence Day July 4th Fireworks at BayCare Ballpark - MLB.com",
-      "summary": "Clearwater Threshers Independence Day July 4th Fireworks at BayCare Ballpark &nbsp;&nbsp; MLB.com",
-      "source": "MLB.com",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1BTm1Xa2J4TjR2bmdEX1J2YllBT3FSbGZaWXdObm5uaGhoQm83X0dmLTlmRVZYdUZDaDhMWWYwU0JkWTVuNWh6WjM3ZVVoSzRCLXllQUtfaDB1d2ctMnZGSVhzTUdjUQ?oc=5",
-      "publishedAt": "2026-07-04T07:00:00.000Z",
-      "tags": [
-        "general"
-      ],
-      "injury": null,
-      "matchedQuery": "Clearwater Threshers Phillies"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPdTFqZ0VwQkgtYmEyX2J0TXJuQTc4OWFzTExMWnQtS1o0Sjh6d29yQmFvZ0FEZU84UUxyYUNkOUw3bll2VjB5eUVBWDlNeFRyU2NrOE43Nm1GRzk3RHVwWGxpSHZneTh1OHphTFhsVGhmUWdPZTFBQUswcEYzbDBLTHh4UFlVelpxVnRCQg?oc=5",
@@ -1432,17 +1445,17 @@
       "matchedQuery": "Phillies prospect injury"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcjI2VWRRZldNWUgwOXNoZmwyem5ZdXVhMFNyMmNaSGZvZWVQREFmNjVkQVV0VUdGZFZsdkRSck1DS2NrbE1ibDFVR1JJV2dfS0hJblJRSlUyUGtreEYwY283RDhMbi1wN1YwZ1pHRHFnbnp4YVFpejkxNnlJRFpOeEtudkxxYlFNeHkyS2xVRlo4RHdHZ3ZCOUJLR1BwS3k3NmN2cWd3dzVYUXc?oc=5",
-      "title": "Josh and Ainsley discuss Clearwater Thresher plays. - MLB.com",
-      "summary": "Josh and Ainsley discuss Clearwater Thresher plays. &nbsp;&nbsp; MLB.com",
-      "source": "MLB.com",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcjI2VWRRZldNWUgwOXNoZmwyem5ZdXVhMFNyMmNaSGZvZWVQREFmNjVkQVV0VUdGZFZsdkRSck1DS2NrbE1ibDFVR1JJV2dfS0hJblJRSlUyUGtreEYwY283RDhMbi1wN1YwZ1pHRHFnbnp4YVFpejkxNnlJRFpOeEtudkxxYlFNeHkyS2xVRlo4RHdHZ3ZCOUJLR1BwS3k3NmN2cWd3dzVYUXc?oc=5",
-      "publishedAt": "2026-07-02T07:00:00.000Z",
+      "id": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTW9GVjl6RjdseUtqQWREWXd4Nno3Y1ZEalY3R0tqV3FweUVBREw3bU9OOWdybEF4bGJWNi1oMkQxdTQ3RHVxWk1JRmFUclNaTVhHV1ljN1ViRFQwMFZUSGVIMlpPYnNwUURBNkNTM1hyWV8yclZPT1ZERzV5dmdRcG5PTEVHRmZ4QXFkbTZ0RXhQX2tyZGVBeWNnOVQ?oc=5",
+      "title": "2026 Philadelphia Phillies Top 30 Prospects July Update - Baseball America",
+      "summary": "2026 Philadelphia Phillies Top 30 Prospects July Update &nbsp;&nbsp; Baseball America",
+      "source": "Baseball America",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTW9GVjl6RjdseUtqQWREWXd4Nno3Y1ZEalY3R0tqV3FweUVBREw3bU9OOWdybEF4bGJWNi1oMkQxdTQ3RHVxWk1JRmFUclNaTVhHV1ljN1ViRFQwMFZUSGVIMlpPYnNwUURBNkNTM1hyWV8yclZPT1ZERzV5dmdRcG5PTEVHRmZ4QXFkbTZ0RXhQX2tyZGVBeWNnOVQ?oc=5",
+      "publishedAt": "2026-07-01T07:00:00.000Z",
       "tags": [
         "general"
       ],
       "injury": null,
-      "matchedQuery": "Clearwater Threshers Phillies"
+      "matchedQuery": "Phillies prospect injury"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZmlua1ZqeWcwbFpkWVhISURFaFo2cXZWLWdJd2FGT0Y2RVJPQThoeXlDTTFsa0w5Mkw5aDJVbjlhTGVvMGNiTVN4LWl2UWtYamYxanNEeHRrQ1hWcjVFQVdXc0xxSEhsZ25DTDQ0SnVSUnVFM2FlQW9EeGg2R3lTZ0VqeWJrVW4tdzRiTE1zRW1lTk1qOXJOZXdiTm5ZR0N4VTREaEV1NEljYlpzbl9EQ1lfRG9RMjFtN0pVaNIBxAFBVV95cUxObllyZVJTT0pqc3Q3cVFYV1NiLTJxTkoxa2tlSFhkZWUzQkd2VDBzZ242NkZPMEt3T2dMUjZnQnZmeHF6UG9QWG0wd0t6MXZYd2NQbno0V1NuZGh1Zm5ic29LcDlyMFBId3Jha1Bka3NQZkgtVEJLcnIxUmlFV0lLcWdwSmItTVRwWWRhLVVCRGZtX1RBOEFNLVFUME9rYk4zc29qOVdQREZHSmFrNFN2VkRyS2lOampxRTNyREpiY1ZHMnhi?oc=5",
@@ -1455,20 +1468,7 @@
         "performance"
       ],
       "injury": null,
-      "matchedQuery": "Phillies prospects"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTW9GVjl6RjdseUtqQWREWXd4Nno3Y1ZEalY3R0tqV3FweUVBREw3bU9OOWdybEF4bGJWNi1oMkQxdTQ3RHVxWk1JRmFUclNaTVhHV1ljN1ViRFQwMFZUSGVIMlpPYnNwUURBNkNTM1hyWV8yclZPT1ZERzV5dmdRcG5PTEVHRmZ4QXFkbTZ0RXhQX2tyZGVBeWNnOVQ?oc=5",
-      "title": "2026 Philadelphia Phillies Top 30 Prospects July Update - Baseball America",
-      "summary": "2026 Philadelphia Phillies Top 30 Prospects July Update &nbsp;&nbsp; Baseball America",
-      "source": "Baseball America",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTW9GVjl6RjdseUtqQWREWXd4Nno3Y1ZEalY3R0tqV3FweUVBREw3bU9OOWdybEF4bGJWNi1oMkQxdTQ3RHVxWk1JRmFUclNaTVhHV1ljN1ViRFQwMFZUSGVIMlpPYnNwUURBNkNTM1hyWV8yclZPT1ZERzV5dmdRcG5PTEVHRmZ4QXFkbTZ0RXhQX2tyZGVBeWNnOVQ?oc=5",
-      "publishedAt": "2026-07-01T07:00:00.000Z",
-      "tags": [
-        "general"
-      ],
-      "injury": null,
-      "matchedQuery": "Phillies prospect injury"
+      "matchedQuery": "Phillies prospect rehab assignment"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeFhXVWo0RjFkUS1RcUtMMlNkTDVuWWhRbVFCWWhsRGFwV1V6TmJ5YTRqUTU2c0JIM1JwWnpsdC00SXIzZFpyUWdzb2tTMEctT1c3Yk9pTlU4YXB1bi1rUHJvVW9JclpHQUs5ZXo5bmNEV3QwNmJvTlpwYmRxSEY2dlhjajdyWEFQaTRXNVo3VQ?oc=5",
@@ -1664,6 +1664,19 @@
       ],
       "injury": null,
       "matchedQuery": "Phillies prospect rehab assignment"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSENIeG80b01ENEtXY2p1V3QtX2JOeWYwVXhhQUc1WkY0NmdMZUlJRmlsTEFWdHhFb3g0UGFKWDNsbVBGbkkyY1U2U3RCRGMtekhRY1FuM2RQLWRuQjRESEp5N182amgyRHpGOHZabHR1M2o1U0R3ZW9nVFlRTF9UYnpDbHBCb1E?oc=5",
+      "title": "Gameday: FCL Phillies 6, FCL Yankees 5 Final Score (06/09/2026) - MLB.com",
+      "summary": "Gameday: FCL Phillies 6, FCL Yankees 5 Final Score (06/09/2026) &nbsp;&nbsp; MLB.com",
+      "source": "MLB.com",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSENIeG80b01ENEtXY2p1V3QtX2JOeWYwVXhhQUc1WkY0NmdMZUlJRmlsTEFWdHhFb3g0UGFKWDNsbVBGbkkyY1U2U3RCRGMtekhRY1FuM2RQLWRuQjRESEp5N182amgyRHpGOHZabHR1M2o1U0R3ZW9nVFlRTF9UYnpDbHBCb1E?oc=5",
+      "publishedAt": "2026-06-09T07:00:00.000Z",
+      "tags": [
+        "general"
+      ],
+      "injury": null,
+      "matchedQuery": "FCL Phillies"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNLVBiYXdFU1Yxd3JGRGQ4MWVhSkJ6Y1VKdTF6U2tlZHlRUTBEeTBrbHRDNzhQcUNkdkFseGtKQ1RDT2NHY2UtbnVJdkNLWHVfX093OUtNZ3BlWG1xV3MyTmVQUTl3aGVZZEo4YjB2UEl2WS1iUnRTSDM4TkZCRDk5Qjd4c2VRZjM3TGdmY3pPdnd3d2k5N3ZWLS1n?oc=5",
@@ -1966,19 +1979,6 @@
       "matchedQuery": "Phillies minor leagues"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQd3NYUGVpV3FDS1lBYnJjYkUzcUV6QXdxQnJPbGdQN0NWcGFwSkxKZ1Vvd3FaS1JaUzRpNHB4TzNjVjMtNEp6NlJ3cHhXRkFSMHZ1U0NvNVZYSmlQRGY4RmdEeXhPdFVDbWpOMXVLVnFBeng0VDJlWkN2SzVxNlJOR0VDWGNULUhpc3dLYXMwbk43clBnRlh3RWdBTXVkbUF1RUxENEttY20xeDA?oc=5",
-      "title": "There’s a shortage of hot Phillies prospects out there - The Good Phight",
-      "summary": "There’s a shortage of hot Phillies prospects out there &nbsp;&nbsp; The Good Phight",
-      "source": "The Good Phight",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQd3NYUGVpV3FDS1lBYnJjYkUzcUV6QXdxQnJPbGdQN0NWcGFwSkxKZ1Vvd3FaS1JaUzRpNHB4TzNjVjMtNEp6NlJ3cHhXRkFSMHZ1U0NvNVZYSmlQRGY4RmdEeXhPdFVDbWpOMXVLVnFBeng0VDJlWkN2SzVxNlJOR0VDWGNULUhpc3dLYXMwbk43clBnRlh3RWdBTXVkbUF1RUxENEttY20xeDA?oc=5",
-      "publishedAt": "2026-05-22T07:00:00.000Z",
-      "tags": [
-        "general"
-      ],
-      "injury": null,
-      "matchedQuery": "Phillies prospect injury"
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcU9LYUJvUE9EZFd0UzVOS2ZvRmlUOWJ2Q0ZjbURETlduUl9hNENwLXM0YlQwb0JxcFdsZEFaYVEzeXBWZklLNFhadE05MU5kdFNOdXFTcWNwTTBtY056M294UFFrSThoQ3NwZWJVYnV3b1I1NUZqX1BHcVhnN0h6Sk95bVFrY1ZHTmVWaUh0aFVlWlZNUjE0dUw3Zw?oc=5",
       "title": "2026 Philadelphia Phillies Top 30 Prospects May Update - Baseball America",
       "summary": "2026 Philadelphia Phillies Top 30 Prospects May Update &nbsp;&nbsp; Baseball America",
@@ -2016,6 +2016,20 @@
       ],
       "injury": null,
       "matchedQuery": "Phillies prospect injury"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNODlkamhvZGdBVTd3TkN6QXBHRUU0ekJYbkU3eFZGNkZCMnhqZXJJenBvMldTcUZ3VThTUVprRGViSFFwVEdzSEh0ZE1CZkUtYWNORkIycS10ZFhNU1lWeVVCdF8zQ2tJR254dlFTcThNdXpxSGxqM1V2Z1hDa1FtZndNWlB6REpfbWpKSVU5VQ?oc=5",
+      "title": "Phillies Top Pitching Prospect Gage Wood Promoted to Reading - MLB.com",
+      "summary": "Phillies Top Pitching Prospect Gage Wood Promoted to Reading &nbsp;&nbsp; MLB.com",
+      "source": "MLB.com",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNODlkamhvZGdBVTd3TkN6QXBHRUU0ekJYbkU3eFZGNkZCMnhqZXJJenBvMldTcUZ3VThTUVprRGViSFFwVEdzSEh0ZE1CZkUtYWNORkIycS10ZFhNU1lWeVVCdF8zQ2tJR254dlFTcThNdXpxSGxqM1V2Z1hDa1FtZndNWlB6REpfbWpKSVU5VQ?oc=5",
+      "publishedAt": "2026-05-18T19:34:36.000Z",
+      "tags": [
+        "promotion",
+        "performance"
+      ],
+      "injury": null,
+      "matchedQuery": "Phillies minor leagues"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPY0htWFFPMUZUNnp3QXFaYkVTanB3a25TTXUwblBteFFBX3JZVDR2cUtITEVreFVHWDBJQ2pYVy05UTVsX21pRGxUcmhwaGZVbkwxWndGVnUzMlBBVmZpcVRkMy1rMkl5U2l6RG1zVkcyNEdGQXFZNEJqSE81eWlDOXdkU2pPUkdEdmxlZ2x0dDFLdGJPMGs2VkVn?oc=5",
@@ -2103,6 +2117,19 @@
       "source": "MLB.com",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQWFvM25ITFpFOFRHTTA0MkNMbDUwQjFDV1AwMXJLY3ZGN25zQUh4Zmg4UmdSUkZUVlNtT19EYld1UmJhdnUtR2c3OTJEYW9zY3EydWtNUThrblJaYlRNa3ZubHpCWGhvRXowUzlXdWlOYzA4UzgtQ2xia3dSejFaSTZ1ckUyZFRhN0JBdWtYTnpITlMxc1phcmduSkNaeHczN0s5ZGR0WjVaUQ?oc=5",
       "publishedAt": "2026-04-28T15:32:55.000Z",
+      "tags": [
+        "general"
+      ],
+      "injury": null,
+      "matchedQuery": "Lehigh Valley IronPigs Phillies"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbnNqcmk3VWVnaGhlaFFvMnVMaU94bVJNTGI4NFlVcFdURjFfdzZRWVQ3Q19OMXJFbEZDbWpHY01RQlJnR0xBMXdUNmlWaFRCajQzUC1DOFZMQjFCbHotVFNISXp2WWtpU1NVWGljdDhGNWNpNjBYM0x3Q0JzUWZLa0hxb1JqaHFES3hTMXdNSHdXb1F3NnIyR2tEY0NKZFlfZUgtNFE0WnZ4YmJHcDVr?oc=5",
+      "title": "Phillies Tab Chris “Tank” Adamson as 7th Manager in IronPigs History - MLB.com",
+      "summary": "Phillies Tab Chris “Tank” Adamson as 7th Manager in IronPigs History &nbsp;&nbsp; MLB.com",
+      "source": "MLB.com",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbnNqcmk3VWVnaGhlaFFvMnVMaU94bVJNTGI4NFlVcFdURjFfdzZRWVQ3Q19OMXJFbEZDbWpHY01RQlJnR0xBMXdUNmlWaFRCajQzUC1DOFZMQjFCbHotVFNISXp2WWtpU1NVWGljdDhGNWNpNjBYM0x3Q0JzUWZLa0hxb1JqaHFES3hTMXdNSHdXb1F3NnIyR2tEY0NKZFlfZUgtNFE0WnZ4YmJHcDVr?oc=5",
+      "publishedAt": "2026-04-28T07:00:00.000Z",
       "tags": [
         "general"
       ],
@@ -2342,6 +2369,19 @@
       ],
       "injury": null,
       "matchedQuery": "Phillies prospect rehab assignment"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObzV6MER5ZDdmM2JsQ1Z6LUQ2OFFVS05nTEROZjhUVWxRS0dKalZ5MVFUNUtKRTVfcENvNHppa3NmYXpYa1ZuX2VfSFVpSjRxOW1STEpwRWNoSWNCUFhVZ0VNcGduLXhtcTNuQnM5aGpHUjFmRmZ0WnpRTWJfZUFZMm9DTUNhbDViOWtZNEFHcG1IZw?oc=5",
+      "title": "Clearwater Threshers Release 2026 Break Camp Roster - MLB.com",
+      "summary": "Clearwater Threshers Release 2026 Break Camp Roster &nbsp;&nbsp; MLB.com",
+      "source": "MLB.com",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObzV6MER5ZDdmM2JsQ1Z6LUQ2OFFVS05nTEROZjhUVWxRS0dKalZ5MVFUNUtKRTVfcENvNHppa3NmYXpYa1ZuX2VfSFVpSjRxOW1STEpwRWNoSWNCUFhVZ0VNcGduLXhtcTNuQnM5aGpHUjFmRmZ0WnpRTWJfZUFZMm9DTUNhbDViOWtZNEFHcG1IZw?oc=5",
+      "publishedAt": "2026-03-31T19:49:31.000Z",
+      "tags": [
+        "general"
+      ],
+      "injury": null,
+      "matchedQuery": "Clearwater Threshers Phillies"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSEwwTGM4WGJsMTN0aGF2NDVsOFRtMU1pcTVHNUJ5WFV3ZXd3Qks4T2d2UXBVSklVZVh3clZZYjdsSWg1VFlUcURVRWtnTFRfTmZ1ZndnUlFhYWlPQ0dIMWJFbklzdE9ZUEg3NzJmMWMtWk8ycG1jcV9FRjdBUHNGSzdnVlY2Z3JoNFp2NHpCc0pkVEctcEtiNzlnckc0aHBiQnFUOVo2SXdRU3QzMU1j?oc=5",
@@ -2630,19 +2670,6 @@
       "matchedQuery": "Jersey Shore BlueClaws Phillies"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVVB1VXUzUmlpRURuenloeDRtRmVTRUxJcmt0S0dMYXVwSWtCNmpNamFwS1hvSFZ4T3NvOGJ0aWotallyN0l5N1BlZXYzMFFYMTNCazFPdnE1Y3JVN1R6SlFwSXZnRHByM2pKX05mREtJY0p4VE44aVpDMEJCZW5nY0ZSaWUwYkQ2RnBEckdHWDBiRmZx?oc=5",
-      "title": "BlueClaws Promo Schedule Reveal | 02/13/2026 - MLB.com",
-      "summary": "BlueClaws Promo Schedule Reveal | 02/13/2026 &nbsp;&nbsp; MLB.com",
-      "source": "MLB.com",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVVB1VXUzUmlpRURuenloeDRtRmVTRUxJcmt0S0dMYXVwSWtCNmpNamFwS1hvSFZ4T3NvOGJ0aWotallyN0l5N1BlZXYzMFFYMTNCazFPdnE1Y3JVN1R6SlFwSXZnRHByM2pKX05mREtJY0p4VE44aVpDMEJCZW5nY0ZSaWUwYkQ2RnBEckdHWDBiRmZx?oc=5",
-      "publishedAt": "2026-02-13T08:00:00.000Z",
-      "tags": [
-        "general"
-      ],
-      "injury": null,
-      "matchedQuery": "Jersey Shore BlueClaws Phillies"
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNZ2ZlYzJLazIwaklkTUpFMUhZM2x5dVNaR0oyUE9BaWFCX05tSDJOX2pXWmsxcTliX0tvMTZhN0FjZ0lFbzltclJQREtDRjNGdWx1ek1jMWY5d0oxbWFCUF8yWW82enhfNWZkUF9sb2tzX3Fvd25TaG1EOExNMDhPeDFXMjNHMWRGcnVqZFFlMTNNLUtnaTNrWXdHQWNNRHVET3NLOWt2QzJxY0xzcmN3b2lUZHpnUm5KLWRRWThjZTFrejNPWGJSU0ZQTnRUTFVpN2Y4aEJQaVAyV19hTDlJdWpNVVpyWmVkZXpNbm9leFYyenpPTDQ00gH8AUFVX3lxTE96OHBtemxkbVJfWDkyaE9BOEdaR3FoR3dBX2c1WHlwYWJYcUg2bmh0LWRiY3NFZ0VFSTF4ZnJmYnAxYUtiOHoyN09INENhS1ZsaXlnWS01WmtQbDRJUUVJbUNXYnRJTUpKeXpCZi03RnkzX1liczFHa1p4N0hpMlFCZUpaYjdoRlNxMi1JTVBKektDblkwSmtxVFNhVUpmSkd0dVBjempmbWNWekx2X0RxWExsbldXb0NBNG9iWkZ6T21VcDdOY2lsMExLQUJvd0tMMjhNcEVIYUMyMUhNZ25obWVTRmQ3N0h1YlpLa1o0SDloQlA2dGRINWlmTw?oc=5",
       "title": "Who is the Phillies' new FCL coach? A look at Ruben Tejada’s journey back to Philadelphia - The Times of India",
       "summary": "Who is the Phillies' new FCL coach? A look at Ruben Tejada’s journey back to Philadelphia &nbsp;&nbsp; The Times of India",
@@ -2721,17 +2748,17 @@
       "matchedQuery": "Phillies minor league injured list"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNa2ltNmZvMWduVlVRVGk5TVNrQlV5WFA0S1ZqYzlzUTR4MGIzY3lYVHRzMWhMeHRReS1nbDdCYW5WbTJ6MFNQWi13YVlIaGtBZ3ZWVG5CTmk5dzNnNDdqUURNOTJGWEtxdVFxRzJyclJpd2Fvbmp0TDlsMTF6NXlCUm14SWduUVBtbXpRWlBvdmQydmgwR1N1RW5wc1FQQldYOFJJLVdR0gGmAUFVX3lxTE41N0M5dTdrdFI4aGlMVEtoQVNnN3RRc2ZKYmNGQzBqLXNuVG9JZXRmbTNpN3VSOTBYbUVmZkZrSnNpWFVHOXV5Q2pycFMtNUVjaXk1T2JMRFZXMVZIS0MtVTl6eVowRXYzN3JSRTdQOGk3NUJ2UXl2ZE0tMDZiXzlFZ1AxVUtYeUpZd2pyel9oZ0oxQlRDSzVyelZrcENiMmVTTUlaVmc?oc=5",
-      "title": "Phillies Reinstate Alec Bohm From 10-Day Injured List For Stretch Run - FOX Sports",
-      "summary": "Phillies Reinstate Alec Bohm From 10-Day Injured List For Stretch Run &nbsp;&nbsp; FOX Sports",
-      "source": "FOX Sports",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNa2ltNmZvMWduVlVRVGk5TVNrQlV5WFA0S1ZqYzlzUTR4MGIzY3lYVHRzMWhMeHRReS1nbDdCYW5WbTJ6MFNQWi13YVlIaGtBZ3ZWVG5CTmk5dzNnNDdqUURNOTJGWEtxdVFxRzJyclJpd2Fvbmp0TDlsMTF6NXlCUm14SWduUVBtbXpRWlBvdmQydmgwR1N1RW5wc1FQQldYOFJJLVdR0gGmAUFVX3lxTE41N0M5dTdrdFI4aGlMVEtoQVNnN3RRc2ZKYmNGQzBqLXNuVG9JZXRmbTNpN3VSOTBYbUVmZkZrSnNpWFVHOXV5Q2pycFMtNUVjaXk1T2JMRFZXMVZIS0MtVTl6eVowRXYzN3JSRTdQOGk3NUJ2UXl2ZE0tMDZiXzlFZ1AxVUtYeUpZd2pyel9oZ0oxQlRDSzVyelZrcENiMmVTTUlaVmc?oc=5",
-      "publishedAt": "2025-09-19T07:00:00.000Z",
+      "id": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVlprSGZjbjh0MFhwNnB2c2YzSUp3VFg0Wkl0bmplNmd3c2hFaGlWdzk3cFdqeEM0MU5wR0dFdkFFbVBRQjhmc0lDMW9pamVwaHB5R2JCZ0UydlpzcmpwQXV2V3p3QjR2SDdFM1YxOVZCczdRVHdENnRKSmlDbHNpeFlEWHFyckRycC1nWjF3WUIzei12Um01ZXRfTmNER1pCeHd5OE12cEp4NXhzZmc?oc=5",
+      "title": "Phillies 2026 outfield outlook: Free-agent options, prospect forecast, and more - Inquirer.com",
+      "summary": "Phillies 2026 outfield outlook: Free-agent options, prospect forecast, and more &nbsp;&nbsp; Inquirer.com",
+      "source": "Inquirer.com",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVlprSGZjbjh0MFhwNnB2c2YzSUp3VFg0Wkl0bmplNmd3c2hFaGlWdzk3cFdqeEM0MU5wR0dFdkFFbVBRQjhmc0lDMW9pamVwaHB5R2JCZ0UydlpzcmpwQXV2V3p3QjR2SDdFM1YxOVZCczdRVHdENnRKSmlDbHNpeFlEWHFyckRycC1nWjF3WUIzei12Um01ZXRfTmNER1pCeHd5OE12cEp4NXhzZmc?oc=5",
+      "publishedAt": "2025-11-11T08:00:00.000Z",
       "tags": [
-        "injury"
+        "general"
       ],
       "injury": null,
-      "matchedQuery": "Phillies minor league injured list"
+      "matchedQuery": "Phillies prospect rehab assignment"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQllDdXlPOWx2Z0RnbjFxWjhqajJEOE1PSFVPQ1ZFd19PeEJxT3NGdDl0b0Q1LTFMUFQtMjlhZFRMTGNHaEVZcjR1c09NOUZ3cXlhY2pFY1pTemxMNkZaanBLbm1EOE5zSV9nS1FxRlhSN2pybk5sdjl4RDNFNUloZThSc04wUWpDNy1XY2hJZldHWkExakpRMy15UHVLYXlT?oc=5",
@@ -2747,19 +2774,6 @@
       "matchedQuery": "Phillies minor league injured list"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTGI0YVZ2b1VRb1ZuS0lvb1dVdm5sSV9mN0N0VEtQQ3V4a29LNXdYbDFVVThPSk5hTjBHX3prZ1hZNmFoRTlOcmRITFd4R0NoOGljTnFXRS1YMzEzcFd2WFF3SThfTE83b0kwQzFMcVM0SlBUZ3VseW9mMDVTV21SY1h6cmJIUl9CTkZrQVBLdEkzZ3RpMVg5X2VPWHZWY0xselE?oc=5",
-      "title": "Phillies' Aaron Nola allows six runs in return from injured list - ESPN",
-      "summary": "Phillies' Aaron Nola allows six runs in return from injured list &nbsp;&nbsp; ESPN",
-      "source": "ESPN",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTGI0YVZ2b1VRb1ZuS0lvb1dVdm5sSV9mN0N0VEtQQ3V4a29LNXdYbDFVVThPSk5hTjBHX3prZ1hZNmFoRTlOcmRITFd4R0NoOGljTnFXRS1YMzEzcFd2WFF3SThfTE83b0kwQzFMcVM0SlBUZ3VseW9mMDVTV21SY1h6cmJIUl9CTkZrQVBLdEkzZ3RpMVg5X2VPWHZWY0xselE?oc=5",
-      "publishedAt": "2025-08-17T07:00:00.000Z",
-      "tags": [
-        "injury"
-      ],
-      "injury": null,
-      "matchedQuery": "Phillies minor league injured list"
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1FWm56VEkxTWJjS2ZiM2FXSGdOdDhISmZTSGt5SnI2S2R3aTZZdHdFLUxTb0RjSlV1bE9nUXdBQ2JiR05OdWFsSzl2TUJHT3psTm1oQkRLRFJXTW5lendUQnQxME5rQzlfNVJ5Q21EVnh2VVHSAX9BVV95cUxOLXN5QVMtMC1NYWQxd1pxTzcxQ09XWm1zWlhLMjhYcmsxOXNJTTNVd09YazM5S09LWlpXU2JYZUlBLUNfTDJHMDlmVTl2WHMyaUxaWENMLWpPYTdJOUpkRUdSX3J2bkRfN0psX0Z6am5VQjJFZ1Zhdk0yUnV4Mjdj?oc=5",
       "title": "Rehabbing Adley, O's Tides face Crawford, Phils on Network's Prospect Showcase - MLB.com",
       "summary": "Rehabbing Adley, O's Tides face Crawford, Phils on Network's Prospect Showcase &nbsp;&nbsp; MLB.com",
@@ -2768,19 +2782,6 @@
       "publishedAt": "2025-07-22T07:00:00.000Z",
       "tags": [
         "rehab"
-      ],
-      "injury": null,
-      "matchedQuery": "Phillies prospect rehab assignment"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQjJ0VjkyRW9qdExpRG81cy00d1RQVDRJamtScHpFbnNkZHFKbmRCbDE1TjB0XzJrOWhuLU9xY25rOUZ4S1R6NHR4dE5wSGxfaFFoeEZvTVFRa2tBNTVYdVFpcHpFRjN1R3lwc1VFZXJjOU15bXNKU092ZXVXYThIbk50OUk3SmwyVEhQanluTW1nMjlaRzhyY2JId2sya2R6YzY2d2Y4aw?oc=5",
-      "title": "Phillies Notebook: Pitching prospect Andrew Painter on a slow rehab road - The Morning Call",
-      "summary": "Phillies Notebook: Pitching prospect Andrew Painter on a slow rehab road &nbsp;&nbsp; The Morning Call",
-      "source": "The Morning Call",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQjJ0VjkyRW9qdExpRG81cy00d1RQVDRJamtScHpFbnNkZHFKbmRCbDE1TjB0XzJrOWhuLU9xY25rOUZ4S1R6NHR4dE5wSGxfaFFoeEZvTVFRa2tBNTVYdVFpcHpFRjN1R3lwc1VFZXJjOU15bXNKU092ZXVXYThIbk50OUk3SmwyVEhQanluTW1nMjlaRzhyY2JId2sya2R6YzY2d2Y4aw?oc=5",
-      "publishedAt": "2025-06-22T07:00:00.000Z",
-      "tags": [
-        "performance"
       ],
       "injury": null,
       "matchedQuery": "Phillies prospect rehab assignment"
@@ -2812,30 +2813,18 @@
       "matchedQuery": "Phillies prospect rehab assignment"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9RYUZBcDhPOGZoM0xLUHZub1d1ZzdDcVRHaHVwN0lPWWJoQUhEdUQzMFRUVUtZM0NJbHNGb2lnQlZDS3Z2aWoteWdJY1hacjk4Ymc?oc=5",
-      "title": "Florida Complex League | Minor League Baseball - MLB.com",
-      "summary": "Florida Complex League | Minor League Baseball &nbsp;&nbsp; MLB.com",
+      "id": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5oblRPdFhMWFlVbWtmRFlwVUM2ekI0OW1TU0FJRkIxTjNab190QzRGMmVqZjJWT0RseGwtZTZzVURsUnNhckJ6d0FrZVR5WmNBaWc0cEVONk9HZ0x1OThVaFctWjZMVkpNRnV30gF3QVVfeXFMT1NjZk5fQnZSdDFDMXRidjd2R1hSbkhPQWV3MEgtR1UwVDE1WFBCR2x1ZnVySDV1OWYwV2lrMnZWY0w3SG9hX1dtcDJaam9sZ2hLRFRUTWxQXzlBMVNQT1BtVDFzckthSVo5RDltLTlaaEtMb1JNVVE?oc=5",
+      "title": "Latest Phillies injuries & transactions - MLB.com",
+      "summary": "Latest Phillies injuries & transactions &nbsp;&nbsp; MLB.com",
       "source": "MLB.com",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9RYUZBcDhPOGZoM0xLUHZub1d1ZzdDcVRHaHVwN0lPWWJoQUhEdUQzMFRUVUtZM0NJbHNGb2lnQlZDS3Z2aWoteWdJY1hacjk4Ymc?oc=5",
-      "publishedAt": "2023-08-28T18:22:30.000Z",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5oblRPdFhMWFlVbWtmRFlwVUM2ekI0OW1TU0FJRkIxTjNab190QzRGMmVqZjJWT0RseGwtZTZzVURsUnNhckJ6d0FrZVR5WmNBaWc0cEVONk9HZ0x1OThVaFctWjZMVkpNRnV30gF3QVVfeXFMT1NjZk5fQnZSdDFDMXRidjd2R1hSbkhPQWV3MEgtR1UwVDE1WFBCR2x1ZnVySDV1OWYwV2lrMnZWY0w3SG9hX1dtcDJaam9sZ2hLRFRUTWxQXzlBMVNQT1BtVDFzckthSVo5RDltLTlaaEtMb1JNVVE?oc=5",
+      "publishedAt": "2021-05-25T23:27:11.000Z",
       "tags": [
-        "general"
+        "injury",
+        "transaction"
       ],
       "injury": null,
-      "matchedQuery": "FCL Phillies"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE12aEdRbTF1eEVISTRvb3BCOXB1bXhBX19rRy1jVmlLWms3TVB2YkZUbDZMQlpUWGpXYmZJSUdLNEx3eWFpaFVjMm5Dc2RTVGJOOW9DT1B0M3pTU2c?oc=5",
-      "title": "Roster - MLB.com",
-      "summary": "Roster &nbsp;&nbsp; MLB.com",
-      "source": "MLB.com",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE12aEdRbTF1eEVISTRvb3BCOXB1bXhBX19rRy1jVmlLWms3TVB2YkZUbDZMQlpUWGpXYmZJSUdLNEx3eWFpaFVjMm5Dc2RTVGJOOW9DT1B0M3pTU2c?oc=5",
-      "publishedAt": "2021-07-22T17:24:48.000Z",
-      "tags": [
-        "general"
-      ],
-      "injury": null,
-      "matchedQuery": "FCL Phillies"
+      "matchedQuery": "Phillies minor league injured list"
     }
   ],
   "errors": []
