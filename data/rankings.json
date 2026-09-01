@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T22:51:12.371Z",
+  "updatedAt": "2026-09-01T05:08:45.300Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -321,7 +321,7 @@
       "position": "OF",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 61.1,
+      "score": 61,
       "previousRank": 13,
       "rank": 13,
       "change": 0,
@@ -329,7 +329,7 @@
         "scouting": 23.8,
         "performance": 8.9,
         "ageLevel": 5.3,
-        "sentiment": 10.4,
+        "sentiment": 10.3,
         "movement": 7.7,
         "risk": 5
       },
@@ -396,7 +396,7 @@
       "position": "OF",
       "affiliate": "Philadelphia Phillies",
       "level": "MLB",
-      "score": 57.7,
+      "score": 57.8,
       "previousRank": 16,
       "rank": 16,
       "change": 0,
@@ -404,7 +404,7 @@
         "scouting": 12,
         "performance": 15.4,
         "ageLevel": 8.2,
-        "sentiment": 9.7,
+        "sentiment": 9.8,
         "movement": 7.4,
         "risk": 5
       },
@@ -824,7 +824,7 @@
       "position": "OF",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 52.4,
+      "score": 52.3,
       "previousRank": 34,
       "rank": 34,
       "change": 0,
@@ -832,7 +832,7 @@
         "scouting": 12,
         "performance": 16.5,
         "ageLevel": 4.2,
-        "sentiment": 10.7,
+        "sentiment": 10.6,
         "movement": 4,
         "risk": 5
       },
@@ -871,9 +871,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 52,
-      "previousRank": 37,
+      "previousRank": 36,
       "rank": 36,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 13.5,
@@ -894,9 +894,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 51.9,
-      "previousRank": 36,
+      "previousRank": 37,
       "rank": 37,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 14.5,
@@ -1311,54 +1311,6 @@
       ]
     },
     {
-      "playerId": "2aa06e9b-c8a3-4419-9dcb-07b2576aecdc",
-      "player": "Gabe Craig",
-      "position": "RHP",
-      "affiliate": "Jersey Shore BlueClaws",
-      "level": "A+",
-      "score": 50,
-      "previousRank": 55,
-      "rank": 55,
-      "change": 0,
-      "components": {
-        "scouting": 15.9,
-        "performance": 10.1,
-        "ageLevel": 5.3,
-        "sentiment": 10,
-        "movement": 6.2,
-        "risk": 2.5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "MLB Pipeline rank #22",
-        "Promoted to High-A",
-        "Current injury lowers availability"
-      ]
-    },
-    {
-      "playerId": "7501d444-5df0-48f6-9ae4-9daa262d1309",
-      "player": "Tanner Gresham",
-      "position": "P",
-      "affiliate": "Jersey Shore BlueClaws",
-      "level": "A+",
-      "score": 50,
-      "previousRank": 56,
-      "rank": 56,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 11.5,
-        "ageLevel": 5.3,
-        "sentiment": 10,
-        "movement": 6.2,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to High-A"
-      ]
-    },
-    {
       "playerId": "cc36ef45-f0bf-4472-99a6-07ad26c47b33",
       "player": "Andrew Baker",
       "position": "P",
@@ -1366,8 +1318,8 @@
       "level": "AA",
       "score": 49.9,
       "previousRank": 57,
-      "rank": 57,
-      "change": 0,
+      "rank": 55,
+      "change": 2,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1389,8 +1341,8 @@
       "level": "AA",
       "score": 49.9,
       "previousRank": 58,
-      "rank": 58,
-      "change": 0,
+      "rank": 56,
+      "change": 2,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1402,6 +1354,54 @@
       "mediaMentions": 0,
       "reasons": [
         "Advanced to AA"
+      ]
+    },
+    {
+      "playerId": "2aa06e9b-c8a3-4419-9dcb-07b2576aecdc",
+      "player": "Gabe Craig",
+      "position": "RHP",
+      "affiliate": "Jersey Shore BlueClaws",
+      "level": "A+",
+      "score": 49.9,
+      "previousRank": 55,
+      "rank": 57,
+      "change": -2,
+      "components": {
+        "scouting": 15.9,
+        "performance": 10.1,
+        "ageLevel": 5.3,
+        "sentiment": 10,
+        "movement": 6.1,
+        "risk": 2.5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "MLB Pipeline rank #22",
+        "Promoted to High-A",
+        "Current injury lowers availability"
+      ]
+    },
+    {
+      "playerId": "7501d444-5df0-48f6-9ae4-9daa262d1309",
+      "player": "Tanner Gresham",
+      "position": "P",
+      "affiliate": "Jersey Shore BlueClaws",
+      "level": "A+",
+      "score": 49.9,
+      "previousRank": 56,
+      "rank": 58,
+      "change": -2,
+      "components": {
+        "scouting": 12,
+        "performance": 11.5,
+        "ageLevel": 5.3,
+        "sentiment": 10,
+        "movement": 6.1,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to High-A"
       ]
     },
     {
@@ -2342,8 +2342,9 @@
         "movement": 4.1,
         "risk": 5
       },
-      "mediaMentions": 0,
+      "mediaMentions": 1,
       "reasons": [
+        "1 recent media mention",
         "Promoted to AA",
         "Advanced to AA"
       ]
