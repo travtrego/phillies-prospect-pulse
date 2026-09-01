@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T05:08:45.300Z",
+  "updatedAt": "2026-09-01T11:39:41.630Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -28,10 +28,10 @@
         "movement": 5.5,
         "risk": 5
       },
-      "mediaMentions": 2,
+      "mediaMentions": 3,
       "reasons": [
         "MLB Pipeline rank #2",
-        "2 recent media mentions",
+        "3 recent media mentions",
         "Promoted to AA",
         "Advanced to AA"
       ]
@@ -68,7 +68,7 @@
       "position": "RHP",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 69.3,
+      "score": 69.2,
       "previousRank": 3,
       "rank": 3,
       "change": 0,
@@ -77,7 +77,7 @@
         "performance": 16.5,
         "ageLevel": 6.4,
         "sentiment": 10.8,
-        "movement": 9,
+        "movement": 8.9,
         "risk": 5
       },
       "mediaMentions": 1,
@@ -120,7 +120,7 @@
       "position": "SS",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 68.3,
+      "score": 68.4,
       "previousRank": 5,
       "rank": 5,
       "change": 0,
@@ -128,14 +128,14 @@
         "scouting": 30,
         "performance": 12.5,
         "ageLevel": 9.3,
-        "sentiment": 9.9,
+        "sentiment": 10,
         "movement": 4.1,
         "risk": 2.5
       },
-      "mediaMentions": 13,
+      "mediaMentions": 14,
       "reasons": [
         "MLB Pipeline rank #1",
-        "13 recent media mentions",
+        "14 recent media mentions",
         "Strong positive prospect coverage",
         "Material negative recent coverage"
       ]
@@ -265,32 +265,6 @@
       ]
     },
     {
-      "playerId": "7a4408f1-d3cf-4b7c-9e20-c7ecf26f797d",
-      "player": "Dante Nori",
-      "position": "OF",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 63.3,
-      "previousRank": 11,
-      "rank": 11,
-      "change": 0,
-      "components": {
-        "scouting": 28.1,
-        "performance": 9,
-        "ageLevel": 7.2,
-        "sentiment": 9.9,
-        "movement": 4.1,
-        "risk": 5
-      },
-      "mediaMentions": 5,
-      "reasons": [
-        "MLB Pipeline rank #5",
-        "5 recent media mentions",
-        "Promoted to AA",
-        "Advanced to AA"
-      ]
-    },
-    {
       "playerId": "b71dc9da-f667-4080-835c-c596d0d3da35",
       "player": "Matthew Fisher",
       "position": "RHP",
@@ -298,8 +272,8 @@
       "level": "A",
       "score": 63.3,
       "previousRank": 12,
-      "rank": 12,
-      "change": 0,
+      "rank": 11,
+      "change": 1,
       "components": {
         "scouting": 24.5,
         "performance": 13.5,
@@ -313,6 +287,32 @@
         "MLB Pipeline rank #10",
         "1 recent media mention",
         "Promoted to Single-A"
+      ]
+    },
+    {
+      "playerId": "7a4408f1-d3cf-4b7c-9e20-c7ecf26f797d",
+      "player": "Dante Nori",
+      "position": "OF",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 62.5,
+      "previousRank": 11,
+      "rank": 12,
+      "change": -1,
+      "components": {
+        "scouting": 28.1,
+        "performance": 9,
+        "ageLevel": 7.2,
+        "sentiment": 9.1,
+        "movement": 4.1,
+        "risk": 5
+      },
+      "mediaMentions": 4,
+      "reasons": [
+        "MLB Pipeline rank #5",
+        "4 recent media mentions",
+        "Negative recent coverage",
+        "Promoted to AA"
       ]
     },
     {
@@ -517,7 +517,7 @@
       "position": "P",
       "affiliate": "Philadelphia Phillies",
       "level": "MLB",
-      "score": 56.1,
+      "score": 56,
       "previousRank": 21,
       "rank": 21,
       "change": 0,
@@ -526,7 +526,7 @@
         "performance": 12.4,
         "ageLevel": 8.2,
         "sentiment": 10,
-        "movement": 8.5,
+        "movement": 8.4,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -1053,6 +1053,31 @@
       ]
     },
     {
+      "playerId": "abb820d6-d295-4677-8faa-6f11f95879b6",
+      "player": "Raider Tello",
+      "position": "INF",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 51.1,
+      "previousRank": 48,
+      "rank": 44,
+      "change": 4,
+      "components": {
+        "scouting": 12,
+        "performance": 10.9,
+        "ageLevel": 6.4,
+        "sentiment": 10.2,
+        "movement": 6.6,
+        "risk": 5
+      },
+      "mediaMentions": 1,
+      "reasons": [
+        "1 recent media mention",
+        "Promoted to AA",
+        "Advanced to AA"
+      ]
+    },
+    {
       "playerId": "51fe5804-a957-4c79-af0a-08399b915c7d",
       "player": "Brad Pacheco",
       "position": "P",
@@ -1060,8 +1085,8 @@
       "level": "A",
       "score": 51,
       "previousRank": 44,
-      "rank": 44,
-      "change": 0,
+      "rank": 45,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 15,
@@ -1083,8 +1108,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 45,
-      "rank": 45,
-      "change": 0,
+      "rank": 46,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1106,8 +1131,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 46,
-      "rank": 46,
-      "change": 0,
+      "rank": 47,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1129,8 +1154,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 47,
-      "rank": 47,
-      "change": 0,
+      "rank": 48,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1142,30 +1167,6 @@
       "mediaMentions": 0,
       "reasons": [
         "Advanced to AAA"
-      ]
-    },
-    {
-      "playerId": "abb820d6-d295-4677-8faa-6f11f95879b6",
-      "player": "Raider Tello",
-      "position": "INF",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 51,
-      "previousRank": 48,
-      "rank": 48,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 10.9,
-        "ageLevel": 6.4,
-        "sentiment": 10,
-        "movement": 6.7,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to AA",
-        "Advanced to AA"
       ]
     },
     {
@@ -1317,9 +1318,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 49.9,
-      "previousRank": 57,
+      "previousRank": 55,
       "rank": 55,
-      "change": 2,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1340,9 +1341,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 49.9,
-      "previousRank": 58,
+      "previousRank": 56,
       "rank": 56,
-      "change": 2,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1363,9 +1364,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 49.9,
-      "previousRank": 55,
+      "previousRank": 57,
       "rank": 57,
-      "change": -2,
+      "change": 0,
       "components": {
         "scouting": 15.9,
         "performance": 10.1,
@@ -1388,9 +1389,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 49.9,
-      "previousRank": 56,
+      "previousRank": 58,
       "rank": 58,
-      "change": -2,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 11.5,
@@ -1479,7 +1480,7 @@
       "position": "OF",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 49.1,
+      "score": 49,
       "previousRank": 62,
       "rank": 62,
       "change": 0,
@@ -1487,7 +1488,7 @@
         "scouting": 12,
         "performance": 10.7,
         "ageLevel": 6.4,
-        "sentiment": 10.2,
+        "sentiment": 10.1,
         "movement": 4.8,
         "risk": 5
       },
@@ -2342,9 +2343,8 @@
         "movement": 4.1,
         "risk": 5
       },
-      "mediaMentions": 1,
+      "mediaMentions": 0,
       "reasons": [
-        "1 recent media mention",
         "Promoted to AA",
         "Advanced to AA"
       ]
