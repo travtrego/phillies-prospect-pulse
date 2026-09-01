@@ -1,6 +1,50 @@
 {
-  "updatedAt": "2026-09-01T16:40:32.329Z",
+  "updatedAt": "2026-09-01T21:02:26.220Z",
   "records": [
+    {
+      "playerId": 680880,
+      "player": "Grant Holman",
+      "date": "2026-09-01",
+      "fromAffiliate": "Lehigh Valley IronPigs",
+      "fromLevel": "AAA",
+      "toAffiliate": "Philadelphia Phillies",
+      "toLevel": "MLB",
+      "description": "Philadelphia Phillies recalled RHP Grant Holman from Lehigh Valley IronPigs.",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-09-01&endDate=2026-09-01"
+    },
+    {
+      "playerId": 681323,
+      "player": "Alex Binelas",
+      "date": "2026-08-31",
+      "fromAffiliate": "Reading Fightin Phils",
+      "fromLevel": "AA",
+      "toAffiliate": "Lehigh Valley IronPigs",
+      "toLevel": "AAA",
+      "description": "1B Alex Binelas assigned to Lehigh Valley IronPigs from Reading Fightin Phils.",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-09-01&endDate=2026-09-01"
+    },
+    {
+      "playerId": 828408,
+      "player": "Evan Bouldin",
+      "date": "2026-08-31",
+      "fromAffiliate": "FCL Phillies",
+      "fromLevel": "Rookie",
+      "toAffiliate": "Clearwater Threshers",
+      "toLevel": "Single-A",
+      "description": "3B Evan Bouldin assigned to Clearwater Threshers from FCL Phillies.",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-09-01&endDate=2026-09-01"
+    },
+    {
+      "playerId": 806166,
+      "player": "Tyler Minnick",
+      "date": "2026-08-31",
+      "fromAffiliate": "FCL Phillies",
+      "fromLevel": "Rookie",
+      "toAffiliate": "Clearwater Threshers",
+      "toLevel": "Single-A",
+      "description": "C Tyler Minnick assigned to Clearwater Threshers from FCL Phillies.",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=566&startDate=2025-09-01&endDate=2026-09-01"
+    },
     {
       "playerId": 815149,
       "player": "Elias Holbert",
