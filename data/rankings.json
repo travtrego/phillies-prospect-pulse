@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T11:19:05.997Z",
+  "updatedAt": "2026-09-02T14:31:27.095Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -28,10 +28,10 @@
         "movement": 5.4,
         "risk": 5
       },
-      "mediaMentions": 5,
+      "mediaMentions": 4,
       "reasons": [
         "MLB Pipeline rank #2",
-        "5 recent media mentions",
+        "4 recent media mentions",
         "Promoted to AA",
         "Advanced to AA"
       ]
@@ -68,7 +68,7 @@
       "position": "SS",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 68.3,
+      "score": 68.2,
       "previousRank": 3,
       "rank": 3,
       "change": 0,
@@ -76,16 +76,16 @@
         "scouting": 30,
         "performance": 12.5,
         "ageLevel": 9.3,
-        "sentiment": 9.9,
+        "sentiment": 9.8,
         "movement": 4.1,
         "risk": 2.5
       },
-      "mediaMentions": 16,
+      "mediaMentions": 12,
       "reasons": [
         "MLB Pipeline rank #1",
-        "16 recent media mentions",
-        "Strong positive prospect coverage",
-        "Material negative recent coverage"
+        "12 recent media mentions",
+        "Material negative recent coverage",
+        "Promoted to AAA"
       ]
     },
     {
@@ -131,10 +131,10 @@
         "movement": 6,
         "risk": 5
       },
-      "mediaMentions": 1,
+      "mediaMentions": 2,
       "reasons": [
         "MLB Pipeline rank #6",
-        "1 recent media mention",
+        "2 recent media mentions",
         "Promoted to MLB",
         "Advanced to AAA"
       ]
@@ -231,10 +231,9 @@
         "movement": 6,
         "risk": 5
       },
-      "mediaMentions": 1,
+      "mediaMentions": 0,
       "reasons": [
         "MLB Pipeline rank #12",
-        "1 recent media mention",
         "Promoted to AA",
         "Advanced to AA"
       ]
@@ -394,7 +393,7 @@
       "position": "SS",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 59.2,
+      "score": 59,
       "previousRank": 16,
       "rank": 16,
       "change": 0,
@@ -402,7 +401,7 @@
         "scouting": 12.3,
         "performance": 20.6,
         "ageLevel": 6.4,
-        "sentiment": 10.2,
+        "sentiment": 10,
         "movement": 4.7,
         "risk": 5
       },
@@ -559,30 +558,6 @@
       ]
     },
     {
-      "playerId": "117ca4fe-1ad5-43ff-9f1f-aec72f0d1bb6",
-      "player": "Robert Phelps",
-      "position": "INF",
-      "affiliate": "Jersey Shore BlueClaws",
-      "level": "A+",
-      "score": 54.7,
-      "previousRank": 23,
-      "rank": 23,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 14.3,
-        "ageLevel": 5.3,
-        "sentiment": 10,
-        "movement": 8.1,
-        "risk": 5
-      },
-      "mediaMentions": 1,
-      "reasons": [
-        "1 recent media mention",
-        "Promoted to High-A"
-      ]
-    },
-    {
       "playerId": "38bb5322-106a-4d6c-88be-80bae95a816b",
       "player": "Nick Biddison",
       "position": "INF",
@@ -590,8 +565,8 @@
       "level": "AA",
       "score": 54.6,
       "previousRank": 24,
-      "rank": 24,
-      "change": 0,
+      "rank": 23,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 13.1,
@@ -604,6 +579,30 @@
       "reasons": [
         "Promoted to AA",
         "Advanced to AA"
+      ]
+    },
+    {
+      "playerId": "117ca4fe-1ad5-43ff-9f1f-aec72f0d1bb6",
+      "player": "Robert Phelps",
+      "position": "INF",
+      "affiliate": "Jersey Shore BlueClaws",
+      "level": "A+",
+      "score": 54.6,
+      "previousRank": 23,
+      "rank": 24,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 14.3,
+        "ageLevel": 5.3,
+        "sentiment": 10,
+        "movement": 8,
+        "risk": 5
+      },
+      "mediaMentions": 1,
+      "reasons": [
+        "1 recent media mention",
+        "Promoted to High-A"
       ]
     },
     {
@@ -848,9 +847,9 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 52.3,
-      "previousRank": 38,
+      "previousRank": 35,
       "rank": 35,
-      "change": 3,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 16.5,
@@ -871,9 +870,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 52.3,
-      "previousRank": 35,
+      "previousRank": 36,
       "rank": 36,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 13.8,
@@ -894,9 +893,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 52.2,
-      "previousRank": 36,
+      "previousRank": 37,
       "rank": 37,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 14.8,
@@ -917,9 +916,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 51.8,
-      "previousRank": 37,
+      "previousRank": 38,
       "rank": 38,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.3,
@@ -928,8 +927,9 @@
         "movement": 5,
         "risk": 5
       },
-      "mediaMentions": 0,
+      "mediaMentions": 1,
       "reasons": [
+        "1 recent media mention",
         "Promoted to AAA",
         "Advanced to AAA"
       ]
@@ -965,9 +965,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 51.2,
-      "previousRank": 45,
+      "previousRank": 40,
       "rank": 40,
-      "change": 5,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -983,40 +983,15 @@
       ]
     },
     {
-      "playerId": "abb820d6-d295-4677-8faa-6f11f95879b6",
-      "player": "Raider Tello",
-      "position": "INF",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 51.2,
-      "previousRank": 40,
-      "rank": 41,
-      "change": -1,
-      "components": {
-        "scouting": 12,
-        "performance": 11,
-        "ageLevel": 6.4,
-        "sentiment": 10.2,
-        "movement": 6.6,
-        "risk": 5
-      },
-      "mediaMentions": 1,
-      "reasons": [
-        "1 recent media mention",
-        "Promoted to AA",
-        "Advanced to AA"
-      ]
-    },
-    {
       "playerId": "e0219b50-05cf-4507-9d5d-b25bb0130b1e",
       "player": "Griff McGarry",
       "position": "P",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 51.1,
-      "previousRank": 41,
-      "rank": 42,
-      "change": -1,
+      "previousRank": 42,
+      "rank": 41,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1038,9 +1013,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 51.1,
-      "previousRank": 42,
-      "rank": 43,
-      "change": -1,
+      "previousRank": 43,
+      "rank": 42,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 14.1,
@@ -1061,9 +1036,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 51,
-      "previousRank": 43,
-      "rank": 44,
-      "change": -1,
+      "previousRank": 44,
+      "rank": 43,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1084,9 +1059,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 51,
-      "previousRank": 44,
-      "rank": 45,
-      "change": -1,
+      "previousRank": 45,
+      "rank": 44,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1098,6 +1073,30 @@
       "mediaMentions": 0,
       "reasons": [
         "Advanced to AAA"
+      ]
+    },
+    {
+      "playerId": "abb820d6-d295-4677-8faa-6f11f95879b6",
+      "player": "Raider Tello",
+      "position": "INF",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 51,
+      "previousRank": 41,
+      "rank": 45,
+      "change": -4,
+      "components": {
+        "scouting": 12,
+        "performance": 11,
+        "ageLevel": 6.4,
+        "sentiment": 10,
+        "movement": 6.6,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to AA",
+        "Advanced to AA"
       ]
     },
     {
@@ -1547,31 +1546,6 @@
       ]
     },
     {
-      "playerId": "36c4ee1b-b7fc-4264-965f-85547f960fa8",
-      "player": "Raylin Heredia",
-      "position": "OF",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 48.7,
-      "previousRank": 65,
-      "rank": 65,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 10.5,
-        "ageLevel": 6.4,
-        "sentiment": 10.1,
-        "movement": 4.7,
-        "risk": 5
-      },
-      "mediaMentions": 1,
-      "reasons": [
-        "1 recent media mention",
-        "Promoted to AA",
-        "Advanced to AA"
-      ]
-    },
-    {
       "playerId": "b2595b1b-7ca3-4c4e-83b8-1b5cb7a78026",
       "player": "Braydon Tucker",
       "position": "P",
@@ -1579,8 +1553,8 @@
       "level": "AA",
       "score": 48.6,
       "previousRank": 66,
-      "rank": 66,
-      "change": 0,
+      "rank": 65,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 11.2,
@@ -1591,6 +1565,30 @@
       },
       "mediaMentions": 0,
       "reasons": [
+        "Advanced to AA"
+      ]
+    },
+    {
+      "playerId": "36c4ee1b-b7fc-4264-965f-85547f960fa8",
+      "player": "Raylin Heredia",
+      "position": "OF",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 48.6,
+      "previousRank": 65,
+      "rank": 66,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 10.5,
+        "ageLevel": 6.4,
+        "sentiment": 10,
+        "movement": 4.7,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to AA",
         "Advanced to AA"
       ]
     },
