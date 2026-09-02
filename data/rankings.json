@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T16:35:09.386Z",
+  "updatedAt": "2026-09-02T21:04:17.731Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -28,10 +28,10 @@
         "movement": 5.4,
         "risk": 5
       },
-      "mediaMentions": 5,
+      "mediaMentions": 6,
       "reasons": [
         "MLB Pipeline rank #2",
-        "5 recent media mentions",
+        "6 recent media mentions",
         "Promoted to AA",
         "Advanced to AA"
       ]
@@ -131,10 +131,10 @@
         "movement": 6,
         "risk": 5
       },
-      "mediaMentions": 2,
+      "mediaMentions": 1,
       "reasons": [
         "MLB Pipeline rank #6",
-        "2 recent media mentions",
+        "1 recent media mention",
         "Promoted to MLB",
         "Advanced to AAA"
       ]
@@ -231,10 +231,9 @@
         "movement": 6,
         "risk": 5
       },
-      "mediaMentions": 1,
+      "mediaMentions": 0,
       "reasons": [
         "MLB Pipeline rank #12",
-        "1 recent media mention",
         "Promoted to AA",
         "Advanced to AA"
       ]
@@ -295,7 +294,7 @@
       "position": "OF",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 62.7,
+      "score": 62.5,
       "previousRank": 12,
       "rank": 12,
       "change": 0,
@@ -303,15 +302,15 @@
         "scouting": 28.1,
         "performance": 9.1,
         "ageLevel": 7.2,
-        "sentiment": 9.2,
+        "sentiment": 9,
         "movement": 4.1,
         "risk": 5
       },
-      "mediaMentions": 3,
+      "mediaMentions": 4,
       "reasons": [
         "MLB Pipeline rank #5",
-        "3 recent media mentions",
-        "Negative recent coverage",
+        "4 recent media mentions",
+        "Material negative recent coverage",
         "Promoted to AA"
       ]
     },
@@ -369,7 +368,7 @@
       "position": "OF",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 60.3,
+      "score": 60.4,
       "previousRank": 15,
       "rank": 15,
       "change": 0,
@@ -377,7 +376,7 @@
         "scouting": 23.8,
         "performance": 8.4,
         "ageLevel": 5.3,
-        "sentiment": 10.2,
+        "sentiment": 10.3,
         "movement": 7.6,
         "risk": 5
       },
@@ -406,11 +405,11 @@
         "movement": 4.7,
         "risk": 5
       },
-      "mediaMentions": 3,
+      "mediaMentions": 2,
       "reasons": [
         "Strong current-season performance",
         "MLB Pipeline rank #27",
-        "3 recent media mentions",
+        "2 recent media mentions",
         "Promoted to AA"
       ]
     },
@@ -420,7 +419,7 @@
       "position": "OF",
       "affiliate": "Philadelphia Phillies",
       "level": "MLB",
-      "score": 58,
+      "score": 57.7,
       "previousRank": 17,
       "rank": 17,
       "change": 0,
@@ -428,12 +427,13 @@
         "scouting": 12,
         "performance": 15.4,
         "ageLevel": 8.2,
-        "sentiment": 10,
-        "movement": 7.4,
+        "sentiment": 9.8,
+        "movement": 7.3,
         "risk": 5
       },
-      "mediaMentions": 0,
+      "mediaMentions": 1,
       "reasons": [
+        "1 recent media mention",
         "Promoted to MLB",
         "Advanced to MLB"
       ]
@@ -848,9 +848,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 52.3,
-      "previousRank": 36,
+      "previousRank": 35,
       "rank": 35,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 13.8,
@@ -871,9 +871,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 52.2,
-      "previousRank": 37,
+      "previousRank": 36,
       "rank": 36,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 14.8,
@@ -888,29 +888,6 @@
       ]
     },
     {
-      "playerId": "c16c7468-fda9-463b-9fbe-e846f5e1c41e",
-      "player": "Jonathan Hogart",
-      "position": "OF",
-      "affiliate": "Clearwater Threshers",
-      "level": "A",
-      "score": 52.1,
-      "previousRank": 35,
-      "rank": 37,
-      "change": -2,
-      "components": {
-        "scouting": 12,
-        "performance": 16.5,
-        "ageLevel": 4.2,
-        "sentiment": 10.4,
-        "movement": 4,
-        "risk": 5
-      },
-      "mediaMentions": 1,
-      "reasons": [
-        "1 recent media mention"
-      ]
-    },
-    {
       "playerId": "d27bdf7d-9b27-4db9-9e78-241a16c2c762",
       "player": "Chuck King",
       "position": "P",
@@ -918,8 +895,8 @@
       "level": "AAA",
       "score": 51.8,
       "previousRank": 38,
-      "rank": 38,
-      "change": 0,
+      "rank": 37,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.3,
@@ -934,6 +911,27 @@
         "Promoted to AAA",
         "Advanced to AAA"
       ]
+    },
+    {
+      "playerId": "c16c7468-fda9-463b-9fbe-e846f5e1c41e",
+      "player": "Jonathan Hogart",
+      "position": "OF",
+      "affiliate": "Clearwater Threshers",
+      "level": "A",
+      "score": 51.7,
+      "previousRank": 37,
+      "rank": 38,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 16.5,
+        "ageLevel": 4.2,
+        "sentiment": 10,
+        "movement": 4,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": []
     },
     {
       "playerId": "2da80f7a-4e55-4897-a922-6dd69968a16d",
@@ -984,6 +982,31 @@
       ]
     },
     {
+      "playerId": "abb820d6-d295-4677-8faa-6f11f95879b6",
+      "player": "Raider Tello",
+      "position": "INF",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 51.2,
+      "previousRank": 45,
+      "rank": 41,
+      "change": 4,
+      "components": {
+        "scouting": 12,
+        "performance": 11,
+        "ageLevel": 6.4,
+        "sentiment": 10.2,
+        "movement": 6.6,
+        "risk": 5
+      },
+      "mediaMentions": 1,
+      "reasons": [
+        "1 recent media mention",
+        "Promoted to AA",
+        "Advanced to AA"
+      ]
+    },
+    {
       "playerId": "e0219b50-05cf-4507-9d5d-b25bb0130b1e",
       "player": "Griff McGarry",
       "position": "P",
@@ -991,8 +1014,8 @@
       "level": "AAA",
       "score": 51.1,
       "previousRank": 41,
-      "rank": 41,
-      "change": 0,
+      "rank": 42,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1015,8 +1038,8 @@
       "level": "A+",
       "score": 51.1,
       "previousRank": 42,
-      "rank": 42,
-      "change": 0,
+      "rank": 43,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 14.1,
@@ -1038,8 +1061,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 43,
-      "rank": 43,
-      "change": 0,
+      "rank": 44,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1061,8 +1084,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 44,
-      "rank": 44,
-      "change": 0,
+      "rank": 45,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1074,30 +1097,6 @@
       "mediaMentions": 0,
       "reasons": [
         "Advanced to AAA"
-      ]
-    },
-    {
-      "playerId": "abb820d6-d295-4677-8faa-6f11f95879b6",
-      "player": "Raider Tello",
-      "position": "INF",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 51,
-      "previousRank": 45,
-      "rank": 45,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 11,
-        "ageLevel": 6.4,
-        "sentiment": 10,
-        "movement": 6.6,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to AA",
-        "Advanced to AA"
       ]
     },
     {
@@ -1553,9 +1552,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 48.7,
-      "previousRank": 66,
+      "previousRank": 65,
       "rank": 65,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 10.5,
@@ -1578,9 +1577,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 48.6,
-      "previousRank": 65,
+      "previousRank": 66,
       "rank": 66,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 11.2,
