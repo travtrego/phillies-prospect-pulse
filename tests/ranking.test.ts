@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { consensusScore, evaluateRanking, rankCorrelation, RANKING_MODEL_VERSION } from '../lib/ranking/model';
 import { enrichRankings, rankRecords, type RankingSourceRecord } from '../lib/ranking/intelligence';
+import rankingsData from '../data/rankings.json';
 
 const base=(player:string,playerId:string,overrides:Partial<RankingSourceRecord>={}):RankingSourceRecord=>({
   playerId,player,position:'SS',affiliate:'Reading Fightin Phils',level:'AA',score:50,previousRank:null,rank:1,change:0,mediaMentions:0,reasons:[],components:{scouting:15,performance:12.5,ageLevel:5,sentiment:10,movement:5,risk:2.5},...overrides
@@ -91,4 +92,9 @@ test('unavailable defensive and pitch-quality data are not fabricated from posit
 test('published v4 scores are not merely legacy metadata',()=>{
   const records=enrichRankings();
   assert.ok(records.some(record=>record.score!==record.legacyScore||record.rank!==record.legacyRank));
+});
+
+test('the published prospect board never ranks a player whose level is MLB',()=>{
+  const mlbRecords=(rankingsData.records as {player:string;level:string|null}[]).filter(record=>record.level==='MLB');
+  assert.deepEqual(mlbRecords,[],`Found MLB-level players still on the prospect board: ${mlbRecords.map(r=>r.player).join(', ')}`);
 });
