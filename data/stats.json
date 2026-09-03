@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T11:14:52.141Z",
+  "updatedAt": "2026-09-03T14:36:22.302Z",
   "season": 2026,
   "rosterType": "active (MLB) + fullRoster (affiliates)",
   "records": [
@@ -2880,7 +2880,7 @@
       "bats": "R",
       "throws": "R",
       "jerseyNumber": null,
-      "active": false,
+      "active": true,
       "mlbDebutDate": "2022-04-12",
       "draftYear": 2018,
       "strikeZoneTop": 3.433,
