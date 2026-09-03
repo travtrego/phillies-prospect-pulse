@@ -180,7 +180,12 @@ const news = await readJson(NEWS, { articles: [] });
 const injuries = await readJson(INJURIES, { records: [] });
 const promotions = await readJson(PROMOTIONS, { records: [] });
 const statsData = await readJson(STATS, { records: [] });
-const players = await loadPlayers(statsData.records || []);
+// current_level is deliberately overwritten in loadPlayers() with the fresher stats.json
+// value (Supabase's own snapshot lags same-day promotions), which means a player can end up
+// with level 'MLB' here even though the initial Supabase query filtered on minor-league
+// levels. Re-exclude here so a call-up drops off the prospect board immediately instead of
+// staying ranked until Supabase's own roster snapshot catches up.
+const players = (await loadPlayers(statsData.records || [])).filter(player => player.current_level !== 'MLB');
 const priorById = new Map((previous.records || []).map(item => [String(item.playerId), item]));
 
 let records = players.map(player => {
