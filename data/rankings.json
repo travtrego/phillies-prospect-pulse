@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T14:23:34.932Z",
+  "updatedAt": "2026-09-04T16:22:22.781Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -28,10 +28,10 @@
         "movement": 5.4,
         "risk": 5
       },
-      "mediaMentions": 4,
+      "mediaMentions": 2,
       "reasons": [
         "MLB Pipeline rank #2",
-        "4 recent media mentions",
+        "2 recent media mentions",
         "Promoted to AA",
         "Advanced to AA"
       ]
@@ -54,10 +54,10 @@
         "movement": 4,
         "risk": 2.5
       },
-      "mediaMentions": 14,
+      "mediaMentions": 15,
       "reasons": [
         "MLB Pipeline rank #1",
-        "14 recent media mentions",
+        "15 recent media mentions",
         "Strong positive prospect coverage",
         "Material negative recent coverage"
       ]
@@ -68,7 +68,7 @@
       "position": "RHP",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 68.3,
+      "score": 68,
       "previousRank": 3,
       "rank": 3,
       "change": 0,
@@ -76,14 +76,13 @@
         "scouting": 21.6,
         "performance": 16.3,
         "ageLevel": 6.4,
-        "sentiment": 10.3,
+        "sentiment": 10,
         "movement": 8.7,
         "risk": 5
       },
-      "mediaMentions": 1,
+      "mediaMentions": 0,
       "reasons": [
         "MLB Pipeline rank #14",
-        "1 recent media mention",
         "Promoted to AA",
         "Advanced to AA"
       ]
@@ -280,10 +279,10 @@
         "movement": 4,
         "risk": 5
       },
-      "mediaMentions": 4,
+      "mediaMentions": 3,
       "reasons": [
         "MLB Pipeline rank #5",
-        "4 recent media mentions",
+        "3 recent media mentions",
         "Promoted to AA",
         "Advanced to AA"
       ]
@@ -369,7 +368,7 @@
       "position": "SS",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 58.8,
+      "score": 58.7,
       "previousRank": 15,
       "rank": 15,
       "change": 0,
@@ -377,7 +376,7 @@
         "scouting": 12.3,
         "performance": 20.1,
         "ageLevel": 6.4,
-        "sentiment": 10.3,
+        "sentiment": 10.2,
         "movement": 4.7,
         "risk": 5
       },
@@ -390,15 +389,41 @@
       ]
     },
     {
+      "playerId": "ed4dbc30-ab6a-4976-9cbc-b057894e134f",
+      "player": "Mavis Graves",
+      "position": "LHP",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 58.7,
+      "previousRank": 17,
+      "rank": 16,
+      "change": 1,
+      "components": {
+        "scouting": 13.7,
+        "performance": 14.2,
+        "ageLevel": 6.4,
+        "sentiment": 11.9,
+        "movement": 7.5,
+        "risk": 5
+      },
+      "mediaMentions": 1,
+      "reasons": [
+        "MLB Pipeline rank #25",
+        "1 recent media mention",
+        "Positive recent coverage",
+        "Promoted to AA"
+      ]
+    },
+    {
       "playerId": "94676efc-cb38-4956-90de-921758f475b0",
       "player": "Keegan Batka",
       "position": "P",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 57.5,
-      "previousRank": 17,
-      "rank": 16,
-      "change": 1,
+      "previousRank": 16,
+      "rank": 17,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 19.9,
@@ -411,31 +436,6 @@
       "reasons": [
         "Strong current-season performance",
         "Promoted to High-A"
-      ]
-    },
-    {
-      "playerId": "ed4dbc30-ab6a-4976-9cbc-b057894e134f",
-      "player": "Mavis Graves",
-      "position": "LHP",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 56.8,
-      "previousRank": 16,
-      "rank": 17,
-      "change": -1,
-      "components": {
-        "scouting": 13.7,
-        "performance": 14.2,
-        "ageLevel": 6.4,
-        "sentiment": 10,
-        "movement": 7.5,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "MLB Pipeline rank #25",
-        "Promoted to AA",
-        "Advanced to AA"
       ]
     },
     {
@@ -705,9 +705,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 52.2,
-      "previousRank": 30,
+      "previousRank": 29,
       "rank": 29,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 14.8,
@@ -728,9 +728,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 52.2,
-      "previousRank": 31,
+      "previousRank": 30,
       "rank": 30,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 13.7,
@@ -751,9 +751,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 52.2,
-      "previousRank": 29,
+      "previousRank": 31,
       "rank": 31,
-      "change": -2,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 11.4,
@@ -1471,15 +1471,40 @@
       ]
     },
     {
+      "playerId": "36c4ee1b-b7fc-4264-965f-85547f960fa8",
+      "player": "Raylin Heredia",
+      "position": "OF",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 48.7,
+      "previousRank": 63,
+      "rank": 62,
+      "change": 1,
+      "components": {
+        "scouting": 12,
+        "performance": 10.5,
+        "ageLevel": 6.4,
+        "sentiment": 10.1,
+        "movement": 4.7,
+        "risk": 5
+      },
+      "mediaMentions": 1,
+      "reasons": [
+        "1 recent media mention",
+        "Promoted to AA",
+        "Advanced to AA"
+      ]
+    },
+    {
       "playerId": "b2595b1b-7ca3-4c4e-83b8-1b5cb7a78026",
       "player": "Braydon Tucker",
       "position": "P",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 48.6,
-      "previousRank": 63,
-      "rank": 62,
-      "change": 1,
+      "previousRank": 62,
+      "rank": 63,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 11.2,
@@ -1490,30 +1515,6 @@
       },
       "mediaMentions": 0,
       "reasons": [
-        "Advanced to AA"
-      ]
-    },
-    {
-      "playerId": "36c4ee1b-b7fc-4264-965f-85547f960fa8",
-      "player": "Raylin Heredia",
-      "position": "OF",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 48.6,
-      "previousRank": 62,
-      "rank": 63,
-      "change": -1,
-      "components": {
-        "scouting": 12,
-        "performance": 10.5,
-        "ageLevel": 6.4,
-        "sentiment": 10,
-        "movement": 4.7,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to AA",
         "Advanced to AA"
       ]
     },
@@ -2104,9 +2105,8 @@
         "movement": 4.9,
         "risk": 5
       },
-      "mediaMentions": 2,
+      "mediaMentions": 0,
       "reasons": [
-        "2 recent media mentions",
         "Promoted to AAA",
         "Advanced to AA"
       ]
