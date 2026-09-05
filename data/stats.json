@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T15:14:12.005Z",
+  "updatedAt": "2026-09-05T20:20:49.485Z",
   "season": 2026,
   "rosterType": "active (MLB) + fullRoster (affiliates)",
   "records": [
@@ -274,7 +274,7 @@
       "weight": 245,
       "bats": "L",
       "throws": "R",
-      "jerseyNumber": "24",
+      "jerseyNumber": null,
       "active": true,
       "mlbDebutDate": null,
       "draftYear": 2026,
@@ -442,7 +442,7 @@
       "weight": 205,
       "bats": "R",
       "throws": "R",
-      "jerseyNumber": "21",
+      "jerseyNumber": null,
       "active": true,
       "mlbDebutDate": null,
       "draftYear": null,
@@ -1044,7 +1044,7 @@
       "weight": 200,
       "bats": "R",
       "throws": "R",
-      "jerseyNumber": "21",
+      "jerseyNumber": null,
       "active": true,
       "mlbDebutDate": null,
       "draftYear": 2025,
@@ -1253,7 +1253,7 @@
       "weight": 195,
       "bats": "L",
       "throws": "R",
-      "jerseyNumber": "17",
+      "jerseyNumber": null,
       "active": true,
       "mlbDebutDate": null,
       "draftYear": 2026,
@@ -5185,7 +5185,7 @@
       "weight": 205,
       "bats": "R",
       "throws": "R",
-      "jerseyNumber": null,
+      "jerseyNumber": "12",
       "active": true,
       "mlbDebutDate": null,
       "draftYear": 2023,
@@ -5259,7 +5259,7 @@
       "player": "Alex Binelas",
       "position": "1B",
       "positionType": "Infielder",
-      "status": "Active",
+      "status": "Injured 7-Day",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "birthDate": "2000-05-26",
@@ -9455,6 +9455,12 @@
       "playerId": 656627,
       "player": "Mark Kolozsvary",
       "message": "Player appeared on more than one active affiliate roster; retained Lehigh Valley IronPigs and ignored Reading Fightin Phils."
+    },
+    {
+      "stage": "duplicate-active-roster",
+      "playerId": 805795,
+      "player": "Aidan Miller",
+      "message": "Player appeared on more than one active affiliate roster; retained Lehigh Valley IronPigs and ignored Clearwater Threshers."
     },
     {
       "stage": "duplicate-active-roster",
