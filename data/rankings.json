@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T14:34:28.296Z",
+  "updatedAt": "2026-09-08T16:38:52.355Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -16,7 +16,7 @@
       "position": "RHP",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 73,
+      "score": 72.9,
       "previousRank": 1,
       "rank": 1,
       "change": 0,
@@ -24,14 +24,14 @@
         "scouting": 30,
         "performance": 15.4,
         "ageLevel": 7.2,
-        "sentiment": 10.1,
+        "sentiment": 10,
         "movement": 5.3,
         "risk": 5
       },
-      "mediaMentions": 3,
+      "mediaMentions": 2,
       "reasons": [
         "MLB Pipeline rank #2",
-        "3 recent media mentions",
+        "2 recent media mentions",
         "Promoted to AA",
         "Advanced to AA"
       ]
@@ -42,7 +42,7 @@
       "position": "SS",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 70,
+      "score": 69.8,
       "previousRank": 2,
       "rank": 2,
       "change": 0,
@@ -50,14 +50,14 @@
         "scouting": 30,
         "performance": 12.5,
         "ageLevel": 9.3,
-        "sentiment": 11.7,
+        "sentiment": 11.5,
         "movement": 4,
         "risk": 2.5
       },
-      "mediaMentions": 19,
+      "mediaMentions": 18,
       "reasons": [
         "MLB Pipeline rank #1",
-        "19 recent media mentions",
+        "18 recent media mentions",
         "Strong positive prospect coverage",
         "Material negative recent coverage"
       ]
@@ -484,31 +484,6 @@
       ]
     },
     {
-      "playerId": "9e995667-14c4-43a9-860b-a6af2636e47b",
-      "player": "Christian Cairo",
-      "position": "INF",
-      "affiliate": "Lehigh Valley IronPigs",
-      "level": "AAA",
-      "score": 54.5,
-      "previousRank": 20,
-      "rank": 20,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 14,
-        "ageLevel": 7.5,
-        "sentiment": 11.4,
-        "movement": 4.6,
-        "risk": 5
-      },
-      "mediaMentions": 1,
-      "reasons": [
-        "1 recent media mention",
-        "Promoted to MLB",
-        "Advanced to AAA"
-      ]
-    },
-    {
       "playerId": "c22a13e8-a828-417b-98e5-309e7789ebd2",
       "player": "Keaton Anthony",
       "position": "1B",
@@ -516,8 +491,8 @@
       "level": "AAA",
       "score": 54.5,
       "previousRank": 21,
-      "rank": 21,
-      "change": 0,
+      "rank": 20,
+      "change": 1,
       "components": {
         "scouting": 11.6,
         "performance": 16.4,
@@ -540,8 +515,8 @@
       "level": "AA",
       "score": 54.3,
       "previousRank": 22,
-      "rank": 22,
-      "change": 0,
+      "rank": 21,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 13.1,
@@ -564,8 +539,8 @@
       "level": "AAA",
       "score": 54.3,
       "previousRank": 23,
-      "rank": 23,
-      "change": 0,
+      "rank": 22,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 15.2,
@@ -588,8 +563,8 @@
       "level": "A",
       "score": 54.1,
       "previousRank": 24,
-      "rank": 24,
-      "change": 0,
+      "rank": 23,
+      "change": 1,
       "components": {
         "scouting": 20.9,
         "performance": 9.3,
@@ -602,6 +577,31 @@
       "reasons": [
         "MLB Pipeline rank #15",
         "Promoted to Single-A"
+      ]
+    },
+    {
+      "playerId": "9e995667-14c4-43a9-860b-a6af2636e47b",
+      "player": "Christian Cairo",
+      "position": "INF",
+      "affiliate": "Lehigh Valley IronPigs",
+      "level": "AAA",
+      "score": 53.9,
+      "previousRank": 20,
+      "rank": 24,
+      "change": -4,
+      "components": {
+        "scouting": 12,
+        "performance": 14,
+        "ageLevel": 7.5,
+        "sentiment": 10.8,
+        "movement": 4.6,
+        "risk": 5
+      },
+      "mediaMentions": 1,
+      "reasons": [
+        "1 recent media mention",
+        "Promoted to MLB",
+        "Advanced to AAA"
       ]
     },
     {
@@ -1375,6 +1375,30 @@
       ]
     },
     {
+      "playerId": "b2595b1b-7ca3-4c4e-83b8-1b5cb7a78026",
+      "player": "Braydon Tucker",
+      "position": "P",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 49,
+      "previousRank": 61,
+      "rank": 58,
+      "change": 3,
+      "components": {
+        "scouting": 12,
+        "performance": 11.4,
+        "ageLevel": 6.4,
+        "sentiment": 10.2,
+        "movement": 4,
+        "risk": 5
+      },
+      "mediaMentions": 1,
+      "reasons": [
+        "1 recent media mention",
+        "Advanced to AA"
+      ]
+    },
+    {
       "playerId": "ae34149a-c1e4-4d6c-b7bf-2938a99f8dbb",
       "player": "Luke Davis",
       "position": "C",
@@ -1382,8 +1406,8 @@
       "level": "A+",
       "score": 49,
       "previousRank": 58,
-      "rank": 58,
-      "change": 0,
+      "rank": 59,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12,
@@ -1403,15 +1427,15 @@
       "position": "SS",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 49,
+      "score": 48.9,
       "previousRank": 59,
-      "rank": 59,
-      "change": 0,
+      "rank": 60,
+      "change": -1,
       "components": {
         "scouting": 14.4,
         "performance": 11.2,
         "ageLevel": 4.2,
-        "sentiment": 10.2,
+        "sentiment": 10.1,
         "movement": 4,
         "risk": 5
       },
@@ -1429,8 +1453,8 @@
       "level": "AA",
       "score": 48.9,
       "previousRank": 60,
-      "rank": 60,
-      "change": 0,
+      "rank": 61,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 14,
@@ -1443,29 +1467,6 @@
       "reasons": [
         "1 recent media mention",
         "Current injury lowers availability",
-        "Advanced to AA"
-      ]
-    },
-    {
-      "playerId": "b2595b1b-7ca3-4c4e-83b8-1b5cb7a78026",
-      "player": "Braydon Tucker",
-      "position": "P",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 48.8,
-      "previousRank": 61,
-      "rank": 61,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 11.4,
-        "ageLevel": 6.4,
-        "sentiment": 10,
-        "movement": 4,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
         "Advanced to AA"
       ]
     },
