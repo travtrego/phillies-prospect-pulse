@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T11:19:32.118Z",
+  "updatedAt": "2026-09-08T14:34:28.296Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -28,10 +28,10 @@
         "movement": 5.3,
         "risk": 5
       },
-      "mediaMentions": 4,
+      "mediaMentions": 3,
       "reasons": [
         "MLB Pipeline rank #2",
-        "4 recent media mentions",
+        "3 recent media mentions",
         "Promoted to AA",
         "Advanced to AA"
       ]
@@ -42,7 +42,7 @@
       "position": "SS",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 69.9,
+      "score": 70,
       "previousRank": 2,
       "rank": 2,
       "change": 0,
@@ -50,7 +50,7 @@
         "scouting": 30,
         "performance": 12.5,
         "ageLevel": 9.3,
-        "sentiment": 11.6,
+        "sentiment": 11.7,
         "movement": 4,
         "risk": 2.5
       },
@@ -342,7 +342,7 @@
       "position": "SS",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 59.3,
+      "score": 59.1,
       "previousRank": 14,
       "rank": 14,
       "change": 0,
@@ -350,15 +350,15 @@
         "scouting": 12.3,
         "performance": 20.5,
         "ageLevel": 6.4,
-        "sentiment": 10.4,
+        "sentiment": 10.2,
         "movement": 4.7,
         "risk": 5
       },
-      "mediaMentions": 3,
+      "mediaMentions": 2,
       "reasons": [
         "Strong current-season performance",
         "MLB Pipeline rank #27",
-        "3 recent media mentions",
+        "2 recent media mentions",
         "Promoted to AA"
       ]
     },
@@ -368,7 +368,7 @@
       "position": "INF",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 58,
+      "score": 57.9,
       "previousRank": 15,
       "rank": 15,
       "change": 0,
@@ -377,7 +377,7 @@
         "performance": 17.4,
         "ageLevel": 7.5,
         "sentiment": 9.2,
-        "movement": 9.4,
+        "movement": 9.3,
         "risk": 2.5
       },
       "mediaMentions": 1,
@@ -490,9 +490,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 54.5,
-      "previousRank": 21,
+      "previousRank": 20,
       "rank": 20,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 14,
@@ -515,9 +515,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 54.5,
-      "previousRank": 22,
+      "previousRank": 21,
       "rank": 21,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 11.6,
         "performance": 16.4,
@@ -539,9 +539,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 54.3,
-      "previousRank": 20,
+      "previousRank": 22,
       "rank": 22,
-      "change": -2,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 13.1,
@@ -842,9 +842,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 51.3,
-      "previousRank": 36,
+      "previousRank": 35,
       "rank": 35,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 14,
@@ -865,9 +865,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 51.3,
-      "previousRank": 35,
+      "previousRank": 36,
       "rank": 36,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 11.9,
@@ -2114,7 +2114,7 @@
       "position": "P",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 42.8,
+      "score": 42.9,
       "previousRank": 90,
       "rank": 90,
       "change": 0,
@@ -2122,13 +2122,13 @@
         "scouting": 12,
         "performance": 6.5,
         "ageLevel": 5.3,
-        "sentiment": 10,
+        "sentiment": 10.1,
         "movement": 4,
         "risk": 5
       },
-      "mediaMentions": 1,
+      "mediaMentions": 2,
       "reasons": [
-        "1 recent media mention",
+        "2 recent media mentions",
         "Promoted to AA"
       ]
     },
