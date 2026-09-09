@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T14:38:15.433Z",
+  "updatedAt": "2026-09-09T16:39:12.984Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -54,10 +54,10 @@
         "movement": 4,
         "risk": 2.5
       },
-      "mediaMentions": 27,
+      "mediaMentions": 26,
       "reasons": [
         "MLB Pipeline rank #1",
-        "27 recent media mentions",
+        "26 recent media mentions",
         "Strong positive prospect coverage",
         "Material negative recent coverage"
       ]
@@ -94,7 +94,7 @@
       "position": "RHP",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 67.1,
+      "score": 67.2,
       "previousRank": 4,
       "rank": 4,
       "change": 0,
@@ -102,7 +102,7 @@
         "scouting": 21.6,
         "performance": 15.6,
         "ageLevel": 6.4,
-        "sentiment": 10.1,
+        "sentiment": 10.2,
         "movement": 8.4,
         "risk": 5
       },
@@ -254,10 +254,10 @@
         "movement": 4,
         "risk": 5
       },
-      "mediaMentions": 2,
+      "mediaMentions": 3,
       "reasons": [
         "MLB Pipeline rank #5",
-        "2 recent media mentions",
+        "3 recent media mentions",
         "Advanced to AA"
       ]
     },
@@ -340,7 +340,7 @@
       "position": "SS",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 59.2,
+      "score": 59.4,
       "previousRank": 14,
       "rank": 14,
       "change": 0,
@@ -348,15 +348,15 @@
         "scouting": 12.3,
         "performance": 20.6,
         "ageLevel": 6.4,
-        "sentiment": 10.2,
+        "sentiment": 10.4,
         "movement": 4.7,
         "risk": 5
       },
-      "mediaMentions": 3,
+      "mediaMentions": 4,
       "reasons": [
         "Strong current-season performance",
         "MLB Pipeline rank #27",
-        "3 recent media mentions",
+        "4 recent media mentions",
         "Promoted to AA"
       ]
     },
@@ -584,15 +584,15 @@
       "position": "INF",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 54.1,
-      "previousRank": 25,
+      "score": 54.2,
+      "previousRank": 24,
       "rank": 24,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 13.9,
         "ageLevel": 5.3,
-        "sentiment": 10.2,
+        "sentiment": 10.3,
         "movement": 7.7,
         "risk": 5
       },
@@ -609,9 +609,9 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 54.1,
-      "previousRank": 24,
+      "previousRank": 25,
       "rank": 25,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 20.9,
         "performance": 9.3,
@@ -887,7 +887,7 @@
       "position": "P",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 51.1,
+      "score": 51.2,
       "previousRank": 37,
       "rank": 37,
       "change": 0,
@@ -895,7 +895,7 @@
         "scouting": 12,
         "performance": 15,
         "ageLevel": 4.2,
-        "sentiment": 10.2,
+        "sentiment": 10.3,
         "movement": 4.7,
         "risk": 5
       },
@@ -1376,30 +1376,6 @@
       ]
     },
     {
-      "playerId": "b2595b1b-7ca3-4c4e-83b8-1b5cb7a78026",
-      "player": "Braydon Tucker",
-      "position": "P",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 49,
-      "previousRank": 58,
-      "rank": 58,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 11.4,
-        "ageLevel": 6.4,
-        "sentiment": 10.2,
-        "movement": 4,
-        "risk": 5
-      },
-      "mediaMentions": 1,
-      "reasons": [
-        "1 recent media mention",
-        "Advanced to AA"
-      ]
-    },
-    {
       "playerId": "ae34149a-c1e4-4d6c-b7bf-2938a99f8dbb",
       "player": "Luke Davis",
       "position": "C",
@@ -1407,8 +1383,8 @@
       "level": "A+",
       "score": 49,
       "previousRank": 59,
-      "rank": 59,
-      "change": 0,
+      "rank": 58,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12,
@@ -1430,8 +1406,8 @@
       "level": "A",
       "score": 49,
       "previousRank": 60,
-      "rank": 60,
-      "change": 0,
+      "rank": 59,
+      "change": 1,
       "components": {
         "scouting": 14.4,
         "performance": 11.2,
@@ -1444,6 +1420,30 @@
       "reasons": [
         "MLB Pipeline rank #24",
         "2 recent media mentions"
+      ]
+    },
+    {
+      "playerId": "b2595b1b-7ca3-4c4e-83b8-1b5cb7a78026",
+      "player": "Braydon Tucker",
+      "position": "P",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 48.9,
+      "previousRank": 58,
+      "rank": 60,
+      "change": -2,
+      "components": {
+        "scouting": 12,
+        "performance": 11.4,
+        "ageLevel": 6.4,
+        "sentiment": 10.1,
+        "movement": 4,
+        "risk": 5
+      },
+      "mediaMentions": 1,
+      "reasons": [
+        "1 recent media mention",
+        "Advanced to AA"
       ]
     },
     {
