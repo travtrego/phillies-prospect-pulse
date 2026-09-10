@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T16:24:52.850Z",
+  "updatedAt": "2026-09-10T20:52:57.425Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -42,7 +42,7 @@
       "position": "SS",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 70.8,
+      "score": 70.9,
       "previousRank": 2,
       "rank": 2,
       "change": 0,
@@ -50,7 +50,7 @@
         "scouting": 30,
         "performance": 12.5,
         "ageLevel": 8.2,
-        "sentiment": 13.6,
+        "sentiment": 13.7,
         "movement": 4,
         "risk": 2.5
       },
@@ -317,7 +317,7 @@
       "position": "OF",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 59.9,
+      "score": 60.2,
       "previousRank": 13,
       "rank": 13,
       "change": 0,
@@ -325,13 +325,14 @@
         "scouting": 23.8,
         "performance": 8.5,
         "ageLevel": 5.3,
-        "sentiment": 10,
+        "sentiment": 10.3,
         "movement": 7.3,
         "risk": 5
       },
-      "mediaMentions": 0,
+      "mediaMentions": 1,
       "reasons": [
         "MLB Pipeline rank #11",
+        "1 recent media mention",
         "Promoted to High-A"
       ]
     },
@@ -586,9 +587,9 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 54.1,
-      "previousRank": 25,
+      "previousRank": 24,
       "rank": 24,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 20.9,
         "performance": 9.3,
@@ -610,9 +611,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 53.8,
-      "previousRank": 24,
+      "previousRank": 25,
       "rank": 25,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 13.9,
@@ -2380,9 +2381,8 @@
         "movement": 5.4,
         "risk": 5
       },
-      "mediaMentions": 1,
+      "mediaMentions": 0,
       "reasons": [
-        "1 recent media mention",
         "Promoted to High-A"
       ]
     }
