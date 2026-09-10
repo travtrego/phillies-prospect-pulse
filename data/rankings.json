@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T14:28:42.374Z",
+  "updatedAt": "2026-09-10T16:24:52.850Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -28,10 +28,10 @@
         "movement": 5.3,
         "risk": 5
       },
-      "mediaMentions": 3,
+      "mediaMentions": 2,
       "reasons": [
         "MLB Pipeline rank #2",
-        "3 recent media mentions",
+        "2 recent media mentions",
         "Promoted to AA",
         "Advanced to AA"
       ]
@@ -54,10 +54,10 @@
         "movement": 4,
         "risk": 2.5
       },
-      "mediaMentions": 23,
+      "mediaMentions": 24,
       "reasons": [
         "MLB Pipeline rank #1",
-        "23 recent media mentions",
+        "24 recent media mentions",
         "Strong positive prospect coverage",
         "Material negative recent coverage"
       ]
@@ -489,9 +489,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 54.4,
-      "previousRank": 26,
+      "previousRank": 20,
       "rank": 20,
-      "change": 6,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 14,
@@ -514,9 +514,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 54.3,
-      "previousRank": 20,
+      "previousRank": 21,
       "rank": 21,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 15.2,
@@ -538,9 +538,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 54.2,
-      "previousRank": 21,
+      "previousRank": 22,
       "rank": 22,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 11.6,
         "performance": 16.1,
@@ -562,9 +562,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 54.2,
-      "previousRank": 22,
+      "previousRank": 23,
       "rank": 23,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 13.1,
@@ -580,39 +580,15 @@
       ]
     },
     {
-      "playerId": "117ca4fe-1ad5-43ff-9f1f-aec72f0d1bb6",
-      "player": "Robert Phelps",
-      "position": "INF",
-      "affiliate": "Jersey Shore BlueClaws",
-      "level": "A+",
-      "score": 54.1,
-      "previousRank": 24,
-      "rank": 24,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 13.9,
-        "ageLevel": 5.3,
-        "sentiment": 10.3,
-        "movement": 7.6,
-        "risk": 5
-      },
-      "mediaMentions": 2,
-      "reasons": [
-        "2 recent media mentions",
-        "Promoted to High-A"
-      ]
-    },
-    {
       "playerId": "6491e98b-817a-4d4f-99e4-79fd6c0f10c1",
       "player": "Sean Youngerman",
       "position": "RHP",
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 54.1,
-      "previousRank": 23,
-      "rank": 25,
-      "change": -2,
+      "previousRank": 25,
+      "rank": 24,
+      "change": 1,
       "components": {
         "scouting": 20.9,
         "performance": 9.3,
@@ -628,15 +604,39 @@
       ]
     },
     {
+      "playerId": "117ca4fe-1ad5-43ff-9f1f-aec72f0d1bb6",
+      "player": "Robert Phelps",
+      "position": "INF",
+      "affiliate": "Jersey Shore BlueClaws",
+      "level": "A+",
+      "score": 53.8,
+      "previousRank": 24,
+      "rank": 25,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 13.9,
+        "ageLevel": 5.3,
+        "sentiment": 10,
+        "movement": 7.6,
+        "risk": 5
+      },
+      "mediaMentions": 1,
+      "reasons": [
+        "1 recent media mention",
+        "Promoted to High-A"
+      ]
+    },
+    {
       "playerId": "a36448bb-2136-412a-943f-51d18d7f95c6",
       "player": "Brandon Beckel",
       "position": "P",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 53.3,
-      "previousRank": 25,
+      "previousRank": 26,
       "rank": 26,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 13.1,
@@ -993,9 +993,8 @@
         "movement": 4,
         "risk": 5
       },
-      "mediaMentions": 1,
+      "mediaMentions": 0,
       "reasons": [
-        "1 recent media mention",
         "Advanced to AAA"
       ]
     },
@@ -1335,7 +1334,7 @@
       "position": "P",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 49.5,
+      "score": 49.4,
       "previousRank": 56,
       "rank": 56,
       "change": 0,
@@ -1344,7 +1343,7 @@
         "performance": 9,
         "ageLevel": 5.3,
         "sentiment": 10,
-        "movement": 8.2,
+        "movement": 8.1,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -2381,8 +2380,9 @@
         "movement": 5.4,
         "risk": 5
       },
-      "mediaMentions": 0,
+      "mediaMentions": 1,
       "reasons": [
+        "1 recent media mention",
         "Promoted to High-A"
       ]
     }
