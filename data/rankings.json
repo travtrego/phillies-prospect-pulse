@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T20:52:57.425Z",
+  "updatedAt": "2026-09-11T04:41:09.849Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -42,13 +42,13 @@
       "position": "SS",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 70.9,
+      "score": 69.9,
       "previousRank": 2,
       "rank": 2,
       "change": 0,
       "components": {
         "scouting": 30,
-        "performance": 12.5,
+        "performance": 11.5,
         "ageLevel": 8.2,
         "sentiment": 13.7,
         "movement": 4,
@@ -68,13 +68,13 @@
       "position": "OF",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 68.8,
+      "score": 68.5,
       "previousRank": 3,
       "rank": 3,
       "change": 0,
       "components": {
         "scouting": 27.4,
-        "performance": 13.1,
+        "performance": 12.8,
         "ageLevel": 7.5,
         "sentiment": 10,
         "movement": 5.8,
@@ -94,7 +94,7 @@
       "position": "RHP",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 67.2,
+      "score": 67.1,
       "previousRank": 4,
       "rank": 4,
       "change": 0,
@@ -103,7 +103,7 @@
         "performance": 15.6,
         "ageLevel": 6.4,
         "sentiment": 10.2,
-        "movement": 8.4,
+        "movement": 8.3,
         "risk": 5
       },
       "mediaMentions": 1,
@@ -115,6 +115,31 @@
       ]
     },
     {
+      "playerId": "4025d691-9f48-454e-9a06-6ac3911eed7a",
+      "player": "Carson DeMartini",
+      "position": "3B",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 65.5,
+      "previousRank": 6,
+      "rank": 5,
+      "change": 1,
+      "components": {
+        "scouting": 20.2,
+        "performance": 19.9,
+        "ageLevel": 6.4,
+        "sentiment": 10,
+        "movement": 4,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Strong current-season performance",
+        "MLB Pipeline rank #16",
+        "Advanced to AA"
+      ]
+    },
+    {
       "playerId": "a7942849-a3bc-483c-97f5-7c4654f0a2b9",
       "player": "Wen-Hui Pan",
       "position": "RHP",
@@ -122,8 +147,8 @@
       "level": "AA",
       "score": 65.1,
       "previousRank": 5,
-      "rank": 5,
-      "change": 0,
+      "rank": 6,
+      "change": -1,
       "components": {
         "scouting": 23.1,
         "performance": 14.8,
@@ -140,43 +165,18 @@
       ]
     },
     {
-      "playerId": "4025d691-9f48-454e-9a06-6ac3911eed7a",
-      "player": "Carson DeMartini",
-      "position": "3B",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 64.8,
-      "previousRank": 6,
-      "rank": 6,
-      "change": 0,
-      "components": {
-        "scouting": 20.2,
-        "performance": 19.2,
-        "ageLevel": 6.4,
-        "sentiment": 10,
-        "movement": 4,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Strong current-season performance",
-        "MLB Pipeline rank #16",
-        "Advanced to AA"
-      ]
-    },
-    {
       "playerId": "4c385b38-3891-46a2-869e-f7f73f3bb154",
       "player": "Aroon Escobar",
       "position": "2B",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 64.7,
+      "score": 64.9,
       "previousRank": 7,
       "rank": 7,
       "change": 0,
       "components": {
         "scouting": 28.8,
-        "performance": 10.7,
+        "performance": 10.9,
         "ageLevel": 6.2,
         "sentiment": 10,
         "movement": 4,
@@ -189,6 +189,31 @@
       ]
     },
     {
+      "playerId": "7a4408f1-d3cf-4b7c-9e20-c7ecf26f797d",
+      "player": "Dante Nori",
+      "position": "OF",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 64.3,
+      "previousRank": 9,
+      "rank": 8,
+      "change": 1,
+      "components": {
+        "scouting": 28.1,
+        "performance": 9.7,
+        "ageLevel": 7.2,
+        "sentiment": 10.3,
+        "movement": 4,
+        "risk": 5
+      },
+      "mediaMentions": 2,
+      "reasons": [
+        "MLB Pipeline rank #5",
+        "2 recent media mentions",
+        "Advanced to AA"
+      ]
+    },
+    {
       "playerId": "13315340-3eb4-4b12-a283-cc384919b692",
       "player": "Moisés Chace",
       "position": "RHP",
@@ -196,8 +221,8 @@
       "level": "AA",
       "score": 64,
       "previousRank": 8,
-      "rank": 8,
-      "change": 0,
+      "rank": 9,
+      "change": -1,
       "components": {
         "scouting": 26,
         "performance": 12.5,
@@ -210,31 +235,6 @@
       "reasons": [
         "MLB Pipeline rank #8",
         "Promoted to MLB",
-        "Advanced to AA"
-      ]
-    },
-    {
-      "playerId": "7a4408f1-d3cf-4b7c-9e20-c7ecf26f797d",
-      "player": "Dante Nori",
-      "position": "OF",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 63.9,
-      "previousRank": 9,
-      "rank": 9,
-      "change": 0,
-      "components": {
-        "scouting": 28.1,
-        "performance": 9.3,
-        "ageLevel": 7.2,
-        "sentiment": 10.3,
-        "movement": 4,
-        "risk": 5
-      },
-      "mediaMentions": 2,
-      "reasons": [
-        "MLB Pipeline rank #5",
-        "2 recent media mentions",
         "Advanced to AA"
       ]
     },
@@ -256,10 +256,9 @@
         "movement": 5.9,
         "risk": 5
       },
-      "mediaMentions": 1,
+      "mediaMentions": 0,
       "reasons": [
         "MLB Pipeline rank #10",
-        "1 recent media mention",
         "Promoted to Single-A"
       ]
     },
@@ -269,7 +268,7 @@
       "position": "LHP",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 62.5,
+      "score": 62.4,
       "previousRank": 11,
       "rank": 11,
       "change": 0,
@@ -278,7 +277,7 @@
         "performance": 8.2,
         "ageLevel": 5.3,
         "sentiment": 10,
-        "movement": 7.3,
+        "movement": 7.2,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -293,7 +292,7 @@
       "position": "C",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 60.3,
+      "score": 60.2,
       "previousRank": 12,
       "rank": 12,
       "change": 0,
@@ -302,7 +301,7 @@
         "performance": 15.4,
         "ageLevel": 5.3,
         "sentiment": 10,
-        "movement": 7.3,
+        "movement": 7.2,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -317,7 +316,7 @@
       "position": "OF",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 60.2,
+      "score": 59.8,
       "previousRank": 13,
       "rank": 13,
       "change": 0,
@@ -325,14 +324,13 @@
         "scouting": 23.8,
         "performance": 8.5,
         "ageLevel": 5.3,
-        "sentiment": 10.3,
-        "movement": 7.3,
+        "sentiment": 10,
+        "movement": 7.2,
         "risk": 5
       },
-      "mediaMentions": 1,
+      "mediaMentions": 0,
       "reasons": [
         "MLB Pipeline rank #11",
-        "1 recent media mention",
         "Promoted to High-A"
       ]
     },
@@ -342,13 +340,13 @@
       "position": "SS",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 59.5,
+      "score": 59.4,
       "previousRank": 14,
       "rank": 14,
       "change": 0,
       "components": {
         "scouting": 12.3,
-        "performance": 20.6,
+        "performance": 20.5,
         "ageLevel": 6.4,
         "sentiment": 10.5,
         "movement": 4.7,
@@ -394,7 +392,7 @@
       "position": "LHP",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 57,
+      "score": 56.9,
       "previousRank": 16,
       "rank": 16,
       "change": 0,
@@ -403,7 +401,7 @@
         "performance": 14.6,
         "ageLevel": 6.4,
         "sentiment": 10,
-        "movement": 7.3,
+        "movement": 7.2,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -419,7 +417,7 @@
       "position": "INF",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 55.8,
+      "score": 55.7,
       "previousRank": 17,
       "rank": 17,
       "change": 0,
@@ -428,7 +426,7 @@
         "performance": 16.2,
         "ageLevel": 5.3,
         "sentiment": 10,
-        "movement": 7.3,
+        "movement": 7.2,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -465,13 +463,13 @@
       "position": "C",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 55.3,
+      "score": 55.4,
       "previousRank": 19,
       "rank": 19,
       "change": 0,
       "components": {
         "scouting": 12,
-        "performance": 14.5,
+        "performance": 14.6,
         "ageLevel": 6.4,
         "sentiment": 10,
         "movement": 7.4,
@@ -484,27 +482,26 @@
       ]
     },
     {
-      "playerId": "9e995667-14c4-43a9-860b-a6af2636e47b",
-      "player": "Christian Cairo",
-      "position": "INF",
+      "playerId": "c22a13e8-a828-417b-98e5-309e7789ebd2",
+      "player": "Keaton Anthony",
+      "position": "1B",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 54.4,
-      "previousRank": 20,
+      "score": 54.7,
+      "previousRank": 22,
       "rank": 20,
-      "change": 0,
+      "change": 2,
       "components": {
-        "scouting": 12,
-        "performance": 14,
+        "scouting": 11.6,
+        "performance": 16.6,
         "ageLevel": 7.5,
-        "sentiment": 11.3,
-        "movement": 4.6,
+        "sentiment": 10,
+        "movement": 4,
         "risk": 5
       },
-      "mediaMentions": 1,
+      "mediaMentions": 0,
       "reasons": [
-        "1 recent media mention",
-        "Promoted to MLB",
+        "MLB Pipeline rank #28",
         "Advanced to AAA"
       ]
     },
@@ -533,26 +530,27 @@
       ]
     },
     {
-      "playerId": "c22a13e8-a828-417b-98e5-309e7789ebd2",
-      "player": "Keaton Anthony",
-      "position": "1B",
+      "playerId": "9e995667-14c4-43a9-860b-a6af2636e47b",
+      "player": "Christian Cairo",
+      "position": "INF",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 54.2,
-      "previousRank": 22,
+      "previousRank": 20,
       "rank": 22,
-      "change": 0,
+      "change": -2,
       "components": {
-        "scouting": 11.6,
-        "performance": 16.1,
+        "scouting": 12,
+        "performance": 13.8,
         "ageLevel": 7.5,
-        "sentiment": 10,
-        "movement": 4,
+        "sentiment": 11.3,
+        "movement": 4.6,
         "risk": 5
       },
-      "mediaMentions": 0,
+      "mediaMentions": 1,
       "reasons": [
-        "MLB Pipeline rank #28",
+        "1 recent media mention",
+        "Promoted to MLB",
         "Advanced to AAA"
       ]
     },
@@ -680,13 +678,13 @@
       "position": "INF",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 52.5,
+      "score": 52.2,
       "previousRank": 28,
       "rank": 28,
       "change": 0,
       "components": {
         "scouting": 12,
-        "performance": 14,
+        "performance": 13.7,
         "ageLevel": 7.5,
         "sentiment": 10,
         "movement": 4,
@@ -812,30 +810,6 @@
       ]
     },
     {
-      "playerId": "2da80f7a-4e55-4897-a922-6dd69968a16d",
-      "player": "Alan Rangel",
-      "position": "P",
-      "affiliate": "Lehigh Valley IronPigs",
-      "level": "AAA",
-      "score": 51.4,
-      "previousRank": 34,
-      "rank": 34,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 9,
-        "ageLevel": 7.5,
-        "sentiment": 10,
-        "movement": 7.9,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to MLB",
-        "Advanced to AAA"
-      ]
-    },
-    {
       "playerId": "d04e944a-e015-46b1-b32c-988723904e96",
       "player": "Camron Hill",
       "position": "P",
@@ -843,8 +817,8 @@
       "level": "A+",
       "score": 51.3,
       "previousRank": 35,
-      "rank": 35,
-      "change": 0,
+      "rank": 34,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 14,
@@ -866,8 +840,8 @@
       "level": "AAA",
       "score": 51.3,
       "previousRank": 36,
-      "rank": 36,
-      "change": 0,
+      "rank": 35,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 11.9,
@@ -890,8 +864,8 @@
       "level": "A",
       "score": 51.2,
       "previousRank": 37,
-      "rank": 37,
-      "change": 0,
+      "rank": 36,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 15,
@@ -914,8 +888,8 @@
       "level": "AAA",
       "score": 51.1,
       "previousRank": 38,
-      "rank": 38,
-      "change": 0,
+      "rank": 37,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -938,8 +912,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 39,
-      "rank": 39,
-      "change": 0,
+      "rank": 38,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -961,8 +935,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 40,
-      "rank": 40,
-      "change": 0,
+      "rank": 39,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -984,8 +958,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 41,
-      "rank": 41,
-      "change": 0,
+      "rank": 40,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1007,8 +981,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 42,
-      "rank": 42,
-      "change": 0,
+      "rank": 41,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1020,6 +994,30 @@
       "mediaMentions": 0,
       "reasons": [
         "Advanced to AAA"
+      ]
+    },
+    {
+      "playerId": "cefc8b59-47ed-46e9-820d-daba4f905d87",
+      "player": "Evan Gates",
+      "position": "P",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 50.8,
+      "previousRank": 44,
+      "rank": 42,
+      "change": 2,
+      "components": {
+        "scouting": 12,
+        "performance": 11.5,
+        "ageLevel": 6.4,
+        "sentiment": 10,
+        "movement": 5.9,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to AAA",
+        "Advanced to AA"
       ]
     },
     {
@@ -1047,27 +1045,27 @@
       ]
     },
     {
-      "playerId": "cefc8b59-47ed-46e9-820d-daba4f905d87",
-      "player": "Evan Gates",
+      "playerId": "2da80f7a-4e55-4897-a922-6dd69968a16d",
+      "player": "Alan Rangel",
       "position": "P",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 50.5,
-      "previousRank": 44,
+      "affiliate": "Lehigh Valley IronPigs",
+      "level": "AAA",
+      "score": 50.6,
+      "previousRank": 34,
       "rank": 44,
-      "change": 0,
+      "change": -10,
       "components": {
         "scouting": 12,
-        "performance": 11.2,
-        "ageLevel": 6.4,
+        "performance": 8.2,
+        "ageLevel": 7.5,
         "sentiment": 10,
-        "movement": 5.9,
+        "movement": 7.9,
         "risk": 5
       },
       "mediaMentions": 0,
       "reasons": [
-        "Promoted to AAA",
-        "Advanced to AA"
+        "Promoted to MLB",
+        "Advanced to AAA"
       ]
     },
     {
@@ -1076,7 +1074,7 @@
       "position": "C",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 50.2,
+      "score": 50.1,
       "previousRank": 45,
       "rank": 45,
       "change": 0,
@@ -1085,7 +1083,7 @@
         "performance": 12.5,
         "ageLevel": 6.4,
         "sentiment": 10,
-        "movement": 7.3,
+        "movement": 7.2,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -1358,13 +1356,13 @@
       "position": "P",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 49.4,
+      "score": 49.3,
       "previousRank": 57,
       "rank": 57,
       "change": 0,
       "components": {
         "scouting": 12,
-        "performance": 12,
+        "performance": 11.9,
         "ageLevel": 6.4,
         "sentiment": 10,
         "movement": 4,
@@ -1381,13 +1379,13 @@
       "position": "INF",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 49,
+      "score": 49.2,
       "previousRank": 58,
       "rank": 58,
       "change": 0,
       "components": {
         "scouting": 12,
-        "performance": 11.6,
+        "performance": 11.8,
         "ageLevel": 6.4,
         "sentiment": 10,
         "movement": 4,
@@ -1399,6 +1397,31 @@
       ]
     },
     {
+      "playerId": "2803d573-b2f4-40ce-87da-b070d0e04e5b",
+      "player": "Pedro León",
+      "position": "OF",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 49.1,
+      "previousRank": 64,
+      "rank": 59,
+      "change": 5,
+      "components": {
+        "scouting": 12,
+        "performance": 14.2,
+        "ageLevel": 6.4,
+        "sentiment": 10,
+        "movement": 4,
+        "risk": 2.5
+      },
+      "mediaMentions": 1,
+      "reasons": [
+        "1 recent media mention",
+        "Current injury lowers availability",
+        "Advanced to AA"
+      ]
+    },
+    {
       "playerId": "ae34149a-c1e4-4d6c-b7bf-2938a99f8dbb",
       "player": "Luke Davis",
       "position": "C",
@@ -1406,8 +1429,8 @@
       "level": "A+",
       "score": 49,
       "previousRank": 59,
-      "rank": 59,
-      "change": 0,
+      "rank": 60,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12,
@@ -1429,8 +1452,8 @@
       "level": "A",
       "score": 49,
       "previousRank": 60,
-      "rank": 60,
-      "change": 0,
+      "rank": 61,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1452,8 +1475,8 @@
       "level": "AA",
       "score": 48.9,
       "previousRank": 61,
-      "rank": 61,
-      "change": 0,
+      "rank": 62,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 11.4,
@@ -1476,8 +1499,8 @@
       "level": "A+",
       "score": 48.8,
       "previousRank": 62,
-      "rank": 62,
-      "change": 0,
+      "rank": 63,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1497,8 +1520,8 @@
       "level": "A",
       "score": 48.8,
       "previousRank": 63,
-      "rank": 63,
-      "change": 0,
+      "rank": 64,
+      "change": -1,
       "components": {
         "scouting": 14.4,
         "performance": 11.2,
@@ -1514,43 +1537,18 @@
       ]
     },
     {
-      "playerId": "2803d573-b2f4-40ce-87da-b070d0e04e5b",
-      "player": "Pedro León",
-      "position": "OF",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 48.8,
-      "previousRank": 64,
-      "rank": 64,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 13.9,
-        "ageLevel": 6.4,
-        "sentiment": 10,
-        "movement": 4,
-        "risk": 2.5
-      },
-      "mediaMentions": 1,
-      "reasons": [
-        "1 recent media mention",
-        "Current injury lowers availability",
-        "Advanced to AA"
-      ]
-    },
-    {
       "playerId": "36c4ee1b-b7fc-4264-965f-85547f960fa8",
       "player": "Raylin Heredia",
       "position": "OF",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 48.8,
+      "score": 48.7,
       "previousRank": 65,
       "rank": 65,
       "change": 0,
       "components": {
         "scouting": 12,
-        "performance": 10.7,
+        "performance": 10.6,
         "ageLevel": 6.4,
         "sentiment": 10,
         "movement": 4.7,
@@ -1845,7 +1843,7 @@
       "position": "C",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 45.8,
+      "score": 45.7,
       "previousRank": 78,
       "rank": 78,
       "change": 0,
@@ -1854,7 +1852,7 @@
         "performance": 4,
         "ageLevel": 7.5,
         "sentiment": 10,
-        "movement": 7.3,
+        "movement": 7.2,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -1984,13 +1982,13 @@
       "position": "P",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 44.5,
+      "score": 44.7,
       "previousRank": 84,
       "rank": 84,
       "change": 0,
       "components": {
         "scouting": 12,
-        "performance": 6.3,
+        "performance": 6.5,
         "ageLevel": 6.4,
         "sentiment": 10,
         "movement": 4.8,
@@ -2130,9 +2128,9 @@
         "movement": 4,
         "risk": 5
       },
-      "mediaMentions": 0,
+      "mediaMentions": 1,
       "reasons": [
-        "Promoted to AA"
+        "1 recent media mention"
       ]
     },
     {
