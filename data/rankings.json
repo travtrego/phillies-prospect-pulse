@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T14:27:57.225Z",
+  "updatedAt": "2026-09-11T16:29:12.374Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -28,10 +28,10 @@
         "movement": 5.3,
         "risk": 5
       },
-      "mediaMentions": 2,
+      "mediaMentions": 3,
       "reasons": [
         "MLB Pipeline rank #2",
-        "2 recent media mentions",
+        "3 recent media mentions",
         "Promoted to AA",
         "Advanced to AA"
       ]
@@ -42,7 +42,7 @@
       "position": "SS",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 69.6,
+      "score": 69.8,
       "previousRank": 2,
       "rank": 2,
       "change": 0,
@@ -50,7 +50,7 @@
         "scouting": 30,
         "performance": 11.5,
         "ageLevel": 8.2,
-        "sentiment": 13.4,
+        "sentiment": 13.6,
         "movement": 4,
         "risk": 2.5
       },
@@ -94,7 +94,7 @@
       "position": "RHP",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 67,
+      "score": 67.1,
       "previousRank": 4,
       "rank": 4,
       "change": 0,
@@ -102,7 +102,7 @@
         "scouting": 21.6,
         "performance": 15.6,
         "ageLevel": 6.4,
-        "sentiment": 10.1,
+        "sentiment": 10.2,
         "movement": 8.3,
         "risk": 5
       },
@@ -287,6 +287,31 @@
       ]
     },
     {
+      "playerId": "731551df-3c70-4c1f-9284-bfd823091735",
+      "player": "Griffin Burkholder",
+      "position": "OF",
+      "affiliate": "Jersey Shore BlueClaws",
+      "level": "A+",
+      "score": 60.3,
+      "previousRank": 13,
+      "rank": 12,
+      "change": 1,
+      "components": {
+        "scouting": 23.8,
+        "performance": 8.5,
+        "ageLevel": 5.3,
+        "sentiment": 10.5,
+        "movement": 7.2,
+        "risk": 5
+      },
+      "mediaMentions": 2,
+      "reasons": [
+        "MLB Pipeline rank #11",
+        "2 recent media mentions",
+        "Promoted to High-A"
+      ]
+    },
+    {
       "playerId": "95c3b2e4-284d-42ef-b8e6-274b348a7802",
       "player": "Alirio Ferrebus",
       "position": "C",
@@ -294,8 +319,8 @@
       "level": "A+",
       "score": 60.2,
       "previousRank": 12,
-      "rank": 12,
-      "change": 0,
+      "rank": 13,
+      "change": -1,
       "components": {
         "scouting": 17.3,
         "performance": 15.4,
@@ -311,37 +336,12 @@
       ]
     },
     {
-      "playerId": "731551df-3c70-4c1f-9284-bfd823091735",
-      "player": "Griffin Burkholder",
-      "position": "OF",
-      "affiliate": "Jersey Shore BlueClaws",
-      "level": "A+",
-      "score": 59.9,
-      "previousRank": 13,
-      "rank": 13,
-      "change": 0,
-      "components": {
-        "scouting": 23.8,
-        "performance": 8.5,
-        "ageLevel": 5.3,
-        "sentiment": 10.1,
-        "movement": 7.2,
-        "risk": 5
-      },
-      "mediaMentions": 1,
-      "reasons": [
-        "MLB Pipeline rank #11",
-        "1 recent media mention",
-        "Promoted to High-A"
-      ]
-    },
-    {
       "playerId": "5a9ca442-aa33-48e9-82f4-aacd5435bc0c",
       "player": "Bryan Rincon",
       "position": "SS",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 59.2,
+      "score": 59.4,
       "previousRank": 14,
       "rank": 14,
       "change": 0,
@@ -349,7 +349,7 @@
         "scouting": 12.3,
         "performance": 20.5,
         "ageLevel": 6.4,
-        "sentiment": 10.3,
+        "sentiment": 10.5,
         "movement": 4.7,
         "risk": 5
       },
@@ -561,9 +561,9 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 54.1,
-      "previousRank": 24,
+      "previousRank": 23,
       "rank": 23,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 20.9,
         "performance": 9.3,
@@ -585,9 +585,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 53.8,
-      "previousRank": 23,
+      "previousRank": 24,
       "rank": 24,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 13.9,
@@ -609,9 +609,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 53.2,
-      "previousRank": 26,
+      "previousRank": 25,
       "rank": 25,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 13.1,
@@ -632,9 +632,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 52.9,
-      "previousRank": 25,
+      "previousRank": 26,
       "rank": 26,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 13.8,
@@ -857,15 +857,39 @@
       ]
     },
     {
+      "playerId": "51fe5804-a957-4c79-af0a-08399b915c7d",
+      "player": "Brad Pacheco",
+      "position": "P",
+      "affiliate": "Clearwater Threshers",
+      "level": "A",
+      "score": 51.2,
+      "previousRank": 37,
+      "rank": 36,
+      "change": 1,
+      "components": {
+        "scouting": 12,
+        "performance": 15,
+        "ageLevel": 4.2,
+        "sentiment": 10.3,
+        "movement": 4.7,
+        "risk": 5
+      },
+      "mediaMentions": 1,
+      "reasons": [
+        "1 recent media mention",
+        "Promoted to Single-A"
+      ]
+    },
+    {
       "playerId": "e0219b50-05cf-4507-9d5d-b25bb0130b1e",
       "player": "Griff McGarry",
       "position": "P",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 51.1,
-      "previousRank": 37,
-      "rank": 36,
-      "change": 1,
+      "previousRank": 36,
+      "rank": 37,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -878,30 +902,6 @@
       "reasons": [
         "Promoted to AAA",
         "Advanced to AAA"
-      ]
-    },
-    {
-      "playerId": "51fe5804-a957-4c79-af0a-08399b915c7d",
-      "player": "Brad Pacheco",
-      "position": "P",
-      "affiliate": "Clearwater Threshers",
-      "level": "A",
-      "score": 51,
-      "previousRank": 36,
-      "rank": 37,
-      "change": -1,
-      "components": {
-        "scouting": 12,
-        "performance": 15,
-        "ageLevel": 4.2,
-        "sentiment": 10.1,
-        "movement": 4.7,
-        "risk": 5
-      },
-      "mediaMentions": 1,
-      "reasons": [
-        "1 recent media mention",
-        "Promoted to Single-A"
       ]
     },
     {
@@ -1140,6 +1140,30 @@
       ]
     },
     {
+      "playerId": "c279b76e-6995-4afe-be49-dbc4441a534b",
+      "player": "Devin Saltiban",
+      "position": "OF",
+      "affiliate": "Jersey Shore BlueClaws",
+      "level": "A+",
+      "score": 50,
+      "previousRank": 53,
+      "rank": 48,
+      "change": 5,
+      "components": {
+        "scouting": 18,
+        "performance": 7.5,
+        "ageLevel": 5.3,
+        "sentiment": 10.2,
+        "movement": 4,
+        "risk": 5
+      },
+      "mediaMentions": 1,
+      "reasons": [
+        "MLB Pipeline rank #19",
+        "1 recent media mention"
+      ]
+    },
+    {
       "playerId": "443355d9-f184-45d1-87cf-c33c135bf55d",
       "player": "Jack Dallas",
       "position": "P",
@@ -1147,8 +1171,8 @@
       "level": "AA",
       "score": 50,
       "previousRank": 48,
-      "rank": 48,
-      "change": 0,
+      "rank": 49,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.6,
@@ -1170,8 +1194,8 @@
       "level": "AA",
       "score": 49.9,
       "previousRank": 49,
-      "rank": 49,
-      "change": 0,
+      "rank": 50,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 11.6,
@@ -1194,8 +1218,8 @@
       "level": "AA",
       "score": 49.9,
       "previousRank": 50,
-      "rank": 50,
-      "change": 0,
+      "rank": 51,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1217,8 +1241,8 @@
       "level": "AA",
       "score": 49.9,
       "previousRank": 51,
-      "rank": 51,
-      "change": 0,
+      "rank": 52,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1241,8 +1265,8 @@
       "level": "AA",
       "score": 49.9,
       "previousRank": 52,
-      "rank": 52,
-      "change": 0,
+      "rank": 53,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1254,29 +1278,6 @@
       "mediaMentions": 0,
       "reasons": [
         "Advanced to AA"
-      ]
-    },
-    {
-      "playerId": "c279b76e-6995-4afe-be49-dbc4441a534b",
-      "player": "Devin Saltiban",
-      "position": "OF",
-      "affiliate": "Jersey Shore BlueClaws",
-      "level": "A+",
-      "score": 49.8,
-      "previousRank": 53,
-      "rank": 53,
-      "change": 0,
-      "components": {
-        "scouting": 18,
-        "performance": 7.5,
-        "ageLevel": 5.3,
-        "sentiment": 10,
-        "movement": 4,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "MLB Pipeline rank #19"
       ]
     },
     {
@@ -2375,8 +2376,9 @@
         "movement": 5.4,
         "risk": 5
       },
-      "mediaMentions": 0,
+      "mediaMentions": 1,
       "reasons": [
+        "1 recent media mention",
         "Promoted to High-A"
       ]
     }
