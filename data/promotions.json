@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-09-11T16:28:48.501Z",
+  "updatedAt": "2026-09-11T20:58:27.318Z",
   "records": [
+    {
+      "playerId": 700176,
+      "player": "Keegan Batka",
+      "date": "2026-09-11",
+      "fromAffiliate": "Jersey Shore BlueClaws",
+      "fromLevel": "High-A",
+      "toAffiliate": "Reading Fightin Phils",
+      "toLevel": "AA",
+      "description": "RHP Keegan Batka assigned to Reading Fightin Phils from Jersey Shore BlueClaws.",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-09-11&endDate=2026-09-11"
+    },
     {
       "playerId": 686404,
       "player": "Wuilfredo Antunez",

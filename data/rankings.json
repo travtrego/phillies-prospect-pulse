@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T16:29:12.374Z",
+  "updatedAt": "2026-09-11T20:58:49.962Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -16,7 +16,7 @@
       "position": "RHP",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 73.1,
+      "score": 73.3,
       "previousRank": 1,
       "rank": 1,
       "change": 0,
@@ -24,14 +24,14 @@
         "scouting": 30,
         "performance": 15.4,
         "ageLevel": 7.2,
-        "sentiment": 10.2,
+        "sentiment": 10.4,
         "movement": 5.3,
         "risk": 5
       },
-      "mediaMentions": 3,
+      "mediaMentions": 5,
       "reasons": [
         "MLB Pipeline rank #2",
-        "3 recent media mentions",
+        "5 recent media mentions",
         "Promoted to AA",
         "Advanced to AA"
       ]
@@ -287,28 +287,52 @@
       ]
     },
     {
-      "playerId": "731551df-3c70-4c1f-9284-bfd823091735",
-      "player": "Griffin Burkholder",
-      "position": "OF",
-      "affiliate": "Jersey Shore BlueClaws",
-      "level": "A+",
-      "score": 60.3,
-      "previousRank": 13,
+      "playerId": "94676efc-cb38-4956-90de-921758f475b0",
+      "player": "Keegan Batka",
+      "position": "P",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 61.4,
+      "previousRank": 18,
       "rank": 12,
-      "change": 1,
+      "change": 6,
       "components": {
-        "scouting": 23.8,
-        "performance": 8.5,
-        "ageLevel": 5.3,
-        "sentiment": 10.5,
-        "movement": 7.2,
+        "scouting": 12,
+        "performance": 18.1,
+        "ageLevel": 6.4,
+        "sentiment": 10,
+        "movement": 9.9,
         "risk": 5
       },
-      "mediaMentions": 2,
+      "mediaMentions": 0,
       "reasons": [
-        "MLB Pipeline rank #11",
-        "2 recent media mentions",
-        "Promoted to High-A"
+        "Promoted to AA",
+        "Advanced to AA"
+      ]
+    },
+    {
+      "playerId": "2a362ae5-4e37-484a-85bf-045b09564892",
+      "player": "Alex Binelas",
+      "position": "INF",
+      "affiliate": "Lehigh Valley IronPigs",
+      "level": "AAA",
+      "score": 60.3,
+      "previousRank": 15,
+      "rank": 13,
+      "change": 2,
+      "components": {
+        "scouting": 12,
+        "performance": 17.4,
+        "ageLevel": 7.5,
+        "sentiment": 9.3,
+        "movement": 9.1,
+        "risk": 5
+      },
+      "mediaMentions": 1,
+      "reasons": [
+        "1 recent media mention",
+        "Promoted to AAA",
+        "Advanced to AAA"
       ]
     },
     {
@@ -318,8 +342,8 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 60.2,
-      "previousRank": 12,
-      "rank": 13,
+      "previousRank": 13,
+      "rank": 14,
       "change": -1,
       "components": {
         "scouting": 17.3,
@@ -336,6 +360,31 @@
       ]
     },
     {
+      "playerId": "731551df-3c70-4c1f-9284-bfd823091735",
+      "player": "Griffin Burkholder",
+      "position": "OF",
+      "affiliate": "Jersey Shore BlueClaws",
+      "level": "A+",
+      "score": 60,
+      "previousRank": 12,
+      "rank": 15,
+      "change": -3,
+      "components": {
+        "scouting": 23.8,
+        "performance": 8.5,
+        "ageLevel": 5.3,
+        "sentiment": 10.2,
+        "movement": 7.2,
+        "risk": 5
+      },
+      "mediaMentions": 1,
+      "reasons": [
+        "MLB Pipeline rank #11",
+        "1 recent media mention",
+        "Promoted to High-A"
+      ]
+    },
+    {
       "playerId": "5a9ca442-aa33-48e9-82f4-aacd5435bc0c",
       "player": "Bryan Rincon",
       "position": "SS",
@@ -343,8 +392,8 @@
       "level": "AA",
       "score": 59.4,
       "previousRank": 14,
-      "rank": 14,
-      "change": 0,
+      "rank": 16,
+      "change": -2,
       "components": {
         "scouting": 12.3,
         "performance": 20.5,
@@ -362,32 +411,6 @@
       ]
     },
     {
-      "playerId": "2a362ae5-4e37-484a-85bf-045b09564892",
-      "player": "Alex Binelas",
-      "position": "INF",
-      "affiliate": "Lehigh Valley IronPigs",
-      "level": "AAA",
-      "score": 57.8,
-      "previousRank": 15,
-      "rank": 15,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 17.4,
-        "ageLevel": 7.5,
-        "sentiment": 9.3,
-        "movement": 9.1,
-        "risk": 2.5
-      },
-      "mediaMentions": 1,
-      "reasons": [
-        "1 recent media mention",
-        "Promoted to AAA",
-        "Current injury lowers availability",
-        "Advanced to AAA"
-      ]
-    },
-    {
       "playerId": "ed4dbc30-ab6a-4976-9cbc-b057894e134f",
       "player": "Mavis Graves",
       "position": "LHP",
@@ -395,8 +418,8 @@
       "level": "AA",
       "score": 56.9,
       "previousRank": 16,
-      "rank": 16,
-      "change": 0,
+      "rank": 17,
+      "change": -1,
       "components": {
         "scouting": 13.7,
         "performance": 14.6,
@@ -420,37 +443,14 @@
       "level": "A+",
       "score": 55.7,
       "previousRank": 17,
-      "rank": 17,
-      "change": 0,
+      "rank": 18,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 16.2,
         "ageLevel": 5.3,
         "sentiment": 10,
         "movement": 7.2,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to High-A"
-      ]
-    },
-    {
-      "playerId": "94676efc-cb38-4956-90de-921758f475b0",
-      "player": "Keegan Batka",
-      "position": "P",
-      "affiliate": "Jersey Shore BlueClaws",
-      "level": "A+",
-      "score": 55.6,
-      "previousRank": 18,
-      "rank": 18,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 18.1,
-        "ageLevel": 5.3,
-        "sentiment": 10,
-        "movement": 5.2,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -863,9 +863,9 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 51.2,
-      "previousRank": 37,
+      "previousRank": 36,
       "rank": 36,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 15,
@@ -887,9 +887,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 51.1,
-      "previousRank": 36,
+      "previousRank": 37,
       "rank": 37,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1146,9 +1146,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 50,
-      "previousRank": 53,
+      "previousRank": 48,
       "rank": 48,
-      "change": 5,
+      "change": 0,
       "components": {
         "scouting": 18,
         "performance": 7.5,
@@ -1170,9 +1170,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 50,
-      "previousRank": 48,
+      "previousRank": 49,
       "rank": 49,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.6,
@@ -1193,9 +1193,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 49.9,
-      "previousRank": 49,
+      "previousRank": 50,
       "rank": 50,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 11.6,
@@ -1217,9 +1217,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 49.9,
-      "previousRank": 50,
+      "previousRank": 51,
       "rank": 51,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1240,9 +1240,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 49.9,
-      "previousRank": 51,
+      "previousRank": 52,
       "rank": 52,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1264,9 +1264,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 49.9,
-      "previousRank": 52,
+      "previousRank": 53,
       "rank": 53,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
