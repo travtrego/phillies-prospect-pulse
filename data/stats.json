@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T13:37:29.205Z",
+  "updatedAt": "2026-09-12T15:32:05.486Z",
   "season": 2026,
   "rosterType": "active (MLB) + fullRoster (affiliates)",
   "records": [
@@ -6893,8 +6893,8 @@
       "active": true,
       "mlbDebutDate": "2021-07-18",
       "draftYear": 2016,
-      "strikeZoneTop": 3.312,
-      "strikeZoneBottom": 1.672,
+      "strikeZoneTop": 3.31,
+      "strikeZoneBottom": 1.67,
       "stats": {
         "type": "hitting",
         "games": 142,
