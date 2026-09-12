@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T10:47:30.021Z",
+  "updatedAt": "2026-09-12T13:37:30.099Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -16,7 +16,7 @@
       "position": "RHP",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 73.3,
+      "score": 73.4,
       "previousRank": 1,
       "rank": 1,
       "change": 0,
@@ -24,14 +24,14 @@
         "scouting": 30,
         "performance": 15.4,
         "ageLevel": 7.2,
-        "sentiment": 10.4,
+        "sentiment": 10.5,
         "movement": 5.3,
         "risk": 5
       },
-      "mediaMentions": 5,
+      "mediaMentions": 6,
       "reasons": [
         "MLB Pipeline rank #2",
-        "5 recent media mentions",
+        "6 recent media mentions",
         "Promoted to AA",
         "Advanced to AA"
       ]
@@ -42,7 +42,7 @@
       "position": "SS",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 69.8,
+      "score": 69.5,
       "previousRank": 2,
       "rank": 2,
       "change": 0,
@@ -50,7 +50,7 @@
         "scouting": 30,
         "performance": 11.5,
         "ageLevel": 8.2,
-        "sentiment": 13.6,
+        "sentiment": 13.3,
         "movement": 4,
         "risk": 2.5
       },
@@ -115,6 +115,31 @@
       ]
     },
     {
+      "playerId": "4c385b38-3891-46a2-869e-f7f73f3bb154",
+      "player": "Aroon Escobar",
+      "position": "2B",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 65.2,
+      "previousRank": 6,
+      "rank": 5,
+      "change": 1,
+      "components": {
+        "scouting": 28.8,
+        "performance": 11,
+        "ageLevel": 6.2,
+        "sentiment": 10.2,
+        "movement": 4,
+        "risk": 5
+      },
+      "mediaMentions": 1,
+      "reasons": [
+        "MLB Pipeline rank #4",
+        "1 recent media mention",
+        "Advanced to AA"
+      ]
+    },
+    {
       "playerId": "a7942849-a3bc-483c-97f5-7c4654f0a2b9",
       "player": "Wen-Hui Pan",
       "position": "RHP",
@@ -122,8 +147,8 @@
       "level": "AA",
       "score": 65.1,
       "previousRank": 5,
-      "rank": 5,
-      "change": 0,
+      "rank": 6,
+      "change": -1,
       "components": {
         "scouting": 23.1,
         "performance": 14.8,
@@ -136,30 +161,6 @@
       "reasons": [
         "MLB Pipeline rank #12",
         "Promoted to AA",
-        "Advanced to AA"
-      ]
-    },
-    {
-      "playerId": "4c385b38-3891-46a2-869e-f7f73f3bb154",
-      "player": "Aroon Escobar",
-      "position": "2B",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 65,
-      "previousRank": 6,
-      "rank": 6,
-      "change": 0,
-      "components": {
-        "scouting": 28.8,
-        "performance": 11,
-        "ageLevel": 6.2,
-        "sentiment": 10,
-        "movement": 4,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "MLB Pipeline rank #4",
         "Advanced to AA"
       ]
     },
@@ -336,31 +337,6 @@
       ]
     },
     {
-      "playerId": "731551df-3c70-4c1f-9284-bfd823091735",
-      "player": "Griffin Burkholder",
-      "position": "OF",
-      "affiliate": "Jersey Shore BlueClaws",
-      "level": "A+",
-      "score": 60.3,
-      "previousRank": 14,
-      "rank": 14,
-      "change": 0,
-      "components": {
-        "scouting": 23.8,
-        "performance": 8.5,
-        "ageLevel": 5.3,
-        "sentiment": 10.5,
-        "movement": 7.2,
-        "risk": 5
-      },
-      "mediaMentions": 2,
-      "reasons": [
-        "MLB Pipeline rank #11",
-        "2 recent media mentions",
-        "Promoted to High-A"
-      ]
-    },
-    {
       "playerId": "95c3b2e4-284d-42ef-b8e6-274b348a7802",
       "player": "Alirio Ferrebus",
       "position": "C",
@@ -368,8 +344,8 @@
       "level": "A+",
       "score": 60.2,
       "previousRank": 15,
-      "rank": 15,
-      "change": 0,
+      "rank": 14,
+      "change": 1,
       "components": {
         "scouting": 17.3,
         "performance": 15.4,
@@ -385,12 +361,37 @@
       ]
     },
     {
+      "playerId": "731551df-3c70-4c1f-9284-bfd823091735",
+      "player": "Griffin Burkholder",
+      "position": "OF",
+      "affiliate": "Jersey Shore BlueClaws",
+      "level": "A+",
+      "score": 60.2,
+      "previousRank": 14,
+      "rank": 15,
+      "change": -1,
+      "components": {
+        "scouting": 23.8,
+        "performance": 8.5,
+        "ageLevel": 5.3,
+        "sentiment": 10.4,
+        "movement": 7.2,
+        "risk": 5
+      },
+      "mediaMentions": 2,
+      "reasons": [
+        "MLB Pipeline rank #11",
+        "2 recent media mentions",
+        "Promoted to High-A"
+      ]
+    },
+    {
       "playerId": "5a9ca442-aa33-48e9-82f4-aacd5435bc0c",
       "player": "Bryan Rincon",
       "position": "SS",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 59.2,
+      "score": 59.4,
       "previousRank": 16,
       "rank": 16,
       "change": 0,
@@ -398,15 +399,15 @@
         "scouting": 12.3,
         "performance": 20.5,
         "ageLevel": 6.4,
-        "sentiment": 10.3,
+        "sentiment": 10.5,
         "movement": 4.7,
         "risk": 5
       },
-      "mediaMentions": 3,
+      "mediaMentions": 4,
       "reasons": [
         "Strong current-season performance",
         "MLB Pipeline rank #27",
-        "3 recent media mentions",
+        "4 recent media mentions",
         "Promoted to AA"
       ]
     },
@@ -1093,30 +1094,6 @@
       ]
     },
     {
-      "playerId": "c279b76e-6995-4afe-be49-dbc4441a534b",
-      "player": "Devin Saltiban",
-      "position": "OF",
-      "affiliate": "Jersey Shore BlueClaws",
-      "level": "A+",
-      "score": 50,
-      "previousRank": 46,
-      "rank": 46,
-      "change": 0,
-      "components": {
-        "scouting": 18,
-        "performance": 7.5,
-        "ageLevel": 5.3,
-        "sentiment": 10.2,
-        "movement": 4,
-        "risk": 5
-      },
-      "mediaMentions": 1,
-      "reasons": [
-        "MLB Pipeline rank #19",
-        "1 recent media mention"
-      ]
-    },
-    {
       "playerId": "443355d9-f184-45d1-87cf-c33c135bf55d",
       "player": "Jack Dallas",
       "position": "P",
@@ -1124,8 +1101,8 @@
       "level": "AA",
       "score": 50,
       "previousRank": 47,
-      "rank": 47,
-      "change": 0,
+      "rank": 46,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.6,
@@ -1147,8 +1124,8 @@
       "level": "AA",
       "score": 49.9,
       "previousRank": 48,
-      "rank": 48,
-      "change": 0,
+      "rank": 47,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 11.6,
@@ -1171,8 +1148,8 @@
       "level": "AA",
       "score": 49.9,
       "previousRank": 49,
-      "rank": 49,
-      "change": 0,
+      "rank": 48,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1194,8 +1171,8 @@
       "level": "AA",
       "score": 49.9,
       "previousRank": 50,
-      "rank": 50,
-      "change": 0,
+      "rank": 49,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1207,6 +1184,30 @@
       "mediaMentions": 0,
       "reasons": [
         "Advanced to AA"
+      ]
+    },
+    {
+      "playerId": "c279b76e-6995-4afe-be49-dbc4441a534b",
+      "player": "Devin Saltiban",
+      "position": "OF",
+      "affiliate": "Jersey Shore BlueClaws",
+      "level": "A+",
+      "score": 49.9,
+      "previousRank": 46,
+      "rank": 50,
+      "change": -4,
+      "components": {
+        "scouting": 18,
+        "performance": 7.5,
+        "ageLevel": 5.3,
+        "sentiment": 10.1,
+        "movement": 4,
+        "risk": 5
+      },
+      "mediaMentions": 1,
+      "reasons": [
+        "MLB Pipeline rank #19",
+        "1 recent media mention"
       ]
     },
     {
@@ -1333,7 +1334,7 @@
       "position": "P",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 49.4,
+      "score": 49.3,
       "previousRank": 56,
       "rank": 56,
       "change": 0,
@@ -1342,7 +1343,7 @@
         "performance": 9,
         "ageLevel": 5.3,
         "sentiment": 10,
-        "movement": 8.1,
+        "movement": 8,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -1726,7 +1727,7 @@
       "position": "P",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 46.4,
+      "score": 46.3,
       "previousRank": 73,
       "rank": 73,
       "change": 0,
@@ -1735,7 +1736,7 @@
         "performance": 9.2,
         "ageLevel": 6.4,
         "sentiment": 10,
-        "movement": 6.3,
+        "movement": 6.2,
         "risk": 2.5
       },
       "mediaMentions": 0,
