@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T14:25:22.058Z",
+  "updatedAt": "2026-09-13T16:17:32.618Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -42,7 +42,7 @@
       "position": "SS",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 71.1,
+      "score": 71.4,
       "previousRank": 2,
       "rank": 2,
       "change": 0,
@@ -50,14 +50,14 @@
         "scouting": 30,
         "performance": 13.4,
         "ageLevel": 8.2,
-        "sentiment": 13,
+        "sentiment": 13.3,
         "movement": 4,
         "risk": 2.5
       },
-      "mediaMentions": 22,
+      "mediaMentions": 23,
       "reasons": [
         "MLB Pipeline rank #1",
-        "22 recent media mentions",
+        "23 recent media mentions",
         "Strong positive prospect coverage",
         "Material negative recent coverage"
       ]
@@ -410,6 +410,30 @@
       ]
     },
     {
+      "playerId": "38bb5322-106a-4d6c-88be-80bae95a816b",
+      "player": "Nick Biddison",
+      "position": "INF",
+      "affiliate": "Lehigh Valley IronPigs",
+      "level": "AAA",
+      "score": 57.7,
+      "previousRank": 22,
+      "rank": 17,
+      "change": 5,
+      "components": {
+        "scouting": 12,
+        "performance": 13.3,
+        "ageLevel": 7.5,
+        "sentiment": 10,
+        "movement": 9.9,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to AAA",
+        "Advanced to AAA"
+      ]
+    },
+    {
       "playerId": "ed4dbc30-ab6a-4976-9cbc-b057894e134f",
       "player": "Mavis Graves",
       "position": "LHP",
@@ -417,8 +441,8 @@
       "level": "AA",
       "score": 56.9,
       "previousRank": 17,
-      "rank": 17,
-      "change": 0,
+      "rank": 18,
+      "change": -1,
       "components": {
         "scouting": 13.7,
         "performance": 14.7,
@@ -442,8 +466,8 @@
       "level": "A+",
       "score": 55.6,
       "previousRank": 18,
-      "rank": 18,
-      "change": 0,
+      "rank": 19,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 16.2,
@@ -465,8 +489,8 @@
       "level": "AAA",
       "score": 55.2,
       "previousRank": 19,
-      "rank": 19,
-      "change": 0,
+      "rank": 20,
+      "change": -1,
       "components": {
         "scouting": 11.6,
         "performance": 17.1,
@@ -489,8 +513,8 @@
       "level": "AA",
       "score": 55.2,
       "previousRank": 20,
-      "rank": 20,
-      "change": 0,
+      "rank": 21,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 14.5,
@@ -513,8 +537,8 @@
       "level": "AAA",
       "score": 54.3,
       "previousRank": 21,
-      "rank": 21,
-      "change": 0,
+      "rank": 22,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 15.2,
@@ -527,30 +551,6 @@
       "reasons": [
         "Promoted to AAA",
         "Advanced to AAA"
-      ]
-    },
-    {
-      "playerId": "38bb5322-106a-4d6c-88be-80bae95a816b",
-      "player": "Nick Biddison",
-      "position": "INF",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 54.2,
-      "previousRank": 22,
-      "rank": 22,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 13.3,
-        "ageLevel": 6.4,
-        "sentiment": 10,
-        "movement": 7.5,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to AA",
-        "Advanced to AA"
       ]
     },
     {
@@ -648,30 +648,6 @@
       ]
     },
     {
-      "playerId": "9e995667-14c4-43a9-860b-a6af2636e47b",
-      "player": "Christian Cairo",
-      "position": "INF",
-      "affiliate": "Lehigh Valley IronPigs",
-      "level": "AAA",
-      "score": 52.6,
-      "previousRank": 27,
-      "rank": 27,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 13.5,
-        "ageLevel": 7.5,
-        "sentiment": 10,
-        "movement": 4.6,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to MLB",
-        "Advanced to AAA"
-      ]
-    },
-    {
       "playerId": "5c0eaf4f-42e2-4939-a8a7-e7a33166e0e5",
       "player": "Carter Kieboom",
       "position": "INF",
@@ -679,8 +655,8 @@
       "level": "AAA",
       "score": 52.3,
       "previousRank": 28,
-      "rank": 28,
-      "change": 0,
+      "rank": 27,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 13.8,
@@ -702,8 +678,8 @@
       "level": "AA",
       "score": 51.8,
       "previousRank": 29,
-      "rank": 29,
-      "change": 0,
+      "rank": 28,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 14.4,
@@ -725,8 +701,8 @@
       "level": "A",
       "score": 51.8,
       "previousRank": 30,
-      "rank": 30,
-      "change": 0,
+      "rank": 29,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 16.6,
@@ -737,6 +713,30 @@
       },
       "mediaMentions": 0,
       "reasons": []
+    },
+    {
+      "playerId": "9e995667-14c4-43a9-860b-a6af2636e47b",
+      "player": "Christian Cairo",
+      "position": "INF",
+      "affiliate": "Lehigh Valley IronPigs",
+      "level": "AAA",
+      "score": 51.6,
+      "previousRank": 27,
+      "rank": 30,
+      "change": -3,
+      "components": {
+        "scouting": 12,
+        "performance": 12.5,
+        "ageLevel": 7.5,
+        "sentiment": 10,
+        "movement": 4.6,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to MLB",
+        "Advanced to AAA"
+      ]
     },
     {
       "playerId": "d27bdf7d-9b27-4db9-9e78-241a16c2c762",
@@ -763,6 +763,30 @@
       ]
     },
     {
+      "playerId": "8b39c0e5-2371-45df-96a7-963b7d79a96b",
+      "player": "Ryan Dromboski",
+      "position": "P",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 51.6,
+      "previousRank": 78,
+      "rank": 32,
+      "change": 46,
+      "components": {
+        "scouting": 12,
+        "performance": 8.3,
+        "ageLevel": 6.4,
+        "sentiment": 10,
+        "movement": 9.9,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to AA",
+        "Advanced to AA"
+      ]
+    },
+    {
       "playerId": "9d5fd7a5-8b2c-47c7-90a4-f4e42de96d79",
       "player": "Brady Day",
       "position": "INF",
@@ -770,8 +794,8 @@
       "level": "A+",
       "score": 51.5,
       "previousRank": 32,
-      "rank": 32,
-      "change": 0,
+      "rank": 33,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 14.6,
@@ -793,8 +817,8 @@
       "level": "A+",
       "score": 51.5,
       "previousRank": 33,
-      "rank": 33,
-      "change": 0,
+      "rank": 34,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 14.6,
@@ -816,8 +840,8 @@
       "level": "A+",
       "score": 51.3,
       "previousRank": 34,
-      "rank": 34,
-      "change": 0,
+      "rank": 35,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 14,
@@ -838,9 +862,9 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 51,
-      "previousRank": 41,
-      "rank": 35,
-      "change": 6,
+      "previousRank": 35,
+      "rank": 36,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 15,
@@ -862,8 +886,8 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 51,
-      "previousRank": 35,
-      "rank": 36,
+      "previousRank": 36,
+      "rank": 37,
       "change": -1,
       "components": {
         "scouting": 12,
@@ -885,8 +909,8 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 51,
-      "previousRank": 36,
-      "rank": 37,
+      "previousRank": 37,
+      "rank": 38,
       "change": -1,
       "components": {
         "scouting": 12,
@@ -909,8 +933,8 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 51,
-      "previousRank": 37,
-      "rank": 38,
+      "previousRank": 38,
+      "rank": 39,
       "change": -1,
       "components": {
         "scouting": 12,
@@ -932,8 +956,8 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 51,
-      "previousRank": 38,
-      "rank": 39,
+      "previousRank": 39,
+      "rank": 40,
       "change": -1,
       "components": {
         "scouting": 12,
@@ -956,8 +980,8 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 51,
-      "previousRank": 39,
-      "rank": 40,
+      "previousRank": 40,
+      "rank": 41,
       "change": -1,
       "components": {
         "scouting": 12,
@@ -979,8 +1003,8 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 51,
-      "previousRank": 40,
-      "rank": 41,
+      "previousRank": 41,
+      "rank": 42,
       "change": -1,
       "components": {
         "scouting": 12,
@@ -1003,8 +1027,8 @@
       "level": "AA",
       "score": 50.9,
       "previousRank": 42,
-      "rank": 42,
-      "change": 0,
+      "rank": 43,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 11.7,
@@ -1027,8 +1051,8 @@
       "level": "AA",
       "score": 50.8,
       "previousRank": 43,
-      "rank": 43,
-      "change": 0,
+      "rank": 44,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1051,8 +1075,8 @@
       "level": "AA",
       "score": 50.8,
       "previousRank": 44,
-      "rank": 44,
-      "change": 0,
+      "rank": 45,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 10.3,
@@ -1075,8 +1099,8 @@
       "level": "AAA",
       "score": 50.4,
       "previousRank": 45,
-      "rank": 45,
-      "change": 0,
+      "rank": 46,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 8.2,
@@ -1099,8 +1123,8 @@
       "level": "AA",
       "score": 50.4,
       "previousRank": 46,
-      "rank": 46,
-      "change": 0,
+      "rank": 47,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 13,
@@ -1121,9 +1145,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 50,
-      "previousRank": 48,
-      "rank": 47,
-      "change": 1,
+      "previousRank": 47,
+      "rank": 48,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.6,
@@ -1144,9 +1168,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 50,
-      "previousRank": 49,
-      "rank": 48,
-      "change": 1,
+      "previousRank": 48,
+      "rank": 49,
+      "change": -1,
       "components": {
         "scouting": 9,
         "performance": 12.5,
@@ -1168,39 +1192,15 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 50,
-      "previousRank": 47,
-      "rank": 49,
-      "change": -2,
+      "previousRank": 49,
+      "rank": 50,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 10.4,
         "ageLevel": 6.4,
         "sentiment": 10,
         "movement": 6.2,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to AA",
-        "Advanced to AA"
-      ]
-    },
-    {
-      "playerId": "4500f410-f94d-4d62-b239-85405a8aed11",
-      "player": "Aaron Combs",
-      "position": "P",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 49.9,
-      "previousRank": 50,
-      "rank": 50,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 11.6,
-        "ageLevel": 6.4,
-        "sentiment": 10,
-        "movement": 4.9,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -1625,6 +1625,31 @@
       ]
     },
     {
+      "playerId": "4500f410-f94d-4d62-b239-85405a8aed11",
+      "player": "Aaron Combs",
+      "position": "P",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 47.4,
+      "previousRank": 50,
+      "rank": 69,
+      "change": -19,
+      "components": {
+        "scouting": 12,
+        "performance": 11.6,
+        "ageLevel": 6.4,
+        "sentiment": 10,
+        "movement": 4.9,
+        "risk": 2.5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to AA",
+        "Current injury lowers availability",
+        "Advanced to AA"
+      ]
+    },
+    {
       "playerId": "1afc5bb5-5988-43ea-b924-42ae5d6690d6",
       "player": "Kehden Hettiger",
       "position": "C",
@@ -1632,8 +1657,8 @@
       "level": "AA",
       "score": 47.4,
       "previousRank": 69,
-      "rank": 69,
-      "change": 0,
+      "rank": 70,
+      "change": -1,
       "components": {
         "scouting": 13,
         "performance": 9,
@@ -1656,8 +1681,8 @@
       "level": "AA",
       "score": 47,
       "previousRank": 70,
-      "rank": 70,
-      "change": 0,
+      "rank": 71,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 9.6,
@@ -1679,8 +1704,8 @@
       "level": "A+",
       "score": 46.9,
       "previousRank": 71,
-      "rank": 71,
-      "change": 0,
+      "rank": 72,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1703,8 +1728,8 @@
       "level": "A+",
       "score": 46.8,
       "previousRank": 72,
-      "rank": 72,
-      "change": 0,
+      "rank": 73,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 9.1,
@@ -1726,8 +1751,8 @@
       "level": "AA",
       "score": 46.3,
       "previousRank": 73,
-      "rank": 73,
-      "change": 0,
+      "rank": 74,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 9.2,
@@ -1751,8 +1776,8 @@
       "level": "A+",
       "score": 46.3,
       "previousRank": 74,
-      "rank": 74,
-      "change": 0,
+      "rank": 75,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1774,8 +1799,8 @@
       "level": "A+",
       "score": 46,
       "previousRank": 75,
-      "rank": 75,
-      "change": 0,
+      "rank": 76,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 9.7,
@@ -1795,8 +1820,8 @@
       "level": "A",
       "score": 46,
       "previousRank": 76,
-      "rank": 76,
-      "change": 0,
+      "rank": 77,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 10.2,
@@ -1818,8 +1843,8 @@
       "level": "A",
       "score": 45.9,
       "previousRank": 77,
-      "rank": 77,
-      "change": 0,
+      "rank": 78,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 10.1,
@@ -1831,29 +1856,6 @@
       "mediaMentions": 0,
       "reasons": [
         "Promoted to High-A"
-      ]
-    },
-    {
-      "playerId": "8b39c0e5-2371-45df-96a7-963b7d79a96b",
-      "player": "Ryan Dromboski",
-      "position": "P",
-      "affiliate": "Jersey Shore BlueClaws",
-      "level": "A+",
-      "score": 45.7,
-      "previousRank": 78,
-      "rank": 78,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 8.3,
-        "ageLevel": 5.3,
-        "sentiment": 10,
-        "movement": 5.1,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to AA"
       ]
     },
     {
