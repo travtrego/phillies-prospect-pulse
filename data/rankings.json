@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T11:44:40.934Z",
+  "updatedAt": "2026-09-15T15:02:33.639Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -42,7 +42,7 @@
       "position": "SS",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 71.1,
+      "score": 71.3,
       "previousRank": 2,
       "rank": 2,
       "change": 0,
@@ -50,14 +50,14 @@
         "scouting": 30,
         "performance": 13.4,
         "ageLevel": 8.2,
-        "sentiment": 13,
+        "sentiment": 13.2,
         "movement": 4,
         "risk": 2.5
       },
-      "mediaMentions": 24,
+      "mediaMentions": 25,
       "reasons": [
         "MLB Pipeline rank #1",
-        "24 recent media mentions",
+        "25 recent media mentions",
         "Strong positive prospect coverage",
         "Material negative recent coverage"
       ]
@@ -264,32 +264,6 @@
       ]
     },
     {
-      "playerId": "5a9ca442-aa33-48e9-82f4-aacd5435bc0c",
-      "player": "Bryan Rincon",
-      "position": "SS",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 62.3,
-      "previousRank": 11,
-      "rank": 11,
-      "change": 0,
-      "components": {
-        "scouting": 12.3,
-        "performance": 21.2,
-        "ageLevel": 6.4,
-        "sentiment": 12.8,
-        "movement": 4.6,
-        "risk": 5
-      },
-      "mediaMentions": 5,
-      "reasons": [
-        "Strong current-season performance",
-        "MLB Pipeline rank #27",
-        "5 recent media mentions",
-        "Positive recent coverage"
-      ]
-    },
-    {
       "playerId": "b2c73058-570a-45a4-9872-b734627c893d",
       "player": "Cade Obermueller",
       "position": "LHP",
@@ -297,8 +271,8 @@
       "level": "A+",
       "score": 62.3,
       "previousRank": 12,
-      "rank": 12,
-      "change": 0,
+      "rank": 11,
+      "change": 1,
       "components": {
         "scouting": 26.7,
         "performance": 8.2,
@@ -314,27 +288,29 @@
       ]
     },
     {
-      "playerId": "94676efc-cb38-4956-90de-921758f475b0",
-      "player": "Keegan Batka",
-      "position": "P",
+      "playerId": "5a9ca442-aa33-48e9-82f4-aacd5435bc0c",
+      "player": "Bryan Rincon",
+      "position": "SS",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 60.3,
-      "previousRank": 13,
-      "rank": 13,
-      "change": 0,
+      "score": 62.2,
+      "previousRank": 11,
+      "rank": 12,
+      "change": -1,
       "components": {
-        "scouting": 12,
-        "performance": 17.2,
+        "scouting": 12.3,
+        "performance": 21.2,
         "ageLevel": 6.4,
-        "sentiment": 10,
-        "movement": 9.7,
+        "sentiment": 12.7,
+        "movement": 4.6,
         "risk": 5
       },
-      "mediaMentions": 0,
+      "mediaMentions": 5,
       "reasons": [
-        "Promoted to AA",
-        "Advanced to AA"
+        "Strong current-season performance",
+        "MLB Pipeline rank #27",
+        "5 recent media mentions",
+        "Positive recent coverage"
       ]
     },
     {
@@ -345,8 +321,8 @@
       "level": "AAA",
       "score": 60.2,
       "previousRank": 14,
-      "rank": 14,
-      "change": 0,
+      "rank": 13,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 17.4,
@@ -360,6 +336,30 @@
         "1 recent media mention",
         "Promoted to AAA",
         "Advanced to AAA"
+      ]
+    },
+    {
+      "playerId": "94676efc-cb38-4956-90de-921758f475b0",
+      "player": "Keegan Batka",
+      "position": "P",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 60.2,
+      "previousRank": 13,
+      "rank": 14,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 17.2,
+        "ageLevel": 6.4,
+        "sentiment": 10,
+        "movement": 9.6,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to AA",
+        "Advanced to AA"
       ]
     },
     {
@@ -441,7 +441,7 @@
       "position": "LHP",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 56.9,
+      "score": 57.1,
       "previousRank": 18,
       "rank": 18,
       "change": 0,
@@ -449,13 +449,14 @@
         "scouting": 13.7,
         "performance": 14.7,
         "ageLevel": 6.4,
-        "sentiment": 10,
+        "sentiment": 10.2,
         "movement": 7.1,
         "risk": 5
       },
-      "mediaMentions": 0,
+      "mediaMentions": 1,
       "reasons": [
         "MLB Pipeline rank #25",
+        "1 recent media mention",
         "Promoted to AA",
         "Advanced to AA"
       ]
@@ -1075,9 +1076,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 50.4,
-      "previousRank": 46,
+      "previousRank": 45,
       "rank": 45,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 13,
@@ -1098,9 +1099,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 50.3,
-      "previousRank": 45,
+      "previousRank": 46,
       "rank": 46,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 8.2,
