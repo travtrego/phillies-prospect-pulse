@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T21:50:11.401Z",
+  "updatedAt": "2026-09-15T04:55:45.477Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -28,10 +28,10 @@
         "movement": 5.2,
         "risk": 5
       },
-      "mediaMentions": 4,
+      "mediaMentions": 3,
       "reasons": [
         "MLB Pipeline rank #2",
-        "4 recent media mentions",
+        "3 recent media mentions",
         "Promoted to AA",
         "Advanced to AA"
       ]
@@ -42,7 +42,7 @@
       "position": "SS",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 71,
+      "score": 71.9,
       "previousRank": 2,
       "rank": 2,
       "change": 0,
@@ -50,14 +50,14 @@
         "scouting": 30,
         "performance": 13.4,
         "ageLevel": 8.2,
-        "sentiment": 12.9,
+        "sentiment": 13.8,
         "movement": 4,
         "risk": 2.5
       },
-      "mediaMentions": 24,
+      "mediaMentions": 23,
       "reasons": [
         "MLB Pipeline rank #1",
-        "24 recent media mentions",
+        "23 recent media mentions",
         "Strong positive prospect coverage",
         "Material negative recent coverage"
       ]
@@ -207,10 +207,10 @@
         "movement": 4,
         "risk": 5
       },
-      "mediaMentions": 3,
+      "mediaMentions": 2,
       "reasons": [
         "MLB Pipeline rank #5",
-        "3 recent media mentions",
+        "2 recent media mentions",
         "Advanced to AA"
       ]
     },
@@ -269,7 +269,7 @@
       "position": "SS",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 62.5,
+      "score": 62.3,
       "previousRank": 11,
       "rank": 11,
       "change": 0,
@@ -277,15 +277,15 @@
         "scouting": 12.3,
         "performance": 21.2,
         "ageLevel": 6.4,
-        "sentiment": 13,
+        "sentiment": 12.8,
         "movement": 4.6,
         "risk": 5
       },
-      "mediaMentions": 6,
+      "mediaMentions": 5,
       "reasons": [
         "Strong current-season performance",
         "MLB Pipeline rank #27",
-        "6 recent media mentions",
+        "5 recent media mentions",
         "Positive recent coverage"
       ]
     },
@@ -467,7 +467,7 @@
       "position": "C",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 56.6,
+      "score": 56.5,
       "previousRank": 19,
       "rank": 19,
       "change": 0,
@@ -476,7 +476,7 @@
         "performance": 15.9,
         "ageLevel": 6.4,
         "sentiment": 10,
-        "movement": 7.3,
+        "movement": 7.2,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -2128,8 +2128,10 @@
         "movement": 4,
         "risk": 5
       },
-      "mediaMentions": 0,
-      "reasons": []
+      "mediaMentions": 1,
+      "reasons": [
+        "1 recent media mention"
+      ]
     },
     {
       "playerId": "c637a633-926b-4cd9-afb0-7421e53b73a8",
