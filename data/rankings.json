@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T15:02:33.639Z",
+  "updatedAt": "2026-09-15T16:59:39.062Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -54,10 +54,10 @@
         "movement": 4,
         "risk": 2.5
       },
-      "mediaMentions": 25,
+      "mediaMentions": 26,
       "reasons": [
         "MLB Pipeline rank #1",
-        "25 recent media mentions",
+        "26 recent media mentions",
         "Strong positive prospect coverage",
         "Material negative recent coverage"
       ]
@@ -270,9 +270,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 62.3,
-      "previousRank": 12,
+      "previousRank": 11,
       "rank": 11,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 26.7,
         "performance": 8.2,
@@ -294,9 +294,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 62.2,
-      "previousRank": 11,
+      "previousRank": 12,
       "rank": 12,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12.3,
         "performance": 21.2,
@@ -320,9 +320,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 60.2,
-      "previousRank": 14,
+      "previousRank": 13,
       "rank": 13,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 17.4,
@@ -345,9 +345,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 60.2,
-      "previousRank": 13,
+      "previousRank": 14,
       "rank": 14,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 17.2,
@@ -835,30 +835,6 @@
       ]
     },
     {
-      "playerId": "51fe5804-a957-4c79-af0a-08399b915c7d",
-      "player": "Brad Pacheco",
-      "position": "P",
-      "affiliate": "Clearwater Threshers",
-      "level": "A",
-      "score": 51,
-      "previousRank": 35,
-      "rank": 35,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 15,
-        "ageLevel": 4.2,
-        "sentiment": 10.2,
-        "movement": 4.6,
-        "risk": 5
-      },
-      "mediaMentions": 1,
-      "reasons": [
-        "1 recent media mention",
-        "Promoted to Single-A"
-      ]
-    },
-    {
       "playerId": "7dc9fbba-ab85-4e33-861c-93c73db693ec",
       "player": "Génesis Cabrera",
       "position": "P",
@@ -866,8 +842,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 36,
-      "rank": 36,
-      "change": 0,
+      "rank": 35,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -889,8 +865,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 37,
-      "rank": 37,
-      "change": 0,
+      "rank": 36,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -913,8 +889,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 38,
-      "rank": 38,
-      "change": 0,
+      "rank": 37,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -936,8 +912,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 39,
-      "rank": 39,
-      "change": 0,
+      "rank": 38,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -959,8 +935,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 40,
-      "rank": 40,
-      "change": 0,
+      "rank": 39,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -982,8 +958,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 41,
-      "rank": 41,
-      "change": 0,
+      "rank": 40,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1005,8 +981,8 @@
       "level": "AA",
       "score": 50.9,
       "previousRank": 42,
-      "rank": 42,
-      "change": 0,
+      "rank": 41,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 11.7,
@@ -1019,6 +995,29 @@
       "reasons": [
         "Promoted to AAA",
         "Advanced to AA"
+      ]
+    },
+    {
+      "playerId": "51fe5804-a957-4c79-af0a-08399b915c7d",
+      "player": "Brad Pacheco",
+      "position": "P",
+      "affiliate": "Clearwater Threshers",
+      "level": "A",
+      "score": 50.8,
+      "previousRank": 35,
+      "rank": 42,
+      "change": -7,
+      "components": {
+        "scouting": 12,
+        "performance": 15,
+        "ageLevel": 4.2,
+        "sentiment": 10,
+        "movement": 4.6,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to Single-A"
       ]
     },
     {
