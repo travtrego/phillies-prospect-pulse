@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T04:55:45.477Z",
+  "updatedAt": "2026-09-15T11:44:40.934Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -42,7 +42,7 @@
       "position": "SS",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 71.9,
+      "score": 71.1,
       "previousRank": 2,
       "rank": 2,
       "change": 0,
@@ -50,14 +50,14 @@
         "scouting": 30,
         "performance": 13.4,
         "ageLevel": 8.2,
-        "sentiment": 13.8,
+        "sentiment": 13,
         "movement": 4,
         "risk": 2.5
       },
-      "mediaMentions": 23,
+      "mediaMentions": 24,
       "reasons": [
         "MLB Pipeline rank #1",
-        "23 recent media mentions",
+        "24 recent media mentions",
         "Strong positive prospect coverage",
         "Material negative recent coverage"
       ]
@@ -245,7 +245,7 @@
       "position": "RHP",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 63,
+      "score": 62.9,
       "previousRank": 10,
       "rank": 10,
       "change": 0,
@@ -254,7 +254,7 @@
         "performance": 13.5,
         "ageLevel": 4.2,
         "sentiment": 10,
-        "movement": 5.8,
+        "movement": 5.7,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -417,7 +417,7 @@
       "position": "INF",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 58.2,
+      "score": 57.6,
       "previousRank": 17,
       "rank": 17,
       "change": 0,
@@ -425,13 +425,12 @@
         "scouting": 12,
         "performance": 13.3,
         "ageLevel": 7.5,
-        "sentiment": 10.6,
+        "sentiment": 10,
         "movement": 9.8,
         "risk": 5
       },
-      "mediaMentions": 1,
+      "mediaMentions": 0,
       "reasons": [
-        "1 recent media mention",
         "Promoted to AAA",
         "Advanced to AAA"
       ]
@@ -610,7 +609,7 @@
       "position": "P",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 53.1,
+      "score": 53,
       "previousRank": 25,
       "rank": 25,
       "change": 0,
@@ -619,7 +618,7 @@
         "performance": 13.1,
         "ageLevel": 5.3,
         "sentiment": 10,
-        "movement": 7.7,
+        "movement": 7.6,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -817,7 +816,7 @@
       "position": "P",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 51.3,
+      "score": 51.2,
       "previousRank": 34,
       "rank": 34,
       "change": 0,
@@ -826,7 +825,7 @@
         "performance": 14,
         "ageLevel": 5.3,
         "sentiment": 10,
-        "movement": 5,
+        "movement": 4.9,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -946,9 +945,8 @@
         "movement": 4,
         "risk": 5
       },
-      "mediaMentions": 1,
+      "mediaMentions": 0,
       "reasons": [
-        "1 recent media mention",
         "Advanced to AAA"
       ]
     },
@@ -1071,30 +1069,6 @@
       ]
     },
     {
-      "playerId": "2da80f7a-4e55-4897-a922-6dd69968a16d",
-      "player": "Alan Rangel",
-      "position": "P",
-      "affiliate": "Lehigh Valley IronPigs",
-      "level": "AAA",
-      "score": 50.4,
-      "previousRank": 45,
-      "rank": 45,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 8.2,
-        "ageLevel": 7.5,
-        "sentiment": 10,
-        "movement": 7.7,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to MLB",
-        "Advanced to AAA"
-      ]
-    },
-    {
       "playerId": "443355d9-f184-45d1-87cf-c33c135bf55d",
       "player": "Jack Dallas",
       "position": "P",
@@ -1102,8 +1076,8 @@
       "level": "AA",
       "score": 50.4,
       "previousRank": 46,
-      "rank": 46,
-      "change": 0,
+      "rank": 45,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 13,
@@ -1115,6 +1089,30 @@
       "mediaMentions": 0,
       "reasons": [
         "Advanced to AA"
+      ]
+    },
+    {
+      "playerId": "2da80f7a-4e55-4897-a922-6dd69968a16d",
+      "player": "Alan Rangel",
+      "position": "P",
+      "affiliate": "Lehigh Valley IronPigs",
+      "level": "AAA",
+      "score": 50.3,
+      "previousRank": 45,
+      "rank": 46,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 8.2,
+        "ageLevel": 7.5,
+        "sentiment": 10,
+        "movement": 7.6,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to MLB",
+        "Advanced to AAA"
       ]
     },
     {
