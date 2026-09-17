@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T21:19:03.152Z",
+  "updatedAt": "2026-09-17T04:53:39.636Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -16,7 +16,7 @@
       "position": "SS",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 73.6,
+      "score": 73.4,
       "previousRank": 1,
       "rank": 1,
       "change": 0,
@@ -24,14 +24,14 @@
         "scouting": 30,
         "performance": 13.4,
         "ageLevel": 8.2,
-        "sentiment": 15.5,
+        "sentiment": 15.3,
         "movement": 4,
         "risk": 2.5
       },
-      "mediaMentions": 28,
+      "mediaMentions": 27,
       "reasons": [
         "MLB Pipeline rank #1",
-        "28 recent media mentions",
+        "27 recent media mentions",
         "Strong positive prospect coverage",
         "Material negative recent coverage"
       ]
@@ -67,13 +67,13 @@
       "position": "OF",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 69.2,
+      "score": 68.5,
       "previousRank": 3,
       "rank": 3,
       "change": 0,
       "components": {
         "scouting": 27.4,
-        "performance": 13.7,
+        "performance": 13,
         "ageLevel": 7.5,
         "sentiment": 10,
         "movement": 5.6,
@@ -194,7 +194,7 @@
       "position": "SS",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 65.3,
+      "score": 65.2,
       "previousRank": 8,
       "rank": 8,
       "change": 0,
@@ -202,7 +202,7 @@
         "scouting": 12.3,
         "performance": 21.2,
         "ageLevel": 6.4,
-        "sentiment": 15.8,
+        "sentiment": 15.7,
         "movement": 4.6,
         "risk": 5
       },
@@ -319,9 +319,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 60.1,
-      "previousRank": 14,
+      "previousRank": 13,
       "rank": 13,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 17.4,
@@ -344,9 +344,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 60.1,
-      "previousRank": 13,
+      "previousRank": 14,
       "rank": 14,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 17.2,
@@ -416,13 +416,13 @@
       "position": "INF",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 57.5,
+      "score": 57.2,
       "previousRank": 17,
       "rank": 17,
       "change": 0,
       "components": {
         "scouting": 12,
-        "performance": 13.3,
+        "performance": 13,
         "ageLevel": 7.5,
         "sentiment": 10,
         "movement": 9.7,
@@ -490,13 +490,13 @@
       "position": "1B",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 56,
+      "score": 56.1,
       "previousRank": 20,
       "rank": 20,
       "change": 0,
       "components": {
         "scouting": 11.6,
-        "performance": 17.9,
+        "performance": 18,
         "ageLevel": 7.5,
         "sentiment": 10,
         "movement": 4,
@@ -537,13 +537,13 @@
       "position": "INF",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 54.3,
+      "score": 54.6,
       "previousRank": 22,
       "rank": 22,
       "change": 0,
       "components": {
         "scouting": 12,
-        "performance": 15.2,
+        "performance": 15.5,
         "ageLevel": 7.5,
         "sentiment": 10,
         "movement": 4.6,
@@ -678,13 +678,13 @@
       "position": "INF",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 51.9,
+      "score": 51.8,
       "previousRank": 28,
       "rank": 28,
       "change": 0,
       "components": {
         "scouting": 12,
-        "performance": 13.4,
+        "performance": 13.3,
         "ageLevel": 7.5,
         "sentiment": 10,
         "movement": 4,
@@ -788,29 +788,6 @@
       ]
     },
     {
-      "playerId": "664e2816-001f-49a6-a263-70799c1d32b1",
-      "player": "Paul McIntosh",
-      "position": "C",
-      "affiliate": "Lehigh Valley IronPigs",
-      "level": "AAA",
-      "score": 51.3,
-      "previousRank": 33,
-      "rank": 33,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 12.8,
-        "ageLevel": 7.5,
-        "sentiment": 10,
-        "movement": 4,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Advanced to AAA"
-      ]
-    },
-    {
       "playerId": "8b39c0e5-2371-45df-96a7-963b7d79a96b",
       "player": "Ryan Dromboski",
       "position": "P",
@@ -818,8 +795,8 @@
       "level": "AA",
       "score": 51.3,
       "previousRank": 34,
-      "rank": 34,
-      "change": 0,
+      "rank": 33,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 8.2,
@@ -842,8 +819,8 @@
       "level": "A+",
       "score": 51.2,
       "previousRank": 35,
-      "rank": 35,
-      "change": 0,
+      "rank": 34,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 14,
@@ -858,15 +835,38 @@
       ]
     },
     {
+      "playerId": "664e2816-001f-49a6-a263-70799c1d32b1",
+      "player": "Paul McIntosh",
+      "position": "C",
+      "affiliate": "Lehigh Valley IronPigs",
+      "level": "AAA",
+      "score": 51.1,
+      "previousRank": 33,
+      "rank": 35,
+      "change": -2,
+      "components": {
+        "scouting": 12,
+        "performance": 12.6,
+        "ageLevel": 7.5,
+        "sentiment": 10,
+        "movement": 4,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Advanced to AAA"
+      ]
+    },
+    {
       "playerId": "51fe5804-a957-4c79-af0a-08399b915c7d",
       "player": "Brad Pacheco",
       "position": "P",
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 51,
-      "previousRank": 42,
+      "previousRank": 36,
       "rank": 36,
-      "change": 6,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 15,
@@ -888,9 +888,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 51,
-      "previousRank": 36,
+      "previousRank": 37,
       "rank": 37,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -911,9 +911,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 51,
-      "previousRank": 37,
+      "previousRank": 38,
       "rank": 38,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -935,9 +935,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 51,
-      "previousRank": 38,
+      "previousRank": 39,
       "rank": 39,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -958,9 +958,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 51,
-      "previousRank": 39,
+      "previousRank": 40,
       "rank": 40,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -981,9 +981,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 51,
-      "previousRank": 40,
+      "previousRank": 41,
       "rank": 41,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1004,9 +1004,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 50.9,
-      "previousRank": 41,
+      "previousRank": 42,
       "rank": 42,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 11.7,
@@ -1070,6 +1070,30 @@
       ]
     },
     {
+      "playerId": "2da80f7a-4e55-4897-a922-6dd69968a16d",
+      "player": "Alan Rangel",
+      "position": "P",
+      "affiliate": "Lehigh Valley IronPigs",
+      "level": "AAA",
+      "score": 50.4,
+      "previousRank": 46,
+      "rank": 45,
+      "change": 1,
+      "components": {
+        "scouting": 12,
+        "performance": 8.3,
+        "ageLevel": 7.5,
+        "sentiment": 10,
+        "movement": 7.6,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to MLB",
+        "Advanced to AAA"
+      ]
+    },
+    {
       "playerId": "443355d9-f184-45d1-87cf-c33c135bf55d",
       "player": "Jack Dallas",
       "position": "P",
@@ -1077,8 +1101,8 @@
       "level": "AA",
       "score": 50.4,
       "previousRank": 45,
-      "rank": 45,
-      "change": 0,
+      "rank": 46,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 13,
@@ -1093,36 +1117,12 @@
       ]
     },
     {
-      "playerId": "2da80f7a-4e55-4897-a922-6dd69968a16d",
-      "player": "Alan Rangel",
-      "position": "P",
-      "affiliate": "Lehigh Valley IronPigs",
-      "level": "AAA",
-      "score": 50.3,
-      "previousRank": 46,
-      "rank": 46,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 8.2,
-        "ageLevel": 7.5,
-        "sentiment": 10,
-        "movement": 7.6,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to MLB",
-        "Advanced to AAA"
-      ]
-    },
-    {
       "playerId": "abb820d6-d295-4677-8faa-6f11f95879b6",
       "player": "Raider Tello",
       "position": "INF",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 50.2,
+      "score": 50.1,
       "previousRank": 47,
       "rank": 47,
       "change": 0,
@@ -1131,7 +1131,7 @@
         "performance": 10.6,
         "ageLevel": 6.4,
         "sentiment": 10,
-        "movement": 6.2,
+        "movement": 6.1,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -1374,30 +1374,6 @@
       ]
     },
     {
-      "playerId": "c30cf3e9-c48e-412e-b965-554cf5670f21",
-      "player": "Matthew Ferrara",
-      "position": "SS",
-      "affiliate": "Clearwater Threshers",
-      "level": "A",
-      "score": 49,
-      "previousRank": 58,
-      "rank": 58,
-      "change": 0,
-      "components": {
-        "scouting": 14.4,
-        "performance": 11.2,
-        "ageLevel": 4.2,
-        "sentiment": 10.2,
-        "movement": 4,
-        "risk": 5
-      },
-      "mediaMentions": 2,
-      "reasons": [
-        "MLB Pipeline rank #24",
-        "2 recent media mentions"
-      ]
-    },
-    {
       "playerId": "2803d573-b2f4-40ce-87da-b070d0e04e5b",
       "player": "Pedro León",
       "position": "OF",
@@ -1405,8 +1381,8 @@
       "level": "AA",
       "score": 49,
       "previousRank": 59,
-      "rank": 59,
-      "change": 0,
+      "rank": 58,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 14.1,
@@ -1430,8 +1406,8 @@
       "level": "A+",
       "score": 48.9,
       "previousRank": 60,
-      "rank": 60,
-      "change": 0,
+      "rank": 59,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12,
@@ -1453,8 +1429,8 @@
       "level": "A+",
       "score": 48.8,
       "previousRank": 61,
-      "rank": 61,
-      "change": 0,
+      "rank": 60,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1465,6 +1441,30 @@
       },
       "mediaMentions": 0,
       "reasons": []
+    },
+    {
+      "playerId": "c30cf3e9-c48e-412e-b965-554cf5670f21",
+      "player": "Matthew Ferrara",
+      "position": "SS",
+      "affiliate": "Clearwater Threshers",
+      "level": "A",
+      "score": 48.8,
+      "previousRank": 58,
+      "rank": 61,
+      "change": -3,
+      "components": {
+        "scouting": 14.4,
+        "performance": 11.2,
+        "ageLevel": 4.2,
+        "sentiment": 10,
+        "movement": 4,
+        "risk": 5
+      },
+      "mediaMentions": 1,
+      "reasons": [
+        "MLB Pipeline rank #24",
+        "1 recent media mention"
+      ]
     },
     {
       "playerId": "36c4ee1b-b7fc-4264-965f-85547f960fa8",
@@ -1887,7 +1887,7 @@
       "position": "P",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 45.1,
+      "score": 45,
       "previousRank": 80,
       "rank": 80,
       "change": 0,
@@ -1896,7 +1896,7 @@
         "performance": 6.9,
         "ageLevel": 6.4,
         "sentiment": 10,
-        "movement": 4.8,
+        "movement": 4.7,
         "risk": 5
       },
       "mediaMentions": 0,
