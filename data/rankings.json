@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T21:23:01.215Z",
+  "updatedAt": "2026-09-18T04:44:07.690Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -16,7 +16,7 @@
       "position": "SS",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 74.6,
+      "score": 74.5,
       "previousRank": 1,
       "rank": 1,
       "change": 0,
@@ -24,7 +24,7 @@
         "scouting": 30,
         "performance": 13.4,
         "ageLevel": 8.2,
-        "sentiment": 16.5,
+        "sentiment": 16.4,
         "movement": 4,
         "risk": 2.5
       },
@@ -67,13 +67,13 @@
       "position": "OF",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 68.5,
+      "score": 69,
       "previousRank": 3,
       "rank": 3,
       "change": 0,
       "components": {
         "scouting": 27.4,
-        "performance": 13,
+        "performance": 13.5,
         "ageLevel": 7.5,
         "sentiment": 10,
         "movement": 5.6,
@@ -193,7 +193,7 @@
       "position": "SS",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 65.6,
+      "score": 65.5,
       "previousRank": 8,
       "rank": 8,
       "change": 0,
@@ -201,7 +201,7 @@
         "scouting": 12.3,
         "performance": 21.2,
         "ageLevel": 6.4,
-        "sentiment": 16.1,
+        "sentiment": 16,
         "movement": 4.6,
         "risk": 5
       },
@@ -415,13 +415,13 @@
       "position": "INF",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 57.6,
+      "score": 57.9,
       "previousRank": 17,
       "rank": 17,
       "change": 0,
       "components": {
         "scouting": 12,
-        "performance": 13,
+        "performance": 13.3,
         "ageLevel": 7.5,
         "sentiment": 10.5,
         "movement": 9.6,
@@ -461,6 +461,30 @@
       ]
     },
     {
+      "playerId": "c22a13e8-a828-417b-98e5-309e7789ebd2",
+      "player": "Keaton Anthony",
+      "position": "1B",
+      "affiliate": "Lehigh Valley IronPigs",
+      "level": "AAA",
+      "score": 56.4,
+      "previousRank": 20,
+      "rank": 19,
+      "change": 1,
+      "components": {
+        "scouting": 11.6,
+        "performance": 18.3,
+        "ageLevel": 7.5,
+        "sentiment": 10,
+        "movement": 4,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "MLB Pipeline rank #28",
+        "Advanced to AAA"
+      ]
+    },
+    {
       "playerId": "35010e4b-9e4d-4809-9fb6-7eb1e13f779b",
       "player": "Luis Caicuto",
       "position": "C",
@@ -468,8 +492,8 @@
       "level": "AA",
       "score": 56.4,
       "previousRank": 19,
-      "rank": 19,
-      "change": 0,
+      "rank": 20,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 15.9,
@@ -482,30 +506,6 @@
       "reasons": [
         "Promoted to AA",
         "Advanced to AA"
-      ]
-    },
-    {
-      "playerId": "c22a13e8-a828-417b-98e5-309e7789ebd2",
-      "player": "Keaton Anthony",
-      "position": "1B",
-      "affiliate": "Lehigh Valley IronPigs",
-      "level": "AAA",
-      "score": 56.1,
-      "previousRank": 20,
-      "rank": 20,
-      "change": 0,
-      "components": {
-        "scouting": 11.6,
-        "performance": 18,
-        "ageLevel": 7.5,
-        "sentiment": 10,
-        "movement": 4,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "MLB Pipeline rank #28",
-        "Advanced to AAA"
       ]
     },
     {
@@ -537,13 +537,13 @@
       "position": "INF",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 55.5,
+      "score": 55.2,
       "previousRank": 22,
       "rank": 22,
       "change": 0,
       "components": {
         "scouting": 12,
-        "performance": 15.5,
+        "performance": 15.2,
         "ageLevel": 7.5,
         "sentiment": 10.9,
         "movement": 4.6,
@@ -741,31 +741,6 @@
       ]
     },
     {
-      "playerId": "d27bdf7d-9b27-4db9-9e78-241a16c2c762",
-      "player": "Chuck King",
-      "position": "P",
-      "affiliate": "Lehigh Valley IronPigs",
-      "level": "AAA",
-      "score": 51.5,
-      "previousRank": 31,
-      "rank": 31,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 12.2,
-        "ageLevel": 7.5,
-        "sentiment": 10,
-        "movement": 4.8,
-        "risk": 5
-      },
-      "mediaMentions": 1,
-      "reasons": [
-        "1 recent media mention",
-        "Promoted to AAA",
-        "Advanced to AAA"
-      ]
-    },
-    {
       "playerId": "ffee4217-f454-4f1d-9397-796fe79fec59",
       "player": "Juan Amarante",
       "position": "P",
@@ -773,8 +748,8 @@
       "level": "A+",
       "score": 51.5,
       "previousRank": 32,
-      "rank": 32,
-      "change": 0,
+      "rank": 31,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 14.6,
@@ -796,8 +771,8 @@
       "level": "AAA",
       "score": 51.2,
       "previousRank": 33,
-      "rank": 33,
-      "change": 0,
+      "rank": 32,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 8.3,
@@ -821,8 +796,8 @@
       "level": "A+",
       "score": 51.2,
       "previousRank": 34,
-      "rank": 34,
-      "change": 0,
+      "rank": 33,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 14,
@@ -844,8 +819,8 @@
       "level": "AA",
       "score": 51.2,
       "previousRank": 35,
-      "rank": 35,
-      "change": 0,
+      "rank": 34,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 8.2,
@@ -868,8 +843,8 @@
       "level": "AAA",
       "score": 51.1,
       "previousRank": 36,
-      "rank": 36,
-      "change": 0,
+      "rank": 35,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.6,
@@ -891,8 +866,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 37,
-      "rank": 37,
-      "change": 0,
+      "rank": 36,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -914,8 +889,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 38,
-      "rank": 38,
-      "change": 0,
+      "rank": 37,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -938,8 +913,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 39,
-      "rank": 39,
-      "change": 0,
+      "rank": 38,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -961,8 +936,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 40,
-      "rank": 40,
-      "change": 0,
+      "rank": 39,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -984,8 +959,8 @@
       "level": "AAA",
       "score": 51,
       "previousRank": 41,
-      "rank": 41,
-      "change": 0,
+      "rank": 40,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1007,8 +982,8 @@
       "level": "A",
       "score": 50.8,
       "previousRank": 42,
-      "rank": 42,
-      "change": 0,
+      "rank": 41,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 15,
@@ -1030,8 +1005,8 @@
       "level": "AA",
       "score": 50.8,
       "previousRank": 43,
-      "rank": 43,
-      "change": 0,
+      "rank": 42,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 11.7,
@@ -1054,8 +1029,8 @@
       "level": "AA",
       "score": 50.7,
       "previousRank": 44,
-      "rank": 44,
-      "change": 0,
+      "rank": 43,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1078,8 +1053,8 @@
       "level": "AA",
       "score": 50.6,
       "previousRank": 45,
-      "rank": 45,
-      "change": 0,
+      "rank": 44,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 10.3,
@@ -1102,8 +1077,8 @@
       "level": "AA",
       "score": 50.4,
       "previousRank": 46,
-      "rank": 46,
-      "change": 0,
+      "rank": 45,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 13,
@@ -1115,6 +1090,31 @@
       "mediaMentions": 0,
       "reasons": [
         "Advanced to AA"
+      ]
+    },
+    {
+      "playerId": "d27bdf7d-9b27-4db9-9e78-241a16c2c762",
+      "player": "Chuck King",
+      "position": "P",
+      "affiliate": "Lehigh Valley IronPigs",
+      "level": "AAA",
+      "score": 50.3,
+      "previousRank": 31,
+      "rank": 46,
+      "change": -15,
+      "components": {
+        "scouting": 12,
+        "performance": 11,
+        "ageLevel": 7.5,
+        "sentiment": 10,
+        "movement": 4.8,
+        "risk": 5
+      },
+      "mediaMentions": 1,
+      "reasons": [
+        "1 recent media mention",
+        "Promoted to AAA",
+        "Advanced to AAA"
       ]
     },
     {
@@ -1392,8 +1392,9 @@
         "movement": 4,
         "risk": 2.5
       },
-      "mediaMentions": 0,
+      "mediaMentions": 1,
       "reasons": [
+        "1 recent media mention",
         "Current injury lowers availability",
         "Advanced to AA"
       ]
@@ -1460,10 +1461,10 @@
         "movement": 4,
         "risk": 5
       },
-      "mediaMentions": 1,
+      "mediaMentions": 2,
       "reasons": [
         "MLB Pipeline rank #24",
-        "1 recent media mention"
+        "2 recent media mentions"
       ]
     },
     {
@@ -2063,6 +2064,29 @@
       ]
     },
     {
+      "playerId": "39cca106-88ac-4fca-8233-4f43fa4739a4",
+      "player": "Tucker Davidson",
+      "position": "P",
+      "affiliate": "Lehigh Valley IronPigs",
+      "level": "AAA",
+      "score": 43.2,
+      "previousRank": 89,
+      "rank": 88,
+      "change": 1,
+      "components": {
+        "scouting": 12,
+        "performance": 4.7,
+        "ageLevel": 7.5,
+        "sentiment": 10,
+        "movement": 4,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Advanced to AAA"
+      ]
+    },
+    {
       "playerId": "aa466c53-fa9d-440a-82b4-402c21d1b8cd",
       "player": "MT Morrissey",
       "position": "P",
@@ -2070,8 +2094,8 @@
       "level": "A",
       "score": 42.9,
       "previousRank": 88,
-      "rank": 88,
-      "change": 0,
+      "rank": 89,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 9.6,
@@ -2084,29 +2108,6 @@
       "reasons": [
         "Promoted to Single-A",
         "Current injury lowers availability"
-      ]
-    },
-    {
-      "playerId": "39cca106-88ac-4fca-8233-4f43fa4739a4",
-      "player": "Tucker Davidson",
-      "position": "P",
-      "affiliate": "Lehigh Valley IronPigs",
-      "level": "AAA",
-      "score": 42.9,
-      "previousRank": 89,
-      "rank": 89,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 4.4,
-        "ageLevel": 7.5,
-        "sentiment": 10,
-        "movement": 4,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Advanced to AAA"
       ]
     },
     {
