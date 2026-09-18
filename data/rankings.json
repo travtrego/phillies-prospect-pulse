@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T14:32:25.812Z",
+  "updatedAt": "2026-09-18T16:24:39.229Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -16,7 +16,7 @@
       "position": "SS",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 74.8,
+      "score": 74.7,
       "previousRank": 1,
       "rank": 1,
       "change": 0,
@@ -24,14 +24,14 @@
         "scouting": 30,
         "performance": 13.4,
         "ageLevel": 8.2,
-        "sentiment": 16.7,
+        "sentiment": 16.6,
         "movement": 4,
         "risk": 2.5
       },
-      "mediaMentions": 29,
+      "mediaMentions": 25,
       "reasons": [
         "MLB Pipeline rank #1",
-        "29 recent media mentions",
+        "25 recent media mentions",
         "Strong positive prospect coverage",
         "Material negative recent coverage"
       ]
@@ -88,20 +88,46 @@
       ]
     },
     {
+      "playerId": "5a9ca442-aa33-48e9-82f4-aacd5435bc0c",
+      "player": "Bryan Rincon",
+      "position": "SS",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 67.6,
+      "previousRank": 8,
+      "rank": 4,
+      "change": 4,
+      "components": {
+        "scouting": 12.3,
+        "performance": 21.2,
+        "ageLevel": 6.4,
+        "sentiment": 18.1,
+        "movement": 4.6,
+        "risk": 5
+      },
+      "mediaMentions": 9,
+      "reasons": [
+        "Strong current-season performance",
+        "MLB Pipeline rank #27",
+        "9 recent media mentions",
+        "Strong positive prospect coverage"
+      ]
+    },
+    {
       "playerId": "e5eba231-6025-4d9b-9365-8666b2481e96",
       "player": "Cody Bowker",
       "position": "RHP",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 66.6,
+      "score": 66.7,
       "previousRank": 4,
-      "rank": 4,
-      "change": 0,
+      "rank": 5,
+      "change": -1,
       "components": {
         "scouting": 21.6,
         "performance": 15.6,
         "ageLevel": 6.4,
-        "sentiment": 10.1,
+        "sentiment": 10.2,
         "movement": 7.9,
         "risk": 5
       },
@@ -121,8 +147,8 @@
       "level": "AA",
       "score": 66.5,
       "previousRank": 5,
-      "rank": 5,
-      "change": 0,
+      "rank": 6,
+      "change": -1,
       "components": {
         "scouting": 20.2,
         "performance": 20.9,
@@ -146,8 +172,8 @@
       "level": "AA",
       "score": 65.7,
       "previousRank": 6,
-      "rank": 6,
-      "change": 0,
+      "rank": 7,
+      "change": -1,
       "components": {
         "scouting": 23.1,
         "performance": 15.6,
@@ -171,8 +197,8 @@
       "level": "AA",
       "score": 65.6,
       "previousRank": 7,
-      "rank": 7,
-      "change": 0,
+      "rank": 8,
+      "change": -1,
       "components": {
         "scouting": 28.8,
         "performance": 11.6,
@@ -185,32 +211,6 @@
       "reasons": [
         "MLB Pipeline rank #4",
         "Advanced to AA"
-      ]
-    },
-    {
-      "playerId": "5a9ca442-aa33-48e9-82f4-aacd5435bc0c",
-      "player": "Bryan Rincon",
-      "position": "SS",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 65.6,
-      "previousRank": 8,
-      "rank": 8,
-      "change": 0,
-      "components": {
-        "scouting": 12.3,
-        "performance": 21.2,
-        "ageLevel": 6.4,
-        "sentiment": 16.1,
-        "movement": 4.6,
-        "risk": 5
-      },
-      "mediaMentions": 9,
-      "reasons": [
-        "Strong current-season performance",
-        "MLB Pipeline rank #27",
-        "9 recent media mentions",
-        "Strong positive prospect coverage"
       ]
     },
     {
@@ -389,7 +389,7 @@
       "position": "OF",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 59.6,
+      "score": 59.7,
       "previousRank": 16,
       "rank": 16,
       "change": 0,
@@ -397,7 +397,7 @@
         "scouting": 23.8,
         "performance": 8.5,
         "ageLevel": 5.3,
-        "sentiment": 10.1,
+        "sentiment": 10.2,
         "movement": 6.9,
         "risk": 5
       },
@@ -1458,10 +1458,10 @@
         "movement": 4,
         "risk": 5
       },
-      "mediaMentions": 2,
+      "mediaMentions": 1,
       "reasons": [
         "MLB Pipeline rank #24",
-        "2 recent media mentions"
+        "1 recent media mention"
       ]
     },
     {
