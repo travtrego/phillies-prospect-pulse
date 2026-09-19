@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T10:59:47.176Z",
+  "updatedAt": "2026-09-19T13:56:14.642Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -16,7 +16,7 @@
       "position": "SS",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 75,
+      "score": 74.5,
       "previousRank": 1,
       "rank": 1,
       "change": 0,
@@ -24,14 +24,14 @@
         "scouting": 30,
         "performance": 13.4,
         "ageLevel": 8.2,
-        "sentiment": 16.9,
+        "sentiment": 16.4,
         "movement": 4,
         "risk": 2.5
       },
-      "mediaMentions": 29,
+      "mediaMentions": 26,
       "reasons": [
         "MLB Pipeline rank #1",
-        "29 recent media mentions",
+        "26 recent media mentions",
         "Strong positive prospect coverage",
         "Material negative recent coverage"
       ]
@@ -89,32 +89,6 @@
       ]
     },
     {
-      "playerId": "5a9ca442-aa33-48e9-82f4-aacd5435bc0c",
-      "player": "Bryan Rincon",
-      "position": "SS",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 67.4,
-      "previousRank": 4,
-      "rank": 4,
-      "change": 0,
-      "components": {
-        "scouting": 12.3,
-        "performance": 21.2,
-        "ageLevel": 6.4,
-        "sentiment": 17.9,
-        "movement": 4.6,
-        "risk": 5
-      },
-      "mediaMentions": 9,
-      "reasons": [
-        "Strong current-season performance",
-        "MLB Pipeline rank #27",
-        "9 recent media mentions",
-        "Strong positive prospect coverage"
-      ]
-    },
-    {
       "playerId": "e5eba231-6025-4d9b-9365-8666b2481e96",
       "player": "Cody Bowker",
       "position": "RHP",
@@ -122,8 +96,8 @@
       "level": "AA",
       "score": 66.7,
       "previousRank": 5,
-      "rank": 5,
-      "change": 0,
+      "rank": 4,
+      "change": 1,
       "components": {
         "scouting": 21.6,
         "performance": 15.6,
@@ -148,8 +122,8 @@
       "level": "AA",
       "score": 66.5,
       "previousRank": 6,
-      "rank": 6,
-      "change": 0,
+      "rank": 5,
+      "change": 1,
       "components": {
         "scouting": 20.2,
         "performance": 20.9,
@@ -173,8 +147,8 @@
       "level": "AA",
       "score": 65.7,
       "previousRank": 7,
-      "rank": 7,
-      "change": 0,
+      "rank": 6,
+      "change": 1,
       "components": {
         "scouting": 23.1,
         "performance": 15.6,
@@ -198,8 +172,8 @@
       "level": "AA",
       "score": 65.6,
       "previousRank": 8,
-      "rank": 8,
-      "change": 0,
+      "rank": 7,
+      "change": 1,
       "components": {
         "scouting": 28.8,
         "performance": 11.6,
@@ -215,12 +189,38 @@
       ]
     },
     {
+      "playerId": "5a9ca442-aa33-48e9-82f4-aacd5435bc0c",
+      "player": "Bryan Rincon",
+      "position": "SS",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 65.2,
+      "previousRank": 4,
+      "rank": 8,
+      "change": -4,
+      "components": {
+        "scouting": 12.3,
+        "performance": 21.2,
+        "ageLevel": 6.4,
+        "sentiment": 15.7,
+        "movement": 4.6,
+        "risk": 5
+      },
+      "mediaMentions": 7,
+      "reasons": [
+        "Strong current-season performance",
+        "MLB Pipeline rank #27",
+        "7 recent media mentions",
+        "Strong positive prospect coverage"
+      ]
+    },
+    {
       "playerId": "7a4408f1-d3cf-4b7c-9e20-c7ecf26f797d",
       "player": "Dante Nori",
       "position": "OF",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 64.6,
+      "score": 64.1,
       "previousRank": 9,
       "rank": 9,
       "change": 0,
@@ -228,14 +228,14 @@
         "scouting": 28.1,
         "performance": 9.6,
         "ageLevel": 7.2,
-        "sentiment": 10.7,
+        "sentiment": 10.2,
         "movement": 4,
         "risk": 5
       },
-      "mediaMentions": 1,
+      "mediaMentions": 2,
       "reasons": [
         "MLB Pipeline rank #5",
-        "1 recent media mention",
+        "2 recent media mentions",
         "Advanced to AA"
       ]
     },
@@ -632,7 +632,7 @@
       "position": "P",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 52.9,
+      "score": 52.8,
       "previousRank": 26,
       "rank": 26,
       "change": 0,
@@ -641,7 +641,7 @@
         "performance": 13.1,
         "ageLevel": 5.3,
         "sentiment": 10,
-        "movement": 7.5,
+        "movement": 7.4,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -1094,30 +1094,6 @@
       ]
     },
     {
-      "playerId": "2da80f7a-4e55-4897-a922-6dd69968a16d",
-      "player": "Alan Rangel",
-      "position": "P",
-      "affiliate": "Lehigh Valley IronPigs",
-      "level": "AAA",
-      "score": 50.3,
-      "previousRank": 46,
-      "rank": 46,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 8.3,
-        "ageLevel": 7.5,
-        "sentiment": 10,
-        "movement": 7.5,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to MLB",
-        "Advanced to AAA"
-      ]
-    },
-    {
       "playerId": "d27bdf7d-9b27-4db9-9e78-241a16c2c762",
       "player": "Chuck King",
       "position": "P",
@@ -1125,8 +1101,8 @@
       "level": "AAA",
       "score": 50.3,
       "previousRank": 47,
-      "rank": 47,
-      "change": 0,
+      "rank": 46,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 11,
@@ -1135,10 +1111,33 @@
         "movement": 4.8,
         "risk": 5
       },
-      "mediaMentions": 1,
+      "mediaMentions": 0,
       "reasons": [
-        "1 recent media mention",
         "Promoted to AAA",
+        "Advanced to AAA"
+      ]
+    },
+    {
+      "playerId": "2da80f7a-4e55-4897-a922-6dd69968a16d",
+      "player": "Alan Rangel",
+      "position": "P",
+      "affiliate": "Lehigh Valley IronPigs",
+      "level": "AAA",
+      "score": 50.2,
+      "previousRank": 46,
+      "rank": 47,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 8.3,
+        "ageLevel": 7.5,
+        "sentiment": 10,
+        "movement": 7.4,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to MLB",
         "Advanced to AAA"
       ]
     },
@@ -1752,7 +1751,7 @@
       "position": "P",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 46.2,
+      "score": 46.1,
       "previousRank": 74,
       "rank": 74,
       "change": 0,
@@ -1761,7 +1760,7 @@
         "performance": 9.2,
         "ageLevel": 6.4,
         "sentiment": 10,
-        "movement": 6.1,
+        "movement": 6,
         "risk": 2.5
       },
       "mediaMentions": 0,
