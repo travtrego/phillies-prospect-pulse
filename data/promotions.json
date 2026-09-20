@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-09-20T14:14:39.874Z",
+  "updatedAt": "2026-09-20T16:06:36.876Z",
   "records": [
+    {
+      "playerId": 676661,
+      "player": "Max Lazar",
+      "date": "2026-09-20",
+      "fromAffiliate": "Lehigh Valley IronPigs",
+      "fromLevel": "AAA",
+      "toAffiliate": "Philadelphia Phillies",
+      "toLevel": "MLB",
+      "description": "Philadelphia Phillies recalled RHP Max Lazar from Lehigh Valley IronPigs.",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-09-20&endDate=2026-09-20"
+    },
     {
       "playerId": 814781,
       "player": "Jonathan Hogart",
