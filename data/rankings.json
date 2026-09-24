@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T17:11:58.629Z",
+  "updatedAt": "2026-09-24T21:31:27.638Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -16,7 +16,7 @@
       "position": "SS",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 72.5,
+      "score": 71.7,
       "previousRank": 1,
       "rank": 1,
       "change": 0,
@@ -24,7 +24,7 @@
         "scouting": 30,
         "performance": 13.4,
         "ageLevel": 8.2,
-        "sentiment": 14.4,
+        "sentiment": 13.6,
         "movement": 4,
         "risk": 2.5
       },
@@ -42,7 +42,7 @@
       "position": "RHP",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 71.4,
+      "score": 71.5,
       "previousRank": 2,
       "rank": 2,
       "change": 0,
@@ -50,14 +50,14 @@
         "scouting": 30,
         "performance": 15.4,
         "ageLevel": 7.2,
-        "sentiment": 8.7,
+        "sentiment": 8.8,
         "movement": 5.1,
         "risk": 5
       },
-      "mediaMentions": 6,
+      "mediaMentions": 7,
       "reasons": [
         "MLB Pipeline rank #2",
-        "6 recent media mentions",
+        "7 recent media mentions",
         "Negative recent coverage",
         "Promoted to AA"
       ]
@@ -462,7 +462,7 @@
       "position": "INF",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 56.6,
+      "score": 57,
       "previousRank": 19,
       "rank": 19,
       "change": 0,
@@ -470,12 +470,13 @@
         "scouting": 12,
         "performance": 13,
         "ageLevel": 7.5,
-        "sentiment": 10,
+        "sentiment": 10.4,
         "movement": 9.1,
         "risk": 5
       },
-      "mediaMentions": 0,
+      "mediaMentions": 1,
       "reasons": [
+        "1 recent media mention",
         "Promoted to AAA",
         "Advanced to AAA"
       ]
@@ -1434,10 +1435,10 @@
         "movement": 4,
         "risk": 5
       },
-      "mediaMentions": 2,
+      "mediaMentions": 1,
       "reasons": [
         "MLB Pipeline rank #24",
-        "2 recent media mentions"
+        "1 recent media mention"
       ]
     },
     {
@@ -1919,9 +1920,8 @@
         "movement": 4.7,
         "risk": 5
       },
-      "mediaMentions": 1,
+      "mediaMentions": 0,
       "reasons": [
-        "1 recent media mention",
         "Promoted to AAA",
         "Advanced to AA"
       ]
