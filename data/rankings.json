@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T21:31:27.638Z",
+  "updatedAt": "2026-09-25T04:58:05.351Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -16,7 +16,7 @@
       "position": "SS",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 71.7,
+      "score": 71.6,
       "previousRank": 1,
       "rank": 1,
       "change": 0,
@@ -24,14 +24,14 @@
         "scouting": 30,
         "performance": 13.4,
         "ageLevel": 8.2,
-        "sentiment": 13.6,
+        "sentiment": 13.5,
         "movement": 4,
         "risk": 2.5
       },
-      "mediaMentions": 21,
+      "mediaMentions": 20,
       "reasons": [
         "MLB Pipeline rank #1",
-        "21 recent media mentions",
+        "20 recent media mentions",
         "Strong positive prospect coverage",
         "Material negative recent coverage"
       ]
@@ -243,7 +243,7 @@
       "position": "SS",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 63.5,
+      "score": 63.6,
       "previousRank": 10,
       "rank": 10,
       "change": 0,
@@ -251,15 +251,15 @@
         "scouting": 12.3,
         "performance": 21.2,
         "ageLevel": 6.4,
-        "sentiment": 14,
+        "sentiment": 14.1,
         "movement": 4.6,
         "risk": 5
       },
-      "mediaMentions": 6,
+      "mediaMentions": 7,
       "reasons": [
         "Strong current-season performance",
         "MLB Pipeline rank #27",
-        "6 recent media mentions",
+        "7 recent media mentions",
         "Strong positive prospect coverage"
       ]
     },
@@ -2016,9 +2016,8 @@
         "movement": 4.6,
         "risk": 5
       },
-      "mediaMentions": 1,
+      "mediaMentions": 0,
       "reasons": [
-        "1 recent media mention",
         "Promoted to Single-A"
       ]
     },
