@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T17:11:33.462Z",
+  "updatedAt": "2026-09-25T21:35:50.165Z",
   "season": 2026,
   "rosterType": "active (MLB) + fullRoster (affiliates)",
   "records": [
@@ -5255,7 +5255,7 @@
       "player": "Chuck King",
       "position": "P",
       "positionType": "Pitcher",
-      "status": "Development List",
+      "status": "Active",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "birthDate": "1998-01-06",
@@ -5423,7 +5423,7 @@
       "player": "Drake Fellows",
       "position": "P",
       "positionType": "Pitcher",
-      "status": "Development List",
+      "status": "Active",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "birthDate": "1998-03-06",
@@ -6193,7 +6193,7 @@
       "player": "Orion Kerkering",
       "position": "P",
       "positionType": "Pitcher",
-      "status": "Not Yet Reported",
+      "status": "Active",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "birthDate": "2001-04-04",

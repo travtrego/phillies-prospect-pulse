@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T17:11:51.944Z",
+  "updatedAt": "2026-09-25T21:36:10.965Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -42,7 +42,7 @@
       "position": "RHP",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 70.5,
+      "score": 70.4,
       "previousRank": 2,
       "rank": 2,
       "change": 0,
@@ -51,7 +51,7 @@
         "performance": 15.4,
         "ageLevel": 7.2,
         "sentiment": 7.8,
-        "movement": 5.1,
+        "movement": 5,
         "risk": 5
       },
       "mediaMentions": 6,
@@ -242,7 +242,7 @@
       "position": "SS",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 63.5,
+      "score": 63.2,
       "previousRank": 10,
       "rank": 10,
       "change": 0,
@@ -250,16 +250,16 @@
         "scouting": 12.3,
         "performance": 21.2,
         "ageLevel": 6.4,
-        "sentiment": 14.1,
+        "sentiment": 13.8,
         "movement": 4.5,
         "risk": 5
       },
-      "mediaMentions": 7,
+      "mediaMentions": 6,
       "reasons": [
         "Strong current-season performance",
         "MLB Pipeline rank #27",
-        "7 recent media mentions",
-        "Strong positive prospect coverage"
+        "6 recent media mentions",
+        "Positive recent coverage"
       ]
     },
     {
@@ -311,21 +311,21 @@
       ]
     },
     {
-      "playerId": "2a362ae5-4e37-484a-85bf-045b09564892",
-      "player": "Alex Binelas",
-      "position": "INF",
+      "playerId": "c16c7468-fda9-463b-9fbe-e846f5e1c41e",
+      "player": "Jonathan Hogart",
+      "position": "OF",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 60.2,
-      "previousRank": 13,
+      "previousRank": 14,
       "rank": 13,
-      "change": 0,
+      "change": 1,
       "components": {
         "scouting": 12,
-        "performance": 17.4,
+        "performance": 16.3,
         "ageLevel": 7.5,
         "sentiment": 10,
-        "movement": 8.3,
+        "movement": 9.4,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -335,21 +335,21 @@
       ]
     },
     {
-      "playerId": "c16c7468-fda9-463b-9fbe-e846f5e1c41e",
-      "player": "Jonathan Hogart",
-      "position": "OF",
+      "playerId": "2a362ae5-4e37-484a-85bf-045b09564892",
+      "player": "Alex Binelas",
+      "position": "INF",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 60.2,
-      "previousRank": 14,
+      "score": 60.1,
+      "previousRank": 13,
       "rank": 14,
-      "change": 0,
+      "change": -1,
       "components": {
         "scouting": 12,
-        "performance": 16.3,
+        "performance": 17.4,
         "ageLevel": 7.5,
         "sentiment": 10,
-        "movement": 9.4,
+        "movement": 8.2,
         "risk": 5
       },
       "mediaMentions": 0,
