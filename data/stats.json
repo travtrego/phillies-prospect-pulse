@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T18:10:51.324Z",
+  "updatedAt": "2026-09-28T23:16:30.478Z",
   "season": 2026,
   "rosterType": "active (MLB) + fullRoster (affiliates)",
   "records": [
@@ -2576,7 +2576,7 @@
       "weight": 230,
       "bats": "R",
       "throws": "R",
-      "jerseyNumber": "44",
+      "jerseyNumber": null,
       "active": true,
       "mlbDebutDate": null,
       "draftYear": null,
@@ -2961,7 +2961,7 @@
       "weight": 165,
       "bats": "R",
       "throws": "R",
-      "jerseyNumber": "97",
+      "jerseyNumber": null,
       "active": true,
       "mlbDebutDate": null,
       "draftYear": null,
