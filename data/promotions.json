@@ -1,6 +1,94 @@
 {
-  "updatedAt": "2026-09-29T12:53:12.478Z",
+  "updatedAt": "2026-09-29T16:31:47.620Z",
   "records": [
+    {
+      "playerId": 660604,
+      "player": "Alan Rangel",
+      "date": "2026-09-28",
+      "fromAffiliate": "Lehigh Valley IronPigs",
+      "fromLevel": "AAA",
+      "toAffiliate": "Philadelphia Phillies",
+      "toLevel": "MLB",
+      "description": "Philadelphia Phillies recalled RHP Alan Rangel from Lehigh Valley IronPigs.",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-09-29&endDate=2026-09-29"
+    },
+    {
+      "playerId": 694851,
+      "player": "Andrew Hoffmann",
+      "date": "2026-09-28",
+      "fromAffiliate": "Lehigh Valley IronPigs",
+      "fromLevel": "AAA",
+      "toAffiliate": "Philadelphia Phillies",
+      "toLevel": "MLB",
+      "description": "Philadelphia Phillies recalled RHP Andrew Hoffmann from Lehigh Valley IronPigs.",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-09-29&endDate=2026-09-29"
+    },
+    {
+      "playerId": 687515,
+      "player": "Colby Thomas",
+      "date": "2026-09-28",
+      "fromAffiliate": "Lehigh Valley IronPigs",
+      "fromLevel": "AAA",
+      "toAffiliate": "Philadelphia Phillies",
+      "toLevel": "MLB",
+      "description": "Philadelphia Phillies recalled RF Colby Thomas from Lehigh Valley IronPigs.",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-09-29&endDate=2026-09-29"
+    },
+    {
+      "playerId": 687282,
+      "player": "Gabriel Rincones Jr.",
+      "date": "2026-09-28",
+      "fromAffiliate": "Lehigh Valley IronPigs",
+      "fromLevel": "AAA",
+      "toAffiliate": "Philadelphia Phillies",
+      "toLevel": "MLB",
+      "description": "Philadelphia Phillies recalled RF Gabriel Rincones Jr. from Lehigh Valley IronPigs.",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-09-29&endDate=2026-09-29"
+    },
+    {
+      "playerId": 680880,
+      "player": "Grant Holman",
+      "date": "2026-09-28",
+      "fromAffiliate": "Lehigh Valley IronPigs",
+      "fromLevel": "AAA",
+      "toAffiliate": "Philadelphia Phillies",
+      "toLevel": "MLB",
+      "description": "Philadelphia Phillies recalled RHP Grant Holman from Lehigh Valley IronPigs.",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-09-29&endDate=2026-09-29"
+    },
+    {
+      "playerId": 670224,
+      "player": "Kameron Misner",
+      "date": "2026-09-28",
+      "fromAffiliate": "Lehigh Valley IronPigs",
+      "fromLevel": "AAA",
+      "toAffiliate": "Philadelphia Phillies",
+      "toLevel": "MLB",
+      "description": "Philadelphia Phillies recalled CF Kameron Misner from Lehigh Valley IronPigs.",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-09-29&endDate=2026-09-29"
+    },
+    {
+      "playerId": 691330,
+      "player": "Moisés Chace",
+      "date": "2026-09-28",
+      "fromAffiliate": "Reading Fightin Phils",
+      "fromLevel": "AA",
+      "toAffiliate": "Philadelphia Phillies",
+      "toLevel": "MLB",
+      "description": "Philadelphia Phillies recalled RHP Moisés Chace from Reading Fightin Phils.",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=522&startDate=2025-09-29&endDate=2026-09-29"
+    },
+    {
+      "playerId": 641482,
+      "player": "Nestor Cortes",
+      "date": "2026-09-28",
+      "fromAffiliate": "Lehigh Valley IronPigs",
+      "fromLevel": "AAA",
+      "toAffiliate": "Philadelphia Phillies",
+      "toLevel": "MLB",
+      "description": "Philadelphia Phillies recalled LHP Nestor Cortes from Lehigh Valley IronPigs.",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-09-29&endDate=2026-09-29"
+    },
     {
       "playerId": 676661,
       "player": "Max Lazar",
