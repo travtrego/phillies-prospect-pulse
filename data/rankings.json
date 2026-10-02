@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T12:35:51.566Z",
+  "updatedAt": "2026-10-02T16:17:03.069Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -54,10 +54,10 @@
         "movement": 4,
         "risk": 2.5
       },
-      "mediaMentions": 21,
+      "mediaMentions": 22,
       "reasons": [
         "MLB Pipeline rank #1",
-        "21 recent media mentions",
+        "22 recent media mentions",
         "Strong positive prospect coverage",
         "Material negative recent coverage"
       ]
@@ -333,15 +333,40 @@
       ]
     },
     {
+      "playerId": "731551df-3c70-4c1f-9284-bfd823091735",
+      "player": "Griffin Burkholder",
+      "position": "OF",
+      "affiliate": "Jersey Shore BlueClaws",
+      "level": "A+",
+      "score": 59.1,
+      "previousRank": 15,
+      "rank": 14,
+      "change": 1,
+      "components": {
+        "scouting": 23.8,
+        "performance": 8.5,
+        "ageLevel": 5.3,
+        "sentiment": 10.1,
+        "movement": 6.4,
+        "risk": 5
+      },
+      "mediaMentions": 1,
+      "reasons": [
+        "MLB Pipeline rank #11",
+        "1 recent media mention",
+        "Promoted to High-A"
+      ]
+    },
+    {
       "playerId": "94676efc-cb38-4956-90de-921758f475b0",
       "player": "Keegan Batka",
       "position": "P",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 59.1,
-      "previousRank": 15,
-      "rank": 14,
-      "change": 1,
+      "previousRank": 14,
+      "rank": 15,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 17.2,
@@ -354,30 +379,6 @@
       "reasons": [
         "Promoted to AA",
         "Advanced to AA"
-      ]
-    },
-    {
-      "playerId": "731551df-3c70-4c1f-9284-bfd823091735",
-      "player": "Griffin Burkholder",
-      "position": "OF",
-      "affiliate": "Jersey Shore BlueClaws",
-      "level": "A+",
-      "score": 59,
-      "previousRank": 14,
-      "rank": 15,
-      "change": -1,
-      "components": {
-        "scouting": 23.8,
-        "performance": 8.5,
-        "ageLevel": 5.3,
-        "sentiment": 10,
-        "movement": 6.4,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "MLB Pipeline rank #11",
-        "Promoted to High-A"
       ]
     },
     {
