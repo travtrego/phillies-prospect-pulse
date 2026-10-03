@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T16:18:10.091Z",
+  "updatedAt": "2026-10-03T21:14:36.832Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -42,7 +42,7 @@
       "position": "SS",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 71.2,
+      "score": 72.6,
       "previousRank": 2,
       "rank": 2,
       "change": 0,
@@ -50,14 +50,14 @@
         "scouting": 30,
         "performance": 13.4,
         "ageLevel": 8.2,
-        "sentiment": 13.1,
+        "sentiment": 14.5,
         "movement": 4,
         "risk": 2.5
       },
-      "mediaMentions": 22,
+      "mediaMentions": 21,
       "reasons": [
         "MLB Pipeline rank #1",
-        "22 recent media mentions",
+        "21 recent media mentions",
         "Strong positive prospect coverage",
         "Material negative recent coverage"
       ]
@@ -240,7 +240,7 @@
       "position": "SS",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 60.9,
+      "score": 61.5,
       "previousRank": 10,
       "rank": 10,
       "change": 0,
@@ -248,7 +248,7 @@
         "scouting": 12.3,
         "performance": 21.2,
         "ageLevel": 6.4,
-        "sentiment": 11.5,
+        "sentiment": 12.1,
         "movement": 4.5,
         "risk": 5
       },
@@ -410,7 +410,7 @@
       "position": "INF",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 56.4,
+      "score": 56.3,
       "previousRank": 17,
       "rank": 17,
       "change": 0,
@@ -419,7 +419,7 @@
         "performance": 13,
         "ageLevel": 7.5,
         "sentiment": 10.3,
-        "movement": 8.6,
+        "movement": 8.5,
         "risk": 5
       },
       "mediaMentions": 1,
@@ -649,7 +649,7 @@
       "position": "P",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 52.3,
+      "score": 52.2,
       "previousRank": 27,
       "rank": 27,
       "change": 0,
@@ -658,7 +658,7 @@
         "performance": 13.1,
         "ageLevel": 5.3,
         "sentiment": 10,
-        "movement": 6.9,
+        "movement": 6.8,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -1046,7 +1046,7 @@
       "position": "P",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 50.2,
+      "score": 50.1,
       "previousRank": 44,
       "rank": 44,
       "change": 0,
@@ -1055,7 +1055,7 @@
         "performance": 8.2,
         "ageLevel": 6.4,
         "sentiment": 10,
-        "movement": 8.6,
+        "movement": 8.5,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -1421,7 +1421,7 @@
       "position": "P",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 48.4,
+      "score": 48.3,
       "previousRank": 60,
       "rank": 60,
       "change": 0,
@@ -1430,7 +1430,7 @@
         "performance": 9,
         "ageLevel": 5.3,
         "sentiment": 10,
-        "movement": 7.1,
+        "movement": 7,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -1628,7 +1628,7 @@
       "position": "INF",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 46.5,
+      "score": 46.4,
       "previousRank": 69,
       "rank": 69,
       "change": 0,
@@ -1637,7 +1637,7 @@
         "performance": 9.1,
         "ageLevel": 5.3,
         "sentiment": 10,
-        "movement": 5.1,
+        "movement": 5,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -1876,15 +1876,40 @@
       ]
     },
     {
+      "playerId": "62ebd038-11f5-429c-bc5c-368982d5c942",
+      "player": "Caleb Ricketts",
+      "position": "C",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 44.7,
+      "previousRank": 81,
+      "rank": 80,
+      "change": 1,
+      "components": {
+        "scouting": 12,
+        "performance": 6.6,
+        "ageLevel": 6.4,
+        "sentiment": 10.2,
+        "movement": 4.5,
+        "risk": 5
+      },
+      "mediaMentions": 1,
+      "reasons": [
+        "1 recent media mention",
+        "Promoted to AAA",
+        "Advanced to AA"
+      ]
+    },
+    {
       "playerId": "7bbed44d-119b-4d85-b3b5-04a21e48d1de",
       "player": "Connor Gillispie",
       "position": "P",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 44.7,
-      "previousRank": 81,
-      "rank": 80,
-      "change": 1,
+      "previousRank": 80,
+      "rank": 81,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 8.7,
@@ -1897,31 +1922,6 @@
       "reasons": [
         "Current injury lowers availability",
         "Advanced to AAA"
-      ]
-    },
-    {
-      "playerId": "62ebd038-11f5-429c-bc5c-368982d5c942",
-      "player": "Caleb Ricketts",
-      "position": "C",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 44.6,
-      "previousRank": 80,
-      "rank": 81,
-      "change": -1,
-      "components": {
-        "scouting": 12,
-        "performance": 6.6,
-        "ageLevel": 6.4,
-        "sentiment": 10.1,
-        "movement": 4.5,
-        "risk": 5
-      },
-      "mediaMentions": 1,
-      "reasons": [
-        "1 recent media mention",
-        "Promoted to AAA",
-        "Advanced to AA"
       ]
     },
     {
@@ -2265,7 +2265,7 @@
       "position": "OF",
       "affiliate": "FCL Phillies",
       "level": "Rookie",
-      "score": 38.8,
+      "score": 38.7,
       "previousRank": 97,
       "rank": 97,
       "change": 0,
@@ -2274,7 +2274,7 @@
         "performance": 4,
         "ageLevel": 2.7,
         "sentiment": 10,
-        "movement": 5.1,
+        "movement": 5,
         "risk": 5
       },
       "mediaMentions": 1,
