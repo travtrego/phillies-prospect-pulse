@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T11:40:08.553Z",
+  "updatedAt": "2026-10-03T14:44:35.909Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -217,9 +217,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 61.6,
-      "previousRank": 10,
+      "previousRank": 9,
       "rank": 9,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 26.7,
         "performance": 8.2,
@@ -241,9 +241,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 61.5,
-      "previousRank": 9,
+      "previousRank": 10,
       "rank": 10,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12.3,
         "performance": 21.2,
@@ -339,9 +339,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 59,
-      "previousRank": 15,
+      "previousRank": 14,
       "rank": 14,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 23.8,
         "performance": 8.5,
@@ -363,9 +363,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 59,
-      "previousRank": 14,
+      "previousRank": 15,
       "rank": 15,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 17.2,
@@ -672,7 +672,7 @@
       "position": "RHP",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 51.8,
+      "score": 51.7,
       "previousRank": 28,
       "rank": 28,
       "change": 0,
@@ -680,14 +680,13 @@
         "scouting": 15.9,
         "performance": 10.1,
         "ageLevel": 5.3,
-        "sentiment": 10.1,
+        "sentiment": 10,
         "movement": 5.4,
         "risk": 5
       },
-      "mediaMentions": 1,
+      "mediaMentions": 0,
       "reasons": [
         "MLB Pipeline rank #22",
-        "1 recent media mention",
         "Promoted to High-A"
       ]
     },
