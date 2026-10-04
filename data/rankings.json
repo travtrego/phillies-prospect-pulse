@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T12:22:09.652Z",
+  "updatedAt": "2026-10-04T15:23:52.851Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -11,55 +11,55 @@
   },
   "records": [
     {
-      "playerId": "11bbed5a-7bbd-485c-8208-950fdabcc553",
-      "player": "Gage Wood",
-      "position": "RHP",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 72.2,
-      "previousRank": 2,
-      "rank": 1,
-      "change": 1,
-      "components": {
-        "scouting": 30,
-        "performance": 15.4,
-        "ageLevel": 7.2,
-        "sentiment": 9.7,
-        "movement": 4.9,
-        "risk": 5
-      },
-      "mediaMentions": 7,
-      "reasons": [
-        "MLB Pipeline rank #2",
-        "7 recent media mentions",
-        "Promoted to AA",
-        "Advanced to AA"
-      ]
-    },
-    {
       "playerId": "240e0058-6aec-4107-881b-2e66e860c81f",
       "player": "Aidan Miller",
       "position": "SS",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 71,
+      "score": 72.5,
+      "previousRank": 2,
+      "rank": 1,
+      "change": 1,
+      "components": {
+        "scouting": 30,
+        "performance": 13.4,
+        "ageLevel": 8.2,
+        "sentiment": 14.4,
+        "movement": 4,
+        "risk": 2.5
+      },
+      "mediaMentions": 23,
+      "reasons": [
+        "MLB Pipeline rank #1",
+        "23 recent media mentions",
+        "Strong positive prospect coverage",
+        "Material negative recent coverage"
+      ]
+    },
+    {
+      "playerId": "11bbed5a-7bbd-485c-8208-950fdabcc553",
+      "player": "Gage Wood",
+      "position": "RHP",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 72.1,
       "previousRank": 1,
       "rank": 2,
       "change": -1,
       "components": {
         "scouting": 30,
-        "performance": 13.4,
-        "ageLevel": 8.2,
-        "sentiment": 12.9,
-        "movement": 4,
-        "risk": 2.5
+        "performance": 15.4,
+        "ageLevel": 7.2,
+        "sentiment": 9.6,
+        "movement": 4.9,
+        "risk": 5
       },
-      "mediaMentions": 22,
+      "mediaMentions": 6,
       "reasons": [
-        "MLB Pipeline rank #1",
-        "22 recent media mentions",
-        "Strong positive prospect coverage",
-        "Material negative recent coverage"
+        "MLB Pipeline rank #2",
+        "6 recent media mentions",
+        "Promoted to AA",
+        "Advanced to AA"
       ]
     },
     {
@@ -240,7 +240,7 @@
       "position": "SS",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 60.9,
+      "score": 61.5,
       "previousRank": 10,
       "rank": 10,
       "change": 0,
@@ -248,7 +248,7 @@
         "scouting": 12.3,
         "performance": 21.2,
         "ageLevel": 6.4,
-        "sentiment": 11.5,
+        "sentiment": 12.1,
         "movement": 4.5,
         "risk": 5
       },
@@ -1881,9 +1881,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 44.7,
-      "previousRank": 81,
+      "previousRank": 80,
       "rank": 80,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 8.7,
@@ -1904,15 +1904,15 @@
       "position": "C",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 44.5,
-      "previousRank": 80,
+      "score": 44.6,
+      "previousRank": 81,
       "rank": 81,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 6.6,
         "ageLevel": 6.4,
-        "sentiment": 10.1,
+        "sentiment": 10.2,
         "movement": 4.4,
         "risk": 5
       },
