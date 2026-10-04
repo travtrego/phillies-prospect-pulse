@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T15:23:52.851Z",
+  "updatedAt": "2026-10-04T21:25:10.932Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -17,9 +17,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 72.5,
-      "previousRank": 2,
+      "previousRank": 1,
       "rank": 1,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 30,
         "performance": 13.4,
@@ -42,24 +42,24 @@
       "position": "RHP",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 72.1,
-      "previousRank": 1,
+      "score": 71.5,
+      "previousRank": 2,
       "rank": 2,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 30,
         "performance": 15.4,
         "ageLevel": 7.2,
-        "sentiment": 9.6,
+        "sentiment": 9,
         "movement": 4.9,
         "risk": 5
       },
-      "mediaMentions": 6,
+      "mediaMentions": 5,
       "reasons": [
         "MLB Pipeline rank #2",
-        "6 recent media mentions",
-        "Promoted to AA",
-        "Advanced to AA"
+        "5 recent media mentions",
+        "Negative recent coverage",
+        "Promoted to AA"
       ]
     },
     {
@@ -192,7 +192,7 @@
       "position": "RHP",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 62.6,
+      "score": 62.5,
       "previousRank": 8,
       "rank": 8,
       "change": 0,
@@ -201,7 +201,7 @@
         "performance": 13.5,
         "ageLevel": 4.2,
         "sentiment": 10,
-        "movement": 5.4,
+        "movement": 5.3,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -945,21 +945,21 @@
       ]
     },
     {
-      "playerId": "404c9ec4-ead7-430c-9b95-c772f40ef5e1",
-      "player": "Lenny Torres Jr.",
+      "playerId": "cefc8b59-47ed-46e9-820d-daba4f905d87",
+      "player": "Evan Gates",
       "position": "P",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 50.6,
-      "previousRank": 40,
+      "score": 50.5,
+      "previousRank": 41,
       "rank": 40,
-      "change": 0,
+      "change": 1,
       "components": {
         "scouting": 12,
-        "performance": 12.5,
+        "performance": 11.7,
         "ageLevel": 6.4,
         "sentiment": 10,
-        "movement": 4.7,
+        "movement": 5.4,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -969,21 +969,21 @@
       ]
     },
     {
-      "playerId": "cefc8b59-47ed-46e9-820d-daba4f905d87",
-      "player": "Evan Gates",
+      "playerId": "404c9ec4-ead7-430c-9b95-c772f40ef5e1",
+      "player": "Lenny Torres Jr.",
       "position": "P",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 50.5,
-      "previousRank": 41,
+      "previousRank": 40,
       "rank": 41,
-      "change": 0,
+      "change": -1,
       "components": {
         "scouting": 12,
-        "performance": 11.7,
+        "performance": 12.5,
         "ageLevel": 6.4,
         "sentiment": 10,
-        "movement": 5.4,
+        "movement": 4.6,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -1186,7 +1186,7 @@
       "position": "P",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 49.7,
+      "score": 49.6,
       "previousRank": 50,
       "rank": 50,
       "change": 0,
@@ -1195,7 +1195,7 @@
         "performance": 11.6,
         "ageLevel": 6.4,
         "sentiment": 10,
-        "movement": 4.7,
+        "movement": 4.6,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -1384,10 +1384,10 @@
         "movement": 4,
         "risk": 5
       },
-      "mediaMentions": 2,
+      "mediaMentions": 1,
       "reasons": [
         "MLB Pipeline rank #24",
-        "2 recent media mentions"
+        "1 recent media mention"
       ]
     },
     {
