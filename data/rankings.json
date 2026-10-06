@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T16:50:03.047Z",
+  "updatedAt": "2026-10-06T18:22:38.544Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -11,15 +11,41 @@
   },
   "records": [
     {
-      "playerId": "11bbed5a-7bbd-485c-8208-950fdabcc553",
-      "player": "Gage Wood",
-      "position": "RHP",
+      "playerId": "240e0058-6aec-4107-881b-2e66e860c81f",
+      "player": "Aidan Miller",
+      "position": "SS",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 71.9,
       "previousRank": 2,
       "rank": 1,
       "change": 1,
+      "components": {
+        "scouting": 30,
+        "performance": 13.4,
+        "ageLevel": 8.2,
+        "sentiment": 13.8,
+        "movement": 4,
+        "risk": 2.5
+      },
+      "mediaMentions": 23,
+      "reasons": [
+        "MLB Pipeline rank #1",
+        "23 recent media mentions",
+        "Strong positive prospect coverage",
+        "Material negative recent coverage"
+      ]
+    },
+    {
+      "playerId": "11bbed5a-7bbd-485c-8208-950fdabcc553",
+      "player": "Gage Wood",
+      "position": "RHP",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 71.9,
+      "previousRank": 1,
+      "rank": 2,
+      "change": -1,
       "components": {
         "scouting": 30,
         "performance": 15.4,
@@ -34,32 +60,6 @@
         "5 recent media mentions",
         "Promoted to AA",
         "Advanced to AA"
-      ]
-    },
-    {
-      "playerId": "240e0058-6aec-4107-881b-2e66e860c81f",
-      "player": "Aidan Miller",
-      "position": "SS",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 70.2,
-      "previousRank": 1,
-      "rank": 2,
-      "change": -1,
-      "components": {
-        "scouting": 30,
-        "performance": 13.4,
-        "ageLevel": 8.2,
-        "sentiment": 12.1,
-        "movement": 4,
-        "risk": 2.5
-      },
-      "mediaMentions": 19,
-      "reasons": [
-        "MLB Pipeline rank #1",
-        "19 recent media mentions",
-        "Strong positive prospect coverage",
-        "Material negative recent coverage"
       ]
     },
     {
@@ -105,10 +105,9 @@
         "movement": 7.1,
         "risk": 5
       },
-      "mediaMentions": 1,
+      "mediaMentions": 0,
       "reasons": [
         "MLB Pipeline rank #14",
-        "1 recent media mention",
         "Promoted to AA",
         "Advanced to AA"
       ]
@@ -1072,9 +1071,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 50,
-      "previousRank": 46,
+      "previousRank": 45,
       "rank": 45,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 8.2,
@@ -1096,9 +1095,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 49.9,
-      "previousRank": 47,
+      "previousRank": 46,
       "rank": 46,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1119,9 +1118,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 49.9,
-      "previousRank": 48,
+      "previousRank": 47,
       "rank": 47,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1142,9 +1141,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 49.9,
-      "previousRank": 49,
+      "previousRank": 48,
       "rank": 48,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1165,9 +1164,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 49.9,
-      "previousRank": 45,
+      "previousRank": 49,
       "rank": 49,
-      "change": -4,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 10.3,
