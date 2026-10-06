@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T19:18:24.983Z",
+  "updatedAt": "2026-10-06T00:03:54.120Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -16,7 +16,7 @@
       "position": "SS",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 72.2,
+      "score": 72,
       "previousRank": 1,
       "rank": 1,
       "change": 0,
@@ -24,14 +24,14 @@
         "scouting": 30,
         "performance": 13.4,
         "ageLevel": 8.2,
-        "sentiment": 14.1,
+        "sentiment": 13.9,
         "movement": 4,
         "risk": 2.5
       },
-      "mediaMentions": 23,
+      "mediaMentions": 21,
       "reasons": [
         "MLB Pipeline rank #1",
-        "23 recent media mentions",
+        "21 recent media mentions",
         "Strong positive prospect coverage",
         "Material negative recent coverage"
       ]
@@ -42,7 +42,7 @@
       "position": "RHP",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 70.7,
+      "score": 70.2,
       "previousRank": 2,
       "rank": 2,
       "change": 0,
@@ -50,7 +50,7 @@
         "scouting": 30,
         "performance": 15.4,
         "ageLevel": 7.2,
-        "sentiment": 8.2,
+        "sentiment": 7.7,
         "movement": 4.9,
         "risk": 5
       },
@@ -187,32 +187,6 @@
       ]
     },
     {
-      "playerId": "5a9ca442-aa33-48e9-82f4-aacd5435bc0c",
-      "player": "Bryan Rincon",
-      "position": "SS",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 62.5,
-      "previousRank": 8,
-      "rank": 8,
-      "change": 0,
-      "components": {
-        "scouting": 12.3,
-        "performance": 21.2,
-        "ageLevel": 6.4,
-        "sentiment": 13.1,
-        "movement": 4.5,
-        "risk": 5
-      },
-      "mediaMentions": 6,
-      "reasons": [
-        "Strong current-season performance",
-        "MLB Pipeline rank #27",
-        "6 recent media mentions",
-        "Positive recent coverage"
-      ]
-    },
-    {
       "playerId": "b71dc9da-f667-4080-835c-c596d0d3da35",
       "player": "Matthew Fisher",
       "position": "RHP",
@@ -220,8 +194,8 @@
       "level": "A",
       "score": 62.5,
       "previousRank": 9,
-      "rank": 9,
-      "change": 0,
+      "rank": 8,
+      "change": 1,
       "components": {
         "scouting": 24.5,
         "performance": 13.5,
@@ -234,6 +208,32 @@
       "reasons": [
         "MLB Pipeline rank #10",
         "Promoted to Single-A"
+      ]
+    },
+    {
+      "playerId": "5a9ca442-aa33-48e9-82f4-aacd5435bc0c",
+      "player": "Bryan Rincon",
+      "position": "SS",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 62,
+      "previousRank": 8,
+      "rank": 9,
+      "change": -1,
+      "components": {
+        "scouting": 12.3,
+        "performance": 21.2,
+        "ageLevel": 6.4,
+        "sentiment": 12.6,
+        "movement": 4.5,
+        "risk": 5
+      },
+      "mediaMentions": 5,
+      "reasons": [
+        "Strong current-season performance",
+        "MLB Pipeline rank #27",
+        "5 recent media mentions",
+        "Positive recent coverage"
       ]
     },
     {
@@ -405,15 +405,40 @@
       ]
     },
     {
+      "playerId": "38bb5322-106a-4d6c-88be-80bae95a816b",
+      "player": "Nick Biddison",
+      "position": "INF",
+      "affiliate": "Lehigh Valley IronPigs",
+      "level": "AAA",
+      "score": 56.2,
+      "previousRank": 18,
+      "rank": 17,
+      "change": 1,
+      "components": {
+        "scouting": 12,
+        "performance": 13,
+        "ageLevel": 7.5,
+        "sentiment": 10.3,
+        "movement": 8.4,
+        "risk": 5
+      },
+      "mediaMentions": 1,
+      "reasons": [
+        "1 recent media mention",
+        "Promoted to AAA",
+        "Advanced to AAA"
+      ]
+    },
+    {
       "playerId": "ed4dbc30-ab6a-4976-9cbc-b057894e134f",
       "player": "Mavis Graves",
       "position": "LHP",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 56.1,
-      "previousRank": 18,
-      "rank": 17,
-      "change": 1,
+      "previousRank": 17,
+      "rank": 18,
+      "change": -1,
       "components": {
         "scouting": 13.7,
         "performance": 14.7,
@@ -427,31 +452,6 @@
         "MLB Pipeline rank #25",
         "Promoted to AA",
         "Advanced to AA"
-      ]
-    },
-    {
-      "playerId": "38bb5322-106a-4d6c-88be-80bae95a816b",
-      "player": "Nick Biddison",
-      "position": "INF",
-      "affiliate": "Lehigh Valley IronPigs",
-      "level": "AAA",
-      "score": 56.1,
-      "previousRank": 17,
-      "rank": 18,
-      "change": -1,
-      "components": {
-        "scouting": 12,
-        "performance": 13,
-        "ageLevel": 7.5,
-        "sentiment": 10.2,
-        "movement": 8.4,
-        "risk": 5
-      },
-      "mediaMentions": 1,
-      "reasons": [
-        "1 recent media mention",
-        "Promoted to AAA",
-        "Advanced to AAA"
       ]
     },
     {
@@ -672,7 +672,7 @@
       "position": "RHP",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 51.7,
+      "score": 51.6,
       "previousRank": 28,
       "rank": 28,
       "change": 0,
@@ -681,7 +681,7 @@
         "performance": 10.1,
         "ageLevel": 5.3,
         "sentiment": 10,
-        "movement": 5.4,
+        "movement": 5.3,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -1045,7 +1045,7 @@
       "position": "OF",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 50,
+      "score": 50.1,
       "previousRank": 44,
       "rank": 44,
       "change": 0,
@@ -1053,7 +1053,7 @@
         "scouting": 18,
         "performance": 7.5,
         "ageLevel": 5.3,
-        "sentiment": 10.2,
+        "sentiment": 10.3,
         "movement": 4,
         "risk": 5
       },
@@ -1280,7 +1280,7 @@
       "position": "P",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 49.2,
+      "score": 49.1,
       "previousRank": 54,
       "rank": 54,
       "change": 0,
@@ -1289,7 +1289,7 @@
         "performance": 11.5,
         "ageLevel": 5.3,
         "sentiment": 10,
-        "movement": 5.4,
+        "movement": 5.3,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -1384,9 +1384,10 @@
         "movement": 4,
         "risk": 5
       },
-      "mediaMentions": 0,
+      "mediaMentions": 1,
       "reasons": [
-        "MLB Pipeline rank #24"
+        "MLB Pipeline rank #24",
+        "1 recent media mention"
       ]
     },
     {
@@ -1710,31 +1711,6 @@
       ]
     },
     {
-      "playerId": "a68ca598-ad9e-460a-98df-4b98c0332d9b",
-      "player": "Gabriel Barbosa",
-      "position": "P",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 45.8,
-      "previousRank": 73,
-      "rank": 73,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 9.2,
-        "ageLevel": 6.4,
-        "sentiment": 10,
-        "movement": 5.7,
-        "risk": 2.5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to AA",
-        "Current injury lowers availability",
-        "Advanced to AA"
-      ]
-    },
-    {
       "playerId": "b1838a2a-6381-4653-93e8-def755767601",
       "player": "Luis Avila",
       "position": "P",
@@ -1742,8 +1718,8 @@
       "level": "A",
       "score": 45.8,
       "previousRank": 74,
-      "rank": 74,
-      "change": 0,
+      "rank": 73,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 10.1,
@@ -1755,6 +1731,31 @@
       "mediaMentions": 0,
       "reasons": [
         "Promoted to High-A"
+      ]
+    },
+    {
+      "playerId": "a68ca598-ad9e-460a-98df-4b98c0332d9b",
+      "player": "Gabriel Barbosa",
+      "position": "P",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 45.7,
+      "previousRank": 73,
+      "rank": 74,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 9.2,
+        "ageLevel": 6.4,
+        "sentiment": 10,
+        "movement": 5.6,
+        "risk": 2.5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to AA",
+        "Current injury lowers availability",
+        "Advanced to AA"
       ]
     },
     {
