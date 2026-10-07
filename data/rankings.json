@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T17:26:28.854Z",
+  "updatedAt": "2026-10-07T23:05:43.630Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -88,32 +88,6 @@
       ]
     },
     {
-      "playerId": "e5eba231-6025-4d9b-9365-8666b2481e96",
-      "player": "Cody Bowker",
-      "position": "RHP",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 65.7,
-      "previousRank": 4,
-      "rank": 4,
-      "change": 0,
-      "components": {
-        "scouting": 21.6,
-        "performance": 15.6,
-        "ageLevel": 6.4,
-        "sentiment": 10,
-        "movement": 7.1,
-        "risk": 5
-      },
-      "mediaMentions": 1,
-      "reasons": [
-        "MLB Pipeline rank #14",
-        "1 recent media mention",
-        "Promoted to AA",
-        "Advanced to AA"
-      ]
-    },
-    {
       "playerId": "4c385b38-3891-46a2-869e-f7f73f3bb154",
       "player": "Aroon Escobar",
       "position": "2B",
@@ -121,8 +95,8 @@
       "level": "AA",
       "score": 65.6,
       "previousRank": 5,
-      "rank": 5,
-      "change": 0,
+      "rank": 4,
+      "change": 1,
       "components": {
         "scouting": 28.8,
         "performance": 11.6,
@@ -134,6 +108,32 @@
       "mediaMentions": 0,
       "reasons": [
         "MLB Pipeline rank #4",
+        "Advanced to AA"
+      ]
+    },
+    {
+      "playerId": "e5eba231-6025-4d9b-9365-8666b2481e96",
+      "player": "Cody Bowker",
+      "position": "RHP",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 65.6,
+      "previousRank": 4,
+      "rank": 5,
+      "change": -1,
+      "components": {
+        "scouting": 21.6,
+        "performance": 15.6,
+        "ageLevel": 6.4,
+        "sentiment": 10,
+        "movement": 7,
+        "risk": 5
+      },
+      "mediaMentions": 1,
+      "reasons": [
+        "MLB Pipeline rank #14",
+        "1 recent media mention",
+        "Promoted to AA",
         "Advanced to AA"
       ]
     },
@@ -674,7 +674,7 @@
       "position": "RHP",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 51.6,
+      "score": 51.7,
       "previousRank": 28,
       "rank": 28,
       "change": 0,
@@ -682,13 +682,14 @@
         "scouting": 15.9,
         "performance": 10.1,
         "ageLevel": 5.3,
-        "sentiment": 10,
+        "sentiment": 10.1,
         "movement": 5.3,
         "risk": 5
       },
-      "mediaMentions": 0,
+      "mediaMentions": 1,
       "reasons": [
         "MLB Pipeline rank #22",
+        "1 recent media mention",
         "Promoted to High-A"
       ]
     },
@@ -2141,9 +2142,9 @@
         "movement": 4,
         "risk": 5
       },
-      "mediaMentions": 2,
+      "mediaMentions": 1,
       "reasons": [
-        "2 recent media mentions"
+        "1 recent media mention"
       ]
     },
     {
@@ -2277,9 +2278,9 @@
         "movement": 5,
         "risk": 5
       },
-      "mediaMentions": 2,
+      "mediaMentions": 1,
       "reasons": [
-        "2 recent media mentions",
+        "1 recent media mention",
         "Promoted to High-A"
       ]
     }
