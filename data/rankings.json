@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T13:23:48.729Z",
+  "updatedAt": "2026-10-07T17:26:28.854Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -42,7 +42,7 @@
       "position": "SS",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 70.3,
+      "score": 70.9,
       "previousRank": 2,
       "rank": 2,
       "change": 0,
@@ -50,14 +50,14 @@
         "scouting": 30,
         "performance": 13.4,
         "ageLevel": 8.2,
-        "sentiment": 12.2,
+        "sentiment": 12.8,
         "movement": 4,
         "risk": 2.5
       },
-      "mediaMentions": 20,
+      "mediaMentions": 23,
       "reasons": [
         "MLB Pipeline rank #1",
-        "20 recent media mentions",
+        "23 recent media mentions",
         "Strong positive prospect coverage",
         "Material negative recent coverage"
       ]
