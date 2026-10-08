@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T17:25:04.648Z",
+  "updatedAt": "2026-10-08T23:22:39.830Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -16,7 +16,7 @@
       "position": "RHP",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 72,
+      "score": 71.4,
       "previousRank": 1,
       "rank": 1,
       "change": 0,
@@ -24,16 +24,16 @@
         "scouting": 30,
         "performance": 15.4,
         "ageLevel": 7.2,
-        "sentiment": 9.5,
+        "sentiment": 8.9,
         "movement": 4.9,
         "risk": 5
       },
-      "mediaMentions": 5,
+      "mediaMentions": 4,
       "reasons": [
         "MLB Pipeline rank #2",
-        "5 recent media mentions",
-        "Promoted to AA",
-        "Advanced to AA"
+        "4 recent media mentions",
+        "Negative recent coverage",
+        "Promoted to AA"
       ]
     },
     {
@@ -42,7 +42,7 @@
       "position": "SS",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 70.7,
+      "score": 70.6,
       "previousRank": 2,
       "rank": 2,
       "change": 0,
@@ -50,7 +50,7 @@
         "scouting": 30,
         "performance": 13.4,
         "ageLevel": 8.2,
-        "sentiment": 12.6,
+        "sentiment": 12.5,
         "movement": 4,
         "risk": 2.5
       },
@@ -169,7 +169,7 @@
       "position": "OF",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 63.6,
+      "score": 63.7,
       "previousRank": 7,
       "rank": 7,
       "change": 0,
@@ -177,7 +177,7 @@
         "scouting": 28.1,
         "performance": 9.6,
         "ageLevel": 7.2,
-        "sentiment": 9.7,
+        "sentiment": 9.8,
         "movement": 4,
         "risk": 5
       },
@@ -292,7 +292,7 @@
       "position": "OF",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 59.4,
+      "score": 59.3,
       "previousRank": 12,
       "rank": 12,
       "change": 0,
@@ -301,7 +301,7 @@
         "performance": 16.3,
         "ageLevel": 7.5,
         "sentiment": 10,
-        "movement": 8.6,
+        "movement": 8.5,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -388,7 +388,7 @@
       "position": "C",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 58,
+      "score": 57.9,
       "previousRank": 16,
       "rank": 16,
       "change": 0,
@@ -397,38 +397,13 @@
         "performance": 16,
         "ageLevel": 6.4,
         "sentiment": 10,
-        "movement": 8.6,
+        "movement": 8.5,
         "risk": 5
       },
       "mediaMentions": 0,
       "reasons": [
         "Promoted to AAA",
         "Advanced to AA"
-      ]
-    },
-    {
-      "playerId": "38bb5322-106a-4d6c-88be-80bae95a816b",
-      "player": "Nick Biddison",
-      "position": "INF",
-      "affiliate": "Lehigh Valley IronPigs",
-      "level": "AAA",
-      "score": 56.1,
-      "previousRank": 17,
-      "rank": 17,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 13,
-        "ageLevel": 7.5,
-        "sentiment": 10.3,
-        "movement": 8.3,
-        "risk": 5
-      },
-      "mediaMentions": 1,
-      "reasons": [
-        "1 recent media mention",
-        "Promoted to AAA",
-        "Advanced to AAA"
       ]
     },
     {
@@ -439,8 +414,8 @@
       "level": "AA",
       "score": 56,
       "previousRank": 18,
-      "rank": 18,
-      "change": 0,
+      "rank": 17,
+      "change": 1,
       "components": {
         "scouting": 13.7,
         "performance": 14.7,
@@ -454,6 +429,31 @@
         "MLB Pipeline rank #25",
         "Promoted to AA",
         "Advanced to AA"
+      ]
+    },
+    {
+      "playerId": "38bb5322-106a-4d6c-88be-80bae95a816b",
+      "player": "Nick Biddison",
+      "position": "INF",
+      "affiliate": "Lehigh Valley IronPigs",
+      "level": "AAA",
+      "score": 56,
+      "previousRank": 17,
+      "rank": 18,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 13,
+        "ageLevel": 7.5,
+        "sentiment": 10.3,
+        "movement": 8.2,
+        "risk": 5
+      },
+      "mediaMentions": 1,
+      "reasons": [
+        "1 recent media mention",
+        "Promoted to AAA",
+        "Advanced to AAA"
       ]
     },
     {
@@ -557,7 +557,7 @@
       "position": "INF",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 53.4,
+      "score": 53.3,
       "previousRank": 23,
       "rank": 23,
       "change": 0,
@@ -566,7 +566,7 @@
         "performance": 11.4,
         "ageLevel": 6.4,
         "sentiment": 10,
-        "movement": 8.6,
+        "movement": 8.5,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -1165,7 +1165,7 @@
       "position": "P",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 49.9,
+      "score": 49.8,
       "previousRank": 49,
       "rank": 49,
       "change": 0,
@@ -1174,7 +1174,7 @@
         "performance": 8.2,
         "ageLevel": 6.4,
         "sentiment": 10,
-        "movement": 8.3,
+        "movement": 8.2,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -1387,9 +1387,10 @@
         "movement": 4,
         "risk": 5
       },
-      "mediaMentions": 0,
+      "mediaMentions": 1,
       "reasons": [
-        "MLB Pipeline rank #24"
+        "MLB Pipeline rank #24",
+        "1 recent media mention"
       ]
     },
     {
@@ -1417,29 +1418,6 @@
       ]
     },
     {
-      "playerId": "2b3b922e-ed61-4243-a439-f1fff05c6d0d",
-      "player": "Giussepe Velasquez",
-      "position": "P",
-      "affiliate": "Jersey Shore BlueClaws",
-      "level": "A+",
-      "score": 48.2,
-      "previousRank": 60,
-      "rank": 60,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 9,
-        "ageLevel": 5.3,
-        "sentiment": 10,
-        "movement": 6.9,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to High-A"
-      ]
-    },
-    {
       "playerId": "9ed61891-8ae1-4a55-882e-d7a9f83cedb9",
       "player": "Levi Stoudt",
       "position": "P",
@@ -1447,8 +1425,8 @@
       "level": "AAA",
       "score": 48.2,
       "previousRank": 61,
-      "rank": 61,
-      "change": 0,
+      "rank": 60,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 11.4,
@@ -1462,6 +1440,29 @@
         "Promoted to AAA",
         "Current injury lowers availability",
         "Advanced to AAA"
+      ]
+    },
+    {
+      "playerId": "2b3b922e-ed61-4243-a439-f1fff05c6d0d",
+      "player": "Giussepe Velasquez",
+      "position": "P",
+      "affiliate": "Jersey Shore BlueClaws",
+      "level": "A+",
+      "score": 48.1,
+      "previousRank": 60,
+      "rank": 61,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 9,
+        "ageLevel": 5.3,
+        "sentiment": 10,
+        "movement": 6.8,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to High-A"
       ]
     },
     {
