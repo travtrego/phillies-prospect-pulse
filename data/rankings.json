@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T17:00:34.922Z",
+  "updatedAt": "2026-10-09T22:38:41.940Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -16,7 +16,7 @@
       "position": "RHP",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 72.5,
+      "score": 71.4,
       "previousRank": 1,
       "rank": 1,
       "change": 0,
@@ -24,16 +24,16 @@
         "scouting": 30,
         "performance": 15.4,
         "ageLevel": 7.2,
-        "sentiment": 10,
+        "sentiment": 8.9,
         "movement": 4.9,
         "risk": 5
       },
-      "mediaMentions": 4,
+      "mediaMentions": 5,
       "reasons": [
         "MLB Pipeline rank #2",
-        "4 recent media mentions",
-        "Promoted to AA",
-        "Advanced to AA"
+        "5 recent media mentions",
+        "Negative recent coverage",
+        "Promoted to AA"
       ]
     },
     {
@@ -54,10 +54,10 @@
         "movement": 4,
         "risk": 2.5
       },
-      "mediaMentions": 22,
+      "mediaMentions": 24,
       "reasons": [
         "MLB Pipeline rank #1",
-        "22 recent media mentions",
+        "24 recent media mentions",
         "Strong positive prospect coverage",
         "Material negative recent coverage"
       ]
@@ -438,9 +438,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 55.9,
-      "previousRank": 19,
+      "previousRank": 18,
       "rank": 18,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 11.6,
         "performance": 17.8,
@@ -462,9 +462,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 55.9,
-      "previousRank": 18,
+      "previousRank": 19,
       "rank": 19,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 13,
@@ -674,7 +674,7 @@
       "position": "RHP",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 51.7,
+      "score": 51.6,
       "previousRank": 28,
       "rank": 28,
       "change": 0,
@@ -682,14 +682,13 @@
         "scouting": 15.9,
         "performance": 10.1,
         "ageLevel": 5.3,
-        "sentiment": 10.1,
+        "sentiment": 10,
         "movement": 5.3,
         "risk": 5
       },
-      "mediaMentions": 1,
+      "mediaMentions": 0,
       "reasons": [
         "MLB Pipeline rank #22",
-        "1 recent media mention",
         "Promoted to High-A"
       ]
     },
@@ -1553,30 +1552,6 @@
       ]
     },
     {
-      "playerId": "e0548f18-f2b0-49bd-acb2-c3ea01088ff9",
-      "player": "Tristan Garnett",
-      "position": "P",
-      "affiliate": "Lehigh Valley IronPigs",
-      "level": "AAA",
-      "score": 47.1,
-      "previousRank": 66,
-      "rank": 66,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 5.5,
-        "ageLevel": 7.5,
-        "sentiment": 10,
-        "movement": 7.1,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to AAA",
-        "Advanced to AAA"
-      ]
-    },
-    {
       "playerId": "b2595b1b-7ca3-4c4e-83b8-1b5cb7a78026",
       "player": "Braydon Tucker",
       "position": "P",
@@ -1584,8 +1559,8 @@
       "level": "AA",
       "score": 47,
       "previousRank": 67,
-      "rank": 67,
-      "change": 0,
+      "rank": 66,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 9.6,
@@ -1597,6 +1572,30 @@
       "mediaMentions": 0,
       "reasons": [
         "Advanced to AA"
+      ]
+    },
+    {
+      "playerId": "e0548f18-f2b0-49bd-acb2-c3ea01088ff9",
+      "player": "Tristan Garnett",
+      "position": "P",
+      "affiliate": "Lehigh Valley IronPigs",
+      "level": "AAA",
+      "score": 47,
+      "previousRank": 66,
+      "rank": 67,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 5.5,
+        "ageLevel": 7.5,
+        "sentiment": 10,
+        "movement": 7,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to AAA",
+        "Advanced to AAA"
       ]
     },
     {
