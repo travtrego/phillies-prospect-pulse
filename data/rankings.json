@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T13:17:31.168Z",
+  "updatedAt": "2026-10-09T17:00:34.922Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -16,7 +16,7 @@
       "position": "RHP",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 72,
+      "score": 72.5,
       "previousRank": 1,
       "rank": 1,
       "change": 0,
@@ -24,14 +24,14 @@
         "scouting": 30,
         "performance": 15.4,
         "ageLevel": 7.2,
-        "sentiment": 9.5,
+        "sentiment": 10,
         "movement": 4.9,
         "risk": 5
       },
-      "mediaMentions": 5,
+      "mediaMentions": 4,
       "reasons": [
         "MLB Pipeline rank #2",
-        "5 recent media mentions",
+        "4 recent media mentions",
         "Promoted to AA",
         "Advanced to AA"
       ]
@@ -42,7 +42,7 @@
       "position": "SS",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 70.8,
+      "score": 70.9,
       "previousRank": 2,
       "rank": 2,
       "change": 0,
@@ -50,14 +50,14 @@
         "scouting": 30,
         "performance": 13.4,
         "ageLevel": 8.2,
-        "sentiment": 12.7,
+        "sentiment": 12.8,
         "movement": 4,
         "risk": 2.5
       },
-      "mediaMentions": 24,
+      "mediaMentions": 22,
       "reasons": [
         "MLB Pipeline rank #1",
-        "24 recent media mentions",
+        "22 recent media mentions",
         "Strong positive prospect coverage",
         "Material negative recent coverage"
       ]
@@ -242,7 +242,7 @@
       "position": "SS",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 60.6,
+      "score": 60.7,
       "previousRank": 10,
       "rank": 10,
       "change": 0,
@@ -250,15 +250,15 @@
         "scouting": 12.3,
         "performance": 21.2,
         "ageLevel": 6.4,
-        "sentiment": 11.2,
+        "sentiment": 11.3,
         "movement": 4.5,
         "risk": 5
       },
-      "mediaMentions": 4,
+      "mediaMentions": 5,
       "reasons": [
         "Strong current-season performance",
         "MLB Pipeline rank #27",
-        "4 recent media mentions",
+        "5 recent media mentions",
         "Promoted to AA"
       ]
     },
@@ -432,31 +432,6 @@
       ]
     },
     {
-      "playerId": "38bb5322-106a-4d6c-88be-80bae95a816b",
-      "player": "Nick Biddison",
-      "position": "INF",
-      "affiliate": "Lehigh Valley IronPigs",
-      "level": "AAA",
-      "score": 56,
-      "previousRank": 18,
-      "rank": 18,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 13,
-        "ageLevel": 7.5,
-        "sentiment": 10.3,
-        "movement": 8.2,
-        "risk": 5
-      },
-      "mediaMentions": 1,
-      "reasons": [
-        "1 recent media mention",
-        "Promoted to AAA",
-        "Advanced to AAA"
-      ]
-    },
-    {
       "playerId": "c22a13e8-a828-417b-98e5-309e7789ebd2",
       "player": "Keaton Anthony",
       "position": "1B",
@@ -464,8 +439,8 @@
       "level": "AAA",
       "score": 55.9,
       "previousRank": 19,
-      "rank": 19,
-      "change": 0,
+      "rank": 18,
+      "change": 1,
       "components": {
         "scouting": 11.6,
         "performance": 17.8,
@@ -477,6 +452,31 @@
       "mediaMentions": 0,
       "reasons": [
         "MLB Pipeline rank #28",
+        "Advanced to AAA"
+      ]
+    },
+    {
+      "playerId": "38bb5322-106a-4d6c-88be-80bae95a816b",
+      "player": "Nick Biddison",
+      "position": "INF",
+      "affiliate": "Lehigh Valley IronPigs",
+      "level": "AAA",
+      "score": 55.9,
+      "previousRank": 18,
+      "rank": 19,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 13,
+        "ageLevel": 7.5,
+        "sentiment": 10.2,
+        "movement": 8.2,
+        "risk": 5
+      },
+      "mediaMentions": 1,
+      "reasons": [
+        "1 recent media mention",
+        "Promoted to AAA",
         "Advanced to AAA"
       ]
     },
@@ -674,7 +674,7 @@
       "position": "RHP",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 51.6,
+      "score": 51.7,
       "previousRank": 28,
       "rank": 28,
       "change": 0,
@@ -682,13 +682,14 @@
         "scouting": 15.9,
         "performance": 10.1,
         "ageLevel": 5.3,
-        "sentiment": 10,
+        "sentiment": 10.1,
         "movement": 5.3,
         "risk": 5
       },
-      "mediaMentions": 0,
+      "mediaMentions": 1,
       "reasons": [
         "MLB Pipeline rank #22",
+        "1 recent media mention",
         "Promoted to High-A"
       ]
     },
@@ -1386,9 +1387,10 @@
         "movement": 4,
         "risk": 5
       },
-      "mediaMentions": 0,
+      "mediaMentions": 1,
       "reasons": [
-        "MLB Pipeline rank #24"
+        "MLB Pipeline rank #24",
+        "1 recent media mention"
       ]
     },
     {
