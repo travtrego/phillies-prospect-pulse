@@ -3,11 +3,12 @@ import statsData from '../../data/stats.json';
 import externalData from '../../data/external-rankings.json';
 import { normalizeText } from '../genie/shared';
 import { consensusScore, evaluateRanking, RANKING_MODEL_VERSION } from './model';
+import { rankStability } from './stability';
 
 type Row=Record<string,any>;
 type ExternalRecord={player:string;source:string;rank:number;publishedAt?:string|null;url?:string|null};
 export type RankingSourceRecord={playerId:string;player:string;position:string|null;affiliate:string|null;level:string|null;score:number;previousRank:number|null;rank:number;change:number;mediaMentions:number;reasons:string[];components?:Record<string,number>;historicalScore?:number|null};
-export type RankingIntelligence={player:string;modelVersion:string;modelScore:number;confidence:'high'|'moderate'|'low';confidenceScore:number;consensusRank:number|null;consensusDifference:number|null;consensusAgreement:number|null;externalSourceCount:number;historicalSignal:number|null;defenseSignal:number|null;pitchQualitySignal:number|null;limitations:string[];breakdown:{component:string;raw:number;weight:number;contribution:number;available:boolean}[]};
+export type RankingIntelligence={player:string;modelVersion:string;modelScore:number;confidence:'high'|'moderate'|'low';confidenceScore:number;dataCoverage:number;scoreStdDev:number|null;rankRange:[number,number]|null;consensusRank:number|null;consensusDifference:number|null;consensusAgreement:number|null;externalSourceCount:number;historicalSignal:number|null;defenseSignal:number|null;pitchQualitySignal:number|null;limitations:string[];breakdown:{component:string;raw:number;weight:number;contribution:number;available:boolean}[]};
 export type EnrichedRankingRecord=RankingSourceRecord&{legacyRank:number;legacyScore:number;intelligence:RankingIntelligence};
 
 const rankings=rankingsData.records as RankingSourceRecord[];
@@ -50,12 +51,18 @@ export function rankingIntelligence(row:RankingSourceRecord):RankingIntelligence
   const limitations=[...evaluation.limitations];
   if(defense===null&&!limitations.includes('Defensive-quality input unavailable.'))limitations.push('Defensive-quality input unavailable.');
   if(pitchQuality===null&&!limitations.includes('Pitch-quality input unavailable.'))limitations.push('Pitch-quality input unavailable.');
-  return{player:row.player,modelVersion:RANKING_MODEL_VERSION,modelScore:evaluation.score,confidence:evaluation.confidence,confidenceScore:evaluation.confidenceScore,consensusRank:consensus?.meanRank??null,consensusDifference:consensus?.difference??null,consensusAgreement:consensus?.agreement??null,externalSourceCount:consensus?.sourceCount??0,historicalSignal:Number.isFinite(Number(row.historicalScore))?Number(row.historicalScore):null,defenseSignal:defense,pitchQualitySignal:pitchQuality,limitations,breakdown:evaluation.breakdown};
+  return{player:row.player,modelVersion:RANKING_MODEL_VERSION,modelScore:evaluation.score,confidence:evaluation.confidence,confidenceScore:evaluation.confidenceScore,dataCoverage:evaluation.confidenceScore,scoreStdDev:null,rankRange:null,consensusRank:consensus?.meanRank??null,consensusDifference:consensus?.difference??null,consensusAgreement:consensus?.agreement??null,externalSourceCount:consensus?.sourceCount??0,historicalSignal:Number.isFinite(Number(row.historicalScore))?Number(row.historicalScore):null,defenseSignal:defense,pitchQualitySignal:pitchQuality,limitations,breakdown:evaluation.breakdown};
 }
 
 export function rankRecords(sourceRecords:RankingSourceRecord[]):EnrichedRankingRecord[]{
   const scored=sourceRecords.map(row=>({row,intelligence:rankingIntelligence(row)}));
-  scored.sort((a,b)=>b.intelligence.modelScore-a.intelligence.modelScore||b.intelligence.confidenceScore-a.intelligence.confidenceScore||component(b.row,'ageLevel')-component(a.row,'ageLevel')||a.row.player.localeCompare(b.row.player));
+  scored.sort((a,b)=>b.intelligence.modelScore-a.intelligence.modelScore||b.intelligence.dataCoverage-a.intelligence.dataCoverage||component(b.row,'ageLevel')-component(a.row,'ageLevel')||a.row.player.localeCompare(b.row.player));
+  // Replace the data-coverage confidence with rank stability under input noise (see stability.ts).
+  const stability=rankStability(scored.map(({row,intelligence})=>{
+    const stat=statByName.get(normalizeText(row.player))?.stats;
+    return{score:intelligence.modelScore,weights:Object.fromEntries(intelligence.breakdown.map(item=>[item.component,item.weight])),plateAppearances:stat?.plateAppearances,inningsPitched:stat?.inningsPitched,mediaMentions:row.mediaMentions};
+  }));
+  scored.forEach((item,index)=>{const result=stability[index];item.intelligence={...item.intelligence,confidence:result.confidence,confidenceScore:result.confidenceScore,scoreStdDev:result.scoreStdDev,rankRange:[result.rankLow,result.rankHigh]};});
   return scored.map(({row,intelligence},index)=>{
     const rank=index+1;
     const legacyRank=Number(row.rank);
@@ -66,6 +73,6 @@ export function rankRecords(sourceRecords:RankingSourceRecord[]):EnrichedRanking
 }
 
 const canonicalRankings=rankRecords(rankings);
-export function enrichRankings():EnrichedRankingRecord[]{return canonicalRankings.map(record=>({...record,intelligence:{...record.intelligence,breakdown:record.intelligence.breakdown.map(item=>({...item})),limitations:[...record.intelligence.limitations]}}));}
+export function enrichRankings():EnrichedRankingRecord[]{return canonicalRankings.map(record=>({...record,intelligence:{...record.intelligence,rankRange:record.intelligence.rankRange?[...record.intelligence.rankRange] as [number,number]:null,breakdown:record.intelligence.breakdown.map(item=>({...item})),limitations:[...record.intelligence.limitations]}}));}
 export function getCanonicalRankingByPlayerId(playerId:string){return canonicalRankings.find(record=>String(record.playerId)===String(playerId))??null;}
 export function getCanonicalRankingByName(player:string){return canonicalRankings.find(record=>normalizeText(record.player)===normalizeText(player))??null;}
