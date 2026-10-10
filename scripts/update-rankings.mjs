@@ -151,10 +151,16 @@ function sentimentScore(player, articles) {
   return { score: clamp(10 + raw, 0, 20), mentions, reasons };
 }
 
+const PROMOTION_LEVEL = { 'High-A': 'A+', 'Single-A': 'A' };
+
 function movementScore(player, promotions) {
   const matches = promotions.filter(item => normalize(item.player) === normalize(player.full_name));
   const latest = matches.sort((a,b) => String(b.date).localeCompare(String(a.date)))[0];
   if (!latest) return { score: 4, reasons: [] };
+  // promotions.json only records upward moves, so a player sent back down still shows the
+  // promotion as his latest move. Only credit it if he is still at the level he was promoted to.
+  const promotedTo = PROMOTION_LEVEL[latest.toLevel] ?? latest.toLevel;
+  if (player.current_level && promotedTo !== player.current_level) return { score: 4, reasons: [`Returned to ${player.current_level} after promotion to ${promotedTo}`] };
   const days = Math.max(0, (Date.now() - new Date(latest.date).getTime()) / 86400000);
   return { score: clamp(4 + 6 * Math.exp(-days / 75), 0, 10), reasons: [`Promoted to ${latest.toLevel || latest.toAffiliate}`] };
 }
