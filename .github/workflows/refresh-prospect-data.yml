@@ -2,7 +2,9 @@ name: Refresh Prospect Data
 
 on:
   schedule:
-    - cron: '17 */6 * * *'
+    # Every 6 hours during the season (Mar-Sep). In the offseason the Daily Prospect Update
+    # workflow's once-a-day run is enough.
+    - cron: '17 */6 * 3-9 *'
   workflow_dispatch:
   push:
     branches: [main]

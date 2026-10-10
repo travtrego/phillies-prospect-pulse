@@ -77,7 +77,7 @@ const workflowPath='.github/workflows/refresh-prospect-data.yml';
 assert(exists(workflowPath),'Timed prospect refresh workflow is missing');
 if(exists(workflowPath)){
   const workflow=readText(workflowPath);
-  for(const marker of ["cron: '17 */6 * * *'",'workflow_dispatch:','contents: write','npm run update:all','npm run quality','git push origin main'])assert(workflow.includes(marker),`Refresh workflow is missing required automation marker: ${marker}`);
+  for(const marker of ["cron: '17 */6 * 3-9 *'",'workflow_dispatch:','contents: write','npm run update:all','npm run quality','git push origin main'])assert(workflow.includes(marker),`Refresh workflow is missing required automation marker: ${marker}`);
   const order=['update:news','update:stats','update:promotions','update:injuries','update:rankings'];
   const packageJson=readText('package.json');
   for(const command of order)assert(packageJson.includes(`"${command}"`),`package.json is missing ${command}`);

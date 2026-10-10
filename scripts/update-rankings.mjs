@@ -194,8 +194,19 @@ const statsData = await readJson(STATS, { records: [] });
 const players = (await loadPlayers(statsData.records || [])).filter(player => player.current_level !== 'MLB');
 const priorById = new Map((previous.records || []).map(item => [String(item.playerId), item]));
 
+// News sentiment is the noisiest input: one headline can swing it by a point or more. Let it
+// drift toward the new reading by at most SENTIMENT_MAX_STEP per run (4 runs/day in season,
+// 1/day in the offseason) so a single article can't reshuffle the board on its own.
+const SENTIMENT_MAX_STEP = 0.5;
+function dampedSentiment(raw, prior) {
+  const before = Number(prior?.components?.sentiment);
+  if (!Number.isFinite(before)) return raw;
+  return clamp(before + clamp(raw - before, -SENTIMENT_MAX_STEP, SENTIMENT_MAX_STEP), 0, 20);
+}
+
 let records = players.map(player => {
-  const sentiment = sentimentScore(player, news.articles || []);
+  const rawSentiment = sentimentScore(player, news.articles || []);
+  const sentiment = { ...rawSentiment, score: dampedSentiment(rawSentiment.score, priorById.get(String(player.id))) };
   const movement = movementScore(player, promotions.records || []);
   const risk = riskScore(player, injuries.records || injuries.injuries || []);
   const components = { scouting: round(scoutingScore(player)), performance: round(performanceScore(player)), ageLevel: round(ageLevelScore(player)), sentiment: round(sentiment.score), movement: round(movement.score), risk: round(risk.score) };
@@ -203,7 +214,7 @@ let records = players.map(player => {
   const prior = priorById.get(String(player.id));
   const reasons = [...sentiment.reasons, ...movement.reasons, ...risk.reasons];
   if (player.mlb_pipeline_rank) reasons.unshift(`MLB Pipeline rank #${player.mlb_pipeline_rank}`);
-  if (components.performance >= 19) reasons.unshift('Strong current-season performance');
+  if (components.performance >= 19) reasons.unshift(player.stats?.season && player.stats.season < new Date().getUTCFullYear() ? `Strong ${player.stats.season} performance` : 'Strong current-season performance');
   if ((LEVEL_POINTS[player.current_level] || 0) >= 5.2) reasons.push(`Advanced to ${player.current_level}`);
   return { playerId: player.id, player: player.full_name, position: player.primary_position, affiliate: player.current_team_name, level: player.current_level, score, previousRank: prior?.rank ?? null, rank: 0, change: 0, components, mediaMentions: sentiment.mentions, reasons: reasons.slice(0, 4) };
 });

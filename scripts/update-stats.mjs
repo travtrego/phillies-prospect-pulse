@@ -2,6 +2,9 @@ import fs from 'node:fs/promises';
 
 const OUTPUT = new URL('../data/stats.json', import.meta.url);
 const SEASON = new Date().getUTCFullYear();
+// Offseason: from Jan 1 until a player builds a meaningful sample, the new season has no
+// games, so fall back to the last completed season player by player.
+const MIN_SAMPLE = { hitting: 50, pitching: 15 };
 const TEAMS = [
   { id: 143, name: 'Philadelphia Phillies', level: 'MLB', rosterType: 'active' },
   { id: 1410, name: 'Lehigh Valley IronPigs', level: 'AAA', rosterType: 'fullRoster' },
@@ -25,8 +28,9 @@ async function fetchJson(url) {
 }
 
 async function getRoster(team) {
-  const url = `https://statsapi.mlb.com/api/v1/teams/${team.id}/roster?rosterType=${team.rosterType}&season=${SEASON}`;
-  const data = await fetchJson(url);
+  let data = await fetchJson(`https://statsapi.mlb.com/api/v1/teams/${team.id}/roster?rosterType=${team.rosterType}&season=${SEASON}`);
+  // Early in a new calendar year an affiliate's roster for the coming season can still be empty.
+  if (!(data.roster || []).length) data = await fetchJson(`https://statsapi.mlb.com/api/v1/teams/${team.id}/roster?rosterType=${team.rosterType}&season=${SEASON - 1}`);
   return (data.roster || []).map(entry => ({
     playerId: entry.person?.id,
     player: entry.person?.fullName,
@@ -70,9 +74,21 @@ function findBestSplit(data) {
   })[0] || null;
 }
 
+function sampleSize(stats) {
+  if (stats.type === 'pitching') { const [whole, outs] = String(stats.inningsPitched ?? '0').split('.'); return Number(whole) + (Number(outs) || 0) / 3; }
+  return Number(stats.plateAppearances || 0);
+}
+
 async function getStats(player) {
+  const current = await getSeasonStats(player, SEASON);
+  if (sampleSize(current) >= MIN_SAMPLE[current.type]) return current;
+  const previous = await getSeasonStats(player, SEASON - 1);
+  return sampleSize(previous) > sampleSize(current) ? previous : current;
+}
+
+async function getSeasonStats(player, season) {
   const group = player.positionType === 'Pitcher' || ['P','RHP','LHP'].includes(player.position) ? 'pitching' : 'hitting';
-  const params = new URLSearchParams({ stats: 'season', group, season: String(SEASON), leagueListId: 'mlb_milb', gameType: 'R' });
+  const params = new URLSearchParams({ stats: 'season', group, season: String(season), leagueListId: 'mlb_milb', gameType: 'R' });
   const data = await fetchJson(`https://statsapi.mlb.com/api/v1/people/${player.playerId}/stats?${params.toString()}`);
   const split = findBestSplit(data);
   const stat = split?.stat || {};
@@ -81,13 +97,13 @@ async function getStats(player) {
     const innings = Number(stat.inningsPitched || 0);
     const strikeouts = Number(stat.strikeOuts || 0);
     const walks = Number(stat.baseOnBalls || 0);
-    return { type:'pitching', games:stat.gamesPlayed ?? stat.gamesPitched ?? null, gamesStarted:stat.gamesStarted ?? null, inningsPitched:stat.inningsPitched ?? null, era:round(stat.era), whip:round(stat.whip), strikeouts:stat.strikeOuts ?? null, walks:stat.baseOnBalls ?? null, hits:stat.hits ?? null, homeRuns:stat.homeRuns ?? null, saves:stat.saves ?? null, kPer9:innings > 0 ? round(strikeouts * 9 / innings, 2) : null, bbPer9:innings > 0 ? round(walks * 9 / innings, 2) : null, strikePercentage:round(stat.strikePercentage), sourceDate:split?.date || null };
+    return { type:'pitching', games:stat.gamesPlayed ?? stat.gamesPitched ?? null, gamesStarted:stat.gamesStarted ?? null, inningsPitched:stat.inningsPitched ?? null, era:round(stat.era), whip:round(stat.whip), strikeouts:stat.strikeOuts ?? null, walks:stat.baseOnBalls ?? null, hits:stat.hits ?? null, homeRuns:stat.homeRuns ?? null, saves:stat.saves ?? null, kPer9:innings > 0 ? round(strikeouts * 9 / innings, 2) : null, bbPer9:innings > 0 ? round(walks * 9 / innings, 2) : null, strikePercentage:round(stat.strikePercentage), sourceDate:split?.date || null, season };
   }
 
   const plateAppearances = Number(stat.plateAppearances || 0);
   const walks = Number(stat.baseOnBalls || 0);
   const strikeouts = Number(stat.strikeOuts || 0);
-  return { type:'hitting', games:stat.gamesPlayed ?? null, plateAppearances:stat.plateAppearances ?? null, atBats:stat.atBats ?? null, runs:stat.runs ?? null, hits:stat.hits ?? null, doubles:stat.doubles ?? null, triples:stat.triples ?? null, homeRuns:stat.homeRuns ?? null, rbi:stat.rbi ?? null, stolenBases:stat.stolenBases ?? null, caughtStealing:stat.caughtStealing ?? null, average:round(stat.avg), obp:round(stat.obp), slg:round(stat.slg), ops:round(stat.ops), walkRate:plateAppearances > 0 ? round(walks / plateAppearances * 100, 1) : null, strikeoutRate:plateAppearances > 0 ? round(strikeouts / plateAppearances * 100, 1) : null, sourceDate:split?.date || null };
+  return { type:'hitting', games:stat.gamesPlayed ?? null, plateAppearances:stat.plateAppearances ?? null, atBats:stat.atBats ?? null, runs:stat.runs ?? null, hits:stat.hits ?? null, doubles:stat.doubles ?? null, triples:stat.triples ?? null, homeRuns:stat.homeRuns ?? null, rbi:stat.rbi ?? null, stolenBases:stat.stolenBases ?? null, caughtStealing:stat.caughtStealing ?? null, average:round(stat.avg), obp:round(stat.obp), slg:round(stat.slg), ops:round(stat.ops), walkRate:plateAppearances > 0 ? round(walks / plateAppearances * 100, 1) : null, strikeoutRate:plateAppearances > 0 ? round(strikeouts / plateAppearances * 100, 1) : null, sourceDate:split?.date || null, season };
 }
 
 const rosterResults = await Promise.allSettled(TEAMS.map(async team => ({ team, roster: await getRoster(team) })));
