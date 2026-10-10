@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T22:38:24.160Z",
+  "updatedAt": "2026-10-10T01:02:13.033Z",
   "season": 2026,
   "rosterType": "active (MLB) + fullRoster (affiliates)",
   "records": [
@@ -41,7 +41,8 @@
         "kPer9": 10.08,
         "bbPer9": 5.41,
         "strikePercentage": 0.64,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -82,7 +83,8 @@
         "kPer9": 9.88,
         "bbPer9": 1.96,
         "strikePercentage": 0.67,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -127,7 +129,8 @@
         "ops": 0.651,
         "walkRate": 5.8,
         "strikeoutRate": 34.6,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -168,7 +171,8 @@
         "kPer9": 11.25,
         "bbPer9": 4.5,
         "strikePercentage": 0.61,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -209,7 +213,8 @@
         "kPer9": 10.38,
         "bbPer9": 5.88,
         "strikePercentage": 0.6,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -254,7 +259,8 @@
         "ops": 0.686,
         "walkRate": 6.3,
         "strikeoutRate": 21.3,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -299,7 +305,8 @@
         "ops": 0.742,
         "walkRate": 8.8,
         "strikeoutRate": 28.7,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -340,7 +347,8 @@
         "kPer9": 11.61,
         "bbPer9": 11.61,
         "strikePercentage": 0.59,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -381,7 +389,8 @@
         "kPer9": 7.62,
         "bbPer9": 3.81,
         "strikePercentage": 0.62,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -422,7 +431,8 @@
         "kPer9": 9,
         "bbPer9": 12,
         "strikePercentage": 0.5,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -467,7 +477,8 @@
         "ops": 0.5,
         "walkRate": 0,
         "strikeoutRate": 0,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -512,7 +523,8 @@
         "ops": 0.884,
         "walkRate": 18.4,
         "strikeoutRate": 14.5,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -553,7 +565,8 @@
         "kPer9": 10.42,
         "bbPer9": 6.67,
         "strikePercentage": 0.58,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -594,7 +607,8 @@
         "kPer9": 11.1,
         "bbPer9": 8.7,
         "strikePercentage": 0.55,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -635,7 +649,8 @@
         "kPer9": null,
         "bbPer9": null,
         "strikePercentage": null,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -676,7 +691,8 @@
         "kPer9": 0,
         "bbPer9": 18,
         "strikePercentage": 0.43,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -717,7 +733,8 @@
         "kPer9": 22.94,
         "bbPer9": 8.82,
         "strikePercentage": 0.58,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -762,7 +779,8 @@
         "ops": 0.791,
         "walkRate": 26.1,
         "strikeoutRate": 17.4,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -803,7 +821,8 @@
         "kPer9": 11.57,
         "bbPer9": 6.14,
         "strikePercentage": 0.59,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -848,7 +867,8 @@
         "ops": 0.721,
         "walkRate": 10.6,
         "strikeoutRate": 25.9,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -889,7 +909,8 @@
         "kPer9": 11.16,
         "bbPer9": 5.09,
         "strikePercentage": 0.61,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -934,7 +955,8 @@
         "ops": 0.543,
         "walkRate": 5.7,
         "strikeoutRate": 11.3,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -979,7 +1001,8 @@
         "ops": 0.713,
         "walkRate": 10.9,
         "strikeoutRate": 22.2,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -1020,7 +1043,8 @@
         "kPer9": 10.98,
         "bbPer9": 3.84,
         "strikePercentage": 0.62,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -1061,7 +1085,8 @@
         "kPer9": 9.45,
         "bbPer9": 6.75,
         "strikePercentage": 0.58,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -1106,7 +1131,8 @@
         "ops": 0.762,
         "walkRate": 13.9,
         "strikeoutRate": 13.7,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -1147,7 +1173,8 @@
         "kPer9": 12.77,
         "bbPer9": 6.06,
         "strikePercentage": 0.56,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -1192,7 +1219,8 @@
         "ops": 0.4,
         "walkRate": 0,
         "strikeoutRate": 40,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -1237,7 +1265,8 @@
         "ops": 1.033,
         "walkRate": 15.2,
         "strikeoutRate": 27.3,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -1278,7 +1307,8 @@
         "kPer9": 15.71,
         "bbPer9": 8.07,
         "strikePercentage": 0.6,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -1319,7 +1349,8 @@
         "kPer9": 7.97,
         "bbPer9": 4.04,
         "strikePercentage": 0.6,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -1360,7 +1391,8 @@
         "kPer9": 11.94,
         "bbPer9": 7.35,
         "strikePercentage": 0.59,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -1405,7 +1437,8 @@
         "ops": 0.73,
         "walkRate": 0,
         "strikeoutRate": 0,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -1450,7 +1483,8 @@
         "ops": 0.719,
         "walkRate": 7.4,
         "strikeoutRate": 27.9,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -1495,7 +1529,8 @@
         "ops": 0.769,
         "walkRate": 14,
         "strikeoutRate": 22.6,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -1540,7 +1575,8 @@
         "ops": 0.741,
         "walkRate": 10.6,
         "strikeoutRate": 19.4,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -1581,7 +1617,8 @@
         "kPer9": 7.92,
         "bbPer9": 4.32,
         "strikePercentage": 0.64,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -1609,24 +1646,25 @@
       "strikeZoneBottom": 1.665,
       "stats": {
         "type": "hitting",
-        "games": null,
-        "plateAppearances": null,
-        "atBats": null,
-        "runs": null,
-        "hits": null,
-        "doubles": null,
-        "triples": null,
-        "homeRuns": null,
-        "rbi": null,
-        "stolenBases": null,
-        "caughtStealing": null,
-        "average": null,
-        "obp": null,
-        "slg": null,
-        "ops": null,
-        "walkRate": null,
-        "strikeoutRate": null,
-        "sourceDate": null
+        "games": 6,
+        "plateAppearances": 24,
+        "atBats": 21,
+        "runs": 3,
+        "hits": 3,
+        "doubles": 1,
+        "triples": 0,
+        "homeRuns": 0,
+        "rbi": 0,
+        "stolenBases": 0,
+        "caughtStealing": 0,
+        "average": 0.143,
+        "obp": 0.25,
+        "slg": 0.19,
+        "ops": 0.44,
+        "walkRate": 12.5,
+        "strikeoutRate": 20.8,
+        "sourceDate": null,
+        "season": 2025
       }
     },
     {
@@ -1667,7 +1705,8 @@
         "kPer9": 10.67,
         "bbPer9": 5.88,
         "strikePercentage": 0.6,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -1695,20 +1734,21 @@
       "strikeZoneBottom": 1.733,
       "stats": {
         "type": "pitching",
-        "games": null,
-        "gamesStarted": null,
-        "inningsPitched": null,
-        "era": null,
-        "whip": null,
-        "strikeouts": null,
-        "walks": null,
-        "hits": null,
-        "homeRuns": null,
-        "saves": null,
-        "kPer9": null,
-        "bbPer9": null,
-        "strikePercentage": null,
-        "sourceDate": null
+        "games": 28,
+        "gamesStarted": 6,
+        "inningsPitched": "50.2",
+        "era": 7.82,
+        "whip": 2.05,
+        "strikeouts": 53,
+        "walks": 52,
+        "hits": 52,
+        "homeRuns": 3,
+        "saves": 0,
+        "kPer9": 9.5,
+        "bbPer9": 9.32,
+        "strikePercentage": 0.56,
+        "sourceDate": null,
+        "season": 2025
       }
     },
     {
@@ -1749,7 +1789,8 @@
         "kPer9": 8.29,
         "bbPer9": 3.57,
         "strikePercentage": 0.65,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -1790,7 +1831,8 @@
         "kPer9": null,
         "bbPer9": null,
         "strikePercentage": null,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -1831,7 +1873,8 @@
         "kPer9": 10.59,
         "bbPer9": 9.71,
         "strikePercentage": 0.56,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -1876,7 +1919,8 @@
         "ops": 0.757,
         "walkRate": 16.2,
         "strikeoutRate": 16.9,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -1917,7 +1961,8 @@
         "kPer9": 6.56,
         "bbPer9": 8.34,
         "strikePercentage": 0.54,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -1958,7 +2003,8 @@
         "kPer9": 8.7,
         "bbPer9": 5.7,
         "strikePercentage": 0.57,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -1999,7 +2045,8 @@
         "kPer9": null,
         "bbPer9": null,
         "strikePercentage": null,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -2044,7 +2091,8 @@
         "ops": 0.562,
         "walkRate": 13.3,
         "strikeoutRate": 33.3,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -2085,7 +2133,8 @@
         "kPer9": null,
         "bbPer9": null,
         "strikePercentage": null,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -2126,7 +2175,8 @@
         "kPer9": null,
         "bbPer9": null,
         "strikePercentage": null,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -2167,7 +2217,8 @@
         "kPer9": 13.46,
         "bbPer9": 5.08,
         "strikePercentage": 0.61,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -2208,7 +2259,8 @@
         "kPer9": 10.07,
         "bbPer9": 3.58,
         "strikePercentage": 0.64,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -2249,7 +2301,8 @@
         "kPer9": null,
         "bbPer9": null,
         "strikePercentage": null,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -2290,7 +2343,8 @@
         "kPer9": null,
         "bbPer9": null,
         "strikePercentage": null,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -2318,20 +2372,21 @@
       "strikeZoneBottom": 1.778,
       "stats": {
         "type": "pitching",
-        "games": 7,
+        "games": 15,
         "gamesStarted": 0,
-        "inningsPitched": "8.1",
-        "era": 4.32,
-        "whip": 1.32,
-        "strikeouts": 10,
-        "walks": 7,
-        "hits": 4,
-        "homeRuns": 0,
-        "saves": 0,
-        "kPer9": 11.11,
-        "bbPer9": 7.78,
-        "strikePercentage": 0.58,
-        "sourceDate": null
+        "inningsPitched": "23.2",
+        "era": 4.94,
+        "whip": 1.35,
+        "strikeouts": 26,
+        "walks": 14,
+        "hits": 18,
+        "homeRuns": 2,
+        "saves": 1,
+        "kPer9": 10.09,
+        "bbPer9": 5.43,
+        "strikePercentage": 0.59,
+        "sourceDate": null,
+        "season": 2025
       }
     },
     {
@@ -2376,7 +2431,8 @@
         "ops": 0.717,
         "walkRate": 15,
         "strikeoutRate": 18.7,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -2421,7 +2477,8 @@
         "ops": 0.454,
         "walkRate": 12.7,
         "strikeoutRate": 23.9,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -2466,7 +2523,8 @@
         "ops": 0.743,
         "walkRate": 14.3,
         "strikeoutRate": 24.1,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -2511,7 +2569,8 @@
         "ops": 0.705,
         "walkRate": 15.3,
         "strikeoutRate": 35.2,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -2556,7 +2615,8 @@
         "ops": 0.65,
         "walkRate": 15.5,
         "strikeoutRate": 23.3,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -2601,7 +2661,8 @@
         "ops": 0.454,
         "walkRate": 9.8,
         "strikeoutRate": 37,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -2642,7 +2703,8 @@
         "kPer9": null,
         "bbPer9": null,
         "strikePercentage": null,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -2670,20 +2732,21 @@
       "strikeZoneBottom": 1.71,
       "stats": {
         "type": "pitching",
-        "games": 2,
-        "gamesStarted": 0,
-        "inningsPitched": "4.0",
-        "era": 4.5,
-        "whip": 0.75,
-        "strikeouts": 4,
-        "walks": 2,
-        "hits": 1,
-        "homeRuns": 0,
-        "saves": 1,
-        "kPer9": 9,
-        "bbPer9": 4.5,
+        "games": 11,
+        "gamesStarted": 11,
+        "inningsPitched": "39.0",
+        "era": 6.23,
+        "whip": 1.56,
+        "strikeouts": 46,
+        "walks": 14,
+        "hits": 47,
+        "homeRuns": 3,
+        "saves": 0,
+        "kPer9": 10.62,
+        "bbPer9": 3.23,
         "strikePercentage": 0.67,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2025
       }
     },
     {
@@ -2728,7 +2791,8 @@
         "ops": 0.647,
         "walkRate": 6.5,
         "strikeoutRate": 27.8,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -2769,7 +2833,8 @@
         "kPer9": null,
         "bbPer9": null,
         "strikePercentage": null,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -2810,7 +2875,8 @@
         "kPer9": null,
         "bbPer9": null,
         "strikePercentage": null,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -2855,7 +2921,8 @@
         "ops": 0.659,
         "walkRate": 19.8,
         "strikeoutRate": 27.3,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -2900,7 +2967,8 @@
         "ops": 0.586,
         "walkRate": 6,
         "strikeoutRate": 27,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -2941,7 +3009,8 @@
         "kPer9": null,
         "bbPer9": null,
         "strikePercentage": null,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -2969,24 +3038,25 @@
       "strikeZoneBottom": 1.598,
       "stats": {
         "type": "hitting",
-        "games": 13,
-        "plateAppearances": 43,
-        "atBats": 41,
-        "runs": 6,
-        "hits": 10,
-        "doubles": 1,
-        "triples": 0,
-        "homeRuns": 0,
-        "rbi": 5,
-        "stolenBases": 0,
-        "caughtStealing": 0,
-        "average": 0.244,
-        "obp": 0.279,
-        "slg": 0.268,
-        "ops": 0.547,
-        "walkRate": 4.7,
-        "strikeoutRate": 34.9,
-        "sourceDate": null
+        "games": 41,
+        "plateAppearances": 145,
+        "atBats": 131,
+        "runs": 18,
+        "hits": 35,
+        "doubles": 6,
+        "triples": 3,
+        "homeRuns": 1,
+        "rbi": 14,
+        "stolenBases": 12,
+        "caughtStealing": 2,
+        "average": 0.267,
+        "obp": 0.331,
+        "slg": 0.382,
+        "ops": 0.713,
+        "walkRate": 6.2,
+        "strikeoutRate": 28.3,
+        "sourceDate": null,
+        "season": 2025
       }
     },
     {
@@ -3027,7 +3097,8 @@
         "kPer9": null,
         "bbPer9": null,
         "strikePercentage": null,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -3068,7 +3139,8 @@
         "kPer9": 11.58,
         "bbPer9": 6.24,
         "strikePercentage": 0.6,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -3096,24 +3168,25 @@
       "strikeZoneBottom": 1.553,
       "stats": {
         "type": "hitting",
-        "games": null,
-        "plateAppearances": null,
-        "atBats": null,
-        "runs": null,
-        "hits": null,
-        "doubles": null,
-        "triples": null,
-        "homeRuns": null,
-        "rbi": null,
-        "stolenBases": null,
-        "caughtStealing": null,
-        "average": null,
-        "obp": null,
-        "slg": null,
-        "ops": null,
-        "walkRate": null,
-        "strikeoutRate": null,
-        "sourceDate": null
+        "games": 40,
+        "plateAppearances": 143,
+        "atBats": 114,
+        "runs": 17,
+        "hits": 27,
+        "doubles": 5,
+        "triples": 0,
+        "homeRuns": 0,
+        "rbi": 11,
+        "stolenBases": 10,
+        "caughtStealing": 7,
+        "average": 0.237,
+        "obp": 0.379,
+        "slg": 0.281,
+        "ops": 0.66,
+        "walkRate": 15.4,
+        "strikeoutRate": 18.2,
+        "sourceDate": null,
+        "season": 2025
       }
     },
     {
@@ -3154,7 +3227,8 @@
         "kPer9": null,
         "bbPer9": null,
         "strikePercentage": null,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -3195,7 +3269,8 @@
         "kPer9": 5.93,
         "bbPer9": 13.85,
         "strikePercentage": 0.46,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -3223,24 +3298,25 @@
       "strikeZoneBottom": 1.553,
       "stats": {
         "type": "hitting",
-        "games": 6,
-        "plateAppearances": 18,
-        "atBats": 13,
-        "runs": 5,
-        "hits": 5,
-        "doubles": 1,
-        "triples": 0,
+        "games": 35,
+        "plateAppearances": 132,
+        "atBats": 110,
+        "runs": 16,
+        "hits": 30,
+        "doubles": 0,
+        "triples": 1,
         "homeRuns": 0,
-        "rbi": 3,
-        "stolenBases": 1,
-        "caughtStealing": 0,
-        "average": 0.385,
-        "obp": 0.556,
-        "slg": 0.462,
-        "ops": 1.018,
-        "walkRate": 27.8,
-        "strikeoutRate": 16.7,
-        "sourceDate": null
+        "rbi": 12,
+        "stolenBases": 5,
+        "caughtStealing": 3,
+        "average": 0.273,
+        "obp": 0.394,
+        "slg": 0.291,
+        "ops": 0.685,
+        "walkRate": 11.4,
+        "strikeoutRate": 22,
+        "sourceDate": null,
+        "season": 2025
       }
     },
     {
@@ -3281,7 +3357,8 @@
         "kPer9": null,
         "bbPer9": null,
         "strikePercentage": null,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -3326,7 +3403,8 @@
         "ops": 0.604,
         "walkRate": 14.3,
         "strikeoutRate": 23.8,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -3367,7 +3445,8 @@
         "kPer9": null,
         "bbPer9": null,
         "strikePercentage": null,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -3408,7 +3487,8 @@
         "kPer9": 12.66,
         "bbPer9": 5.91,
         "strikePercentage": 0.59,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -3453,7 +3533,8 @@
         "ops": 0.856,
         "walkRate": 5.2,
         "strikeoutRate": 12.8,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -3498,7 +3579,8 @@
         "ops": 0.532,
         "walkRate": 9.1,
         "strikeoutRate": 22.6,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -3543,7 +3625,8 @@
         "ops": 0.777,
         "walkRate": 10.5,
         "strikeoutRate": 15.8,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -3584,7 +3667,8 @@
         "kPer9": 11,
         "bbPer9": 2.75,
         "strikePercentage": 0.66,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -3625,7 +3709,8 @@
         "kPer9": 12.88,
         "bbPer9": 6.83,
         "strikePercentage": 0.6,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -3666,7 +3751,8 @@
         "kPer9": 12.24,
         "bbPer9": 4.86,
         "strikePercentage": 0.63,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -3711,7 +3797,8 @@
         "ops": 0.608,
         "walkRate": 11.6,
         "strikeoutRate": 37.5,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -3739,20 +3826,21 @@
       "strikeZoneBottom": 1.733,
       "stats": {
         "type": "pitching",
-        "games": null,
-        "gamesStarted": null,
-        "inningsPitched": null,
-        "era": null,
-        "whip": null,
-        "strikeouts": null,
-        "walks": null,
-        "hits": null,
-        "homeRuns": null,
-        "saves": null,
-        "kPer9": null,
-        "bbPer9": null,
-        "strikePercentage": null,
-        "sourceDate": null
+        "games": 25,
+        "gamesStarted": 19,
+        "inningsPitched": "88.0",
+        "era": 5.93,
+        "whip": 1.58,
+        "strikeouts": 80,
+        "walks": 44,
+        "hits": 95,
+        "homeRuns": 9,
+        "saves": 1,
+        "kPer9": 8.18,
+        "bbPer9": 4.5,
+        "strikePercentage": 0.63,
+        "sourceDate": null,
+        "season": 2025
       }
     },
     {
@@ -3793,7 +3881,8 @@
         "kPer9": 10.42,
         "bbPer9": 9.47,
         "strikePercentage": 0.53,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -3838,7 +3927,8 @@
         "ops": 0.597,
         "walkRate": 9.7,
         "strikeoutRate": 20.7,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -3883,7 +3973,8 @@
         "ops": 0.681,
         "walkRate": 7,
         "strikeoutRate": 27,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -3911,20 +4002,21 @@
       "strikeZoneBottom": 1.733,
       "stats": {
         "type": "pitching",
-        "games": null,
-        "gamesStarted": null,
-        "inningsPitched": null,
-        "era": null,
-        "whip": null,
-        "strikeouts": null,
-        "walks": null,
-        "hits": null,
-        "homeRuns": null,
-        "saves": null,
-        "kPer9": null,
-        "bbPer9": null,
-        "strikePercentage": null,
-        "sourceDate": null
+        "games": 19,
+        "gamesStarted": 0,
+        "inningsPitched": "19.2",
+        "era": 5.95,
+        "whip": 1.53,
+        "strikeouts": 19,
+        "walks": 9,
+        "hits": 21,
+        "homeRuns": 1,
+        "saves": 0,
+        "kPer9": 8.91,
+        "bbPer9": 4.22,
+        "strikePercentage": 0.61,
+        "sourceDate": null,
+        "season": 2025
       }
     },
     {
@@ -3965,7 +4057,8 @@
         "kPer9": 12,
         "bbPer9": 5.79,
         "strikePercentage": 0.6,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -4006,7 +4099,8 @@
         "kPer9": 9.23,
         "bbPer9": 2.54,
         "strikePercentage": 0.64,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -4047,7 +4141,8 @@
         "kPer9": 8.61,
         "bbPer9": 4.37,
         "strikePercentage": 0.62,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -4092,7 +4187,8 @@
         "ops": 0.671,
         "walkRate": 10.9,
         "strikeoutRate": 28.3,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -4133,7 +4229,8 @@
         "kPer9": 8.96,
         "bbPer9": 6.72,
         "strikePercentage": 0.58,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -4178,7 +4275,8 @@
         "ops": 0.586,
         "walkRate": 18.7,
         "strikeoutRate": 28.8,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -4219,7 +4317,8 @@
         "kPer9": 12.7,
         "bbPer9": 4.85,
         "strikePercentage": 0.6,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -4260,7 +4359,8 @@
         "kPer9": 11.17,
         "bbPer9": 4.88,
         "strikePercentage": 0.62,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -4305,7 +4405,8 @@
         "ops": 0.836,
         "walkRate": 13.4,
         "strikeoutRate": 24.3,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -4350,7 +4451,8 @@
         "ops": 0.631,
         "walkRate": 12,
         "strikeoutRate": 17.4,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -4395,7 +4497,8 @@
         "ops": 0.703,
         "walkRate": 20.7,
         "strikeoutRate": 27.1,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -4436,7 +4539,8 @@
         "kPer9": 10.33,
         "bbPer9": 4.62,
         "strikePercentage": 0.62,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -4481,7 +4585,8 @@
         "ops": 0.79,
         "walkRate": 14.4,
         "strikeoutRate": 17.3,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -4526,7 +4631,8 @@
         "ops": 0.729,
         "walkRate": 13.2,
         "strikeoutRate": 16.3,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -4571,7 +4677,8 @@
         "ops": 0.568,
         "walkRate": 7.3,
         "strikeoutRate": 22.5,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -4612,7 +4719,8 @@
         "kPer9": 10.09,
         "bbPer9": 4.26,
         "strikePercentage": 0.59,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -4653,7 +4761,8 @@
         "kPer9": 9.41,
         "bbPer9": 3.27,
         "strikePercentage": 0.63,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -4698,7 +4807,8 @@
         "ops": 0.576,
         "walkRate": 10.1,
         "strikeoutRate": 22.3,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -4739,7 +4849,8 @@
         "kPer9": 9.45,
         "bbPer9": 4.64,
         "strikePercentage": 0.62,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -4780,7 +4891,8 @@
         "kPer9": 11.85,
         "bbPer9": 4.39,
         "strikePercentage": 0.62,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -4821,7 +4933,8 @@
         "kPer9": 12.37,
         "bbPer9": 7.18,
         "strikePercentage": 0.59,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -4866,7 +4979,8 @@
         "ops": 0.728,
         "walkRate": 19.1,
         "strikeoutRate": 24.7,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -4911,7 +5025,8 @@
         "ops": 0.647,
         "walkRate": 9.5,
         "strikeoutRate": 18.3,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -4956,7 +5071,8 @@
         "ops": 0.881,
         "walkRate": 14.8,
         "strikeoutRate": 29.1,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -4997,7 +5113,8 @@
         "kPer9": 7.01,
         "bbPer9": 5.45,
         "strikePercentage": 0.63,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -5025,20 +5142,21 @@
       "strikeZoneBottom": 1.665,
       "stats": {
         "type": "pitching",
-        "games": 11,
-        "gamesStarted": 1,
-        "inningsPitched": "10.1",
-        "era": 9.58,
-        "whip": 2.71,
-        "strikeouts": 16,
-        "walks": 15,
-        "hits": 13,
+        "games": 43,
+        "gamesStarted": 0,
+        "inningsPitched": "47.2",
+        "era": 3.97,
+        "whip": 1.24,
+        "strikeouts": 54,
+        "walks": 22,
+        "hits": 37,
         "homeRuns": 2,
-        "saves": 1,
-        "kPer9": 14.26,
-        "bbPer9": 13.37,
-        "strikePercentage": 0.55,
-        "sourceDate": null
+        "saves": 6,
+        "kPer9": 10.3,
+        "bbPer9": 4.19,
+        "strikePercentage": 0.63,
+        "sourceDate": null,
+        "season": 2025
       }
     },
     {
@@ -5079,7 +5197,8 @@
         "kPer9": 7.67,
         "bbPer9": 3.9,
         "strikePercentage": 0.64,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -5124,7 +5243,8 @@
         "ops": 0.742,
         "walkRate": 10.7,
         "strikeoutRate": 18.2,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -5165,7 +5285,8 @@
         "kPer9": 5.61,
         "bbPer9": 1.33,
         "strikePercentage": 0.68,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -5206,7 +5327,8 @@
         "kPer9": 7.15,
         "bbPer9": 2.86,
         "strikePercentage": 0.63,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -5247,7 +5369,8 @@
         "kPer9": 9.47,
         "bbPer9": 3.68,
         "strikePercentage": 0.63,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -5275,20 +5398,21 @@
       "strikeZoneBottom": 1.71,
       "stats": {
         "type": "pitching",
-        "games": null,
-        "gamesStarted": null,
-        "inningsPitched": null,
-        "era": null,
-        "whip": null,
-        "strikeouts": null,
-        "walks": null,
-        "hits": null,
-        "homeRuns": null,
-        "saves": null,
-        "kPer9": null,
-        "bbPer9": null,
-        "strikePercentage": null,
-        "sourceDate": null
+        "games": 28,
+        "gamesStarted": 0,
+        "inningsPitched": "30.1",
+        "era": 2.67,
+        "whip": 1.22,
+        "strikeouts": 36,
+        "walks": 9,
+        "hits": 28,
+        "homeRuns": 1,
+        "saves": 6,
+        "kPer9": 10.76,
+        "bbPer9": 2.69,
+        "strikePercentage": 0.67,
+        "sourceDate": null,
+        "season": 2025
       }
     },
     {
@@ -5329,7 +5453,8 @@
         "kPer9": 5.16,
         "bbPer9": 3.16,
         "strikePercentage": 0.65,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -5374,7 +5499,8 @@
         "ops": 0.692,
         "walkRate": 9.5,
         "strikeoutRate": 26.3,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -5419,7 +5545,8 @@
         "ops": 0.834,
         "walkRate": 15.7,
         "strikeoutRate": 28.6,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -5464,7 +5591,8 @@
         "ops": 0.477,
         "walkRate": 6.5,
         "strikeoutRate": 28.4,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -5509,7 +5637,8 @@
         "ops": 0.849,
         "walkRate": 12,
         "strikeoutRate": 15.8,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -5550,7 +5679,8 @@
         "kPer9": 8.63,
         "bbPer9": 4.22,
         "strikePercentage": 0.62,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -5591,7 +5721,8 @@
         "kPer9": 7.89,
         "bbPer9": 2.58,
         "strikePercentage": 0.67,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -5632,7 +5763,8 @@
         "kPer9": 9.32,
         "bbPer9": 3.65,
         "strikePercentage": 0.65,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -5673,7 +5805,8 @@
         "kPer9": 10.82,
         "bbPer9": 3.06,
         "strikePercentage": 0.62,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -5714,7 +5847,8 @@
         "kPer9": 8.97,
         "bbPer9": 4.71,
         "strikePercentage": 0.6,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -5755,7 +5889,8 @@
         "kPer9": 7.61,
         "bbPer9": 6.25,
         "strikePercentage": 0.58,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -5800,7 +5935,8 @@
         "ops": 0.752,
         "walkRate": 13.3,
         "strikeoutRate": 25.2,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -5845,7 +5981,8 @@
         "ops": 0.753,
         "walkRate": 9.9,
         "strikeoutRate": 21.2,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -5890,7 +6027,8 @@
         "ops": 0.666,
         "walkRate": 7.3,
         "strikeoutRate": 29.3,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -5935,7 +6073,8 @@
         "ops": 0.788,
         "walkRate": 10.5,
         "strikeoutRate": 14.3,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -5976,7 +6115,8 @@
         "kPer9": 8.75,
         "bbPer9": 7.05,
         "strikePercentage": 0.58,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -6021,7 +6161,8 @@
         "ops": 0.729,
         "walkRate": 15,
         "strikeoutRate": 22.6,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -6062,7 +6203,8 @@
         "kPer9": 9.21,
         "bbPer9": 5.86,
         "strikePercentage": 0.61,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -6103,7 +6245,8 @@
         "kPer9": 7.7,
         "bbPer9": 5.5,
         "strikePercentage": 0.61,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -6148,7 +6291,8 @@
         "ops": 0.687,
         "walkRate": 8,
         "strikeoutRate": 30.2,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -6189,7 +6333,8 @@
         "kPer9": 9.1,
         "bbPer9": 3.03,
         "strikePercentage": 0.64,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -6230,7 +6375,8 @@
         "kPer9": 8.92,
         "bbPer9": 3.75,
         "strikePercentage": 0.65,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -6275,7 +6421,8 @@
         "ops": 0.698,
         "walkRate": 7.6,
         "strikeoutRate": 14,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -6316,7 +6463,8 @@
         "kPer9": 12.66,
         "bbPer9": 4.6,
         "strikePercentage": 0.63,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -6357,7 +6505,8 @@
         "kPer9": 7.83,
         "bbPer9": 7.27,
         "strikePercentage": 0.6,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -6398,7 +6547,8 @@
         "kPer9": 8.2,
         "bbPer9": 3.35,
         "strikePercentage": 0.65,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -6443,7 +6593,8 @@
         "ops": 0.712,
         "walkRate": 6,
         "strikeoutRate": 25,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -6484,7 +6635,8 @@
         "kPer9": 8.79,
         "bbPer9": 3.45,
         "strikePercentage": 0.65,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -6529,7 +6681,8 @@
         "ops": 0.806,
         "walkRate": 12.4,
         "strikeoutRate": 20.8,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -6574,7 +6727,8 @@
         "ops": 0.865,
         "walkRate": 15.4,
         "strikeoutRate": 21.4,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -6619,7 +6773,8 @@
         "ops": 0.735,
         "walkRate": 10.2,
         "strikeoutRate": 16.4,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -6660,7 +6815,8 @@
         "kPer9": 9.98,
         "bbPer9": 3.38,
         "strikePercentage": 0.62,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -6705,7 +6861,8 @@
         "ops": 0.568,
         "walkRate": 3.3,
         "strikeoutRate": 30.6,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -6746,7 +6903,8 @@
         "kPer9": 10.04,
         "bbPer9": 1.96,
         "strikePercentage": 0.67,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -6791,7 +6949,8 @@
         "ops": 0.733,
         "walkRate": 6,
         "strikeoutRate": 31.9,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -6836,7 +6995,8 @@
         "ops": 0.712,
         "walkRate": 2.8,
         "strikeoutRate": 21.6,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -6881,7 +7041,8 @@
         "ops": 0.747,
         "walkRate": 10.9,
         "strikeoutRate": 24.5,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -6926,7 +7087,8 @@
         "ops": 0.368,
         "walkRate": 4.6,
         "strikeoutRate": 23.1,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -6967,7 +7129,8 @@
         "kPer9": 9.24,
         "bbPer9": 2.45,
         "strikePercentage": 0.68,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -7012,7 +7175,8 @@
         "ops": 0.614,
         "walkRate": 7.9,
         "strikeoutRate": 21.4,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -7053,7 +7217,8 @@
         "kPer9": 11.1,
         "bbPer9": 2.61,
         "strikePercentage": 0.65,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -7094,7 +7259,8 @@
         "kPer9": 12.79,
         "bbPer9": 1.52,
         "strikePercentage": 0.65,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -7135,7 +7301,8 @@
         "kPer9": 11.71,
         "bbPer9": 2.41,
         "strikePercentage": 0.64,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -7176,7 +7343,8 @@
         "kPer9": 10.84,
         "bbPer9": 4.8,
         "strikePercentage": 0.6,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -7221,7 +7389,8 @@
         "ops": 0.662,
         "walkRate": 5.8,
         "strikeoutRate": 17.6,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -7266,7 +7435,8 @@
         "ops": 0.88,
         "walkRate": 13.1,
         "strikeoutRate": 28.2,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -7307,7 +7477,8 @@
         "kPer9": 10.69,
         "bbPer9": 2.41,
         "strikePercentage": 0.65,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -7352,7 +7523,8 @@
         "ops": 0.857,
         "walkRate": 15,
         "strikeoutRate": 31.4,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -7397,7 +7569,8 @@
         "ops": 0.764,
         "walkRate": 5.2,
         "strikeoutRate": 4.3,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -7438,7 +7611,8 @@
         "kPer9": 9.86,
         "bbPer9": 4.07,
         "strikePercentage": 0.64,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -7466,20 +7640,21 @@
       "strikeZoneBottom": 1.643,
       "stats": {
         "type": "pitching",
-        "games": null,
-        "gamesStarted": null,
-        "inningsPitched": null,
-        "era": null,
-        "whip": null,
-        "strikeouts": null,
-        "walks": null,
-        "hits": null,
-        "homeRuns": null,
-        "saves": null,
-        "kPer9": null,
-        "bbPer9": null,
-        "strikePercentage": null,
-        "sourceDate": null
+        "games": 6,
+        "gamesStarted": 6,
+        "inningsPitched": "16.2",
+        "era": 3.24,
+        "whip": 1.62,
+        "strikeouts": 19,
+        "walks": 12,
+        "hits": 15,
+        "homeRuns": 3,
+        "saves": 0,
+        "kPer9": 10.56,
+        "bbPer9": 6.67,
+        "strikePercentage": 0.61,
+        "sourceDate": null,
+        "season": 2025
       }
     },
     {
@@ -7507,20 +7682,21 @@
       "strikeZoneBottom": 1.575,
       "stats": {
         "type": "pitching",
-        "games": 3,
-        "gamesStarted": 0,
-        "inningsPitched": "5.2",
-        "era": 4.76,
-        "whip": 1.06,
-        "strikeouts": 7,
-        "walks": 0,
-        "hits": 6,
-        "homeRuns": 1,
+        "games": 8,
+        "gamesStarted": 8,
+        "inningsPitched": "34.1",
+        "era": 6.29,
+        "whip": 1.63,
+        "strikeouts": 29,
+        "walks": 20,
+        "hits": 36,
+        "homeRuns": 13,
         "saves": 0,
-        "kPer9": 12.12,
-        "bbPer9": 0,
-        "strikePercentage": 0.7,
-        "sourceDate": null
+        "kPer9": 7.65,
+        "bbPer9": 5.28,
+        "strikePercentage": 0.61,
+        "sourceDate": null,
+        "season": 2025
       }
     },
     {
@@ -7561,7 +7737,8 @@
         "kPer9": 9.78,
         "bbPer9": 5.28,
         "strikePercentage": 0.61,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -7606,7 +7783,8 @@
         "ops": 0.736,
         "walkRate": 8.4,
         "strikeoutRate": 22,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -7651,7 +7829,8 @@
         "ops": 0.302,
         "walkRate": 2.1,
         "strikeoutRate": 15.8,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -7692,7 +7871,8 @@
         "kPer9": 9.47,
         "bbPer9": 3.74,
         "strikePercentage": 0.66,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -7733,7 +7913,8 @@
         "kPer9": 8.58,
         "bbPer9": 2.41,
         "strikePercentage": 0.64,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -7778,7 +7959,8 @@
         "ops": 0.675,
         "walkRate": 6.9,
         "strikeoutRate": 21,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -7819,7 +8001,8 @@
         "kPer9": 10.72,
         "bbPer9": 2.61,
         "strikePercentage": 0.64,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -7860,7 +8043,8 @@
         "kPer9": 11.19,
         "bbPer9": 4.48,
         "strikePercentage": 0.63,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -7901,7 +8085,8 @@
         "kPer9": 10.56,
         "bbPer9": 1.96,
         "strikePercentage": 0.65,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -7929,24 +8114,25 @@
       "strikeZoneBottom": 1.646,
       "stats": {
         "type": "hitting",
-        "games": 4,
-        "plateAppearances": 14,
-        "atBats": 12,
-        "runs": 3,
-        "hits": 4,
-        "doubles": 3,
-        "triples": 0,
-        "homeRuns": 0,
-        "rbi": 2,
-        "stolenBases": 1,
-        "caughtStealing": 1,
-        "average": 0.333,
-        "obp": 0.429,
-        "slg": 0.583,
-        "ops": 1.012,
-        "walkRate": 14.3,
-        "strikeoutRate": 7.1,
-        "sourceDate": null
+        "games": 116,
+        "plateAppearances": 526,
+        "atBats": 432,
+        "runs": 82,
+        "hits": 114,
+        "doubles": 27,
+        "triples": 2,
+        "homeRuns": 14,
+        "rbi": 42,
+        "stolenBases": 59,
+        "caughtStealing": 15,
+        "average": 0.264,
+        "obp": 0.392,
+        "slg": 0.433,
+        "ops": 0.825,
+        "walkRate": 15.6,
+        "strikeoutRate": 23.4,
+        "sourceDate": null,
+        "season": 2025
       }
     },
     {
@@ -7991,7 +8177,8 @@
         "ops": 0.679,
         "walkRate": 11.8,
         "strikeoutRate": 16.2,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -8036,7 +8223,8 @@
         "ops": 0.816,
         "walkRate": 8.3,
         "strikeoutRate": 15.4,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -8064,20 +8252,21 @@
       "strikeZoneBottom": 1.688,
       "stats": {
         "type": "pitching",
-        "games": null,
-        "gamesStarted": null,
-        "inningsPitched": null,
-        "era": null,
-        "whip": null,
-        "strikeouts": null,
-        "walks": null,
-        "hits": null,
-        "homeRuns": null,
-        "saves": null,
-        "kPer9": null,
-        "bbPer9": null,
-        "strikePercentage": null,
-        "sourceDate": null
+        "games": 12,
+        "gamesStarted": 10,
+        "inningsPitched": "52.2",
+        "era": 4.61,
+        "whip": 1.52,
+        "strikeouts": 52,
+        "walks": 17,
+        "hits": 63,
+        "homeRuns": 9,
+        "saves": 0,
+        "kPer9": 8.97,
+        "bbPer9": 2.93,
+        "strikePercentage": 0.65,
+        "sourceDate": null,
+        "season": 2025
       }
     },
     {
@@ -8118,7 +8307,8 @@
         "kPer9": 8.29,
         "bbPer9": 3.32,
         "strikePercentage": 0.65,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -8163,7 +8353,8 @@
         "ops": 0.927,
         "walkRate": 17.8,
         "strikeoutRate": 20.8,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -8208,7 +8399,8 @@
         "ops": 0.79,
         "walkRate": 9.9,
         "strikeoutRate": 29.5,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -8253,7 +8445,8 @@
         "ops": 0.658,
         "walkRate": 5.3,
         "strikeoutRate": 24.1,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -8298,7 +8491,8 @@
         "ops": 0.934,
         "walkRate": 19.6,
         "strikeoutRate": 23.7,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -8339,7 +8533,8 @@
         "kPer9": 8.98,
         "bbPer9": 3.83,
         "strikePercentage": 0.64,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -8380,7 +8575,8 @@
         "kPer9": 12.11,
         "bbPer9": 2.84,
         "strikePercentage": 0.65,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -8421,7 +8617,8 @@
         "kPer9": 7.67,
         "bbPer9": 6.17,
         "strikePercentage": 0.61,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -8466,7 +8663,8 @@
         "ops": 0.658,
         "walkRate": 8.9,
         "strikeoutRate": 16.3,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -8511,7 +8709,8 @@
         "ops": 0.748,
         "walkRate": 12.9,
         "strikeoutRate": 18.9,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -8552,7 +8751,8 @@
         "kPer9": 10.18,
         "bbPer9": 3.99,
         "strikePercentage": 0.66,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -8593,7 +8793,8 @@
         "kPer9": 8.55,
         "bbPer9": 3.62,
         "strikePercentage": 0.64,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -8634,7 +8835,8 @@
         "kPer9": 9.64,
         "bbPer9": 2.57,
         "strikePercentage": 0.68,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -8675,7 +8877,8 @@
         "kPer9": 13.17,
         "bbPer9": 2.84,
         "strikePercentage": 0.67,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -8720,7 +8923,8 @@
         "ops": 0.743,
         "walkRate": 15.9,
         "strikeoutRate": 31.8,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -8761,7 +8965,8 @@
         "kPer9": 10.11,
         "bbPer9": 2.35,
         "strikePercentage": 0.65,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -8802,7 +9007,8 @@
         "kPer9": 12.13,
         "bbPer9": 4.39,
         "strikePercentage": 0.63,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -8847,7 +9053,8 @@
         "ops": 0.665,
         "walkRate": 15.9,
         "strikeoutRate": 35,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -8888,7 +9095,8 @@
         "kPer9": 11.14,
         "bbPer9": 5.57,
         "strikePercentage": 0.62,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -8933,7 +9141,8 @@
         "ops": 0.769,
         "walkRate": 14.2,
         "strikeoutRate": 15.4,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -8974,7 +9183,8 @@
         "kPer9": 9.22,
         "bbPer9": 3.79,
         "strikePercentage": 0.64,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -9019,7 +9229,8 @@
         "ops": 0.806,
         "walkRate": 25.6,
         "strikeoutRate": 38.5,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -9060,7 +9271,8 @@
         "kPer9": 13.68,
         "bbPer9": 5.03,
         "strikePercentage": 0.6,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -9105,7 +9317,8 @@
         "ops": 0.84,
         "walkRate": 10,
         "strikeoutRate": 28.8,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -9150,7 +9363,8 @@
         "ops": 0.759,
         "walkRate": 9,
         "strikeoutRate": 25.7,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -9195,7 +9409,8 @@
         "ops": 0.79,
         "walkRate": 4.3,
         "strikeoutRate": 25.4,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -9236,7 +9451,8 @@
         "kPer9": 7.11,
         "bbPer9": 3.77,
         "strikePercentage": 0.61,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -9277,7 +9493,8 @@
         "kPer9": 8.89,
         "bbPer9": 4.44,
         "strikePercentage": 0.6,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -9318,7 +9535,8 @@
         "kPer9": 11.36,
         "bbPer9": 3.5,
         "strikePercentage": 0.62,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -9359,7 +9577,8 @@
         "kPer9": 10.75,
         "bbPer9": 3.13,
         "strikePercentage": 0.66,
-        "sourceDate": null
+        "sourceDate": null,
+        "season": 2026
       }
     },
     {
@@ -9387,20 +9606,21 @@
       "strikeZoneBottom": 1.665,
       "stats": {
         "type": "pitching",
-        "games": 1,
-        "gamesStarted": 0,
-        "inningsPitched": "1.0",
-        "era": 9,
-        "whip": 2,
-        "strikeouts": 1,
-        "walks": 2,
-        "hits": 0,
-        "homeRuns": 0,
-        "saves": 0,
-        "kPer9": 9,
-        "bbPer9": 18,
-        "strikePercentage": 0.48,
-        "sourceDate": null
+        "games": 33,
+        "gamesStarted": 1,
+        "inningsPitched": "38.0",
+        "era": 5.45,
+        "whip": 1.68,
+        "strikeouts": 36,
+        "walks": 25,
+        "hits": 39,
+        "homeRuns": 2,
+        "saves": 1,
+        "kPer9": 8.53,
+        "bbPer9": 5.92,
+        "strikePercentage": 0.59,
+        "sourceDate": null,
+        "season": 2025
       }
     }
   ],
