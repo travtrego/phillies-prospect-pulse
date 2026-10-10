@@ -25,7 +25,7 @@ export default function ProspectDirectory({players,rankings}:{players:Player[];r
  const[sort,setSort]=useState<'rank'|'name'|'age'|'level'>('rank');
  const rankById=useMemo(()=>new Map(rankings.map(item=>[String(item.playerId),item.rank])),[rankings]);
  const rankByName=useMemo(()=>new Map(rankings.map(item=>[normalize(item.player),item.rank])),[rankings]);
- const getRank=(player:Player)=>rankById.get(String(player.id))??rankByName.get(normalize(player.full_name))??player.mlb_pipeline_rank??null;
+ const getRank=(player:Player)=>rankById.get(String(player.id))??rankByName.get(normalize(player.full_name))??null;
  const confidenceById=useMemo(()=>new Map(rankings.map(item=>[String(item.playerId),item.confidence])),[rankings]);
  const confidenceByName=useMemo(()=>new Map(rankings.map(item=>[normalize(item.player),item.confidence])),[rankings]);
  const getConfidence=(player:Player)=>confidenceById.get(String(player.id))??confidenceByName.get(normalize(player.full_name))??null;

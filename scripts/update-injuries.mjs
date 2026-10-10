@@ -88,8 +88,32 @@ async function fetchPlayerPosition(playerId, fallback) {
   }
 }
 
+const monthNames = ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"];
+
+// A registry timeline like "Expected return: August 2026" is stale once that month has ended.
+function registryEntryExpired(entry, now = new Date()) {
+  const match = (entry.timeline ?? "").toLowerCase().match(/expected return:\s*([a-z]+)\s+(\d{4})/);
+  if (!match) return false;
+  const month = monthNames.indexOf(match[1]);
+  if (month < 0) return false;
+  return now >= new Date(Date.UTC(Number(match[2]), month + 1, 1));
+}
+
+// The transaction scan is per affiliate, so a player who leaves the IL via another team (or
+// via wording removedFromIl misses) lingers forever. Cross-check against the latest roster
+// snapshot: drop players now listed as active, and follow players who changed affiliates.
+function reconcileWithRosters(records, rosterRecords) {
+  const rosterById = new Map(rosterRecords.map((entry) => [String(entry.playerId), entry]));
+  return records.flatMap((record) => {
+    const roster = record.playerId ? rosterById.get(String(record.playerId)) : null;
+    if (!roster?.status) return [record];
+    if (!/injured/i.test(roster.status)) return [];
+    return [roster.affiliate && roster.affiliate !== "Philadelphia Phillies" ? { ...record, affiliate: roster.affiliate } : record];
+  });
+}
+
 function registryMatch(record, registry) {
-  const entry = registry.find((candidate) =>
+  const entry = registry.filter((candidate) => !registryEntryExpired(candidate)).find((candidate) =>
     candidate.playerId && record.playerId
       ? candidate.playerId === record.playerId
       : normalizeName(candidate.player) === normalizeName(record.player)
@@ -202,14 +226,16 @@ async function main() {
   const affiliates = await resolveAffiliates();
   const newsPayload = await loadJson("news.json", { articles: [] });
   const registryPayload = await loadJson("injury-registry.json", { records: [] });
+  const statsPayload = await loadJson("stats.json", { records: [] });
   const results = await Promise.allSettled(affiliates.map(fetchAffiliateTransactions));
-  const records = [];
+  const scanned = [];
   const errors = [];
 
   results.forEach((result, index) => {
-    if (result.status === "fulfilled") records.push(...result.value);
+    if (result.status === "fulfilled") scanned.push(...result.value);
     else errors.push({ affiliate: affiliates[index].name, error: result.reason?.message ?? String(result.reason) });
   });
+  const records = reconcileWithRosters(scanned, statsPayload.records ?? []);
 
   for (const record of records) {
     record.position = await fetchPlayerPosition(record.playerId, record.position);
