@@ -23,7 +23,8 @@ async function fetchJson(url) {
 
 async function fetchOrgRoster() {
   const results = await Promise.allSettled(TEAMS.map(async team => {
-    const data = await fetchJson(`https://statsapi.mlb.com/api/v1/teams/${team.id}/roster?rosterType=${team.rosterType}&season=${SEASON}`);
+    let data = await fetchJson(`https://statsapi.mlb.com/api/v1/teams/${team.id}/roster?rosterType=${team.rosterType}&season=${SEASON}`);
+    if (!(data.roster || []).length) data = await fetchJson(`https://statsapi.mlb.com/api/v1/teams/${team.id}/roster?rosterType=${team.rosterType}&season=${SEASON - 1}`);
     return (data.roster || []).map(entry => ({ mlbId: entry.person?.id ?? null, name: entry.person?.fullName ?? '' })).filter(row => row.mlbId && row.name);
   }));
   const rows = [];

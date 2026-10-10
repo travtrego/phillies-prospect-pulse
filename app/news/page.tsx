@@ -9,7 +9,7 @@ export default function NewsPage(){
  return <main>
   <header className="pageHeader"><span className="eyebrow">Phillies prospect coverage</span><h1>News</h1><p>The latest stories from across the Phillies farm system. This same feed powers injury matching and ranking sentiment.</p></header>
   <section className="movementPagePanel">
-   <div className="panelHeading"><div><span className="eyebrow">Latest coverage</span><h2>Prospect news feed</h2></div><span className="dataStatusPill">Every 6 hours</span></div>
+   <div className="panelHeading"><div><span className="eyebrow">Latest coverage</span><h2>Prospect news feed</h2></div><span className="dataStatusPill">Every 6 hours in season · daily offseason</span></div>
    <p className="muted">Last refreshed: {formatUpdatedAt(newsFeed.updatedAt)}</p>
    {articles.length===0?<div className="emptyStateCompact"><strong>No prospect news loaded yet</strong><p>The next automated prospect refresh will rebuild the shared news feed.</p></div>:<section className="fullStoryFeed">{articles.map((story,index)=><article className="fullStory" key={story.id}><span className="storyNumber">{index+1}</span><div><span className="storyMeta">{story.source} · {formatDate(story.publishedAt)} · {story.tags.join(" / ")}</span><h2><a href={story.url} target="_blank" rel="noreferrer">{story.title}</a></h2><p>{story.summary||"Open the source for the full report."}</p></div></article>)}</section>}
   </section>
