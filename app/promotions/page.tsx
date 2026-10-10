@@ -1,10 +1,15 @@
 import promotionFeed from "../../data/promotions.json";
+import statsData from "../../data/stats.json";
 import "./promotions.css";
 
 type PromotionRecord={playerId:number|null;player:string;date:string|null;fromAffiliate:string;fromLevel:string;toAffiliate:string;toLevel:string;description:string;source:string;};
 function formatDate(value:string|null){if(!value)return"Date unavailable";return new Intl.DateTimeFormat("en-US",{month:"short",day:"numeric",year:"numeric"}).format(new Date(`${value}T12:00:00Z`));}
 function formatUpdatedAt(value:string|null){if(!value)return"Waiting for first automated refresh";return new Intl.DateTimeFormat("en-US",{month:"short",day:"numeric",year:"numeric",hour:"numeric",minute:"2-digit",timeZoneName:"short"}).format(new Date(value));}
 const VISIBLE_LIMIT=40;
+const PROMOTION_LEVEL:Record<string,string>={"High-A":"A+","Single-A":"A"};
+// promotions.json only holds upward moves; flag players whose current roster level no longer matches.
+const rosterById=new Map((statsData.records as {playerId:number;level:string;affiliate:string}[]).map(record=>[record.playerId,record]));
+function laterMove(record:PromotionRecord){const roster=record.playerId?rosterById.get(record.playerId):undefined;if(!roster)return null;return roster.level===(PROMOTION_LEVEL[record.toLevel]??record.toLevel)?null:roster;}
 export default function PromotionsPage(){
  const allRecords=promotionFeed.records as PromotionRecord[];
  const records=allRecords.slice(0,VISIBLE_LIMIT);
@@ -13,7 +18,7 @@ export default function PromotionsPage(){
   <section className="movementPagePanel">
    <div className="panelHeading"><div><span className="eyebrow">Latest moves</span><h2>Player promotions</h2></div><span className="dataStatusPill">Every 6 hours</span></div>
    <p className="muted">Last refreshed: {formatUpdatedAt(promotionFeed.updatedAt)}{allRecords.length>VISIBLE_LIMIT?` · Showing the ${VISIBLE_LIMIT} most recent of ${allRecords.length} total moves`:""}</p>
-   {records.length===0?<div className="emptyStateCompact"><strong>No promotion records loaded yet</strong><p>The next automated refresh will scan official affiliate transactions and populate this page.</p></div>:<div className="promotionList">{records.map(record=><article className="promotionCard" key={`${record.playerId??record.player}-${record.date}-${record.toLevel}`}><div className="promotionHeader"><div><span className="eyebrow">{formatDate(record.date)}</span><h3>{record.player}</h3></div><span className="promotionBadge">Promoted</span></div><div className="promotionRoute"><div><span>From</span><strong>{record.fromLevel}</strong><small>{record.fromAffiliate}</small></div><b aria-hidden="true">→</b><div><span>To</span><strong>{record.toLevel}</strong><small>{record.toAffiliate}</small></div></div><p>{record.description}</p><a href={record.source} target="_blank" rel="noreferrer">Official transaction source →</a></article>)}</div>}
+   {records.length===0?<div className="emptyStateCompact"><strong>No promotion records loaded yet</strong><p>The next automated refresh will scan official affiliate transactions and populate this page.</p></div>:<div className="promotionList">{records.map(record=><article className="promotionCard" key={`${record.playerId??record.player}-${record.date}-${record.toLevel}`}><div className="promotionHeader"><div><span className="eyebrow">{formatDate(record.date)}</span><h3>{record.player}</h3></div><span className="promotionBadge">Promoted</span></div><div className="promotionRoute"><div><span>From</span><strong>{record.fromLevel}</strong><small>{record.fromAffiliate}</small></div><b aria-hidden="true">→</b><div><span>To</span><strong>{record.toLevel}</strong><small>{record.toAffiliate}</small></div></div><p>{record.description}</p>{(()=>{const now=laterMove(record);return now?<p className="muted">Now at {now.level} · {now.affiliate}</p>:null})()}<a href={record.source} target="_blank" rel="noreferrer">Official transaction source →</a></article>)}</div>}
   </section>
  </main>;
 }
