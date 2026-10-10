@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { consensusScore, evaluateRanking, rankCorrelation, RANKING_MODEL_VERSION } from '../lib/ranking/model';
 import { enrichRankings, rankRecords, type RankingSourceRecord } from '../lib/ranking/intelligence';
+import { rankStability } from '../lib/ranking/stability';
 import rankingsData from '../data/rankings.json';
 
 const base=(player:string,playerId:string,overrides:Partial<RankingSourceRecord>={}):RankingSourceRecord=>({
@@ -97,4 +98,29 @@ test('published v4 scores are not merely legacy metadata',()=>{
 test('the published prospect board never ranks a player whose level is MLB',()=>{
   const mlbRecords=(rankingsData.records as {player:string;level:string|null}[]).filter(record=>record.level==='MLB');
   assert.deepEqual(mlbRecords,[],`Found MLB-level players still on the prospect board: ${mlbRecords.map(r=>r.player).join(', ')}`);
+});
+
+test('rank stability rewards score separation and sample size',()=>{
+  const weights={scouting:.3,performance:.3,ageLevel:.1,sentiment:.15,movement:.1,risk:.05};
+  const board=[
+    {score:80,weights,plateAppearances:450,mediaMentions:6},
+    {score:60,weights,plateAppearances:450,mediaMentions:6},
+    {score:59.8,weights,plateAppearances:40,mediaMentions:0},
+    {score:59.6,weights,plateAppearances:40,mediaMentions:0},
+    {score:59.4,weights,plateAppearances:40,mediaMentions:0},
+    {score:59.2,weights,plateAppearances:40,mediaMentions:0},
+    {score:59,weights,plateAppearances:40,mediaMentions:0}
+  ];
+  const result=rankStability(board,400);
+  assert.equal(result[0].confidence,'high');
+  assert.equal(result[0].confidenceScore,100);
+  assert.ok(result[0].scoreStdDev<result[2].scoreStdDev);
+  assert.ok(result.every(item=>item.rankLow<=item.rankHigh));
+  assert.deepEqual(rankStability(board,400),result);
+});
+
+test('published confidence comes from rank stability',()=>{
+  const records=enrichRankings();
+  assert.ok(records.every(record=>Array.isArray(record.intelligence.rankRange)));
+  assert.ok(records.every(record=>record.intelligence.rankRange![0]<=record.intelligence.rankRange![1]));
 });
