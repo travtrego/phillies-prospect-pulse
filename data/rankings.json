@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T17:36:44.475Z",
+  "updatedAt": "2026-10-14T15:10:58.632Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -16,7 +16,7 @@
       "position": "SS",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 76.2,
+      "score": 76.6,
       "previousRank": 1,
       "rank": 1,
       "change": 0,
@@ -24,14 +24,14 @@
         "scouting": 30,
         "performance": 16.9,
         "ageLevel": 8.2,
-        "sentiment": 12.1,
+        "sentiment": 12.5,
         "movement": 4,
         "risk": 5
       },
-      "mediaMentions": 23,
+      "mediaMentions": 22,
       "reasons": [
         "MLB Pipeline rank #1",
-        "23 recent media mentions",
+        "22 recent media mentions",
         "Strong positive prospect coverage",
         "Material negative recent coverage"
       ]
@@ -241,7 +241,7 @@
       "position": "SS",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 60.3,
+      "score": 59.8,
       "previousRank": 10,
       "rank": 10,
       "change": 0,
@@ -249,15 +249,15 @@
         "scouting": 12.3,
         "performance": 21.2,
         "ageLevel": 6.4,
-        "sentiment": 11,
+        "sentiment": 10.5,
         "movement": 4.4,
         "risk": 5
       },
-      "mediaMentions": 3,
+      "mediaMentions": 2,
       "reasons": [
         "Strong current-season performance",
         "MLB Pipeline rank #27",
-        "3 recent media mentions",
+        "2 recent media mentions",
         "Promoted to AA"
       ]
     },
@@ -315,7 +315,7 @@
       "position": "OF",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 59.1,
+      "score": 59,
       "previousRank": 13,
       "rank": 13,
       "change": 0,
@@ -324,7 +324,7 @@
         "performance": 16.3,
         "ageLevel": 7.5,
         "sentiment": 10,
-        "movement": 8.3,
+        "movement": 8.2,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -363,7 +363,7 @@
       "position": "P",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 58.5,
+      "score": 58.4,
       "previousRank": 15,
       "rank": 15,
       "change": 0,
@@ -372,7 +372,7 @@
         "performance": 17.2,
         "ageLevel": 6.4,
         "sentiment": 10,
-        "movement": 7.9,
+        "movement": 7.8,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -436,7 +436,7 @@
       "position": "INF",
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
-      "score": 55.5,
+      "score": 55.4,
       "previousRank": 18,
       "rank": 18,
       "change": 0,
@@ -445,7 +445,7 @@
         "performance": 13,
         "ageLevel": 7.5,
         "sentiment": 10,
-        "movement": 8,
+        "movement": 7.9,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -683,10 +683,9 @@
         "movement": 5.2,
         "risk": 5
       },
-      "mediaMentions": 1,
+      "mediaMentions": 0,
       "reasons": [
         "MLB Pipeline rank #22",
-        "1 recent media mention",
         "Promoted to High-A"
       ]
     },
@@ -767,9 +766,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 51,
-      "previousRank": 33,
+      "previousRank": 32,
       "rank": 32,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -790,9 +789,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 51,
-      "previousRank": 34,
+      "previousRank": 33,
       "rank": 33,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -813,9 +812,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 51,
-      "previousRank": 35,
+      "previousRank": 34,
       "rank": 34,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -836,9 +835,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 51,
-      "previousRank": 36,
+      "previousRank": 35,
       "rank": 35,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -859,9 +858,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 51,
-      "previousRank": 37,
+      "previousRank": 36,
       "rank": 36,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -882,9 +881,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 50.9,
-      "previousRank": 32,
+      "previousRank": 37,
       "rank": 37,
-      "change": -5,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 14,
@@ -927,7 +926,7 @@
       "position": "P",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 50.7,
+      "score": 50.6,
       "previousRank": 39,
       "rank": 39,
       "change": 0,
@@ -935,13 +934,12 @@
         "scouting": 12,
         "performance": 15,
         "ageLevel": 4.2,
-        "sentiment": 10.1,
+        "sentiment": 10,
         "movement": 4.4,
         "risk": 5
       },
-      "mediaMentions": 1,
+      "mediaMentions": 0,
       "reasons": [
-        "1 recent media mention",
         "Promoted to Single-A"
       ]
     },
@@ -1157,30 +1155,6 @@
       ]
     },
     {
-      "playerId": "8b39c0e5-2371-45df-96a7-963b7d79a96b",
-      "player": "Ryan Dromboski",
-      "position": "P",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 49.6,
-      "previousRank": 49,
-      "rank": 49,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 8.2,
-        "ageLevel": 6.4,
-        "sentiment": 10,
-        "movement": 8,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to AA",
-        "Advanced to AA"
-      ]
-    },
-    {
       "playerId": "7578b19f-435e-4b15-ad35-02cf900183e4",
       "player": "Bryson Ware",
       "position": "INF",
@@ -1188,8 +1162,8 @@
       "level": "AA",
       "score": 49.5,
       "previousRank": 50,
-      "rank": 50,
-      "change": 0,
+      "rank": 49,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 12.1,
@@ -1200,6 +1174,30 @@
       },
       "mediaMentions": 0,
       "reasons": [
+        "Advanced to AA"
+      ]
+    },
+    {
+      "playerId": "8b39c0e5-2371-45df-96a7-963b7d79a96b",
+      "player": "Ryan Dromboski",
+      "position": "P",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 49.5,
+      "previousRank": 49,
+      "rank": 50,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 8.2,
+        "ageLevel": 6.4,
+        "sentiment": 10,
+        "movement": 7.9,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to AA",
         "Advanced to AA"
       ]
     },
@@ -1466,7 +1464,7 @@
       "position": "P",
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
-      "score": 48,
+      "score": 47.9,
       "previousRank": 62,
       "rank": 62,
       "change": 0,
@@ -1475,7 +1473,7 @@
         "performance": 9,
         "ageLevel": 5.3,
         "sentiment": 10,
-        "movement": 6.7,
+        "movement": 6.6,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -2082,9 +2080,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 42.5,
-      "previousRank": 90,
+      "previousRank": 89,
       "rank": 89,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 4,
@@ -2105,9 +2103,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 42.5,
-      "previousRank": 91,
+      "previousRank": 90,
       "rank": 90,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 6.2,
@@ -2126,9 +2124,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 42.4,
-      "previousRank": 89,
+      "previousRank": 91,
       "rank": 91,
-      "change": -2,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 6.5,
@@ -2137,9 +2135,9 @@
         "movement": 4,
         "risk": 5
       },
-      "mediaMentions": 2,
+      "mediaMentions": 1,
       "reasons": [
-        "2 recent media mentions"
+        "1 recent media mention"
       ]
     },
     {
@@ -2273,9 +2271,9 @@
         "movement": 4,
         "risk": 5
       },
-      "mediaMentions": 2,
+      "mediaMentions": 1,
       "reasons": [
-        "2 recent media mentions",
+        "1 recent media mention",
         "Returned to Rookie after promotion to A+"
       ]
     }
