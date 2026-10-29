@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T16:39:27.910Z",
+  "updatedAt": "2026-10-29T16:56:31.985Z",
   "season": 2026,
   "rosterType": "active (MLB) + fullRoster (affiliates)",
   "records": [
@@ -5126,7 +5126,7 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "birthDate": "1999-10-29",
-      "currentAge": 26,
+      "currentAge": 27,
       "birthCity": "Longview",
       "birthStateProvince": "WA",
       "birthCountry": "USA",
@@ -8018,7 +8018,7 @@
       "weight": 191,
       "bats": "R",
       "throws": "L",
-      "jerseyNumber": "25",
+      "jerseyNumber": "86",
       "active": true,
       "mlbDebutDate": null,
       "draftYear": 2020,
