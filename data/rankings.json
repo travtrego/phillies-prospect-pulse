@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T17:30:34.517Z",
+  "updatedAt": "2026-11-07T16:28:22.496Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -16,7 +16,7 @@
       "position": "SS",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 75.7,
+      "score": 75.6,
       "previousRank": 1,
       "rank": 1,
       "change": 0,
@@ -24,7 +24,7 @@
         "scouting": 30,
         "performance": 16.9,
         "ageLevel": 8.2,
-        "sentiment": 11.6,
+        "sentiment": 11.5,
         "movement": 4,
         "risk": 5
       },
@@ -168,7 +168,7 @@
       "position": "OF",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 63.9,
+      "score": 63.8,
       "previousRank": 7,
       "rank": 7,
       "change": 0,
@@ -176,14 +176,14 @@
         "scouting": 28.1,
         "performance": 9.6,
         "ageLevel": 7.2,
-        "sentiment": 10,
+        "sentiment": 9.9,
         "movement": 4,
         "risk": 5
       },
-      "mediaMentions": 3,
+      "mediaMentions": 2,
       "reasons": [
         "MLB Pipeline rank #5",
-        "3 recent media mentions",
+        "2 recent media mentions",
         "Advanced to AA"
       ]
     },
