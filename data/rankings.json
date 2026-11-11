@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T17:52:37.592Z",
+  "updatedAt": "2026-11-11T17:54:27.237Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -16,7 +16,7 @@
       "position": "SS",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 75.4,
+      "score": 74.9,
       "previousRank": 1,
       "rank": 1,
       "change": 0,
@@ -24,14 +24,14 @@
         "scouting": 30,
         "performance": 16.9,
         "ageLevel": 8.2,
-        "sentiment": 11.3,
+        "sentiment": 10.8,
         "movement": 4,
         "risk": 5
       },
-      "mediaMentions": 17,
+      "mediaMentions": 18,
       "reasons": [
         "MLB Pipeline rank #1",
-        "17 recent media mentions",
+        "18 recent media mentions",
         "Strong positive prospect coverage",
         "Material negative recent coverage"
       ]
@@ -54,10 +54,10 @@
         "movement": 4.6,
         "risk": 5
       },
-      "mediaMentions": 5,
+      "mediaMentions": 6,
       "reasons": [
         "MLB Pipeline rank #2",
-        "5 recent media mentions",
+        "6 recent media mentions",
         "Promoted to AA",
         "Advanced to AA"
       ]
@@ -339,7 +339,7 @@
       "position": "P",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 57.3,
+      "score": 57.2,
       "previousRank": 14,
       "rank": 14,
       "change": 0,
@@ -348,7 +348,7 @@
         "performance": 17.2,
         "ageLevel": 6.4,
         "sentiment": 10,
-        "movement": 6.7,
+        "movement": 6.6,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -437,9 +437,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 54,
-      "previousRank": 19,
+      "previousRank": 18,
       "rank": 18,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 15.2,
@@ -461,9 +461,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 53.9,
-      "previousRank": 18,
+      "previousRank": 19,
       "rank": 19,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 16.2,
@@ -914,8 +914,9 @@
         "movement": 4.3,
         "risk": 5
       },
-      "mediaMentions": 0,
+      "mediaMentions": 1,
       "reasons": [
+        "1 recent media mention",
         "Promoted to Single-A"
       ]
     },
@@ -1030,8 +1031,9 @@
         "movement": 4.4,
         "risk": 5
       },
-      "mediaMentions": 0,
+      "mediaMentions": 1,
       "reasons": [
+        "1 recent media mention",
         "Promoted to AAA",
         "Advanced to AAA"
       ]
@@ -1464,9 +1466,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 48.3,
-      "previousRank": 63,
+      "previousRank": 62,
       "rank": 62,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 10.6,
@@ -1488,9 +1490,9 @@
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
       "score": 48.3,
-      "previousRank": 62,
+      "previousRank": 63,
       "rank": 63,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 8.2,
@@ -1989,9 +1991,9 @@
       "affiliate": "FCL Phillies",
       "level": "Rookie",
       "score": 43.9,
-      "previousRank": 86,
+      "previousRank": 85,
       "rank": 85,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 10.2,
@@ -2010,9 +2012,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 43.9,
-      "previousRank": 85,
+      "previousRank": 86,
       "rank": 86,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 4,
@@ -2049,6 +2051,29 @@
       "reasons": []
     },
     {
+      "playerId": "63e62eb8-bf2a-4e5a-99e9-ca7773e314be",
+      "player": "Saul Teran",
+      "position": "P",
+      "affiliate": "Jersey Shore BlueClaws",
+      "level": "A+",
+      "score": 43,
+      "previousRank": 89,
+      "rank": 88,
+      "change": 1,
+      "components": {
+        "scouting": 12,
+        "performance": 6.5,
+        "ageLevel": 5.3,
+        "sentiment": 10.2,
+        "movement": 4,
+        "risk": 5
+      },
+      "mediaMentions": 1,
+      "reasons": [
+        "1 recent media mention"
+      ]
+    },
+    {
       "playerId": "c2c54b0c-cc4a-4837-aba2-c591bf3850a5",
       "player": "Jacob Pruitt",
       "position": "P",
@@ -2056,8 +2081,8 @@
       "level": "A",
       "score": 42.9,
       "previousRank": 88,
-      "rank": 88,
-      "change": 0,
+      "rank": 89,
+      "change": -1,
       "components": {
         "scouting": 12,
         "performance": 7.4,
@@ -2070,27 +2095,6 @@
       "reasons": [
         "Promoted to Single-A"
       ]
-    },
-    {
-      "playerId": "63e62eb8-bf2a-4e5a-99e9-ca7773e314be",
-      "player": "Saul Teran",
-      "position": "P",
-      "affiliate": "Jersey Shore BlueClaws",
-      "level": "A+",
-      "score": 42.8,
-      "previousRank": 89,
-      "rank": 89,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 6.5,
-        "ageLevel": 5.3,
-        "sentiment": 10,
-        "movement": 4,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": []
     },
     {
       "playerId": "dd92b5d5-fbbe-48e4-9377-a41c2c7d5212",
