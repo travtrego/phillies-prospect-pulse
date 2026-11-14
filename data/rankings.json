@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T17:45:39.718Z",
+  "updatedAt": "2026-11-14T16:36:59.634Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -143,7 +143,7 @@
       "position": "RHP",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 64.5,
+      "score": 64.4,
       "previousRank": 6,
       "rank": 6,
       "change": 0,
@@ -152,7 +152,7 @@
         "performance": 15.6,
         "ageLevel": 6.4,
         "sentiment": 10,
-        "movement": 5.9,
+        "movement": 5.8,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -339,7 +339,7 @@
       "position": "P",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 57.2,
+      "score": 57.1,
       "previousRank": 14,
       "rank": 14,
       "change": 0,
@@ -348,7 +348,7 @@
         "performance": 17.2,
         "ageLevel": 6.4,
         "sentiment": 10,
-        "movement": 6.6,
+        "movement": 6.5,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -873,29 +873,6 @@
       ]
     },
     {
-      "playerId": "2b3b922e-ed61-4243-a439-f1fff05c6d0d",
-      "player": "Giussepe Velasquez",
-      "position": "P",
-      "affiliate": "Jersey Shore BlueClaws",
-      "level": "A+",
-      "score": 50.6,
-      "previousRank": 37,
-      "rank": 37,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 12.5,
-        "ageLevel": 5.3,
-        "sentiment": 10,
-        "movement": 5.8,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to High-A"
-      ]
-    },
-    {
       "playerId": "51fe5804-a957-4c79-af0a-08399b915c7d",
       "player": "Brad Pacheco",
       "position": "P",
@@ -903,8 +880,8 @@
       "level": "A",
       "score": 50.5,
       "previousRank": 38,
-      "rank": 38,
-      "change": 0,
+      "rank": 37,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 15,
@@ -913,10 +890,32 @@
         "movement": 4.3,
         "risk": 5
       },
-      "mediaMentions": 1,
+      "mediaMentions": 0,
       "reasons": [
-        "1 recent media mention",
         "Promoted to Single-A"
+      ]
+    },
+    {
+      "playerId": "2b3b922e-ed61-4243-a439-f1fff05c6d0d",
+      "player": "Giussepe Velasquez",
+      "position": "P",
+      "affiliate": "Jersey Shore BlueClaws",
+      "level": "A+",
+      "score": 50.5,
+      "previousRank": 37,
+      "rank": 38,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 12.5,
+        "ageLevel": 5.3,
+        "sentiment": 10,
+        "movement": 5.7,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to High-A"
       ]
     },
     {
@@ -1276,7 +1275,7 @@
       "position": "P",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 49.1,
+      "score": 49,
       "previousRank": 54,
       "rank": 54,
       "change": 0,
@@ -1285,7 +1284,7 @@
         "performance": 10.3,
         "ageLevel": 6.4,
         "sentiment": 10,
-        "movement": 5.4,
+        "movement": 5.3,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -1316,30 +1315,6 @@
       "reasons": []
     },
     {
-      "playerId": "ae34149a-c1e4-4d6c-b7bf-2938a99f8dbb",
-      "player": "Luke Davis",
-      "position": "C",
-      "affiliate": "Jersey Shore BlueClaws",
-      "level": "A+",
-      "score": 48.8,
-      "previousRank": 56,
-      "rank": 56,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 12,
-        "ageLevel": 5.3,
-        "sentiment": 10.2,
-        "movement": 4.3,
-        "risk": 5
-      },
-      "mediaMentions": 2,
-      "reasons": [
-        "2 recent media mentions",
-        "Promoted to High-A"
-      ]
-    },
-    {
       "playerId": "c30cf3e9-c48e-412e-b965-554cf5670f21",
       "player": "Matthew Ferrara",
       "position": "SS",
@@ -1347,8 +1322,8 @@
       "level": "A",
       "score": 48.8,
       "previousRank": 57,
-      "rank": 57,
-      "change": 0,
+      "rank": 56,
+      "change": 1,
       "components": {
         "scouting": 14.4,
         "performance": 11.2,
@@ -1370,8 +1345,8 @@
       "level": "AA",
       "score": 48.8,
       "previousRank": 58,
-      "rank": 58,
-      "change": 0,
+      "rank": 57,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 11.4,
@@ -1384,6 +1359,30 @@
       "reasons": [
         "Returned to AA after promotion to AAA",
         "Advanced to AA"
+      ]
+    },
+    {
+      "playerId": "ae34149a-c1e4-4d6c-b7bf-2938a99f8dbb",
+      "player": "Luke Davis",
+      "position": "C",
+      "affiliate": "Jersey Shore BlueClaws",
+      "level": "A+",
+      "score": 48.7,
+      "previousRank": 56,
+      "rank": 58,
+      "change": -2,
+      "components": {
+        "scouting": 12,
+        "performance": 12,
+        "ageLevel": 5.3,
+        "sentiment": 10.1,
+        "movement": 4.3,
+        "risk": 5
+      },
+      "mediaMentions": 2,
+      "reasons": [
+        "2 recent media mentions",
+        "Promoted to High-A"
       ]
     },
     {
@@ -2057,9 +2056,9 @@
       "affiliate": "Clearwater Threshers",
       "level": "A",
       "score": 42.9,
-      "previousRank": 89,
+      "previousRank": 88,
       "rank": 88,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 7.4,
@@ -2080,9 +2079,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 42.9,
-      "previousRank": 88,
+      "previousRank": 89,
       "rank": 89,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 6.5,
