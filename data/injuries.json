@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T19:11:38.492Z",
+  "updatedAt": "2026-11-18T18:51:58.957Z",
   "records": [
     {
       "playerId": 683569,
@@ -9,9 +9,9 @@
       "injury": "Not publicly disclosed",
       "timeline": "7-day injured list; no public return date",
       "status": "Jersey Shore BlueClaws placed SS Jose Colmenares on the 7-day injured list.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-11-17&endDate=2026-11-17",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-11-18&endDate=2026-11-18",
       "transactionDate": "2026-05-25",
-      "lastUpdated": "2026-11-17T19:11:34.986Z",
+      "lastUpdated": "2026-11-18T18:51:55.371Z",
       "injurySourceType": "official-transaction"
     },
     {
@@ -22,9 +22,9 @@
       "injury": "Not publicly disclosed",
       "timeline": "7-day injured list; no public return date",
       "status": "Jersey Shore BlueClaws placed RHP Ryan Degges on the 7-day injured list.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-11-17&endDate=2026-11-17",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=427&startDate=2025-11-18&endDate=2026-11-18",
       "transactionDate": "2026-05-17",
-      "lastUpdated": "2026-11-17T19:11:34.986Z",
+      "lastUpdated": "2026-11-18T18:51:55.371Z",
       "injurySourceType": "official-transaction"
     },
     {
@@ -35,9 +35,9 @@
       "injury": "Not publicly disclosed",
       "timeline": "60-day injured list; no public return date",
       "status": "Lehigh Valley IronPigs placed SS Erick Brito on the 60-day injured list.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-11-17&endDate=2026-11-17",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-11-18&endDate=2026-11-18",
       "transactionDate": "2026-03-27",
-      "lastUpdated": "2026-11-17T19:11:35.000Z",
+      "lastUpdated": "2026-11-18T18:51:55.362Z",
       "injurySourceType": "official-transaction"
     },
     {
@@ -48,9 +48,9 @@
       "injury": "Not publicly disclosed",
       "timeline": "7-day injured list; no public return date",
       "status": "Lehigh Valley IronPigs placed RF Pedro León on the 7-day injured list.",
-      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-11-17&endDate=2026-11-17",
+      "source": "https://statsapi.mlb.com/api/v1/transactions?teamId=1410&startDate=2025-11-18&endDate=2026-11-18",
       "transactionDate": "2026-04-11",
-      "lastUpdated": "2026-11-17T19:11:35.000Z",
+      "lastUpdated": "2026-11-18T18:51:55.362Z",
       "injurySourceType": "official-transaction"
     }
   ],
