@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T18:59:39.864Z",
+  "updatedAt": "2026-11-20T18:37:58.907Z",
   "methodology": {
     "scouting": 30,
     "performance": 25,
@@ -16,7 +16,7 @@
       "position": "SS",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 73.3,
+      "score": 73.8,
       "previousRank": 1,
       "rank": 1,
       "change": 0,
@@ -24,14 +24,14 @@
         "scouting": 30,
         "performance": 16.9,
         "ageLevel": 8.2,
-        "sentiment": 9.2,
+        "sentiment": 9.7,
         "movement": 4,
         "risk": 5
       },
-      "mediaMentions": 19,
+      "mediaMentions": 16,
       "reasons": [
         "MLB Pipeline rank #1",
-        "19 recent media mentions",
+        "16 recent media mentions",
         "Strong positive prospect coverage",
         "Material negative recent coverage"
       ]
@@ -168,7 +168,7 @@
       "position": "OF",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 64,
+      "score": 63.8,
       "previousRank": 7,
       "rank": 7,
       "change": 0,
@@ -176,14 +176,14 @@
         "scouting": 28.1,
         "performance": 9.6,
         "ageLevel": 7.2,
-        "sentiment": 10.1,
+        "sentiment": 9.9,
         "movement": 4,
         "risk": 5
       },
-      "mediaMentions": 2,
+      "mediaMentions": 1,
       "reasons": [
         "MLB Pipeline rank #5",
-        "2 recent media mentions",
+        "1 recent media mention",
         "Advanced to AA"
       ]
     },
@@ -313,7 +313,7 @@
       "position": "P",
       "affiliate": "Reading Fightin Phils",
       "level": "AA",
-      "score": 57,
+      "score": 56.9,
       "previousRank": 13,
       "rank": 13,
       "change": 0,
@@ -322,7 +322,7 @@
         "performance": 17.2,
         "ageLevel": 6.4,
         "sentiment": 10,
-        "movement": 6.4,
+        "movement": 6.3,
         "risk": 5
       },
       "mediaMentions": 0,
@@ -623,9 +623,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 51,
-      "previousRank": 27,
+      "previousRank": 26,
       "rank": 26,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -646,9 +646,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 51,
-      "previousRank": 26,
+      "previousRank": 27,
       "rank": 27,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 15.9,
         "performance": 10.1,
@@ -750,8 +750,9 @@
         "movement": 4,
         "risk": 5
       },
-      "mediaMentions": 0,
+      "mediaMentions": 1,
       "reasons": [
+        "1 recent media mention",
         "Advanced to AAA"
       ]
     },
@@ -1151,30 +1152,6 @@
       ]
     },
     {
-      "playerId": "4500f410-f94d-4d62-b239-85405a8aed11",
-      "player": "Aaron Combs",
-      "position": "P",
-      "affiliate": "Reading Fightin Phils",
-      "level": "AA",
-      "score": 49.4,
-      "previousRank": 49,
-      "rank": 49,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 11.6,
-        "ageLevel": 6.4,
-        "sentiment": 10,
-        "movement": 4.4,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to AA",
-        "Advanced to AA"
-      ]
-    },
-    {
       "playerId": "a36448bb-2136-412a-943f-51d18d7f95c6",
       "player": "Brandon Beckel",
       "position": "P",
@@ -1182,8 +1159,8 @@
       "level": "A+",
       "score": 49.4,
       "previousRank": 50,
-      "rank": 50,
-      "change": 0,
+      "rank": 49,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 13.1,
@@ -1195,6 +1172,30 @@
       "mediaMentions": 0,
       "reasons": [
         "Returned to A+ after promotion to AAA"
+      ]
+    },
+    {
+      "playerId": "4500f410-f94d-4d62-b239-85405a8aed11",
+      "player": "Aaron Combs",
+      "position": "P",
+      "affiliate": "Reading Fightin Phils",
+      "level": "AA",
+      "score": 49.3,
+      "previousRank": 49,
+      "rank": 50,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 11.6,
+        "ageLevel": 6.4,
+        "sentiment": 10,
+        "movement": 4.3,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to AA",
+        "Advanced to AA"
       ]
     },
     {
@@ -1366,9 +1367,9 @@
       "affiliate": "Lehigh Valley IronPigs",
       "level": "AAA",
       "score": 48.5,
-      "previousRank": 59,
+      "previousRank": 58,
       "rank": 58,
-      "change": 1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 12.5,
@@ -1391,9 +1392,9 @@
       "affiliate": "Jersey Shore BlueClaws",
       "level": "A+",
       "score": 48.5,
-      "previousRank": 58,
+      "previousRank": 59,
       "rank": 59,
-      "change": -1,
+      "change": 0,
       "components": {
         "scouting": 12,
         "performance": 11.5,
@@ -1497,10 +1498,8 @@
         "movement": 4,
         "risk": 5
       },
-      "mediaMentions": 1,
-      "reasons": [
-        "1 recent media mention"
-      ]
+      "mediaMentions": 0,
+      "reasons": []
     },
     {
       "playerId": "31d49623-9347-440c-902f-da1b91afb497",
@@ -1730,30 +1729,6 @@
       ]
     },
     {
-      "playerId": "e0548f18-f2b0-49bd-acb2-c3ea01088ff9",
-      "player": "Tristan Garnett",
-      "position": "P",
-      "affiliate": "Lehigh Valley IronPigs",
-      "level": "AAA",
-      "score": 45.8,
-      "previousRank": 74,
-      "rank": 74,
-      "change": 0,
-      "components": {
-        "scouting": 12,
-        "performance": 5.5,
-        "ageLevel": 7.5,
-        "sentiment": 10,
-        "movement": 5.8,
-        "risk": 5
-      },
-      "mediaMentions": 0,
-      "reasons": [
-        "Promoted to AAA",
-        "Advanced to AAA"
-      ]
-    },
-    {
       "playerId": "070dd035-8274-4d6b-913f-5fc424f23148",
       "player": "Richie Cortese",
       "position": "P",
@@ -1761,8 +1736,8 @@
       "level": "A",
       "score": 45.7,
       "previousRank": 75,
-      "rank": 75,
-      "change": 0,
+      "rank": 74,
+      "change": 1,
       "components": {
         "scouting": 12,
         "performance": 10.2,
@@ -1774,6 +1749,30 @@
       "mediaMentions": 0,
       "reasons": [
         "Promoted to Single-A"
+      ]
+    },
+    {
+      "playerId": "e0548f18-f2b0-49bd-acb2-c3ea01088ff9",
+      "player": "Tristan Garnett",
+      "position": "P",
+      "affiliate": "Lehigh Valley IronPigs",
+      "level": "AAA",
+      "score": 45.7,
+      "previousRank": 74,
+      "rank": 75,
+      "change": -1,
+      "components": {
+        "scouting": 12,
+        "performance": 5.5,
+        "ageLevel": 7.5,
+        "sentiment": 10,
+        "movement": 5.7,
+        "risk": 5
+      },
+      "mediaMentions": 0,
+      "reasons": [
+        "Promoted to AAA",
+        "Advanced to AAA"
       ]
     },
     {
@@ -1826,7 +1825,7 @@
       "position": "P",
       "affiliate": "Clearwater Threshers",
       "level": "A",
-      "score": 45.1,
+      "score": 45.3,
       "previousRank": 78,
       "rank": 78,
       "change": 0,
@@ -1834,12 +1833,13 @@
         "scouting": 12,
         "performance": 9.6,
         "ageLevel": 4.2,
-        "sentiment": 10,
+        "sentiment": 10.2,
         "movement": 4.3,
         "risk": 5
       },
-      "mediaMentions": 0,
+      "mediaMentions": 1,
       "reasons": [
+        "1 recent media mention",
         "Promoted to Single-A"
       ]
     },
@@ -1953,8 +1953,9 @@
         "movement": 4,
         "risk": 5
       },
-      "mediaMentions": 0,
+      "mediaMentions": 1,
       "reasons": [
+        "1 recent media mention",
         "Returned to AA after promotion to AAA",
         "Advanced to AA"
       ]
